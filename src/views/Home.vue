@@ -82,7 +82,7 @@ function goArticle(id: string) {
 }
 
 .card-title { font-size: 1.25rem; font-weight: 600; color: var(--color-text); line-height: 1.6; }
-.lesson-line { display: block; margin-bottom: 4px; color: #888; font-weight: 400; font-size: 0.75rem; }
+.lesson-line { display: block; margin-bottom: 4px; color: #1a1a1a; font-weight: 600; font-size: 0.85rem; font-family: 'Caveat', cursive; }
 .title-text { font-size: 1.5rem; font-family: 'Caveat', cursive; }
 
 .card-tag {
