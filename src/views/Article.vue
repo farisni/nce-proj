@@ -162,9 +162,9 @@ function segClass(seg: Segment): string {
               </div>
             </div>
             <div class="nav-buttons">
-              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
+              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← Lesson {{ neighbors.prev.lesson }}</button>
               <span v-else class="nav-btn nav-prev nav-disabled"></span>
-              <button v-if="neighbors.next" class="nav-btn nav-next" @click="$router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
+              <button v-if="neighbors.next" class="nav-btn nav-next" @click="$router.push({ name: 'article', params: { id: neighbors.next.id } })">Lesson {{ neighbors.next.lesson }} →</button>
               <span v-else class="nav-btn nav-next nav-disabled"></span>
             </div>
           </div>
