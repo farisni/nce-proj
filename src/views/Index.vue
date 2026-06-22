@@ -191,7 +191,7 @@ function segClass(seg: Segment): string {
                         class="noted-phrase"
                       >
                         <span :class="segClass(seg)">{{ seg.text }}</span>
-                        <span class="note-label">{{ seg.noteText }}</span>
+                        <span class="note-label" v-if="activeKey !== s.key">{{ seg.noteText }}</span>
                       </span>
                       <span v-else-if="segClass(seg)" :class="segClass(seg)">{{ seg.text }}</span>
                       <template v-else>{{ seg.text }}</template>
@@ -335,18 +335,20 @@ function segClass(seg: Segment): string {
 
 .noted-phrase {
   position: relative;
+  display: inline-block;
 }
 
 .note-label {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 2.4em;
+  left: 0;
+  right: 0;
+  top: 2.8em;
   font-size: 0.65rem;
   color: #999;
   line-height: 1.2;
   white-space: nowrap;
   pointer-events: none;
+  text-align: center;
 }
 
 .vocab-list {
