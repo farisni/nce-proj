@@ -37,7 +37,7 @@ export const article: Article = {
     predicateParagraph: [
       // Paragraph 1 (4 sentences)
       [
-        { predicates: ['are talking', 'about'], clauseIntroducers: [] },
+        { predicates: ['are talking'], clauseIntroducers: [] },
         { predicates: ['is', 'take', 'create'], clauseIntroducers: ['If', 'which', 'then'] },
         { predicates: ['get', 'agree', 'are'], clauseIntroducers: ['that'] },
         { predicates: ['is', 'has', 'has', 'is'], clauseIntroducers: ['where'] },

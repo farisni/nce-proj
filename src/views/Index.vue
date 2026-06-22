@@ -11,8 +11,103 @@ function splitSentences(paragraph: string): string[] {
   return matches.map(s => s.trim()).filter(Boolean)
 }
 
+interface Segment {
+  text: string
+  clause?: boolean
+  predicate?: boolean
+}
+
+function markWords(sentence: string, predicates: string[], clauseIntroducers: string[]): Segment[] {
+  if (!predicates.length && !clauseIntroducers.length) return [{ text: sentence }]
+
+  interface Range {
+    start: number
+    end: number
+    type: 'predicate' | 'clause'
+  }
+
+  const ranges: Range[] = []
+  const lower = sentence.toLowerCase()
+
+  const predWords = new Set<string>()
+  for (const pred of predicates) {
+    for (const w of pred.split(/\s+/)) {
+      predWords.add(w.toLowerCase())
+    }
+  }
+  for (const pw of predWords) {
+    const escaped = pw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const regex = new RegExp(`(?<![a-zA-Z'-])${escaped}(?![a-zA-Z'-])`, 'gi')
+    let match: RegExpExecArray | null
+    while ((match = regex.exec(lower)) !== null) {
+      ranges.push({ start: match.index, end: match.index + pw.length, type: 'predicate' })
+    }
+  }
+
+  for (const ci of clauseIntroducers) {
+    const lc = ci.toLowerCase()
+    let idx = lower.indexOf(lc)
+    while (idx !== -1) {
+      const beforeOk = idx === 0 || /\s|[—,'"(\[{]/.test(sentence[idx - 1])
+      const afterOk = idx + ci.length === sentence.length || /\s|[—,.'"!?;:)\]}。，！？；：、]/.test(sentence[idx + ci.length])
+      if (beforeOk && afterOk) {
+        if (!ranges.some(r => r.type === 'predicate' && r.start < idx + ci.length && r.end > idx)) {
+          ranges.push({ start: idx, end: idx + ci.length, type: 'clause' })
+        }
+      }
+      idx = lower.indexOf(lc, idx + 1)
+    }
+  }
+
+  if (!ranges.length) return [{ text: sentence }]
+
+  ranges.sort((a, b) => a.start - b.start)
+
+  const segments: Segment[] = []
+  let pos = 0
+
+  for (const r of ranges) {
+    if (r.start < pos) {
+      if (r.end > pos && r.type === 'predicate') {
+        segments.push({ text: sentence.slice(pos, r.end), predicate: true })
+        pos = r.end
+      }
+      continue
+    }
+    if (r.start > pos) {
+      segments.push({ text: sentence.slice(pos, r.start) })
+    }
+    segments.push({
+      text: sentence.slice(r.start, r.end),
+      predicate: r.type === 'predicate',
+      clause: r.type === 'clause',
+    })
+    pos = r.end
+  }
+
+  if (pos < sentence.length) {
+    segments.push({ text: sentence.slice(pos) })
+  }
+
+  return segments
+}
+
+interface SentenceData {
+  segments: Segment[]
+  key: string
+}
+
 const originalSentences = computed(() =>
-  article.original.paragraphs.map(p => splitSentences(p))
+  article.original.paragraphs.map((paragraph, pIdx) => {
+    const sentences = splitSentences(paragraph)
+    return sentences.map((sentence, sIdx) => {
+      const meta = article.original.predicateParagraph[pIdx]?.[sIdx]
+      return {
+        segments: markWords(sentence, meta?.predicates ?? [], meta?.clauseIntroducers ?? []),
+        key: `${pIdx}-${sIdx}`,
+      }
+    })
+  }),
 )
 
 const activeKey = ref('')
@@ -36,16 +131,20 @@ function togglePanel(key: string) {
               class="paragraph-wrapper"
             >
               <div class="paragraph">
-                <template v-for="(s, sIdx) in sentences" :key="sIdx">
+                <template v-for="(s, sIdx) in sentences" :key="s.key">
                   <span class="sentence-inline"
-                    >{{ s }}<img
+                    ><template v-for="(seg, gIdx) in s.segments" :key="gIdx">
+                      <span v-if="seg.clause" class="clause-mark">{{ seg.text }}</span>
+                      <span v-else-if="seg.predicate" class="predicate-mark">{{ seg.text }}</span>
+                      <template v-else>{{ seg.text }}</template>
+                    </template><img
                       :src="yumaoIcon"
                       class="sentence-icon"
-                      @click.stop="togglePanel(`${pIdx}-${sIdx}`)"
+                      @click.stop="togglePanel(s.key)"
                     /></span>
                   <transition name="panel">
                     <div
-                      v-if="activeKey === `${pIdx}-${sIdx}`"
+                      v-if="activeKey === s.key"
                       class="sentence-panel"
                     ></div>
                   </transition>
@@ -54,7 +153,19 @@ function togglePanel(key: string) {
             </div>
           </div>
           <div class="section-divider"></div>
-          <div class="section-side"></div>
+          <div class="section-side">
+            <div class="vocab-list">
+              <div
+                v-for="item in article.vocabulary"
+                :key="item.word"
+                class="vocab-item"
+              >
+                <span class="vocab-word">{{ item.word }}</span>
+                <span class="vocab-pos">{{ item.pos }}</span>
+                <span class="vocab-meaning">{{ item.meaning }}</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -108,6 +219,7 @@ function togglePanel(key: string) {
 .section-side {
   flex: 3;
   min-width: 0;
+  padding: 56px 0 16px;
 }
 
 .article-title {
@@ -121,6 +233,13 @@ function togglePanel(key: string) {
   font-weight: 600;
   margin-bottom: 12px;
   padding-top: 28px;
+}
+
+.side-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  margin-bottom: 16px;
 }
 
 .paragraph-wrapper {
@@ -150,6 +269,50 @@ function togglePanel(key: string) {
       opacity: 0.8;
     }
   }
+}
+
+.clause-mark {
+  font-style: italic;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+.predicate-mark {
+  color: #e0552a;
+}
+
+.vocab-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.vocab-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--color-border);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.vocab-word {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.vocab-pos {
+  font-size: 0.75rem;
+  color: #aaa;
+  flex-shrink: 0;
+}
+
+.vocab-meaning {
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
 }
 
 .sentence-panel {
