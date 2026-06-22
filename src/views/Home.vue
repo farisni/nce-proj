@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { articleMetas } from '../mock/readData'
+import tudingIcon from '../asserts/icon/tuding.svg'
 
 const props = defineProps<{ activeLevel: 'NCE2' | 'NCE3' | 'NCE4' }>()
 const router = useRouter()
@@ -22,6 +23,7 @@ function goArticle(id: string) {
       v-for="item in filteredArticles" :key="item.id"
       class="article-card" @click="goArticle(item.id)"
     >
+        <img :src="tudingIcon" class="tuding-icon" alt="" />
       <h3 class="card-title">
         <span class="lesson-line">
           Lesson {{ item.lesson
@@ -34,7 +36,17 @@ function goArticle(id: string) {
 </template>
 
 <style lang="scss" scoped>
-.card-area { padding: 48px 40px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; align-content: start; }
+.card-area {
+  padding: 48px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  align-content: start;
+  background-color: var(--color-bg);
+  background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
+  background-size: 24px 24px;
+  min-height: 100vh;
+}
 
 .article-card {
   border: 1px solid #ece4d5;  position: relative;
@@ -64,6 +76,12 @@ function goArticle(id: string) {
 .card-title { font-size: 1.25rem; font-weight: 600; color: var(--color-text); line-height: 1.6; }
 .lesson-line { display: block; margin-bottom: 6px; color: #666; font-weight: 500; }
 .title-text { font-size: 1.4rem; }
+.tuding-icon {
+  position: absolute; top: -10px; left: 10px;
+  width: 28px; height: 28px;
+  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.12));
+  pointer-events: none;
+}
 .card-tag {
   display: inline-block; position: relative; top: -5px;
   width: 18px; height: 18px; line-height: 18px; text-align: center;

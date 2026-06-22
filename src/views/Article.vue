@@ -188,11 +188,10 @@ function segClass(seg: Segment): string {
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 56px 0 16px; }
-.article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px; }
+.article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px;  font-family: 'Merriweather', Georgia, serif; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; padding-top: 28px; }
-.paragraph-wrapper { & + & { margin-top: 20px; } }
-.paragraph { font-size: 1.15rem; line-height: 2; text-indent: 2em; }
-
+.paragraph-wrapper { & + & { margin-top: 12px; } }
+.paragraph { font-size: 1.15rem; line-height: 2; text-indent: 2em; font-family: 'Merriweather', Georgia, serif; }
 .sentence-inline {
   .sentence-icon {
     width: 18px; height: 18px; margin-left: 6px; margin-right: 4px;
