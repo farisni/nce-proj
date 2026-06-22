@@ -34,8 +34,33 @@ function goArticle(id: string) {
 </template>
 
 <style lang="scss" scoped>
-.card-area { padding: 48px 40px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; align-content: start; }
-.article-card { background: #f2f7f2; box-shadow: 0 1px 4px rgba(0,0,0,0.06); border-radius: var(--radius); padding: 32px 28px; cursor: pointer; transition: box-shadow 0.2s; &:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); } }
+.card-area { padding: 48px 40px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; align-content: start; }
+
+.article-card {
+  border: 1px solid #ece4d5;  position: relative;
+  background: #f2f7f2;
+  border-radius: 3px;
+  padding: 32px 28px;
+  cursor: pointer;
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.06), 2px 4px 8px rgba(0,0,0,0.12);
+  transition: box-shadow 0.2s;
+
+  &:hover { box-shadow: 2px 4px 12px rgba(0,0,0,0.12), 3px 6px 16px rgba(0,0,0,0.06); }
+
+  // 右下角卷起
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 0 0 32px 32px;
+    border-color: transparent transparent #f0ebe0 transparent;
+    border-radius: 0 0 6px 0;
+    box-shadow: -2px 3px 6px rgba(0,0,0,0.12);
+  }
+}
+
 .card-title { font-size: 1.25rem; font-weight: 600; color: var(--color-text); line-height: 1.6; }
 .lesson-line { display: block; margin-bottom: 6px; color: #666; font-weight: 500; }
 .title-text { font-size: 1.4rem; }

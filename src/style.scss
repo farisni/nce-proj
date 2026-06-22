@@ -49,6 +49,9 @@ html {
 }
 
 body {
+  background-color: var(--color-bg);
+  background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
+  background-size: 24px 24px;
   font-family: 'Inter', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
   color: var(--color-text);
   background-color: var(--color-bg);
