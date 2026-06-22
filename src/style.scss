@@ -1,0 +1,57 @@
+// 全局样式 — 暖调阅读配色
+
+:root {
+  --color-text: #2b2b2b;
+  --color-text-secondary: #6b6b6b;
+  --color-bg: #f5f0e8;
+  --color-panel-bg: #fdfaf3;
+  --color-border: #e0d8c8;
+  --color-accent: #b5835a;
+  --color-vocab: #c7523a;
+  --color-predicate: #3a7d8c;
+  --color-clause: #b5835a;
+  --color-sentence-active: #fdf3e4;
+  --radius: 8px;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 3px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &.is-scrolling {
+    scrollbar-color: #d0c8b8 transparent;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #d0c8b8;
+    }
+  }
+}
+
+body {
+  font-family: 'Inter', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
