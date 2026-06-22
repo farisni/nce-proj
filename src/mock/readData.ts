@@ -1157,17 +1157,18 @@ const articleNce2L1: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'private', pos: 'a.', meaning: '私人的' },
-    { word: 'theatre', pos: 'n.', meaning: '剧场，戏院' },
-    { word: 'seat', pos: 'n.', meaning: '座位' },
-    { word: 'play', pos: 'n.', meaning: '戏；v.玩,游戏' },
-    { word: 'loudly', pos: 'ad.', meaning: '大声地' },
-    { word: 'angry', pos: 'a.', meaning: '生气的' },
-    { word: 'angrily', pos: 'ad.', meaning: '生气地' },
-    { word: 'attention', pos: 'n.', meaning: '注意' },
-    { word: 'bear', pos: 'v.', meaning: '容忍' },
-    { word: 'business', pos: 'n.', meaning: '事；商业,生意' },
-    { word: 'rudely', pos: 'ad.', meaning: '无礼地，粗鲁地' }
+    { word: 'private', pos: 'adj.', meaning: '私人的', phonetic: '/\'praivit/' },
+    { word: 'conversation', pos: 'n.', meaning: '谈话', phonetic: '/kɔnvə\'seiʃən/' },
+    { word: 'theatre', pos: 'n.', meaning: '剧场，戏院', phonetic: '/\'θiətə/' },
+    { word: 'seat', pos: 'n.', meaning: '座位', phonetic: '/si:t/' },
+    { word: 'play', pos: 'n.', meaning: '戏', phonetic: '/plei/' },
+    { word: 'loudly', pos: 'adv.', meaning: '大声地', phonetic: '/\'laudli/' },
+    { word: 'angry', pos: 'adj.', meaning: '生气的', phonetic: '/\'æŋgri/' },
+    { word: 'angrily', pos: 'adv.', meaning: '生气地', phonetic: '/\'æŋgrili/' },
+    { word: 'attention', pos: 'n.', meaning: '注意', phonetic: '/ə\'tenʃən/' },
+    { word: 'bear', pos: 'v.', meaning: '容忍', phonetic: '/beə/' },
+    { word: 'business', pos: 'n.', meaning: '事', phonetic: '/\'biznis/' },
+    { word: 'rudely', pos: 'adv.', meaning: '无礼地，粗鲁地', phonetic: '/\'ru:dli/' }
   ],
 }
 const articleNce2L2: Article = {
@@ -1193,12 +1194,11 @@ const articleNce2L2: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'until', pos: 'prep.', meaning: '直到' },
-    { word: 'outside', pos: 'ad.', meaning: '外面' },
-    { word: 'ring', pos: 'v.', meaning: '(铃、电话等)响' },
-    { word: 'aunt', pos: 'n.', meaning: '姑母，姨母' },
-    { word: 'repeat', pos: 'v.', meaning: '/n.重复' },
-    { word: 'postcard', pos: '', meaning: 'spoil' }
+    { word: 'until', pos: 'prep.', meaning: '直到', phonetic: '/ən\'til, ʌn\'til/' },
+    { word: 'outside', pos: 'adv.', meaning: '外面', phonetic: '/aut\'said/' },
+    { word: 'ring', pos: 'v.', meaning: '(铃、电话等)响', phonetic: '/riŋ/' },
+    { word: 'aunt', pos: 'n.', meaning: '姑，姨，婶，舅妈', phonetic: '/ɑ:nt/' },
+    { word: 'repeat', pos: 'v.', meaning: '重复', phonetic: '/ri\'pi:t/' }
   ],
 }
 const articleNce2L3: Article = {
@@ -1216,7 +1216,17 @@ const articleNce2L3: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'send', pos: 'v.', meaning: '寄，送' }
+    { word: 'send', pos: 'v.', meaning: '寄，送', phonetic: '/send/' },
+    { word: 'postcard', pos: 'n.', meaning: '明信片', phonetic: '/\'pəustkɑ:d/' },
+    { word: 'spoil', pos: 'v.', meaning: '使索然无味，损坏', phonetic: '/spɔil/' },
+    { word: 'museum', pos: 'n.', meaning: '博物馆', phonetic: '/mju:\'ziəm/' },
+    { word: 'public', pos: 'adj.', meaning: '公共的', phonetic: '/\'pʌblik/' },
+    { word: 'friendly', pos: 'adj.', meaning: '友好的', phonetic: '/\'frendli/' },
+    { word: 'waiter', pos: 'n.', meaning: '服务员，招待员', phonetic: '/\'weitə/' },
+    { word: 'lend', pos: 'v.', meaning: '借给', phonetic: '/lend/' },
+    { word: 'decision', pos: 'n.', meaning: '决定', phonetic: '/di\'siʒən/' },
+    { word: 'whole', pos: 'adj.', meaning: '整个的', phonetic: '/həul/' },
+    { word: 'single', pos: 'adj.', meaning: '唯一的，单一的', phonetic: '/\'siŋgəl/' }
   ],
 }
 const articleNce2L4: Article = {
@@ -1234,8 +1244,12 @@ const articleNce2L4: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'pigeon', pos: 'n.', meaning: '鸽子' },
-    { word: 'message', pos: 'n.', meaning: '信息' }
+    { word: 'exciting', pos: 'adj.', meaning: '令人兴奋的', phonetic: '/ik\'saitiŋ/' },
+    { word: 'receive', pos: 'v.', meaning: '接受，收到', phonetic: '/ri\'si:v/' },
+    { word: 'firm', pos: 'n.', meaning: '商行，公司', phonetic: '/fə:m/' },
+    { word: 'different', pos: 'adj.', meaning: '不同的', phonetic: '/\'difrənt/' },
+    { word: 'centre', pos: 'n.', meaning: '中心', phonetic: '/\'sentə/' },
+    { word: 'abroad', pos: 'adv.', meaning: '在国外', phonetic: '/ə\'brɔ:d/' }
   ],
 }
 const articleNce2L5: Article = {
@@ -1253,10 +1267,12 @@ const articleNce2L5: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'beggar', pos: 'n.', meaning: '乞丐' },
-    { word: 'detective', pos: 'n.', meaning: '侦探' },
-    { word: 'expect', pos: 'v.', meaning: '期待，等待' },
-    { word: 'stone', pos: 'n.', meaning: '石子' }
+    { word: 'pigeon', pos: 'n.', meaning: '鸽子', phonetic: '/pidʒin/' },
+    { word: 'message', pos: 'n.', meaning: '信息', phonetic: '/\'mesidʒ/' },
+    { word: 'over', pos: 'v.', meaning: '越过', phonetic: '/\'əuvə/' },
+    { word: 'distance', pos: 'n.', meaning: '距离', phonetic: '/\'distəns/' },
+    { word: 'request', pos: 'n.', meaning: '要求，请求', phonetic: '/ri\'kwest/' },
+    { word: 'service', pos: 'n.', meaning: '业务，服务', phonetic: '/\'sə:vis/' }
   ],
 }
 const articleNce2L6: Article = {
@@ -1274,16 +1290,10 @@ const articleNce2L6: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'airport', pos: 'n.', meaning: '机场' },
-    { word: 'valuable', pos: 'a.', meaning: '有价值的' },
-    { word: 'parcel', pos: 'n.', meaning: '包裹' },
-    { word: 'diamond', pos: 'n.', meaning: '钻石' },
-    { word: 'steal', pos: 'v.', meaning: '偷窃' },
-    { word: 'main', pos: 'a.', meaning: '主要的' },
-    { word: 'airfield', pos: 'n.', meaning: '飞机起落的场地' },
-    { word: 'guard', pos: 'n.', meaning: '警戒，守卫' },
-    { word: 'precious', pos: 'a.', meaning: '珍贵的' },
-    { word: 'sand', pos: 'n.', meaning: '沙子' }
+    { word: 'beggar', pos: 'n.', meaning: '乞丐', phonetic: '/\'begə/' },
+    { word: 'food', pos: 'n.', meaning: '食物', phonetic: '/fu:d/' },
+    { word: 'pocket', pos: 'n.', meaning: '衣服口袋', phonetic: '/\'pɔkit/' },
+    { word: 'call', pos: 'v.', meaning: '拜访，光顾', phonetic: '/kɔ:l/' }
   ],
 }
 const articleNce2L7: Article = {
@@ -1301,12 +1311,19 @@ const articleNce2L7: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'competition', pos: 'n.', meaning: '比赛，竞赛' },
-    { word: 'neat', pos: 'a.', meaning: '整齐的，整洁的' },
-    { word: 'path', pos: 'n.', meaning: '小路，小径' },
-    { word: 'wooden', pos: 'a.', meaning: '木头的' },
-    { word: 'gather', pos: 'vt.', meaning: '聚集' },
-    { word: 'refuse', pos: '', meaning: 'v./n.喊叫' }
+    { word: 'detective', pos: 'n.', meaning: '侦探', phonetic: '/di\'tektiv/' },
+    { word: 'airport', pos: 'n.', meaning: '机场', phonetic: '/\'eəpɔ:t/' },
+    { word: 'expect', pos: 'v.', meaning: '期待，等待', phonetic: '/ik\'spekt/' },
+    { word: 'valuable', pos: 'adj.', meaning: '贵重的', phonetic: '/\'væljuəbəl, -jubəl/' },
+    { word: 'parcel', pos: 'n.', meaning: '包裹', phonetic: '/\'pɑ:sl/' },
+    { word: 'diamond', pos: 'n.', meaning: '钻石', phonetic: '/\'daiəmənd/' },
+    { word: 'steal', pos: 'v.', meaning: '偷', phonetic: '/sti:l/' },
+    { word: 'main', pos: 'adj.', meaning: '主要的', phonetic: '/mein/' },
+    { word: 'airfield', pos: 'n.', meaning: '飞机起落的场地', phonetic: '/\'eəfi:ld/' },
+    { word: 'guard', pos: 'n.', meaning: '警戒，守卫', phonetic: '/gɑ:d/' },
+    { word: 'precious', pos: 'adj.', meaning: '珍贵的', phonetic: '/\'preʃəs/' },
+    { word: 'stone', pos: 'n.', meaning: '石子', phonetic: '/stəun/' },
+    { word: 'sand', pos: 'n.', meaning: '沙子', phonetic: '/sænd/' }
   ],
 }
 const articleNce2L8: Article = {
@@ -1324,12 +1341,11 @@ const articleNce2L8: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'jazz', pos: 'n.', meaning: '爵士音乐' },
-    { word: 'musical', pos: 'a.', meaning: '音乐的' },
-    { word: 'instrument', pos: 'n.', meaning: '乐器,器械' },
-    { word: 'clavichord', pos: 'n.', meaning: '古钢琴' },
-    { word: 'recently', pos: 'ad.', meaning: '最近' },
-    { word: 'damage', pos: 'v.', meaning: '损坏' }
+    { word: 'competition', pos: 'n.', meaning: '比赛,竞赛', phonetic: '/ˌkɔmpi\'tiʃən/' },
+    { word: 'neat', pos: 'adj.', meaning: '整齐的，整洁的', phonetic: '/ni:t/' },
+    { word: 'path', pos: 'n.', meaning: '小路，小径', phonetic: '/pɑ:θ/' },
+    { word: 'wooden', pos: 'adj.', meaning: '木头的', phonetic: '/\'wudn/' },
+    { word: 'pool', pos: 'n.', meaning: '水池', phonetic: '/pu:l/' }
   ],
 }
 const articleNce2L9: Article = {
@@ -1347,8 +1363,14 @@ const articleNce2L9: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'salary', pos: 'n.', meaning: '工资' },
-    { word: 'immediately', pos: 'ad.', meaning: '立刻' }
+    { word: 'welcome', pos: 'n.', meaning: '欢迎', phonetic: '/\'welkəm/' },
+    { word: 'welcome', pos: 'v.', meaning: '欢迎', phonetic: '/\'welkəm/' },
+    { word: 'crowd', pos: 'n.', meaning: '人群', phonetic: '/kraud/' },
+    { word: 'gather', pos: 'v.', meaning: '聚集', phonetic: '/\'gæeə/' },
+    { word: 'hand', pos: 'n.', meaning: '(表或机器的)指针', phonetic: '/hænd/' },
+    { word: 'shout', pos: 'v.', meaning: '喊叫', phonetic: '/ʃaut/' },
+    { word: 'refuse', pos: 'v.', meaning: '拒绝', phonetic: '/ri\'fju:z, ri\'fju:s/' },
+    { word: 'laugh', pos: 'v.', meaning: '笑', phonetic: '/lɑ:f/' }
   ],
 }
 const articleNce2L10: Article = {
@@ -1366,15 +1388,17 @@ const articleNce2L10: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'luck', pos: 'n.', meaning: '运气，幸运' },
-    { word: 'captain', pos: 'n.', meaning: '船长，首领' },
-    { word: 'sail', pos: 'vi.', meaning: '航行' },
-    { word: 'harbour', pos: 'n.', meaning: '港口' },
-    { word: 'proud', pos: 'a.', meaning: '自豪的' },
-    { word: 'important', pos: 'a.', meaning: '重要的' },
-    { word: 'pop singer', pos: '', meaning: '流行歌手' },
-    { word: 'performance', pos: 'n.', meaning: '演出' },
-    { word: 'occasion', pos: 'n.', meaning: '场合' }
+    { word: 'jazz', pos: 'n.', meaning: '爵士音乐', phonetic: '/dʒæz/' },
+    { word: 'musical', pos: 'adj.', meaning: '音乐的', phonetic: '/\'mju:zikəl/' },
+    { word: 'instrument', pos: 'n.', meaning: '乐器', phonetic: '/\'instrumənt/' },
+    { word: 'clavichord', pos: 'n.', meaning: '古钢琴', phonetic: '/\'klævikɔ:d/' },
+    { word: 'recently', pos: 'adv.', meaning: '最近', phonetic: '/\'ri:səntli/' },
+    { word: 'damage', pos: 'v.', meaning: '损坏', phonetic: '/\'dæmidʒ/' },
+    { word: 'key', pos: 'n.', meaning: '琴键', phonetic: '/ki:/' },
+    { word: 'string', pos: 'n.', meaning: '(乐器的)弦', phonetic: '/striŋ/' },
+    { word: 'shock', pos: 'v.', meaning: '使不悦或生气，震惊', phonetic: '/ʃɔk, ʃɑk/' },
+    { word: 'allow', pos: 'v.', meaning: '允许，让', phonetic: '/ə\'lau/' },
+    { word: 'touch', pos: 'v.', meaning: '触摸', phonetic: '/tʌtʃ/' }
   ],
 }
 const articleNce2L11: Article = {
@@ -1392,8 +1416,12 @@ const articleNce2L11: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'group', pos: 'n.', meaning: '小组，团体' },
-    { word: 'club', pos: 'n.', meaning: '俱乐部' }
+    { word: 'turn', pos: 'n.', meaning: '行为，举止', phonetic: '/tə:n/' },
+    { word: 'deserve', pos: 'v.', meaning: '应得到，值得', phonetic: '/di\'zə:v/' },
+    { word: 'lawyer', pos: 'n.', meaning: '律师', phonetic: '/\'lɔ:jə/' },
+    { word: 'bank', pos: 'n.', meaning: '银行', phonetic: '/bæŋk/' },
+    { word: 'salary', pos: 'n.', meaning: '工资', phonetic: '/\'sæləri/' },
+    { word: 'immediately', pos: 'adv.', meaning: '立刻', phonetic: '/i\'mi:diətli/' }
   ],
 }
 const articleNce2L12: Article = {
@@ -1411,12 +1439,12 @@ const articleNce2L12: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'amusing', pos: 'a.', meaning: '好笑的，有趣的' },
-    { word: 'experience', pos: 'n.', meaning: '经历' },
-    { word: 'lift', pos: 'n.', meaning: '搭便车' },
-    { word: 'reply', pos: 'vi.', meaning: '回答' },
-    { word: 'language', pos: 'n.', meaning: '语言' },
-    { word: 'journey', pos: '', meaning: 'secretary' }
+    { word: 'luck', pos: 'n.', meaning: '运气，幸运', phonetic: '/lʌk/' },
+    { word: 'captain', pos: 'n.', meaning: '船长', phonetic: '/\'kæptin/' },
+    { word: 'sail', pos: 'v.', meaning: '航行', phonetic: '/seil/' },
+    { word: 'harbour', pos: 'n.', meaning: '港口', phonetic: '/\'ha:bə/' },
+    { word: 'proud', pos: 'adj.', meaning: '自豪', phonetic: '/praud/' },
+    { word: 'important', pos: 'adj.', meaning: '重要的', phonetic: '/im\'pɔ:tənt/' }
   ],
 }
 const articleNce2L13: Article = {
@@ -1434,8 +1462,11 @@ const articleNce2L13: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'weak', pos: 'a.', meaning: '弱的' },
-    { word: 'interrupt', pos: 'v.', meaning: '插话，打断' }
+    { word: 'group', pos: 'n.', meaning: '小组，团体', phonetic: '/gru:p/' },
+    { word: 'pop singer', pos: 'n.', meaning: '流行歌手', phonetic: '//' },
+    { word: 'club', pos: 'n.', meaning: '俱乐部', phonetic: '/klʌb/' },
+    { word: 'performance', pos: 'n.', meaning: '演出', phonetic: '/pə\'fɔ:məns/' },
+    { word: 'occasion', pos: 'n.', meaning: '场合', phonetic: '/ə\'keiʒən/' }
   ],
 }
 const articleNce2L14: Article = {
@@ -1453,7 +1484,13 @@ const articleNce2L14: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'reminder', pos: 'n.', meaning: '提示' }
+    { word: 'amusing', pos: 'adj.', meaning: '好笑的，有趣的', phonetic: '/ə\'mju:ziŋ/' },
+    { word: 'experience', pos: 'n.', meaning: '经历', phonetic: '/ik\'spiəriəns/' },
+    { word: 'wave', pos: 'v.', meaning: '招手', phonetic: '/weiv/' },
+    { word: 'lift', pos: 'n.', meaning: '搭便车', phonetic: '/lift/' },
+    { word: 'reply', pos: 'v.', meaning: '回答', phonetic: '/ri\'plai/' },
+    { word: 'language', pos: 'n.', meaning: '语言', phonetic: '/\'læŋgwidʒ/' },
+    { word: 'journey', pos: 'n.', meaning: '旅行', phonetic: '/\'dʒə:ni/' }
   ],
 }
 const articleNce2L15: Article = {
@@ -1471,12 +1508,11 @@ const articleNce2L15: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'pub', pos: 'n.', meaning: '小酒店' },
-    { word: 'landlord', pos: 'n.', meaning: '店主' },
-    { word: 'bill', pos: 'n.', meaning: '账单' },
-    { word: 'hurry', pos: 'v.', meaning: '/n.匆忙' },
-    { word: 'ticket office', pos: '', meaning: '售票处' },
-    { word: 'sadly', pos: 'ad.', meaning: '悲哀地，丧气地' }
+    { word: 'secretary', pos: 'n.', meaning: '秘书', phonetic: '/\'sekrətəri, -teri/' },
+    { word: 'nervous', pos: 'adj.', meaning: '精神紧张的', phonetic: '/\'nə:vəs/' },
+    { word: 'afford', pos: 'v.', meaning: '负担得起', phonetic: '/ə\'fɔ:d/' },
+    { word: 'weak', pos: 'adj.', meaning: '弱的', phonetic: '/wi:k/' },
+    { word: 'interrupt', pos: 'v.', meaning: '插话，打断', phonetic: '/ˌintə\'rʌpt/' }
   ],
 }
 const articleNce2L16: Article = {
@@ -1494,12 +1530,15 @@ const articleNce2L16: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'upset', pos: 'a.', meaning: '不安' },
-    { word: 'sympathetic', pos: 'a.', meaning: '表示同情的' },
-    { word: 'complain', pos: 'v.', meaning: '抱怨' },
-    { word: 'wicked', pos: 'a.', meaning: '很坏的，邪恶的' },
-    { word: 'contain', pos: 'v.', meaning: '包含，内装' },
-    { word: 'honesty', pos: 'n.', meaning: '诚实' }
+    { word: 'park', pos: 'v.', meaning: '停放(汽车)', phonetic: '/pɑ:k/' },
+    { word: 'traffic', pos: 'n.', meaning: '交通', phonetic: '/\'træfik/' },
+    { word: 'ticket', pos: 'n.', meaning: '交通法规罚款单', phonetic: '/\'tikit/' },
+    { word: 'note', pos: 'n.', meaning: '便条', phonetic: '/nəut/' },
+    { word: 'area', pos: 'n.', meaning: '地点', phonetic: '/\'eəriə/' },
+    { word: 'sign', pos: 'n.', meaning: '指示牌', phonetic: '/sain/' },
+    { word: 'reminder', pos: 'n.', meaning: '指示', phonetic: '/ri\'maində/' },
+    { word: 'fail', pos: 'v.', meaning: '无视，忘记', phonetic: '/feil/' },
+    { word: 'obey', pos: 'v.', meaning: '服从', phonetic: '/ə\'bei/' }
   ],
 }
 const articleNce2L17: Article = {
@@ -1517,9 +1556,11 @@ const articleNce2L17: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'railway', pos: 'n.', meaning: '铁路' },
-    { word: 'porter', pos: 'n.', meaning: '搬运工' },
-    { word: 'several', pos: '', meaning: 'foreigner' }
+    { word: 'appear', pos: 'v.', meaning: '登场，扮演', phonetic: '/ə\'piə/' },
+    { word: 'stage', pos: 'n.', meaning: '舞台', phonetic: '/steidʒ/' },
+    { word: 'bright', pos: 'adj.', meaning: '鲜艳的', phonetic: '/brait/' },
+    { word: 'stocking', pos: 'n.', meaning: '(女用)长筒袜', phonetic: '/\'stɔkiŋ/' },
+    { word: 'sock', pos: 'n.', meaning: '短袜', phonetic: '/sɔk/' }
   ],
 }
 const articleNce2L18: Article = {
@@ -1537,16 +1578,9 @@ const articleNce2L18: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'pretend', pos: 'v.', meaning: '假装' },
-    { word: 'pattern', pos: 'n.', meaning: '图案' },
-    { word: 'curtain', pos: 'n.', meaning: '窗帘，幕布' },
-    { word: 'material', pos: 'n.', meaning: '材料' },
-    { word: 'appreciate', pos: 'v.', meaning: '鉴赏' },
-    { word: 'notice', pos: 'v.', meaning: '注意到' },
-    { word: 'whether', pos: 'conj.', meaning: '是否' },
-    { word: 'hang', pos: 'v.', meaning: '悬挂，吊' },
-    { word: 'critically', pos: 'ad.', meaning: '批评地' },
-    { word: 'upside', pos: '', meaning: '上下颠倒地' }
+    { word: 'pub', pos: 'n.', meaning: '小酒店', phonetic: '/pʌb/' },
+    { word: 'landlord', pos: 'n.', meaning: '店主', phonetic: '/\'lændlɔ:d/' },
+    { word: 'bill', pos: 'n.', meaning: '帐单', phonetic: '/bil/' }
   ],
 }
 const articleNce2L19: Article = {
@@ -1566,17 +1600,12 @@ const articleNce2L19: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'rare', pos: 'a.', meaning: '罕见的' },
-    { word: 'ancient', pos: 'a.', meaning: '古代的，古老的' },
-    { word: 'myth', pos: 'n.', meaning: '神话故事' },
-    { word: 'trouble', pos: 'n.', meaning: '麻烦' },
-    { word: 'effect', pos: 'n.', meaning: '结果，效果' },
-    { word: 'Medusa', pos: 'n.', meaning: '美杜莎(古希腊神话中3位蛇发女怪之一)' },
-    { word: 'Gorgon', pos: 'n.', meaning: '(古希腊神话中的)3位蛇发女怪之一' },
-    { word: 'Pilatus Porter', pos: '', meaning: '皮勒特斯·波特(飞机机名)' },
-    { word: 'plough', pos: 'v.', meaning: '耕地' },
-    { word: 'flat', pos: 'n.', meaning: '公寓房' },
-    { word: 'desert', pos: 'v.', meaning: '废弃' }
+    { word: 'hurry', pos: 'v.', meaning: '匆忙', phonetic: '/\'hʌri/' },
+    { word: 'ticket office', pos: 'n.', meaning: '售票处', phonetic: '//' },
+    { word: 'pity', pos: 'n.', meaning: '令人遗憾的事', phonetic: '/\'piti/' },
+    { word: 'exclaim', pos: 'v.', meaning: '大声说', phonetic: '/ik\'skleim/' },
+    { word: 'return', pos: 'v.', meaning: '退回', phonetic: '/ri\'tə:n/' },
+    { word: 'sadly', pos: 'adv.', meaning: '悲哀地，丧气地', phonetic: '/\'sædli/' }
   ],
 }
 const articleNce2L20: Article = {
@@ -1594,12 +1623,11 @@ const articleNce2L20: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'taxi', pos: 'n.', meaning: '出租汽车' },
-    { word: 'land', pos: 'v.', meaning: '着陆' },
-    { word: 'lonely', pos: 'a.', meaning: '偏僻的，人迹罕至的' },
-    { word: 'Welsh', pos: 'a.', meaning: '威尔士的' },
-    { word: 'roof', pos: 'n.', meaning: '楼顶' },
-    { word: 'block', pos: 'n.', meaning: '一座大楼' }
+    { word: 'catch', pos: 'v.', meaning: '抓到', phonetic: '/kætʃ/' },
+    { word: 'fisherman', pos: 'n.', meaning: '钓鱼人，渔民', phonetic: '/\'fiʃəmən/' },
+    { word: 'boot', pos: 'n.', meaning: '靴子', phonetic: '/bu:t/' },
+    { word: 'waste', pos: 'n.', meaning: '浪费', phonetic: '/weist/' },
+    { word: 'realize', pos: 'v.', meaning: '意识到', phonetic: '/\'riəlaiz/' }
   ],
 }
 const articleNce2L21: Article = {
@@ -1617,32 +1645,10 @@ const articleNce2L21: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'polo', pos: 'n.', meaning: '水球' },
-    { word: 'Wayle', pos: 'n.', meaning: '威尔(河名)' },
-    { word: 'cut', pos: 'v.', meaning: '穿过' },
-    { word: 'row', pos: 'v.', meaning: '划(船)' },
-    { word: 'kick', pos: 'v.', meaning: '踢' },
-    { word: 'towards', pos: 'prep.', meaning: '朝，向' },
-    { word: 'smoke', pos: 'n.', meaning: '烟' },
-    { word: 'desolate', pos: 'a.', meaning: '荒凉的' },
-    { word: 'threaten', pos: 'v.', meaning: '威胁' },
-    { word: 'surrounding', pos: 'a.', meaning: '周围的' },
-    { word: 'destruction', pos: 'n.', meaning: '破坏，毁灭' },
-    { word: 'flood', pos: 'n.', meaning: '洪水，水灾' },
-    { word: 'authority', pos: 'n.', meaning: '(常用复数)当局' },
-    { word: 'grass-seed', pos: 'n.', meaning: '草籽' },
-    { word: 'spray', pos: 'v.', meaning: '喷撒' },
-    { word: 'quantity', pos: 'n.', meaning: '量' },
-    { word: 'root', pos: 'n.', meaning: '根' },
-    { word: 'century', pos: 'n.', meaning: '世纪' },
-    { word: 'patch', pos: 'n.', meaning: '小片' },
-    { word: 'blacken', pos: 'v.', meaning: '变黑，发暗' },
-    { word: 'circle', pos: 'n.', meaning: '圈子' },
-    { word: 'admire', pos: 'v.', meaning: '赞美，钦佩' },
-    { word: 'close', pos: 'a.', meaning: '亲密的' },
-    { word: 'wedding', pos: 'n.', meaning: '婚礼' },
-    { word: 'reception', pos: 'n.', meaning: '招待会' },
-    { word: 'sort', pos: 'n.', meaning: '种类' }
+    { word: 'mad', pos: 'adj.', meaning: '发疯', phonetic: '/mæd/' },
+    { word: 'reason', pos: 'n.', meaning: '原因', phonetic: '/\'ri:zən/' },
+    { word: 'sum', pos: 'n.', meaning: '量', phonetic: '/sʌm/' },
+    { word: 'determined', pos: 'adj.', meaning: '坚定的，下决心的', phonetic: '/di\'tə:mind/' }
   ],
 }
 const articleNce2L22: Article = {
@@ -1660,10 +1666,10 @@ const articleNce2L22: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'tunnel', pos: 'n.', meaning: '隧道' },
-    { word: 'port', pos: '', meaning: 'ventilate' },
-    { word: 'prep. 对', pos: '', meaning: 'Christmas' },
-    { word: 'aux.v 应该', pos: '', meaning: 'weigh' }
+    { word: 'dream', pos: 'v.', meaning: '做梦，梦想', phonetic: '/dri:m/' },
+    { word: 'age', pos: 'n.', meaning: '年龄', phonetic: '/eidʒ/' },
+    { word: 'channel', pos: 'n.', meaning: '海峡', phonetic: '/\'tʃænəl/' },
+    { word: 'throw', pos: 'v.', meaning: '扔，抛', phonetic: '/θrəu/' }
   ],
 }
 const articleNce2L23: Article = {
@@ -1681,27 +1687,10 @@ const articleNce2L23: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'Lancaster', pos: 'n.', meaning: '兰开斯特' },
-    { word: 'bomber', pos: 'n.', meaning: '轰炸机' },
-    { word: 'remote', pos: 'a.', meaning: '偏僻的' },
-    { word: 'Pacific', pos: 'n.', meaning: '太平洋' },
-    { word: 'wreck', pos: 'n.', meaning: '残骸' },
-    { word: 'rediscover', pos: 'v.', meaning: '重新发现' },
-    { word: 'aerial', pos: 'a.', meaning: '航空的' },
-    { word: 'survey', pos: 'n.', meaning: '调查' },
-    { word: 'rescue', pos: 'v.', meaning: '营救' },
-    { word: 'package', pos: 'v.', meaning: '把…打包' },
-    { word: 'enthusiast', pos: 'n.', meaning: '热心人' },
-    { word: 'restore', pos: 'v.', meaning: '修复' },
-    { word: 'imagine', pos: 'v.', meaning: '想像' },
-    { word: 'packing', pos: '', meaning: '包装箱' },
-    { word: 'colony', pos: 'n.', meaning: '群' },
-    { word: 'bee', pos: 'n.', meaning: '蜜蜂' },
-    { word: 'hive', pos: 'n.', meaning: '蜂房' },
-    { word: 'preserve', pos: 'v.', meaning: '保护' },
-    { word: 'beeswax', pos: 'n.', meaning: '蜂蜡' },
-    { word: 'erupt', pos: 'v.', meaning: '(火山)喷发' },
-    { word: 'manage', pos: 'v.', meaning: '设法' }
+    { word: 'complete', pos: 'v.', meaning: '完成', phonetic: '/kəm\'pli:t/' },
+    { word: 'modern', pos: 'adj.', meaning: '新式的，与以往不同的', phonetic: '/\'mɔdən/' },
+    { word: 'strange', pos: 'adj.', meaning: '奇怪的', phonetic: '/streindʒ/' },
+    { word: 'district', pos: 'n.', meaning: '地区', phonetic: '/\'distrikt/' }
   ],
 }
 const articleNce2L24: Article = {
@@ -1719,16 +1708,13 @@ const articleNce2L24: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'volcano', pos: 'n.', meaning: '火山' },
-    { word: 'active', pos: 'a.', meaning: '活动的' },
-    { word: 'Kivu', pos: 'n.', meaning: '基伍湖' },
-    { word: 'Congo', pos: 'n.', meaning: '(the～)刚果' },
-    { word: 'Kituro', pos: 'n.', meaning: '基图罗' },
-    { word: 'violently', pos: 'ad.', meaning: '猛烈地，剧烈地' },
-    { word: 'brilliant', pos: 'a.', meaning: '精彩的' },
-    { word: 'liquid', pos: 'a.', meaning: '液态的' },
-    { word: 'escape', pos: 'v.', meaning: '逃脱' },
-    { word: 'alive', pos: 'a.', meaning: '活着的' }
+    { word: 'manager', pos: 'n.', meaning: '经理', phonetic: '/\'mænidʒə/' },
+    { word: 'upset', pos: 'adj.', meaning: '不安', phonetic: '/ʌp\'set/' },
+    { word: 'sympathetic', pos: 'adj.', meaning: '表示同情的', phonetic: '/ˌsimpə\'θetik/' },
+    { word: 'complain', pos: 'v.', meaning: '抱怨', phonetic: '/kəm\'plein/' },
+    { word: 'wicked', pos: 'adj.', meaning: '很坏的，邪恶的', phonetic: '/\'wikid/' },
+    { word: 'contain', pos: 'v.', meaning: '包含，内装', phonetic: '/kən\'tein/' },
+    { word: 'honesty', pos: 'n.', meaning: '诚实', phonetic: '/\'ɔnisti/' }
   ],
 }
 const articleNce2L25: Article = {
@@ -1746,11 +1732,11 @@ const articleNce2L25: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'persistent', pos: 'a.', meaning: '坚持的，固执的' },
-    { word: 'avoid', pos: 'v.', meaning: '避开' },
-    { word: 'insist', pos: 'v.', meaning: '坚持' },
-    { word: 'murder', pos: 'n.', meaning: '谋杀' },
-    { word: 'instruct', pos: 'v.', meaning: '命令，指示' }
+    { word: 'railway', pos: 'n.', meaning: '铁路', phonetic: '/\'reilwei/' },
+    { word: 'porter', pos: 'n.', meaning: '搬运工', phonetic: '/\'pɔ:tə/' },
+    { word: 'several', pos: 'det.', meaning: '几个', phonetic: '/\'sevərəl/' },
+    { word: 'foreigner', pos: 'n.', meaning: '外国人', phonetic: '/\'fɔrinə/' },
+    { word: 'wonder', pos: 'v.', meaning: '感到奇怪', phonetic: '/\'wʌndə/' }
   ],
 }
 const articleNce2L26: Article = {
@@ -1768,15 +1754,20 @@ const articleNce2L26: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'acquire', pos: 'v.', meaning: '取得，获得' },
-    { word: 'confidence', pos: 'n.', meaning: '信心' },
-    { word: 'examiner', pos: 'n.', meaning: '主考人' },
-    { word: 'suppose', pos: 'v.', meaning: '假设' },
-    { word: 'tap', pos: 'v.', meaning: '轻敲' },
-    { word: 'react', pos: 'v.', meaning: '反应' },
-    { word: 'brake', pos: 'n.', meaning: '刹车' },
-    { word: 'pedal', pos: 'n.', meaning: '踏板' },
-    { word: 'mournful', pos: 'a.', meaning: '悲哀的' }
+    { word: 'art', pos: 'n.', meaning: '艺术', phonetic: '/ɑ:t/' },
+    { word: 'critic', pos: 'n.', meaning: '评论家', phonetic: '/\'kritik/' },
+    { word: 'paint', pos: 'v.', meaning: '画', phonetic: '/peint/' },
+    { word: 'pretend', pos: 'v.', meaning: '假装', phonetic: '/pri\'tend/' },
+    { word: 'pattern', pos: 'n.', meaning: '图案', phonetic: '/\'pætn/' },
+    { word: 'curtain', pos: 'n.', meaning: '窗帘，幕布', phonetic: '/\'kə:tən/' },
+    { word: 'material', pos: 'n.', meaning: '材料', phonetic: '/mə\'tiəriəl/' },
+    { word: 'appreciate', pos: 'v.', meaning: '鉴赏', phonetic: '/ə\'pri:ʃieit/' },
+    { word: 'notice', pos: 'v.', meaning: '注意到', phonetic: '/\'nəutis/' },
+    { word: 'whether', pos: 'conj.', meaning: '是否', phonetic: '/\'weeə/' },
+    { word: 'hang', pos: 'v.', meaning: '悬挂，吊', phonetic: '/hæŋ/' },
+    { word: 'critically', pos: 'adv.', meaning: '批评地', phonetic: '/\'kritikəli/' },
+    { word: 'upside', pos: 'n.', meaning: '上部，上侧，上面', phonetic: '/\'ʌpsaid/' },
+    { word: 'upside-down', pos: 'adj.', meaning: '上下颠倒的', phonetic: '/\'ʌpsaid dd/' }
   ],
 }
 const articleNce2L27: Article = {
@@ -1794,16 +1785,21 @@ const articleNce2L27: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'bullfight', pos: 'n.', meaning: '斗牛' },
-    { word: 'drunk', pos: 'n.', meaning: '醉汉' },
-    { word: 'wander', pos: 'v.', meaning: '溜达，乱走' },
-    { word: 'unaware', pos: 'a.', meaning: '不知道的，无觉察的' },
-    { word: 'bull', pos: 'n.', meaning: '公牛' },
-    { word: 'matador', pos: 'n.', meaning: '斗牛士' },
-    { word: 'apparently', pos: 'ad.', meaning: '明显地' },
-    { word: 'sensitive', pos: 'a.', meaning: '敏感的' },
-    { word: 'criticism', pos: 'n.', meaning: '批评' },
-    { word: 'microphone', pos: 'n.', meaning: '扩音器，麦克风' }
+    { word: 'tent', pos: 'n.', meaning: '帐篷', phonetic: '/tent/' },
+    { word: 'field', pos: 'n.', meaning: '田地，田野', phonetic: '/fi:ld/' },
+    { word: 'smell', pos: 'v.', meaning: '闻起来', phonetic: '/smel/' },
+    { word: 'wonderful', pos: 'adj.', meaning: '极好的', phonetic: '/\'wʌndəful/' },
+    { word: 'campfire', pos: 'n.', meaning: '营火，篝火', phonetic: '/\'kæmpˌfaiə/' },
+    { word: 'creep', pos: 'v.', meaning: '爬行', phonetic: '/kri:p/' },
+    { word: 'sleeping bag', pos: 'n.', meaning: '睡袋', phonetic: '/\'sli:piŋ/' },
+    { word: 'comfortable', pos: 'adj.', meaning: '舒适的，安逸的', phonetic: '/\'kʌmfətəbəl/' },
+    { word: 'soundly', pos: 'adv.', meaning: '香甜地', phonetic: '/\'sʌundli/' },
+    { word: 'leap', pos: 'v.', meaning: '跳跃，跳起', phonetic: '/li:p/' },
+    { word: 'heavily', pos: 'adv.', meaning: '大量地', phonetic: '/\'hevili/' },
+    { word: 'stream', pos: 'n.', meaning: '小溪', phonetic: '/stri:m/' },
+    { word: 'form', pos: 'v.', meaning: '形成', phonetic: '/fɔ:m/' },
+    { word: 'wind', pos: 'v.', meaning: '蜿蜒', phonetic: '/wind, waind/' },
+    { word: 'right', pos: 'adv.', meaning: '正好', phonetic: '/rait/' }
   ],
 }
 const articleNce2L28: Article = {
@@ -1821,7 +1817,13 @@ const articleNce2L28: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'tower', pos: 'n.', meaning: '塔' }
+    { word: 'rare', pos: 'adj.', meaning: '罕见的', phonetic: '/reə/' },
+    { word: 'ancient', pos: 'adj.', meaning: '古代的，古老的', phonetic: '/\'einʃənt/' },
+    { word: 'myth', pos: 'n.', meaning: '神话故事', phonetic: '/miθ/' },
+    { word: 'trouble', pos: 'n.', meaning: '麻烦', phonetic: '/\'trʌbəl/' },
+    { word: 'effect', pos: 'n.', meaning: '结果，效果', phonetic: '/i\'fekt/' },
+    { word: 'Medusa', pos: 'n.', meaning: '美杜莎(古希腊神话中3位蛇发女怪之一)', phonetic: '/mi\'dju:zə/' },
+    { word: 'Gorgon', pos: 'n.', meaning: '(古希腊神话中的)3位蛇发女怪之一', phonetic: '/\'gɔ:gən/' }
   ],
 }
 const articleNce2L29: Article = {
@@ -1839,16 +1841,16 @@ const articleNce2L29: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'racing', pos: 'n.', meaning: '竞赛' },
-    { word: 'per', pos: 'prep.', meaning: '每' },
-    { word: 'Utah', pos: 'n.', meaning: '犹他(美国州名)' },
-    { word: 'horsepower', pos: 'n.', meaning: '马力' },
-    { word: 'burst', pos: 'v.', meaning: '爆裂' },
-    { word: 'average', pos: 'a.', meaning: '平均的' },
-    { word: 'footstep', pos: 'n.', meaning: '足迹，脚步声' },
-    { word: 'record-holder', pos: '', meaning: '纪录保持者' },
-    { word: 'hitchhike', pos: 'v.', meaning: '搭便车旅行' },
-    { word: 'evade', pos: 'v.', meaning: '逃避，逃离' }
+    { word: 'taxi', pos: 'n.', meaning: '出租汽车', phonetic: '/\'tæksi/' },
+    { word: 'Pilatus Porter', pos: 'n.', meaning: '皮勒特斯·波特(飞机机名)', phonetic: '//' },
+    { word: 'land', pos: 'v.', meaning: '着陆', phonetic: '/lænd/' },
+    { word: 'plough', pos: 'v.', meaning: '耕地', phonetic: '/plau/' },
+    { word: 'lonely', pos: 'adj.', meaning: '偏僻的，人迹罕至的', phonetic: '/\'ləunli/' },
+    { word: 'Welsh', pos: 'adj.', meaning: '威尔士的', phonetic: '/welʃ/' },
+    { word: 'roof', pos: 'n.', meaning: '楼顶', phonetic: '/ru:f/' },
+    { word: 'block', pos: 'n.', meaning: '一座大楼', phonetic: '/blɔk/' },
+    { word: 'flat', pos: 'n.', meaning: '公寓房', phonetic: '/flæt/' },
+    { word: 'desert', pos: 'v.', meaning: '废弃', phonetic: '/\'dezət/' }
   ],
 }
 const articleNce2L30: Article = {
@@ -1866,12 +1868,13 @@ const articleNce2L30: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'truant', pos: 'n.', meaning: '逃学的孩子' },
-    { word: 'unimaginative', pos: 'a.', meaning: '缺乏想象力的' },
-    { word: 'shame', pos: 'n.', meaning: '惭愧，羞耻' },
-    { word: 'meantime', pos: 'n.', meaning: '期间' },
-    { word: 'lorry', pos: 'n.', meaning: '卡车' },
-    { word: 'border', pos: 'n.', meaning: '边界' }
+    { word: 'polo', pos: 'n.', meaning: '水球', phonetic: '/\'pəuləu/' },
+    { word: 'cut', pos: 'v.', meaning: '穿过', phonetic: '/kʌt/' },
+    { word: 'row', pos: 'v.', meaning: '划(船)', phonetic: '/rəu, rou/' },
+    { word: 'kick', pos: 'v.', meaning: '踢', phonetic: '/kik/' },
+    { word: 'towards', pos: 'prep.', meaning: '朝，向', phonetic: '/tə\'wɔ:dz/' },
+    { word: 'nearly', pos: 'adv.', meaning: '几乎', phonetic: '/\'niəli/' },
+    { word: 'sight', pos: 'n.', meaning: '眼界，视域', phonetic: '/sait/' }
   ],
 }
 const articleNce2L31: Article = {
@@ -1889,14 +1892,14 @@ const articleNce2L31: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'limelight', pos: 'n.', meaning: '舞台灯光' },
-    { word: 'precaution', pos: 'n.', meaning: '预防措施' },
-    { word: 'fan', pos: 'n.', meaning: '狂热者，迷' },
-    { word: 'shady', pos: 'a.', meaning: '遮荫的' },
-    { word: 'sheriff', pos: 'n.', meaning: '司法长官' },
-    { word: 'sneer', pos: 'n.', meaning: '冷笑' },
-    { word: 'stamp', pos: 'v.', meaning: '跺，踩' },
-    { word: 'survivor', pos: 'n.', meaning: '幸存者' }
+    { word: 'retire', pos: 'v.', meaning: '退休', phonetic: '/ri\'taiə/' },
+    { word: 'company', pos: 'n.', meaning: '公司', phonetic: '/\'kʌmpəni/' },
+    { word: 'bicycle', pos: 'n.', meaning: '自行车', phonetic: '/\'baisik(ə)l/' },
+    { word: 'save', pos: 'v.', meaning: '积蓄', phonetic: '/seiv/' },
+    { word: 'workshop', pos: 'n.', meaning: '车间', phonetic: '/\'wə:kʃɔp/' },
+    { word: 'helper', pos: 'n.', meaning: '帮手，助手', phonetic: '/\'helpə/' },
+    { word: 'employ', pos: 'v.', meaning: '雇佣', phonetic: '/im\'plɔi/' },
+    { word: 'grandson', pos: 'n.', meaning: '孙子', phonetic: '/\'grænsʌn/' }
   ],
 }
 const articleNce2L32: Article = {
@@ -1914,10 +1917,12 @@ const articleNce2L32: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'thick', pos: 'a.', meaning: '厚的' },
-    { word: 'signal', pos: 'n.', meaning: '信号' },
-    { word: 'helicopter', pos: 'n.', meaning: '直升飞机' },
-    { word: 'scene', pos: 'n.', meaning: '现场' }
+    { word: 'once', pos: 'adv.', meaning: '曾经，以前', phonetic: '/wʌns/' },
+    { word: 'temptation', pos: 'n.', meaning: '诱惑', phonetic: '/temp\'teiʃən/' },
+    { word: 'article', pos: 'n.', meaning: '物品，东西', phonetic: '/\'ɑ:tikəl/' },
+    { word: 'wrap', pos: 'v.', meaning: '包裹', phonetic: '/ræp/' },
+    { word: 'simply', pos: 'adv.', meaning: '仅仅', phonetic: '/\'simpli/' },
+    { word: 'arrest', pos: 'v.', meaning: '逮捕', phonetic: '/ə\'rest/' }
   ],
 }
 const articleNce2L33: Article = {
@@ -1935,20 +1940,18 @@ const articleNce2L33: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'fool', pos: 'n.', meaning: '傻瓜' },
-    { word: 'bulletin', pos: 'n.', meaning: '新闻简报' },
-    { word: 'announcer', pos: 'n.', meaning: '(电视、电台)播音员' },
-    { word: 'macaroni', pos: 'n.', meaning: '通心面，空心面条' },
-    { word: 'leading', pos: '', meaning: 'grower' },
-    { word: 'stalk', pos: 'n.', meaning: '梗' },
-    { word: 'thresh', pos: 'v.', meaning: '打(庄稼)' },
-    { word: 'process', pos: 'v.', meaning: '加工' },
-    { word: 'Signor', pos: 'n.', meaning: '(意大利语)先生' },
-    { word: 'champion', pos: 'n.', meaning: '冠军' },
-    { word: 'studio', pos: 'n.', meaning: '播音室' },
-    { word: 'prove', pos: 'v.', meaning: '证明' },
-    { word: 'figure', pos: 'n.', meaning: '(人的)体形；人像' },
-    { word: 'survive', pos: 'v.', meaning: '幸免于' }
+    { word: 'darkness', pos: 'n.', meaning: '黑暗', phonetic: '/\'dɑ:knis/' },
+    { word: 'explain', pos: 'v.', meaning: '解释，叙述', phonetic: '/ik\'splein/' },
+    { word: 'coast', pos: 'n.', meaning: '海岸', phonetic: '/kəust/' },
+    { word: 'storm', pos: 'n.', meaning: '暴风雨', phonetic: '/stɔ:m/' },
+    { word: 'towards', pos: 'prep.', meaning: '接近', phonetic: '/tə\'wɔ:dz/' },
+    { word: 'rock', pos: 'n.', meaning: '岩石，礁石', phonetic: '/rɔk/' },
+    { word: 'shore', pos: 'n.', meaning: '海岸', phonetic: '/ʃɔ:/' },
+    { word: 'light', pos: 'n.', meaning: '灯光', phonetic: '/lait/' },
+    { word: 'ahead', pos: 'adv.', meaning: '在前面', phonetic: '/ə\'hed/' },
+    { word: 'cliff', pos: 'n.', meaning: '峭壁', phonetic: '/klif/' },
+    { word: 'struggle', pos: 'v.', meaning: '挣扎', phonetic: '/\'strʌgl/' },
+    { word: 'hospital', pos: 'n.', meaning: '医院', phonetic: '/\'hɔspitl/' }
   ],
 }
 const articleNce2L34: Article = {
@@ -1966,13 +1969,8 @@ const articleNce2L34: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'mummy', pos: 'n.', meaning: '木乃伊' },
-    { word: 'Egyptian', pos: 'a.', meaning: '埃及的' },
-    { word: 'temple', pos: 'n.', meaning: '庙' },
-    { word: 'resin', pos: 'n.', meaning: '树脂' },
-    { word: 'skin', pos: 'n.', meaning: '皮，皮肤' },
-    { word: 'section', pos: 'n.', meaning: '切片' },
-    { word: 'normally', pos: 'ad.', meaning: '通常地' }
+    { word: 'station', pos: 'n.', meaning: '(警察)局', phonetic: '/\'steiʃən/' },
+    { word: 'most', pos: 'adv.', meaning: '相当，非常', phonetic: '/məust/' }
   ],
 }
 const articleNce2L35: Article = {
@@ -1990,20 +1988,16 @@ const articleNce2L35: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'entitle', pos: 'v.', meaning: '以…为名' },
-    { word: 'calm', pos: 'v.', meaning: '使镇定' },
-    { word: 'nerve', pos: 'n.', meaning: '神经' },
-    { word: 'concentration', pos: 'n.', meaning: '集中，专心' },
-    { word: 'suffer', pos: 'v.', meaning: '受苦，受害' },
-    { word: 'symptom', pos: 'n.', meaning: '症状' },
-    { word: 'temper', pos: 'n.', meaning: '脾气' },
-    { word: 'appetite', pos: 'n.', meaning: '胃口，食欲' },
-    { word: 'produce', pos: 'v.', meaning: '拿出' },
-    { word: 'urge', pos: 'v.', meaning: '力劝，怂恿' },
-    { word: 'satisfaction', pos: 'n.', meaning: '满意，满足' },
-    { word: 'delighted', pos: 'a.', meaning: '欣喜的' },
-    { word: 'parent', pos: 'n.', meaning: '父(母)亲' },
-    { word: 'flight attendant', pos: '', meaning: '空中乘务员' }
+    { word: 'while', pos: 'n.', meaning: '一段时间', phonetic: '/wail/' },
+    { word: 'regret', pos: 'v.', meaning: '后悔', phonetic: '/ri\'gret/' },
+    { word: 'far', pos: 'adv.', meaning: '非常', phonetic: '/fɑ:/' },
+    { word: 'rush', pos: 'v.', meaning: '冲', phonetic: '/rʌʃ/' },
+    { word: 'act', pos: 'v.', meaning: '行动', phonetic: '/æct/' },
+    { word: 'straight', pos: 'adv.', meaning: '径直', phonetic: '/streit/' },
+    { word: 'fright', pos: 'n.', meaning: '害怕', phonetic: '/frait/' },
+    { word: 'battered', pos: 'adj.', meaning: '撞坏的', phonetic: '/\'bætəd/' },
+    { word: 'shortly', pos: 'adv.', meaning: '很快，不久', phonetic: '/\'ʃɔ:tli/' },
+    { word: 'afterwards', pos: 'adv.', meaning: '以后', phonetic: '/\'a:ftəwədz/' }
   ],
 }
 const articleNce2L36: Article = {
@@ -2021,9 +2015,14 @@ const articleNce2L36: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'frightened', pos: 'a.', meaning: '害怕，担惊' },
-    { word: 'curious', pos: 'a.', meaning: '急于了解，好奇的' },
-    { word: 'bomb', pos: 'n.', meaning: '炸弹' }
+    { word: 'record', pos: 'n.', meaning: '记录', phonetic: '/\'rekɔ:d, ri\'kɔ:d/' },
+    { word: 'strong', pos: 'adj.', meaning: '强壮的', phonetic: '/strɔŋ/' },
+    { word: 'swimmer', pos: 'n.', meaning: '游泳运动员', phonetic: '/\'swimə/' },
+    { word: 'succeed', pos: 'v.', meaning: '成功', phonetic: '/sək\'si:d/' },
+    { word: 'train', pos: 'v.', meaning: '训练', phonetic: '/trein/' },
+    { word: 'anxiously', pos: 'adv.', meaning: '焦急地', phonetic: '/\'æŋkʃəsli/' },
+    { word: 'intend', pos: 'v.', meaning: '打算', phonetic: '/in\'tend/' },
+    { word: 'solid', pos: 'adj.', meaning: '固体的，硬的', phonetic: '/\'sɔlid/' }
   ],
 }
 const articleNce2L37: Article = {
@@ -2041,13 +2040,15 @@ const articleNce2L37: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'palace', pos: 'n.', meaning: '宫殿' },
-    { word: 'extraordinary', pos: 'a.', meaning: '不平常的，非凡的' },
-    { word: 'exhibition', pos: 'n.', meaning: '展览' },
-    { word: 'iron', pos: 'n.', meaning: '铁' },
-    { word: 'various', pos: 'a.', meaning: '各种各样的' },
-    { word: 'machinery', pos: 'n.', meaning: '机器' },
-    { word: 'display', pos: '', meaning: 'steam' }
+    { word: 'Olympic', pos: 'adj.', meaning: '奥林匹克的', phonetic: '/ə\'limpik/' },
+    { word: 'hold', pos: 'v.', meaning: '召开', phonetic: '/həuld/' },
+    { word: 'government', pos: 'n.', meaning: '政府', phonetic: '/\'gʌvənmənt/' },
+    { word: 'immense', pos: 'adj.', meaning: '巨大的', phonetic: '/i\'mens/' },
+    { word: 'stadium', pos: 'n.', meaning: '露天体育场', phonetic: '/\'steidiəm/' },
+    { word: 'standard', pos: 'n.', meaning: '标准', phonetic: '/\'stændəd/' },
+    { word: 'capital', pos: 'n.', meaning: '首都', phonetic: '/\'kæpitl/' },
+    { word: 'fantastic', pos: 'adj.', meaning: '巨大的', phonetic: '/fæn\'tæstik/' },
+    { word: 'design', pos: 'v.', meaning: '设计', phonetic: '/di\'zain/' }
   ],
 }
 const articleNce2L38: Article = {
@@ -2065,14 +2066,12 @@ const articleNce2L38: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'monster', pos: 'n.', meaning: '怪物' },
-    { word: 'sailor', pos: 'n.', meaning: '海员' },
-    { word: 'creature', pos: 'n.', meaning: '动物，生物' },
-    { word: 'peculiar', pos: 'a.', meaning: '奇怪的，不寻常的' },
-    { word: 'shining', pos: 'a.', meaning: '闪闪发光的' },
-    { word: 'oarfish', pos: 'n.', meaning: '桨鱼' },
-    { word: 'election', pos: 'n.', meaning: '选举' },
-    { word: 'ex- prefix.', pos: '', meaning: '(前缀，用于名词前)前…' }
+    { word: 'except', pos: 'prep.', meaning: '除了', phonetic: '/ik\'sept/' },
+    { word: 'Mediterranean', pos: 'n.', meaning: '(the～)地中海', phonetic: '/ˌmeditə\'reiniən/' },
+    { word: 'complain', pos: 'v.', meaning: '抱怨', phonetic: '/kəm\'plein/' },
+    { word: 'continually', pos: 'adv.', meaning: '不断地', phonetic: '/kən\'tinjuəli/' },
+    { word: 'bitterly', pos: 'adv.', meaning: '刺骨地', phonetic: '/\'bitəli/' },
+    { word: 'sunshine', pos: 'n.', meaning: '阳光', phonetic: '/\'sʌnʃain/' }
   ],
 }
 const articleNce2L39: Article = {
@@ -2090,13 +2089,16 @@ const articleNce2L39: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'former', pos: 'a.', meaning: '从前的' },
-    { word: 'defeat', pos: 'v.', meaning: '打败' },
-    { word: 'fanatical', pos: 'a.', meaning: '狂热的' },
-    { word: 'opponent', pos: 'n.', meaning: '反对者，对手' },
-    { word: 'radical', pos: 'a.', meaning: '激进的' },
-    { word: 'progressive', pos: 'a.', meaning: '进步的' },
-    { word: 'suspicious', pos: 'a.', meaning: '怀疑的' }
+    { word: 'operation', pos: 'n.', meaning: '手术', phonetic: '/ˌɔpə\'reiʃən/' },
+    { word: 'successful', pos: 'adj.', meaning: '成功的', phonetic: '/sək\'sesfəl/' },
+    { word: 'following', pos: 'adj.', meaning: '下一个', phonetic: '/\'fɔləuiŋ/' },
+    { word: 'patient', pos: 'n.', meaning: '病人', phonetic: '/\'peiʃənt/' },
+    { word: 'alone', pos: 'adj.', meaning: '独自的', phonetic: '/ə\'ləun/' },
+    { word: 'exchange', pos: 'n.', meaning: '(电话的)交换台', phonetic: '/iks\'tʃeindʒ/' },
+    { word: 'inquire', pos: 'v.', meaning: '询问，打听', phonetic: '/in\'kwaiə/' },
+    { word: 'certain', pos: 'adj.', meaning: '某个', phonetic: '/\'sə:tən/' },
+    { word: 'caller', pos: 'n.', meaning: '打电话的人', phonetic: '/\'kɔ:lə/' },
+    { word: 'relative', pos: 'n.', meaning: '亲戚', phonetic: '/\'relətiv/' }
   ],
 }
 const articleNce2L40: Article = {
@@ -2122,20 +2124,12 @@ const articleNce2L40: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'strike', pos: 'vt.', meaning: '报时' },
-    { word: 'busman', pos: 'n.', meaning: '公共汽车司机' },
-    { word: 'state', pos: 'v.', meaning: '正式提出，宣布' },
-    { word: 'agreement', pos: 'n.', meaning: '协议' },
-    { word: 'relieve', pos: 'v.', meaning: '减轻' },
-    { word: 'pressure', pos: 'n.', meaning: '压力，麻烦' },
-    { word: 'extent', pos: 'n.', meaning: '程度' },
-    { word: 'volunteer', pos: 'v.', meaning: '自动提出，自愿' },
-    { word: 'gratitude', pos: 'n.', meaning: '感激' },
-    { word: 'Press', pos: 'n.', meaning: '新闻界' },
-    { word: 'object', pos: 'v.', meaning: '不赞成，反对' },
-    { word: 'inform', pos: 'v.', meaning: '告诉，通知' },
-    { word: 'headmaster', pos: 'n.', meaning: '校长' },
-    { word: 'contribute', pos: 'v.', meaning: '捐助，援助' }
+    { word: 'hostess', pos: 'n.', meaning: '女主人', phonetic: '/\'həustis/' },
+    { word: 'unsmiling', pos: 'adj.', meaning: '不笑的，严肃的', phonetic: '/\'ʌn\'smailiŋ/' },
+    { word: 'tight', pos: 'adj.', meaning: '紧身的', phonetic: '/tait/' },
+    { word: 'fix', pos: 'v.', meaning: '疑视', phonetic: '/fiks/' },
+    { word: 'globe', pos: 'n.', meaning: '地球', phonetic: '/gləub/' },
+    { word: 'despair', pos: 'n.', meaning: '绝望', phonetic: '/di\'speə/' }
   ],
 }
 const articleNce2L41: Article = {
@@ -2161,17 +2155,12 @@ const articleNce2L41: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'gift', pos: 'n.', meaning: '礼物，赠品' },
-    { word: 'album', pos: 'n.', meaning: '签名簿，相册' },
-    { word: 'patience', pos: 'n.', meaning: '耐心' },
-    { word: 'encouragement', pos: 'n.', meaning: '鼓励' },
-    { word: 'farewell', pos: 'n.', meaning: '告别' },
-    { word: 'honour', pos: 'n.', meaning: '敬意, 荣幸' },
-    { word: 'coincidence', pos: 'n.', meaning: '巧合' },
-    { word: 'total', pos: 'n.', meaning: '总数' },
-    { word: 'devote', pos: 'v.', meaning: '致力于' },
-    { word: 'gardening', pos: 'n.', meaning: '园艺' },
-    { word: 'hobby', pos: 'n.', meaning: '爱好，嗜好' }
+    { word: 'rude', pos: 'adj.', meaning: '无礼的', phonetic: '/ru:d/' },
+    { word: 'mirror', pos: 'n.', meaning: '镜子', phonetic: '/\'mirə/' },
+    { word: 'hole', pos: 'n.', meaning: '孔', phonetic: '/həul/' },
+    { word: 'remark', pos: 'v.', meaning: '评说', phonetic: '/ri\'mɑ:k/' },
+    { word: 'remind', pos: 'v.', meaning: '提醒', phonetic: '/ri\'maind/' },
+    { word: 'lighthouse', pos: 'n.', meaning: '灯塔', phonetic: '/\'laithaus/' }
   ],
 }
 const articleNce2L42: Article = {
@@ -2189,13 +2178,19 @@ const articleNce2L42: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'swing', pos: 'v.', meaning: '转向' },
-    { word: 'speedboat', pos: 'n.', meaning: '快艇' },
-    { word: 'desperately', pos: 'ad.', meaning: '绝望地' },
-    { word: 'companion', pos: 'n.', meaning: '同伙，同伴' },
-    { word: 'water ski', pos: '', meaning: '(由快艇牵引水橇)滑水' },
-    { word: 'buoy', pos: 'n.', meaning: '浮标' },
-    { word: 'tremendous', pos: '', meaning: 'petrol' }
+    { word: 'musical', pos: 'adj.', meaning: '精通音乐的', phonetic: '/\'mju:zikəl/' },
+    { word: 'market', pos: 'n.', meaning: '市场，集市', phonetic: '/\'mɑ:kit/' },
+    { word: 'snake charmer', pos: 'n.', meaning: '玩蛇者(通常借音乐控制)', phonetic: '/ˈsneɪk ˌtʃɑːmə(r)/' },
+    { word: 'pipe', pos: 'n.', meaning: '(吹奏地)管乐器', phonetic: '/paip/' },
+    { word: 'tune', pos: 'n.', meaning: '曲调', phonetic: '/tju:n, tu:n/' },
+    { word: 'glimpse', pos: 'n.', meaning: '一瞥', phonetic: '/glimps/' },
+    { word: 'snake', pos: 'n.', meaning: '蛇', phonetic: '/sneik/' },
+    { word: 'movement', pos: 'n.', meaning: '动作', phonetic: '/\'mu:vmənt/' },
+    { word: 'continue', pos: 'v.', meaning: '继续', phonetic: '/kən\'tinju:/' },
+    { word: 'dance', pos: 'v.', meaning: '跳舞', phonetic: '/dɑ:ns/' },
+    { word: 'obviously', pos: 'adv.', meaning: '显然', phonetic: '/\'ɔbviəsli/' },
+    { word: 'difference', pos: 'n.', meaning: '差别', phonetic: '/\'difrəns/' },
+    { word: 'Indian', pos: 'adj.', meaning: '印度的', phonetic: '/\'indiən/' }
   ],
 }
 const articleNce2L43: Article = {
@@ -2213,814 +2208,19 @@ const articleNce2L43: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'trap', pos: 'v.', meaning: '陷入，使陷于困境' },
-    { word: 'surface', pos: 'n.', meaning: '地面，表面' },
-    { word: 'explosive', pos: 'n.', meaning: '炸药' },
-    { word: 'vibration', pos: 'n.', meaning: '震动' },
-    { word: 'dye', pos: 'v.', meaning: '染' },
-    { word: 'suspension', pos: 'n.', meaning: '悬，吊' },
-    { word: 'agreeable', pos: '', meaning: 'situation' },
-    { word: 'eminent', pos: 'a.', meaning: '著名的，杰出的' },
-    { word: 'lines', pos: 'n.', meaning: '(剧本中的)台词' },
-    { word: 'part', pos: 'n.', meaning: '剧中的角色，台词' },
-    { word: 'falter', pos: 'v.', meaning: '支吾，结巴说' },
-    { word: 'cast', pos: 'v.', meaning: '选派……扮演角色' },
-    { word: 'role', pos: 'n.', meaning: '角色' },
-    { word: 'aristocrat', pos: 'n.', meaning: '贵族' },
-    { word: 'imprison', pos: 'v.', meaning: '关押' },
-    { word: 'Bastille', pos: 'n.', meaning: '巴士底狱' },
-    { word: 'gaoler', pos: 'n.', meaning: '监狱长，看守' },
-    { word: 'colleague', pos: 'n.', meaning: '同事' },
-    { word: 'fry', pos: 'v.', meaning: '油炸' },
-    { word: 'fat', pos: 'n.', meaning: '(动物、植物)油' },
-    { word: 'abuse', pos: 'n.', meaning: '辱骂，责骂' },
-    { word: 'snail', pos: 'n.', meaning: '蜗牛' },
-    { word: 'luxury', pos: 'n.', meaning: '奢侈品，珍品' },
-    { word: 'associate', pos: 'v.', meaning: '联想到' },
-    { word: 'despise', pos: 'v.', meaning: '鄙视' },
-    { word: 'appeal', pos: 'v.', meaning: '引起兴致' },
-    { word: 'stroll', pos: 'n.', meaning: '溜达，散步' },
-    { word: 'impulse', pos: 'n.', meaning: '冲动' },
-    { word: 'dozen', pos: 'n.', meaning: '12个，一打' },
-    { word: 'fancy', pos: 'v.', meaning: '喜爱，喜欢' },
-    { word: 'skeleton', pos: 'n.', meaning: '骷髅' },
-    { word: 'seemingly', pos: 'ad.', meaning: '表面上地' },
-    { word: 'respectable', pos: 'a.', meaning: '体面的，雅观的' },
-    { word: 'conceal', pos: 'v.', meaning: '隐藏，隐瞒' },
-    { word: 'vivid', pos: 'a.', meaning: '生动的' },
-    { word: 'dramatic', pos: 'a.', meaning: '令人激动的，扣人心弦的' },
-    { word: 'ruin', pos: 'v.', meaning: '毁坏' },
-    { word: 'heroine', pos: 'n.', meaning: '女主人公' },
-    { word: 'fiction', pos: 'n.', meaning: '小说' },
-    { word: 'varying', pos: 'n.', meaning: '医学' },
-    { word: 'guestroom', pos: 'n.', meaning: '(家庭中的)客房' },
-    { word: 'unpack', pos: 'vt.', meaning: '(从箱中)取出' },
-    { word: 'stack', pos: 'v.', meaning: '(整齐地)堆放，排放；n.堆' },
-    { word: 'underclothes', pos: 'n.', meaning: '内衣' },
-    { word: 'drawer', pos: 'n.', meaning: '抽屉' },
-    { word: 'petrify', pos: 'v.', meaning: '使惊呆' },
-    { word: 'dangle', pos: '', meaning: 'sway' },
-    { word: 'influence', pos: '', meaning: 'v./n.耽误' },
-    { word: 'classify', pos: 'v.', meaning: '分类' },
-    { word: 'magic', pos: 'a.', meaning: '有奇妙作用的' },
-    { word: 'sample', pos: 'n.', meaning: '样品' },
-    { word: 'devise', pos: 'v.', meaning: '设计，想出' },
-    { word: 'capture', pos: 'v.', meaning: '吸引，赢得' },
-    { word: 'manufacturer', pos: 'n.', meaning: '生产厂家，制造商' },
-    { word: 'wheelbarrow', pos: 'n.', meaning: '独轮手推车' },
-    { word: 'spiritual', pos: 'a.', meaning: '精神上的' },
-    { word: 'grudge', pos: 'v.', meaning: '不愿给，舍不得给' },
-    { word: 'surgeon', pos: 'n.', meaning: '外科大夫' },
-    { word: 'passer-by', pos: 'n.', meaning: '过路人(复数passers-by)' },
-    { word: 'dignity', pos: 'n.', meaning: '尊严' },
-    { word: 'deliberately', pos: 'ad.', meaning: '故意地' },
-    { word: 'consequence', pos: 'n.', meaning: '后果，结果' },
-    { word: 'afflict', pos: 'v.', meaning: '使苦恼，折磨' },
-    { word: 'ease', pos: 'n.', meaning: '容易' },
-    { word: 'nature', pos: 'n.', meaning: '大自然' },
-    { word: 'contempt', pos: 'n.', meaning: '蔑视' },
-    { word: 'envious', pos: 'a.', meaning: '嫉妒的' },
-    { word: 'wares', pos: 'n.', meaning: '货物，商品' },
-    { word: 'deck', pos: 'n.', meaning: '甲板' },
-    { word: 'silverware', pos: 'n.', meaning: '银器' },
-    { word: 'tempt', pos: 'v.', meaning: '吸引；引诱' },
-    { word: 'bargain', pos: 'v.', meaning: '讨价还价; n.便宜货' },
-    { word: 'disembark', pos: 'v.', meaning: '下船上岸' },
-    { word: 'assail', pos: 'v.', meaning: '纠缠' },
-    { word: 'marble', pos: 'n.', meaning: '小玻璃球' },
-    { word: 'inscribe', pos: 'v.', meaning: '刻写，雕' },
-    { word: 'favour', pos: 'n.', meaning: '好处，优惠' },
-    { word: 'gesticulate', pos: 'v.', meaning: '(讲话时)打手势' },
-    { word: 'outrageous', pos: 'a.', meaning: '出人预料的；令人不悦的' },
-    { word: 'thrust', pos: 'v.', meaning: '硬塞给；强行挤进' },
-    { word: 'largely', pos: 'ad.', meaning: '在很大程度上' },
-    { word: 'comic', pos: 'a.', meaning: '喜剧的，可笑的' },
-    { word: 'universal', pos: 'a.', meaning: '普遍的' },
-    { word: 'comedian', pos: 'n.', meaning: '滑稽演员，喜剧演员' },
-    { word: 'distasteful', pos: 'a.', meaning: '讨厌的' },
-    { word: 'pester', pos: 'v.', meaning: '一再要求，纠缠' },
-    { word: 'dread', pos: 'v.', meaning: '惧怕' },
-    { word: 'recovery', pos: 'n.', meaning: '康复' },
-    { word: 'plaster', pos: 'n.', meaning: '熟石膏' },
-    { word: 'console', pos: 'v.', meaning: '安慰，慰问' },
-    { word: 'hobble', pos: 'v.', meaning: '瘸着腿走' },
-    { word: 'compensate', pos: 'v.', meaning: '补偿' },
-    { word: 'mumble', pos: 'v.', meaning: '喃喃而语' },
-    { word: 'labourer', pos: 'n.', meaning: '劳动者(也做laborer)' },
-    { word: 'overnight', pos: 'ad.', meaning: '一夜期间' },
-    { word: 'hay', pos: 'n.', meaning: '干草' },
-    { word: 'corn', pos: 'n.', meaning: '谷物' },
-    { word: 'moonlight', pos: 'n.', meaning: '月光' },
-    { word: 'conscientious', pos: 'a.', meaning: '认真的' },
-    { word: 'suspect', pos: 'v.', meaning: '怀疑' },
-    { word: 'regiment', pos: 'n.', meaning: '(军队)团' },
-    { word: 'action', pos: 'n.', meaning: '战斗' },
-    { word: 'recluse', pos: 'n.', meaning: '隐士' },
-    { word: 'lovable', pos: 'a.', meaning: '可爱的' },
-    { word: 'eccentric', pos: 'n.', meaning: '(行为)古怪的人' },
-    { word: 'disregard', pos: 'v.', meaning: '不顾，无视' },
-    { word: 'convention', pos: 'n.', meaning: '习俗，风俗' },
-    { word: 'conscious', pos: 'a.', meaning: '感觉到的，意识到的' },
-    { word: 'invariably', pos: 'ad.', meaning: '总是，经常地' },
-    { word: 'routine', pos: 'n.', meaning: '常规；惯例; a.常规的' },
-    { word: 'shrewd', pos: 'a.', meaning: '精明的' },
-    { word: 'eccentricity', pos: 'n.', meaning: '怪癖' },
-    { word: 'legendary', pos: 'a.', meaning: '传奇般的' },
-    { word: 'snob', pos: 'n.', meaning: '势利小人，谄上欺下的人' },
-    { word: 'intensely', pos: 'ad.', meaning: '强烈地' },
-    { word: 'bedraggled', pos: 'a.', meaning: '拖泥带水的；又脏又湿的' },
-    { word: 'dump', pos: 'v.', meaning: '把……砰的一声抛下' },
-    { word: 'apologetic', pos: 'a.', meaning: '道歉的' },
-    { word: 'chest', pos: 'n.', meaning: '大箱子' },
-    { word: 'log book', pos: '', meaning: '航海日志' },
-    { word: 'torpedo', pos: '', meaning: 'v./n.护航' },
-    { word: 'dedicated', pos: 'a.', meaning: '专心致志的；全身心投入的' },
-    { word: 'bargain hunter', pos: 'n.', meaning: '到处找便宜货买的人' },
-    { word: 'dealer', pos: 'v.', meaning: '商人' },
-    { word: 'cherish', pos: 'v.', meaning: '期望，渴望；珍爱' },
-    { word: 'amply', pos: 'ad.', meaning: '足够地' },
-    { word: 'masterpiece', pos: 'n.', meaning: '杰作' },
-    { word: 'mere', pos: 'a.', meaning: '仅仅的' },
-    { word: 'miniature', pos: 'a.', meaning: '小巧的，小型的' },
-    { word: 'composition', pos: 'n.', meaning: '构图' },
-    { word: 'justice', pos: 'n.', meaning: '正义，公正；司法' },
-    { word: 'court', pos: 'n.', meaning: '法院' },
-    { word: 'law', pos: 'n.', meaning: '法律' },
-    { word: 'innocence', pos: 'n.', meaning: '无辜' },
-    { word: 'undertake', pos: 'v.', meaning: '承担，着手做' },
-    { word: 'arduous', pos: 'a.', meaning: '艰苦的，艰难的' },
-    { word: 'abstract', pos: 'a.', meaning: '抽象的' },
-    { word: 'concept', pos: 'n.', meaning: '概念，观念' },
-    { word: 'mete', pos: '', meaning: '给予，处置' },
-    { word: 'interference', pos: 'n.', meaning: '干涉' },
-    { word: 'accord', pos: 'v.', meaning: '/n.一致' },
-    { word: 'premises', pos: 'n.', meaning: '房屋' },
-    { word: 'convert', pos: 'v.', meaning: '转变，改变' },
-    { word: 'disused', pos: 'a.', meaning: '不再用的，废弃的' },
-    { word: 'fireplace', pos: 'n.', meaning: '壁炉' },
-    { word: 'muffle', pos: 'v.', meaning: '捂住，压抑' },
-    { word: 'emerge', pos: 'v.', meaning: '(从某处)出现' },
-    { word: 'credulous', pos: 'a.', meaning: '轻信的' },
-    { word: 'improbable', pos: 'a.', meaning: '不大可能的' },
-    { word: 'obscure', pos: 'a.', meaning: '不起眼的；v.遮掩，模糊' },
-    { word: 'maidservant', pos: 'n.', meaning: '女仆，女佣' },
-    { word: 'presume', pos: 'v.', meaning: '假定' },
-    { word: 'wickedly', pos: 'ad.', meaning: '心眼坏地，居心叵测地' },
-    { word: 'plot', pos: 'v.', meaning: '密谋' },
-    { word: 'downfall', pos: 'n.', meaning: '倒台，垮台' },
-    { word: 'naive', pos: 'a.', meaning: '天真的' },
-    { word: 'unacceptable', pos: 'a.', meaning: '不能接受的' },
-    { word: 'conspire', pos: 'v.', meaning: '(事件)巧合促成' },
-    { word: 'incredible', pos: 'a.', meaning: '难以置信的' },
-    { word: 'resemblance', pos: 'n.', meaning: '相似' },
-    { word: 'scorn', pos: 'n.', meaning: '嘲弄，挖苦' },
-    { word: 'acquaint', pos: 'v.', meaning: '使了解' },
-    { word: 'reunite', pos: 'v.', meaning: '使团聚' },
-    { word: 'assume', pos: 'v.', meaning: '假定，认为' },
-    { word: 'express', pos: 'n.', meaning: '快车 a.高速的' },
-    { word: 'punctual', pos: 'a.', meaning: '准时的' },
-    { word: 'condition', pos: 'v.', meaning: '使习惯于' },
-    { word: 'unshakable', pos: 'a.', meaning: '不可动摇的' },
-    { word: 'faith', pos: 'n.', meaning: '信任' },
-    { word: 'cancel', pos: 'v.', meaning: '取消' },
-    { word: 'exceptionally', pos: 'ad.', meaning: '例外地' },
-    { word: 'dislocate', pos: 'v.', meaning: '打乱(计划等)' },
-    { word: 'blame', pos: 'v.', meaning: '责怪' },
-    { word: 'consult', pos: 'v.', meaning: '请教，查阅' },
-    { word: 'direct', pos: 'ad.', meaning: '径直地' },
-    { word: 'odd', pos: 'a.', meaning: '奇怪的，异常的' },
-    { word: 'reflect', pos: 'v.', meaning: '细想' },
-    { word: 'advantage', pos: 'n.', meaning: '优势' },
-    { word: 'mighty', pos: 'a.', meaning: '强大的，有力的' },
-    { word: 'dawdle', pos: 'v.', meaning: '慢吞吞地动或做' },
-    { word: 'chug', pos: 'v.', meaning: '咔嚓咔嚓地响' },
-    { word: 'lodge', pos: 'v.', meaning: '提出；n.小屋，(旅游区的)小旅馆' },
-    { word: 'complaint', pos: 'n.', meaning: '抱怨' },
-    { word: 'triumph', pos: 'n.', meaning: '胜利; v.战胜' },
-    { word: 'asterisk', pos: 'n.', meaning: '星号(' },
-    { word: 'conduct', pos: 'v.', meaning: '引向，引导' },
-    { word: 'calendar', pos: 'n.', meaning: '历法，日历' },
-    { word: 'historian', pos: 'n.', meaning: '历史学家' },
-    { word: 'unique', pos: 'a.', meaning: '无与伦比的；独特的' },
-    { word: 'steadily', pos: '', meaning: 'solely' },
-    { word: 'advent', pos: 'n.', meaning: '出现，到来，来临' },
-    { word: 'agriculture', pos: 'n.', meaning: '农业' },
-    { word: 'assumption', pos: 'n.', meaning: '假定，设想' },
-    { word: 'dot', pos: 'n.', meaning: '小圆点' },
-    { word: 'symbol', pos: 'n.', meaning: '符号' },
-    { word: 'engrave', pos: 'v.', meaning: '雕刻' },
-    { word: 'ivory', pos: 'n.', meaning: '象牙制品' },
-    { word: 'phase', pos: 'n.', meaning: '月相，天相' },
-    { word: 'primitive', pos: 'a.', meaning: '原始的' },
-    { word: 'depict', pos: 'v.', meaning: '描画，描绘' },
-    { word: 'rough', pos: 'a.', meaning: '崎岖不平的' },
-    { word: 'boulder', pos: 'n.', meaning: '大石块' },
-    { word: 'pit', pos: 'v.', meaning: '使得坑坑洼洼' },
-    { word: 'perturb', pos: 'v.', meaning: '使不安' },
-    { word: 'underestimate', pos: 'v.', meaning: '低估' },
-    { word: 'swerve', pos: 'v.', meaning: '急转弯' },
-    { word: 'scoop', pos: 'v.', meaning: '挖出' },
-    { word: 'silly', pos: 'a.', meaning: '无意义的，无聊的' },
-    { word: 'advance', pos: 'a.', meaning: '预先的，事先获得的' },
-    { word: 'archway', pos: 'n.', meaning: '拱形门楼' },
-    { word: 'remonstrate', pos: 'v.', meaning: '规劝，告诫' },
-    { word: 'ironically', pos: '', meaning: 'permission' },
-    { word: 'pasture', pos: 'n.', meaning: '牧场' },
-    { word: 'idyllic', pos: 'a.', meaning: '田园诗的' },
-    { word: 'virtually', pos: 'ad.', meaning: '几乎，差不多' },
-    { word: 'dubious', pos: 'a.', meaning: '可疑的，怀疑的' },
-    { word: 'misery', pos: 'n.', meaning: '苦难' },
-    { word: 'acquaintance', pos: 'n.', meaning: '熟人' },
-    { word: 'treat', pos: 'n.', meaning: '难得的乐事，享受' },
-    { word: 'dweller', pos: 'n.', meaning: '居住者' },
-    { word: 'stagger', pos: 'v.', meaning: '摇晃，蹒跚' },
-    { word: 'exotic', pos: 'a.', meaning: '异乎寻常的，外来的' },
-    { word: 'glow', pos: 'n.', meaning: '白炽光' },
-    { word: 'descend', pos: 'v.', meaning: '下落，降临' },
-    { word: 'tuck', pos: 'v.', meaning: '缩进，隐藏' },
-    { word: 'obstinately', pos: 'ad.', meaning: '固执地，顽固地' },
-    { word: 'caveman', pos: 'n.', meaning: '(远古)洞穴人' },
-    { word: 'pot-holing', pos: 'n.', meaning: '洞穴探险，洞穴探险运动' },
-    { word: 'solitude', pos: 'n.', meaning: '孤独，寂寞' },
-    { word: 'lure', pos: 'v.', meaning: '引诱，诱惑' },
-    { word: 'pot-holer', pos: 'n.', meaning: '洞穴探险者' },
-    { word: 'rambler', pos: 'n.', meaning: '漫步者，散步者' },
-    { word: 'undertaking', pos: 'n.', meaning: '任务，工作' },
-    { word: 'foresight', pos: 'n.', meaning: '预见；深谋远虑' },
-    { word: 'foretell', pos: 'v.', meaning: '预言' },
-    { word: 'Grenoble', pos: 'n.', meaning: '格里诺布尔' },
-    { word: 'chasm', pos: 'n.', meaning: '断层，裂口，陷坑' },
-    { word: 'flaw', pos: 'n.', meaning: '小裂缝；缺点，瑕疵' },
-    { word: 'distinguished', pos: 'a.', meaning: '杰出的，著名的' },
-    { word: 'Everest', pos: 'n.', meaning: '珠穆朗玛峰' },
-    { word: 'wade', pos: 'v.', meaning: '涉水' },
-    { word: 'waterfall', pos: 'n.', meaning: '瀑布' },
-    { word: 'inflatable', pos: 'a.', meaning: '可充气的' },
-    { word: 'rubble', pos: 'n.', meaning: '碎瓦，瓦块' },
-    { word: 'insistent', pos: 'a.', meaning: '连续的，不断的' },
-    { word: 'boom', pos: 'v.', meaning: '轰响' },
-    { word: 'waterspout', pos: 'n.', meaning: '强大的水柱' },
-    { word: 'cleft', pos: 'n.', meaning: '裂隙，开口' },
-    { word: 'cavern', pos: 'n.', meaning: '大洞穴' },
-    { word: 'stalagmite', pos: 'n.', meaning: '石笋' },
-    { word: 'stalactite', pos: 'n.', meaning: '钟乳石' },
-    { word: 'limestone', pos: 'n.', meaning: '石灰石' },
-    { word: 'glisten', pos: '', meaning: 'eerie' },
-    { word: 'annual', pos: 'a.', meaning: '一年一度的' },
-    { word: 'teenager', pos: 'n.', meaning: '(13岁至19岁的)青少年' },
-    { word: 'capsize', pos: 'v.', meaning: '(船)翻' },
-    { word: 'shiver', pos: 'v.', meaning: '打颤，发抖' },
-    { word: 'dive', pos: 'v.', meaning: '(头向下)跳水' },
-    { word: 'haul', pos: 'v.', meaning: '拖曳' },
-    { word: 'hawser', pos: 'n.', meaning: '粗缆绳' },
-    { word: 'rim', pos: 'n.', meaning: '(圆形物品的)外沿，边' },
-    { word: 'winch', pos: 'n.', meaning: '绞车(带有绞盘的车)' },
-    { word: 'premium', pos: 'n.', meaning: '保险费' },
-    { word: 'recover', pos: 'v.', meaning: '使……得到补偿，弥补' },
-    { word: 'agonizing', pos: 'a.', meaning: '精神紧张的，提心吊胆的' },
-    { word: 'perch', pos: 'v.', meaning: '处于(高处)' },
-    { word: 'precariously', pos: 'ad.', meaning: '危险地，不稳固地' },
-    { word: 'overbalance', pos: 'v.', meaning: '失去平衡' },
-    { word: 'clamp', pos: 'n.', meaning: '夹钳，夹板' },
-    { word: 'vertically', pos: 'ad.', meaning: '垂直地' },
-    { word: 'torrent', pos: 'n.', meaning: '激流，洪流' },
-    { word: 'rebound', pos: 'v.', meaning: '弹回' },
-    { word: 'positively', pos: 'ad.', meaning: '绝对地，完全地' },
-    { word: 'cramped', pos: 'a.', meaning: '窄小的' },
-    { word: 'stuffy', pos: 'a.', meaning: '憋气的，闷气的' },
-    { word: 'monotonous', pos: 'a.', meaning: '枯燥的，乏味的，单调的' },
-    { word: 'rhythm', pos: 'n.', meaning: '有节奏的运动' },
-    { word: 'click', pos: 'v.', meaning: '发出咔哒声' },
-    { word: 'lull', pos: 'v.', meaning: '催人欲睡' },
-    { word: 'fresh', pos: 'a.', meaning: '精神饱满的' },
-    { word: 'uncrumpled', pos: 'a.', meaning: '没有垮下来' },
-    { word: 'democratic', pos: 'a.', meaning: '民主的' },
-    { word: 'restrict', pos: 'v.', meaning: '限制' },
-    { word: 'contention', pos: 'n.', meaning: '论点' },
-    { word: 'quintuplet', pos: 'n.', meaning: '五胞胎之一' },
-    { word: 'obscurity', pos: 'n.', meaning: '默默无闻' },
-    { word: 'radically', pos: 'ad.', meaning: '彻底地，完全地' },
-    { word: 'exclusive', pos: 'a.', meaning: '独占的，独家的' },
-    { word: 'untold', pos: 'a.', meaning: '数不尽地，无限的' },
-    { word: 'South', pos: '', meaning: '南达科他州(美国)' },
-    { word: 'perpetual', pos: 'a.', meaning: '永久的' },
-    { word: 'nursery', pos: 'n.', meaning: '育婴室，保育室' },
-    { word: 'commercialization', pos: 'n.', meaning: '商品化' },
-    { word: 'commodity', pos: 'n.', meaning: '商品' },
-    { word: 'plead', pos: 'v.', meaning: '找(借口)，辩解' },
-    { word: 'ignorance', pos: 'n.', meaning: '无知，不懂' },
-    { word: 'publication', pos: 'n.', meaning: '出版物，出版' },
-    { word: 'newlyweds', pos: 'n.', meaning: '新婚夫妇' },
-    { word: 'gaily', pos: 'ad.', meaning: '愉快地，高兴地' },
-    { word: 'leisure', pos: 'n.', meaning: '空闲' },
-    { word: 'keen', pos: 'a.', meaning: '热心的，渴望的' },
-    { word: 'advisory', pos: 'a.', meaning: '咨询的' },
-    { word: 'novice', pos: 'n.', meaning: '新手' },
-    { word: 'consumer', pos: 'n.', meaning: '消费者，顾客' },
-    { word: 'assemble', pos: 'v.', meaning: '装配，组装' },
-    { word: 'outlet', pos: 'n.', meaning: '出路，出口' },
-    { word: 'creative', pos: 'a.', meaning: '创造性的' },
-    { word: 'handyman', pos: 'n.', meaning: '手巧的人，能工巧匠' },
-    { word: 'resourceful', pos: 'a.', meaning: '足智多谋的' },
-    { word: 'fuse', pos: 'v.', meaning: '由于烧断保险丝而短路' },
-    { word: 'rickety', pos: 'a.', meaning: '要散架的，晃动的' },
-    { word: 'clog', pos: 'v.', meaning: '堵塞' },
-    { word: 'delusion', pos: 'n.', meaning: '错觉' },
-    { word: 'lawn mower', pos: '', meaning: '割草机' },
-    { word: 'adjustment', pos: 'n.', meaning: '调整' },
-    { word: 'screw', pos: 'n.', meaning: '螺丝钉' },
-    { word: 'dismantle', pos: 'v.', meaning: '拆卸' },
-    { word: 'chunk', pos: 'n.', meaning: '(厚)块' },
-    { word: 'snap', pos: 'v.', meaning: '绷断' },
-    { word: 'insurmountable', pos: 'a.', meaning: '不能克服的，难以对付的' },
-    { word: 'jigsaw', pos: 'n.', meaning: '线锯' },
-    { word: 'nag', pos: 'v.', meaning: '唠叨不休' },
-    { word: 'rust', pos: 'v.', meaning: '生锈' },
-    { word: 'pollution', pos: 'n.', meaning: '污染' },
-    { word: 'overpopulated', pos: 'a.', meaning: '人口多的' },
-    { word: 'over-industrialized', pos: 'a.', meaning: '过度工业化的' },
-    { word: 'sheer', pos: 'a.', meaning: '纯粹的，不掺杂的' },
-    { word: 'worldwide', pos: 'ad.', meaning: '在全世界' },
-    { word: 'overwhelm', pos: 'v.', meaning: '制服，使不知所措' },
-    { word: 'pollute', pos: 'v.', meaning: '污染' },
-    { word: 'pesticide', pos: 'n.', meaning: '杀虫剂' },
-    { word: 'fertilizer', pos: 'n.', meaning: '肥料' },
-    { word: 'salmonella', pos: 'n.', meaning: '沙门氏菌' },
-    { word: 'listeria', pos: 'n.', meaning: '利斯特杆菌' },
-    { word: 'vegetarian', pos: 'n.', meaning: '吃素的人' },
-    { word: 'organically-grown', pos: 'a.', meaning: '有机培植的(不施化肥和其他化学药品培植)' },
-    { word: 'insidious', pos: 'a.', meaning: '暗中为害的' },
-    { word: 'urban', pos: 'a.', meaning: '城市的' },
-    { word: 'burglar', pos: 'n.', meaning: '窃贼' },
-    { word: 'burgle', pos: 'v.', meaning: '入室偷窃' },
-    { word: 'scream', pos: 'v.', meaning: '尖叫' },
-    { word: 'profound', pos: 'a.', meaning: '极度的' },
-    { word: 'irritation', pos: 'n.', meaning: '烦躁' },
-    { word: 'incessantly', pos: 'ad.', meaning: '连续不断地' },
-    { word: 'whine', pos: 'v.', meaning: '发呜呜声' },
-    { word: 'maximum', pos: 'a.', meaning: '最大的' },
-    { word: 'technology', pos: 'n.', meaning: '技术' },
-    { word: 'contribution', pos: 'n.', meaning: '贡献' },
-    { word: 'mobile', pos: 'a.', meaning: '可移动的' },
-    { word: 'snore', pos: 'v.', meaning: '打鼾' },
-    { word: 'offender', pos: 'n.', meaning: '冒犯者' },
-    { word: 'staggering', pos: 'a.', meaning: '令人惊愕的' },
-    { word: 'trumpet', pos: 'v.', meaning: '吹号' },
-    { word: 'partner', pos: 'n.', meaning: '伙伴' },
-    { word: 'inaccessible', pos: 'a.', meaning: '难接近的，达不到的' },
-    { word: 'hospitable', pos: 'a.', meaning: '好客的' },
-    { word: 'hostile', pos: 'a.', meaning: '不友好的，有敌意的' },
-    { word: 'vicinity', pos: 'n.', meaning: '周围,附近' },
-    { word: 'architectural', pos: 'a.', meaning: '建筑的' },
-    { word: 'fresco', pos: 'n.', meaning: '壁画' },
-    { word: 'abruptly', pos: 'ad.', meaning: '突然地，意外地' },
-    { word: 'taunt', pos: 'n.', meaning: '/v.嘲笑，奚落人的话' },
-    { word: 'jibe', pos: '', meaning: 'good-humouredly' },
-    { word: '磁盘操作系统(Disk Operating System)', pos: '', meaning: 'Microsoft' },
-    { word: 'tint', pos: 'v.', meaning: '给染色' },
-    { word: 'delicate', pos: 'a.', meaning: '淡色的' },
-    { word: 'shade', pos: 'n.', meaning: '色度' },
-    { word: 'observant', pos: 'a.', meaning: '观察力敏锐的' },
-    { word: 'greyish', pos: 'a.', meaning: '浅灰色的' },
-    { word: 'dispel', pos: 'v.', meaning: '驱散，消除' },
-    { word: 'outlandish', pos: 'a.', meaning: '稀奇古怪的' },
-    { word: 'acquisition', pos: 'n.', meaning: '获得' },
-    { word: 'cosmetic', pos: 'n.', meaning: '化妆品' },
-    { word: 'fanciful', pos: 'a.', meaning: '想象出来的' },
-    { word: 'insoluble', pos: 'a.', meaning: '不可溶解的' },
-    { word: 'prompt', pos: 'v.', meaning: '敦促，激励' },
-    { word: 'syllable', pos: 'n.', meaning: '音节' },
-    { word: 'bewilderment', pos: 'n.', meaning: '迷惑，糊涂' },
-    { word: 'freckle', pos: 'n.', meaning: '雀斑' },
-    { word: 'evidently', pos: 'ad.', meaning: '显然地，明显地' },
-    { word: 'weird', pos: 'a.', meaning: '奇异的，古怪的' },
-    { word: 'concoction', pos: 'n.', meaning: '调制品' },
-    { word: 'intoxicate', pos: 'v.', meaning: '陶醉，得意忘形' },
-    { word: 'discreetly', pos: 'ad.', meaning: '谨慎地' },
-    { word: 'clutch', pos: '', meaning: 'adorn' },
-    { word: 'parliamentary', pos: 'a.', meaning: '国会的' },
-    { word: 'qualified', pos: 'a.', meaning: '合格的' },
-    { word: 'grievance', pos: 'n.', meaning: '不平，冤屈' },
-    { word: 'Justiteombudsman', pos: 'n.', meaning: '(瑞典的)司法特派员' },
-    { word: 'ombudsman', pos: 'n.', meaning: '(瑞典和英国的)司法特派员' },
-    { word: 'secretive', pos: 'a.', meaning: '保密的' },
-    { word: 'correspondence', pos: 'n.', meaning: '来往信件' },
-    { word: 'alter', pos: 'v.', meaning: '改变' },
-    { word: 'accusation', pos: 'n.', meaning: '谴责，指控' },
-    { word: 'ascertain', pos: 'v.', meaning: '查出，查明' },
-    { word: 'prejudiced', pos: 'a.', meaning: '有偏见的，不公平的' },
-    { word: 'insect', pos: 'n.', meaning: '昆虫' },
-    { word: 'wage', pos: 'v.', meaning: '进行(斗争)' },
-    { word: 'contaminate', pos: 'v.', meaning: '弄脏' },
-    { word: 'provocation', pos: 'n.', meaning: '惹怒' },
-    { word: 'spider', pos: 'n.', meaning: '蜘蛛' },
-    { word: 'wasp', pos: 'n.', meaning: '黄蜂' },
-    { word: 'moth', pos: 'n.', meaning: '飞蛾' },
-    { word: 'ant', pos: 'n.', meaning: '蚂蚁' },
-    { word: 'revulsion', pos: 'n.', meaning: '厌恶' },
-    { word: 'horde', pos: '', meaning: 'uncanny' },
-    { word: 'infinitely', pos: 'ad.', meaning: '无限地，无穷地' },
-    { word: 'solar', pos: 'a.', meaning: '太阳系的' },
-    { word: 'Venus', pos: 'n.', meaning: '金星' },
-    { word: 'Mars', pos: 'n.', meaning: '火星' },
-    { word: 'orbit', pos: 'n.', meaning: '运行轨道' },
-    { word: 'astronomical', pos: 'a.', meaning: '天文学的' },
-    { word: 'generate', pos: 'v.', meaning: '产生' },
-    { word: 'particle', pos: 'n.', meaning: '微粒，粒子' },
-    { word: 'Jupiter', pos: 'n.', meaning: '木星' },
-    { word: 'blot', pos: 'v.', meaning: '遮暗' },
-    { word: 'analyse', pos: 'v.', meaning: '分析' },
-    { word: 'bacteria', pos: 'n.', meaning: '细菌' },
-    { word: 'oxygen', pos: 'n.', meaning: '氧气' },
-    { word: 'realm', pos: 'n.', meaning: '领域' },
-    { word: 'endeavour', pos: 'n.', meaning: '努力' },
-    { word: 'boundary', pos: 'n.', meaning: '界线；边界' },
-    { word: 'pump', pos: 'v.', meaning: '用泵抽' },
-    { word: 'alien', pos: 'a.', meaning: '异国的，外国的' },
-    { word: 'emigrate', pos: 'v.', meaning: '移居(国外)' },
-    { word: 'absorb', pos: 'v.', meaning: '全神贯注于' },
-    { word: 'embedded', pos: 'a.', meaning: '扎牢的' },
-    { word: 'mortally', pos: 'ad.', meaning: '致命地' },
-    { word: 'comprehensive', pos: 'a.', meaning: '广泛的；丰富的' },
-    { word: 'milestone', pos: 'n.', meaning: '里程碑' },
-    { word: 'territory', pos: 'n.', meaning: '领地；地区' },
-    { word: 'milometer', pos: 'n.', meaning: '计程表' },
-    { word: 'spire', pos: 'n.', meaning: '(教堂的)塔尖' },
-    { word: 'retrace', pos: 'v.', meaning: '返回，重走' },
-    { word: 'stumble', pos: 'v.', meaning: '趔趄地走' },
-    { word: 'horizon', pos: 'n.', meaning: '地平线' },
-    { word: 'reservoir', pos: 'n.', meaning: '水库' },
-    { word: 'lurk', pos: 'v.', meaning: '潜藏' },
-    { word: 'hinder', pos: 'v.', meaning: '妨碍' },
-    { word: 'fingerprint', pos: 'n.', meaning: '指纹' },
-    { word: 'chaos', pos: 'n.', meaning: '混乱，无秩序' },
-    { word: 'inconceivable', pos: 'a.', meaning: '不可思议的' },
-    { word: 'veritable', pos: 'a.', meaning: '真正的，地地道道的' },
-    { word: 'magpie', pos: 'n.', meaning: '喜欢收藏物品的人' },
-    { word: 'toss', pos: 'v.', meaning: '扔' },
-    { word: 'discard', pos: 'v.', meaning: '丢弃' },
-    { word: 'constable', pos: 'n.', meaning: '警察' },
-    { word: 'ransack', pos: 'v.', meaning: '洗劫' },
-    { word: 'balcony', pos: 'n.', meaning: '阳台' },
-    { word: 'fussy', pos: 'a.', meaning: '大惊小怪的，小题大做的' },
-    { word: 'amass', pos: 'v.', meaning: '积聚，收集' },
-    { word: 'indiscriminate', pos: 'a.', meaning: '不加选择的' },
-    { word: 'clutter', pos: 'n.', meaning: '/v.一堆杂物;乱糟糟地堆满' },
-    { word: 'strong-minded', pos: 'a.', meaning: '意志坚强的' },
-    { word: 'relaxation', pos: 'n.', meaning: '休息，娱乐' },
-    { word: 'verify', pos: 'v.', meaning: '查证，核实' },
-    { word: 'bearing', pos: 'n.', meaning: '关系，联系' },
-    { word: 'like-minded', pos: 'a.', meaning: '志趣相投的' },
-    { word: 'specimen', pos: 'n.', meaning: '标本' },
-    { word: 'constructively', pos: 'ad.', meaning: '有益的，积极的' },
-    { word: 'contented', pos: 'a.', meaning: '心满意足的' },
-    { word: 'boredom', pos: 'n.', meaning: '烦恼，无聊' },
-    { word: 'punctuality', pos: 'n.', meaning: '准时' },
-    { word: 'rural', pos: 'ad.', meaning: '农村的' },
-    { word: 'intellectual', pos: 'n.', meaning: '知识分子' },
-    { word: 'abstruse', pos: 'a.', meaning: '深奥的' },
-    { word: 'coordinate', pos: 'v.', meaning: '协调' },
-    { word: 'reproach', pos: 'v.', meaning: '责备' },
-    { word: 'puncture', pos: 'v.', meaning: '刺破(轮胎)' },
-    { word: 'diversion', pos: 'n.', meaning: '改道，绕道' },
-    { word: 'trial', pos: 'n.', meaning: '讨厌的事、人' },
-    { word: 'fraction', pos: 'n.', meaning: '很小一点儿' },
-    { word: 'flourish', pos: 'n.', meaning: '挥舞(打手势)' },
-    { word: 'microscopic', pos: 'a.', meaning: '微小的' },
-    { word: 'adamant', pos: 'a.', meaning: '坚定的，不动摇的' },
-    { word: 'fossil man', pos: 'a.', meaning: '化石人' },
-    { word: 'recount', pos: 'v.', meaning: '叙述' },
-    { word: 'saga', pos: 'n.', meaning: '英雄故事' },
-    { word: 'legend', pos: 'n.', meaning: '传说，传奇' },
-    { word: 'migration', pos: 'n.', meaning: '迁移，移居' },
-    { word: 'anthropologist', pos: 'n.', meaning: '人类学家' },
-    { word: 'ancestor', pos: 'n.', meaning: '祖先' },
-    { word: 'Polynesian', pos: 'a.', meaning: '波利尼西亚(中太平洋之一群岛)的' },
-    { word: 'Indonesia', pos: 'n.', meaning: '印度尼西亚' },
-    { word: 'flint', pos: 'n.', meaning: '燧石' },
-    { word: 'rot', pos: 'v.', meaning: '烂掉' },
-    { word: 'beast', pos: 'n.', meaning: '野兽' },
-    { word: 'census', pos: '', meaning: 'acre' },
-    { word: 'summit', pos: 'n.', meaning: '顶峰' },
-    { word: 'attain', pos: '', meaning: 'perilous' },
-    { word: 'solitary', pos: 'a.', meaning: '唯一的' },
-    { word: 'impoverish', pos: 'v.', meaning: '使贫困' },
-    { word: 'Alpine', pos: 'a.', meaning: '阿尔卑斯山的' },
-    { word: 'flea-ridden', pos: 'a.', meaning: '布满跳蚤的' },
-    { word: 'coarse', pos: 'a.', meaning: '粗劣的' },
-    { word: 'boast', pos: 'v.', meaning: '自恃有' },
-    { word: 'parishioner', pos: 'n.', meaning: '教区居民' },
-    { word: 'shepherd', pos: 'n.', meaning: '牧羊人' },
-    { word: 'linen', pos: 'n.', meaning: '亚麻布' },
-    { word: 'the Alps', pos: 'n.', meaning: '阿尔卑斯山脉' },
-    { word: 'fundamentals', pos: 'n.', meaning: '基本原则' },
-    { word: 'glorious', pos: 'a.', meaning: '光辉灿烂的' },
-    { word: 'social climber', pos: '', meaning: '追求更高社会地位的人，向上爬的人' },
-    { word: 'devotion', pos: 'n.', meaning: '热爱' },
-    { word: 'cosmic', pos: 'a.', meaning: '宇宙的' },
-    { word: 'suburban', pos: 'a.', meaning: '见识不广的，偏狭的' },
-    { word: 'conceited', pos: 'a.', meaning: '自高自大的' },
-    { word: 'presumptuous', pos: 'a.', meaning: '自以为是的，放肆的' },
-    { word: 'fatuous', pos: 'a.', meaning: '愚蠢的' },
-    { word: 'cliche', pos: 'n.', meaning: '陈词滥调' },
-    { word: 'goodwill', pos: 'n.', meaning: '友好' },
-    { word: 'cricket', pos: 'n.', meaning: '板球' },
-    { word: 'inclination', pos: 'n.', meaning: '意愿' },
-    { word: 'contest', pos: '', meaning: 'orgy' },
-    { word: 'competitive', pos: 'a.', meaning: '竞争性的' },
-    { word: 'patriotism', pos: 'n.', meaning: '地方观念，爱国主义' },
-    { word: 'disgrace', pos: 'v.', meaning: '使丢脸' },
-    { word: 'savage', pos: 'a.', meaning: '野性的' },
-    { word: 'combative', pos: 'a.', meaning: '好斗的' },
-    { word: 'mimic warfare', pos: 'n.', meaning: '模拟战争' },
-    { word: 'behaviour', pos: 'n.', meaning: '行动，举止' },
-    { word: 'absurd', pos: 'a.', meaning: '荒唐的' },
-    { word: 'bat', pos: 'n.', meaning: '蝙蝠' },
-    { word: 'strictly', pos: 'ad.', meaning: '明确地' },
-    { word: 'utilitarian', pos: 'a.', meaning: '实用的' },
-    { word: 'appreciation', pos: 'n.', meaning: '理解' },
-    { word: 'obstruction', pos: 'n.', meaning: '障碍物' },
-    { word: 'elapse', pos: 'v.', meaning: '消逝' },
-    { word: 'hull', pos: 'n.', meaning: '船体' },
-    { word: 'interval', pos: 'n.', meaning: '间隔' },
-    { word: 'receipt', pos: 'n.', meaning: '收到' },
-    { word: 'apparatus', pos: 'n.', meaning: '仪器' },
-    { word: 'shoal', pos: 'n.', meaning: '鱼群' },
-    { word: 'herring', pos: 'n.', meaning: '鲱鱼' },
-    { word: 'grace', pos: 'v.', meaning: '给…增光' },
-    { word: 'tariff', pos: 'n.', meaning: '关税' },
-    { word: 'dialysis', pos: 'n.', meaning: '分离，分解；透析，渗析' },
-    { word: 'electrocute', pos: 'v.', meaning: '使触电身亡' },
-    { word: 'eliminate', pos: 'v.', meaning: '消灭' },
-    { word: 'device', pos: 'n.', meaning: '仪器，器械' },
-    { word: 'hammer out', pos: 'v.', meaning: '推敲' },
-    { word: 'pact', pos: 'n.', meaning: '合同，条约，公约' },
-    { word: 'espionage(title)', pos: 'n.', meaning: '间谍活动' },
-    { word: 'proceeds', pos: 'n.', meaning: '所得' },
-    { word: 'skirmish', pos: 'n.', meaning: '小规模战斗' },
-    { word: 'silicon', pos: 'n.', meaning: '硅' },
-    { word: 'integrated', pos: 'a.', meaning: '综合的' },
-    { word: 'circuit', pos: 'n.', meaning: '线路，电路' },
-    { word: 'California', pos: 'n.', meaning: '加利福尼亚(美国州名)' },
-    { word: 'workstation', pos: 'n.', meaning: '工作站' },
-    { word: 'innovator', pos: 'n.', meaning: '改革者' },
-    { word: 'forge', pos: 'v.', meaning: '发展' },
-    { word: 'memory-chip', pos: 'n.', meaning: '内存条' },
-    { word: 'AT&T', pos: '', meaning: '美国电话电报公司(American Telephone and Telegraph)' },
-    { word: 'Kansas', pos: 'n.', meaning: '堪萨斯(美国州名)' },
-    { word: 'Missouri', pos: 'n.', meaning: '密苏里(美国州名)' },
-    { word: 'oppress', pos: 'v.', meaning: '忧郁，压抑' },
-    { word: 'justification', pos: 'n.', meaning: '正当理由' },
-    { word: 'justifiably', pos: 'ad.', meaning: '无可非议地' },
-    { word: 'cheat', pos: 'v.', meaning: '欺骗' },
-    { word: 'abject', pos: 'a.', meaning: '可怜的' },
-    { word: 'ignoble', pos: 'a.', meaning: '不体面的，可耻的' },
-    { word: 'impersonal', pos: 'a.', meaning: '超脱个人感情影响的' },
-    { word: 'ego', pos: 'n.', meaning: '自我' },
-    { word: 'recede', pos: 'v.', meaning: '退去' },
-    { word: 'increasingly', pos: 'ad.', meaning: '日益，不断' },
-    { word: 'passionately', pos: 'ad.', meaning: '激昂地' },
-    { word: 'painlessly', pos: 'ad.', meaning: '毫无痛苦地' },
-    { word: 'vitality', pos: 'n.', meaning: '精力' },
-    { word: 'weariness', pos: 'n.', meaning: '疲惫感' },
-    { word: 'forgery', pos: 'n.', meaning: '伪造(文件，签名等)' },
-    { word: 'adopt', pos: 'v.', meaning: '采用' },
-    { word: 'facilitate', pos: 'v.', meaning: '使便利' },
-    { word: 'mineral', pos: 'a.', meaning: '矿物的' },
-    { word: 'boring', pos: 'n.', meaning: '钻孔' },
-    { word: 'derrick', pos: 'n.', meaning: '井架' },
-    { word: 'block and tackle', pos: '', meaning: '滑轮组' },
-    { word: 'cascade', pos: 'v.', meaning: '瀑布似地落下' },
-    { word: 'turbulent', pos: 'a.', meaning: '狂暴的' },
-    { word: 'dust devil', pos: '', meaning: '小尘暴，尘旋风' },
-    { word: 'squall', pos: 'n.', meaning: '暴风' },
-    { word: 'eddy', pos: 'n.', meaning: '旋涡' },
-    { word: 'grid', pos: 'n.', meaning: '坐标方格' },
-    { word: 'sensor', pos: 'n.', meaning: '传感器' },
-    { word: 'humidity', pos: 'n.', meaning: '湿度' },
-    { word: 'meteorologist', pos: 'n.', meaning: '气象学家' },
-    { word: 'Princeton', pos: 'n.', meaning: '普林斯顿(美国城市名)' },
-    { word: 'Mew Jersey', pos: 'n.', meaning: '新泽西(美国州名)' },
-    { word: 'fluctuation', pos: 'n.', meaning: '起伏，波动' },
-    { word: 'deviation', pos: 'n.', meaning: '偏差' },
-    { word: 'secrecy (title)', pos: '', meaning: 'effectiveness' },
-    { word: 'patent', pos: 'n.', meaning: '专利 v.得到专利权' },
-    { word: 'agent', pos: 'n.', meaning: '情报人员' },
-    { word: 'physiological', pos: 'a.', meaning: '生理的' },
-    { word: 'deprive', pos: 'v.', meaning: '剥夺' },
-    { word: 'monstrous', pos: 'a.', meaning: '畸形的' },
-    { word: 'edifice', pos: 'n.', meaning: '大厦' },
-    { word: 'toxic', pos: 'a.', meaning: '有毒的' },
-    { word: 'ceaselessly', pos: 'ad.', meaning: '不停地' },
-    { word: 'throng', pos: 'v.', meaning: '挤满，壅塞' },
-    { word: 'settlement', pos: 'n.', meaning: '新拓居地' },
-    { word: 'enterprising', pos: 'a.', meaning: '有事业心的' },
-    { word: 'settler', pos: 'n.', meaning: '移居者' },
-    { word: 'Antipodes', pos: 'n.', meaning: '(the～)新西兰和澳大利亚(英)' },
-    { word: 'promiscuous', pos: 'a.', meaning: '杂乱的' },
-    { word: 'domesticate', pos: 'v.', meaning: '驯养' },
-    { word: 'porpoise(title)', pos: 'n.', meaning: '海豚' },
-    { word: 'mariner', pos: 'n.', meaning: '水手' },
-    { word: 'formation', pos: 'n.', meaning: '队形' },
-    { word: 'dolphin', pos: 'n.', meaning: '海豚科动物' },
-    { word: 'unconscious', pos: 'a.', meaning: '不省人事的' },
-    { word: 'beaver', pos: 'n.', meaning: '海狸' },
-    { word: 'ashore', pos: 'ad.', meaning: '上岸' },
-    { word: 'waterlogged', pos: 'a.', meaning: '浸满水的' },
-    { word: 'scent', pos: 'n.', meaning: '香味' },
-    { word: 'ensue', pos: 'v.', meaning: '接着发生' },
-    { word: 'intrigue', pos: 'v.', meaning: '引起兴趣' },
-    { word: 'indignity', pos: 'n.', meaning: '侮辱' },
-    { word: 'snout', pos: 'n.', meaning: '口鼻部' },
-    { word: 'shove', pos: 'v.', meaning: '硬推' },
-    { word: 'aquaplane', pos: 'n.', meaning: '驾浪滑水板' },
-    { word: 'oceanarium', pos: 'n.', meaning: '水族馆' },
-    { word: 'swoop', pos: 'v.', meaning: '猛扑' },
-    { word: 'belly', pos: 'n.', meaning: '腹部' },
-    { word: 'equilibrium', pos: 'n.', meaning: '平衡' },
-    { word: 'butt', pos: 'v.', meaning: '碰撞' },
-    { word: 'tissue', pos: 'n.', meaning: '组织' },
-    { word: 'plausible', pos: 'a.', meaning: '似乎有理的' },
-    { word: 'hypothesis', pos: 'n.', meaning: '假说' },
-    { word: 'electroencephalograph', pos: 'n.', meaning: '脑电图仪' },
-    { word: 'electrode', pos: 'n.', meaning: '电极' },
-    { word: 'scaly', pos: 'n.', meaning: '头发' },
-    { word: 'psychiatrist', pos: 'n.', meaning: '精神病学家' },
-    { word: 'punctuate', pos: 'v.', meaning: '不时介入' },
-    { word: 'jerky', pos: 'a.', meaning: '急动的' },
-    { word: 'disorder', pos: 'n.', meaning: '失调' },
-    { word: 'implication', pos: 'n.', meaning: '表明' },
-    { word: 'saliva', pos: 'n.', meaning: '唾液' },
-    { word: 'digestive', pos: 'a.', meaning: '助消化的' },
-    { word: 'defy', pos: 'v.', meaning: '使不可能' },
-    { word: 'analysis', pos: 'n.', meaning: '分析' },
-    { word: 'prey', pos: 'n.', meaning: '被捕食的动物' },
-    { word: 'fierce', pos: 'a.', meaning: '凶猛的' },
-    { word: 'tussle', pos: 'n.', meaning: '扭打' },
-    { word: 'carnivore', pos: 'n.', meaning: '食肉动物' },
-    { word: 'vertebrate', pos: 'n.', meaning: '脊椎动物' },
-    { word: 'lizard', pos: 'n.', meaning: '蜥蜴' },
-    { word: 'concoct', pos: 'v.', meaning: '调制' },
-    { word: 'potency', pos: 'n.', meaning: '效力' },
-    { word: 'conversion', pos: 'n.', meaning: '转变' },
-    { word: 'arsenic', pos: 'n.', meaning: '砒霜' },
-    { word: 'strychnine', pos: 'n.', meaning: '马钱子碱' },
-    { word: 'mamba', pos: 'n.', meaning: '树眼镜蛇' },
-    { word: 'cobra', pos: 'n.', meaning: '眼镜蛇' },
-    { word: 'venom', pos: 'n.', meaning: '毒液' },
-    { word: 'neurotoxic', pos: 'a.', meaning: '毒害神经的' },
-    { word: 'viper', pos: 'n.', meaning: '蝰蛇' },
-    { word: 'rattlesnake', pos: 'n.', meaning: '响尾蛇' },
-    { word: 'haemolytic', pos: 'a.', meaning: '溶血性的' },
-    { word: 'viperine', pos: 'a.', meaning: '毒蛇的' },
-    { word: 'supreme', pos: 'a.', meaning: '首屈一指的' },
-    { word: 'protagonist', pos: 'n.', meaning: '主角' },
-    { word: 'outlaw', pos: 'n.', meaning: '逃犯，亡命之徒' },
-    { word: 'framed', pos: 'a.', meaning: '遭到陷害的' },
-    { word: 'vicious', pos: 'a.', meaning: '恶毒的' },
-    { word: 'mythology', pos: 'n.', meaning: '神话' },
-    { word: 'vanished', pos: 'a.', meaning: '消失了的' },
-    { word: 'absurdly', pos: 'ad.', meaning: '荒诞地' },
-    { word: 'arena', pos: 'n.', meaning: '竞技场地' },
-    { word: 'encroaching', pos: 'a.', meaning: '渐渐渗入的' },
-    { word: 'humanity', pos: 'n.', meaning: '人类' },
-    { word: 'indifferently', pos: 'ad.', meaning: '不在乎地' },
-    { word: 'grimly', pos: 'ad.', meaning: '可怖地' },
-    { word: 'whimsical', pos: 'a.', meaning: '怪诞的' },
-    { word: 'shatter', pos: '', meaning: 'twofold' },
-    { word: 'propulsion', pos: 'n.', meaning: '推进力' },
-    { word: 'utter', pos: 'a.', meaning: '完全的' },
-    { word: 'radiance', pos: 'n.', meaning: '发光' },
-    { word: 'intimation', pos: 'n.', meaning: '暗示' },
-    { word: 'unutterable', pos: 'a.', meaning: '不可言传的' },
-    { word: 'invest', pos: 'v.', meaning: '赋予' },
-    { word: 'auditory', pos: 'a.', meaning: '听觉的' },
-    { word: 'inadequate', pos: 'a.', meaning: '不适当的' },
-    { word: 'plea', pos: 'n.', meaning: '要求' },
-    { word: 'abatement', pos: 'n.', meaning: '减少' },
-    { word: 'discredit', pos: '', meaning: 'allegation' },
-    { word: 'snag', pos: 'n.', meaning: '疑难之处，障碍' },
-    { word: 'anecdote', pos: 'n.', meaning: '轶闻' },
-    { word: 'slander', pos: 'v.', meaning: '诽谤' },
-    { word: 'persecute', pos: 'v.', meaning: '迫害' },
-    { word: 'squadron', pos: 'n.', meaning: '中队' },
-    { word: 'psychiatric', pos: 'a.', meaning: '精神病学的' },
-    { word: 'diagnosis', pos: 'n.', meaning: '诊断' },
-    { word: 'orphanage', pos: 'n.', meaning: '孤儿院' },
-    { word: 'preservation', pos: 'n.', meaning: '保存' },
-    { word: 'silt', pos: 'n.', meaning: '淤泥' },
-    { word: 'scavenger', pos: 'n.', meaning: '食腐动物' },
-    { word: 'vole', pos: 'n.', meaning: '野鼠，鼹鼠' },
-    { word: 'decompose', pos: 'v.', meaning: '腐烂' },
-    { word: 'Siberian', pos: 'a.', meaning: '西伯利亚的' },
-    { word: 'paleontological', pos: 'a.', meaning: '古生物学的' },
-    { word: 'St.Petersbrug', pos: 'n.', meaning: '圣彼得堡' },
-    { word: 'sabre-toothed', pos: 'a.', meaning: '长着锐利的长犬牙的' },
-    { word: 'venture', pos: 'v.', meaning: '冒险' },
-    { word: 'bogged', pos: 'a.', meaning: '陷入泥沼的，陷于困境的' },
-    { word: 'galleon', pos: 'n.', meaning: '大型帆船' },
-    { word: 'Stockholm', pos: 'n.', meaning: '斯德哥尔摩' },
-    { word: 'flagship', pos: 'n.', meaning: '旗舰' },
-    { word: 'imperial', pos: 'a.', meaning: '帝国的' },
-    { word: 'hurricane', pos: 'n.', meaning: '飓风' },
-    { word: 'might', pos: 'n.', meaning: '力量' },
-    { word: 'ferment', pos: 'n.', meaning: '激动不安' },
-    { word: 'ornament', pos: 'v.', meaning: '装饰' },
-    { word: 'riot', pos: 'n.', meaning: '丰富' },
-    { word: 'demon', pos: 'n.', meaning: '恶魔' },
-    { word: 'mermaid', pos: 'n.', meaning: '美人鱼' },
-    { word: 'cherub', pos: 'n.', meaning: '小天使' },
-    { word: 'zoomorphic', pos: 'a.', meaning: '兽形的' },
-    { word: 'ablaze', pos: 'a.', meaning: '光彩的' },
-    { word: 'portray', pos: 'v.', meaning: '绘制' },
-    { word: 'drifting', pos: 'a.', meaning: '弥漫的' },
-    { word: 'churn', pos: 'v.', meaning: '翻滚' },
-    { word: 'pennant', pos: 'n.', meaning: '三角旗' },
-    { word: 'superstructure', pos: 'n.', meaning: '上部结构' },
-    { word: 'armament', pos: 'n.', meaning: '军械' },
-    { word: 'triple', pos: 'a.', meaning: '三层的' },
-    { word: 'mount', pos: 'v.', meaning: '登上' },
-    { word: 'bronze', pos: 'n.', meaning: '青铜' },
-    { word: 'cannon', pos: 'n.', meaning: '加农炮' },
-    { word: 'majestic', pos: 'a.', meaning: '威严的' },
-    { word: 'muzzle', pos: 'n.', meaning: '炮口' },
-    { word: 'freshen', pos: 'v.', meaning: '变强' },
-    { word: 'ordnance', pos: '', meaning: 'heave' },
-    { word: 'forefathers', pos: '', meaning: 'fervently' },
-    { word: 'Solent', pos: 'n.', meaning: '(英国的)苏伦特海峡' },
-    { word: 'sensation', pos: 'n.', meaning: '轰动' },
-    { word: 'dune', pos: 'n.', meaning: '沙丘' },
-    { word: 'plantation', pos: 'n.', meaning: '种植园' },
-    { word: 'hover-train', pos: 'n.', meaning: '气垫火车' },
-    { word: 'navigation', pos: 'n.', meaning: '航海' },
-    { word: 'sounding', pos: 'n.', meaning: '水深度' },
-    { word: 'porcupine', pos: 'n.', meaning: '箭猪' },
-    { word: 'dredge', pos: 'v.', meaning: '挖掘' },
-    { word: 'expedition', pos: 'n.', meaning: '远征' },
-    { word: 'physicist', pos: 'n.', meaning: '物理学家' },
-    { word: 'magnitude', pos: 'n.', meaning: '很多' },
-    { word: 'topography', pos: 'n.', meaning: '地形' },
-    { word: 'crust', pos: 'n.', meaning: '地壳' },
-    { word: 'rugged', pos: '', meaning: 'tableland' },
-    { word: 'clash', pos: 'n.', meaning: '冲突' },
-    { word: 'Inquisition', pos: 'n.', meaning: '(罗马天主教的)宗教法庭' },
-    { word: 'perspective', pos: 'n.', meaning: '观点，看法' },
-    { word: 'means', pos: 'n.', meaning: '方法，手段，财产，资力' },
-    { word: 'hamper', pos: '', meaning: 'savannah' },
-    { word: 'senior', pos: 'a.', meaning: '资历深的，年长的' },
-    { word: 'overheads', pos: 'n.', meaning: '一般费用' },
-    { word: 'initiative', pos: 'n.', meaning: '主动，积极性' },
-    { word: 'checker', pos: 'n.', meaning: '检查人员' },
-    { word: 'foreman', pos: 'n.', meaning: '监工' },
-    { word: 'dividend', pos: 'n.', meaning: '红利' },
-    { word: 'likelihood', pos: 'n.', meaning: '可能性' },
-    { word: 'infant', pos: '', meaning: 'vulnerable' },
-    { word: 'virtual', pos: 'a.', meaning: '实际上的' },
-    { word: 'moot', pos: 'a.', meaning: '争论未决的' },
-    { word: 'run-down', pos: 'a.', meaning: '破旧的' },
-    { word: 'friction', pos: 'n.', meaning: '摩擦' },
-    { word: 'contamination', pos: '', meaning: 'sanitation' },
-    { word: 'inspiration', pos: 'n.', meaning: '灵感' },
-    { word: 'Kashmir', pos: 'n.', meaning: '克什米尔' },
-    { word: 'interweave', pos: 'v.', meaning: '交织' },
-    { word: 'afresh', pos: 'ad.', meaning: '重新' },
-    { word: 'discern', pos: 'v.', meaning: '辨明，领悟' },
-    { word: 'indescribable', pos: 'a.', meaning: '无法描述的' },
-    { word: 'blur', pos: 'v.', meaning: '使…模糊不清' },
-    { word: 'yeast', pos: 'n.', meaning: '激动' },
-    { word: 'fathom', pos: 'n.', meaning: '噚（1噚等于1.8米）' },
-    { word: 'interminably', pos: 'ad.', meaning: '没完没了地' },
-    { word: 'winkle', pos: '', meaning: 'incidentally' },
-    { word: 'transmit', pos: 'v.', meaning: '传送' },
-    { word: 'exquisite', pos: 'a.', meaning: '高雅的' },
-    { word: 'phenomena', pos: 'n.', meaning: '现象' },
-    { word: 'crest', pos: 'n.', meaning: '浪峰' },
-    { word: 'trough', pos: 'n.', meaning: '波谷' },
-    { word: 'vertical', pos: 'a.', meaning: '垂直的' },
-    { word: 'horizontal', pos: 'a.', meaning: '水平的' },
-    { word: 'actuality', pos: 'n.', meaning: '现实' },
-    { word: 'catastrophic', pos: 'a.', meaning: '大灾难的' },
-    { word: 'tough', pos: 'a.', meaning: '强硬的' },
-    { word: 'resentful', pos: 'a.', meaning: '仇恨不满的' },
-    { word: 'assign', pos: 'v.', meaning: '分配，指派' },
-    { word: 'mahout', pos: 'n.', meaning: '驯象的人' },
-    { word: 'calf', pos: 'n.', meaning: '幼仔' },
-    { word: 'pine', pos: 'v.', meaning: '消瘦' },
-    { word: 'underline', pos: 'v.', meaning: '着重说明，强调' },
-    { word: 'tame', pos: 'a.', meaning: '养驯服了的' },
-    { word: 'tether', pos: 'v.', meaning: '(用绳)拴' },
-    { word: 'ticklish', pos: 'a.', meaning: '难对付的，棘手的' },
-    { word: 'alarming', pos: 'a.', meaning: '引起惊恐的' },
-    { word: 'accompaniment', pos: 'n.', meaning: '伴奏' },
-    { word: 'soothe', pos: 'v.', meaning: '镇定' },
-    { word: 'chant', pos: 'n.', meaning: '单调的歌' },
-    { word: 'reinforce', pos: 'v.', meaning: '加强' },
-    { word: 'endearing', pos: 'a.', meaning: '惹人喜爱的' },
-    { word: 'epithet', pos: 'n.', meaning: '称呼' },
-    { word: 'blandishment', pos: 'n.', meaning: '奉承' },
-    { word: 'lash', pos: 'v.', meaning: '猛烈地甩' },
-    { word: 'curl', pos: 'v.', meaning: '使卷曲' },
-    { word: 'earthquake', pos: 'n.', meaning: '地震' }
+    { word: 'pole', pos: 'n.', meaning: '(地球的)极', phonetic: '/pəul/' },
+    { word: 'flight', pos: 'n.', meaning: '飞行', phonetic: '/flait/' },
+    { word: 'explorer', pos: 'n.', meaning: '探险家', phonetic: '/ik\'splɔ:rə/' },
+    { word: 'lie', pos: 'v.', meaning: '处于', phonetic: '/lai/' },
+    { word: 'serious', pos: 'adj.', meaning: '严重的', phonetic: '/\'siəriəs/' },
+    { word: 'point', pos: 'n.', meaning: '地点', phonetic: '/pɔint/' },
+    { word: 'seem', pos: 'v.', meaning: '似乎，好像', phonetic: '/si:m/' },
+    { word: 'crash', pos: 'v.', meaning: '坠毁', phonetic: '/kræʃ/' },
+    { word: 'sack', pos: 'n.', meaning: '袋子', phonetic: '/sæk/' },
+    { word: 'clear', pos: 'v.', meaning: '越过', phonetic: '/kliə/' },
+    { word: 'aircraft', pos: 'n.', meaning: '飞机', phonetic: '/\'eəkrɑ:ft/' },
+    { word: 'endless', pos: 'adj.', meaning: '无尽的', phonetic: '/\'endlis/' },
+    { word: 'plain', pos: 'n.', meaning: '平原', phonetic: '/plein/' }
   ],
 }
 const articleNce2L44: Article = {
@@ -3038,10 +2238,15 @@ const articleNce2L44: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'umbrella', pos: 'n.', meaning: '伞' },
-    { word: 'bring', pos: 'v.', meaning: '带来，送来' },
-    { word: 'serve', pos: 'v.', meaning: '照应，服务，接待' },
-    { word: 'jeans', pos: 'n.', meaning: '牛仔裤' }
+    { word: 'forest', pos: 'n.', meaning: '森林', phonetic: '/\'fɔrist/' },
+    { word: 'risk', pos: 'n.', meaning: '危险，冒险', phonetic: '/risk/' },
+    { word: 'picnic', pos: 'n.', meaning: '野餐', phonetic: '/\'piknik/' },
+    { word: 'edge', pos: 'n.', meaning: '边缘', phonetic: '/edʒ/' },
+    { word: 'strap', pos: 'n.', meaning: '带，皮带', phonetic: '/stræp/' },
+    { word: 'possession', pos: 'n.', meaning: '所有', phonetic: '/pə\'zeʃən/' },
+    { word: 'breath', pos: 'n.', meaning: '呼吸', phonetic: '/breθ/' },
+    { word: 'contents', pos: 'n.', meaning: '(常用复数)内有的物品', phonetic: '/\'kɔ:ntents/' },
+    { word: 'mend', pos: 'v.', meaning: '修理', phonetic: '/mend/' }
   ],
 }
 const articleNce2L45: Article = {
@@ -3059,16 +2264,12 @@ const articleNce2L45: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'today', pos: 'ad.', meaning: '今天' },
-    { word: 'brown', pos: 'a.', meaning: '棕色的' },
-    { word: 'Thursday', pos: '', meaning: '星期四' },
-    { word: 'bulletin', pos: 'n.', meaning: '新闻简报' },
-    { word: 'announcer', pos: 'n.', meaning: '(电视、电台)播音员' },
-    { word: 'macaroni', pos: 'n.', meaning: '通心面，空心面条' },
-    { word: 'leading', pos: '', meaning: 'grower' },
-    { word: 'Signor', pos: 'n.', meaning: '(意大利语)先生' },
-    { word: 'champion', pos: 'n.', meaning: '冠军' },
-    { word: 'studio', pos: 'n.', meaning: '播音室' }
+    { word: 'clear', pos: 'adj.', meaning: '无罪的，不亏心的', phonetic: '/kliə/' },
+    { word: 'conscience', pos: 'n.', meaning: '良心，道德心', phonetic: '/\'kɔnʃəns/' },
+    { word: 'wallet', pos: 'n.', meaning: '皮夹，钱夹', phonetic: '/\'wɑ:lit/' },
+    { word: 'savings', pos: 'n.', meaning: '存款', phonetic: '/\'seiviŋz/' },
+    { word: 'villager', pos: 'n.', meaning: '村民', phonetic: '/\'vilidʒə/' },
+    { word: 'per cent', pos: 'n.', meaning: '百分之…', phonetic: '/pə\'sent/' }
   ],
 }
 const articleNce2L46: Article = {
@@ -3086,7 +2287,18 @@ const articleNce2L46: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'blue', pos: 'a.', meaning: '蓝色的' }
+    { word: 'unload', pos: 'v.', meaning: '卸(货)', phonetic: '/ʌn\'ləud/' },
+    { word: 'wooden', pos: 'adj.', meaning: '木制的', phonetic: '/\'wudn/' },
+    { word: 'extremely', pos: 'adv.', meaning: '非常，极其', phonetic: '/ik\'stri:mli/' },
+    { word: 'occur', pos: 'v.', meaning: '发生', phonetic: '/ə\'kə:/' },
+    { word: 'astonish', pos: 'v.', meaning: '使惊讶', phonetic: '/ə\'stɔniʃ/' },
+    { word: 'pile', pos: 'n.', meaning: '堆', phonetic: '/pail/' },
+    { word: 'woollen', pos: 'n.', meaning: '羊毛的', phonetic: '/\'wulən/' },
+    { word: 'goods', pos: 'n.', meaning: '(常用复数)货物，商品', phonetic: '/gudz/' },
+    { word: 'discover', pos: 'v.', meaning: '发现', phonetic: '/dis\'kʌvə/' },
+    { word: 'admit', pos: 'v.', meaning: '承认', phonetic: '/əd\'mit/' },
+    { word: 'confine', pos: 'v.', meaning: '关在(一个狭小的空间里)', phonetic: '/kən\'fain/' },
+    { word: 'normal', pos: 'adj.', meaning: '正常的，通常的', phonetic: '/\'nɔ:məl/' }
   ],
 }
 const articleNce2L47: Article = {
@@ -3104,15 +2316,15 @@ const articleNce2L47: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'perhaps', pos: 'ad.', meaning: '大概' },
-    { word: 'hammer', pos: 'n.', meaning: '锤子' },
-    { word: 'palace', pos: 'n.', meaning: '宫殿' },
-    { word: 'extraordinary', pos: 'a.', meaning: '不平常的，非凡的' },
-    { word: 'exhibition', pos: 'n.', meaning: '展览' },
-    { word: 'iron', pos: 'n.', meaning: '铁' },
-    { word: 'various', pos: 'a.', meaning: '各种各样的' },
-    { word: 'machinery', pos: 'n.', meaning: '机器' },
-    { word: 'display', pos: '', meaning: 'steam' }
+    { word: 'thirsty', pos: 'adj.', meaning: '贪杯的', phonetic: '/\'θə:sti/' },
+    { word: 'ghost', pos: 'n.', meaning: '鬼魂', phonetic: '/gəust/' },
+    { word: 'haunt', pos: 'v.', meaning: '(鬼)来访，闹鬼', phonetic: '/hɔ:nt/' },
+    { word: 'block', pos: 'v.', meaning: '堵', phonetic: '/blɔk/' },
+    { word: 'furniture', pos: 'n.', meaning: '家具', phonetic: '/\'fə:nitʃə/' },
+    { word: 'whisky', pos: 'n.', meaning: '威士忌酒', phonetic: '/\'wiski/' },
+    { word: 'suggest', pos: 'v.', meaning: '暗示', phonetic: '/sə\'dʒest/' },
+    { word: 'shake', pos: 'v.', meaning: '摇动', phonetic: '/ʃeik/' },
+    { word: 'accept', pos: 'v.', meaning: '接受', phonetic: '/ək\'sept/' }
   ],
 }
 const articleNce2L48: Article = {
@@ -3130,9 +2342,12 @@ const articleNce2L48: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'green', pos: 'a.', meaning: '绿色' },
-    { word: 'conductor', pos: 'n.', meaning: '售票员' },
-    { word: 'view', pos: 'n.', meaning: '景色' }
+    { word: 'pull', pos: 'v.', meaning: '拔', phonetic: '/pul/' },
+    { word: 'cotton', pos: 'n.', meaning: '药棉', phonetic: '/\'kɔtn/' },
+    { word: 'collect', pos: 'v.', meaning: '搜集', phonetic: '/kə\'lekt/' },
+    { word: 'collection', pos: 'n.', meaning: '收藏品，收集品', phonetic: '/kə\'lekʃən/' },
+    { word: 'nod', pos: 'v.', meaning: '点头', phonetic: '/nɔd/' },
+    { word: 'meanwhile', pos: 'adv.', meaning: '同时', phonetic: '/\'mi:n\'wail/' }
   ],
 }
 const articleNce2L49: Article = {
@@ -3152,10 +2367,19 @@ const articleNce2L49: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'officer', pos: 'n.', meaning: '官员' },
-    { word: 'track', pos: '', meaning: 'sign' },
-    { word: 'object', pos: 'v.', meaning: '不赞成，反对' },
-    { word: 'descend', pos: 'v.', meaning: '下落，降临' }
+    { word: 'tired', pos: 'adj.', meaning: '厌烦的', phonetic: '/\'taiəd/' },
+    { word: 'real', pos: 'adj.', meaning: '真正的', phonetic: '/riəl/' },
+    { word: 'owner', pos: 'n.', meaning: '主人', phonetic: '/\'əunə/' },
+    { word: 'spring', pos: 'n.', meaning: '弹簧', phonetic: '/spriŋ/' },
+    { word: 'mattress', pos: 'n.', meaning: '床垫', phonetic: '/\'mætris/' },
+    { word: 'gust', pos: 'n.', meaning: '一阵风', phonetic: '/gʌst/' },
+    { word: 'sweep', pos: 'v.', meaning: '扫，刮', phonetic: '/swi:p/' },
+    { word: 'courtyard', pos: 'n.', meaning: '院子', phonetic: '/\'kɔ:tjɑ:d/' },
+    { word: 'smash', pos: 'v.', meaning: '碰碎，摔碎', phonetic: '/smæʃ/' },
+    { word: 'miraculously', pos: 'adv.', meaning: '奇迹般地', phonetic: '/mi\'rækjuləsli/' },
+    { word: 'unhurt', pos: 'adj.', meaning: '没有受伤的', phonetic: '/ʌn\'hə:t/' },
+    { word: 'glance', pos: 'v.', meaning: '扫视', phonetic: '/glɑ:ns/' },
+    { word: 'promptly', pos: 'adv.', meaning: '迅速地', phonetic: '/\'prɔmptli/' }
   ],
 }
 const articleNce2L50: Article = {
@@ -3185,9 +2409,10 @@ const articleNce2L50: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'matter', pos: 'n.', meaning: '事情' },
-    { word: 'spend', pos: 'v.', meaning: '度过' },
-    { word: 'avoid', pos: 'v.', meaning: '避开' }
+    { word: 'ride', pos: 'n.', meaning: '旅行', phonetic: '/raid/' },
+    { word: 'excursion', pos: 'n.', meaning: '远足', phonetic: '/ik\'skə:ʃən/' },
+    { word: 'conductor', pos: 'n.', meaning: '售票员', phonetic: '/kən\'dʌktə/' },
+    { word: 'view', pos: 'n.', meaning: '景色', phonetic: '/vju:/' }
   ],
 }
 const articleNce2L51: Article = {
@@ -3209,17 +2434,16 @@ const articleNce2L51: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'kitchen', pos: 'n.', meaning: '厨房' },
-    { word: 'meat', pos: 'n.', meaning: '(食用)肉' },
-    { word: 'husband', pos: 'n.', meaning: '丈夫' },
-    { word: 'mess', pos: 'n.', meaning: '杂乱，凌乱' },
-    { word: 'enough', pos: 'a.', meaning: '足够的；ad.足够地' },
-    { word: 'quiet', pos: 'a.', meaning: '宁静的，安静的' },
-    { word: 'ring', pos: 'v.', meaning: '(铃、电话等)响' },
-    { word: 'sticky', pos: 'a.', meaning: '粘的' },
-    { word: 'pastry', pos: 'n.', meaning: '面糊，甜馅饼' },
-    { word: 'annoying', pos: 'a.', meaning: '恼人的' },
-    { word: 'receiver', pos: 'n.', meaning: '电话的话筒' }
+    { word: 'reward', pos: 'n.', meaning: '报偿', phonetic: '/ri\'wɔ:d/' },
+    { word: 'virtue', pos: 'n.', meaning: '美德', phonetic: '/\'və:tʃu:/' },
+    { word: 'diet', pos: 'n.', meaning: '节食', phonetic: '/\'daiət/' },
+    { word: 'forbid', pos: 'v.', meaning: '禁止', phonetic: '/fə\'bid/' },
+    { word: 'hurriedly', pos: 'adv.', meaning: '匆忙地', phonetic: '/\'hʌridli/' },
+    { word: 'embarrass', pos: 'v.', meaning: '使尴尬', phonetic: '/im\'bærəs/' },
+    { word: 'guiltily', pos: 'adv.', meaning: '内疚地', phonetic: '/\'giltili/' },
+    { word: 'strict', pos: 'adj.', meaning: '严格的', phonetic: '/strikt/' },
+    { word: 'reward', pos: 'v.', meaning: '给奖赏', phonetic: '/ri\'wɔ:d/' },
+    { word: 'occasionally', pos: 'adv.', meaning: '偶尔地', phonetic: '/ə\'keiʒənəli/' }
   ],
 }
 const articleNce2L52: Article = {
@@ -3241,13 +2465,10 @@ const articleNce2L52: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'electric', pos: 'a.', meaning: '带电的，可通电的' },
-    { word: 'line', pos: 'n.', meaning: '线路' },
-    { word: 'cause', pos: 'v.', meaning: '引起;n.原因' },
-    { word: 'accidentally', pos: 'ad.', meaning: '意外地，偶然地' },
-    { word: 'remains', pos: 'n.', meaning: '尸体，残骸' },
-    { word: 'solve', pos: 'v.', meaning: '解决' },
-    { word: 'mystery', pos: 'n.', meaning: '谜' }
+    { word: 'temporarily', pos: 'adv.', meaning: '暂时地', phonetic: '/\'tempərərili/' },
+    { word: 'inch', pos: 'n.', meaning: '英寸(度量单位)', phonetic: '/intʃ/' },
+    { word: 'space', pos: 'n.', meaning: '空间', phonetic: '/speis/' },
+    { word: 'actually', pos: 'adv.', meaning: '实际上', phonetic: '/\'æktʃuəli/' }
   ],
 }
 const articleNce2L53: Article = {
@@ -3267,18 +2488,20 @@ const articleNce2L53: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'cup', pos: 'n.', meaning: '茶杯' },
-    { word: 'coffee', pos: 'n.', meaning: '咖啡' },
-    { word: 'usually', pos: 'ad.', meaning: '通常' },
-    { word: 'Paris', pos: 'n.', meaning: '巴黎' },
-    { word: 'cinema', pos: 'n.', meaning: '电影院' },
-    { word: 'truant', pos: 'n.', meaning: '逃学的孩子' },
-    { word: 'unimaginative', pos: 'a.', meaning: '缺乏想象力的' },
-    { word: 'shame', pos: 'n.', meaning: '惭愧，羞耻' },
-    { word: 'meantime', pos: 'n.', meaning: '期间' },
-    { word: 'lorry', pos: 'n.', meaning: '卡车' },
-    { word: 'border', pos: 'n.', meaning: '边界' },
-    { word: 'Calais', pos: 'n.', meaning: '加来(法国港口城市)' }
+    { word: 'hot', pos: 'adj.', meaning: '带电的，充电的', phonetic: '/hɔt/' },
+    { word: 'fireman', pos: 'n.', meaning: '消防队员', phonetic: '/\'faiəmən/' },
+    { word: 'cause', pos: 'v.', meaning: '引起', phonetic: '/kɔ:z/' },
+    { word: 'cause', pos: 'n.', meaning: '原因', phonetic: '/kɔ:z/' },
+    { word: 'examine', pos: 'v.', meaning: '检查', phonetic: '/ig\'zæmin/' },
+    { word: 'accidentally', pos: 'adv.', meaning: '意外地,偶然地', phonetic: '/ˌæksi\'dentəli/' },
+    { word: 'remains', pos: 'n.', meaning: '尸体，残骸', phonetic: '/ri\'meinz/' },
+    { word: 'wire', pos: 'n.', meaning: '电线', phonetic: '/\'waiə/' },
+    { word: 'volt', pos: 'n.', meaning: '伏特(电压单位)', phonetic: '/vəult/' },
+    { word: 'power line', pos: 'n.', meaning: '电力线', phonetic: '//' },
+    { word: 'solve', pos: 'v.', meaning: '解决', phonetic: '/sɔlv/' },
+    { word: 'mystery', pos: 'n.', meaning: '谜', phonetic: '/\'mistəri/' },
+    { word: 'snatch', pos: 'v.', meaning: '抓住', phonetic: '/snætʃ/' },
+    { word: 'spark', pos: 'n.', meaning: '电火花', phonetic: '/spɑ:k/' }
   ],
 }
 const articleNce2L54: Article = {
@@ -3298,13 +2521,20 @@ const articleNce2L54: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'bedroom', pos: 'n.', meaning: '卧室' },
-    { word: 'key', pos: 'n.', meaning: '钥匙' },
-    { word: 'hate', pos: 'v.', meaning: '讨厌' },
-    { word: 'ladder', pos: 'n.', meaning: '梯子' },
-    { word: 'shed', pos: 'n.', meaning: '棚子' },
-    { word: 'sarcastic', pos: 'a.', meaning: '讽刺的，讥笑的' },
-    { word: 'tone', pos: 'n.', meaning: '语气，腔调' }
+    { word: 'sticky', pos: 'adj.', meaning: '粘的', phonetic: '/\'stiki/' },
+    { word: 'finger', pos: 'n.', meaning: '手指', phonetic: '/\'fiŋgə/' },
+    { word: 'pie', pos: 'n.', meaning: '馅饼', phonetic: '/pai/' },
+    { word: 'mix', pos: 'v.', meaning: '混合，拌和', phonetic: '/miks/' },
+    { word: 'pastry', pos: 'n.', meaning: '面糊', phonetic: '/\'peistri/' },
+    { word: 'annoying', pos: 'adj.', meaning: '恼人的', phonetic: '/ə\'nɔiiŋ/' },
+    { word: 'receiver', pos: 'n.', meaning: '电话的话筒', phonetic: '/ri\'si:və/' },
+    { word: 'dismay', pos: 'v.', meaning: '失望，泄气', phonetic: '/dis\'mei/' },
+    { word: 'recognize', pos: 'v.', meaning: '认出，听出', phonetic: '/\'rekəgnaiz/' },
+    { word: 'persuade', pos: 'v.', meaning: '说服，劝说', phonetic: '/pə\'sweid/' },
+    { word: 'mess', pos: 'n.', meaning: '乱七八糟', phonetic: '/mes/' },
+    { word: 'doorknob', pos: 'n.', meaning: '门把手', phonetic: '/\'dɔ:nɔb/' },
+    { word: 'sign', pos: 'v.', meaning: '签字', phonetic: '/sain/' },
+    { word: 'register', pos: 'v.', meaning: '挂号邮寄', phonetic: '/\'redʒistə/' }
   ],
 }
 const articleNce2L55: Article = {
@@ -3324,12 +2554,25 @@ const articleNce2L55: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'air', pos: 'v.', meaning: '使…通风，换换空气' },
-    { word: 'March', pos: 'n.', meaning: '三月' },
-    { word: 'platform', pos: 'n.', meaning: '站台' },
-    { word: 'low', pos: 'a.', meaning: '低的，矮的' },
-    { word: 'tunnel', pos: 'n.', meaning: '隧道' },
-    { word: 'port', pos: '', meaning: 'ventilate' }
+    { word: 'gold', pos: 'n.', meaning: '金子', phonetic: '/gəuld/' },
+    { word: 'mine', pos: 'n.', meaning: '矿', phonetic: '/main/' },
+    { word: 'treasure', pos: 'n.', meaning: '财宝', phonetic: '/\'treʒə/' },
+    { word: 'revealer', pos: 'n.', meaning: '探测器', phonetic: '/ri\'vi:lə/' },
+    { word: 'invent', pos: 'v.', meaning: '发明', phonetic: '/in\'vent/' },
+    { word: 'detect', pos: 'v.', meaning: '探测', phonetic: '/di\'tekt/' },
+    { word: 'bury', pos: 'v.', meaning: '埋藏', phonetic: '/\'beri/' },
+    { word: 'cave', pos: 'n.', meaning: '山洞', phonetic: '/keiv/' },
+    { word: 'seashore', pos: 'n.', meaning: '海岸', phonetic: '/\'si:ʃɔ:/' },
+    { word: 'pirate', pos: 'n.', meaning: '海盗', phonetic: '/\'paiərət/' },
+    { word: 'arm', pos: 'v.', meaning: '武装', phonetic: '/ɑ:m/' },
+    { word: 'soil', pos: 'n.', meaning: '泥土', phonetic: '/sɔil/' },
+    { word: 'entrance', pos: 'n.', meaning: '入口', phonetic: '/\'entrəns/' },
+    { word: 'finally', pos: 'adv.', meaning: '最后', phonetic: '/\'fainəli/' },
+    { word: 'worthless', pos: 'adj.', meaning: '毫无价值的', phonetic: '/\'wə:θləs/' },
+    { word: 'thoroughly', pos: 'adv.', meaning: '彻底地', phonetic: '/\'θʌrəli/' },
+    { word: 'trunk', pos: 'n.', meaning: '行李箱', phonetic: '/trʌŋk/' },
+    { word: 'confident', pos: 'adj.', meaning: '有信心的', phonetic: '/\'kɔnfidənt/' },
+    { word: 'value', pos: 'n.', meaning: '价值', phonetic: '/\'vælju:/' }
   ],
 }
 const articleNce2L56: Article = {
@@ -3349,15 +2592,17 @@ const articleNce2L56: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'clothes', pos: 'n.', meaning: '衣服' },
-    { word: 'film', pos: 'n.', meaning: '电影' },
-    { word: 'dry', pos: 'a.', meaning: '干燥的，干的' },
-    { word: 'shady', pos: 'a.', meaning: '遮荫的' },
-    { word: 'sheriff', pos: 'n.', meaning: '司法长官' },
-    { word: 'sneer', pos: 'n.', meaning: '冷笑' },
-    { word: 'fast', pos: 'ad.', meaning: '熟(睡)' },
-    { word: 'spot', pos: 'v.', meaning: '看出，发现' },
-    { word: 'gleam', pos: 'v.', meaning: '发亮，闪光' }
+    { word: 'sound', pos: 'n.', meaning: '声音', phonetic: '/saund/' },
+    { word: 'excitement', pos: 'n.', meaning: '激动，兴奋', phonetic: '/ik\'saitmənt/' },
+    { word: 'handsome', pos: 'adj.', meaning: '漂亮的，美观的', phonetic: '/\'hændsəm/' },
+    { word: 'Rolls-Royce', pos: 'n.', meaning: '罗尔斯—罗伊斯', phonetic: '/\'rəʊlz\'rɔis/' },
+    { word: 'Benz', pos: 'n.', meaning: '奔驰', phonetic: '//' },
+    { word: 'wheel', pos: 'n.', meaning: '轮子', phonetic: '/wi:l/' },
+    { word: 'explosion', pos: 'n.', meaning: '爆炸，轰响', phonetic: '/ik\'spləuʒən/' },
+    { word: 'course', pos: 'n.', meaning: '跑道；行程', phonetic: '/kɔ:s/' },
+    { word: 'rival', pos: 'n.', meaning: '对手', phonetic: '/\'raivəl/' },
+    { word: 'speed', pos: 'v.', meaning: '疾驶', phonetic: '/spi:d/' },
+    { word: 'downhill', pos: 'adv.', meaning: '下坡', phonetic: '/ˌdaun\'hil/' }
   ],
 }
 const articleNce2L57: Article = {
@@ -3377,18 +2622,14 @@ const articleNce2L57: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'tree', pos: 'n.', meaning: '树' },
-    { word: 'believe', pos: 'v.', meaning: '相信，认为' },
-    { word: 'luck', pos: 'n.', meaning: '运气，幸运' },
-    { word: 'cut', pos: 'v.', meaning: '穿过' },
-    { word: 'tiny', pos: 'a.', meaning: '极小的' },
-    { word: 'possess', pos: 'v.', meaning: '拥有' },
-    { word: 'church', pos: 'n.', meaning: '教堂' },
-    { word: 'evil', pos: 'a.', meaning: '坏的' },
-    { word: 'reputation', pos: 'n.', meaning: '名声' },
-    { word: 'vicar', pos: 'n.', meaning: '教区牧师' },
-    { word: 'source', pos: 'n.', meaning: '来源' },
-    { word: 'income', pos: 'n.', meaning: '收入' }
+    { word: 'madam', pos: 'n.', meaning: '(对妇女的尊称)太太，夫人', phonetic: '/\'mædəm/' },
+    { word: 'jeans', pos: 'n.', meaning: '牛仔裤', phonetic: '/dʒi:nz/' },
+    { word: 'hesitate', pos: 'v.', meaning: '犹豫，迟疑', phonetic: '/\'heziteit/' },
+    { word: 'serve', pos: 'v.', meaning: '接待(顾客)', phonetic: '/sə:v/' },
+    { word: 'scornfully', pos: 'adv.', meaning: '轻蔑地', phonetic: '/\'skɔ:nfuli/' },
+    { word: 'punish', pos: 'v.', meaning: '惩罚', phonetic: '/\'pʌniʃ/' },
+    { word: 'fur', pos: 'n.', meaning: '裘皮', phonetic: '/fə:/' },
+    { word: 'eager', pos: 'adj.', meaning: '热切的，热情的', phonetic: '/\'i:gə/' }
   ],
 }
 const articleNce2L58: Article = {
@@ -3406,18 +2647,22 @@ const articleNce2L58: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'climb', pos: 'v.', meaning: '爬，攀登' },
-    { word: 'surround', pos: 'v.', meaning: '包围' },
-    { word: 'volcano', pos: 'n.', meaning: '火山' },
-    { word: 'active', pos: 'a.', meaning: '活动的' },
-    { word: 'Kivu', pos: 'n.', meaning: '基伍湖' },
-    { word: 'Congo', pos: 'n.', meaning: '(the～)刚果' },
-    { word: 'Kituro', pos: 'n.', meaning: '基图罗' },
-    { word: 'violently', pos: 'ad.', meaning: '猛烈地，剧烈地' },
-    { word: 'brilliant', pos: 'a.', meaning: '精彩的' },
-    { word: 'liquid', pos: 'a.', meaning: '液态的' },
-    { word: 'escape', pos: 'v.', meaning: '逃脱' },
-    { word: 'alive', pos: 'a.', meaning: '活着的' }
+    { word: 'blessing', pos: 'n.', meaning: '福分，福气', phonetic: '/\'blesiŋ/' },
+    { word: 'disguise', pos: 'n.', meaning: '伪装', phonetic: '/dis\'gaiz/' },
+    { word: 'tiny', pos: 'adj.', meaning: '极小的', phonetic: '/\'taini/' },
+    { word: 'possess', pos: 'v.', meaning: '拥有', phonetic: '/pə\'zes/' },
+    { word: 'cursed', pos: 'adj.', meaning: '可恨的', phonetic: '/\'kə:sid/' },
+    { word: 'increase', pos: 'v.', meaning: '增加', phonetic: '/in\'kri:s, \'inkri:s/' },
+    { word: 'plant', pos: 'v.', meaning: '种值', phonetic: '/plɑ:nt/' },
+    { word: 'church', pos: 'n.', meaning: '教堂', phonetic: '/tʃə:tʃ/' },
+    { word: 'evil', pos: 'adj.', meaning: '坏的', phonetic: '/\'i:vəl/' },
+    { word: 'reputation', pos: 'n.', meaning: '名声', phonetic: '/repju\'teiʃən/' },
+    { word: 'claim', pos: 'v.', meaning: '以…为其后果', phonetic: '/kleim/' },
+    { word: 'victim', pos: 'n.', meaning: '受害者，牺牲品', phonetic: '/\'viktim/' },
+    { word: 'vicar', pos: 'n.', meaning: '教区牧师', phonetic: '/\'vikə/' },
+    { word: 'source', pos: 'n.', meaning: '来源', phonetic: '/sɔ:s/' },
+    { word: 'income', pos: 'n.', meaning: '收入', phonetic: '/\'inkʌm/' },
+    { word: 'trunk', pos: 'n.', meaning: '树干', phonetic: '/trʌŋk/' }
   ],
 }
 const articleNce2L59: Article = {
@@ -3435,10 +2680,14 @@ const articleNce2L59: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'grass', pos: 'n.', meaning: '草，草地' },
-    { word: 'winter', pos: 'n.', meaning: '冬天' },
-    { word: 'grow', pos: 'v.', meaning: '长，让…生长' },
-    { word: 'control', pos: 'n.', meaning: '控制' }
+    { word: 'bark', pos: 'v.', meaning: '狗叫', phonetic: '/bɑ:k/' },
+    { word: 'press', pos: 'v.', meaning: '按压', phonetic: '/pres/' },
+    { word: 'paw', pos: 'n.', meaning: '脚爪', phonetic: '/pɔ:/' },
+    { word: 'latch', pos: 'n.', meaning: '门闩', phonetic: '/lætʃ/' },
+    { word: 'expert', pos: 'n.', meaning: '专家', phonetic: '/\'ekspə:t/' },
+    { word: 'develop', pos: 'v.', meaning: '养成', phonetic: '/di\'veləp/' },
+    { word: 'habit', pos: 'n.', meaning: '习惯', phonetic: '/\'hæbit/' },
+    { word: 'remove', pos: 'v.', meaning: '拆掉，取下', phonetic: '/ri\'mu:v/' }
   ],
 }
 const articleNce2L60: Article = {
@@ -3458,9 +2707,12 @@ const articleNce2L60: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'truth', pos: 'n.', meaning: '实情' },
-    { word: 'suggest', pos: 'v.', meaning: '暗示' },
-    { word: 'murder', pos: 'n.', meaning: '谋杀' }
+    { word: 'future', pos: 'n.', meaning: '未来，前途', phonetic: '/\'fju:tʃə/' },
+    { word: 'fair', pos: 'n.', meaning: '集市', phonetic: '/feə/' },
+    { word: 'fortune-teller', pos: 'n.', meaning: '算命人', phonetic: '/\'fɔ:tʃən\'telə/' },
+    { word: 'crystal', pos: 'n.', meaning: '水晶', phonetic: '/\'kristəl/' },
+    { word: 'relation', pos: 'n.', meaning: '亲属', phonetic: '/ri\'leiʃən/' },
+    { word: 'impatiently', pos: 'adv.', meaning: '不耐烦地', phonetic: '/im\'peiʃəntli/' }
   ],
 }
 const articleNce2L61: Article = {
@@ -3478,8 +2730,23 @@ const articleNce2L61: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'April', pos: 'n.', meaning: '四月' },
-    { word: 'size', pos: 'n.', meaning: '尺寸，尺码，大小' }
+    { word: 'Hubble', pos: 'n.', meaning: '哈勃', phonetic: '/\'hʌbl/' },
+    { word: 'telescope', pos: 'n.', meaning: '望远镜', phonetic: '/\'teliskəup/' },
+    { word: 'launch', pos: 'v.', meaning: '发射', phonetic: '/lɔ:ntʃ/' },
+    { word: 'space', pos: 'n.', meaning: '空间', phonetic: '/speis/' },
+    { word: 'NASA', pos: 'n.', meaning: '国家航空和宇宙航行局', phonetic: '/\'næsə/' },
+    { word: 'billion', pos: 'n.', meaning: '亿', phonetic: '/\'biljən/' },
+    { word: 'faulty', pos: 'adj.', meaning: '有错误的', phonetic: '/\'fɔ:lti/' },
+    { word: 'astronaut', pos: 'n.', meaning: '宇航员', phonetic: '/\'æstrənɔ:t/' },
+    { word: 'shuttle', pos: 'n.', meaning: '宇航飞机', phonetic: '/\'ʃʌtl/' },
+    { word: 'Endeavour', pos: 'n.', meaning: '“奋进”号', phonetic: '/in\'devə/' },
+    { word: 'robot-arm', pos: 'n.', meaning: '机器手', phonetic: '//' },
+    { word: 'grab', pos: 'v.', meaning: '抓', phonetic: '/græb/' },
+    { word: 'atmosphere', pos: 'n.', meaning: '大气层', phonetic: '/\'ætməsfiə/' },
+    { word: 'distant', pos: 'adj.', meaning: '遥远的', phonetic: '/\'distənt/' },
+    { word: 'galaxy', pos: 'n.', meaning: '星系', phonetic: '/\'gæləkəsi/' },
+    { word: 'universe', pos: 'n.', meaning: '宇宙', phonetic: '/\'ju:nivə:s/' },
+    { word: 'eagle eye', pos: 'n.', meaning: '鹰眼', phonetic: '//' }
   ],
 }
 const articleNce2L62: Article = {
@@ -3497,14 +2764,21 @@ const articleNce2L62: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'September', pos: 'n.', meaning: '九月' },
-    { word: 'mistake', pos: 'n.', meaning: '错误' },
-    { word: 'tyre', pos: 'n.', meaning: '轮胎' },
-    { word: 'racing', pos: 'n.', meaning: '竞赛' },
-    { word: 'Utah', pos: 'n.', meaning: '犹他(美国州名)' },
-    { word: 'burst', pos: 'v.', meaning: '爆裂' },
-    { word: 'average', pos: 'a.', meaning: '平均的' },
-    { word: 'length', pos: 'n.', meaning: '根，段; 长度' }
+    { word: 'control', pos: 'n.', meaning: '控制', phonetic: '/kən\'trəul/' },
+    { word: 'smoke', pos: 'n.', meaning: '烟', phonetic: '/sməuk/' },
+    { word: 'desolate', pos: 'adj.', meaning: '荒凉的', phonetic: '/\'desəleit/' },
+    { word: 'threaten', pos: 'v.', meaning: '威胁', phonetic: '/\'θretn/' },
+    { word: 'surrounding', pos: 'adj.', meaning: '周围的', phonetic: '/sə\'raundiŋ/' },
+    { word: 'destruction', pos: 'n.', meaning: '破坏，毁灭', phonetic: '/di\'strʌkʃən/' },
+    { word: 'flood', pos: 'n.', meaning: '洪水，水灾', phonetic: '/flʌd/' },
+    { word: 'authority', pos: 'n.', meaning: '(常用复数)当局', phonetic: '/ɔ:\'θɔriti/' },
+    { word: 'grass-seed', pos: 'n.', meaning: '草籽', phonetic: '/\'gra:s\'si:d/' },
+    { word: 'spray', pos: 'v.', meaning: '喷撒', phonetic: '/sprei/' },
+    { word: 'quantity', pos: 'n.', meaning: '量', phonetic: '/\'kwɔntəti/' },
+    { word: 'root', pos: 'n.', meaning: '根', phonetic: '/ru:t/' },
+    { word: 'century', pos: 'n.', meaning: '世纪', phonetic: '/\'sentʃəri/' },
+    { word: 'patch', pos: 'n.', meaning: '小片', phonetic: '/pætʃ/' },
+    { word: 'blacken', pos: 'v.', meaning: '变黑，发暗', phonetic: '/\'blækən/' }
   ],
 }
 const articleNce2L63: Article = {
@@ -3522,18 +2796,12 @@ const articleNce2L63: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'October', pos: 'n.', meaning: '十月' },
-    { word: 'figure', pos: 'n.', meaning: '(人的)体形；人像' },
-    { word: 'monument', pos: 'n.', meaning: '纪念碑' },
-    { word: 'statue', pos: 'n.', meaning: '雕像' },
-    { word: 'liberty', pos: 'n.', meaning: '自由' },
-    { word: 'sculptor', pos: 'n.', meaning: '雕刻家' },
-    { word: 'actual', pos: 'a.', meaning: '实际的，真实的' },
-    { word: 'copper', pos: 'n.', meaning: '铜' },
-    { word: 'framework', pos: 'n.', meaning: '构架，框架' },
-    { word: 'site', pos: 'n.', meaning: '场地' },
-    { word: 'pedestal', pos: 'n.', meaning: '底座' },
-    { word: 'symbol', pos: 'n.', meaning: '符号' }
+    { word: 'circle', pos: 'n.', meaning: '圈子', phonetic: '/\'sə:kəl/' },
+    { word: 'admire', pos: 'v.', meaning: '赞美，钦佩', phonetic: '/əd\'maiə/' },
+    { word: 'close', pos: 'adj.', meaning: '亲密的', phonetic: '/kləuz/' },
+    { word: 'wedding', pos: 'n.', meaning: '婚礼', phonetic: '/\'wediŋ/' },
+    { word: 'reception', pos: 'n.', meaning: '执行会', phonetic: '/ri\'sepʃən/' },
+    { word: 'sort', pos: 'n.', meaning: '种类', phonetic: '/sɔ:t/' }
   ],
 }
 const articleNce2L64: Article = {
@@ -3551,21 +2819,19 @@ const articleNce2L64: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'west', pos: 'n.', meaning: '西方' },
-    { word: 'worth', pos: 'prep.', meaning: '值…钱' },
-    { word: 'Lancaster', pos: 'n.', meaning: '兰开斯特' },
-    { word: 'bomber', pos: 'n.', meaning: '轰炸机' },
-    { word: 'remote', pos: 'a.', meaning: '偏僻的' },
-    { word: 'Pacific', pos: 'n.', meaning: '太平洋' },
-    { word: 'wreck', pos: 'n.', meaning: '残骸' },
-    { word: 'aerial', pos: 'a.', meaning: '航空的' },
-    { word: 'survey', pos: 'n.', meaning: '调查' },
-    { word: 'imagine', pos: 'v.', meaning: '想像' },
-    { word: 'packing', pos: '', meaning: '包装箱' },
-    { word: 'colony', pos: 'n.', meaning: '群' },
-    { word: 'hive', pos: 'n.', meaning: '蜂房' },
-    { word: 'beeswax', pos: 'n.', meaning: '蜂蜡' },
-    { word: 'condition', pos: 'v.', meaning: '使习惯于' }
+    { word: 'tunnel', pos: 'n.', meaning: '隧道', phonetic: '/\'tʌnl/' },
+    { word: 'port', pos: 'n.', meaning: '港口', phonetic: '/pɔ:t/' },
+    { word: 'ventilate', pos: 'v.', meaning: '通风', phonetic: '/\'ventileit/' },
+    { word: 'chimney', pos: 'n.', meaning: '烟囱', phonetic: '/\'tʃimni/' },
+    { word: 'sea level', pos: 'n.', meaning: '海平面', phonetic: '//' },
+    { word: 'double', pos: 'adj.', meaning: '双的', phonetic: '/\'dʌbəl/' },
+    { word: 'ventilation', pos: 'n.', meaning: '通风', phonetic: '/ˌventi\'leiʃən/' },
+    { word: 'fear', pos: 'v.', meaning: '害怕', phonetic: '/fiə/' },
+    { word: 'invasion', pos: 'n.', meaning: '入侵，侵略', phonetic: '/in\'veiʒən/' },
+    { word: 'officially', pos: 'adv.', meaning: '正式地', phonetic: '/ə\'fiʃəli/' },
+    { word: 'connect', pos: 'v.', meaning: '连接', phonetic: '/kə\'nekt/' },
+    { word: 'European', pos: 'adj.', meaning: '欧洲的', phonetic: '/juərə\'pi:ən/' },
+    { word: 'continent', pos: 'n.', meaning: '大陆', phonetic: '/\'kɔntinənt/' }
   ],
 }
 const articleNce2L65: Article = {
@@ -3583,20 +2849,15 @@ const articleNce2L65: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'remember', pos: 'v.', meaning: '记得，记住' },
-    { word: 'mark', pos: 'n.', meaning: '分数' },
-    { word: 'kindly', pos: 'ad.', meaning: '和蔼地' },
-    { word: 'gift', pos: 'n.', meaning: '礼物，赠品' },
-    { word: 'album', pos: 'n.', meaning: '签名簿，相册' },
-    { word: 'patience', pos: 'n.', meaning: '耐心' },
-    { word: 'encouragement', pos: 'n.', meaning: '鼓励' },
-    { word: 'farewell', pos: 'n.', meaning: '告别' },
-    { word: 'honour', pos: 'n.', meaning: '敬意, 荣幸' },
-    { word: 'coincidence', pos: 'n.', meaning: '巧合' },
-    { word: 'total', pos: 'n.', meaning: '总数' },
-    { word: 'devote', pos: 'v.', meaning: '致力于' },
-    { word: 'gardening', pos: 'n.', meaning: '园艺' },
-    { word: 'hobby', pos: 'n.', meaning: '爱好，嗜好' }
+    { word: 'versus', pos: 'prep.', meaning: '对', phonetic: '/\'və:səs/' },
+    { word: 'Christmas', pos: 'n.', meaning: '圣诞节', phonetic: '/\'krisməs/' },
+    { word: 'circus', pos: 'n.', meaning: '马戏团', phonetic: '/\'sə:kəs/' },
+    { word: 'present', pos: 'n.', meaning: '礼物', phonetic: '/pri\'zent, \'prezənt/' },
+    { word: 'accompany', pos: 'v.', meaning: '陪伴，随行', phonetic: '/ə\'kʌmpəni/' },
+    { word: 'approach', pos: 'v.', meaning: '走近', phonetic: '/ə\'prəutʃ/' },
+    { word: 'ought', pos: 'modal v', meaning: '应该', phonetic: '/ɔ:t/' },
+    { word: 'weigh', pos: 'v.', meaning: '重', phonetic: '/wei/' },
+    { word: 'fortunate', pos: 'adj.', meaning: '幸运的', phonetic: '/\'fɔ:tʃənət/' }
   ],
 }
 const articleNce2L66: Article = {
@@ -3614,11 +2875,26 @@ const articleNce2L66: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'stand', pos: 'v.', meaning: '站立' },
-    { word: 'help', pos: 'v.', meaning: '帮助' },
-    { word: 'dance', pos: 'v.', meaning: '跳舞' },
-    { word: 'festival', pos: 'n.', meaning: '节日' },
-    { word: 'spectacle', pos: 'n.', meaning: '景象，壮观，场面' }
+    { word: 'Lancaster', pos: 'n.', meaning: '兰开斯特', phonetic: '/\'læŋkəstə/' },
+    { word: 'bomber', pos: 'n.', meaning: '轰炸机', phonetic: '/\'bɔmə/' },
+    { word: 'remote', pos: 'adj.', meaning: '偏僻的', phonetic: '/ri\'məut/' },
+    { word: 'Pacific', pos: 'n.', meaning: '太平洋', phonetic: '/pə\'sifik/' },
+    { word: 'damage', pos: 'v.', meaning: '毁坏', phonetic: '/\'dæmidʒ/' },
+    { word: 'wreck', pos: 'n.', meaning: '残骸', phonetic: '/rek/' },
+    { word: 'rediscover', pos: 'v.', meaning: '重新发现', phonetic: '/ri:di\'skʌvə/' },
+    { word: 'aerial', pos: 'adj.', meaning: '航空的', phonetic: '/\'eəriəl/' },
+    { word: 'survey', pos: 'n.', meaning: '调查', phonetic: '/\'sə:vei/' },
+    { word: 'rescue', pos: 'v.', meaning: '营救', phonetic: '/\'reskju:/' },
+    { word: 'package', pos: 'v.', meaning: '把…打包', phonetic: '/\'pækidʒ/' },
+    { word: 'enthusiast', pos: 'n.', meaning: '热心人', phonetic: '/in\'θju:ziæst/' },
+    { word: 'restore', pos: 'v.', meaning: '修复', phonetic: '/ri\'stɔ:/' },
+    { word: 'imagine', pos: 'v.', meaning: '想像', phonetic: '/i\'mædʒin/' },
+    { word: 'packing', pos: 'n.', meaning: '包装箱', phonetic: '/\'pækiŋ/' },
+    { word: 'colony', pos: 'n.', meaning: '群', phonetic: '/\'kɔləni/' },
+    { word: 'bee', pos: 'n.', meaning: '蜂', phonetic: '/bi:/' },
+    { word: 'hive', pos: 'n.', meaning: '蜂房', phonetic: '/haiv/' },
+    { word: 'preserve', pos: 'v.', meaning: '保护', phonetic: '/pri\'zə:v/' },
+    { word: 'beeswax', pos: 'n.', meaning: '蜂蜡', phonetic: '/\'bi:zwæks/' }
   ],
 }
 const articleNce2L67: Article = {
@@ -3636,15 +2912,18 @@ const articleNce2L67: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'suitcase', pos: 'n.', meaning: '手提箱' },
-    { word: 'pilot', pos: 'n.', meaning: '飞行员' },
-    { word: 'idea', pos: 'n.', meaning: '主意' },
-    { word: 'terribly', pos: 'ad.', meaning: '非常' },
-    { word: 'rescue', pos: 'v.', meaning: '营救' },
-    { word: 'thick', pos: 'a.', meaning: '厚的' },
-    { word: 'signal', pos: 'n.', meaning: '信号' },
-    { word: 'helicopter', pos: 'n.', meaning: '直升飞机' },
-    { word: 'scene', pos: 'n.', meaning: '现场' }
+    { word: 'volcano', pos: 'n.', meaning: '火山', phonetic: '/vɔl\'keinəu/' },
+    { word: 'active', pos: 'adj.', meaning: '活动的', phonetic: '/\'æktiv/' },
+    { word: 'Kivu', pos: 'n.', meaning: '基伍湖', phonetic: '//' },
+    { word: 'Congo', pos: 'n.', meaning: '(the～)刚果', phonetic: '/\'kɔŋgou/' },
+    { word: 'Kituro', pos: 'n.', meaning: '基图罗', phonetic: '//' },
+    { word: 'erupt', pos: 'v.', meaning: '(火山)喷发', phonetic: '/i\'rʌpt/' },
+    { word: 'violently', pos: 'adv.', meaning: '猛烈地，剧烈地', phonetic: '/\'vaiələntli/' },
+    { word: 'manage', pos: 'v.', meaning: '设法', phonetic: '/\'mænidʒ/' },
+    { word: 'brilliant', pos: 'adj.', meaning: '精彩的', phonetic: '/\'briliənt/' },
+    { word: 'liquid', pos: 'adj.', meaning: '液态的', phonetic: '/\'likwid/' },
+    { word: 'escape', pos: 'v.', meaning: '逃脱', phonetic: '/i\'skeip/' },
+    { word: 'alive', pos: 'adj.', meaning: '活着的', phonetic: '/ə\'laiv/' }
   ],
 }
 const articleNce2L68: Article = {
@@ -3668,10 +2947,9 @@ const articleNce2L68: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'person', pos: 'n.', meaning: '人' },
-    { word: 'frightened', pos: 'a.', meaning: '害怕，担惊' },
-    { word: 'curious', pos: 'a.', meaning: '急于了解，好奇的' },
-    { word: 'bomb', pos: 'n.', meaning: '炸弹' }
+    { word: 'persistent', pos: 'adj.', meaning: '坚持的，固执的', phonetic: '/pə\'sistənt/' },
+    { word: 'avoid', pos: 'v.', meaning: '避开', phonetic: '/ə\'vɔid/' },
+    { word: 'insist', pos: 'v.', meaning: '坚持做', phonetic: '/in\'sist/' }
   ],
 }
 const articleNce2L69: Article = {
@@ -3689,9 +2967,17 @@ const articleNce2L69: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'poor', pos: 'a.', meaning: '可怜的; 贫穷的' },
-    { word: 'queue', pos: 'v.', meaning: '排队' },
-    { word: 'advertiser', pos: 'n.', meaning: '报幕员' }
+    { word: 'murder', pos: 'n.', meaning: '谋杀', phonetic: '/\'mə:də/' },
+    { word: 'instruct', pos: 'v.', meaning: '命令，指示', phonetic: '/in\'strʌkt/' },
+    { word: 'acquire', pos: 'v.', meaning: '取得，获得', phonetic: '/ə\'kwaiə/' },
+    { word: 'confidence', pos: 'n.', meaning: '信心', phonetic: '/\'kɔnfidəns/' },
+    { word: 'examiner', pos: 'n.', meaning: '主考人', phonetic: '/ig\'zæminə/' },
+    { word: 'suppose', pos: 'v.', meaning: '假设', phonetic: '/sə\'pəuz/' },
+    { word: 'tap', pos: 'v.', meaning: '轻敲', phonetic: '/tæp/' },
+    { word: 'react', pos: 'v.', meaning: '反应', phonetic: '/ri\'ækt/' },
+    { word: 'brake', pos: 'n.', meaning: '刹车', phonetic: '/breik/' },
+    { word: 'pedal', pos: 'n.', meaning: '踏板', phonetic: '/\'pedəl/' },
+    { word: 'mournful', pos: 'adj.', meaning: '悲哀的', phonetic: '/\'mɔ:nful/' }
   ],
 }
 const articleNce2L70: Article = {
@@ -3709,16 +2995,22 @@ const articleNce2L70: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'fall', pos: 'v.', meaning: '落下，跌倒' },
-    { word: 'X-ray', pos: 'n.', meaning: 'X光透视' },
-    { word: 'mummy', pos: 'n.', meaning: '木乃伊' },
-    { word: 'Egyptian', pos: 'a.', meaning: '埃及的' },
-    { word: 'temple', pos: 'n.', meaning: '庙' },
-    { word: 'resin', pos: 'n.', meaning: '树脂' },
-    { word: 'skin', pos: 'n.', meaning: '皮，皮肤' },
-    { word: 'section', pos: 'n.', meaning: '切片' },
-    { word: 'normally', pos: 'ad.', meaning: '通常地' },
-    { word: 'cow', pos: 'v.', meaning: '吓唬' }
+    { word: 'bullfight', pos: 'n.', meaning: '斗牛', phonetic: '/\'bulfait/' },
+    { word: 'drunk', pos: 'n.', meaning: '醉汉', phonetic: '/drʌŋk/' },
+    { word: 'wander', pos: 'v.', meaning: '溜达，乱走', phonetic: '/\'wɔndə, \'wɑ:n:dər/' },
+    { word: 'ring', pos: 'n.', meaning: '圆形竞技场地', phonetic: '/riŋ/' },
+    { word: 'unaware', pos: 'adj.', meaning: '不知道的，示觉察的', phonetic: '/ˌʌnə\'weə/' },
+    { word: 'bull', pos: 'n.', meaning: '公牛', phonetic: '/bul/' },
+    { word: 'matador', pos: 'n.', meaning: '斗牛士', phonetic: '/\'mætədɔ:/' },
+    { word: 'remark', pos: 'n.', meaning: '评论；言语', phonetic: '/ri\'mɑ:k/' },
+    { word: 'apparently', pos: 'adv.', meaning: '明显地', phonetic: '/ə\'pærəntli/' },
+    { word: 'sensitive', pos: 'adj.', meaning: '敏感的', phonetic: '/\'sensitiv/' },
+    { word: 'criticism', pos: 'n.', meaning: '批评', phonetic: '/\'kritisizəm/' },
+    { word: 'charge', pos: 'v.', meaning: '冲上去', phonetic: '/tʃɑ:dʒ/' },
+    { word: 'clumsily', pos: 'adv.', meaning: '笨拙地', phonetic: '/\'klʌmzili/' },
+    { word: 'bow', pos: 'v.', meaning: '鞠躬', phonetic: '/bau/' },
+    { word: 'safety', pos: 'n.', meaning: '安全地带', phonetic: '/\'seifti/' },
+    { word: 'sympathetically', pos: 'adv.', meaning: '同情地', phonetic: '/ˌsimpə\'θetikəli/' }
   ],
 }
 const articleNce2L71: Article = {
@@ -3736,13 +3028,15 @@ const articleNce2L71: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'offer', pos: 'v.', meaning: '提供' },
-    { word: 'continue', pos: 'v.', meaning: '继续' },
-    { word: 'agreement', pos: 'n.', meaning: '协议' },
-    { word: 'relieve', pos: 'v.', meaning: '减轻' },
-    { word: 'pressure', pos: 'n.', meaning: '压力，麻烦' },
-    { word: 'extent', pos: 'n.', meaning: '程度' },
-    { word: 'gratitude', pos: 'n.', meaning: '感激' }
+    { word: 'parliament', pos: 'n.', meaning: '议会，国会', phonetic: '/\'pɑ:ləmənt/' },
+    { word: 'erect', pos: 'v.', meaning: '建起', phonetic: '/i\'rekt/' },
+    { word: 'accurate', pos: 'adj.', meaning: '准确的', phonetic: '/\'ækjurət/' },
+    { word: 'official', pos: 'n.', meaning: '官员，行政人员', phonetic: '/ə\'fiʃəl/' },
+    { word: 'Greenwich', pos: 'n.', meaning: '格林威治', phonetic: '/\'grinidʒ/' },
+    { word: 'observatory', pos: 'n.', meaning: '天文台', phonetic: '/əb\'zə:vətəri/' },
+    { word: 'check', pos: 'v.', meaning: '检查', phonetic: '/tʃek/' },
+    { word: 'microphone', pos: 'n.', meaning: '扩音器，麦克风', phonetic: '/\'maikrəfəun/' },
+    { word: 'tower', pos: 'n.', meaning: '塔', phonetic: '/\'tauə/' }
   ],
 }
 const articleNce2L72: Article = {
@@ -3760,7 +3054,13 @@ const articleNce2L72: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'future', pos: 'a.', meaning: '未来的' }
+    { word: 'racing', pos: 'n.', meaning: '竞赛', phonetic: '/\'reisiŋ/' },
+    { word: 'per', pos: 'prep.', meaning: '每', phonetic: '/pə:/' },
+    { word: 'Utah', pos: 'n.', meaning: '犹他(美国州名)', phonetic: '/\'ju:tɑ:/' },
+    { word: 'horsepower', pos: 'n.', meaning: '马力', phonetic: '/\'hɔ:sˌpauə/' },
+    { word: 'burst', pos: 'v.', meaning: '爆裂', phonetic: '/bə:st/' },
+    { word: 'average', pos: 'adj.', meaning: '平均的', phonetic: '/\'ævəridʒ/' },
+    { word: 'footstep', pos: 'n.', meaning: '足迹', phonetic: '/\'futstep/' }
   ],
 }
 const articleNce2L73: Article = {
@@ -3778,11 +3078,15 @@ const articleNce2L73: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'damage', pos: 'v.', meaning: '损坏' },
-    { word: 'claim', pos: 'v.', meaning: '以…为其后果' },
-    { word: 'peculiar', pos: 'a.', meaning: '奇怪的，不寻常的' },
-    { word: 'shining', pos: 'a.', meaning: '闪闪发光的' },
-    { word: 'oarfish', pos: 'n.', meaning: '桨鱼' }
+    { word: 'record-holder', pos: 'n.', meaning: '纪录保持者', phonetic: '/\'rekɔ:d\'həuldə/' },
+    { word: 'truant', pos: 'n.', meaning: '逃学的孩子', phonetic: '/\'tru:ənt/' },
+    { word: 'unimaginative', pos: 'adj.', meaning: '缺乏想象力的', phonetic: '/ˌʌni\'mædʒinətiv/' },
+    { word: 'shame', pos: 'n.', meaning: '惭愧，羞耻', phonetic: '/ʃeim/' },
+    { word: 'hitchhike', pos: 'v.', meaning: '搭便车旅行', phonetic: '/\'hitʃhaik/' },
+    { word: 'meantime', pos: 'n.', meaning: '其间', phonetic: '/\'mi:ntaim/' },
+    { word: 'lorry', pos: 'n.', meaning: '卡车', phonetic: '/\'lɔri/' },
+    { word: 'border', pos: 'n.', meaning: '边界', phonetic: '/\'bɔ:də/' },
+    { word: 'evade', pos: 'v.', meaning: '逃避，逃离', phonetic: '/i\'veid/' }
   ],
 }
 const articleNce2L74: Article = {
@@ -3812,12 +3116,13 @@ const articleNce2L74: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'dismay', pos: 'v.', meaning: '失望，泄气' },
-    { word: 'swing', pos: 'v.', meaning: '转向' },
-    { word: 'desperately', pos: 'ad.', meaning: '绝望地' },
-    { word: 'companion', pos: 'n.', meaning: '同伙，同伴' },
-    { word: 'buoy', pos: 'n.', meaning: '浮标' },
-    { word: 'tremendous', pos: '', meaning: 'petrol' }
+    { word: 'limelight', pos: 'n.', meaning: '舞台灯光', phonetic: '/\'laimlait/' },
+    { word: 'precaution', pos: 'n.', meaning: '预防措施', phonetic: '/pri\'kɔ:ʃən/' },
+    { word: 'fan', pos: 'n.', meaning: '狂热者，迷', phonetic: '/fæn/' },
+    { word: 'shady', pos: 'adj.', meaning: '遮荫的', phonetic: '/\'ʃeidi/' },
+    { word: 'sheriff', pos: 'n.', meaning: '司法长官', phonetic: '/\'ʃerif/' },
+    { word: 'notice', pos: 'n.', meaning: '告示', phonetic: '/\'nəutis/' },
+    { word: 'sneer', pos: 'n.', meaning: '冷笑', phonetic: '/sniə/' }
   ],
 }
 const articleNce2L75: Article = {
@@ -3835,9 +3140,12 @@ const articleNce2L75: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'mine', pos: 'n.', meaning: '矿' },
-    { word: 'microphone', pos: 'n.', meaning: '扩音器，麦克风' },
-    { word: 'surface', pos: 'n.', meaning: '地面，表面' }
+    { word: 'thick', pos: 'adj.', meaning: '厚的', phonetic: '/θik/' },
+    { word: 'signal', pos: 'n.', meaning: '信号', phonetic: '/\'signəl/' },
+    { word: 'stamp', pos: 'v.', meaning: '跺，踩', phonetic: '/stæmp/' },
+    { word: 'helicopter', pos: 'n.', meaning: '直升飞机', phonetic: '/\'helikɔptə/' },
+    { word: 'scene', pos: 'n.', meaning: '现场', phonetic: '/si:n/' },
+    { word: 'survivor', pos: 'n.', meaning: '幸存者', phonetic: '/sə\'vaivə/' }
   ],
 }
 const articleNce2L76: Article = {
@@ -3855,16 +3163,21 @@ const articleNce2L76: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'fool', pos: 'n.', meaning: '傻瓜' },
-    { word: 'state', pos: 'v.', meaning: '正式提出，宣布' },
-    { word: 'ambassador', pos: 'n.', meaning: '大使' },
-    { word: 'Escalopia', pos: 'n.', meaning: '艾斯卡罗比亚(虚构的国名)' },
-    { word: 'frightful', pos: 'a.', meaning: '可怕的，令人吃惊的' },
-    { word: 'drily', pos: 'ad.', meaning: '冷淡地，枯燥无味地' },
-    { word: 'embassy', pos: 'n.', meaning: '大使馆' },
-    { word: 'basement', pos: 'n.', meaning: '地下室' },
-    { word: 'definitely', pos: 'ad.', meaning: '肯定地' },
-    { word: 'shot', pos: 'n.', meaning: '子弹' }
+    { word: 'fool', pos: 'n.', meaning: '傻瓜', phonetic: '/fu:l/' },
+    { word: 'bulletin', pos: 'n.', meaning: '亲闻简报', phonetic: '/\'bulətin/' },
+    { word: 'announcer', pos: 'n.', meaning: '(电视、电台)播音员', phonetic: '/ə\'naunsə/' },
+    { word: 'macaroni', pos: 'n.', meaning: '通心面，空心面条', phonetic: '/ˌmækə\'rəuni/' },
+    { word: 'leading', pos: 'adj.', meaning: '主要的', phonetic: '/\'li:diŋ/' },
+    { word: 'grower', pos: 'n.', meaning: '种植者', phonetic: '/\'grəuə/' },
+    { word: 'splendid', pos: 'adj.', meaning: '极好的', phonetic: '/\'splendid/' },
+    { word: 'stalk', pos: 'n.', meaning: '梗', phonetic: '/stɔ:k/' },
+    { word: 'gather', pos: 'v.', meaning: '收庄稼', phonetic: '/\'gæeə/' },
+    { word: 'thresh', pos: 'v.', meaning: '打(庄稼)', phonetic: '/θreʃ/' },
+    { word: 'process', pos: 'v.', meaning: '加工', phonetic: '/\'prəuses/' },
+    { word: 'signor', pos: 'n.', meaning: '(意大利语)先生', phonetic: '/\'si:njɔ:/' },
+    { word: 'present', pos: 'adj.', meaning: '目前的', phonetic: '/pri\'zent, \'prezənt/' },
+    { word: 'champion', pos: 'n.', meaning: '冠军', phonetic: '/\'tʃæmpiən/' },
+    { word: 'studio', pos: 'n.', meaning: '播音室', phonetic: '/\'stju:diəu/' }
   ],
 }
 const articleNce2L77: Article = {
@@ -3882,12 +3195,20 @@ const articleNce2L77: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'calm', pos: 'v.', meaning: '使镇定' },
-    { word: 'concentration', pos: 'n.', meaning: '集中，专心' },
-    { word: 'temper', pos: 'n.', meaning: '脾气' },
-    { word: 'appetite', pos: 'n.', meaning: '胃口，食欲' },
-    { word: 'satisfaction', pos: 'n.', meaning: '满意，满足' },
-    { word: 'delighted', pos: 'a.', meaning: '欣喜的' }
+    { word: 'mummy', pos: 'n.', meaning: '木乃伊', phonetic: '/\'mʌmi/' },
+    { word: 'Egyptian', pos: 'adj.', meaning: '埃及的', phonetic: '/i\'dʒipʃən/' },
+    { word: 'temple', pos: 'n.', meaning: '庙', phonetic: '/\'tempəl/' },
+    { word: 'mark', pos: 'n.', meaning: '斑点', phonetic: '/mɑ:k/' },
+    { word: 'plate', pos: 'n.', meaning: '(照相)底片', phonetic: '/pleit/' },
+    { word: 'disease', pos: 'n.', meaning: '疾病', phonetic: '/di\'zi:z/' },
+    { word: 'last', pos: 'v.', meaning: '持续', phonetic: '/lɑ:st/' },
+    { word: 'prove', pos: 'v.', meaning: '显示出', phonetic: '/pru:v/' },
+    { word: 'resin', pos: 'n.', meaning: '树脂', phonetic: '/\'rezin/' },
+    { word: 'skin', pos: 'n.', meaning: '皮，皮肤', phonetic: '/skin/' },
+    { word: 'section', pos: 'n.', meaning: '切片', phonetic: '/\'sekʃən/' },
+    { word: 'figure', pos: 'n.', meaning: '(人的)体形；人像', phonetic: '/\'figə/' },
+    { word: 'normally', pos: 'adv.', meaning: '通常地', phonetic: '/\'nɔ:məli/' },
+    { word: 'survive', pos: 'v.', meaning: '幸免于', phonetic: '/sə\'vaiv/' }
   ],
 }
 const articleNce2L78: Article = {
@@ -3905,13 +3226,18 @@ const articleNce2L78: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'former', pos: 'a.', meaning: '从前的' },
-    { word: 'defeat', pos: 'v.', meaning: '打败' },
-    { word: 'fanatical', pos: 'a.', meaning: '狂热的' },
-    { word: 'opponent', pos: 'n.', meaning: '反对者，对手' },
-    { word: 'radical', pos: 'a.', meaning: '激进的' },
-    { word: 'progressive', pos: 'a.', meaning: '进步的' },
-    { word: 'suspicious', pos: 'a.', meaning: '怀疑的' }
+    { word: 'entitle', pos: 'v.', meaning: '以…为名', phonetic: '/in\'taitl/' },
+    { word: 'calm', pos: 'v.', meaning: '使镇定', phonetic: '/kɑ:m/' },
+    { word: 'nerve', pos: 'n.', meaning: '神经', phonetic: '/nə:v/' },
+    { word: 'concentration', pos: 'n.', meaning: '集中，专心', phonetic: '/ˌkɔnsən\'treiʃən/' },
+    { word: 'suffer', pos: 'v.', meaning: '受苦，受害', phonetic: '/\'sʌfə/' },
+    { word: 'symptom', pos: 'n.', meaning: '症状', phonetic: '/\'simptəm/' },
+    { word: 'temper', pos: 'n.', meaning: '脾气', phonetic: '/\'tempə/' },
+    { word: 'appetite', pos: 'n.', meaning: '胃口，食欲', phonetic: '/\'æpitait/' },
+    { word: 'produce', pos: 'v.', meaning: '拿出', phonetic: '/prə\'dju:s, \'prɔdju:s/' },
+    { word: 'urge', pos: 'v.', meaning: '力劝，怂恿', phonetic: '/ə:dʒ/' },
+    { word: 'satisfaction', pos: 'n.', meaning: '满意，满足', phonetic: '/ˌsætis\'fækʃən/' },
+    { word: 'delighted', pos: 'adj.', meaning: '欣喜的', phonetic: '/di\'laitid/' }
   ],
 }
 const articleNce2L79: Article = {
@@ -3929,10 +3255,12 @@ const articleNce2L79: Article = {
     paragraphs: ['', ''],
   },
   vocabulary: [
-    { word: 'reluctant', pos: 'a.', meaning: '勉强的，不愿意的' },
-    { word: 'underwater', pos: 'a.', meaning: '水下的;ad. 在水下' },
-    { word: 'tricycle', pos: 'n.', meaning: '三轮车' },
-    { word: 'compete', pos: 'v.', meaning: '比赛，对抗' }
+    { word: 'parent', pos: 'n.', meaning: '父(母)亲', phonetic: '/\'peərənt/' },
+    { word: 'flight attendant', pos: 'n.', meaning: '空中乘务员', phonetic: '/\'flait əˌtendənt/' },
+    { word: 'frightened', pos: 'adj.', meaning: '害怕，担惊', phonetic: '/\'fraitnd/' },
+    { word: 'curious', pos: 'adj.', meaning: '急于了解，好奇的', phonetic: '/\'kjuəriəs/' },
+    { word: 'bomb', pos: 'n.', meaning: '炸弹', phonetic: '/bɔm/' },
+    { word: 'plant', pos: 'v.', meaning: '安放', phonetic: '/plɑ:nt/' }
   ],
 }
 const articleNce2L80: Article = {
@@ -3949,7 +3277,18 @@ const articleNce2L80: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'palace', pos: 'n.', meaning: '宫殿', phonetic: '/\'pælis/' },
+    { word: 'extraordinary', pos: 'adj.', meaning: '不平常的.非凡的', phonetic: '/ik\'strɔ:dinəri/' },
+    { word: 'exhibition', pos: 'n.', meaning: '展览', phonetic: '/eksi\'biʃ(ə)n/' },
+    { word: 'iron', pos: 'n.', meaning: '铁', phonetic: '/\'aiən/' },
+    { word: 'various', pos: 'adj.', meaning: '各种各样的', phonetic: '/\'veəriəs/' },
+    { word: 'machinery', pos: 'n.', meaning: '机器', phonetic: '/mə\'ʃi:nəri/' },
+    { word: 'display', pos: 'n.', meaning: '展览', phonetic: '/di\'splei/' },
+    { word: 'steam', pos: 'n.', meaning: '蒸汽', phonetic: '/sti:m/' },
+    { word: 'profit', pos: 'n.', meaning: '利润', phonetic: '/\'prɔfit/' },
+    { word: 'college', pos: 'n.', meaning: '学院', phonetic: '/\'kɔlidʒ/' }
+  ],
 }
 const articleNce2L81: Article = {
   original: {
@@ -3965,7 +3304,22 @@ const articleNce2L81: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'prisoner', pos: 'n.', meaning: '囚犯', phonetic: '/\'prizənə/' },
+    { word: 'bush', pos: 'n.', meaning: '灌木丛', phonetic: '/buʃ/' },
+    { word: 'rapidly', pos: 'adv.', meaning: '迅速地', phonetic: '/\'ræpidli/' },
+    { word: 'uniform', pos: 'n.', meaning: '制服', phonetic: '/\'ju:nifɔ:m/' },
+    { word: 'rifle', pos: 'n.', meaning: '来福枪，步枪', phonetic: '/\'raifl/' },
+    { word: 'shoulder', pos: 'n.', meaning: '肩', phonetic: '/\'ʃəuldə/' },
+    { word: 'march', pos: 'v.', meaning: '行进', phonetic: '/mɑ:tʃ/' },
+    { word: 'boldly', pos: 'adv.', meaning: '大胆地', phonetic: '/\'bəuldli/' },
+    { word: 'blaze', pos: 'v.', meaning: '闪耀', phonetic: '/bleiz/' },
+    { word: 'salute', pos: 'v.', meaning: '行礼', phonetic: '/sə\'lu:t/' },
+    { word: 'elderly', pos: 'adj.', meaning: '上了年纪的', phonetic: '/\'eldəli/' },
+    { word: 'grey', pos: 'adj.', meaning: '灰白的', phonetic: '/grei/' },
+    { word: 'sharp', pos: 'adj.', meaning: '猛烈的', phonetic: '/ʃɑ:p/' },
+    { word: 'blow', pos: 'n.', meaning: '打击', phonetic: '/bləu/' }
+  ],
 }
 const articleNce2L82: Article = {
   original: {
@@ -3981,7 +3335,15 @@ const articleNce2L82: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'monster', pos: 'n.', meaning: '怪物', phonetic: '/\'mɔnstə/' },
+    { word: 'sailor', pos: 'n.', meaning: '海员', phonetic: '/\'seilə/' },
+    { word: 'sight', pos: 'v.', meaning: '见到', phonetic: '/sait/' },
+    { word: 'creature', pos: 'n.', meaning: '动物，生物', phonetic: '/\'kri:tʃə/' },
+    { word: 'peculiar', pos: 'adj.', meaning: '奇怪的，不寻常的', phonetic: '/pi\'kju:liə/' },
+    { word: 'shining', pos: 'adj.', meaning: '闪闪发光的', phonetic: '/\'ʃainiŋ/' },
+    { word: 'oarfish', pos: 'n.', meaning: '桨鱼', phonetic: '/\'ɔ:fiʃ/' }
+  ],
 }
 const articleNce2L83: Article = {
   original: {
@@ -3997,7 +3359,17 @@ const articleNce2L83: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'election', pos: 'n.', meaning: '选举', phonetic: '/i\'lekʃən/' },
+    { word: 'former', pos: 'adj.', meaning: '从前的', phonetic: '/\'fɔ:mə/' },
+    { word: 'defeat', pos: 'v.', meaning: '打败', phonetic: '/di\'fi:t/' },
+    { word: 'fanatical', pos: 'adj.', meaning: '狂热的', phonetic: '/fə\'nætikəl/' },
+    { word: 'opponent', pos: 'n.', meaning: '反对者，对手', phonetic: '/ə\'pəunənt/' },
+    { word: 'radical', pos: 'adj.', meaning: '激进的', phonetic: '/\'rædikəl/' },
+    { word: 'progressive', pos: 'adj.', meaning: '进步的', phonetic: '/prə\'gresiv/' },
+    { word: 'ex-', pos: 'prefix.', meaning: '(前缀，用于名词前)前…', phonetic: '//' },
+    { word: 'suspicious', pos: 'adj.', meaning: '怀疑的', phonetic: '/sə\'spiʃəs/' }
+  ],
 }
 const articleNce2L84: Article = {
   original: {
@@ -4013,7 +3385,19 @@ const articleNce2L84: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'strike', pos: 'n.', meaning: '罢工', phonetic: '/straik/' },
+    { word: 'busman', pos: 'n.', meaning: '公共汽车司机', phonetic: '/\'bʌsmən/' },
+    { word: 'state', pos: 'v.', meaning: '正式提出，宣布', phonetic: '/steit/' },
+    { word: 'agreement', pos: 'n.', meaning: '协议', phonetic: '/ə\'gri:mənt/' },
+    { word: 'relieve', pos: 'v.', meaning: '减轻', phonetic: '/ri\'li:v/' },
+    { word: 'pressure', pos: 'n.', meaning: '压力，麻烦', phonetic: '/\'preʃə/' },
+    { word: 'extent', pos: 'n.', meaning: '程度', phonetic: '/ik\'stent/' },
+    { word: 'volunteer', pos: 'v.', meaning: '自动提出，自愿', phonetic: '/ˌvɔlən\'tiə/' },
+    { word: 'gratitude', pos: 'n.', meaning: '感激', phonetic: '/\'grætitju:d/' },
+    { word: 'Press', pos: 'n.', meaning: '新闻界', phonetic: '/pres/' },
+    { word: 'object', pos: 'v.', meaning: '不赞成，反对', phonetic: '/\'ɔbdʒiktˌ əb\'dʒekt/' }
+  ],
 }
 const articleNce2L85: Article = {
   original: {
@@ -4029,7 +3413,22 @@ const articleNce2L85: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'inform', pos: 'v.', meaning: '告诉，通知', phonetic: '/in\'fɔ:m/' },
+    { word: 'headmaster', pos: 'n.', meaning: '校长', phonetic: '/ˌhed\'mɑ:stə/' },
+    { word: 'contribute', pos: 'v.', meaning: '捐助，援助', phonetic: '/kən\'tribju:t/' },
+    { word: 'gift', pos: 'n.', meaning: '礼物，赠品', phonetic: '/gift/' },
+    { word: 'album', pos: 'n.', meaning: '签名簿，相册', phonetic: '/\'ælbəm/' },
+    { word: 'patience', pos: 'n.', meaning: '耐心', phonetic: '/\'peiʃəns/' },
+    { word: 'encouragement', pos: 'n.', meaning: '鼓励', phonetic: '/in\'kʌridʒmənt/' },
+    { word: 'farewell', pos: 'n.', meaning: '告别', phonetic: '/feə\'wel/' },
+    { word: 'honour', pos: 'n.', meaning: '敬意', phonetic: '/\'ɔnə/' },
+    { word: 'coincidence', pos: 'n.', meaning: '巧合', phonetic: '/kəu\'insidəns/' },
+    { word: 'total', pos: 'n.', meaning: '总数', phonetic: '/\'təutl/' },
+    { word: 'devote', pos: 'v.', meaning: '致力于', phonetic: '/di\'vəut/' },
+    { word: 'gardening', pos: 'n.', meaning: '园艺', phonetic: '/\'gɑ:dəniŋ/' },
+    { word: 'hobby', pos: 'n.', meaning: '爱好，嗜好', phonetic: '/\'hɔbi/' }
+  ],
 }
 const articleNce2L86: Article = {
   original: {
@@ -4045,7 +3444,19 @@ const articleNce2L86: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'swing', pos: 'v.', meaning: '转向', phonetic: '/swiŋ/' },
+    { word: 'speedboat', pos: 'n.', meaning: '快艇', phonetic: '/\'spi:dbəut/' },
+    { word: 'desperately', pos: 'adv.', meaning: '绝望地', phonetic: '/\'despəritli/' },
+    { word: 'companion', pos: 'n.', meaning: '同伙，同伴', phonetic: '/kəm\'pæniən/' },
+    { word: 'water ski', pos: 'phr.', meaning: '(由快艇牵引水橇)滑水', phonetic: '//' },
+    { word: 'buoy', pos: 'n.', meaning: '浮标', phonetic: '/bɔi/' },
+    { word: 'dismay', pos: 'n.', meaning: '沮丧', phonetic: '/dis\'mei/' },
+    { word: 'tremendous', pos: 'adj.', meaning: '巨大的', phonetic: '/tri\'mendəs/' },
+    { word: 'petrol', pos: 'n.', meaning: '汽油', phonetic: '/\'petrəl/' },
+    { word: 'drift', pos: 'v.', meaning: '漂动，漂流', phonetic: '/drift/' },
+    { word: 'gently', pos: 'adv.', meaning: '缓慢地，轻轻地', phonetic: '/\'dʒentli/' }
+  ],
 }
 const articleNce2L87: Article = {
   original: {
@@ -4071,7 +3482,15 @@ const articleNce2L87: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'alibi', pos: 'n.', meaning: '不在犯罪现场', phonetic: '/\'ælibai/' },
+    { word: 'commit', pos: 'v.', meaning: '犯(罪、错)', phonetic: '/kə\'mit/' },
+    { word: 'inspector', pos: 'n.', meaning: '探长', phonetic: '/in\'spektə/' },
+    { word: 'employer', pos: 'n.', meaning: '雇主', phonetic: '/im\'plɔiə/' },
+    { word: 'confirm', pos: 'v.', meaning: '确认，证实', phonetic: '/kən\'fə:m/' },
+    { word: 'suggest', pos: 'v.', meaning: '提醒', phonetic: '/sə\'dʒest/' },
+    { word: 'truth', pos: 'n.', meaning: '真相', phonetic: '/tru:θ/' }
+  ],
 }
 const articleNce2L88: Article = {
   original: {
@@ -4087,7 +3506,20 @@ const articleNce2L88: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'trap', pos: 'v.', meaning: '陷入，使陷于困境', phonetic: '/træp/' },
+    { word: 'surface', pos: 'n.', meaning: '地面，表面', phonetic: '/\'sə:fis/' },
+    { word: 'explosive', pos: 'n.', meaning: '炸药', phonetic: '/ik\'spləusiv/' },
+    { word: 'vibration', pos: 'n.', meaning: '震动', phonetic: '/vai\'breiʃən/' },
+    { word: 'collapse', pos: 'v.', meaning: '坍塌', phonetic: '/kə\'læps/' },
+    { word: 'drill', pos: 'v.', meaning: '钻孔', phonetic: '/dril/' },
+    { word: 'capsule', pos: 'n.', meaning: '容器', phonetic: '/\'kæpsju:l/' },
+    { word: 'layer', pos: 'n.', meaning: '层', phonetic: '/\'leiə/' },
+    { word: 'beneath', pos: 'prep.', meaning: '在…之下', phonetic: '/bi\'ni:θ/' },
+    { word: 'lower', pos: 'v.', meaning: '放下，降低', phonetic: '/\'ləuə/' },
+    { word: 'progress', pos: 'v.', meaning: '进展，进行', phonetic: '/\'prəugres, prə\'gres/' },
+    { word: 'smoothly', pos: 'adv.', meaning: '顺利地', phonetic: '/\'smu:eli/' }
+  ],
 }
 const articleNce2L89: Article = {
   original: {
@@ -4103,7 +3535,16 @@ const articleNce2L89: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'slip', pos: 'n.', meaning: '小错误', phonetic: '/slip/' },
+    { word: 'comedy', pos: 'n.', meaning: '喜剧', phonetic: '/\'kɔmidi/' },
+    { word: 'present', pos: 'v.', meaning: '演出', phonetic: '/pri\'zent, \'prezənt/' },
+    { word: 'present', pos: 'adj.', meaning: '出席，到场的', phonetic: '/pri\'zent, \'prezənt/' },
+    { word: 'queue', pos: 'v.', meaning: '排队', phonetic: '/kju:/' },
+    { word: 'dull', pos: 'adj.', meaning: '枯燥，无味', phonetic: '/dʌl/' },
+    { word: 'artiste', pos: 'n.', meaning: '艺人', phonetic: '/ɑ:\'ti:st/' },
+    { word: 'advertiser', pos: 'n.', meaning: '报幕员', phonetic: '/\'ædvətaizə/' }
+  ],
 }
 const articleNce2L90: Article = {
   original: {
@@ -4121,7 +3562,23 @@ const articleNce2L90: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'chip', pos: 'n.', meaning: '油煎豆片', phonetic: '/tʃip/' },
+    { word: 'overfish', pos: 'v.', meaning: '过度捕捞', phonetic: '/əuvə\'fiʃ/' },
+    { word: 'giant', pos: 'adj.', meaning: '巨大的', phonetic: '/\'dʒaiənt/' },
+    { word: 'terrify', pos: 'v.', meaning: '吓，使恐怖', phonetic: '/\'terifai/' },
+    { word: 'diver', pos: 'n.', meaning: '潜水员', phonetic: '/\'daivə/' },
+    { word: 'oil rig', pos: 'n.', meaning: '石油钻塔', phonetic: '/\'ɔil ˌrig/' },
+    { word: 'wit', pos: 'n.', meaning: '(复数)理智，头脑', phonetic: '/wit/' },
+    { word: 'cage', pos: 'n.', meaning: '笼', phonetic: '/keidʒ/' },
+    { word: 'shark', pos: 'n.', meaning: '鲨鱼', phonetic: '/ʃɑ:k/' },
+    { word: 'whale', pos: 'n.', meaning: '鲸', phonetic: '/weil/' },
+    { word: 'variety', pos: 'n.', meaning: '品种', phonetic: '/və\'raiəti/' },
+    { word: 'cod', pos: 'n.', meaning: '鳕', phonetic: '/kɔd/' },
+    { word: 'skate', pos: 'n.', meaning: '鳐', phonetic: '/skeit/' },
+    { word: 'factor', pos: 'n.', meaning: '因素', phonetic: '/\'fæktə/' },
+    { word: 'crew', pos: 'n.', meaning: '全体工作人员', phonetic: '/kru:/' }
+  ],
 }
 const articleNce2L91: Article = {
   original: {
@@ -4137,7 +3594,13 @@ const articleNce2L91: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'balloon', pos: 'n.', meaning: '气球', phonetic: '/bə\'lu:n/' },
+    { word: 'royal', pos: 'adj.', meaning: '皇家', phonetic: '/\'rɔiəl/' },
+    { word: 'spy', pos: 'v.', meaning: '侦察', phonetic: '/spai/' },
+    { word: 'track', pos: 'n.', meaning: '轨迹，踪迹', phonetic: '/træk/' },
+    { word: 'binoculars', pos: 'n.', meaning: '望远镜', phonetic: '/bi\'nɔkjuləz/' }
+  ],
 }
 const articleNce2L92: Article = {
   original: {
@@ -4161,7 +3624,13 @@ const articleNce2L92: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'fast', pos: 'adv.', meaning: '熟(睡)', phonetic: '/fɑ:st/' },
+    { word: 'ladder', pos: 'n.', meaning: '梯子', phonetic: '/\'lædə/' },
+    { word: 'shed', pos: 'n.', meaning: '棚子', phonetic: '/ʃed/' },
+    { word: 'sarcastic', pos: 'adj.', meaning: '讽刺的，讥笑的', phonetic: '/sɑ:\'kæstik, sɑr-/' },
+    { word: 'tone', pos: 'n.', meaning: '语气，腔调', phonetic: '/təun/' }
+  ],
 }
 const articleNce2L93: Article = {
   original: {
@@ -4177,7 +3646,21 @@ const articleNce2L93: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'noble', pos: 'adj.', meaning: '高尚的，壮丽的', phonetic: '/\'nəubəl/' },
+    { word: 'monument', pos: 'n.', meaning: '纪念碑', phonetic: '/\'mɔnjumənt/' },
+    { word: 'statue', pos: 'n.', meaning: '雕像', phonetic: '/\'stætʃu:/' },
+    { word: 'liberty', pos: 'n.', meaning: '自由', phonetic: '/\'libəti/' },
+    { word: 'present', pos: 'v.', meaning: '赠送', phonetic: '/pri\'zent, \'prezənt/' },
+    { word: 'sculptor', pos: 'n.', meaning: '雕刻家', phonetic: '/\'skʌlptə/' },
+    { word: 'actual', pos: 'adj.', meaning: '实际的，真实的', phonetic: '/\'æktʃuəl/' },
+    { word: 'copper', pos: 'n.', meaning: '铜', phonetic: '/\'kɔpə/' },
+    { word: 'support', pos: 'v.', meaning: '支持，支撑', phonetic: '/sə\'pɔ:t/' },
+    { word: 'framework', pos: 'n.', meaning: '构架，框架', phonetic: '/\'freimwə:k/' },
+    { word: 'transport', pos: 'v.', meaning: '运送', phonetic: '/træn\'spɔ:t/' },
+    { word: 'site', pos: 'n.', meaning: '场地', phonetic: '/sait/' },
+    { word: 'pedestal', pos: 'n.', meaning: '底座', phonetic: '/\'pedistl/' }
+  ],
 }
 const articleNce2L94: Article = {
   original: {
@@ -4193,7 +3676,17 @@ const articleNce2L94: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'instruct', pos: 'v.', meaning: '指导，传授', phonetic: '/in\'strʌkt/' },
+    { word: 'Los Angeles', pos: 'n', meaning: '洛杉矶', phonetic: '/lɔs\'ændʒili:z/' },
+    { word: 'reluctant', pos: 'adj.', meaning: '勉强的，不愿意的', phonetic: '/ri\'lʌktənt/' },
+    { word: 'weight', pos: 'n.', meaning: '重物', phonetic: '/weit/' },
+    { word: 'underwater', pos: 'adj.', meaning: '水下的', phonetic: '/ˌʌndə\'wɔ:tə/' },
+    { word: 'tricycle', pos: 'n.', meaning: '三轮车', phonetic: '/\'traisikəl/' },
+    { word: 'compete', pos: 'v.', meaning: '比赛，对抗', phonetic: '/kəm\'pi:t/' },
+    { word: 'yard', pos: 'n.', meaning: '码', phonetic: '/jɑ:d/' },
+    { word: 'gasp', pos: 'v.', meaning: '喘气', phonetic: '/gɑ:sp/' }
+  ],
 }
 const articleNce2L95: Article = {
   original: {
@@ -4219,7 +3712,19 @@ const articleNce2L95: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'fantasy', pos: 'n.', meaning: '幻想故事', phonetic: '/\'fæntəsi/' },
+    { word: 'ambassador', pos: 'n.', meaning: '大使', phonetic: '/æm\'bæsədə/' },
+    { word: 'frightful', pos: 'adj.', meaning: '可怕的，令人吃惊的', phonetic: '/\'fraitfəl/' },
+    { word: 'fire extinguisher', pos: 'n.', meaning: '灭火器', phonetic: '//' },
+    { word: 'drily', pos: 'adv.', meaning: '冷淡地，枯燥无味地', phonetic: '/\'draili/' },
+    { word: 'embassy', pos: 'n.', meaning: '大使馆', phonetic: '/\'embəsi/' },
+    { word: 'heaven', pos: 'n.', meaning: '天，天堂', phonetic: '/\'hevən/' },
+    { word: 'basement', pos: 'n.', meaning: '地下室', phonetic: '/\'beismənt/' },
+    { word: 'definitely', pos: 'adv.', meaning: '肯定地', phonetic: '/\'definitli/' },
+    { word: 'post', pos: 'v.', meaning: '派任', phonetic: '/pəust/' },
+    { word: 'shot', pos: 'n.', meaning: '子弹', phonetic: '/ʃɔt/' }
+  ],
 }
 const articleNce2L96: Article = {
   original: {
@@ -4235,7 +3740,11 @@ const articleNce2L96: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'festival', pos: 'n.', meaning: '节日', phonetic: '/\'festivəl/' },
+    { word: 'lantern', pos: 'n.', meaning: '灯笼', phonetic: '/\'læntən/' },
+    { word: 'spectacle', pos: 'n.', meaning: '景象，壮观，场面', phonetic: '/\'spektəkəl/' }
+  ],
 }
 
 const articleNce3L1: Article = {
@@ -4254,7 +3763,23 @@ const articleNce3L1: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'puma', pos: 'n.', meaning: '美洲狮', phonetic: '/\'pju:mə/' },
+    { word: 'spot', pos: 'v.', meaning: '看出，发现', phonetic: '/spɔt/' },
+    { word: 'evidence', pos: 'n.', meaning: '证据', phonetic: '/\'evidəns/' },
+    { word: 'accumulate', pos: 'v.', meaning: '积累，积聚', phonetic: '/ə\'kju:mjuleit/' },
+    { word: 'oblige', pos: 'v.', meaning: '使…感到必须', phonetic: '/ə\'blaidʒ/' },
+    { word: 'hunt', pos: 'n./v.', meaning: '追猎；寻找；打猎', phonetic: '/hʌnt/' },
+    { word: 'blackberry', pos: 'n.', meaning: '黑莓', phonetic: '/\'blækbəri/' },
+    { word: 'human', pos: 'n.', meaning: '人类', phonetic: '/\'hju:mən/' },
+    { word: 'corner', pos: 'v./n.', meaning: '使走投无路，使陷入困境；角落', phonetic: '/\'kɔ:nə/' },
+    { word: 'trail', pos: 'n.', meaning: '一串，一系列', phonetic: '/treil/' },
+    { word: 'print', pos: 'n.', meaning: '印痕', phonetic: '/print/' },
+    { word: 'cling', pos: 'v.', meaning: '粘', phonetic: '/kliŋ/' },
+    { word: 'convince', pos: 'v.', meaning: '使…信服', phonetic: '/kən\'vins/' },
+    { word: 'somehow', pos: 'adv.', meaning: '不知怎么搞的，不知什么原因', phonetic: '/\'sʌmhau/' },
+    { word: 'disturb', pos: 'v.', meaning: '令人不安', phonetic: '/dis\'tə:b/' }
+  ],
 }
 const articleNce3L2: Article = {
   original: {
@@ -4280,7 +3805,12 @@ const articleNce3L2: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'equal', pos: 'v.', meaning: '等于', phonetic: '/\'i:kwəl/' },
+    { word: 'vicar', pos: 'n.', meaning: '牧师', phonetic: '/\'vikə/' },
+    { word: 'raise', pos: 'v.', meaning: '募集，筹(款)', phonetic: '/\'reiz/' },
+    { word: 'torchlight', pos: 'n.', meaning: '电筒光', phonetic: '/\'tɔ:tʃlait/' }
+  ],
 }
 const articleNce3L3: Article = {
   original: {
@@ -4298,7 +3828,28 @@ const articleNce3L3: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'goddess', pos: 'n.', meaning: '女神', phonetic: '/\'gɔdis/' },
+    { word: 'archaeologist', pos: 'n.', meaning: '考古学家', phonetic: '/\'a:kiə\'lɔdʒist/' },
+    { word: 'aegean', pos: 'adj.', meaning: '爱琴海的', phonetic: '/i:\'dʒi:ən/' },
+    { word: 'explore', pos: 'v.', meaning: '考察，勘探', phonetic: '/iks\'plɔ:/' },
+    { word: 'promontory', pos: 'n.', meaning: '海角', phonetic: '/\'prɔməntəri/' },
+    { word: 'prosperous', pos: 'adj.', meaning: '(经济上)繁荣的，昌盛的', phonetic: '/\'prɔspərəs/' },
+    { word: 'civilization', pos: 'n.', meaning: '文明', phonetic: '/\'sivilai\'zeiʃən/' },
+    { word: 'storey', pos: 'n.', meaning: '楼层', phonetic: '/\'stɔ:ri/' },
+    { word: 'drainage', pos: 'n.', meaning: '排水', phonetic: '/\'dreinidʒ/' },
+    { word: 'worship', pos: 'n.', meaning: '崇拜', phonetic: '/\'wə:ʃip/' },
+    { word: 'sacred', pos: 'adj.', meaning: '宗教的，神圣的', phonetic: '/\'seikrid/' },
+    { word: 'fragment', pos: 'n.', meaning: '碎片', phonetic: '/\'frægmənt/' },
+    { word: 'remains', pos: 'n.', meaning: '遗物，遗迹，废墟', phonetic: '/ri\'meinz/' },
+    { word: 'classical', pos: 'adj.', meaning: '(希腊和罗马)古文化的', phonetic: '/\'klæsikəl/' },
+    { word: 'reconstruct', pos: 'v.', meaning: '修复', phonetic: '/\'ri:kəns\'trʌkt/' },
+    { word: 'rest', pos: 'v.', meaning: '倚放，放置', phonetic: '/rest/' },
+    { word: 'hip', pos: 'n.', meaning: '屁股，臀部', phonetic: '/hip/' },
+    { word: 'full-length', pos: 'adj.', meaning: '(裙衣)拖地长的', phonetic: '//' },
+    { word: 'graceful', pos: 'adj.', meaning: '优雅的', phonetic: '/\'greisful/' },
+    { word: 'identity', pos: 'n.', meaning: '身份', phonetic: '/ai\'dentiti/' }
+  ],
 }
 const articleNce3L4: Article = {
   original: {
@@ -4316,7 +3867,18 @@ const articleNce3L4: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'manual', pos: 'adj.', meaning: '体力的', phonetic: '/\'mænjuəl/' },
+    { word: 'collar', pos: 'n.', meaning: '衣领', phonetic: '/\'kɔlə/' },
+    { word: 'sacrifice', pos: 'v.', meaning: '牺牲，献出', phonetic: '/\'sækrifais/' },
+    { word: 'privilege', pos: 'n.', meaning: '好处，特权', phonetic: '/\'privilidʒ/' },
+    { word: 'dustman', pos: 'n.', meaning: '清洁工', phonetic: '/\'dʌstmən/' },
+    { word: 'corporation', pos: 'n.', meaning: '公司', phonetic: '/\'kɔ:pə\'reiʃən/' },
+    { word: 'overalls', pos: 'n.', meaning: '工作服', phonetic: '//' },
+    { word: 'shower', pos: 'n.', meaning: '淋浴', phonetic: '/\'ʃəuə, \'ʃauə/' },
+    { word: 'secret', pos: 'n.', meaning: '秘密', phonetic: '/\'si:krit/' },
+    { word: 'status', pos: 'n.', meaning: '地位', phonetic: '/\'steitəs/' }
+  ],
 }
 const articleNce3L5: Article = {
   original: {
@@ -4334,7 +3896,19 @@ const articleNce3L5: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'editor', pos: 'n.', meaning: '编辑', phonetic: '/\'editə/' },
+    { word: 'extreme', pos: 'n.', meaning: '极端', phonetic: '/iks\'tri:m/' },
+    { word: 'statistics', pos: 'n.', meaning: '统计数字', phonetic: '/stə\'tistiks/' },
+    { word: 'journalist', pos: 'n.', meaning: '新闻记者', phonetic: '/\'dʒə:nəlist/' },
+    { word: 'president', pos: 'n.', meaning: '总统', phonetic: '/\'prezidənt/' },
+    { word: 'palace', pos: 'n.', meaning: '王宫；宏伟的住宅', phonetic: '/\'pælis/' },
+    { word: 'publish', pos: 'v.', meaning: '出版', phonetic: '/\'pʌbliʃ/' },
+    { word: 'fax', pos: 'n.', meaning: '传真', phonetic: '/fæks/' },
+    { word: 'impatient', pos: 'adj.', meaning: '不耐烦的', phonetic: '/im\'peiʃənt/' },
+    { word: 'fire', pos: 'v.', meaning: '解雇', phonetic: '/\'faiə/' },
+    { word: 'originally', pos: 'adv.', meaning: '起初，原先，从前', phonetic: '/ə\'ridʒənəli/' }
+  ],
 }
 const articleNce3L6: Article = {
   original: {
@@ -4352,7 +3926,23 @@ const articleNce3L6: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'smash-and-grab', pos: 'n.', meaning: '砸窗户抢劫', phonetic: '//' },
+    { word: 'arcade', pos: 'n.', meaning: '有拱廊的街道(两旁常设商店)', phonetic: '/a:\'keid/' },
+    { word: 'Piccadilly', pos: 'n.', meaning: '皮卡迪利大街（伦敦市中心一条著名的街道）', phonetic: '/pikə\'dili/' },
+    { word: 'jewellery', pos: 'n.', meaning: '珠宝(总称)', phonetic: '//' },
+    { word: 'necklace', pos: 'n.', meaning: '项链', phonetic: '/\'neklis/' },
+    { word: 'ring', pos: 'n.', meaning: '戒指；环形物', phonetic: '/riŋ/' },
+    { word: 'background', pos: 'n.', meaning: '背景', phonetic: '/\'bækgraund/' },
+    { word: 'velvet', pos: 'n.', meaning: '天鹅绒，丝绒', phonetic: '/\'velvit/' },
+    { word: 'headlight', pos: 'n.', meaning: '(汽车等)前灯', phonetic: '/\'hedlait/' },
+    { word: 'blare', pos: 'v.', meaning: '发嘟嘟声，吼叫', phonetic: '/blєə/' },
+    { word: 'staff', pos: 'n.', meaning: '全体工作人员', phonetic: '/sta:f/' },
+    { word: 'raid', pos: 'n.', meaning: '偷袭', phonetic: '/reid/' },
+    { word: 'scramble', pos: 'v.', meaning: '爬行', phonetic: '/\'skræmbl/' },
+    { word: 'fantastic', pos: 'adj.', meaning: '非常大的', phonetic: '/fæn\'tæstik/' },
+    { word: 'ashtray', pos: 'n.', meaning: '烟灰缸', phonetic: '/\'æʃtrei/' }
+  ],
 }
 const articleNce3L7: Article = {
   original: {
@@ -4370,7 +3960,17 @@ const articleNce3L7: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'mutilate', pos: 'v.', meaning: '使残缺不全，毁坏', phonetic: '/\'mju:tileit/' },
+    { word: 'chew', pos: 'v.', meaning: '咀嚼', phonetic: '/tʃu:/' },
+    { word: 'fiancé', pos: 'n.', meaning: '未婚夫', phonetic: '/fi\'ɑ:nsei/' },
+    { word: 'microwave', pos: 'n.', meaning: '微波，微波炉', phonetic: '/\'maikrəweiv/' },
+    { word: 'oven', pos: 'n.', meaning: '炉灶', phonetic: '/\'ʌvn/' },
+    { word: 'safekeeping', pos: 'n.', meaning: '妥善保管', phonetic: '/\'seif\'ki:piŋ/' },
+    { word: 'Newcastle', pos: 'n.', meaning: '纽卡斯尔(英国港口城市)', phonetic: '/\'nju:\'ka:sl/' },
+    { word: 'identify', pos: 'v.', meaning: '鉴定，识别', phonetic: '/ai\'dentifai/' },
+    { word: 'spokeswoman', pos: 'n.', meaning: '女发言人', phonetic: '//' }
+  ],
 }
 const articleNce3L10: Article = {
   original: {
@@ -4388,7 +3988,29 @@ const articleNce3L10: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'Southampton', pos: 'n.', meaning: '南安普敦(英国港口城市)', phonetic: '/sauθ\'æmptən,sauθ\'hæmptən/' },
+    { word: 'colossal', pos: 'adj.', meaning: '庞大的,巨大的', phonetic: '/kə\'lɔsl/' },
+    { word: 'watertight', pos: 'adj.', meaning: '不漏水的', phonetic: '//' },
+    { word: 'compartment', pos: 'n.', meaning: '(轮船的)密封舱', phonetic: '/kəm\'pa:tmənt/' },
+    { word: 'flood', pos: 'v.', meaning: '充满水', phonetic: '/flʌd/' },
+    { word: 'float', pos: 'v.', meaning: '漂浮，飘浮', phonetic: '/fləut/' },
+    { word: 'tragic', pos: 'adj.', meaning: '悲惨的', phonetic: '/\'trædʒik/' },
+    { word: 'liner', pos: 'n.', meaning: '班船, 大客轮；班机', phonetic: '/\'lainə/' },
+    { word: 'voyage', pos: 'n.', meaning: '航行', phonetic: '/vɔidʒ/' },
+    { word: 'iceberg', pos: 'n.', meaning: '冰山', phonetic: '/\'aisbə:g/' },
+    { word: 'lookout', pos: 'n.', meaning: '瞭望员', phonetic: '/\'luk\'aut/' },
+    { word: 'collision', pos: 'n.', meaning: '碰撞', phonetic: '/kə\'liʒ(ə)n/' },
+    { word: 'narrowly', pos: 'adv.', meaning: '刚刚，勉强地', phonetic: '/\'nærouli/' },
+    { word: 'miss', pos: 'v.', meaning: '避开', phonetic: '/mis/' },
+    { word: 'slight', pos: 'adj.', meaning: '轻微的', phonetic: '/slait/' },
+    { word: 'tremble', pos: 'v.', meaning: '震颤', phonetic: '/\'trembl/' },
+    { word: 'faint', pos: 'adj.', meaning: '微弱的', phonetic: '/feint/' },
+    { word: 'horror', pos: 'n.', meaning: '恐惧', phonetic: '/\'hɔrə/' },
+    { word: 'abandon', pos: 'v.', meaning: '抛弃', phonetic: '/ə\'bændən/' },
+    { word: 'plunge', pos: 'v.', meaning: '投入，跳入；陷入', phonetic: '/plʌndʒ/' },
+    { word: 'lifeboat', pos: 'n.', meaning: '救生船', phonetic: '//' }
+  ],
 }
 const articleNce3L12: Article = {
   original: {
@@ -4406,7 +4028,25 @@ const articleNce3L12: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'desert', pos: 'v.', meaning: '(军队中)开小差', phonetic: '/\'dezət, di\'zə:t/' },
+    { word: 'unrealistic', pos: 'adj.', meaning: '不真实的', phonetic: '/\'ʌnriə\'listik/' },
+    { word: 'paradise', pos: 'n.', meaning: '天堂，乐土', phonetic: '/\'pærədais/' },
+    { word: 'wretched', pos: 'adj.', meaning: '可怜的，艰苦的', phonetic: '/\'retʃid/' },
+    { word: 'starve', pos: 'v.', meaning: '挨饿', phonetic: '/sta:v/' },
+    { word: 'element', pos: 'n.', meaning: '成分', phonetic: '/\'elimənt/' },
+    { word: 'opportunity', pos: 'n.', meaning: '机会', phonetic: '/\'ɔpə\'tju:niti/' },
+    { word: 'coral', pos: 'n.', meaning: '珊瑚', phonetic: '/\'kɔrəl/' },
+    { word: 'Virgin', pos: 'n.', meaning: '维尔京群岛', phonetic: '/\'və:dʒin/' },
+    { word: 'Miami', pos: 'n.', meaning: '迈阿密(美国最南的城市)', phonetic: '/mai\'æmi/' },
+    { word: 'dinghy', pos: 'n.', meaning: '救生筏，小船', phonetic: '//' },
+    { word: 'Caribbean', pos: 'n.', meaning: '加勒比海', phonetic: '/\'kæri\'bi:ən/' },
+    { word: 'spear', pos: 'n.', meaning: '捕鱼枪', phonetic: '/spiə/' },
+    { word: 'lobster', pos: 'n.', meaning: '龙虾', phonetic: '/\'lɔbstə/' },
+    { word: 'tanker', pos: 'n.', meaning: '油轮', phonetic: '/\'tæŋkə/' },
+    { word: 'genuinely', pos: 'adv.', meaning: '由衷地', phonetic: '//' },
+    { word: 'Robinson Crusoe', pos: 'n.', meaning: '鲁滨孙·克鲁索(《鲁滨孙漂流记》主人公)', phonetic: '//' }
+  ],
 }
 const articleNce3L13: Article = {
   original: {
@@ -4424,7 +4064,19 @@ const articleNce3L13: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'costume', pos: 'n.', meaning: '化装服', phonetic: '/\'kɔstju:m/' },
+    { word: 'consist', pos: 'v.', meaning: '由…组成', phonetic: '/kən\'sist/' },
+    { word: 'sheet', pos: 'n.', meaning: '被单', phonetic: '/ʃi:t/' },
+    { word: 'effective', pos: 'adj.', meaning: '有明显效果的，有作用的; 生效的', phonetic: '/i\'fektiv/' },
+    { word: 'comfortable', pos: 'adj.', meaning: '舒适的', phonetic: '/\'kʌmfətəbl/' },
+    { word: 'storeroom', pos: 'n.', meaning: '储藏室', phonetic: '/\'stɔ:rum/' },
+    { word: 'electricity', pos: 'n.', meaning: '电', phonetic: '/ilek\'trisiti/' },
+    { word: 'ammeter', pos: 'n.', meaning: '电表', phonetic: '/\'æmi:tə/' },
+    { word: 'pace', pos: 'n.', meaning: '一步', phonetic: '/peis/' },
+    { word: 'flee', pos: 'v.', meaning: '逃走', phonetic: '/fli:/' },
+    { word: 'slam', pos: 'v.', meaning: '砰地关上', phonetic: '/slæm/' }
+  ],
 }
 const articleNce3L19: Article = {
   original: {
@@ -4442,7 +4094,20 @@ const articleNce3L19: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'dear', pos: 'adj.', meaning: '亲爱的；珍贵的；昂贵的', phonetic: '/diə/' },
+    { word: 'kidnapper', pos: 'n.', meaning: '绑架者，拐骗者', phonetic: '//' },
+    { word: 'considerable', pos: 'adj.', meaning: '相当大的', phonetic: '/kən\'sidərəbl/' },
+    { word: 'wealthy', pos: 'adj.', meaning: '富的，有钱的', phonetic: '/\'welθi/' },
+    { word: 'orderly', pos: 'adj.', meaning: '有规律的', phonetic: '/\'ɔ:dəli/' },
+    { word: 'disappearance', pos: 'n.', meaning: '失踪', phonetic: '/\'disə\'piərəns/' },
+    { word: 'anonymous', pos: 'adj.', meaning: '匿名的', phonetic: '/ə\'nɔniməs/' },
+    { word: 'ransom', pos: 'n.', meaning: '赎金', phonetic: '/\'rænsəm/' },
+    { word: 'cardboard', pos: 'n.', meaning: '硬纸板', phonetic: '/\'ka:dbɔ:d/' },
+    { word: 'withdraw', pos: 'v.', meaning: '(从银行)取钱', phonetic: '/wið\'drɔ:/' },
+    { word: 'punctually', pos: 'adv.', meaning: '准时地', phonetic: '//' },
+    { word: 'astound', pos: 'v.', meaning: '使吃惊', phonetic: '/əs\'taund/' }
+  ],
 }
 const articleNce3L21: Article = {
   original: {
@@ -4462,7 +4127,26 @@ const articleNce3L21: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'boxing', pos: 'n.', meaning: '拳击', phonetic: '/\'bɔksiŋ/' },
+    { word: 'boxer', pos: 'n.', meaning: '拳击手', phonetic: '/\'bɔksə/' },
+    { word: 'bare', pos: 'adj.', meaning: '赤裸的；空荡的', phonetic: '/bєə/' },
+    { word: 'prizefighter', pos: 'n.', meaning: '职业拳击手(尤指古时赤手拳击手)', phonetic: '//' },
+    { word: 'crude', pos: 'adj.', meaning: '粗野的', phonetic: '/kru:d/' },
+    { word: 'marquis', pos: 'n.', meaning: '侯爵', phonetic: '/\'ma:kwis/' },
+    { word: 'technically', pos: 'adv.', meaning: '严格根据法律意义地', phonetic: '/\'teknikəli/' },
+    { word: 'science', pos: 'n.', meaning: '科学', phonetic: '/\'saiəns/' },
+    { word: 'popularity', pos: 'n.', meaning: '名望', phonetic: '/\'pɔpju\'læriti/' },
+    { word: 'adore', pos: 'v.', meaning: '崇拜，爱戴；非常喜欢', phonetic: '/ə\'dɔ:/' },
+    { word: 'alike', pos: 'adv.', meaning: '一样地', phonetic: '/ə\'laik/' },
+    { word: 'fame', pos: 'n.', meaning: '名声', phonetic: '/feim/' },
+    { word: 'eminent', pos: 'adj.', meaning: '著名的，杰出的', phonetic: '/\'eminənt/' },
+    { word: 'bitterly', pos: 'adv.', meaning: '厉害地', phonetic: '/\'bitəli/' },
+    { word: 'bet', pos: 'v.', meaning: '打赌', phonetic: '/bet/' },
+    { word: 'academy', pos: 'n.', meaning: '专业学校', phonetic: '/ə\'kædəmi/' },
+    { word: 'extravagant', pos: 'adj.', meaning: '浪费的，奢侈的', phonetic: '/iks\'trævigənt/' },
+    { word: 'poverty', pos: 'n.', meaning: '贫困', phonetic: '/\'pɔvəti/' }
+  ],
 }
 const articleNce3L22: Article = {
   original: {
@@ -4482,7 +4166,27 @@ const articleNce3L22: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'run', pos: 'v.', meaning: '(戏剧，电影等)连演，连映', phonetic: '/rʌn/' },
+    { word: 'lines', pos: 'n.', meaning: '(剧本中的)台词', phonetic: '//' },
+    { word: 'part', pos: 'n.', meaning: '剧中的角色，台词', phonetic: '/pa:t/' },
+    { word: 'falter', pos: 'v.', meaning: '支吾，结巴说', phonetic: '/\'fɔ:ltə/' },
+    { word: 'cast', pos: 'v.', meaning: '选派……扮演角色', phonetic: '/ka:st/' },
+    { word: 'role', pos: 'n.', meaning: '角色', phonetic: '/rəul/' },
+    { word: 'aristocrat', pos: 'n.', meaning: '贵族', phonetic: '/\'æristəkræt/' },
+    { word: 'imprison', pos: 'v.', meaning: '关押', phonetic: '/im\'prizn/' },
+    { word: 'Bastille', pos: 'n.', meaning: '巴士底狱', phonetic: '//' },
+    { word: 'gaoler', pos: 'n.', meaning: '监狱长，看守', phonetic: '//' },
+    { word: 'colleague', pos: 'n.', meaning: '同事', phonetic: '/\'kɔli:g/' },
+    { word: 'curtain', pos: 'n.', meaning: '(舞台上的)幕布', phonetic: '/\'kə:tn/' },
+    { word: 'reveal', pos: 'v.', meaning: '使显露;泄漏', phonetic: '/ri\'vi:l/' },
+    { word: 'cell', pos: 'n.', meaning: '单人监房，监号', phonetic: '/sel/' },
+    { word: 'blank', pos: 'adj.', meaning: '空白的', phonetic: '/blæŋk/' },
+    { word: 'squint', pos: 'v.', meaning: '眯着(眼)看，瞄', phonetic: '/skwint/' },
+    { word: 'dim', pos: 'adj.', meaning: '昏暗的', phonetic: '/dim/' },
+    { word: 'sire', pos: 'n.', meaning: '(古用法)陛下', phonetic: '/\'saiə/' },
+    { word: 'proceed', pos: 'v.', meaning: '继续进行', phonetic: '/prə\'si:d/' }
+  ],
 }
 const articleNce3L24: Article = {
   original: {
@@ -4500,7 +4204,29 @@ const articleNce3L24: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'skeleton', pos: 'n.', meaning: '骷髅', phonetic: '/\'skelitən/' },
+    { word: 'Seemingly', pos: 'adv.', meaning: '表面上地', phonetic: '//' },
+    { word: 'Respectable', pos: 'adj.', meaning: '体面的，雅观的', phonetic: '/ris\'pektəbl/' },
+    { word: 'conceal', pos: 'v.', meaning: '隐藏，隐瞒', phonetic: '/kən\'si:l/' },
+    { word: 'vivid', pos: 'adj.', meaning: '生动的', phonetic: '/\'vivid/' },
+    { word: 'dramatic', pos: 'adj.', meaning: '令人激动的，扣人心弦的', phonetic: '/drə\'mætik/' },
+    { word: 'ruin', pos: 'v.', meaning: '毁坏', phonetic: '/\'ruin/' },
+    { word: 'heroine', pos: 'n.', meaning: '女主人公', phonetic: '/\'herəuin/' },
+    { word: 'fiction', pos: 'n.', meaning: '小说', phonetic: '/\'fikʃən/' },
+    { word: 'varying', pos: 'adj.', meaning: '不同的', phonetic: '//' },
+    { word: 'medicine', pos: 'n.', meaning: '医学', phonetic: '/\'medisin/' },
+    { word: 'guestroom', pos: 'n.', meaning: '(家庭中的)客房', phonetic: '//' },
+    { word: 'unpack', pos: 'vt.', meaning: '(从箱中)取出', phonetic: '/\'ʌn\'pæk/' },
+    { word: 'stack', pos: 'v./n.', meaning: '(整齐地)堆放，排放；堆', phonetic: '/stæk/' },
+    { word: 'underclothes', pos: 'n.', meaning: '内衣', phonetic: '/\'ʌndəkləuðz/' },
+    { word: 'drawer', pos: 'n.', meaning: '抽屉', phonetic: '/drɔ:/' },
+    { word: 'petrify', pos: 'v.', meaning: '使惊呆', phonetic: '/\'petrifai/' },
+    { word: 'dangle', pos: 'v.', meaning: '悬挂', phonetic: '/\'dæŋgl/' },
+    { word: 'sway', pos: 'v.', meaning: '摇摆', phonetic: '/swei/' },
+    { word: 'unsympathetic', pos: 'adj.', meaning: '不表同情的，无动于衷的', phonetic: '/\'ʌn\'simpə\'θetik/' },
+    { word: 'medical', pos: 'adj.', meaning: '医学的', phonetic: '/\'medikəl/' }
+  ],
 }
 const articleNce3L26: Article = {
   original: {
@@ -4520,7 +4246,25 @@ const articleNce3L26: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'influence', pos: 'v.', meaning: '影响', phonetic: '/\'influəns/' },
+    { word: 'pride', pos: 'v.', meaning: '骄傲', phonetic: '/praid/' },
+    { word: 'taste', pos: 'n.', meaning: '鉴赏力;品尝', phonetic: '/teist/' },
+    { word: 'exert', pos: 'v.', meaning: '施加', phonetic: '/ig\'zə:t/' },
+    { word: 'subtle', pos: 'adj.', meaning: '微妙的，难以捉摸的', phonetic: '/\'sʌbtl/' },
+    { word: 'advertiser', pos: 'n.', meaning: '做广告的人', phonetic: '/\'ædvətaizə/' },
+    { word: 'classify', pos: 'v.', meaning: '分类', phonetic: '/\'klæsifai/' },
+    { word: 'magic', pos: 'adj.', meaning: '有奇妙作用的', phonetic: '/\'mædʒik/' },
+    { word: 'sample', pos: 'n.', meaning: '样品', phonetic: '/\'sa:mpl/' },
+    { word: 'devise', pos: 'v.', meaning: '设计，想出', phonetic: '/di\'vaiz/' },
+    { word: 'capture', pos: 'v.', meaning: '吸引，赢得', phonetic: '/\'kæptʃə/' },
+    { word: 'manufacturer', pos: 'n.', meaning: '生产厂家，制造商', phonetic: '/\'mænju\'fæktʃərə/' },
+    { word: 'wheelbarrow', pos: 'n.', meaning: '独轮手推车', phonetic: '/\'wi:l\'bærəu/' },
+    { word: 'boot', pos: 'n.', meaning: '(汽车尾部的)行李箱', phonetic: '/bu:t/' },
+    { word: 'ingredient', pos: 'n.', meaning: '配料', phonetic: '/in\'gri:djənt/' },
+    { word: 'crane', pos: 'n.', meaning: '起重机', phonetic: '/krein/' },
+    { word: 'anticipate', pos: 'v.', meaning: '预期，预料', phonetic: '/æn\'tisipeit/' }
+  ],
 }
 const articleNce3L27: Article = {
   original: {
@@ -4540,7 +4284,23 @@ const articleNce3L27: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'philosopher', pos: 'n.', meaning: '哲学家', phonetic: '/fi\'lɔsəfə/' },
+    { word: 'wisdom', pos: 'n.', meaning: '智慧', phonetic: '/\'wizdəm/' },
+    { word: 'priest', pos: 'n.', meaning: '牧师', phonetic: '/pri:st/' },
+    { word: 'spiritual', pos: 'adj.', meaning: '精神上的', phonetic: '/\'spiritjuəl/' },
+    { word: 'grudge', pos: 'v.', meaning: '不愿给，舍不得给', phonetic: '/grʌdʒ/' },
+    { word: 'surgeon', pos: 'n.', meaning: '外科大夫', phonetic: '/\'sə:dʒən/' },
+    { word: 'passer-by', pos: 'n.', meaning: '过路人(复数passers-by)', phonetic: '//' },
+    { word: 'dignity', pos: 'n.', meaning: '尊严', phonetic: '/\'digniti/' },
+    { word: 'deliberately', pos: 'adv.', meaning: '故意地', phonetic: '/di\'libəritli/' },
+    { word: 'consequence', pos: 'n.', meaning: '后果，结果', phonetic: '/\'kɔnsikwəns/' },
+    { word: 'afflict', pos: 'v.', meaning: '使苦恼，折磨', phonetic: '/ə\'flikt/' },
+    { word: 'ease', pos: 'n.', meaning: '容易', phonetic: '/i:z/' },
+    { word: 'nature', pos: 'n.', meaning: '大自然', phonetic: '/\'neitʃə/' },
+    { word: 'contempt', pos: 'n.', meaning: '蔑视', phonetic: '/kən\'tempt/' },
+    { word: 'envious', pos: 'adj.', meaning: '嫉妒的', phonetic: '/\'enviəs/' }
+  ],
 }
 const articleNce3L29: Article = {
   original: {
@@ -4560,7 +4320,21 @@ const articleNce3L29: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'largely', pos: 'adv.', meaning: '在很大程度上', phonetic: '/\'la:dʒli/' },
+    { word: 'comic', pos: 'adj.', meaning: '喜剧的，可笑的', phonetic: '/\'kɔmik/' },
+    { word: 'universal', pos: 'adj.', meaning: '普遍的', phonetic: '/\'ju:ni\'və:səl/' },
+    { word: 'comedian', pos: 'n.', meaning: '滑稽演员，喜剧演员', phonetic: '/kə\'mi:djən/' },
+    { word: 'distasteful', pos: 'adj.', meaning: '讨厌的', phonetic: '/dis\'teistful/' },
+    { word: 'pester', pos: 'v.', meaning: '一再要求，纠缠', phonetic: '/\'pestə/' },
+    { word: 'dread', pos: 'v.', meaning: '惧怕', phonetic: '/dred/' },
+    { word: 'recovery', pos: 'n.', meaning: '康复', phonetic: '/ri\'kʌvəri/' },
+    { word: 'plaster', pos: 'n.', meaning: '熟石膏', phonetic: '/\'pla:stə/' },
+    { word: 'console', pos: 'v.', meaning: '安慰，慰问', phonetic: '/kən\'səul/' },
+    { word: 'hobble', pos: 'v.', meaning: '瘸着腿走', phonetic: '/\'hɔbl/' },
+    { word: 'compensate', pos: 'v.', meaning: '补偿', phonetic: '/\'kɔmpenseit/' },
+    { word: 'mumble', pos: 'v.', meaning: '喃喃而语', phonetic: '/\'mʌmbl/' }
+  ],
 }
 const articleNce3L30: Article = {
   original: {
@@ -4580,7 +4354,19 @@ const articleNce3L30: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'labourer', pos: 'n.', meaning: '劳动者(也做laborer)', phonetic: '/\'leibərə/' },
+    { word: 'overnight', pos: 'adv.', meaning: '一夜期间', phonetic: '/\'əuvənait/' },
+    { word: 'hay', pos: 'n.', meaning: '干草', phonetic: '/hei/' },
+    { word: 'corn', pos: 'n.', meaning: '谷物', phonetic: '/kɔ:n/' },
+    { word: 'moonlight', pos: 'n.', meaning: '月光', phonetic: '/\'mu:nlait/' },
+    { word: 'conscientious', pos: 'adj.', meaning: '认真的', phonetic: '/\'kɔnʃi\'enʃəs/' },
+    { word: 'suspect', pos: 'v.', meaning: '怀疑', phonetic: '/səs\'pekt, \'sʌspekt/' },
+    { word: 'desert', pos: 'v.', meaning: '(军队中)开小差', phonetic: '/\'dezət, di\'zə:t/' },
+    { word: 'regiment', pos: 'n.', meaning: '(军队)团', phonetic: '/\'redʒimənt/' },
+    { word: 'action', pos: 'n.', meaning: '战斗', phonetic: '/\'ækʃən/' },
+    { word: 'recluse', pos: 'n.', meaning: '隐士', phonetic: '/ri\'klu:s/' }
+  ],
 }
 const articleNce3L31: Article = {
   original: {
@@ -4600,7 +4386,26 @@ const articleNce3L31: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'lovable', pos: 'adj.', meaning: '可爱的', phonetic: '/\'lʌvəbl/' },
+    { word: 'eccentric', pos: 'n.', meaning: '(行为)古怪的人', phonetic: '/ik\'sentrik/' },
+    { word: 'disregard', pos: 'v.', meaning: '不顾，无视', phonetic: '/\'disri\'ga:d/' },
+    { word: 'convention', pos: 'n.', meaning: '习俗，风俗', phonetic: '/kən\'venʃən/' },
+    { word: 'conscious', pos: 'adj.', meaning: '感觉（意识）到的', phonetic: '/\'kɔnʃəs/' },
+    { word: 'invariably', pos: 'adv.', meaning: '总是，经常地', phonetic: '/in\'vєəriəbli/' },
+    { word: 'routine', pos: 'n./a.', meaning: '常规；惯例;常规的', phonetic: '/ru:\'ti:n/' },
+    { word: 'shrewd', pos: 'adj.', meaning: '精明的', phonetic: '/ʃru:d/' },
+    { word: 'eccentricity', pos: 'n.', meaning: '怪癖', phonetic: '/\'eksen\'trisiti/' },
+    { word: 'legendary', pos: 'adj.', meaning: '传奇般的', phonetic: '/\'ledʒəndəri/' },
+    { word: 'snob', pos: 'n.', meaning: '势利小人，谄上欺下的人', phonetic: '/snɔb/' },
+    { word: 'intensely', pos: 'adv.', meaning: '强烈地', phonetic: '//' },
+    { word: 'bedraggled', pos: 'adj.', meaning: '拖泥带水的；又脏又湿的', phonetic: '/bi\'drægld/' },
+    { word: 'dump', pos: 'v.', meaning: '把……砰的一声抛下', phonetic: '/dʌmp/' },
+    { word: 'apologetic', pos: 'adj.', meaning: '道歉的', phonetic: '/əpɔlə\'dʒetik/' },
+    { word: 'reprimand', pos: 'v.', meaning: '训斥', phonetic: '/\'reprima:nd/' },
+    { word: 'stage', pos: 'v.', meaning: '暗中策划', phonetic: '/steidʒ/' },
+    { word: 'elaborate', pos: 'adj.', meaning: '精心构思的；精致的', phonetic: '/i\'læbərit/' }
+  ],
 }
 const articleNce3L32: Article = {
   original: {
@@ -4620,7 +4425,27 @@ const articleNce3L32: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'salvage', pos: 'v./n.', meaning: '救助，营救，打捞', phonetic: '/\'sælvidʒ/' },
+    { word: 'Barents', pos: 'n.', meaning: '巴伦支(海)', phonetic: '/\'bærənts/' },
+    { word: 'sunken', pos: 'adj.', meaning: '沉没的', phonetic: '/\'sʌŋkən/' },
+    { word: 'cargo', pos: 'n.', meaning: '货物', phonetic: '/\'ka:gəu/' },
+    { word: 'bullion', pos: 'n.', meaning: '金条；银条', phonetic: '/\'buljən/' },
+    { word: 'scour', pos: 'v.', meaning: '彻底搜索', phonetic: '/\'skauə/' },
+    { word: 'chest', pos: 'n.', meaning: '大箱子', phonetic: '/tʃest/' },
+    { word: 'contents', pos: 'n.', meaning: '(复数)所装的东西', phonetic: '//' },
+    { word: 'belongings', pos: 'n.', meaning: '(复数)所有物', phonetic: '/bi\'lɔŋiŋz/' },
+    { word: 'item', pos: 'n.', meaning: '物件', phonetic: '/\'aitəm/' },
+    { word: 'cruiser', pos: 'n.', meaning: '巡洋舰', phonetic: '/\'kru:zə/' },
+    { word: 'find', pos: 'n.', meaning: '找到的物品', phonetic: '/faind/' },
+    { word: 'log book', pos: 'n.', meaning: '航海日志', phonetic: '//' },
+    { word: 'piece', pos: 'v.', meaning: '拼成整体', phonetic: '/pi:s/' },
+    { word: 'convoy', pos: 'v./n.', meaning: '护航', phonetic: '/\'kɔnvɔi/' },
+    { word: 'torpedo', pos: 'v.', meaning: '用鱼雷攻击', phonetic: '/tɔ:\'pi:dəu/' },
+    { word: 'submarine', pos: 'n.', meaning: '潜水艇', phonetic: '/\'sʌbməri:n/' },
+    { word: 'naval', pos: 'adj.', meaning: '海军的', phonetic: '/\'neivəl/' },
+    { word: 'ministry', pos: 'n.', meaning: '(政府的)部', phonetic: '/\'ministri/' }
+  ],
 }
 const articleNce3L33: Article = {
   original: {
@@ -4638,7 +4463,24 @@ const articleNce3L33: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'prelude', pos: 'n.', meaning: '序幕，前奏', phonetic: '/\'prelju:d/' },
+    { word: 'unforeseen', pos: 'adj.', meaning: '意料之外的', phonetic: '/\'ʌnfɔ:\'si:n/' },
+    { word: 'series', pos: 'n.', meaning: '系列', phonetic: '/\'siəri:z/' },
+    { word: 'catastrophe', pos: 'n.', meaning: '大祸，灾难', phonetic: '/kə\'tæstrəfi/' },
+    { word: 'crockery', pos: 'n.', meaning: '陶器，瓦器', phonetic: '/\'krɔkəri/' },
+    { word: 'suburb', pos: 'n.', meaning: '郊区', phonetic: '/\'sʌbə:b/' },
+    { word: 'collide', pos: 'v.', meaning: '猛撞', phonetic: '/kə\'laid/' },
+    { word: 'learner', pos: 'n.', meaning: '初学者', phonetic: '/\'lə:nə/' },
+    { word: 'panic', pos: 'n.', meaning: '惊慌，恐慌', phonetic: '/\'pænik/' },
+    { word: 'windscreen', pos: 'n.', meaning: '(汽车的)挡风玻璃', phonetic: '//' },
+    { word: 'alongside', pos: 'prep.', meaning: '在……的旁边，与……并排', phonetic: '/ə\'lɔŋ\'said/' },
+    { word: 'slide', pos: 'v.', meaning: '滑；回避', phonetic: '/slaid/' },
+    { word: 'stray', pos: 'a./v.', meaning: '迷失的，离群的；迷路，偏离', phonetic: '/strei/' },
+    { word: 'confusion', pos: 'n.', meaning: '混乱', phonetic: '/kən\'fju:ʒən/' },
+    { word: 'greedily', pos: 'adv.', meaning: '贪婪地', phonetic: '/\'gri:dili/' },
+    { word: 'devour', pos: 'v.', meaning: '狼吞虎咽地吃', phonetic: '/di\'vauə/' }
+  ],
 }
 const articleNce3L37: Article = {
   original: {
@@ -4656,7 +4498,30 @@ const articleNce3L37: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'express', pos: 'n./a.', meaning: '快车；高速的', phonetic: '/iks\'pres/' },
+    { word: 'punctual', pos: 'adj.', meaning: '准时的', phonetic: '/\'pʌŋktjuəl/' },
+    { word: 'condition', pos: 'v.', meaning: '使习惯于', phonetic: '/kən\'diʃən/' },
+    { word: 'unshakable', pos: 'adj.', meaning: '不可动摇的', phonetic: '/ʌn\'ʃeikəbl/' },
+    { word: 'faith', pos: 'n.', meaning: '信任', phonetic: '/feiθ/' },
+    { word: 'cancel', pos: 'v.', meaning: '取消', phonetic: '/\'kænsəl/' },
+    { word: 'exceptionally', pos: 'adv.', meaning: '例外地', phonetic: '//' },
+    { word: 'dislocate', pos: 'v.', meaning: '打乱(计划等)', phonetic: '/\'disləkeit/' },
+    { word: 'blame', pos: 'v.', meaning: '责怪', phonetic: '/bleim/' },
+    { word: 'consult', pos: 'v.', meaning: '请教，查阅', phonetic: '/kən\'sʌlt/' },
+    { word: 'direct', pos: 'adv.', meaning: '径直地', phonetic: '/di\'rekt/' },
+    { word: 'odd', pos: 'adj.', meaning: '奇怪的，异常的', phonetic: '/ɔd/' },
+    { word: 'reflect', pos: 'v.', meaning: '细想', phonetic: '/ri\'flekt/' },
+    { word: 'advantage', pos: 'n.', meaning: '优势', phonetic: '/əd\'va:ntidʒ/' },
+    { word: 'mighty', pos: 'adj.', meaning: '强大的，有力的', phonetic: '/\'maiti/' },
+    { word: 'dawdle', pos: 'v.', meaning: '慢吞吞地动或做', phonetic: '/\'dɔ:dl/' },
+    { word: 'chug', pos: 'v.', meaning: '咔嚓咔嚓地响', phonetic: '/tʃʌg/' },
+    { word: 'lodge', pos: 'v./n.', meaning: '提出；小屋，(旅游区的)小旅馆', phonetic: '/lɔdʒ/' },
+    { word: 'complaint', pos: 'n.', meaning: '抱怨', phonetic: '/kəm\'pleint/' },
+    { word: 'triumph', pos: 'n./v.', meaning: '胜利;战胜', phonetic: '/\'traiəmf/' },
+    { word: 'asterisk', pos: 'n.', meaning: '星号', phonetic: '/\'æstərisk/' },
+    { word: 'conduct', pos: 'v.', meaning: '引向，引导', phonetic: '/\'kɔndəkt, kən\'dʌkt/' }
+  ],
 }
 const articleNce3L38: Article = {
   original: {
@@ -4678,7 +4543,35 @@ const articleNce3L38: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'calendar', pos: 'n.', meaning: '历法，日历', phonetic: '/\'kælində/' },
+    { word: 'historian', pos: 'n.', meaning: '历史学家', phonetic: '/his\'tɔ:riən/' },
+    { word: 'unique', pos: 'adj.', meaning: '无与伦比的；独特的', phonetic: '/ju:\'ni:k/' },
+    { word: 'steadily', pos: 'adv.', meaning: '不断地', phonetic: '/\'stedili/' },
+    { word: 'solely', pos: 'adv.', meaning: '唯一地', phonetic: '/\'səuli/' },
+    { word: 'video', pos: 'n.', meaning: '录像', phonetic: '/\'vidiəu/' },
+    { word: 'CD-ROM', pos: 'n.', meaning: '(只读)光盘驱动器', phonetic: '//' },
+    { word: 'bewilder', pos: 'v.', meaning: '令人眼花缭乱', phonetic: '/bi\'wildə/' },
+    { word: 'deduce', pos: 'v.', meaning: '推断，推理', phonetic: '/di\'dju:s/' },
+    { word: 'scanty', pos: 'adj.', meaning: '不足的，贫乏的', phonetic: '/\'skænti/' },
+    { word: 'mammoth', pos: 'n.', meaning: '(古生物)长毛象', phonetic: '/\'mæməθ/' },
+    { word: 'tusk', pos: 'n.', meaning: '獠牙，长牙，象牙', phonetic: '/tʌsk/' },
+    { word: 'nomad', pos: 'n.', meaning: '游牧民', phonetic: '/\'nɔməd/' },
+    { word: 'correlate', pos: 'v.', meaning: '使相互联系', phonetic: '/\'kɔrileit/' },
+    { word: 'clue', pos: 'n.', meaning: '线索', phonetic: '/klu:/' },
+    { word: 'insignificant', pos: 'adj.', meaning: '不重要的', phonetic: '/\'insig\'nifikənt/' },
+    { word: 'shed', pos: 'v.', meaning: '使流出，泻', phonetic: '/ʃed/' },
+    { word: 'advent', pos: 'n.', meaning: '出现，到来，来临', phonetic: '/\'ædvənt/' },
+    { word: 'agriculture', pos: 'n.', meaning: '农业', phonetic: '/\'ægrikʌltʃə/' },
+    { word: 'assumption', pos: 'n.', meaning: '假定，设想', phonetic: '/ə\'sʌmpʃən/' },
+    { word: 'dot', pos: 'n.', meaning: '小圆点', phonetic: '/dɔt/' },
+    { word: 'symbol', pos: 'n.', meaning: '符号', phonetic: '/\'simbəl/' },
+    { word: 'engrave', pos: 'v.', meaning: '雕刻', phonetic: '/in\'greiv/' },
+    { word: 'ivory', pos: 'n.', meaning: '象牙制品', phonetic: '/\'aivəri/' },
+    { word: 'phase', pos: 'n.', meaning: '月相，天相', phonetic: '/feiz/' },
+    { word: 'primitive', pos: 'adj.', meaning: '原始的', phonetic: '/\'primitiv/' },
+    { word: 'depict', pos: 'v.', meaning: '描画，描绘', phonetic: '/di\'pikt/' }
+  ],
 }
 const articleNce3L40: Article = {
   original: {
@@ -4698,7 +4591,21 @@ const articleNce3L40: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'hoax', pos: 'n.', meaning: '骗局，戏弄', phonetic: '/həuks/' },
+    { word: 'deception', pos: 'n.', meaning: '欺骗，骗局', phonetic: '/di\'sepʃən/' },
+    { word: 'self-respecting', pos: 'adj.', meaning: '自重的，自尊的', phonetic: '//' },
+    { word: 'indulge', pos: 'v.', meaning: '使沉迷；享受', phonetic: '/in\'dʌldʒ/' },
+    { word: 'pneumatic', pos: 'adj.', meaning: '气动的', phonetic: '/nju:\'mætik/' },
+    { word: 'drill', pos: 'n.', meaning: '钻', phonetic: '/dril/' },
+    { word: 'silly', pos: 'adj.', meaning: '无意义的，无聊的', phonetic: '/\'sili/' },
+    { word: 'advance', pos: 'adj.', meaning: '预先的，事先获得的', phonetic: '/əd\'va:ns/' },
+    { word: 'archway', pos: 'n.', meaning: '拱形门楼', phonetic: '/\'a:tʃwei/' },
+    { word: 'remonstrate', pos: 'v.', meaning: '规劝，告诫', phonetic: '/ri\'mɔnstreit/' },
+    { word: 'ironically', pos: 'adv.', meaning: '讽刺地', phonetic: '/ai\'rɔnikəli/' },
+    { word: 'permission', pos: 'n.', meaning: '许可', phonetic: '/pə(:)\'miʃən/' },
+    { word: 'grant', pos: 'v.', meaning: '同意，准予', phonetic: '/gra:nt/' }
+  ],
 }
 const articleNce3L41: Article = {
   original: {
@@ -4716,7 +4623,32 @@ const articleNce3L41: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'illusion', pos: 'n.', meaning: '幻想，错觉', phonetic: '/i\'lju:ʒən/' },
+    { word: 'pastoral', pos: 'adj.', meaning: '田园的', phonetic: '/\'pa:stərəl/' },
+    { word: 'breed', pos: 'v.', meaning: '培育', phonetic: '/bri:d/' },
+    { word: 'rapture', pos: 'n.', meaning: '欣喜', phonetic: '/\'ræptʃə/' },
+    { word: 'extol', pos: 'v.', meaning: '赞美，颂扬', phonetic: '/iks\'tɔl/' },
+    { word: 'superior', pos: 'adj.', meaning: '优越的', phonetic: '/sju:\'piəriə/' },
+    { word: 'cockcrow', pos: 'n.', meaning: '鸡叫', phonetic: '//' },
+    { word: 'twitter', pos: 'v.', meaning: '(鸟)吱吱叫，嘁嘁喳喳叫', phonetic: '/\'twitə/' },
+    { word: 'glint', pos: 'v.', meaning: '闪烁', phonetic: '/glint/' },
+    { word: 'pasture', pos: 'n.', meaning: '牧场', phonetic: '/\'pa:stʃə/' },
+    { word: 'idyllic', pos: 'adj.', meaning: '田园诗的', phonetic: '/ai\'dilik/' },
+    { word: 'virtually', pos: 'adv.', meaning: '几乎，差不多', phonetic: '/\'və:tjuəli/' },
+    { word: 'dubious', pos: 'adj.', meaning: '可疑的，怀疑的', phonetic: '/\'dju:bjəs/' },
+    { word: 'privilege', pos: 'n.', meaning: '好处，特权', phonetic: '/\'privilidʒ/' },
+    { word: 'misery', pos: 'n.', meaning: '苦难', phonetic: '/\'mizəri/' },
+    { word: 'acquaintance', pos: 'n.', meaning: '熟人', phonetic: '/ə\'kweintəns/' },
+    { word: 'treat', pos: 'n.', meaning: '难得的乐事，享受', phonetic: '/tri:t/' },
+    { word: 'dweller', pos: 'n.', meaning: '居住者', phonetic: '/\'dwelə/' },
+    { word: 'stagger', pos: 'v.', meaning: '摇晃，蹒跚', phonetic: '/\'stægə/' },
+    { word: 'exotic', pos: 'adj.', meaning: '异乎寻常的，外来的', phonetic: '/ig\'zɔutik/' },
+    { word: 'glow', pos: 'n.', meaning: '白炽光', phonetic: '/gləu/' },
+    { word: 'descend', pos: 'v.', meaning: '下落，降临', phonetic: '/di\'send/' },
+    { word: 'tuck', pos: 'v.', meaning: '缩进，隐藏', phonetic: '/tʌk/' },
+    { word: 'obstinately', pos: 'adv.', meaning: '固执地，顽固地', phonetic: '//' }
+  ],
 }
 const articleNce3L42: Article = {
   original: {
@@ -4736,7 +4668,38 @@ const articleNce3L42: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'caveman', pos: 'n.', meaning: '(远古)洞穴人', phonetic: '//' },
+    { word: 'pot-holing', pos: 'n.', meaning: '洞穴探险，洞穴探险运动', phonetic: '//' },
+    { word: 'solitude', pos: 'n.', meaning: '孤独，寂寞', phonetic: '/\'sɔlitju:d/' },
+    { word: 'lure', pos: 'v.', meaning: '引诱，诱惑', phonetic: '/ljuə/' },
+    { word: 'pot-holer', pos: 'n.', meaning: '洞穴探险者', phonetic: '//' },
+    { word: 'rambler', pos: 'n.', meaning: '漫步者，散步者', phonetic: '/\'ræmblə/' },
+    { word: 'undertaking', pos: 'n.', meaning: '任务，工作', phonetic: '/\'ʌndə\'teikiŋ/' },
+    { word: 'foresight', pos: 'n.', meaning: '预见；深谋远虑', phonetic: '/\'fɔ:sait/' },
+    { word: 'foretell', pos: 'v.', meaning: '预言', phonetic: '/fɔ:\'tel/' },
+    { word: 'Grenoble', pos: 'n.', meaning: '格里诺布尔', phonetic: '/grə\'noubl/' },
+    { word: 'chasm', pos: 'n.', meaning: '断层，裂口，陷坑', phonetic: '/tʃæzəm/' },
+    { word: 'flaw', pos: 'n.', meaning: '小裂缝；缺点，瑕疵', phonetic: '/flɔ:/' },
+    { word: 'distinguished', pos: 'adj.', meaning: '杰出的，著名的', phonetic: '/dis\'tiŋgwiʃt/' },
+    { word: 'Everest', pos: 'n.', meaning: '珠穆朗玛峰', phonetic: '/\'evərist/' },
+    { word: 'wade', pos: 'v.', meaning: '涉水', phonetic: '/weid/' },
+    { word: 'waterfall', pos: 'n.', meaning: '瀑布', phonetic: '/\'wɔ:təfɔ:l/' },
+    { word: 'gear', pos: 'n.', meaning: '(汽车)排档', phonetic: '/giə/' },
+    { word: 'inflatable', pos: 'adj.', meaning: '可充气的', phonetic: '/in\'fleitəbl/' },
+    { word: 'rubble', pos: 'n.', meaning: '碎瓦，瓦块', phonetic: '/\'rʌbl/' },
+    { word: 'insistent', pos: 'adj.', meaning: '连续的，不断的', phonetic: '/in\'sistənt/' },
+    { word: 'boom', pos: 'v.', meaning: '轰响', phonetic: '/bu:m/' },
+    { word: 'waterspout', pos: 'n.', meaning: '强大的水柱', phonetic: '/\'wɔtəspaut/' },
+    { word: 'cleft', pos: 'n.', meaning: '裂隙，开口', phonetic: '/kleft/' },
+    { word: 'cavern', pos: 'n.', meaning: '大洞穴', phonetic: '/\'kævən/' },
+    { word: 'stalagmite', pos: 'n.', meaning: '石笋', phonetic: '/\'stæləgmait/' },
+    { word: 'stalactite', pos: 'n.', meaning: '钟乳石', phonetic: '/\'stæləktait/' },
+    { word: 'limestone', pos: 'n.', meaning: '石灰石', phonetic: '/\'laimstəun/' },
+    { word: 'glisten', pos: 'v.', meaning: '闪烁', phonetic: '/\'glisn/' },
+    { word: 'eerie', pos: 'adj.', meaning: '引起恐惧的，可怕的', phonetic: '/\'iəri/' },
+    { word: 'dome', pos: 'n.', meaning: '穹窿，圆顶', phonetic: '/dəum/' }
+  ],
 }
 const articleNce3L50: Article = {
   original: {
@@ -4754,7 +4717,36 @@ const articleNce3L50: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'resolution', pos: 'n.', meaning: '决心', phonetic: '/\'rezə\'lju:ʃən/' },
+    { word: 'mentally', pos: 'adv.', meaning: '内心里', phonetic: '/\'mentli/' },
+    { word: 'compile', pos: 'v.', meaning: '编辑，编制', phonetic: '/kəm\'pail/' },
+    { word: 'formidable', pos: 'adj.', meaning: '令人畏惧的', phonetic: '/\'fɔ:midəbl/' },
+    { word: 'recur', pos: 'v.', meaning: '再发生，又出现', phonetic: '/ri\'kə:/' },
+    { word: 'regularity', pos: 'n.', meaning: '规律性', phonetic: '/\'regju\'læriti/' },
+    { word: 'accomplishment', pos: 'n.', meaning: '成就', phonetic: '/ə\'kɔmpliʃmənt/' },
+    { word: 'attainment', pos: 'n.', meaning: '达到；成就，造诣', phonetic: '/ə\'teinmənt/' },
+    { word: 'inveterate', pos: 'adj.', meaning: '根深蒂固的', phonetic: '/in\'vetərit/' },
+    { word: 'self-improvement', pos: 'n.', meaning: '自我完善', phonetic: '//' },
+    { word: 'scheme', pos: 'n.', meaning: '简单的计划，方案', phonetic: '/ski:m/' },
+    { word: 'ambitious', pos: 'adj.', meaning: '雄心勃勃的', phonetic: '/æm\'biʃəs/' },
+    { word: 'pitfall', pos: 'n.', meaning: '意外的困难，易犯的错误', phonetic: '/\'pitfɔ:l/' },
+    { word: 'modest', pos: 'adj.', meaning: '要求不过分的,谦虚的', phonetic: '/\'mɔdist/' },
+    { word: 'assiduously', pos: 'adv.', meaning: '刻苦地', phonetic: '//' },
+    { word: 'self-discipline', pos: 'n.', meaning: '自我约束', phonetic: '//' },
+    { word: 'frame', pos: 'n.', meaning: '躯体', phonetic: '/freim/' },
+    { word: 'betray', pos: 'v.', meaning: '暴露，显露', phonetic: '/bi\'trei/' },
+    { word: 'troop', pos: 'v.', meaning: '成群结队地走动', phonetic: '/tru:p/' },
+    { word: 'unsettle', pos: 'v.', meaning: '使不安', phonetic: '/ʌn\'setl/' },
+    { word: 'taunt', pos: 'n./v.', meaning: '嘲笑，奚落人的话', phonetic: '/tɔ:nt/' },
+    { word: 'jibe', pos: 'n.', meaning: '嘲弄，挖苦', phonetic: '/dʒaib/' },
+    { word: 'good-humouredly', pos: 'adv.', meaning: '和气地，心情好地', phonetic: '//' },
+    { word: 'wane', pos: 'v.', meaning: '逐渐变小，变弱', phonetic: '/wein/' },
+    { word: 'diminish', pos: 'v.', meaning: '减少，缩小', phonetic: '/di\'miniʃ/' },
+    { word: 'hypnotize', pos: 'v.', meaning: '使欲睡，使朦胧', phonetic: '/\'hipnətaiz/' },
+    { word: 'undoing', pos: 'n.', meaning: '祸根，毁灭的原因', phonetic: '/ʌn\'du:iŋ/' },
+    { word: 'screen', pos: 'n.', meaning: '电视机屏幕', phonetic: '/skri:n/' }
+  ],
 }
 const articleNce3L54: Article = {
   original: {
@@ -4772,7 +4764,33 @@ const articleNce3L54: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'insect', pos: 'n.', meaning: '昆虫', phonetic: '/\'insekt/' },
+    { word: 'wage', pos: 'v.', meaning: '进行(斗争)', phonetic: '/weidʒ/' },
+    { word: 'contaminate', pos: 'v.', meaning: '弄脏', phonetic: '/kən\'tæmineit/' },
+    { word: 'provocation', pos: 'n.', meaning: '惹怒', phonetic: '/\'prɔvə\'keiʃən/' },
+    { word: 'spider', pos: 'n.', meaning: '蜘蛛', phonetic: '/\'spaidə/' },
+    { word: 'wasp', pos: 'n.', meaning: '黄蜂', phonetic: '/wɔsp/' },
+    { word: 'moth', pos: 'n.', meaning: '飞蛾', phonetic: '/mɔθ/' },
+    { word: 'ant', pos: 'n.', meaning: '蚂蚁', phonetic: '/ænt/' },
+    { word: 'revulsion', pos: 'n.', meaning: '厌恶', phonetic: '/ri\'vʌlʃən/' },
+    { word: 'horde', pos: 'n.', meaning: '群', phonetic: '/hɔ:d/' },
+    { word: 'uncanny', pos: 'adj.', meaning: '神秘的，不可思议的', phonetic: '/ʌn\'kæni/' },
+    { word: 'erase', pos: 'v.', meaning: '擦，抹去', phonetic: '/i\'reiz/' },
+    { word: 'praying mantis', pos: 'n.', meaning: '螳螂', phonetic: '//' },
+    { word: 'entranced', pos: 'adj.', meaning: '出神的', phonetic: '//' },
+    { word: 'beetle', pos: 'n.', meaning: '甲虫', phonetic: '/\'bi:tl/' },
+    { word: 'sheltered', pos: 'adj.', meaning: '伤不着的，无危险的', phonetic: '//' },
+    { word: 'luscious', pos: 'adj.', meaning: '甘美的', phonetic: '/\'lʌʃəs/' },
+    { word: 'cluster', pos: 'n.', meaning: '一簇，一群', phonetic: '/\'klʌstə/' },
+    { word: 'aphid', pos: 'n.', meaning: '蚜虫', phonetic: '/\'eifid/' },
+    { word: 'underside', pos: 'n.', meaning: '底面，下侧', phonetic: '/\'ʌndəsaid/' },
+    { word: 'colony', pos: 'n.', meaning: '一群', phonetic: '/\'kɔləni/' },
+    { word: 'sticky', pos: 'adj.', meaning: '粘的', phonetic: '/\'stiki/' },
+    { word: 'scurry', pos: 'v.', meaning: '小步跑', phonetic: '/\'skʌri/' },
+    { word: 'swarm', pos: 'v.', meaning: '聚集', phonetic: '/swɔ:m/' },
+    { word: 'ingenuity', pos: 'n.', meaning: '机灵', phonetic: '/\'indʒi\'nju(:)iti/' }
+  ],
 }
 const articleNce3L59: Article = {
   original: {
@@ -4794,7 +4812,25 @@ const articleNce3L59: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'amass', pos: 'v.', meaning: '积聚，收集', phonetic: '/ə\'mæs/' },
+    { word: 'indiscriminate', pos: 'adj.', meaning: '不加选择的', phonetic: '/\'indis\'kriminit/' },
+    { word: 'clutter', pos: 'n./v.', meaning: '一堆杂物;乱糟糟地堆满', phonetic: '/\'klʌtə/' },
+    { word: 'string', pos: 'n.', meaning: '细线, 细绳', phonetic: '/striŋ/' },
+    { word: 'requisite', pos: 'n.', meaning: '必需品', phonetic: '/\'rekwizit/' },
+    { word: 'mania', pos: 'n.', meaning: '癖好,狂热', phonetic: '/\'meinjə/' },
+    { word: 'sketch', pos: 'n.', meaning: '草图，图样', phonetic: '/sketʃ/' },
+    { word: 'remote', pos: 'adj.', meaning: '(机会，可能性)极少的，小的', phonetic: '/ri\'məut/' },
+    { word: 'strong-minded', pos: 'adj.', meaning: '意志坚强的', phonetic: '//' },
+    { word: 'relaxation', pos: 'n.', meaning: '休息，娱乐', phonetic: '/ri:læk\'seiʃən/' },
+    { word: 'verify', pos: 'v.', meaning: '查证，核实', phonetic: '/\'verifai/' },
+    { word: 'bearing', pos: 'n.', meaning: '关系，联系', phonetic: '/\'bєəriŋ/' },
+    { word: 'like-minded', pos: 'adj.', meaning: '志趣相投的', phonetic: '//' },
+    { word: 'specimen', pos: 'n.', meaning: '标本', phonetic: '/\'spesimin/' },
+    { word: 'constructively', pos: 'adv.', meaning: '有益的，积极的', phonetic: '//' },
+    { word: 'contented', pos: 'adj.', meaning: '心满意足的', phonetic: '/kən\'tentid/' },
+    { word: 'boredom', pos: 'n.', meaning: '烦恼，无聊', phonetic: '/\'bɔ:dəm/' }
+  ],
 }
 const articleNce3L60: Article = {
   original: {
@@ -4820,7 +4856,22 @@ const articleNce3L60: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'punctuality', pos: 'n.', meaning: '准时', phonetic: '/\'pʌŋktju\'æliti/' },
+    { word: 'rural', pos: 'adv.', meaning: '农村的', phonetic: '/\'ruərəl/' },
+    { word: 'disregard', pos: 'v.', meaning: '不顾，无视', phonetic: '/\'disri\'ga:d/' },
+    { word: 'intellectual', pos: 'n.', meaning: '知识分子', phonetic: '/\'inti\'lektjuəl/' },
+    { word: 'abstruse', pos: 'adj.', meaning: '深奥的', phonetic: '/æb\'stru:s/' },
+    { word: 'coordinate', pos: 'v.', meaning: '协调', phonetic: '/kəu\'ɔdinit/' },
+    { word: 'reproach', pos: 'v.', meaning: '责备', phonetic: '/ri\'prəutʃ/' },
+    { word: 'puncture', pos: 'v.', meaning: '刺破(轮胎)', phonetic: '/\'pʌŋktʃə/' },
+    { word: 'diversion', pos: 'n.', meaning: '改道，绕道', phonetic: '/dai\'və:ʃən/' },
+    { word: 'trial', pos: 'n.', meaning: '讨厌的事、人', phonetic: '/\'traiəl/' },
+    { word: 'fraction', pos: 'n.', meaning: '很小一点儿', phonetic: '/\'frækʃən/' },
+    { word: 'flourish', pos: 'n.', meaning: '挥舞(打手势)', phonetic: '/\'flʌriʃ/' },
+    { word: 'microscopic', pos: 'adj.', meaning: '微小的', phonetic: '/\'maikrə\'skɔpik/' },
+    { word: 'adamant', pos: 'adj.', meaning: '坚定的，不动摇的', phonetic: '/\'ædəmənt/' }
+  ],
 }
 
 const articleNce4L1: Article = {
@@ -4841,7 +4892,20 @@ const articleNce4L1: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'fossil (man)', pos: 'adj.', meaning: '化石(人)', phonetic: '/英[ˈfɒsl/' },
+    { word: 'recount', pos: 'v.', meaning: '叙述', phonetic: '/ri\'kaunt/' },
+    { word: 'saga', pos: 'n.', meaning: '英雄故事', phonetic: '/\'sa:gə/' },
+    { word: 'legend', pos: 'n.', meaning: '传说，传奇', phonetic: '/\'ledʒənd/' },
+    { word: 'migration', pos: 'n.', meaning: '迁移，移居', phonetic: '/mai\'greiʃən/' },
+    { word: 'anthropologist', pos: 'n.', meaning: '人类学家', phonetic: '/ænθrə\'pɔlədʒist/' },
+    { word: 'archaeologist', pos: 'n.', meaning: '考古学家', phonetic: '/\'a:kiə\'lɔdʒist/' },
+    { word: 'ancestor', pos: 'n.', meaning: '祖先', phonetic: '/\'ænsistə/' },
+    { word: 'Polynesian', pos: 'adj.', meaning: '波利尼西亚(中太平洋之一群岛)的', phonetic: '/pɔli\'ni:zjən/' },
+    { word: 'Indonesia', pos: 'n.', meaning: '印度尼西亚', phonetic: '/\'indəu\'ni:zjə/' },
+    { word: 'flint', pos: 'n.', meaning: '燧石', phonetic: '/flint/' },
+    { word: 'rot', pos: 'v.', meaning: '烂掉', phonetic: '/rɔt/' }
+  ],
 }
 const articleNce4L2: Article = {
   original: {
@@ -4863,7 +4927,12 @@ const articleNce4L2: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'beast', pos: 'n.', meaning: '野兽', phonetic: '/bi:st/' },
+    { word: 'census', pos: 'n.', meaning: '统计数字', phonetic: '/\'sensəs/' },
+    { word: 'acre', pos: 'n.', meaning: '英亩', phonetic: '/\'eikə/' },
+    { word: 'content', pos: 'adj.', meaning: '满足的', phonetic: '/\'kɔntent, kən\'tent/' }
+  ],
 }
 const articleNce4L3: Article = {
   original: {
@@ -4881,7 +4950,26 @@ const articleNce4L3: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'Matterhorn', pos: 'n.', meaning: '马特霍恩峰(阿尔卑斯山峰之一)', phonetic: '/\'mætəhɔ:n/' },
+    { word: 'alpinist', pos: 'n.', meaning: '登山运动员', phonetic: '/\'ælpinist/' },
+    { word: 'pioneer', pos: 'v./n.', meaning: '开辟，倡导;先锋，开辟者', phonetic: '/\'paiə\'niə/' },
+    { word: 'summit', pos: 'n.', meaning: '顶峰', phonetic: '/\'sʌmit/' },
+    { word: 'attain', pos: 'v.', meaning: '到达', phonetic: '/ə\'tein/' },
+    { word: 'perilous', pos: 'adj.', meaning: '危险的', phonetic: '/\'periləs/' },
+    { word: 'shudder', pos: 'v.', meaning: '不寒而栗', phonetic: '/\'ʃʌdə/' },
+    { word: 'court', pos: 'v.', meaning: '追求', phonetic: '/kɔ:t/' },
+    { word: 'solitary', pos: 'adj.', meaning: '唯一的', phonetic: '/\'sɔlitəri/' },
+    { word: 'impoverish', pos: 'v.', meaning: '使贫困', phonetic: '/im\'pɔvəriʃ/' },
+    { word: 'Alpine', pos: 'adj.', meaning: '阿尔卑斯山的', phonetic: '/\'ælpain/' },
+    { word: 'flea-ridden', pos: 'adj.', meaning: '布满跳蚤的', phonetic: '//' },
+    { word: 'coarse', pos: 'adj.', meaning: '粗劣的', phonetic: '/kɔ:s/' },
+    { word: 'boast', pos: 'v.', meaning: '自恃有', phonetic: '/bəust/' },
+    { word: 'parishioner', pos: 'n.', meaning: '教区居民', phonetic: '/pə\'riʃənə/' },
+    { word: 'shepherd', pos: 'n.', meaning: '牧羊人', phonetic: '/\'ʃepəd/' },
+    { word: 'linen', pos: 'n.', meaning: '亚麻布', phonetic: '/\'linin/' },
+    { word: 'the Alps', pos: 'n.', meaning: '阿尔卑斯山脉', phonetic: '//' }
+  ],
 }
 const articleNce4L4: Article = {
   original: {
@@ -4899,7 +4987,16 @@ const articleNce4L4: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'solid', pos: 'adj.', meaning: '坚实的', phonetic: '/\'sɔlid/' },
+    { word: 'safe', pos: 'n.', meaning: '保险柜', phonetic: '/seif/' },
+    { word: 'Ulyanovsk', pos: 'n.', meaning: '乌里扬诺夫斯克', phonetic: '/u:\'lja:nɔfsk/' },
+    { word: 'commission', pos: 'n.', meaning: '委员会', phonetic: '/kə\'miʃən/' },
+    { word: 'opaque', pos: 'adj.', meaning: '不透明的', phonetic: '/əu\'peik/' },
+    { word: 'lotto', pos: 'n.', meaning: '一种有编号的纸牌', phonetic: '/\'lɔtou/' },
+    { word: 'slipper', pos: 'n.', meaning: '拖鞋', phonetic: '/\'slipə/' },
+    { word: 'blindfold', pos: 'a./ad.', meaning: '被蒙上眼睛的', phonetic: '/\'blaindfəuld/' }
+  ],
 }
 const articleNce4L6: Article = {
   original: {
@@ -4917,7 +5014,22 @@ const articleNce4L6: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'goodwill', pos: 'n.', meaning: '友好', phonetic: '//' },
+    { word: 'cricket', pos: 'n.', meaning: '板球', phonetic: '/\'krikit/' },
+    { word: 'inclination', pos: 'n.', meaning: '意愿', phonetic: '/\'inkli\'neiʃən/' },
+    { word: 'contest', pos: 'n.', meaning: '比赛', phonetic: '/kən\'test, \'kɔntest/' },
+    { word: 'orgy', pos: 'n.', meaning: '无节制，放荡', phonetic: '/\'ɔ:dʒi/' },
+    { word: 'deduce', pos: 'v.', meaning: '推断', phonetic: '/di\'dju:s/' },
+    { word: 'competitive', pos: 'adj.', meaning: '竞争性的', phonetic: '/kəm\'petitiv/' },
+    { word: 'patriotism', pos: 'n.', meaning: '地方观念，爱国主义', phonetic: '/\'pætriətizm/' },
+    { word: 'disgrace', pos: 'v.', meaning: '使丢脸', phonetic: '/dis\'greis/' },
+    { word: 'savage', pos: 'adj.', meaning: '野性的', phonetic: '/\'sævidʒ/' },
+    { word: 'combative', pos: 'adj.', meaning: '好斗的', phonetic: '/\'kɔmbətiv/' },
+    { word: 'mimic warfare', pos: 'n.', meaning: '模拟战争', phonetic: '//' },
+    { word: 'behaviour', pos: 'n.', meaning: '行动，举止', phonetic: '/bi\'heivjə/' },
+    { word: 'absurd', pos: 'adj.', meaning: '荒唐的', phonetic: '/əb\'sə:d/' }
+  ],
 }
 const articleNce4L7: Article = {
   original: {
@@ -4937,7 +5049,22 @@ const articleNce4L7: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'bat', pos: 'n.', meaning: '蝙蝠', phonetic: '/bæt/' },
+    { word: 'strictly', pos: 'adv.', meaning: '明确地', phonetic: '/\'striktli/' },
+    { word: 'utilitarian', pos: 'adj.', meaning: '实用的', phonetic: '/\'ju:tili\'tєəriən/' },
+    { word: 'appreciation', pos: 'n.', meaning: '理解', phonetic: '/ə\'pri:ʃi\'eiʃən/' },
+    { word: 'obstruction', pos: 'n.', meaning: '障碍物', phonetic: '/əb\'strʌkʃən/' },
+    { word: 'elapse', pos: 'v.', meaning: '消逝', phonetic: '/i\'læps/' },
+    { word: 'hull', pos: 'n.', meaning: '船体', phonetic: '/hʌl/' },
+    { word: 'interval', pos: 'n.', meaning: '间隔', phonetic: '/\'intəvəl/' },
+    { word: 'receipt', pos: 'n.', meaning: '收到', phonetic: '/ri\'si:t/' },
+    { word: 'apparatus', pos: 'n.', meaning: '仪器', phonetic: '/,æpə\'reitəs/' },
+    { word: 'shoal', pos: 'n.', meaning: '鱼群', phonetic: '/ʃəul/' },
+    { word: 'herring', pos: 'n.', meaning: '鲱鱼', phonetic: '/\'heriŋ/' },
+    { word: 'cod', pos: 'n.', meaning: '鳕鱼', phonetic: '/kɔd/' },
+    { word: 'squeak', pos: 'n.', meaning: '尖叫声', phonetic: '/skwi:k/' }
+  ],
 }
 const articleNce4L8: Article = {
   original: {
@@ -4957,7 +5084,20 @@ const articleNce4L8: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'slaughter', pos: 'v.', meaning: '屠宰', phonetic: '/\'slɔ:tə/' },
+    { word: 'fit', pos: 'adj.', meaning: '适合', phonetic: '/fit/' },
+    { word: 'grace', pos: 'v.', meaning: '给…增光', phonetic: '/greis/' },
+    { word: 'tariff', pos: 'n.', meaning: '关税', phonetic: '/\'tærif/' },
+    { word: 'standard', pos: 'n.', meaning: '标准', phonetic: '/\'stændəd/' },
+    { word: 'dialysis', pos: 'n.', meaning: '分离，分解；透析，渗析', phonetic: '/dai\'ælisis/' },
+    { word: 'electrocute', pos: 'v.', meaning: '使触电身亡', phonetic: '/i\'lektrəkjut/' },
+    { word: 'eliminate', pos: 'v.', meaning: '消灭', phonetic: '/i\'limineit/' },
+    { word: 'accord', pos: 'n.', meaning: '协议', phonetic: '/ə\'kɔ:d/' },
+    { word: 'device', pos: 'n.', meaning: '仪器，器械', phonetic: '/di\'vais/' },
+    { word: 'hammer out', pos: 'v.', meaning: '推敲', phonetic: '//' },
+    { word: 'pact', pos: 'n.', meaning: '合同，条约，公约', phonetic: '/pækt/' }
+  ],
 }
 const articleNce4L11: Article = {
   original: {
@@ -4973,7 +5113,22 @@ const articleNce4L11: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'oppress', pos: 'v.', meaning: '忧郁，压抑', phonetic: '/ə\'pres/' },
+    { word: 'justification', pos: 'n.', meaning: '正当理由', phonetic: '/\'dʒʌstifi\'keiʃən/' },
+    { word: 'justifiably', pos: 'adv.', meaning: '无可非议地', phonetic: '/-faiəbli/' },
+    { word: 'cheat', pos: 'v.', meaning: '欺骗', phonetic: '/tʃi:t/' },
+    { word: 'abject', pos: 'adj.', meaning: '可怜的', phonetic: '/\'æbdʒekt/' },
+    { word: 'ignoble', pos: 'adj.', meaning: '不体面的，可耻的', phonetic: '/ig\'nəubl/' },
+    { word: 'impersonal', pos: 'adj.', meaning: '超脱个人感情影响的', phonetic: '/im\'pə:sənl/' },
+    { word: 'ego', pos: 'n.', meaning: '自我', phonetic: '/\'egəu/' },
+    { word: 'recede', pos: 'v.', meaning: '退去', phonetic: '/ri\'si:d/' },
+    { word: 'increasingly', pos: 'adv.', meaning: '日益，不断', phonetic: '/in\'kri:siŋli/' },
+    { word: 'passionately', pos: 'adv.', meaning: '激昂地', phonetic: '//' },
+    { word: 'painlessly', pos: 'adv.', meaning: '毫无痛苦地', phonetic: '//' },
+    { word: 'vitality', pos: 'n.', meaning: '精力', phonetic: '/vai\'tæliti/' },
+    { word: 'weariness', pos: 'n.', meaning: '疲惫感', phonetic: '/wiərinis/' }
+  ],
 }
 const articleNce4L13: Article = {
   original: {
@@ -4991,7 +5146,21 @@ const articleNce4L13: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'mineral', pos: 'adj.', meaning: '矿物的', phonetic: '/\'minərəl/' },
+    { word: 'boring', pos: 'n.', meaning: '钻孔', phonetic: '/\'bɔ:riŋ/' },
+    { word: 'derrick', pos: 'n.', meaning: '井架', phonetic: '/\'derik/' },
+    { word: 'block and tackle', pos: 'n.', meaning: '滑轮组', phonetic: '//' },
+    { word: 'haul', pos: 'v.', meaning: '拖，拉', phonetic: '/hɔ:l/' },
+    { word: 'rotate', pos: 'v.', meaning: '使转动', phonetic: '/rəu\'teit/' },
+    { word: 'cutting bit', pos: 'n.', meaning: '钻头', phonetic: '//' },
+    { word: 'geologist', pos: 'n.', meaning: '地质学家', phonetic: '/dʒi\'ɔlədʒist/' },
+    { word: 'coring bit', pos: 'n.', meaning: '取芯钻头', phonetic: '//' },
+    { word: 'cylinder', pos: 'n.', meaning: '圆柱体', phonetic: '/\'silində/' },
+    { word: 'strata', pos: 'n.', meaning: '岩层［复］(［单］stratum)', phonetic: '/\'streitə/' },
+    { word: 'circulate', pos: 'v.', meaning: '注入，环流', phonetic: '/\'sə:kjuleit/' },
+    { word: 'gusher', pos: 'n.', meaning: '喷油井', phonetic: '//' }
+  ],
 }
 const articleNce4L15: Article = {
   original: {
@@ -5007,7 +5176,15 @@ const articleNce4L15: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'secrecy', pos: 'n.', meaning: '秘密', phonetic: '//' },
+    { word: 'effectiveness', pos: 'n.', meaning: '成效，效力', phonetic: '/i\'fektivnis/' },
+    { word: 'inquiry', pos: 'n.', meaning: '调查研究', phonetic: '/in\'kwaiəri/' },
+    { word: 'positive', pos: 'adj.', meaning: '确实的', phonetic: '/\'pɔzətiv/' },
+    { word: 'process', pos: 'n.', meaning: '过程', phonetic: '/\'prəuses/' },
+    { word: 'patent', pos: 'n./v.', meaning: '专利；得到专利权', phonetic: '/\'peitənt/' },
+    { word: 'agent', pos: 'n.', meaning: '情报人员', phonetic: '/\'eidʒənt/' }
+  ],
 }
 const articleNce4L16: Article = {
   original: {
@@ -5023,7 +5200,26 @@ const articleNce4L16: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'physiological', pos: 'adj.', meaning: '生理的', phonetic: '/\'fiziə\'lɔdʒikəl/' },
+    { word: 'maximum', pos: 'adj.', meaning: '最大限度的', phonetic: '/\'mæksiməm/' },
+    { word: 'consideration', pos: 'n.', meaning: '考虑', phonetic: '/kən\'sidə\'reiʃən/' },
+    { word: 'descendant', pos: 'n.', meaning: '子孙，后代', phonetic: '/di\'sendənt/' },
+    { word: 'artificial', pos: 'adj.', meaning: '人工的', phonetic: '/\'a:ti\'fiʃəl/' },
+    { word: 'impose', pos: 'v.', meaning: '强加', phonetic: '/im\'pəuz/' },
+    { word: 'dimension', pos: 'n.', meaning: '直径', phonetic: '/di\'menʃən/' },
+    { word: 'skyscraper', pos: 'n.', meaning: '摩天大楼', phonetic: '/\'skai\'skreipə/' },
+    { word: 'tenant', pos: 'n.', meaning: '租户', phonetic: '/\'tenənt/' },
+    { word: 'civilized', pos: 'adj.', meaning: '文明的', phonetic: '/\'sivilaizd/' },
+    { word: 'banal', pos: 'adj.', meaning: '平庸的', phonetic: '/bə\'na:l/' },
+    { word: 'luxury', pos: 'n.', meaning: '豪华', phonetic: '/\'lʌkʃəri/' },
+    { word: 'deprive', pos: 'v.', meaning: '剥夺', phonetic: '/di\'praiv/' },
+    { word: 'monstrous', pos: 'adj.', meaning: '畸形的', phonetic: '/\'mɔnstrəs/' },
+    { word: 'edifice', pos: 'n.', meaning: '大厦', phonetic: '/\'edifis/' },
+    { word: 'toxic', pos: 'adj.', meaning: '有毒的', phonetic: '/\'tɔksik/' },
+    { word: 'ceaselessly', pos: 'adv.', meaning: '不停地', phonetic: '/\'si:slisli/' },
+    { word: 'throng', pos: 'v.', meaning: '挤满，壅塞', phonetic: '/θrɔŋ/' }
+  ],
 }
 const articleNce4L18: Article = {
   original: {
@@ -5043,7 +5239,30 @@ const articleNce4L18: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'porpoise', pos: 'n.', meaning: '海豚', phonetic: '//' },
+    { word: 'mariner', pos: 'n.', meaning: '水手', phonetic: '/\'mærinə/' },
+    { word: 'shark', pos: 'n.', meaning: '鲨鱼', phonetic: '/ʃa:k/' },
+    { word: 'formation', pos: 'n.', meaning: '队形', phonetic: '/fɔ:\'meiʃən/' },
+    { word: 'dolphin', pos: 'n.', meaning: '海豚科动物', phonetic: '/\'dɔlfin/' },
+    { word: 'unconscious', pos: 'adj.', meaning: '不省人事的', phonetic: '/ʌn\'kɔʃəs/' },
+    { word: 'beaver', pos: 'n.', meaning: '海狸', phonetic: '/\'bi:və/' },
+    { word: 'ashore', pos: 'adv.', meaning: '上岸', phonetic: '/ə\'ʃɔ:/' },
+    { word: 'waterlogged', pos: 'adj.', meaning: '浸满水的', phonetic: '//' },
+    { word: 'scent', pos: 'n.', meaning: '香味', phonetic: '/sent/' },
+    { word: 'ensue', pos: 'v.', meaning: '接着发生', phonetic: '/in\'sju:/' },
+    { word: 'intrigue', pos: 'v.', meaning: '引起兴趣', phonetic: '/in\'tri:g/' },
+    { word: 'indignity', pos: 'n.', meaning: '侮辱', phonetic: '/in\'digniti/' },
+    { word: 'snout', pos: 'n.', meaning: '口鼻部', phonetic: '/snaut/' },
+    { word: 'shove', pos: 'v.', meaning: '硬推', phonetic: '/ʃʌv/' },
+    { word: 'aquaplane', pos: 'n.', meaning: '驾浪滑水板', phonetic: '/\'ækwəplein/' },
+    { word: 'oceanarium', pos: 'n.', meaning: '水族馆', phonetic: '/\'ouʃən\'ʒəri-əm/' },
+    { word: 'swoop', pos: 'v.', meaning: '猛扑', phonetic: '/swu:p/' },
+    { word: 'belly', pos: 'n.', meaning: '腹部', phonetic: '/\'beli/' },
+    { word: 'equilibrium', pos: 'n.', meaning: '平衡', phonetic: '/i:kwi\'libriəm/' },
+    { word: 'butt', pos: 'v.', meaning: '碰撞', phonetic: '/bʌt/' },
+    { word: 'crack', pos: 'n.', meaning: '重击', phonetic: '/kræk/' }
+  ],
 }
 const articleNce4L21: Article = {
   original: {
@@ -5065,7 +5284,29 @@ const articleNce4L21: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'supreme', pos: 'adj.', meaning: '首屈一指的', phonetic: '/sju:\'pri:m/' },
+    { word: 'protagonist', pos: 'n.', meaning: '主角', phonetic: '/prəu\'tægənist/' },
+    { word: 'outlaw', pos: 'n.', meaning: '逃犯，亡命之徒', phonetic: '/\'autlɔ:/' },
+    { word: 'framed', pos: 'adj.', meaning: '遭到陷害的', phonetic: '//' },
+    { word: 'vicious', pos: 'adj.', meaning: '恶毒的', phonetic: '/\'viʃəs/' },
+    { word: 'mythology', pos: 'n.', meaning: '神话', phonetic: '/mi\'θɔlədʒi/' },
+    { word: 'vanished', pos: 'adj.', meaning: '消失了的', phonetic: '//' },
+    { word: 'absurdly', pos: 'adv.', meaning: '荒诞地', phonetic: '/əb\'sə:dli/' },
+    { word: 'arena', pos: 'n.', meaning: '竞技场地', phonetic: '/ə\'ri:nə/' },
+    { word: 'encroaching', pos: 'adj.', meaning: '渐渐渗入的', phonetic: '//' },
+    { word: 'Indian', pos: 'n.', meaning: '印第安人', phonetic: '/\'indiən/' },
+    { word: 'bewilder', pos: 'v.', meaning: '使手足无措', phonetic: '/bi\'wildə/' },
+    { word: 'alien', pos: 'adj.', meaning: '外来的', phonetic: '/\'eiljən/' },
+    { word: 'taboo', pos: 'n.', meaning: '戒律', phonetic: '/tə\'bu:/' },
+    { word: 'disinherit', pos: 'v.', meaning: '剥夺…继承权', phonetic: '/\'disin\'herit/' },
+    { word: 'undeclared', pos: 'adj.', meaning: '未经宣布的', phonetic: '/\'ʌndi\'klєəd/' },
+    { word: 'hypocrisy', pos: 'n.', meaning: '伪善', phonetic: '/hi\'pɔkrəsi/' },
+    { word: 'chicanery', pos: 'n.', meaning: '诈骗', phonetic: '/ʃi\'keinəri/' },
+    { word: 'impending', pos: 'adj.', meaning: '迫近的，迫在眉睫的', phonetic: '/im\'pendiŋ/' },
+    { word: 'immolation', pos: 'n.', meaning: '杀戮', phonetic: '/iməu\'leiʃən/' },
+    { word: 'code', pos: 'n.', meaning: '准则', phonetic: '/kəud/' }
+  ],
 }
 const articleNce4L22: Article = {
   original: {
@@ -5081,7 +5322,23 @@ const articleNce4L22: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'loom', pos: 'v.', meaning: '赫然耸起', phonetic: '/lu:m/' },
+    { word: 'manifest', pos: 'adj.', meaning: '明显的', phonetic: '/\'mænifest/' },
+    { word: 'morality', pos: 'n.', meaning: '道德', phonetic: '/mə\'ræliti/' },
+    { word: 'communicate', pos: 'v.', meaning: '交流，交际', phonetic: '/kə\'mju:nikeit/' },
+    { word: 'compound', pos: 'adj.', meaning: '复合的', phonetic: '/\'kɔmpaund, kəm\'paund/' },
+    { word: 'enhance', pos: 'v.', meaning: '增进', phonetic: '/in\'ha:ns/' },
+    { word: 'tempo', pos: 'n.', meaning: '速率', phonetic: '/\'tempəu/' },
+    { word: 'trickle', pos: 'n.', meaning: '涓涓细流', phonetic: '/\'trikl/' },
+    { word: 'torrent', pos: 'n.', meaning: '滔滔洪流', phonetic: '/\'tɔrənt/' },
+    { word: 'humanity', pos: 'n.', meaning: '人类', phonetic: '/hju:\'mæniti/' },
+    { word: 'indifferently', pos: 'adv.', meaning: '不在乎地', phonetic: '/in\'difrəntli/' },
+    { word: 'grimly', pos: 'adv.', meaning: '可怖地', phonetic: '/\'grimli/' },
+    { word: 'whimsical', pos: 'adj.', meaning: '怪诞的', phonetic: '/\'wimzikl/' },
+    { word: 'shatter', pos: 'v.', meaning: '毁坏', phonetic: '/\'ʃætə/' },
+    { word: 'twofold', pos: 'adj.', meaning: '双重的', phonetic: '/\'tu:fəuld/' }
+  ],
 }
 const articleNce4L24: Article = {
   original: {
@@ -5099,7 +5356,19 @@ const articleNce4L24: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'intense', pos: 'adj.', meaning: '强烈的', phonetic: '/in\'tens/' },
+    { word: 'aesthetic', pos: 'adj.', meaning: '审美的', phonetic: '/i:s\'θetik/' },
+    { word: 'realm', pos: 'n.', meaning: '世界', phonetic: '/\'relm/' },
+    { word: 'serenity', pos: 'n.', meaning: '静谧', phonetic: '/si\'reniti/' },
+    { word: 'undeniable', pos: 'adj.', meaning: '不可否认的', phonetic: '/\'ʌndi\'naiəbl/' },
+    { word: 'indefinable', pos: 'adj.', meaning: '模糊不清的', phonetic: '/\'indi\'fainəbl/' },
+    { word: 'vulgar', pos: 'adj.', meaning: '平庸的', phonetic: '/\'vʌlgə/' },
+    { word: 'radiance', pos: 'n.', meaning: '发光', phonetic: '/\'reidjəns/' },
+    { word: 'intimation', pos: 'n.', meaning: '暗示', phonetic: '/inti\'meiʃən/' },
+    { word: 'unutterable', pos: 'adj.', meaning: '不可言传的', phonetic: '/ʌn\'ʌtərəbl/' },
+    { word: 'invest', pos: 'v.', meaning: '赋予', phonetic: '/in\'vest/' }
+  ],
 }
 const articleNce4L28: Article = {
   original: {
@@ -5119,7 +5388,20 @@ const articleNce4L28: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'skeptical', pos: 'adj.', meaning: '怀疑的', phonetic: '/\'skeptikəl/' },
+    { word: 'forefathers', pos: 'n.', meaning: '祖先', phonetic: '//' },
+    { word: 'fervently', pos: 'adv.', meaning: '热情地', phonetic: '/\'fə:vəntli/' },
+    { word: 'curative', pos: 'adj.', meaning: '治病的', phonetic: '/\'kjuərətiv/' },
+    { word: 'astronomical', pos: 'adj.', meaning: '天文学的', phonetic: '/\'æstrə\'nɔmikəl/' },
+    { word: 'tangible', pos: 'adj.', meaning: '实实在在的', phonetic: '/tændʒəbl/' },
+    { word: 'remedy', pos: 'n.', meaning: '药物', phonetic: '/\'remidi/' },
+    { word: 'ointment', pos: 'n.', meaning: '药膏', phonetic: '/\'ɔintmənt/' },
+    { word: 'prescribe', pos: 'v.', meaning: '开药方', phonetic: '/pri\'skraib/' },
+    { word: 'indisposition', pos: 'n.', meaning: '小病', phonetic: '/in\'dispə\'ziʃən/' },
+    { word: 'disgusting', pos: 'adj.', meaning: '令人讨厌的', phonetic: '//' },
+    { word: 'inconvenience', pos: 'n.', meaning: '不便', phonetic: '/\'inkən\'vi:njəns/' }
+  ],
 }
 const articleNce4L30: Article = {
   original: {
@@ -5139,7 +5421,22 @@ const articleNce4L30: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'navigation', pos: 'n.', meaning: '航海', phonetic: '/\'nævi\'geiʃən/' },
+    { word: 'sounding', pos: 'n.', meaning: '水深度', phonetic: '//' },
+    { word: 'porcupine', pos: 'n.', meaning: '箭猪', phonetic: '/\'pɔ:kjupain/' },
+    { word: 'dredge', pos: 'v.', meaning: '挖掘', phonetic: '/dredʒ/' },
+    { word: 'expedition', pos: 'n.', meaning: '远征', phonetic: '/\'ekspi\'diʃən/' },
+    { word: 'physicist', pos: 'n.', meaning: '物理学家', phonetic: '/\'fizisist/' },
+    { word: 'magnitude', pos: 'n.', meaning: '很多', phonetic: '/\'mægnitju:d/' },
+    { word: 'topography', pos: 'n.', meaning: '地形', phonetic: '/tə\'pɔgrəfi/' },
+    { word: 'crust', pos: 'n.', meaning: '地壳', phonetic: '/krʌst/' },
+    { word: 'rugged', pos: 'adj.', meaning: '崎岖不平的', phonetic: '/\'rʌgid/' },
+    { word: 'tableland', pos: 'n.', meaning: '高地', phonetic: '//' },
+    { word: 'sediment', pos: 'n.', meaning: '沉淀物', phonetic: '/\'sedimənt/' },
+    { word: 'terrace', pos: 'n.', meaning: '阶地', phonetic: '/\'terəs/' },
+    { word: 'erode', pos: 'v.', meaning: '侵蚀', phonetic: '/i\'rəud/' }
+  ],
 }
 const articleNce4L32: Article = {
   original: {
@@ -5159,7 +5456,30 @@ const articleNce4L32: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'controversy', pos: 'n.', meaning: '争议，争论', phonetic: '/\'kɔntrəvə:si/' },
+    { word: 'dust', pos: 'n.', meaning: '纠纷，骚动', phonetic: '/dʌst/' },
+    { word: 'clash', pos: 'n.', meaning: '冲突', phonetic: '/klæʃ/' },
+    { word: 'Inquisition', pos: 'n.', meaning: '(罗马天主教的)宗教法庭', phonetic: '/inkwi\'ziʃən/' },
+    { word: 'perspective', pos: 'n.', meaning: '观点，看法', phonetic: '/pə:\'spektiv/' },
+    { word: 'despise', pos: 'v.', meaning: '蔑视', phonetic: '/dis\'paiz/' },
+    { word: 'generalize', pos: 'v.', meaning: '归纳', phonetic: '/\'dʒenərəlaiz/' },
+    { word: 'undercurrent', pos: 'n.', meaning: '潜流', phonetic: '/\'ʌndə\'kʌrənt/' },
+    { word: 'theoretical', pos: 'adj.', meaning: '理论上的', phonetic: '/θiə\'retikl/' },
+    { word: 'potentiality', pos: 'n.', meaning: '潜能', phonetic: '/pə\'tenʃi\'æliti/' },
+    { word: 'intimate', pos: 'adj.', meaning: '详尽的', phonetic: '/\'intimit/' },
+    { word: 'familiarity', pos: 'n.', meaning: '熟悉', phonetic: '/fə\'mili\'æriti/' },
+    { word: 'culpable', pos: 'adj.', meaning: '应受谴责的', phonetic: '/\'kʌlpəbl/' },
+    { word: 'Aristotelian', pos: 'n.', meaning: '亚里士多德学派的人', phonetic: '/æristə\'ti:liən/' },
+    { word: 'Aristotle', pos: 'n.', meaning: '亚里士多德(古希腊哲学家)', phonetic: '/\'æristɔtl/' },
+    { word: 'Ptolemy', pos: 'n.', meaning: '托勒密(公元-，古希腊天文学家)', phonetic: '//' },
+    { word: 'Leaning Tower Pisa', pos: 'n.', meaning: '比萨斜塔', phonetic: '//' },
+    { word: 'spiral', pos: 'adj.', meaning: '螺旋状的', phonetic: '/\'spaiərəl/' },
+    { word: 'nebula', pos: 'n.', meaning: '星云', phonetic: '/\'nebjulə/' },
+    { word: 'scratch', pos: 'n.', meaning: '擦痕', phonetic: '/skrætʃ/' },
+    { word: 'contrivance', pos: 'n.', meaning: '器械', phonetic: '/kən\'traivəns/' },
+    { word: 'distort', pos: 'v.', meaning: '歪曲', phonetic: '/dis\'tɔ:t/' }
+  ],
 }
 const articleNce4L33: Article = {
   original: {
@@ -5183,7 +5503,25 @@ const articleNce4L33: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'adverse', pos: 'adj.', meaning: '逆的，相反的', phonetic: '/\'ædvə:s/' },
+    { word: 'purchasable', pos: 'adj.', meaning: '可买到的', phonetic: '/\'pə:tʃəsəbl/' },
+    { word: 'preacher', pos: 'n.', meaning: '传教士', phonetic: '/\'pri:tʃə/' },
+    { word: 'defendant', pos: 'n.', meaning: '被告', phonetic: '/di\'fendənt/' },
+    { word: 'outlook', pos: 'n.', meaning: '视野', phonetic: '/\'aut-luk/' },
+    { word: 'capacity', pos: 'n.', meaning: '能力', phonetic: '/kə\'pæsiti/' },
+    { word: 'means', pos: 'n.', meaning: '方法，手段，财产，资力', phonetic: '/mi:nz/' },
+    { word: 'hamper', pos: 'v.', meaning: '妨碍', phonetic: '/\'hæmpə/' },
+    { word: 'savannah', pos: 'n.', meaning: '大草原', phonetic: '/sə\'vænə/' },
+    { word: 'democratic', pos: 'adj.', meaning: '民主的', phonetic: '/\'demə\'krætik/' },
+    { word: 'tribal', pos: 'adj.', meaning: '部落的', phonetic: '/traibl/' },
+    { word: 'tribe', pos: 'n.', meaning: '部落', phonetic: '/traib/' },
+    { word: 'illiterate', pos: 'n.', meaning: '文盲', phonetic: '/i\'litərit/' },
+    { word: 'compulsory', pos: 'adj.', meaning: '义务的', phonetic: '/kəm\'pʌlsəri/' },
+    { word: 'deem', pos: 'v.', meaning: '认为', phonetic: '/di:m/' },
+    { word: 'juvenile', pos: 'adj.', meaning: '青少年的', phonetic: '/\'dʒu:vinail/' },
+    { word: 'delinquency', pos: 'n.', meaning: '犯罪', phonetic: '/di\'liŋkwənsi/' }
+  ],
 }
 const articleNce4L34: Article = {
   original: {
@@ -5205,7 +5543,23 @@ const articleNce4L34: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'adolescence', pos: 'n.', meaning: '青春期', phonetic: '/\'ædəu\'lesns/' },
+    { word: 'slur', pos: 'n.', meaning: '诋毁', phonetic: '/slə:/' },
+    { word: 'adolescent', pos: 'n.', meaning: '青少年(-岁)', phonetic: '/ædə\'lesənt/' },
+    { word: 'disloyalty', pos: 'n.', meaning: '不忠实', phonetic: '/dis\'lɔiəlti/' },
+    { word: 'spiteful', pos: 'adj.', meaning: '恶意的，怀恨的', phonetic: '/\'spaitful/' },
+    { word: 'disillusionment', pos: 'n.', meaning: '幻灭感', phonetic: '/-mənt/' },
+    { word: 'evaluation', pos: 'n.', meaning: '评价', phonetic: '/i\'vælju\'eiʃən/' },
+    { word: 'Infallibility', pos: 'n.', meaning: '一贯正确', phonetic: '/in\'fælə\'biləti/' },
+    { word: 'resent', pos: 'v.', meaning: '怨恨', phonetic: '/ri\'zent/' },
+    { word: 'sincerity', pos: 'n.', meaning: '诚挚', phonetic: '/sin\'seriti/' },
+    { word: 'victorian', pos: 'adj.', meaning: '维多利亚式的', phonetic: '/vik\'tɔ:riən/' },
+    { word: 'retreat', pos: 'v.', meaning: '后退', phonetic: '/ri\'tri:t/' },
+    { word: 'unreasoning', pos: 'adj.', meaning: '不凭理智的', phonetic: '/ʌn\'ri:zəniŋ/' },
+    { word: 'authoritarian', pos: 'adj.', meaning: '专制的', phonetic: '/ɔ:\'θɔri\'tєəriən/' },
+    { word: 'cow', pos: 'v.', meaning: '吓唬', phonetic: '/kau/' }
+  ],
 }
 const articleNce4L37: Article = {
   original: {
@@ -5223,7 +5577,22 @@ const articleNce4L37: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'likelihood', pos: 'n.', meaning: '可能性', phonetic: '/\'laiklihud/' },
+    { word: 'infant', pos: 'n.', meaning: '婴儿', phonetic: '/\'infənt/' },
+    { word: 'vulnerable', pos: 'adj.', meaning: '脆弱的', phonetic: '/\'vʌlnərəbl/' },
+    { word: 'imperceptible', pos: 'adj.', meaning: '感觉不到的', phonetic: '/\'impə\'septəbl/' },
+    { word: 'robust', pos: 'adj.', meaning: '强健的', phonetic: '/rəu\'bʌst/' },
+    { word: 'organism', pos: 'n.', meaning: '有机体', phonetic: '/\'ɔ:gənizəm/' },
+    { word: 'thermodynamics', pos: 'n.', meaning: '热力学', phonetic: '/\'θə:məudai\'næmiks/' },
+    { word: 'steep', pos: 'adj.', meaning: '急转直下的', phonetic: '/sti:p/' },
+    { word: 'ageing', pos: 'n.', meaning: '老化', phonetic: '//' },
+    { word: 'odds', pos: 'n.', meaning: '可能性', phonetic: '/ɔdz/' },
+    { word: 'virtual', pos: 'adj.', meaning: '实际上的', phonetic: '/\'və:tjuəl/' },
+    { word: 'moot', pos: 'adj.', meaning: '争论未决的', phonetic: '/mu:t/' },
+    { word: 'run-down', pos: 'adj.', meaning: '破旧的', phonetic: '//' },
+    { word: 'friction', pos: 'n.', meaning: '摩擦', phonetic: '/\'frikʃən/' }
+  ],
 }
 const articleNce4L44: Article = {
   original: {
@@ -5245,7 +5614,31 @@ const articleNce4L44: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'commonplace', pos: 'adj.', meaning: '平凡的', phonetic: '/\'kɔmənpleis/' },
+    { word: 'aberrant', pos: 'adj.', meaning: '脱离常轨的，异常的', phonetic: '/æ\'berənt/' },
+    { word: 'trivial', pos: 'adj.', meaning: '微不足道的', phonetic: '/\'triviəl/' },
+    { word: 'predominant', pos: 'adj.', meaning: '占优势的，起支配作用的', phonetic: '/pri\'dɔminənt/' },
+    { word: 'manifest', pos: 'adj.', meaning: '明显的', phonetic: '/\'mænifest/' },
+    { word: 'pristine', pos: 'adj.', meaning: '纯洁的，质朴的', phonetic: '/\'pristain/' },
+    { word: 'stereotype', pos: 'n.', meaning: '陈规', phonetic: '/stiəriətaip/' },
+    { word: 'vernacular', pos: 'n.', meaning: '方言', phonetic: '/və\'nækjulə/' },
+    { word: 'accommodation', pos: 'n.', meaning: '适应', phonetic: '/ə,kɔmə\'deiʃən/' },
+    { word: 'incumbent', pos: 'adj.', meaning: '义不容辞的，有责任的', phonetic: '/in\'kʌmbənt/' },
+    { word: 'preliminary', pos: 'adj.', meaning: '初步的', phonetic: '/pri\'liminəri/' },
+    { word: 'proposition', pos: 'n.', meaning: '主张', phonetic: '/\'prɔpə\'ziʃən/' },
+    { word: 'preferential', pos: 'adj.', meaning: '优先的', phonetic: '/prefə\'renʃəl/' },
+    { word: 'controversial', pos: 'adj.', meaning: '引起争论的', phonetic: '/\'kɔntrə\'və:ʃəl/' },
+    { word: 'cactus', pos: 'n.', meaning: '仙人掌', phonetic: '/\'kæktəs/' },
+    { word: 'termite', pos: 'n.', meaning: '白蚁', phonetic: '/\'tə:mait/' },
+    { word: 'nebula', pos: 'n.', meaning: '星云', phonetic: '/\'nebjulə/' },
+    { word: 'variant', pos: 'adj.', meaning: '不同的', phonetic: '/\'vєəriənt/' },
+    { word: 'barbarian', pos: 'n.', meaning: '野蛮人', phonetic: '/ba:\'bєəriən/' },
+    { word: 'pagan', pos: 'n.', meaning: '异教徒', phonetic: '/\'peigən/' },
+    { word: 'sophistication', pos: 'n.', meaning: '老练', phonetic: '/sə\'fisti\'keiʃən/' },
+    { word: 'premise', pos: 'n.', meaning: '前提', phonetic: '/\'premis, pri\'maiz/' },
+    { word: 'supernatural', pos: 'adj.', meaning: '超自然的', phonetic: '/\'sju:pə\'nætʃərəl/' }
+  ],
 }
 const articleNce4L46: Article = {
   original: {
@@ -5269,7 +5662,35 @@ const articleNce4L46: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'gifted', pos: 'adj.', meaning: '有天才的', phonetic: '/\'giftid/' },
+    { word: 'psychologist', pos: 'n.', meaning: '心理学家', phonetic: '/sai\'kɔlədʒist/' },
+    { word: 'spasm', pos: 'n.', meaning: '一阵(感情)发作', phonetic: '/\'spæzəm/' },
+    { word: 'futile', pos: 'adj.', meaning: '无用的', phonetic: '/\'fju:tail/' },
+    { word: 'insinuate', pos: 'v.', meaning: '使潜入，暗示', phonetic: '/in\'sinjueit/' },
+    { word: 'convulsive', pos: 'adj.', meaning: '起痉挛的', phonetic: '/kən\'vʌlsiv/' },
+    { word: 'illumination', pos: 'n.', meaning: '启发，照明', phonetic: '/i\'lju:mi\'neiʃən/' },
+    { word: 'undue', pos: 'adj.', meaning: '不适当的', phonetic: '/\'ʌn\'dju:/' },
+    { word: 'grip', pos: 'n.', meaning: '紧张', phonetic: '/grip/' },
+    { word: 'recuperation', pos: 'n.', meaning: '休息', phonetic: '/ri\'kju:pə\'reiʃən/' },
+    { word: 'improvise', pos: 'v.', meaning: '临时作成', phonetic: '/\'imprəvaiz/' },
+    { word: 'sedulously', pos: 'adv.', meaning: '孜孜不倦地', phonetic: '//' },
+    { word: 'vivify', pos: 'v.', meaning: '使生气勃勃', phonetic: '/\'vivifai/' },
+    { word: 'aggravate', pos: 'v.', meaning: '加剧', phonetic: '/\'ægrəveit/' },
+    { word: 'trifling', pos: 'adj.', meaning: '微小的', phonetic: '/\'traifliŋ/' },
+    { word: 'gratify', pos: 'v.', meaning: '使满意', phonetic: '/\'grætifai/' },
+    { word: 'caprice', pos: 'n.', meaning: '任性', phonetic: '/kə\'pri:s/' },
+    { word: 'satiation', pos: 'n.', meaning: '满足', phonetic: '/\'seiʃi\'eiʃən/' },
+    { word: 'frantically', pos: 'adv.', meaning: '狂乱地', phonetic: '/\'fræntikəli/' },
+    { word: 'avenge', pos: 'v.', meaning: '替…报复', phonetic: '/ə\'vendʒ/' },
+    { word: 'boredom', pos: 'n.', meaning: '厌烦', phonetic: '/\'bɔ:dəm/' },
+    { word: 'clatter', pos: 'n.', meaning: '喧闹的谈话', phonetic: '/\'klætə/' },
+    { word: 'sustenance', pos: 'n.', meaning: '支撑力', phonetic: '/\'sʌstənəns/' },
+    { word: 'appetite', pos: 'n.', meaning: '欲望', phonetic: '/\'æpitait/' },
+    { word: 'grudge', pos: 'v.', meaning: '怨恨', phonetic: '/grʌdʒ/' },
+    { word: 'absorbing', pos: 'adj.', meaning: '引人入胜的', phonetic: '/əb\'sɔ:biŋ/' },
+    { word: 'banish', pos: 'v.', meaning: '排除，放弃', phonetic: '/\'bæniʃ/' }
+  ],
 }
 const articleNce4L48: Article = {
   original: {
@@ -5293,7 +5714,24 @@ const articleNce4L48: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'portfolio', pos: 'n.', meaning: '投资组合', phonetic: '/pɔ:t\'fouljou/' },
+    { word: 'tipster', pos: 'n.', meaning: '(提供证券投机等消息为生的)情报贩子', phonetic: '/\'tipstə/' },
+    { word: 'Las Vegas', pos: 'n.', meaning: '拉斯韦加斯', phonetic: '//' },
+    { word: 'fritter', pos: 'v.', meaning: '挥霍，浪费', phonetic: '/\'fritə/' },
+    { word: 'reputable', pos: 'adj.', meaning: '享有声望的', phonetic: '/\'repjutəbl/' },
+    { word: 'broker', pos: 'n.', meaning: '经纪人', phonetic: '/\'brəukə/' },
+    { word: 'finance', pos: 'n.', meaning: '资金，财源', phonetic: '/fai\'næns, fi-/' },
+    { word: 'mortgage', pos: 'n.', meaning: '抵押贷款', phonetic: '/\'mɔ:gidʒ/' },
+    { word: 'pension', pos: 'n.', meaning: '养老金', phonetic: '/\'penʃən/' },
+    { word: 'priority', pos: 'n.', meaning: '优先权', phonetic: '/prai\'ɔriti/' },
+    { word: 'gilt', pos: 'n.', meaning: '金边证券(高度可靠的证券)', phonetic: '/gilt/' },
+    { word: 'convertible', pos: 'n.', meaning: '可换证券', phonetic: '/kən\'və:təbl/' },
+    { word: 'sanguine', pos: 'adj.', meaning: '乐观的', phonetic: '/\'sæŋgwin/' },
+    { word: 'heady', pos: 'adj.', meaning: '令人陶醉的', phonetic: '/\'hedi/' },
+    { word: 'alongside', pos: 'prep.', meaning: '在…旁边，和…一起', phonetic: '/ə\'lɔŋ\'said/' },
+    { word: 'pedestrian', pos: 'adj.', meaning: '平淡无奇的，乏味的', phonetic: '/pi\'destriən/' }
+  ],
 }
 
 const article: Article = {
@@ -5334,29 +5772,23 @@ const article: Article = {
     ],
   },
   vocabulary: [
-    { word: 'youth', pos: 'n.', meaning: '青春；青年', syllables: 'youth', phonetic: '/juːθ/' },
-    { word: 'doubt', pos: 'n./v.', meaning: '怀疑', syllables: 'doubt', phonetic: '/daʊt/' },
-    { word: 'fundamentals', pos: 'n.', meaning: '基本原则；根本', syllables: 'fun·da·men·tals', phonetic: '/ˌfʌndəˈmentlz/' },
-    { word: 'glorious', pos: 'adj.', meaning: '辉煌的；光荣的', syllables: 'glo·ri·ous', phonetic: '/ˈɡlɔːriəs/' },
-    { word: 'splendid', pos: 'adj.', meaning: '灿烂的；极好的', syllables: 'splen·did', phonetic: '/ˈsplendɪd/' },
-    { word: 'rub', pos: 'n.', meaning: '困难；症结', syllables: 'rub', phonetic: '/rʌb/' },
-    { word: 'teenager', pos: 'n.', meaning: '青少年', syllables: 'teen·ag·er', phonetic: '/ˈtiːneɪdʒər/' },
-    { word: 'uncertain', pos: 'adj.', meaning: '不确定的；犹豫的', syllables: 'un·cer·tain', phonetic: '/ʌnˈsɜːrtn/' },
-    { word: 'identity', pos: 'n.', meaning: '身份；认同', syllables: 'i·den·ti·ty', phonetic: '/aɪˈdentəti/' },
-    { word: 'exciting', pos: 'adj.', meaning: '令人兴奋的', syllables: 'ex·cit·ing', phonetic: '/ɪkˈsaɪtɪŋ/' },
-    { word: 'dreary', pos: 'adj.', meaning: '沉闷的；枯燥的', syllables: 'drear·y', phonetic: '/ˈdrɪəri/' },
-    { word: 'commitment', pos: 'n.', meaning: '承诺；投入', syllables: 'com·mit·ment', phonetic: '/kəˈmɪtmənt/' },
-    { word: 'ambition', pos: 'n.', meaning: '野心；抱负', syllables: 'am·bi·tion', phonetic: '/æmˈbɪʃn/' },
-    { word: 'anxious', pos: 'adj.', meaning: '焦虑的；渴望的', syllables: 'anx·ious', phonetic: '/ˈæŋkʃəs/' },
-    { word: 'devotion', pos: 'n.', meaning: '热爱；奉献', syllables: 'de·vo·tion', phonetic: '/dɪˈvoʊʃn/' },
-    { word: 'cosmic', pos: 'adj.', meaning: '宇宙的', syllables: 'cos·mic', phonetic: '/ˈkɑːzmɪk/' },
-    { word: 'violent', pos: 'adj.', meaning: '强烈的；暴力的', syllables: 'vi·o·lent', phonetic: '/ˈvaɪələnt/' },
-    { word: 'contrast', pos: 'n.', meaning: '对比；反差', syllables: 'con·trast', phonetic: '/ˈkɑːntræst/' },
-    { word: 'suburban', pos: 'adj.', meaning: '市郊的；平凡的', syllables: 'sub·ur·ban', phonetic: '/səˈbɜːrbən/' },
-    { word: 'conceited', pos: 'adj.', meaning: '自负的', syllables: 'con·ceit·ed', phonetic: '/kənˈsiːtɪd/' },
-    { word: 'presumptuous', pos: 'adj.', meaning: '冒昧的；放肆的', syllables: 'pre·sump·tu·ous', phonetic: '/prɪˈzʌmptʃuəs/' },
-    { word: 'fatuous', pos: 'adj.', meaning: '愚蠢的；昏庸的', syllables: 'fat·u·ous', phonetic: '/ˈfætʃuəs/' },
-    { word: 'cliché', pos: 'n.', meaning: '陈词滥调', syllables: 'cli·ché', phonetic: '/kliːˈʃeɪ/' },
+    { word: 'leave', pos: 'n.', meaning: '允许', phonetic: '/li:v/' },
+    { word: 'fundamentals', pos: 'n.', meaning: '基本原则', phonetic: '//' },
+    { word: 'glorious', pos: 'adj.', meaning: '光辉灿烂的', phonetic: '/\'glɔ:riəs/' },
+    { word: 'splendid', pos: 'adj.', meaning: '灿烂的', phonetic: '/\'splendid/' },
+    { word: 'rub', pos: 'n.', meaning: '难题', phonetic: '/rʌb/' },
+    { word: 'identity', pos: 'n.', meaning: '身份', phonetic: '/ai\'dentiti/' },
+    { word: 'dreary', pos: 'adj.', meaning: '沉郁的', phonetic: '/\'driəri/' },
+    { word: 'commitment', pos: 'n.', meaning: '信奉', phonetic: '/kə\'mitmənt/' },
+    { word: 'mean', pos: 'adj.', meaning: '吝啬，小气', phonetic: '/mi:n/' },
+    { word: 'social climber', pos: 'n.', meaning: '追求更高社会地位的人，向上爬的人', phonetic: '//' },
+    { word: 'devotion', pos: 'n.', meaning: '热爱', phonetic: '/di\'vəuʃən/' },
+    { word: 'cosmic', pos: 'adj.', meaning: '宇宙的', phonetic: '/\'kɔzmik/' },
+    { word: 'suburban', pos: 'adj.', meaning: '见识不广的，偏狭的', phonetic: '/sə\'bə:bən/' },
+    { word: 'conceited', pos: 'adj.', meaning: '自高自大的', phonetic: '/kən\'si:tid/' },
+    { word: 'presumptuous', pos: 'adj.', meaning: '自以为是的，放肆的', phonetic: '/pri\'zʌmptjuəs/' },
+    { word: 'fatuous', pos: 'adj.', meaning: '愚蠢的', phonetic: '/\'fætjuəs/' },
+    { word: 'cliché', pos: 'n.', meaning: '陈词滥调', phonetic: '/\'kli:ʃei/' }
   ],
 }
 

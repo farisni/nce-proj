@@ -142,6 +142,13 @@ function segClass(seg: Segment): string {
       <div class="article-section">
         <div class="section-row">
           <div class="section-main">
+            <div class="nav-buttons">
+              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← Lesson {{ neighbors.prev.lesson }}</button>
+              <span v-else class="nav-btn nav-prev nav-disabled"></span>
+              <button v-if="neighbors.next" class="nav-btn nav-next" @click="$router.push({ name: 'article', params: { id: neighbors.next.id } })">Lesson {{ neighbors.next.lesson }} →</button>
+              <span v-else class="nav-btn nav-next nav-disabled"></span>
+            </div>
+
             <h1 class="article-title"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></h1>
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
@@ -184,12 +191,6 @@ function segClass(seg: Segment): string {
           <div class="section-main">
             <h2 class="section-title">全文翻译</h2>
             <p v-for="(t, idx) in article.translation.paragraphs" :key="idx" class="paragraph translation">{{ t }}</p>
-            <div class="nav-buttons">
-              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← Lesson {{ neighbors.prev.lesson }}</button>
-              <span v-else class="nav-btn nav-prev nav-disabled"></span>
-              <button v-if="neighbors.next" class="nav-btn nav-next" @click="$router.push({ name: 'article', params: { id: neighbors.next.id } })">Lesson {{ neighbors.next.lesson }} →</button>
-              <span v-else class="nav-btn nav-next nav-disabled"></span>
-            </div>
           </div>
           <div class="section-divider"></div>
           <div class="section-side"></div>
@@ -206,7 +207,7 @@ function segClass(seg: Segment): string {
   background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
   background-size: 24px 24px;
 }
-.main-content { max-width: 1040px; margin: 0 auto; padding: 60px 24px 80px; background: var(--color-bg); }
+.main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: var(--color-bg); }
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
@@ -268,19 +269,19 @@ function segClass(seg: Segment): string {
 .translation { font-size: 0.9rem; color: var(--color-text-secondary); }
 .nav-buttons {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 20px 0 0; margin-top: 28px;
-  border-top: 1px solid var(--color-border);
+  padding: 0 0 16px; margin-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
 }
 .nav-btn {
-  padding: 10px 24px; border: 1px solid var(--color-border);
-  border-radius: 6px; cursor: pointer;
+  padding: 5px 16px; border: 1px solid var(--color-border);
+  border-radius: 5px; cursor: pointer;
   background: var(--color-panel-bg);
   color: var(--color-text);
-  font-size: 0.9rem; font-family: inherit;
+  font-size: 0.8rem; font-family: inherit;
   transition: background 0.2s, box-shadow 0.2s;
   max-width: 45%;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  &:hover { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  &:hover { background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
 }
 .nav-prev { text-align: left; }
 .nav-next { text-align: right; margin-left: auto; }
