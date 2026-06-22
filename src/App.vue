@@ -11,6 +11,12 @@ const activeLevel = ref<'NCE2' | 'NCE3' | 'NCE4'>('NCE4')
 const searchText = ref('')
 const levels = ['NCE2', 'NCE3', 'NCE4'] as const
 
+function doSearch() {
+  if (route.name !== 'home') {
+    router.push({ name: 'home' })
+  }
+}
+
 function navToLevel(lv: typeof activeLevel.value) {
   activeLevel.value = lv
   if (route.name !== 'home') {
@@ -32,7 +38,7 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
   <div class="app-layout">
     <aside class="sidebar">
       <div class="sidebar-search">
-        <el-input v-model="searchText" placeholder="搜索文章..."  clearable :prefix-icon="Search" />
+        <el-input v-model="searchText" placeholder="搜索文章..."  clearable :prefix-icon="Search" @keyup.enter="doSearch" />
       </div>
       <nav class="sidebar-nav">
         <div
@@ -43,7 +49,7 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
       </nav>
     </aside>
     <main class="app-main">
-      <router-view :activeLevel="activeLevel" />
+      <router-view :activeLevel="activeLevel" :searchText="searchText" />
     </main>
   </div>
 </template>

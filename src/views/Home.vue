@@ -4,12 +4,19 @@ import { useRouter } from 'vue-router'
 import { articleMetas } from '../mock/readData'
 import tudingIcon from '../asserts/icon/tuding.svg'
 
-const props = defineProps<{ activeLevel: 'NCE2' | 'NCE3' | 'NCE4' }>()
+const props = defineProps<{ activeLevel: 'NCE2' | 'NCE3' | 'NCE4'; searchText?: string }>()
 const router = useRouter()
 
-const filteredArticles = computed(() =>
-  articleMetas.filter(a => a.level === props.activeLevel)
-)
+const filteredArticles = computed(() => {
+  const q = props.searchText?.trim().toLowerCase()
+  if (q) {
+    return articleMetas.filter(a =>
+      a.title.toLowerCase().includes(q) ||
+      (a.titleCn && a.titleCn.includes(q))
+    )
+  }
+  return articleMetas.filter(a => a.level === props.activeLevel)
+})
 
 function goArticle(id: string) {
   router.push({ name: 'article', params: { id } })
