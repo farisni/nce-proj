@@ -1,11 +1,23 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { articles } from '../mock/readData'
-import { useRoute } from 'vue-router'
+import { articles, articleMetas } from '../mock/readData'
+import { useRoute, useRouter } from 'vue-router'
 
 const route = useRoute()
+const router = useRouter()
 const article = articles[route.params.id as string]
 import yumaoIcon from '../asserts/icon/yumao.svg'
+
+const currentMeta = computed(() => articleMetas.find(m => m.id === route.params.id))
+const neighbors = computed(() => {
+  if (!currentMeta.value) return { prev: null, next: null }
+  const sameLevel = articleMetas.filter(m => m.level === currentMeta.value!.level)
+  const idx = sameLevel.indexOf(currentMeta.value)
+  return {
+    prev: idx > 0 ? sameLevel[idx - 1] : null,
+    next: idx < sameLevel.length - 1 ? sameLevel[idx + 1] : null,
+  }
+})
 
 const sentencePattern = /([^.!?。！？]+[.!?。！？]+)/g
 
@@ -125,6 +137,10 @@ function segClass(seg: Segment): string {
 <template>
   <div class="reading-page">
     <div v-if="activeKey" class="spotlight-overlay" @click="activeKey = ''"></div>
+    <div class="nav-buttons">
+      <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
+      <button v-if="neighbors.next" class="nav-btn nav-next" @click="router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
+    </div>
 
     <div class="main-content">
       <div class="article-section">
@@ -246,4 +262,25 @@ function segClass(seg: Segment): string {
 .panel-enter-active, .panel-leave-active { transition: all 0.25s ease; }
 .panel-enter-from, .panel-leave-to { opacity: 0; transform: translateY(-6px); }
 .translation { font-size: 0.9rem; color: var(--color-text-secondary); }
+.nav-buttons {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 24px;
+  background: rgba(250, 247, 240, 0.92);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--color-border);
+}
+.nav-btn {
+  padding: 8px 20px; border: 1px solid var(--color-border);
+  border-radius: 6px; cursor: pointer;
+  background: var(--color-panel-bg);
+  color: var(--color-text);
+  font-size: 0.9rem; font-family: inherit;
+  transition: background 0.2s, box-shadow 0.2s;
+  max-width: 45%;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  &:hover { background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+}
+.nav-prev { text-align: left; }
+.nav-next { text-align: right; margin-left: auto; }
 </style>
