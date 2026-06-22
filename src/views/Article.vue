@@ -142,7 +142,7 @@ function segClass(seg: Segment): string {
       <div class="article-section">
         <div class="section-row">
           <div class="section-main">
-            <h1 class="article-title">{{ currentMeta?.title }}</h1>
+            <h1 class="article-title"><template v-if="currentMeta">L{{ currentMeta.lesson }}<span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></h1>
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
@@ -212,6 +212,7 @@ function segClass(seg: Segment): string {
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 56px 0 16px; }
 .article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px;  font-family: 'Merriweather', Georgia, serif; }
+.title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
 .paragraph { font-size: 1.15rem; line-height: 2; text-indent: 2em; font-family: 'Merriweather', Georgia, serif; }
