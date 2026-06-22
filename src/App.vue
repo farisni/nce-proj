@@ -54,7 +54,7 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 .sidebar-search { padding: 0 14px 8px; }
 .sidebar-search :deep(.el-input__wrapper) { box-shadow: none !important; border: 1px solid #e0ddd5; border-radius: 20px; }
 .sidebar-search :deep(.el-input__wrapper:hover) { border-color: #c5c0b5; }
-.sidebar-search :deep(.el-input.is-focus .el-input__wrapper) { box-shadow: none !important; border-color: #c5c0b5; }
+.sidebar-search :deep(.el-input.is-focus .el-input__wrapper) { box-shadow: none !important; border-color: #c5c0b5; background: #f7f6f3; }
 .sidebar-nav { display: flex; flex-direction: column; }
 .nav-item {
   padding: 10px 24px; font-size: 0.95rem; color: var(--color-text-secondary);
@@ -69,4 +69,10 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 .nce3:hover { color: #f0ad4e; }
 .nce4:hover { color: #428bca; }
 .app-main { flex: 1; min-width: 0; }
+</style>
+
+<style lang="scss">
+.sidebar-search .el-input.is-focus .el-input__wrapper {
+  background: #f7f6f3 !important;
+}
 </style>

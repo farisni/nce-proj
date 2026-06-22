@@ -149,7 +149,14 @@ function segClass(seg: Segment): string {
               <span v-else class="nav-btn nav-next nav-disabled"></span>
             </div>
 
-            <h1 class="article-title"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></h1>
+            <h1 class="article-title">
+              <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></span>
+              <span v-if="currentMeta?.heatmap" class="title-heatmap">
+                <span v-for="(row, ri) in currentMeta.heatmap" :key="ri" class="heatmap-row">
+                  <span v-for="(val, ci) in row" :key="ci" class="heatmap-cell" :data-level="val"></span>
+                </span>
+              </span>
+            </h1>
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
@@ -212,7 +219,19 @@ function segClass(seg: Segment): string {
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 56px 0 16px; }
-.article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px;  font-family: 'Merriweather', Georgia, serif; }
+.article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
+.title-text-wrap { flex: 1; min-width: 0; }
+.title-heatmap { display: inline-flex; flex-direction: column; gap: 2px; flex-shrink: 0; }
+.heatmap-row { display: flex; gap: 2px; }
+.heatmap-cell {
+  width: 10px; height: 10px; border-radius: 2px;
+  background: #e8e4d8;
+  transition: background 0.2s;
+}
+.heatmap-cell[data-level="1"] { background: #9be9a8; }
+.heatmap-cell[data-level="2"] { background: #40c463; }
+.heatmap-cell[data-level="3"] { background: #30a14e; }
+.heatmap-cell[data-level="4"] { background: #216e39; }
 .title-lesson { color: #999; font-weight: 400; }
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; padding-top: 28px; }

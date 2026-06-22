@@ -29,6 +29,7 @@ export interface ArticleMeta {
   lesson: number
   tag?: string
   keyArticle?: boolean
+  heatmap?: number[][]
 }
 
 export const articleMetas: ArticleMeta[] = [
@@ -1139,6 +1140,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '青年',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,1,2,0,1,3,2,1,0],
+      [1,2,0,1,0,2,4,0,1],
+      [0,0,1,3,2,0,1,2,0],
+      [2,1,0,0,1,2,3,1,2],
+    ],
   },
 ]
 
