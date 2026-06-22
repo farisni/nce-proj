@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
+import { Search } from '@element-plus/icons-vue'
 import { articleMetas } from './mock/readData'
 
 const router = useRouter()
 const route = useRoute()
 
 const activeLevel = ref<'NCE2' | 'NCE3' | 'NCE4'>('NCE4')
+const searchText = ref('')
 const levels = ['NCE2', 'NCE3', 'NCE4'] as const
 
 function navToLevel(lv: typeof activeLevel.value) {
@@ -29,7 +31,9 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 <template>
   <div class="app-layout">
     <aside class="sidebar">
-      <div class="sidebar-title" @click="router.push({ name: 'home' })">新概念英语</div>
+      <div class="sidebar-search">
+        <el-input v-model="searchText" placeholder="搜索文章..."  clearable :prefix-icon="Search" />
+      </div>
       <nav class="sidebar-nav">
         <div
           v-for="lv in levels" :key="lv"
@@ -46,8 +50,11 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 
 <style lang="scss" scoped>
 .app-layout { display: flex; min-height: 100vh; }
-.sidebar { width: 200px; flex-shrink: 0; background: #fff; border-right: 1px solid var(--color-border); padding: 48px 0; }
-.sidebar-title { font-size: 1.1rem; font-weight: 700; color: var(--color-text); padding: 0 24px 24px; cursor: pointer; }
+.sidebar { width: 200px; flex-shrink: 0; background: #fff; border-right: 1px solid var(--color-border); padding: 14px 0; }
+.sidebar-search { padding: 0 14px 8px; }
+.sidebar-search :deep(.el-input__wrapper) { box-shadow: none !important; border: 1px solid #e0ddd5; border-radius: 20px; }
+.sidebar-search :deep(.el-input__wrapper:hover) { border-color: #c5c0b5; }
+.sidebar-search :deep(.el-input.is-focus .el-input__wrapper) { box-shadow: none !important; border-color: #c5c0b5; }
 .sidebar-nav { display: flex; flex-direction: column; }
 .nav-item {
   padding: 10px 24px; font-size: 0.95rem; color: var(--color-text-secondary);
