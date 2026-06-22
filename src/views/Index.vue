@@ -31,9 +31,7 @@ function markWords(
   const lower = sentence.toLowerCase()
 
   const predWords = new Set<string>()
-  for (const pred of predicates) {
-    for (const w of pred.split(/\s+/)) predWords.add(w.toLowerCase())
-  }
+  for (const pred of predicates) for (const w of pred.split(/\s+/)) predWords.add(w.toLowerCase())
   for (const pw of predWords) {
     const escaped = pw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     const regex = new RegExp(`(?<![a-zA-Z'-])${escaped}(?![a-zA-Z'-])`, 'gi')
@@ -104,7 +102,16 @@ const originalSentences = computed(() =>
 )
 
 const activeKey = ref('')
+const vocabSyllableKeys = ref(new Set<string>())
+
 function togglePanel(key: string) { activeKey.value = activeKey.value === key ? '' : key }
+
+function toggleVocabSyllable(word: string) {
+  if (vocabSyllableKeys.value.has(word)) vocabSyllableKeys.value.delete(word)
+  else vocabSyllableKeys.value.add(word)
+  vocabSyllableKeys.value = new Set(vocabSyllableKeys.value)
+}
+
 function segClass(seg: Segment): string {
   const c: string[] = []; if (seg.clause) c.push('clause-mark'); if (seg.predicate) c.push('predicate-mark')
   return c.join(' ')
@@ -113,7 +120,6 @@ function segClass(seg: Segment): string {
 
 <template>
   <div class="reading-page">
-    <!-- 聚光灯遮罩 -->
     <div v-if="activeKey" class="spotlight-overlay" @click="activeKey = ''"></div>
 
     <div class="main-content">
@@ -124,9 +130,7 @@ function segClass(seg: Segment): string {
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
-                  <span
-                    class="sentence-inline"
-                    :class="{ spotlight: activeKey === s.key }"
+                  <span class="sentence-inline" :class="{ spotlight: activeKey === s.key }"
                     ><template v-for="(seg, gIdx) in s.segments" :key="gIdx">
                       <ruby v-if="seg.noteText && activeKey !== s.key" class="noted-ruby">
                         <span :class="segClass(seg)">{{ seg.text }}</span><rt>{{ seg.noteText }}</rt>
@@ -145,8 +149,13 @@ function segClass(seg: Segment): string {
           <div class="section-divider"></div>
           <div class="section-side">
             <div class="vocab-list">
-              <div v-for="item in article.vocabulary" :key="item.word" class="vocab-item">
-                <span class="vocab-word">{{ item.word }}</span>
+              <div
+                v-for="item in article.vocabulary"
+                :key="item.word"
+                class="vocab-item"
+                @click="toggleVocabSyllable(item.word)"
+              >
+                <el-tooltip :content="item.phonetic" effect="light" placement="top" :show-after="300"><span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span></el-tooltip>
                 <span class="vocab-pos">{{ item.pos }}</span>
                 <span class="vocab-meaning">{{ item.meaning }}</span>
               </div>
@@ -218,7 +227,8 @@ function segClass(seg: Segment): string {
 .vocab-list { display: flex; flex-direction: column; }
 .vocab-item {
   display: flex; align-items: baseline; gap: 8px; padding: 6px 0;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border); cursor: pointer; user-select: none;
+
   &:last-child { border-bottom: none; }
 }
 .vocab-word { font-weight: 600; font-size: 0.9rem; color: var(--color-text); }

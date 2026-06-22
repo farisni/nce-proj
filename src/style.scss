@@ -55,3 +55,9 @@ body {
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
 }
+
+.el-tooltip__popper.is-light {
+  background: #faf6ee;
+  border-color: #e8e0d0;
+  color: #555;
+}
