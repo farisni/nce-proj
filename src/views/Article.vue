@@ -137,10 +137,7 @@ function segClass(seg: Segment): string {
 <template>
   <div class="reading-page">
     <div v-if="activeKey" class="spotlight-overlay" @click="activeKey = ''"></div>
-    <div class="nav-buttons">
-      <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
-      <button v-if="neighbors.next" class="nav-btn nav-next" @click="router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
-    </div>
+
 
     <div class="main-content">
       <div class="article-section">
@@ -188,6 +185,10 @@ function segClass(seg: Segment): string {
           <div class="section-main">
             <h2 class="section-title">全文翻译</h2>
             <p v-for="(t, idx) in article.translation.paragraphs" :key="idx" class="paragraph translation">{{ t }}</p>
+            <div class="nav-buttons">
+              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
+              <button v-if="neighbors.next" class="nav-btn nav-next" @click="router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
+            </div>
           </div>
           <div class="section-divider"></div>
           <div class="section-side"></div>
@@ -263,11 +264,8 @@ function segClass(seg: Segment): string {
 .panel-enter-from, .panel-leave-to { opacity: 0; transform: translateY(-6px); }
 .translation { font-size: 0.9rem; color: var(--color-text-secondary); }
 .nav-buttons {
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
   display: flex; justify-content: space-between; align-items: center;
-  padding: 12px 24px;
-  background: rgba(250, 247, 240, 0.92);
-  backdrop-filter: blur(8px);
+  padding: 28px 0 0; margin-top: 24px;
   border-top: 1px solid var(--color-border);
 }
 .nav-btn {
