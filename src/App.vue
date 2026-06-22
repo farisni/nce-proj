@@ -46,7 +46,7 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 
 <style lang="scss" scoped>
 .app-layout { display: flex; min-height: 100vh; }
-.sidebar { width: 200px; flex-shrink: 0; background: var(--color-panel-bg); border-right: 1px solid var(--color-border); padding: 48px 0; }
+.sidebar { width: 200px; flex-shrink: 0; background: #fff; border-right: 1px solid var(--color-border); padding: 48px 0; }
 .sidebar-title { font-size: 1.1rem; font-weight: 700; color: var(--color-text); padding: 0 24px 24px; cursor: pointer; }
 .sidebar-nav { display: flex; flex-direction: column; }
 .nav-item {
