@@ -3037,7 +3037,12 @@ const articleNce2L44: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'umbrella', pos: 'n.', meaning: '伞' },
+    { word: 'bring', pos: 'v.', meaning: '带来，送来' },
+    { word: 'serve', pos: 'v.', meaning: '照应，服务，接待' },
+    { word: 'jeans', pos: 'n.', meaning: '牛仔裤' }
+  ],
 }
 const articleNce2L45: Article = {
   original: {
@@ -3053,7 +3058,18 @@ const articleNce2L45: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'today', pos: 'ad.', meaning: '今天' },
+    { word: 'brown', pos: 'a.', meaning: '棕色的' },
+    { word: 'Thursday', pos: '', meaning: '星期四' },
+    { word: 'bulletin', pos: 'n.', meaning: '新闻简报' },
+    { word: 'announcer', pos: 'n.', meaning: '(电视、电台)播音员' },
+    { word: 'macaroni', pos: 'n.', meaning: '通心面，空心面条' },
+    { word: 'leading', pos: '', meaning: 'grower' },
+    { word: 'Signor', pos: 'n.', meaning: '(意大利语)先生' },
+    { word: 'champion', pos: 'n.', meaning: '冠军' },
+    { word: 'studio', pos: 'n.', meaning: '播音室' }
+  ],
 }
 const articleNce2L46: Article = {
   original: {
@@ -3069,7 +3085,9 @@ const articleNce2L46: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'blue', pos: 'a.', meaning: '蓝色的' }
+  ],
 }
 const articleNce2L47: Article = {
   original: {
@@ -3085,7 +3103,17 @@ const articleNce2L47: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'perhaps', pos: 'ad.', meaning: '大概' },
+    { word: 'hammer', pos: 'n.', meaning: '锤子' },
+    { word: 'palace', pos: 'n.', meaning: '宫殿' },
+    { word: 'extraordinary', pos: 'a.', meaning: '不平常的，非凡的' },
+    { word: 'exhibition', pos: 'n.', meaning: '展览' },
+    { word: 'iron', pos: 'n.', meaning: '铁' },
+    { word: 'various', pos: 'a.', meaning: '各种各样的' },
+    { word: 'machinery', pos: 'n.', meaning: '机器' },
+    { word: 'display', pos: '', meaning: 'steam' }
+  ],
 }
 const articleNce2L48: Article = {
   original: {
@@ -3101,7 +3129,11 @@ const articleNce2L48: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'green', pos: 'a.', meaning: '绿色' },
+    { word: 'conductor', pos: 'n.', meaning: '售票员' },
+    { word: 'view', pos: 'n.', meaning: '景色' }
+  ],
 }
 const articleNce2L49: Article = {
   original: {
@@ -3119,7 +3151,12 @@ const articleNce2L49: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'officer', pos: 'n.', meaning: '官员' },
+    { word: 'track', pos: '', meaning: 'sign' },
+    { word: 'object', pos: 'v.', meaning: '不赞成，反对' },
+    { word: 'descend', pos: 'v.', meaning: '下落，降临' }
+  ],
 }
 const articleNce2L50: Article = {
   original: {
@@ -3147,7 +3184,11 @@ const articleNce2L50: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'matter', pos: 'n.', meaning: '事情' },
+    { word: 'spend', pos: 'v.', meaning: '度过' },
+    { word: 'avoid', pos: 'v.', meaning: '避开' }
+  ],
 }
 const articleNce2L51: Article = {
   original: {
@@ -3167,7 +3208,19 @@ const articleNce2L51: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'kitchen', pos: 'n.', meaning: '厨房' },
+    { word: 'meat', pos: 'n.', meaning: '(食用)肉' },
+    { word: 'husband', pos: 'n.', meaning: '丈夫' },
+    { word: 'mess', pos: 'n.', meaning: '杂乱，凌乱' },
+    { word: 'enough', pos: 'a.', meaning: '足够的；ad.足够地' },
+    { word: 'quiet', pos: 'a.', meaning: '宁静的，安静的' },
+    { word: 'ring', pos: 'v.', meaning: '(铃、电话等)响' },
+    { word: 'sticky', pos: 'a.', meaning: '粘的' },
+    { word: 'pastry', pos: 'n.', meaning: '面糊，甜馅饼' },
+    { word: 'annoying', pos: 'a.', meaning: '恼人的' },
+    { word: 'receiver', pos: 'n.', meaning: '电话的话筒' }
+  ],
 }
 const articleNce2L52: Article = {
   original: {
@@ -3187,7 +3240,15 @@ const articleNce2L52: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'electric', pos: 'a.', meaning: '带电的，可通电的' },
+    { word: 'line', pos: 'n.', meaning: '线路' },
+    { word: 'cause', pos: 'v.', meaning: '引起;n.原因' },
+    { word: 'accidentally', pos: 'ad.', meaning: '意外地，偶然地' },
+    { word: 'remains', pos: 'n.', meaning: '尸体，残骸' },
+    { word: 'solve', pos: 'v.', meaning: '解决' },
+    { word: 'mystery', pos: 'n.', meaning: '谜' }
+  ],
 }
 const articleNce2L53: Article = {
   original: {
@@ -3205,7 +3266,20 @@ const articleNce2L53: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'cup', pos: 'n.', meaning: '茶杯' },
+    { word: 'coffee', pos: 'n.', meaning: '咖啡' },
+    { word: 'usually', pos: 'ad.', meaning: '通常' },
+    { word: 'Paris', pos: 'n.', meaning: '巴黎' },
+    { word: 'cinema', pos: 'n.', meaning: '电影院' },
+    { word: 'truant', pos: 'n.', meaning: '逃学的孩子' },
+    { word: 'unimaginative', pos: 'a.', meaning: '缺乏想象力的' },
+    { word: 'shame', pos: 'n.', meaning: '惭愧，羞耻' },
+    { word: 'meantime', pos: 'n.', meaning: '期间' },
+    { word: 'lorry', pos: 'n.', meaning: '卡车' },
+    { word: 'border', pos: 'n.', meaning: '边界' },
+    { word: 'Calais', pos: 'n.', meaning: '加来(法国港口城市)' }
+  ],
 }
 const articleNce2L54: Article = {
   original: {
@@ -3223,7 +3297,15 @@ const articleNce2L54: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'bedroom', pos: 'n.', meaning: '卧室' },
+    { word: 'key', pos: 'n.', meaning: '钥匙' },
+    { word: 'hate', pos: 'v.', meaning: '讨厌' },
+    { word: 'ladder', pos: 'n.', meaning: '梯子' },
+    { word: 'shed', pos: 'n.', meaning: '棚子' },
+    { word: 'sarcastic', pos: 'a.', meaning: '讽刺的，讥笑的' },
+    { word: 'tone', pos: 'n.', meaning: '语气，腔调' }
+  ],
 }
 const articleNce2L55: Article = {
   original: {
@@ -3241,7 +3323,14 @@ const articleNce2L55: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'air', pos: 'v.', meaning: '使…通风，换换空气' },
+    { word: 'March', pos: 'n.', meaning: '三月' },
+    { word: 'platform', pos: 'n.', meaning: '站台' },
+    { word: 'low', pos: 'a.', meaning: '低的，矮的' },
+    { word: 'tunnel', pos: 'n.', meaning: '隧道' },
+    { word: 'port', pos: '', meaning: 'ventilate' }
+  ],
 }
 const articleNce2L56: Article = {
   original: {
@@ -3259,7 +3348,17 @@ const articleNce2L56: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'clothes', pos: 'n.', meaning: '衣服' },
+    { word: 'film', pos: 'n.', meaning: '电影' },
+    { word: 'dry', pos: 'a.', meaning: '干燥的，干的' },
+    { word: 'shady', pos: 'a.', meaning: '遮荫的' },
+    { word: 'sheriff', pos: 'n.', meaning: '司法长官' },
+    { word: 'sneer', pos: 'n.', meaning: '冷笑' },
+    { word: 'fast', pos: 'ad.', meaning: '熟(睡)' },
+    { word: 'spot', pos: 'v.', meaning: '看出，发现' },
+    { word: 'gleam', pos: 'v.', meaning: '发亮，闪光' }
+  ],
 }
 const articleNce2L57: Article = {
   original: {
@@ -3277,7 +3376,20 @@ const articleNce2L57: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'tree', pos: 'n.', meaning: '树' },
+    { word: 'believe', pos: 'v.', meaning: '相信，认为' },
+    { word: 'luck', pos: 'n.', meaning: '运气，幸运' },
+    { word: 'cut', pos: 'v.', meaning: '穿过' },
+    { word: 'tiny', pos: 'a.', meaning: '极小的' },
+    { word: 'possess', pos: 'v.', meaning: '拥有' },
+    { word: 'church', pos: 'n.', meaning: '教堂' },
+    { word: 'evil', pos: 'a.', meaning: '坏的' },
+    { word: 'reputation', pos: 'n.', meaning: '名声' },
+    { word: 'vicar', pos: 'n.', meaning: '教区牧师' },
+    { word: 'source', pos: 'n.', meaning: '来源' },
+    { word: 'income', pos: 'n.', meaning: '收入' }
+  ],
 }
 const articleNce2L58: Article = {
   original: {
@@ -3293,7 +3405,20 @@ const articleNce2L58: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'climb', pos: 'v.', meaning: '爬，攀登' },
+    { word: 'surround', pos: 'v.', meaning: '包围' },
+    { word: 'volcano', pos: 'n.', meaning: '火山' },
+    { word: 'active', pos: 'a.', meaning: '活动的' },
+    { word: 'Kivu', pos: 'n.', meaning: '基伍湖' },
+    { word: 'Congo', pos: 'n.', meaning: '(the～)刚果' },
+    { word: 'Kituro', pos: 'n.', meaning: '基图罗' },
+    { word: 'violently', pos: 'ad.', meaning: '猛烈地，剧烈地' },
+    { word: 'brilliant', pos: 'a.', meaning: '精彩的' },
+    { word: 'liquid', pos: 'a.', meaning: '液态的' },
+    { word: 'escape', pos: 'v.', meaning: '逃脱' },
+    { word: 'alive', pos: 'a.', meaning: '活着的' }
+  ],
 }
 const articleNce2L59: Article = {
   original: {
@@ -3309,7 +3434,12 @@ const articleNce2L59: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'grass', pos: 'n.', meaning: '草，草地' },
+    { word: 'winter', pos: 'n.', meaning: '冬天' },
+    { word: 'grow', pos: 'v.', meaning: '长，让…生长' },
+    { word: 'control', pos: 'n.', meaning: '控制' }
+  ],
 }
 const articleNce2L60: Article = {
   original: {
@@ -3327,7 +3457,11 @@ const articleNce2L60: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'truth', pos: 'n.', meaning: '实情' },
+    { word: 'suggest', pos: 'v.', meaning: '暗示' },
+    { word: 'murder', pos: 'n.', meaning: '谋杀' }
+  ],
 }
 const articleNce2L61: Article = {
   original: {
@@ -3343,7 +3477,10 @@ const articleNce2L61: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'April', pos: 'n.', meaning: '四月' },
+    { word: 'size', pos: 'n.', meaning: '尺寸，尺码，大小' }
+  ],
 }
 const articleNce2L62: Article = {
   original: {
@@ -3359,7 +3496,16 @@ const articleNce2L62: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'September', pos: 'n.', meaning: '九月' },
+    { word: 'mistake', pos: 'n.', meaning: '错误' },
+    { word: 'tyre', pos: 'n.', meaning: '轮胎' },
+    { word: 'racing', pos: 'n.', meaning: '竞赛' },
+    { word: 'Utah', pos: 'n.', meaning: '犹他(美国州名)' },
+    { word: 'burst', pos: 'v.', meaning: '爆裂' },
+    { word: 'average', pos: 'a.', meaning: '平均的' },
+    { word: 'length', pos: 'n.', meaning: '根，段; 长度' }
+  ],
 }
 const articleNce2L63: Article = {
   original: {
@@ -3375,7 +3521,20 @@ const articleNce2L63: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'October', pos: 'n.', meaning: '十月' },
+    { word: 'figure', pos: 'n.', meaning: '(人的)体形；人像' },
+    { word: 'monument', pos: 'n.', meaning: '纪念碑' },
+    { word: 'statue', pos: 'n.', meaning: '雕像' },
+    { word: 'liberty', pos: 'n.', meaning: '自由' },
+    { word: 'sculptor', pos: 'n.', meaning: '雕刻家' },
+    { word: 'actual', pos: 'a.', meaning: '实际的，真实的' },
+    { word: 'copper', pos: 'n.', meaning: '铜' },
+    { word: 'framework', pos: 'n.', meaning: '构架，框架' },
+    { word: 'site', pos: 'n.', meaning: '场地' },
+    { word: 'pedestal', pos: 'n.', meaning: '底座' },
+    { word: 'symbol', pos: 'n.', meaning: '符号' }
+  ],
 }
 const articleNce2L64: Article = {
   original: {
@@ -3391,7 +3550,23 @@ const articleNce2L64: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'west', pos: 'n.', meaning: '西方' },
+    { word: 'worth', pos: 'prep.', meaning: '值…钱' },
+    { word: 'Lancaster', pos: 'n.', meaning: '兰开斯特' },
+    { word: 'bomber', pos: 'n.', meaning: '轰炸机' },
+    { word: 'remote', pos: 'a.', meaning: '偏僻的' },
+    { word: 'Pacific', pos: 'n.', meaning: '太平洋' },
+    { word: 'wreck', pos: 'n.', meaning: '残骸' },
+    { word: 'aerial', pos: 'a.', meaning: '航空的' },
+    { word: 'survey', pos: 'n.', meaning: '调查' },
+    { word: 'imagine', pos: 'v.', meaning: '想像' },
+    { word: 'packing', pos: '', meaning: '包装箱' },
+    { word: 'colony', pos: 'n.', meaning: '群' },
+    { word: 'hive', pos: 'n.', meaning: '蜂房' },
+    { word: 'beeswax', pos: 'n.', meaning: '蜂蜡' },
+    { word: 'condition', pos: 'v.', meaning: '使习惯于' }
+  ],
 }
 const articleNce2L65: Article = {
   original: {
@@ -3407,7 +3582,22 @@ const articleNce2L65: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'remember', pos: 'v.', meaning: '记得，记住' },
+    { word: 'mark', pos: 'n.', meaning: '分数' },
+    { word: 'kindly', pos: 'ad.', meaning: '和蔼地' },
+    { word: 'gift', pos: 'n.', meaning: '礼物，赠品' },
+    { word: 'album', pos: 'n.', meaning: '签名簿，相册' },
+    { word: 'patience', pos: 'n.', meaning: '耐心' },
+    { word: 'encouragement', pos: 'n.', meaning: '鼓励' },
+    { word: 'farewell', pos: 'n.', meaning: '告别' },
+    { word: 'honour', pos: 'n.', meaning: '敬意, 荣幸' },
+    { word: 'coincidence', pos: 'n.', meaning: '巧合' },
+    { word: 'total', pos: 'n.', meaning: '总数' },
+    { word: 'devote', pos: 'v.', meaning: '致力于' },
+    { word: 'gardening', pos: 'n.', meaning: '园艺' },
+    { word: 'hobby', pos: 'n.', meaning: '爱好，嗜好' }
+  ],
 }
 const articleNce2L66: Article = {
   original: {
@@ -3423,7 +3613,13 @@ const articleNce2L66: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'stand', pos: 'v.', meaning: '站立' },
+    { word: 'help', pos: 'v.', meaning: '帮助' },
+    { word: 'dance', pos: 'v.', meaning: '跳舞' },
+    { word: 'festival', pos: 'n.', meaning: '节日' },
+    { word: 'spectacle', pos: 'n.', meaning: '景象，壮观，场面' }
+  ],
 }
 const articleNce2L67: Article = {
   original: {
@@ -3439,7 +3635,17 @@ const articleNce2L67: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'suitcase', pos: 'n.', meaning: '手提箱' },
+    { word: 'pilot', pos: 'n.', meaning: '飞行员' },
+    { word: 'idea', pos: 'n.', meaning: '主意' },
+    { word: 'terribly', pos: 'ad.', meaning: '非常' },
+    { word: 'rescue', pos: 'v.', meaning: '营救' },
+    { word: 'thick', pos: 'a.', meaning: '厚的' },
+    { word: 'signal', pos: 'n.', meaning: '信号' },
+    { word: 'helicopter', pos: 'n.', meaning: '直升飞机' },
+    { word: 'scene', pos: 'n.', meaning: '现场' }
+  ],
 }
 const articleNce2L68: Article = {
   original: {
@@ -3461,7 +3667,12 @@ const articleNce2L68: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'person', pos: 'n.', meaning: '人' },
+    { word: 'frightened', pos: 'a.', meaning: '害怕，担惊' },
+    { word: 'curious', pos: 'a.', meaning: '急于了解，好奇的' },
+    { word: 'bomb', pos: 'n.', meaning: '炸弹' }
+  ],
 }
 const articleNce2L69: Article = {
   original: {
@@ -3477,7 +3688,11 @@ const articleNce2L69: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'poor', pos: 'a.', meaning: '可怜的; 贫穷的' },
+    { word: 'queue', pos: 'v.', meaning: '排队' },
+    { word: 'advertiser', pos: 'n.', meaning: '报幕员' }
+  ],
 }
 const articleNce2L70: Article = {
   original: {
@@ -3493,7 +3708,18 @@ const articleNce2L70: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'fall', pos: 'v.', meaning: '落下，跌倒' },
+    { word: 'X-ray', pos: 'n.', meaning: 'X光透视' },
+    { word: 'mummy', pos: 'n.', meaning: '木乃伊' },
+    { word: 'Egyptian', pos: 'a.', meaning: '埃及的' },
+    { word: 'temple', pos: 'n.', meaning: '庙' },
+    { word: 'resin', pos: 'n.', meaning: '树脂' },
+    { word: 'skin', pos: 'n.', meaning: '皮，皮肤' },
+    { word: 'section', pos: 'n.', meaning: '切片' },
+    { word: 'normally', pos: 'ad.', meaning: '通常地' },
+    { word: 'cow', pos: 'v.', meaning: '吓唬' }
+  ],
 }
 const articleNce2L71: Article = {
   original: {
@@ -3509,7 +3735,15 @@ const articleNce2L71: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'offer', pos: 'v.', meaning: '提供' },
+    { word: 'continue', pos: 'v.', meaning: '继续' },
+    { word: 'agreement', pos: 'n.', meaning: '协议' },
+    { word: 'relieve', pos: 'v.', meaning: '减轻' },
+    { word: 'pressure', pos: 'n.', meaning: '压力，麻烦' },
+    { word: 'extent', pos: 'n.', meaning: '程度' },
+    { word: 'gratitude', pos: 'n.', meaning: '感激' }
+  ],
 }
 const articleNce2L72: Article = {
   original: {
@@ -3525,7 +3759,9 @@ const articleNce2L72: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'future', pos: 'a.', meaning: '未来的' }
+  ],
 }
 const articleNce2L73: Article = {
   original: {
@@ -3541,7 +3777,13 @@ const articleNce2L73: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'damage', pos: 'v.', meaning: '损坏' },
+    { word: 'claim', pos: 'v.', meaning: '以…为其后果' },
+    { word: 'peculiar', pos: 'a.', meaning: '奇怪的，不寻常的' },
+    { word: 'shining', pos: 'a.', meaning: '闪闪发光的' },
+    { word: 'oarfish', pos: 'n.', meaning: '桨鱼' }
+  ],
 }
 const articleNce2L74: Article = {
   original: {
@@ -3569,7 +3811,14 @@ const articleNce2L74: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'dismay', pos: 'v.', meaning: '失望，泄气' },
+    { word: 'swing', pos: 'v.', meaning: '转向' },
+    { word: 'desperately', pos: 'ad.', meaning: '绝望地' },
+    { word: 'companion', pos: 'n.', meaning: '同伙，同伴' },
+    { word: 'buoy', pos: 'n.', meaning: '浮标' },
+    { word: 'tremendous', pos: '', meaning: 'petrol' }
+  ],
 }
 const articleNce2L75: Article = {
   original: {
@@ -3585,7 +3834,11 @@ const articleNce2L75: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'mine', pos: 'n.', meaning: '矿' },
+    { word: 'microphone', pos: 'n.', meaning: '扩音器，麦克风' },
+    { word: 'surface', pos: 'n.', meaning: '地面，表面' }
+  ],
 }
 const articleNce2L76: Article = {
   original: {
@@ -3601,7 +3854,18 @@ const articleNce2L76: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'fool', pos: 'n.', meaning: '傻瓜' },
+    { word: 'state', pos: 'v.', meaning: '正式提出，宣布' },
+    { word: 'ambassador', pos: 'n.', meaning: '大使' },
+    { word: 'Escalopia', pos: 'n.', meaning: '艾斯卡罗比亚(虚构的国名)' },
+    { word: 'frightful', pos: 'a.', meaning: '可怕的，令人吃惊的' },
+    { word: 'drily', pos: 'ad.', meaning: '冷淡地，枯燥无味地' },
+    { word: 'embassy', pos: 'n.', meaning: '大使馆' },
+    { word: 'basement', pos: 'n.', meaning: '地下室' },
+    { word: 'definitely', pos: 'ad.', meaning: '肯定地' },
+    { word: 'shot', pos: 'n.', meaning: '子弹' }
+  ],
 }
 const articleNce2L77: Article = {
   original: {
@@ -3617,7 +3881,14 @@ const articleNce2L77: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'calm', pos: 'v.', meaning: '使镇定' },
+    { word: 'concentration', pos: 'n.', meaning: '集中，专心' },
+    { word: 'temper', pos: 'n.', meaning: '脾气' },
+    { word: 'appetite', pos: 'n.', meaning: '胃口，食欲' },
+    { word: 'satisfaction', pos: 'n.', meaning: '满意，满足' },
+    { word: 'delighted', pos: 'a.', meaning: '欣喜的' }
+  ],
 }
 const articleNce2L78: Article = {
   original: {
@@ -3633,7 +3904,15 @@ const articleNce2L78: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'former', pos: 'a.', meaning: '从前的' },
+    { word: 'defeat', pos: 'v.', meaning: '打败' },
+    { word: 'fanatical', pos: 'a.', meaning: '狂热的' },
+    { word: 'opponent', pos: 'n.', meaning: '反对者，对手' },
+    { word: 'radical', pos: 'a.', meaning: '激进的' },
+    { word: 'progressive', pos: 'a.', meaning: '进步的' },
+    { word: 'suspicious', pos: 'a.', meaning: '怀疑的' }
+  ],
 }
 const articleNce2L79: Article = {
   original: {
@@ -3649,7 +3928,12 @@ const articleNce2L79: Article = {
   translation: {
     paragraphs: ['', ''],
   },
-  vocabulary: [],
+  vocabulary: [
+    { word: 'reluctant', pos: 'a.', meaning: '勉强的，不愿意的' },
+    { word: 'underwater', pos: 'a.', meaning: '水下的;ad. 在水下' },
+    { word: 'tricycle', pos: 'n.', meaning: '三轮车' },
+    { word: 'compete', pos: 'v.', meaning: '比赛，对抗' }
+  ],
 }
 const articleNce2L80: Article = {
   original: {
