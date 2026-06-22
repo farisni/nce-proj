@@ -142,7 +142,7 @@ function segClass(seg: Segment): string {
       <div class="article-section">
         <div class="section-row">
           <div class="section-main">
-            <h1 class="article-title">The Problem of Youth</h1>
+            <h1 class="article-title">{{ currentMeta?.title }}</h1>
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
