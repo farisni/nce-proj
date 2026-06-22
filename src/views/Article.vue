@@ -182,8 +182,13 @@ function segClass(seg: Segment): string {
 </template>
 
 <style lang="scss" scoped>
-.reading-page { min-height: 100vh; position: relative; }
-.main-content { max-width: 1040px; margin: 0 auto; padding: 60px 24px 80px; }
+.reading-page {
+  min-height: 100vh; position: relative;
+  background-color: var(--color-bg);
+  background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.main-content { max-width: 1040px; margin: 0 auto; padding: 60px 24px 80px; background: var(--color-bg); }
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
