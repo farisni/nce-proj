@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted } from 'vue'
-import Index from './views/Index.vue'
 
 let scrollTimer: ReturnType<typeof setTimeout> | null = null
 
@@ -23,5 +22,5 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <Index />
+  <router-view />
 </template>

@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { article } from '../mock/readData'
+import { articles } from '../mock/readData'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const article = articles[route.params.id as string]
 import yumaoIcon from '../asserts/icon/yumao.svg'
 
 const sentencePattern = /([^.!?。！？]+[.!?。！？]+)/g

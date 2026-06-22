@@ -21,7 +21,24 @@ export interface Article {
   vocabulary: VocabItem[]
 }
 
-export const article: Article = {
+export interface ArticleMeta {
+  id: string
+  title: string
+  level: 'NCE2' | 'NCE3' | 'NCE4'
+  excerpt: string
+}
+
+export const articleMetas: ArticleMeta[] = [
+  {
+    id: 'problem-of-youth',
+    title: 'The Problem of Youth',
+    level: 'NCE4',
+    excerpt: "People are always talking about 'the problem of youth'. If there is one—which I take leave to doubt—then it is older people who create it, not the young themselves.",
+  },
+]
+
+
+const article: Article = {
   original: {
     paragraphs: [
       "People are always talking about 'the problem of youth'. If there is one—which I take leave to doubt—then it is older people who create it, not the young themselves. Let us get down to fundamentals and agree that the young are after all human beings—people just like their elders. There is only one difference between an old man and a young one: the young man has a glorious future before him and the old one has a splendid future behind him: and maybe that is where the rub is.",
@@ -83,4 +100,8 @@ export const article: Article = {
     { word: 'fatuous', pos: 'adj.', meaning: '愚蠢的；昏庸的', syllables: 'fat·u·ous', phonetic: '/ˈfætʃuəs/' },
     { word: 'cliché', pos: 'n.', meaning: '陈词滥调', syllables: 'cli·ché', phonetic: '/kliːˈʃeɪ/' },
   ],
+}
+
+export const articles: Record<string, Article> = {
+  'problem-of-youth': article,
 }
