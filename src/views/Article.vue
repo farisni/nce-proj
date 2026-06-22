@@ -4,7 +4,7 @@ import { articles, articleMetas } from '../mock/readData'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const article = articles[route.params.id as string]
+const article = computed(() => articles[route.params.id as string])
 import yumaoIcon from '../asserts/icon/yumao.svg'
 
 const currentMeta = computed(() => articleMetas.find(m => m.id === route.params.id))
@@ -104,10 +104,10 @@ function markWords(
 interface SentenceData { segments: Segment[]; key: string }
 
 const originalSentences = computed(() =>
-  article.original.paragraphs.map((p, pIdx) => {
+  article.value.original.paragraphs.map((p, pIdx) => {
     const sents = splitSentences(p)
     return sents.map((sent, sIdx) => {
-      const meta = article.original.predicateParagraph[pIdx]?.[sIdx]
+      const meta = article.value.original.predicateParagraph[pIdx]?.[sIdx]
       return {
         segments: markWords(sent, meta?.predicates ?? [], meta?.clauseIntroducers ?? [], meta?.notes ?? []),
         key: `${pIdx}-${sIdx}`,
