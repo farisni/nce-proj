@@ -211,6 +211,169 @@ export const articleMetas: ArticleMeta[] = [
     level: 'NCE3',
   },
   {
+    id: 'nce4-l1',
+    lesson: 1,
+    tag: 'c1',
+    title: 'Finding fossil man',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l2',
+    lesson: 2,
+    tag: 'c2',
+    title: 'Spare that spider',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l3',
+    lesson: 3,
+    title: 'Matterhorn man',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l4',
+    lesson: 4,
+    tag: 'c4',
+    title: 'Seeing hands',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l6',
+    lesson: 6,
+    tag: 'c7',
+    title: 'The sports spirit',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l7',
+    lesson: 7,
+    tag: 'c9',
+    title: 'Bats',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l8',
+    lesson: 8,
+    title: 'Trading Standards',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l11',
+    lesson: 11,
+    tag: 'c14',
+    title: 'How to grow old',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l13',
+    lesson: 13,
+    title: 'The search for oil',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l15',
+    lesson: 15,
+    tag: 'c18',
+    title: 'Secrecy in industry',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l16',
+    lesson: 16,
+    tag: 'c20',
+    title: 'The modern city',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l18',
+    lesson: 18,
+    tag: 'c22',
+    title: 'Porpoises',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l21',
+    lesson: 21,
+    title: 'William S. Hart and the Early "Western" Film',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l22',
+    lesson: 22,
+    tag: 'c27',
+    title: 'Knowledge and progress',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l24',
+    lesson: 24,
+    tag: 'c29',
+    title: 'Beauty',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l28',
+    lesson: 28,
+    tag: 'c34',
+    title: 'Patients and doctors',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l30',
+    lesson: 30,
+    tag: 'c36',
+    title: 'Exploring the sea-floor',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l32',
+    lesson: 32,
+    tag: 'c39',
+    title: 'Galileo reborn',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l33',
+    lesson: 33,
+    tag: 'c41',
+    title: 'Education',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l34',
+    lesson: 34,
+    tag: 'c42',
+    title: 'Adolescence',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l37',
+    lesson: 37,
+    tag: 'c45',
+    title: 'The process of ageing',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l44',
+    lesson: 44,
+    tag: 'c55',
+    title: 'Patterns of culture',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l46',
+    lesson: 46,
+    tag: 'c58',
+    title: 'Hobbies',
+    level: 'NCE4',
+  },
+  {
+    id: 'nce4-l48',
+    lesson: 48,
+    title: 'Planning a share portfolio',
+    level: 'NCE4',
+  },
+  {
     id: 'problem-of-youth',
     lesson: 5,
     tag: 'c6',
@@ -804,6 +967,479 @@ const articleNce3L60: Article = {
   vocabulary: [],
 }
 
+const articleNce4L1: Article = {
+  original: {
+    paragraphs: [
+      "We can read of things that happened 5,000 years ago in the Near East, where people first learned to write. But there are some parts of the world where even now people cannot write. The only way[that they can preserve their history]isto recount it as sagas -- legends handed down from one generation of story-tellers to another. These legends are useful because they can tell us something about migrations of people who lived long ago, but none could write down what they did. Anthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islands came from. The sagas of these people explain that some of them came from Indonesia about 2,000 years ago.",
+        "But the first people [who were like ourselves] lived so long ago that even their sagas, if they had any, are forgotten. So archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.",
+        "Fortunately, however, ancient men made tools of stone, especially flint, because this is easier to shape than other kinds. They may also have used wood and skins, but these have rotted away. Stone does not decay, and so the tools of long ago have remained wheneven the bones of the men who made them have disappeared without trace."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L2: Article = {
+  original: {
+    paragraphs: [
+      "Why, you may wonder, should spiders be our friends? Because they destroy so many insects, and insects include some of the greatest enemies of the human race. Insects would make it impossible for us to live in the world; they would devour all our crops and kill our flocks and herds, if it were not for the protection we get from insect-eating animals. We owe a lot to the birds and beasts [who eat insects] but all of them put together kill only a fraction of the number destroyed by spiders. Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.",
+        "Spiders are not insects, as many people think, noreven nearly (are they) related to them. One can tell the difference almost at a glance, for a spider always has eight legs and an insect has never more than six.",
+        "How many spiders are engaged in this work on our behalf? One authority on spiders made a census of the spiders in a grass field in the south of England, and he estimated that there were more than 2,250,000 in one acre, that is something like 6,000,000 spiders [of different kinds] on a football pitch. Spiders are busy for at least half the year in killing insects. It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day. It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.",
+        "distinguish /sifferentiate /discriminate between A and/from B AB attribute to. owe A to B AB greater a.；;；"
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L3: Article = {
+  original: {
+    paragraphs: [
+      "Modern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded. In the pioneering days, however, this was not the case at all. The early climbers were looking for the easiest way to the top because the summit was the prize they sought, especially if it had never been attained before. It is true that during their explorations they often faced difficulties and dangers of the most perilous nature, equipped in a manner which would make a modern climber shudder at the thought, but they did not go out of their way to court such excitement. They had a single aim, a solitary goal--the top!",
+        "It is hard for us to realize nowadays how difficult it was for the pioneers. Except for one or two places such as Zermatt and Chamonix, which had rapidly become popular, Alpine villages tended to be impoverished settlements [cut off from civilization by the high mountains]. Such inns as there were were generally dirty and flea-ridden; the food was simply, local cheese accompanied by bread often twelve months old, all washed down with coarse wine. Often a valley boasted no inn at all, and climbers found shelter wherever they could--sometimes with the local priest [who was usually as poor as his parishioners], sometimes with shepherds or cheese-makers. Invariably the background was the same: dirt and poverty, and very uncomfortable. For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home, the change [to the Alps] must have been very hard indeed."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L4: Article = {
+  original: {
+    paragraphs: [
+      "In the Soviet Union several cases have been reported recently of people who can read and detect colours with their fingers, and even see through solid doors and walls. One case concerns an 'eleven-year-old schoolgirl, Vera Petrova, who has normal vision but who can also perceive things with different parts of her skin, and through solid walls. This ability was first noticed by her father. One day she came into his office and happened to put her hands on the door of a locked safe. Suddenly she asked her father why he kept so many old newspapers locked away there, and even described the way they were done up in bundles.",
+        "Vera's curious talent was brought to the notice of a scientific research institute in the town of UIyanovsk, near where she lives, and in April she was given a series of tests by a special commission of the Ministry of Health of the Russian Federal Republic. During these tests she was able to read a newspaper through an opaque screen and, stranger still, by moving her elbow over a child's game of Lotto she was able to describe the figures and colours printed on it; and, in another instance, wearing stockings and slippers, () to make out with her foot the outlines and colours of a picture hidden under a carpet. Other experiments showed that her knees and shoulders had a similar sensitivity. During all these tests Vera was blindfold; and, indeed, except when blindfold she lacked the ability to perceive things with her skin. It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L6: Article = {
+  original: {
+    paragraphs: [
+      "I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield. Even if one didn't know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce it from general principles.",
+        "Nearly all the sports practised nowadays are competitive. You play to win, and the game has littlemeaning unless you do your utmost to win. On the village green, where you pick up sides and no feeling of local patriotism is involved, it is possible to play simply for the fun and exercise: but as soon as the question of prestige arises, as soon as you feel that you and some larger unit will be disgraced if you lose, the most savage combative instincts are aroused. Anyone [who has played] even in a school football match knows this. At the international level sport is frankly mimic warfare. But the significant thing is not the behaviour of the players but the attitude of the spectators: and, behind the spectators, (the attitude) of the nations. who work themselves into furies over these absurd contests, and seriously believe--at any rate for short periods--that running, jumping and kicking a ball are tests of national virtue."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L7: Article = {
+  original: {
+    paragraphs: [
+      "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats [to see a case in which the voice plays a strictly utilitarian role].",
+        "To get a full appreciation of what this meanswe must turn first to some recent human inventions. Everyone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back. The further off this solid obstruction, the longer time will elapse for the return of the echo. A sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes, the depth of the sea at that point can be calculated. So was born the echo-sounding apparatus, now in general use in ships. Every solid object will reflect a sound, varying according to the size and nature of the object. A shoal of fish will do this. So it is a comparatively simple step from locating the sea bottom to locating a shoal of fish. With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.",
+        "It has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed. This echo-location in bats is often compared with radar, the principle of which is similar."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L8: Article = {
+  original: {
+    paragraphs: [
+      "Chickens slaughtered in the United States, claim officials in Brussels, are not fit to grace European tables. No, say the American: our fowl are fine, we simply clean them in a different way. These days, it is differences in national regulations, far more than tariffs, that put sand in the wheels of trade between rich countries. It is not just farmers who are complaining. An electric razor that meets the European Union's safety standards must be approved by American testers [before it can be sold in the United States], and an American-made dialysis machine needs the EU's okay [before it hits the market in Europe].",
+        "As it happens, a razor that is safe in Europeis unlikely to electrocute Americans. So, ask businesses on both sides of the Atlantic, why have two lots of tests where one would do? Politicians agree, in principle, so America and the EU have been trying to reach a deal which would eliminate the need to double-test many products. They hope to finish in time for a trade summit between America and the EU on May 28th. Although negotiators are optimistic, the details are complex enough that they may be hard-pressed to get a deal at all.",
+        "Why? One difficulty is to construct the agreements. The Americans would happily reach one accord on standards for medical devices and then hammer out different pacts covering, say, electronic goods and drug manufacturing. The EU -- following fine continental traditions -- wants agreement on general principles, which could be applied to many types of products and perhaps extended to other countries."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L11: Article = {
+  original: {
+    paragraphs: [
+      "Some old people are oppressed by the fear of death. In the young there is a justification for this feeling. Young men who have reason to fear that they will be killed in battle may justifiably feel bitter in the thought that they have been cheated of the best things that life has to offer. But in an old man who has known human joys and sorrows, and has achieved whatever work it was in himto do, the fear of death is some [what abject and ignoble]. The best way to overcome it－so at least it seems to me－is to make your interests gradually wider and more impersonal, until bit by bit [the walls of the ego] recede, and your life becomes increasingly merged in the universal life. An individual human existence should be like a river--small at first, narrowly contained within its banks, and rushing passionately past boulders and over waterfalls. Gradually the river grows wider,the banks recede, the waters flow more quietly, and in the end, without any visible break, they become merged in the sea, and painlessly lose their individual being. The man who, in old age, can see his life in this way, will not suffer from the fear of death, since the things [he cares for] will continue. And it, with the decay of vitality, weariness increases, the thought of rest will be not unwelcome.I should wish to die while still at workthey are, knowing that others will carry on [what I can no longer do], and being content in the thought that [what was possible] has been done."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L13: Article = {
+  original: {
+    paragraphs: [
+      "The deepest holes of all are made for oil, and they go down to as much as 25,000 feet. But we do not need to send men down to get the oil out, as we mustwith other mineral deposits. The holes are only boringsn., less than a foot in diameter. My particular experience is largely in oil, and the search for oil has done more to improve deep drilling than any other mining activity. When it has been decided where we are going to drill, we put up at the surface an oil derrick. It has to be tall because it is like a giant block and tackle, and we have to lowervt. [] into the ground and haul [] out of the ground great lengths of drill pipe which are rotated by an engine at the top and are fitted with a cutting bit at the bottom.",
+        "The geologist needs to know what rocks the drill has reached, so every so often a sample is obtained with a coring bit. It cuts a clean cylinder of rock, from which can be seen the strata the drill has been cutting through. Once we get down to the oil, it usually flows to the surface because great pressure, either from gas or water, is pushing it. This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe. We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas. We want it to stay down the hole until we can lead it off in a controlled manner."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L15: Article = {
+  original: {
+    paragraphs: [
+      "Two factors weigh heavily against the effectiveness of scientific in industry. One is the general atmosphere of secrecy [in which] it is carried out, the other (being) the lack of freedom of the individual research worker. In so far as any inquiry is a secret one, it naturally limits [all those engaged in carrying it out] from effective [contact with their fellow scientists] either in other countries or in universities, or even, often enough, in other departments of the same firm. The degree of secrecy naturally varies considerably. Some of the bigger firms are engaged in researches which are [of such general and fundamental nature][that it is a positive advantage to them not to keep them secret].Yet a great many processes depending on such research are sought for with complete secrecy until the stage at which patents can be taken out. Even more processes are never patented at all but kept as secret processes. This applies particularly to chemical industries, where chance discoveries play a much larger part than they do in physical and mechanical industries. Sometimes the secrecy goes to such an extent that the whole nature of the research cannot be mentioned. Many firms, for instance, have great difficulty in obtaining technical or scientific books from libraries because they are unwilling to have their names entered as having taken out such and such a book for fear the agents of other firms should be able to trace the kind of research [they are likely to be undertaking]."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L16: Article = {
+  original: {
+    paragraphs: [
+      "In the organization of industrial lifethe influence of the factory upon the physiological and mental state of the workers has been completely neglected. Modern industry is based on the conception of the maximum production at lowest cost, in order that [an individual or a group of individuals] may earn as much money as possible. It has expanded without any idea of the true nature of the human beings [who run the machines], and without (any idea of) giving any consideration to the effects produced [on the individuals and on their descendants] by the artificial mode of existence imposed by the factory. The great cities have been built with no regard for us. The shape and dimensions of the skyscrapers depend entirely on the necessityn. of obtaining the maximum income per square foot of ground, and of offering to the tenants offices and apartments that please them. This caused the construction of gigantic buildings where too large masses of human beings are crowded together. Civilized men like such a way of living. While they enjoy the comfort and banal luxury of their dwelling, they do not realize that they are deprived of the necessities of life. The modern city consists of monstrous edifices and consists of dark, narrow streets [full of petrol fumes], coal dust, and toxic gases, torn by the noise of the taxi-cabs, lorries and buses, and thronged ceaselessly by great crowds. Obviously, it has no been planned for the good of its inhabitants."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L18: Article = {
+  original: {
+    paragraphs: [
+      "There has long been a superstition (in which) among mariners that porpoises will save drowning men by pushing them to the surface, or protect them from sharks by surrounding them in defensive formation. Marine Studio biologists have pointed outadv.that, howeverintelligent they may be, it is probably a mistake to credit dolphins with any motive of life-saving. On the occasions [when they have pushed to shore an unconscious human being] they have much more likely done it out of curiosity or for sport, as () in riding the bow waves of a ship. In 1928 some porpoises were photographed working like beavers to push ashore a waterlogged mattress. If, as has been reported, they have protected humans from sharks, it may have been because curiosity attracted them and because the scent of a possible meal attracted the sharks. Porpoises and sharks are natural enemies. It is possible that upon such an occasion a battle ensued, with the sharks being driven away or killed.",
+        "Whether [it be bird, fish or beast, the porpoise]be,is intrigued with anything [that is alive]. They are constantly [afterprepthe turtles], the Ferdinands of marine life, who peacefully submit to all sorts of indignities. One young calf especially enjoyed raising a turtle to the surface with his snout and then shoving him across the tank like an aquaplane. Almost [any day] a young porpoise may be seen trying to turn a 300-pound sea turtle over by sticking his snout under the edge of his shell and pushing up for dear life. This is not easy, and may require two porpoises working together. In another game, as the turtle swims across the oceanarium, the first porpoise swoops down from above and butts his shell with his belly. This knocks the turtle down several feet. He no sooner recovers his equilibrium than the next porpoise comes along and hits him another crack. Eventually the turtle has been butted all the way [down to the floor of the tank]. He is now satisfied merely to try to stand up, but as soon as he does so a porpoise knocks him flat. The turtle at last gives up by pulling his feet under his shell and the game is over.",
+        ". have pointed out that. that in that/but that/except that, outadv. be after. ； for life ， for dear life a."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L21: Article = {
+  original: {
+    paragraphs: [
+      "William S. Hart was, perhaps, the greatest of all Western stars, for unlike Gary Cooper and John Wayne he appeared in nothing but Westerns. From 1914 to 1924 he was supreme and unchallenged. It was Hart who created the basic formula of the Western film, and devised the protagonist he played in every film he made, the good-bad man, the accidental, noble outlaw, or the honest but framed cowboy, or the sheriff made suspect by vicious gossip; in short, the individual in conflict with himself and his frontier environment.",
+        "Unlike most of his contemporaries in Hollywood, Hart actually knew something of the old West. He had lived in it as a child when it was already disappearing, and his hero was firmly rooted in his memories and experiences, and in both the history and the mythology of the vanished frontier. And although no period or place in American history has been more absurdly romanticized, myth and reality did join hands in at least one arena, the conflict between the individual and encroaching civilization.",
+        "Men accustomed to struggling for survival against the elements and Indian were bewildered by politicians, bankers and business-men, and unhorsed by fences, laws and alien taboos. Hart's good-bad man was always an outsider, always one of the disinherited, and if he found it necessary to shoot a sheriff or rob a bank along the way, his early audiences found it easy to understand and forgive, especially when it was Hart who, in the end, overcame the attacking Indians.",
+        "Audiences in the second decade of the twentieth century found it pleasant to escape to a time when life, though hard, was relatively simple. We still do; living in a world in which undeclared aggression, war, hypocrisy, chicanery, anarchy and impending immolation are part of our daily lives, we all want a code to live by."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L22: Article = {
+  original: {
+    paragraphs: [
+      "Why does the idea of progress loom so large in the modern world? Surely because progress of a particular kind is actually taking place around us and is becoming more and more manifest. Although mankind has undergone no general improvement in intelligence or morality, it has made extraordinary progress in the accumulation of knowledge. Knowledge began to increase as soon as the thoughts of one individual could be communicated to another by means of speech. With the invention of writing, a great advance was made, for knowledge could then be not only communicated but also stored. Libraries made education possible, and education in its turn added to libraries: the growth of knowledge followed a kind of compound interest law, which was greatly enhanced by the invention of printing. All this was comparatively slow until, with the coming science, the tempo was suddenly raised. Then knowledge began to be accumulated according to a systematic plan. The trickle became a stream; the stream has now become a torrent. Moreover, as soon as new knowledge is acquired, it is now turned to practical account. [What is called 'modern civilization'] is not the result of a balanced development of all man's nature, but of accumulated knowledge applied to practical life. The problem now [facing humanity] is: What is going to be done with all this knowledge? Asis so often pointed out, knowledge is a two-edged weapon which can be used equally for good or evil. It is now being used indifferently for both. Could any spectacle, for instance, be more grimly whimsical than that of gunners using science to shatter men's bodies while, close at hand, surgeons use it to restore them? We have to ask ourselves very seriously what will happen if this twofold use of knowledge, with its ever-increasing power, continues."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L24: Article = {
+  original: {
+    paragraphs: [
+      "A young man sees a sunset and, (being) unable to understand or to express the emotion that it rouses in him, concludes that it must be the gateway to a world that lies beyondadv. It is difficult for any of us in moments of intense aesthetic experience to resist the suggestion that we are catching a glimpse of a light that shines down to us from a different realm of existence, different and, [because the experience is intensely moving], in some way higher. And, though the gleams blind and dazzle, yet dothey convey a hint of beauty and serenity greater than we have known or imagined. Greater too than we can describe, for language, which was invented to convey the meanings of this world, cannot readily be fitted to the uses of another.",
+        "In some moods, Nature shares it. There is no sky in June so blue that it does not point forward to a bluer, no sunset so beautiful that it does not waken the vision of a greater beauty, a vision which passes [before it is fully glimpsed], and in passing leaves an indefinable longing and regret. But, if this world is not merely a bad joke, (if) life () a vulgar flare amid the cool radiance of the stars, and existence () an empty laugh braying across the mysteries; if these intimations of a somethingn. [behind and beyond] are not evil humour born of indigestion, or whimsies sent by the devil to mock and madden us, if, in a word, beauty means something, yet we must not seek to interpret the meaning. If we glimpse the unutterable, it is unwise to try to utter it, nor should we seek to invest with significance that which we cannot grasp. Beauty in terms of our human meanings is meaningless."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L28: Article = {
+  original: {
+    paragraphs: [
+      "This is a sceptical age, but although our faith in many of the things in which our forefathers fervently believedhas weakened, our confidence in the curative properties of the bottle of medicine remains the same as theirs. This modern faith in medicines is proved by the fact that [the annual drug bill of the Health Services] is mounting to astronomical figures and shows no signs at present of ceasing to rise. The majority of patients attending [the medical out-patients departments of our hospitals] feel that they have not received adequate treatment unless they are able to carry home with them some tangible remedy in the shape of [a bottle of medicine, a box of pills, or a small jar of ointment], and the doctor in charge of the department is only too ready to provide them with these requirements. There is no quicker method of disposing of patients than by giving them what they are asking for, and sincemost medical men in the Health Services are overworked and have little time for offering time-consuming and little appreciated advice on such subjects as [diet, right living, and the need for abandoning bad habits, etc., the bottle, the box, and the jar] are almost always granted them.",
+        "Nor is it only the ignorant and ill-educated person who has such faith in the bottle of medicine, especially if it be wrapped in white paper and sealed with a dab of red sealing-wax by a clever chemist. It is recounted of Thomas Carlyle that when he heard of the illness of his friend, Henry Taylor, he went off immediately to visit him, carrying with him in his pocket [what remained of a bottle of medicine (formerly prescribed for an indisposition of Mrs Carlyle's)].",
+        "Carlyle was entirely ignorant of what the bottle in his pocket contained, of the nature of the illness from which his friend was suffering, and of what had previously been wrong with his wife, but a medicine [that had worked so well in one form of illness] would surely be [of equal benefit in another], and comforted by the thought of the help [he was bringing to his friend], he hastened to Henry Taylor's house. History does not relate whether his friend accepted his medical help, but in all probability he did. The great advantage of taking medicine is that it makes no demands on the taker beyond that of putting up for a moment with a disgusting taste, and that is what all patients demand of their doctors--to be cured at no inconvenience to themselves."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L30: Article = {
+  original: {
+    paragraphs: [
+      "Our knowledge of the oceans a hundred years ago was confined to the two-dimen sional shape [of the sea-surface] and the hazards of navigation presented by the irregularities in depth of the shallow water close to the land. The open sea was deep and mysterious, and anyone who gave more than a passing thought to the bottom confines of the oceansprobably assumed that the sea-bed was flat. Sir James Clark Ross had obtained a sounding of over 2,400 fathoms in 1836 but it was not until 1800, when H.M.S. Porcupine was put at the disposal of the Royal Society for several cruises, that a series of deep soundings was obtained in the Atlantic and the first samples were collected by dredging the bottom. Shortly after this the famous H.M.S. Challenger expedition established the study of the sea-floor as a subject worthy of the most qualified physicists and geologists. A burst of activity associated with the laying of submarine cables soon confirmed the Challenger's observation [that many parts of the ocean were two to three miles deep], and the existence of underwater features of considerable magnitude.",
+        "Today enough soundings are available to enable a relief map of the Atlantic to be drawn and we know something of the great variety of the sea-bed's topography. Since the sea covers the greater part of the earth's surface it is quite reasonable to regard the sea-floor as the basic form of the crust of the earth, with superimposed upon it, [the continents, together with the islands and other features of the oceans]. The continents form rugged tablelands which standnearly three miles above the floor of the open ocean. From the shore-line out to a distance which may be anywhere from a few miles to a few hundred miles, runs the gentle slope of the continental shelf, geologically part of the continents. The real dividing-line between continents and oceans occurs at the foot of a steeper slope.",
+        "This continental slope usually starts at a place somewhere near the 100-fathom mark and in the course of a few hundred miles reaches the true ocean-floor at 2,500-3,000 fathoms. The slope averages about 1 in 30, but contains steep, probably vertical, cliffs, and gentle sediment-covered terraces, and near its lower reaches [there is a long tailing-off] which is almost certainly the result of material transported out to deep water [after being eroded from the continental masses]."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L32: Article = {
+  original: {
+    paragraphs: [
+      "In his own lifetime Galileo was the centre of violent controversy; but the scientific dust has long since settled, and today we can see [even his famous clash with the Inquisition] in something like its proper perspective. But, in contrast, it is only in modern times that Galileo has become a problem child for historians of science.",
+        "The old view of Galileo was delightfully uncomplicated. He was, above all, a man who experimented: who despised the prejudices and book learning of the Aristotelians, who put his questions to nature instead of to the ancients, and who drew his conclusions fearlessly. He had been the first to turn a telescope to the sky, and he had seen there evidence enough to overthrow Aristotle and Ptolemy together. He was the man who climbed the Leaning Tower of Pisa and dropped various weights from the top, who rolled balls down inclined planes, and then generalized the results of his many experiments into the famous law of free fall.",
+        "But a closer study of the evidence, supported by a deeper sense of the period, and particularly by a new consciousness of the philosophical undercurrents in the scientific revolution, has profoundly modified this view of Galileo. Today, although the old Galileo lives on in many popular writings, among historians of science a new and more sophisticated picture has emerged. At the same time our sympathy for Balileo's opponents has grown somewhat. His telescopic observation are justly immortal; they aroused great interest at the time, they had important theoretical consequences, and they provided a striking demonstration of the potentialities hidden in instruments and apparatus. But can we blame those who looked and failed to see what Galileo saw, if we remember that to use a telescope at the limit of its powers calls for long experience and intimate familiarity with one's instrument? Was the philosopher [who refused to look through Galileo's telescope] more culpable than those [who alleged that the spiral nebulae observed with Lord Rosse's great telescope in the eighteen-forties were scratches left by the grinder]? We can perhaps forgive those who said the moons of Jupiter were produced by Galileo's spy-glass if we recall that in his day, asfor centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth; and if a single curved glass would distort nature, how much more would a pair of them?"
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L33: Article = {
+  original: {
+    paragraphs: [
+      "Education is one of the key words of our time. A man without an education, many of us believe, is an unfortunate victim of adverse circumstances deprived of one of the greatest twentieth-century opportunities. Convinced of the importance of education, modern states 'invest' in institutions of learning to get back 'interest' in the form of a large group of enlightened young men and women who are potential leaders. Education, with its cycles of instruction so carefully worked out, punctuated by text-books--those purchasable wells of wisdom-- what would civilization be like without its benefits?",
+        "So much is certain: that we would have doctors and preachers, lawyers and defendants, marriages and births--but our spiritual outlook would be different. We would lay less stress on 'facts and figures' and more on a good memory, on applied psychology, and on the capacity of a man to get along with his fellow-citizens. If our educational system were fashioned after its bookless past we would have the most democratic form of 'college' imaginable. Among the people [whom we like to call savages all knowledge inherited by tradition] is shared by all; it is taught to every member of the tribe so that in this respect everybody is, equally equipped for life.",
+        "It is the ideal condition of the 'equal start' which only our most progressive forms of modern education try to regain. In primitive cultures the obligation to seek and to receive the traditional instruction is binding to all. There are no 'illiterates '--if the term can be applied to peoples without a script--while our own compulsory school attendance became law in Germany in 1642, in France in 1806, and in England in 1876, and is still non-existent in a number of 'civilized' nations. This shows how long it was before we deemed it necessary [to make sure that all our children could share in the knowledge accumulated by the 'happy few' during the past centuries].",
+        "Education in the wilderness is not a matter of monetary means. All are entitled to an equal start. There is none of the hurry which, in our society, often hampers the full development of a growing personality.There, a child grows up under the ever-present attention of his parents, therefore the jungles and the savannahs know of no 'juvenile delinquency.' No necessity of making a living away from home results in neglect of children, and no father is confronted with his inability to 'buy' an education for his child.",
+        "From: Julius E. Lips The Origin of Things – A Cultural History of Man - Education without books"
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L34: Article = {
+  original: {
+    paragraphs: [
+      "Parents are often upset when their children praise the homes of their friends and regard it as a slur on their own cooking, or cleaning, or furniture, and often are foolish enough to letthe adolescents see that they are annoyed. They may even accuse them of disloyalty, or make some spiteful remark about the friends' parents. Such a loss of dignity and descent into childish behaviour on the part of the adults deeply shocks the adolescents, and makes them resolve that in future they will not talk to their parents about the places or people [they visit]. Before very long the parents will be complaining that the child is so secretive and never tells them anything, but they seldom realize that they have brought this on themselves.",
+        "Disillusionment with the parents, however good and adequate they may be both as parents and as individuals, is to some degree inevitable. Most children have such a high ideal of their parents, unless the parents themselves have been unsatisfactory, that it can hardly hope to stand up to a realistic evaluation. Parents would be greatly surprised and deeply touched if they realize how much belief their children usually have in their character and infallibility, and how much this faith means to a child. If parents were prepared for this adolescent reaction, and realized that it was a sign that the child was growing up and developing valuable powers of observation and independent judgement, they would not be so hurt, and therefore would not drive the child into opposition by resenting and resisting it.",
+        "The adolescent, with his passion for sincerity,always respects a parent who admits that he is wrong, or ignorant, or even that he has been unfair or unjust. What the child cannot forgive is the parents' refusal to admit these charges if the child knows them to be true.",
+        "Victorian parents believed that they kept their dignity by retreating behind an unreasoning authoritarian attitude; in fact they did nothing of the kind, but children were then too cowed to let them know how they really felt. Today we tend to go to the other extreme, but on the whole this is a healthier attitude both for the child and the parent. It is always wiser and safer to face up to reality, however painful it may be at the moment."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L37: Article = {
+  original: {
+    paragraphs: [
+      "At the age of twelve years, the human body is at its most vigorous. It has yet to reach its full size and strength, and its ownerhis or her full intelligence; but at this age the likelihood of death is the least. Earlier we were infants and young children, and consequently more vulnerable; later, we shall undergo a progressive loss of our vigour and resistance which, though imperceptible at first, will finally become so steep that we can live no longer, however well we look after ourselves, and however well society, and our doctors, look after us. This decline in vigour with the passing of time is called ageing. It is one of the most unpleasant discoveries which we all make that we must decline in this way, that ifwe escape wars, accidents and diseases we shall eventually die of old age, and that this happens at a rate which differs little from person to person, so that there are heavy odds in favour of our dying between the ages of sixty-five and eighty. Some of us will die sooner, a few will live longer-- on into a ninth or tenth decade. But the chances are against it, and there is a virtual limit on how long we can hope to remain alive, however lucky and robust we are.",
+        "Normal people tend to forget this process unless and until they are reminded of it. We are so familiar with the fact that man ages, that people have for years assumed that the process of losing vigour with time, of becoming (the) more likely to die the older we get, was something self-evident, like the cooling of a hot kettle or the wearing-out of a pair of shoes. They have also assumed that all animals, and probably other organisms such as trees, or even the universe itself, must in the nature of things 'wear out'. Most animals we commonly observe do in fact age as we do if given the chance to live long enough; and mechanical systems like a wound watch or the sun, do in fact run out of energy in accordance with the second law of thermodynamics (whether the whole universe does so is a moot point at present). But these are not analogous to what happens when man ages. A run-down watch is still a watch and can be rewound. An old watch, by contrast, becomes so worn and unreliable that it eventually is not worth mending. But a watch could never repair itself -- it does not consist of living parts, only of metal, which wears away by friction. We could, at one time, repair ourselves well enough, at least, to overcome all but the most instantly fatal illnesses an accidents. Between twelve and eighty years we gradually lose this power; an illness which at twelve would knock us over, at eighty can knock us out, and into our grave. If we could stay as vigorous as we are at twelve, it would take about 700 years for half of us to die, and () another 700 for the survivors to be reduce by half again."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L44: Article = {
+  original: {
+    paragraphs: [
+      "Custom has not been commonly regarded as a subject of any great moment. The inner workings of our own brainswe feel to be uniquely worthy of investigation, but custom have a way of thinking, is behaviour at its most commonplace. As a matter of fact, it is the other way around. Traditional custom, taken the world over, is a mass of detailed behaviour more astonishing than what any one person can ever evolve in individual actions, no matter how aberrant. Yet that is a rather trivial aspect of the matter. The fact of first-rate importance is the predominant role that custom plays in experience and in belief, and the very great varieties [it may manifest].",
+        "No man ever looks at the world with pristine eyes. He sees it edited by a definite set of customs and institutions and ways of thinking. Even in his philosophical probings he cannot go behind these stereotypes; his very concepts of the true and the false will still have reference to his particular traditional customs. John Dewey has said in all seriousness that the part played by custom in shaping the behaviour of the individual as over against any way in which he can affect traditional custom, is as the proportion of the total vocabulary of his mother tongue over against those words of his own baby talk that are taken up into the vernacular of his family. When one seriously studies the social orders that have had the opportunity to develop autonomously, the figure becomes no more than an exact and matter-of-fact observation. The life history of the individual is first and foremost an accommodation to the patterns and standards traditionally handed down in his community. From the moment of his birth, the customs into which he is born shape his experience and behaviour. By the time he can talk, he is the little creature of his culture, and by the time he is grown and able to take part in its activities, its habits are his habits, its beliefs (are) his beliefs, its impossibilities (are) his impossibilities. Every child that is born into his group will share them with him, and no child born into one on the opposite side of the globecan ever achieve the thousandth part. There is no social problem (which) it is more incumbent upon us to understand than this (social problem) of the role of custom. Until we are intelligent as to its laws and varieties, the main complicating facts of human life must remain unintelligible.",
+        "The study of custom can be profitable only after certain preliminary propositions have been accepted, and some of these propositions have been violently opposed. In the first place any scientific study requires that there be no preferential weighting of one or another of the items in the series [it selects for its consideration]. In all the less controversial fields like the study of cacti or termites or the nature of nebulae, the necessary method of study is to group the relevant material and to take note of all possible variant forms and conditions. In this way we have learned all that we know of the laws of astronomy, or of the habits of the social insects, let us say. It is only in the study of man himself that the major social sciences have substituted the study of one local variation, that of Western civilization.",
+        "Anthropology was by definition impossible as long as these distinctions between ourselves and the primitive, ourselves and the barbarian, ourselves and the pagan, held sway over people's minds. It was necessary first to arrive at that degree,of sophistication where we no longer set our own belief over against our neighbour's superstition. It was necessary to recognize that these institutions which are based on the same premises, let us say the supernatural, must be considered together, our own (institutions) among the rest."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L46: Article = {
+  original: {
+    paragraphs: [
+      "A gifted American psychologist has said, 'Worry is a spasm of the emotion; the mind catches hold of something and will not let it go.' It is useless to argue with the mind in this condition. The stronger the will, the more futile the task. One can only gently insinuate something else into its convulsive grasp. And if this something else is rightly chosen, if it is really attended by the illumination of another field of interest, gradually, and often quite swiftly, the old undue grip relaxes and the process of recuperation and repair begins.",
+        "The cultivation of a hobby and new forms of interest is therefore [a policy of first importance] to a public man. But this is not a business that can be undertaken in a day or swiftly improvised by a mere command of the will. The growth of alternative mental interests is a long process. The seeds must be carefully chosen; they must fall on good ground; they must be sedulously tended, if the vivifying fruits are [to be at hand when needed].",
+        "To be really happy and really safe, one ought to have at least two or three hobbies, and they must all be real. It is no use starting late in life to say: 'I will take an interest in this or that.' Such an attempt only aggravates the strain of mental effort. A man may acquire great knowledge of topics unconnected with his daily work, and yet hardly get any benefit or relief. It is no use doing what you like, you have got to like what you do. Broadly speaking, human beings may be divided into three classes: those who are toiled to death, those who are worried to death, and those who are bored to death. It is no use offering the manual labourer, tired out with a hard week's sweat and effort, the chance of playing a game of football or baseball on Saturday afternoon. It is no use inviting the politician or the professional or business man, who has been working or worrying about serious things for six days, to work or worry about trifling things at the weekend.",
+        "As for the unfortunate people who can command everything they want, who can gratify every caprice and lay their hands on almost every object of desire—for them a new pleasure, a new excitement is only an additional satiation. In vain they rush frantically round from place to place, trying to escape from avenging boredom by mere clatter and motion. For them discipline in one form or another is the most hopeful path.",
+        "It may also be said that rational, industrious, useful human beings are divided into two classes: first, those whose work is work and whose pleasure is pleasure; and secondly, those whose work and pleasure are one. Of these the former are the majority. They have their compensations. The long hours in the office or the factory bring with them as their reward, not only the means of sustenance, but a keen appetite for pleasure even in its simplest and most modest forms. But fortune's favoured children belong to the second class. Their life is a natural harmony. For them the working hours are never long enough. Each day is a holiday, and ordinary holidays when they come are grudged as enforced interruptions in an absorbing vocation. Yet to both classes the need of an alternative outlook, of a change of atmosphere, of a diversion of effort, is essential. Indeed, it may well be that [those whose work is their pleasure] are those who most need the means of banishing it at intervals from their minds."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+const articleNce4L48: Article = {
+  original: {
+    paragraphs: [
+      "There is no shortage of tipsters around offering ‘get-rich-quick’ opportunities. But if you are a serious private investor, leave the Las Vegas mentality to those with money to fritter. The serious investor needs a proper ‘portfolio’ – a well-planned selection of investments, with a definite structure and a clear aim. But exactly how does a newcomer to the stock market go about achieving that?",
+        "Well, if you go to five reputable stock brokers and ask them what you should do with your money, you’re likely to get five different answers, -- even if you give all the relevant information about your age, family, finances and what you want from your investments. Moral? There is no one ‘right’ way to structure a portfolio. However, there are undoubtedly some wrong ways, and you can be sure that none of our five advisers would have suggested sinking all (or perhaps any) of your money into Periwigs.",
+        "So what should you do? We’ll assume that you have sorted out the basics – like mortgages, pensions, insurance and access to sufficient cash reserves. You should then establish your own individual aims. These are partly a matter of personal circumstances, partly a matter of psychology.",
+        "For instance, if you are older you have less time to recover from any major losses, and you may well wish to boost your pension income. So preserving your capital and generating extra income are your main priorities. In this case, you’d probably construct a portfolio with some shares (but not high risk ones), along with gifts, cash deposits, and perhaps convertibles or the income shares of split capital investment trusts.",
+        "If you are younger, and in a solid financial position, you may decide to take an aggressive approach – but only if you‘re blessed with a sanguine disposition and won’t suffer sleepless nights over share prices. If you recognize yourself in this description, you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments. Once you have decides on your investment aims, you can then decide where to put your money. The golden rule here is spread your risk – if you put all of your money into Periwigs International, you’re setting yourself up as a hostage to fortune."
+    ],
+    predicateParagraph: [
+      [
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] },
+        { predicates: [], clauseIntroducers: [] }
+      ],
+    ],
+  },
+  translation: {
+    paragraphs: ['', ''],
+  },
+  vocabulary: [],
+}
+
 const article: Article = {
   original: {
     paragraphs: [
@@ -899,5 +1535,29 @@ export const articles: Record<string, Article> = {
   'nce3-l54': articleNce3L54,
   'nce3-l59': articleNce3L59,
   'nce3-l60': articleNce3L60,
+  'nce4-l1': articleNce4L1,
+  'nce4-l2': articleNce4L2,
+  'nce4-l3': articleNce4L3,
+  'nce4-l4': articleNce4L4,
+  'nce4-l6': articleNce4L6,
+  'nce4-l7': articleNce4L7,
+  'nce4-l8': articleNce4L8,
+  'nce4-l11': articleNce4L11,
+  'nce4-l13': articleNce4L13,
+  'nce4-l15': articleNce4L15,
+  'nce4-l16': articleNce4L16,
+  'nce4-l18': articleNce4L18,
+  'nce4-l21': articleNce4L21,
+  'nce4-l22': articleNce4L22,
+  'nce4-l24': articleNce4L24,
+  'nce4-l28': articleNce4L28,
+  'nce4-l30': articleNce4L30,
+  'nce4-l32': articleNce4L32,
+  'nce4-l33': articleNce4L33,
+  'nce4-l34': articleNce4L34,
+  'nce4-l37': articleNce4L37,
+  'nce4-l44': articleNce4L44,
+  'nce4-l46': articleNce4L46,
+  'nce4-l48': articleNce4L48,
   'problem-of-youth': article,
 }
