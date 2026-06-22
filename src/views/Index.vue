@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { EditPen } from '@element-plus/icons-vue'
 import { article } from '../mock/readData'
+import yumaoIcon from '../asserts/icon/yumao.svg'
 
 const sentencePattern = /([^.!?。！？]+[.!?。！？]+)/g
 
@@ -38,11 +38,11 @@ function togglePanel(key: string) {
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="sIdx">
                   <span class="sentence-inline"
-                    >{{ s }}<el-icon
+                    >{{ s }}<img
+                      :src="yumaoIcon"
                       class="sentence-icon"
                       @click.stop="togglePanel(`${pIdx}-${sIdx}`)"
-                    ><EditPen /></el-icon
-                  ></span>
+                    /></span>
                   <transition name="panel">
                     <div
                       v-if="activeKey === `${pIdx}-${sIdx}`"
@@ -137,16 +137,17 @@ function togglePanel(key: string) {
 
 .sentence-inline {
   .sentence-icon {
-    font-size: 0.85rem;
-    color: #bbb;
+    width: 18px;
+    height: 18px;
     margin-left: 6px;
     margin-right: 4px;
     vertical-align: middle;
     cursor: pointer;
-    transition: color 0.2s;
+    opacity: 0.4;
+    transition: opacity 0.2s;
 
     &:hover {
-      color: var(--color-accent);
+      opacity: 0.8;
     }
   }
 }
@@ -155,7 +156,7 @@ function togglePanel(key: string) {
   display: block;
   margin: 6px 0;
   border-radius: 8px;
-  background: #fff;
+  background: #f2f7f2;
   min-height: 200px;
 }
 
