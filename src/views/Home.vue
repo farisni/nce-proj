@@ -23,7 +23,7 @@ function goArticle(id: string) {
       v-for="item in filteredArticles" :key="item.id"
       class="article-card" @click="goArticle(item.id)"
     >
-        <img :src="tudingIcon" class="tuding-icon" alt="" />
+      <img :src="tudingIcon" class="tuding-icon" alt="" />
       <h3 class="card-title">
         <span class="lesson-line">
           Lesson {{ item.lesson
@@ -39,8 +39,8 @@ function goArticle(id: string) {
 .card-area {
   padding: 48px 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 28px;
   align-content: start;
   background-color: var(--color-bg);
   background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
@@ -49,39 +49,41 @@ function goArticle(id: string) {
 }
 
 .article-card {
-  border: 1px solid #ece4d5;  position: relative;
-  background: #f2f7f2;
+  position: relative;
+  background: #ffc;
+  border: 1px solid #ece4d5;
   border-radius: 3px;
-  padding: 32px 28px;
+  padding: 20px 18px;
   cursor: pointer;
-  box-shadow: 1px 2px 4px rgba(0,0,0,0.06), 2px 4px 8px rgba(0,0,0,0.12);
-  transition: box-shadow 0.2s;
+  box-shadow: 3px 3px 6px rgba(33,33,33,.35);
+  transform: rotate(-3deg);
+  transition: transform 0.2s, box-shadow 0.2s;
 
-  &:hover { box-shadow: 2px 4px 12px rgba(0,0,0,0.12), 3px 6px 16px rgba(0,0,0,0.06); }
-
-  // 右下角卷起
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0; right: 0;
-    width: 0; height: 0;
-    border-style: solid;
-    border-width: 0 0 32px 32px;
-    border-color: transparent transparent #f0ebe0 transparent;
-    border-radius: 0 0 6px 0;
-    box-shadow: -2px 3px 6px rgba(0,0,0,0.12);
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 8px 8px 12px rgba(33,33,33,.5);
+    z-index: 5;
   }
+
+  // 交替配色 + 角度
+  &:nth-child(even) {
+    background: #cfc;
+    transform: rotate(2deg);
+    top: 4px;
+  }
+
+  &:nth-child(3n) {
+    background: #ccf;
+    transform: rotate(-5deg);
+    top: -4px;
+  }
+
 }
 
 .card-title { font-size: 1.25rem; font-weight: 600; color: var(--color-text); line-height: 1.6; }
 .lesson-line { display: block; margin-bottom: 6px; color: #666; font-weight: 500; }
-.title-text { font-size: 1.4rem; }
-.tuding-icon {
-  position: absolute; top: -10px; left: 10px;
-  width: 28px; height: 28px;
-  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.12));
-  pointer-events: none;
-}
+.title-text { font-size: 1.5rem; font-family: 'Caveat', cursive; }
+
 .card-tag {
   display: inline-block; position: relative; top: -5px;
   width: 18px; height: 18px; line-height: 18px; text-align: center;
@@ -89,5 +91,13 @@ function goArticle(id: string) {
   background: #f0a030; border-radius: 50%;
   margin-left: 4px;
 }
+
+.tuding-icon {
+  position: absolute; top: -10px; left: 10px;
+  width: 28px; height: 28px;
+  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.12));
+  pointer-events: none;
+}
+
 .empty-tip { grid-column: 1 / -1; text-align: center; color: var(--color-text-secondary); padding: 80px 0; font-size: 0.95rem; }
 </style>
