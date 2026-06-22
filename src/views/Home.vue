@@ -26,7 +26,7 @@ function goArticle(id: string) {
       <img :src="tudingIcon" class="tuding-icon" alt="" />
       <h3 class="card-title">
         <span class="lesson-line">
-          Lesson {{ item.lesson
+          <span v-if="item.keyArticle" class="key-dot"></span>Lesson {{ item.lesson
           }}<span v-if="item.tag" class="card-tag">{{ item.tag }}</span>
         </span>
         <span class="title-text">{{ item.title }}</span>
@@ -83,6 +83,7 @@ function goArticle(id: string) {
 
 .card-title { font-size: 1.25rem; font-weight: 600; color: var(--color-text); line-height: 1.6; }
 .lesson-line { display: block; margin-bottom: 4px; color: #1a1a1a; font-weight: 600; font-size: 1rem; font-family: 'Caveat', cursive; }
+.key-dot { display: inline-block; width: 8px; height: 8px; background: #d94a4a; border-radius: 50%; margin-right: 6px; vertical-align: middle; position: relative; top: -1px; }
 .title-text { font-size: 1.5rem; font-family: 'Caveat', cursive; }
 
 .card-tag {
