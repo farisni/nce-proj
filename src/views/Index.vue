@@ -1,5 +1,25 @@
 <script setup lang="ts">
+import { ref, computed } from 'vue'
+import { EditPen } from '@element-plus/icons-vue'
 import { article } from '../mock/readData'
+
+const sentencePattern = /([^.!?。！？]+[.!?。！？]+)/g
+
+function splitSentences(paragraph: string): string[] {
+  const matches = paragraph.match(sentencePattern)
+  if (!matches || matches.length === 0) return [paragraph]
+  return matches.map(s => s.trim()).filter(Boolean)
+}
+
+const originalSentences = computed(() =>
+  article.original.paragraphs.map(p => splitSentences(p))
+)
+
+const activeKey = ref('')
+
+function togglePanel(key: string) {
+  activeKey.value = activeKey.value === key ? '' : key
+}
 </script>
 
 <template>
@@ -10,11 +30,28 @@ import { article } from '../mock/readData'
         <div class="section-row">
           <div class="section-main">
             <h1 class="article-title">The Problem of Youth</h1>
-            <p
-              v-for="(p, idx) in article.original.paragraphs"
-              :key="idx"
-              class="paragraph"
-            >{{ p }}</p>
+            <div
+              v-for="(sentences, pIdx) in originalSentences"
+              :key="pIdx"
+              class="paragraph-wrapper"
+            >
+              <div class="paragraph">
+                <template v-for="(s, sIdx) in sentences" :key="sIdx">
+                  <span class="sentence-inline"
+                    >{{ s }}<el-icon
+                      class="sentence-icon"
+                      @click.stop="togglePanel(`${pIdx}-${sIdx}`)"
+                    ><EditPen /></el-icon
+                  ></span>
+                  <transition name="panel">
+                    <div
+                      v-if="activeKey === `${pIdx}-${sIdx}`"
+                      class="sentence-panel"
+                    ></div>
+                  </transition>
+                </template>
+              </div>
+            </div>
           </div>
           <div class="section-divider"></div>
           <div class="section-side"></div>
@@ -86,15 +123,50 @@ import { article } from '../mock/readData'
   padding-top: 28px;
 }
 
+.paragraph-wrapper {
+  & + & {
+    margin-top: 20px;
+  }
+}
+
 .paragraph {
   font-size: 1.15rem;
   line-height: 2;
-  margin-bottom: 20px;
   text-indent: 2em;
+}
 
-  &:last-child {
-    margin-bottom: 0;
+.sentence-inline {
+  .sentence-icon {
+    font-size: 0.85rem;
+    color: #bbb;
+    margin-left: 6px;
+    margin-right: 4px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--color-accent);
+    }
   }
+}
+
+.sentence-panel {
+  display: block;
+  margin: 6px 0;
+  border-radius: 8px;
+  background: #fff;
+  min-height: 200px;
+}
+
+.panel-enter-active,
+.panel-leave-active {
+  transition: all 0.25s ease;
+}
+.panel-enter-from,
+.panel-leave-to {
+  opacity: 0;
+  transform: translateY(-6px);
 }
 
 .translation {
