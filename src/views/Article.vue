@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { articles, articleMetas } from '../mock/readData'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const router = useRouter()
 const article = articles[route.params.id as string]
 import yumaoIcon from '../asserts/icon/yumao.svg'
 
@@ -163,9 +162,9 @@ function segClass(seg: Segment): string {
               </div>
             </div>
             <div class="nav-buttons">
-              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
+              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
               <span v-else class="nav-btn nav-prev nav-disabled"></span>
-              <button v-if="neighbors.next" class="nav-btn nav-next" @click="router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
+              <button v-if="neighbors.next" class="nav-btn nav-next" @click="$router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
               <span v-else class="nav-btn nav-next nav-disabled"></span>
             </div>
           </div>
