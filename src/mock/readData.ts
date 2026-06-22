@@ -24,6 +24,7 @@ export interface Article {
 export interface ArticleMeta {
   id: string
   title: string
+  titleCn?: string
   level: 'NCE2' | 'NCE3' | 'NCE4'
   lesson: number
   tag?: string
@@ -472,141 +473,141 @@ export const articleMetas: ArticleMeta[] = [
     id: 'nce2-l74',
     lesson: 74,
     title: 'Out of the limelight',
+    titleCn: '舞台之外',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l75',
     lesson: 75,
     title: 'SOS',
+    titleCn: '呼救信号',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l76',
     lesson: 76,
     title: 'April Fools Day',
+    titleCn: '愚人节',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l77',
     lesson: 77,
     title: 'A successful operation',
+    titleCn: '一例成功的手术',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l78',
     lesson: 78,
     title: 'The last one? ？',
+    titleCn: '最后一枝吗？',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l79',
     lesson: 79,
     title: 'By air',
+    titleCn: '乘飞机',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l80',
     lesson: 80,
     title: 'The Crystal Palace',
+    titleCn: '水晶宫',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l81',
     lesson: 81,
     title: 'Escape',
+    titleCn: '脱逃',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l82',
     lesson: 82,
     title: 'Monster or fish? ？',
+    titleCn: '是妖还是鱼？',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l83',
     lesson: 83,
     title: 'After the elections',
+    titleCn: '大选之后',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l84',
     lesson: 84,
     title: 'On strike',
+    titleCn: '罢工',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l85',
     lesson: 85,
     title: 'Never too old to learn',
+    titleCn: '活到老学到老',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l86',
     lesson: 86,
     title: 'Out of control',
+    titleCn: '失控',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l87',
     lesson: 87,
     title: 'A perfect alibi',
+    titleCn: '极好的不在犯罪现场的证据',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l88',
     lesson: 88,
     title: 'Trapped in a mine',
+    titleCn: '困在矿井里',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l89',
     lesson: 89,
     title: 'A slip of the tongue',
+    titleCn: '口误',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l90',
     lesson: 90,
     title: 'Whats for supper ？ ？',
+    titleCn: '晚餐吃什么？',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l91',
     lesson: 91,
     title: 'Three men in a basket',
+    titleCn: '三人同篮',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l92',
     lesson: 92,
     title: 'Asking for trouble',
+    titleCn: '自找麻烦',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l93',
     lesson: 93,
     title: 'A noble gift',
+    titleCn: '崇高的礼物',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l94',
     lesson: 94,
     title: 'Future champions',
+    titleCn: '未来的冠军',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l95',
     lesson: 95,
     title: 'A fantasy',
+    titleCn: '纯属虚构',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce2-l96',
     lesson: 96,
     title: 'The dead return',
+    titleCn: '亡灵返乡',
     level: 'NCE2',
-  },
-  {
+  },  {
     id: 'nce3-l1',
     lesson: 1,
     title: 'A Puma at Large',

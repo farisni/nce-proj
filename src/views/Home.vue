@@ -30,6 +30,7 @@ function goArticle(id: string) {
           }}<span v-if="item.tag" class="card-tag">{{ item.tag }}</span>
         </span>
         <span class="title-text">{{ item.title }}</span>
+        <span v-if="item.titleCn" class="title-cn">{{ item.titleCn }}</span>
       </h3>
     </div>
   </div>
@@ -81,7 +82,7 @@ function goArticle(id: string) {
 }
 
 .card-title { font-size: 1.25rem; font-weight: 600; color: var(--color-text); line-height: 1.6; }
-.lesson-line { display: block; margin-bottom: 6px; color: #666; font-weight: 500; }
+.lesson-line { display: block; margin-bottom: 4px; color: #888; font-weight: 400; font-size: 0.75rem; }
 .title-text { font-size: 1.5rem; font-family: 'Caveat', cursive; }
 
 .card-tag {
@@ -98,6 +99,8 @@ function goArticle(id: string) {
   filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.12));
   pointer-events: none;
 }
+
+.title-cn { display: block; font-size: 0.85rem; color: #888; font-weight: 400; font-family: inherit; margin-top: 2px; }
 
 .empty-tip { grid-column: 1 / -1; text-align: center; color: var(--color-text-secondary); padding: 80px 0; font-size: 0.95rem; }
 </style>
