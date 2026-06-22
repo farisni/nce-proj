@@ -58,5 +58,8 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 .nce2.active { border-left-color: #d9534f; }
 .nce3.active { border-left-color: #f0ad4e; }
 .nce4.active { border-left-color: #428bca; }
+.nce2:hover { color: #d9534f; }
+.nce3:hover { color: #f0ad4e; }
+.nce4:hover { color: #428bca; }
 .app-main { flex: 1; min-width: 0; }
 </style>
