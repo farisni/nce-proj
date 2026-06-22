@@ -31,9 +31,10 @@ export interface ArticleMeta {
 export const articleMetas: ArticleMeta[] = [
   {
     id: 'problem-of-youth',
+    lesson: 5,
+    tag: 'c6',
     title: 'The Problem of Youth',
     level: 'NCE4',
-    excerpt: "People are always talking about 'the problem of youth'. If there is one—which I take leave to doubt—then it is older people who create it, not the young themselves.",
   },
 ]
 
