@@ -100,7 +100,7 @@ function goArticle(id: string) {
   pointer-events: none;
 }
 
-.title-cn { display: block; font-size: 0.85rem; color: #888; font-weight: 400; font-family: 'Ma Shan Zheng', cursive; margin-top: 2px; }
+.title-cn { display: block; font-size: 1.1rem; color: #888; font-weight: 400; font-family: 'Ma Shan Zheng', cursive; margin-top: 2px; }
 
 .empty-tip { grid-column: 1 / -1; text-align: center; color: var(--color-text-secondary); padding: 80px 0; font-size: 0.95rem; }
 </style>
