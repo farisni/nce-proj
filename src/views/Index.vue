@@ -26,10 +26,7 @@ function markWords(
 ): Segment[] {
   if (!predicates.length && !clauseIntroducers.length && !notes.length) return [{ text: sentence }]
 
-  interface Span {
-    start: number; end: number; predicate: boolean; clause: boolean; noteText: string
-  }
-
+  interface Span { start: number; end: number; predicate: boolean; clause: boolean; noteText: string }
   const spans: Span[] = []
   const lower = sentence.toLowerCase()
 
@@ -41,14 +38,12 @@ function markWords(
     const escaped = pw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     const regex = new RegExp(`(?<![a-zA-Z'-])${escaped}(?![a-zA-Z'-])`, 'gi')
     let m: RegExpExecArray | null
-    while ((m = regex.exec(lower)) !== null) {
+    while ((m = regex.exec(lower)) !== null)
       spans.push({ start: m.index, end: m.index + pw.length, predicate: true, clause: false, noteText: '' })
-    }
   }
 
   for (const ci of clauseIntroducers) {
-    const lc = ci.toLowerCase()
-    let idx = lower.indexOf(lc)
+    const lc = ci.toLowerCase(); let idx = lower.indexOf(lc)
     while (idx !== -1) {
       const bo = idx === 0 || /\s|[—,'"(\[{]/.test(sentence[idx - 1])
       const ao = idx + ci.length === sentence.length || /\s|[—,.'"!?;:)\]}。，！？；：、]/.test(sentence[idx + ci.length])
@@ -58,8 +53,7 @@ function markWords(
   }
 
   for (const note of notes) {
-    const ln = note.phrase.toLowerCase()
-    let idx = lower.indexOf(ln)
+    const ln = note.phrase.toLowerCase(); let idx = lower.indexOf(ln)
     while (idx !== -1) {
       spans.push({ start: idx, end: idx + ln.length, predicate: false, clause: false, noteText: note.note })
       idx = lower.indexOf(ln, idx + 1)
@@ -70,28 +64,18 @@ function markWords(
   spans.sort((a, b) => a.start - b.start)
 
   const len = sentence.length
-  const cP = new Array(len).fill(false)
-  const cC = new Array(len).fill(false)
+  const cP = new Array(len).fill(false); const cC = new Array(len).fill(false)
   const cN: (string | null)[] = new Array(len).fill(null)
-
-  for (const s of spans) {
-    for (let i = s.start; i < s.end; i++) {
-      if (s.predicate) cP[i] = true
-      if (s.clause) cC[i] = true
-      if (s.noteText) cN[i] = s.noteText
-    }
+  for (const s of spans) for (let i = s.start; i < s.end; i++) {
+    if (s.predicate) cP[i] = true; if (s.clause) cC[i] = true; if (s.noteText) cN[i] = s.noteText
   }
 
-  const segs: Segment[] = []
-  let i = 0
+  const segs: Segment[] = []; let i = 0
   while (i < len) {
-    const p = cP[i]; const c = cC[i]; const n = cN[i]
-    let j = i + 1
+    const p = cP[i]; const c = cC[i]; const n = cN[i]; let j = i + 1
     while (j < len && cP[j] === p && cC[j] === c && cN[j] === n) j++
     const seg: Segment = { text: sentence.slice(i, j) }
-    if (p) seg.predicate = true
-    if (c) seg.clause = true
-    if (n) seg.noteText = n
+    if (p) seg.predicate = true; if (c) seg.clause = true; if (n) seg.noteText = n
     segs.push(seg); i = j
   }
 
@@ -120,18 +104,18 @@ const originalSentences = computed(() =>
 )
 
 const activeKey = ref('')
-
 function togglePanel(key: string) { activeKey.value = activeKey.value === key ? '' : key }
 function segClass(seg: Segment): string {
-  const c: string[] = []
-  if (seg.clause) c.push('clause-mark')
-  if (seg.predicate) c.push('predicate-mark')
+  const c: string[] = []; if (seg.clause) c.push('clause-mark'); if (seg.predicate) c.push('predicate-mark')
   return c.join(' ')
 }
 </script>
 
 <template>
   <div class="reading-page">
+    <!-- 聚光灯遮罩 -->
+    <div v-if="activeKey" class="spotlight-overlay" @click="activeKey = ''"></div>
+
     <div class="main-content">
       <div class="article-section">
         <div class="section-row">
@@ -140,11 +124,12 @@ function segClass(seg: Segment): string {
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
-                  <span class="sentence-inline"
+                  <span
+                    class="sentence-inline"
+                    :class="{ spotlight: activeKey === s.key }"
                     ><template v-for="(seg, gIdx) in s.segments" :key="gIdx">
                       <ruby v-if="seg.noteText && activeKey !== s.key" class="noted-ruby">
-                        <span :class="segClass(seg)">{{ seg.text }}</span>
-                        <rt>{{ seg.noteText }}</rt>
+                        <span :class="segClass(seg)">{{ seg.text }}</span><rt>{{ seg.noteText }}</rt>
                       </ruby>
                       <span v-else-if="segClass(seg)" :class="segClass(seg)">{{ seg.text }}</span>
                       <template v-else>{{ seg.text }}</template>
@@ -184,7 +169,7 @@ function segClass(seg: Segment): string {
 </template>
 
 <style lang="scss" scoped>
-.reading-page { min-height: 100vh; }
+.reading-page { min-height: 100vh; position: relative; }
 .main-content { max-width: 1040px; margin: 0 auto; padding: 60px 24px 80px; }
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
@@ -203,18 +188,31 @@ function segClass(seg: Segment): string {
   }
 }
 
+.spotlight-overlay {
+  position: fixed; inset: 0; z-index: 10;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.sentence-inline.spotlight {
+  position: relative; z-index: 11;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin: 0 -6px;
+}
+
+.sentence-panel {
+  display: block; margin: 6px 0; border-radius: 8px;
+  background: #f2f7f2; min-height: 200px;
+  position: relative; z-index: 11;
+}
+
 .clause-mark { font-style: italic; font-weight: 600; color: #3d3d3d; }
 .predicate-mark { color: #e0552a; }
 
 .noted-ruby {
-  ruby-position: under;
-  ruby-align: center;
-
-  rt {
-    font-size: 0.65rem;
-    padding-top: 1px;
-    color: #999;
-  }
+  ruby-position: under; ruby-align: center;
+  rt { font-size: 0.65rem; color: #999; padding-top: 1px; }
 }
 
 .vocab-list { display: flex; flex-direction: column; }
@@ -227,7 +225,6 @@ function segClass(seg: Segment): string {
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); }
 
-.sentence-panel { display: block; margin: 6px 0; border-radius: 8px; background: #f2f7f2; min-height: 200px; }
 .panel-enter-active, .panel-leave-active { transition: all 0.25s ease; }
 .panel-enter-from, .panel-leave-to { opacity: 0; transform: translateY(-6px); }
 .translation { font-size: 0.9rem; color: var(--color-text-secondary); }
