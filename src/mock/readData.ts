@@ -39,6 +39,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A private conversation',
     titleCn: '私人谈话',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l2',
@@ -46,6 +52,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Breakfast or lunch?',
     titleCn: '早餐还是午餐？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l3',
@@ -53,6 +65,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Please send me a card',
     titleCn: '请给我寄一张明信片',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l4',
@@ -60,6 +78,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'An exciting trip',
     titleCn: '激动人心的旅行',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l5',
@@ -67,6 +91,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'No wrong numbers',
     titleCn: '无错号之虞',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l6',
@@ -74,6 +104,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Percy Buttons',
     titleCn: '珀西·巴顿斯',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l7',
@@ -81,6 +117,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Too late',
     titleCn: '为时太晚',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l8',
@@ -88,6 +130,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The best and the worst',
     titleCn: '最好的和最差的',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l9',
@@ -95,6 +143,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A cold welcome',
     titleCn: '冷遇',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l10',
@@ -102,6 +156,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Not for jazz',
     titleCn: '不适于演奏爵士乐',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l11',
@@ -109,6 +169,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'One good turn deserves another',
     titleCn: '礼尚往来',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l12',
@@ -116,6 +182,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Goodbye and good luck',
     titleCn: '再见，一路顺风',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l13',
@@ -123,6 +195,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The Greenwood Boys',
     titleCn: '绿林少年',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l14',
@@ -130,6 +208,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Do you speak English?',
     titleCn: '你会讲英语吗？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l15',
@@ -137,6 +221,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Good news',
     titleCn: '佳音',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l16',
@@ -144,6 +234,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A polite request',
     titleCn: '彬彬有礼的要求',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l17',
@@ -151,6 +247,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Always young',
     titleCn: '青春常驻',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l18',
@@ -158,6 +260,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'He often does this!',
     titleCn: '他经常干这种事！',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l19',
@@ -165,6 +273,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Sold out',
     titleCn: '票已售完',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l20',
@@ -172,6 +286,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'One man in a boat',
     titleCn: '独坐孤舟',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l21',
@@ -179,6 +299,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Mad or not?',
     titleCn: '是不是疯了？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l22',
@@ -186,6 +312,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A glass envelope',
     titleCn: '玻璃信封',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l23',
@@ -193,6 +325,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A new house',
     titleCn: '新居',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l24',
@@ -200,6 +338,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'It could be worse',
     titleCn: '不幸中之万幸',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l25',
@@ -207,6 +351,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Do the English speak English?',
     titleCn: '英国人讲的是英语吗？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l26',
@@ -214,6 +364,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The best art critics',
     titleCn: '最佳艺术评论家',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l27',
@@ -221,6 +377,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A wet night',
     titleCn: '雨夜',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l28',
@@ -228,6 +390,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'No parking',
     titleCn: '禁止停车',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l29',
@@ -235,6 +403,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Taxi!',
     titleCn: '出租车！',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l30',
@@ -242,6 +416,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Football or polo?',
     titleCn: '足球还是水球？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l31',
@@ -249,6 +429,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Success story',
     titleCn: '成功者的故事',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l32',
@@ -256,6 +442,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Shopping made easy',
     titleCn: '购物变得很容易',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l33',
@@ -263,6 +455,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Out of the darkness',
     titleCn: '冲出黑暗',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l34',
@@ -270,6 +468,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Quick work',
     titleCn: '破案"神速"',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l35',
@@ -277,6 +481,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Stop thief!',
     titleCn: '捉贼！',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l36',
@@ -284,6 +494,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Across the Channel',
     titleCn: '横渡海峡',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l37',
@@ -291,6 +507,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The Olympic Games',
     titleCn: '奥林匹克运动会',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l38',
@@ -298,6 +520,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Everything except the weather',
     titleCn: '唯独没有考虑到天气',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l39',
@@ -305,6 +533,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Am I all right?',
     titleCn: '我是否痊愈？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l40',
@@ -312,6 +546,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Food and talk',
     titleCn: '进餐与交谈',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l41',
@@ -319,6 +559,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Do you call that a hat?',
     titleCn: '你把那个叫帽子吗？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l42',
@@ -326,6 +572,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Not very musical',
     titleCn: '并非很懂音乐',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l43',
@@ -333,6 +585,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Over the South Pole',
     titleCn: '飞越南极',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l44',
@@ -340,6 +598,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Through the forest',
     titleCn: '穿过森林',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l45',
@@ -347,6 +611,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A clear conscience',
     titleCn: '问心无愧',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l46',
@@ -354,6 +624,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Expensive and uncomfortable',
     titleCn: '既昂贵又受罪',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l47',
@@ -361,6 +637,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A thirsty ghost',
     titleCn: '嗜酒的鬼魂',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l48',
@@ -368,6 +650,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Did you want to tell me something?',
     titleCn: '你想对我说什么吗？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l49',
@@ -375,6 +663,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The end of a dream',
     titleCn: '美梦告终',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l50',
@@ -382,6 +676,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Taken for a ride',
     titleCn: '乘车兜风',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l51',
@@ -389,6 +689,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Reward for virtue',
     titleCn: '对美德的奖赏',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l52',
@@ -396,6 +702,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A pretty carpet',
     titleCn: '漂亮的地毯',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l53',
@@ -403,6 +715,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Hot snake',
     titleCn: '触电的蛇',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l54',
@@ -410,6 +728,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Sticky fingers',
     titleCn: '黏糊的手指',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l55',
@@ -417,6 +741,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Not a gold mine',
     titleCn: '并非金矿',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l56',
@@ -424,6 +754,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Faster than sound!',
     titleCn: '比声音还快！',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l57',
@@ -431,6 +767,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Can I help you, madam?',
     titleCn: '您要买什么，夫人？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l58',
@@ -438,6 +780,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A blessing in disguise?',
     titleCn: '是因祸得福吗？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l59',
@@ -445,6 +793,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'In or out?',
     titleCn: '进来还是出去？',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l60',
@@ -452,6 +806,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The future',
     titleCn: '未来',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l61',
@@ -459,6 +819,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Trouble with the Hubble',
     titleCn: '哈勃望远镜的困境',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l62',
@@ -466,6 +832,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'After the fire',
     titleCn: '大火之后',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l63',
@@ -473,6 +845,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'She was not amused',
     titleCn: '她并不觉得好笑',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l64',
@@ -480,6 +858,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The Channel Tunnel',
     titleCn: '海峡隧道',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l65',
@@ -487,6 +871,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Jumbo versus the police',
     titleCn: '小象对警察',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l66',
@@ -494,6 +884,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Sweet as honey!',
     titleCn: '像蜜一样甜！',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l67',
@@ -501,6 +897,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Volcanoes',
     titleCn: '火山',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l68',
@@ -508,6 +910,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Persistent',
     titleCn: '纠缠不休',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l69',
@@ -515,6 +923,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'But not murder!',
     titleCn: '并非谋杀！',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l70',
@@ -522,6 +936,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'Red for danger',
     titleCn: '危险的红色',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l71',
@@ -529,6 +949,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A famous clock',
     titleCn: '大名鼎鼎的钟',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l72',
@@ -536,6 +962,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'A car called Bluebird',
     titleCn: '蓝鸟汽车',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l73',
@@ -543,6 +975,12 @@ export const articleMetas: ArticleMeta[] = [
     title: 'The record-holder',
     titleCn: '纪录保持者',
     level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce2-l74',
@@ -689,6 +1127,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '逃遁的美洲狮',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l2',
@@ -697,6 +1141,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '十三等于一',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l3',
@@ -705,6 +1155,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '无名女神',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l4',
@@ -713,6 +1169,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '阿尔弗雷德·布洛格斯的双重生活',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l5',
@@ -721,6 +1183,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '事实',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l6',
@@ -729,6 +1197,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '砸橱窗抢劫',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l7',
@@ -737,6 +1211,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '残钞鉴别组',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l10',
@@ -745,6 +1225,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '泰坦尼克号的沉没',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l12',
@@ -753,6 +1239,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '荒岛生活',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l13',
@@ -761,6 +1253,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '是我，别害怕',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l19',
@@ -769,6 +1267,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '一只贵重的宝贝猫',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l21',
@@ -777,6 +1281,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '丹尼尔·门多萨',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l22',
@@ -785,6 +1295,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '熟记台词',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l24',
@@ -793,6 +1309,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '家丑',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l26',
@@ -801,6 +1323,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '征购大饼干筒',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l27',
@@ -809,6 +1337,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '不卖也不买',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l29',
@@ -817,6 +1351,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '是否可笑？',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l30',
@@ -825,6 +1365,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '幽灵之死',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l31',
@@ -833,6 +1379,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '可爱的怪人',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l32',
@@ -841,6 +1393,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '一艘沉船',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l33',
@@ -849,6 +1407,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '难忘的一天',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l37',
@@ -857,6 +1421,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '开往威斯特海温的快车',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l38',
@@ -865,12 +1435,24 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '最早的日历',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l40',
     lesson: 40,
     title: 'Who\'s Who',
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l41',
@@ -879,6 +1461,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '宁静田园生活的遐想',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l42',
@@ -887,6 +1475,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '现代洞穴人',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l50',
@@ -895,6 +1489,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '新年的决心',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l54',
@@ -903,6 +1503,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '是本能还是机智？',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l59',
@@ -911,6 +1517,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '收藏',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce3-l60',
@@ -919,6 +1531,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '太早和太晚',
     keyArticle: true,
     level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l1',
@@ -928,6 +1546,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '发现化石人',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l2',
@@ -937,6 +1561,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '不要伤害蜘蛛',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l3',
@@ -946,6 +1576,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '马特霍恩山区人',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l4',
@@ -955,6 +1591,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '能看见东西的手',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l6',
@@ -964,6 +1606,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '体育精神',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l7',
@@ -973,6 +1621,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '蝙蝠',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l8',
@@ -981,6 +1635,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '贸易标准',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l11',
@@ -990,6 +1650,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '如何安度晚年',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l13',
@@ -998,6 +1664,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '探寻石油',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l15',
@@ -1007,6 +1679,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '工业中的秘密',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l16',
@@ -1016,6 +1694,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '现代城市',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l18',
@@ -1025,6 +1709,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '海豚',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l21',
@@ -1033,6 +1723,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '威廉·S·哈特与早期的西部片',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l22',
@@ -1042,6 +1738,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '知识和进步',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l24',
@@ -1051,6 +1753,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '美',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l28',
@@ -1060,6 +1768,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '病人与医生',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l30',
@@ -1069,6 +1783,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '海底勘探',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l32',
@@ -1078,6 +1798,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '伽利略的复生',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l33',
@@ -1087,6 +1813,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '教育',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l34',
@@ -1096,6 +1828,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '青春期',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l37',
@@ -1105,6 +1843,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '衰老过程',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l44',
@@ -1114,6 +1858,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '文化的模式',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l46',
@@ -1123,6 +1873,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '业余爱好',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'nce4-l48',
@@ -1131,6 +1887,12 @@ export const articleMetas: ArticleMeta[] = [
     titleCn: '规划股票投资组合',
     keyArticle: true,
     level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
   },
   {
     id: 'problem-of-youth',

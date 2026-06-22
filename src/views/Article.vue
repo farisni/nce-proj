@@ -6,6 +6,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 const article = computed(() => articles[route.params.id as string])
 import yumaoIcon from '../asserts/icon/yumao.svg'
+import Heatmap from '../components/Heatmap.vue'
 
 const currentMeta = computed(() => articleMetas.find(m => m.id === route.params.id))
 const neighbors = computed(() => {
@@ -151,11 +152,7 @@ function segClass(seg: Segment): string {
 
             <h1 class="article-title">
               <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></span>
-              <span v-if="currentMeta?.heatmap" class="title-heatmap">
-                <span v-for="(row, ri) in currentMeta.heatmap" :key="ri" class="heatmap-row">
-                  <span v-for="(val, ci) in row" :key="ci" class="heatmap-cell" :data-level="val"></span>
-                </span>
-              </span>
+              <Heatmap v-if="currentMeta?.heatmap" :data="currentMeta.heatmap" />
             </h1>
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
@@ -221,17 +218,7 @@ function segClass(seg: Segment): string {
 .section-side { flex: 3; min-width: 0; padding: 56px 0 16px; }
 .article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
 .title-text-wrap { flex: 1; min-width: 0; }
-.title-heatmap { display: inline-flex; flex-direction: column; gap: 2px; flex-shrink: 0; }
-.heatmap-row { display: flex; gap: 2px; }
-.heatmap-cell {
-  width: 10px; height: 10px; border-radius: 2px;
-  background: #e8e4d8;
-  transition: background 0.2s;
-}
-.heatmap-cell[data-level="1"] { background: #9be9a8; }
-.heatmap-cell[data-level="2"] { background: #40c463; }
-.heatmap-cell[data-level="3"] { background: #30a14e; }
-.heatmap-cell[data-level="4"] { background: #216e39; }
+
 .title-lesson { color: #999; font-weight: 400; }
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; padding-top: 28px; }
