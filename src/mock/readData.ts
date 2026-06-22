@@ -28,6 +28,7 @@ export interface ArticleMeta {
   level: 'NCE2' | 'NCE3' | 'NCE4'
   lesson: number
   tag?: string
+  keyArticle?: boolean
 }
 
 export const articleMetas: ArticleMeta[] = [
@@ -685,6 +686,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 1,
     title: 'A Puma at Large',
     titleCn: '逃遁的美洲狮',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -692,6 +694,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 2,
     title: 'Thirteen Equals One',
     titleCn: '十三等于一',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -699,6 +702,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 3,
     title: 'An Unknown Goddess',
     titleCn: '无名女神',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -706,6 +710,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 4,
     title: 'The Double Life of Alfred Bloggs',
     titleCn: '阿尔弗雷德·布洛格斯的双重生活',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -713,6 +718,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 5,
     title: 'The Facts',
     titleCn: '事实',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -720,6 +726,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 6,
     title: 'Smash-and-grab',
     titleCn: '砸橱窗抢劫',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -727,6 +734,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 7,
     title: 'Mutilated ladies',
     titleCn: '残钞鉴别组',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -734,6 +742,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 10,
     title: 'The Loss of the Titanic',
     titleCn: '泰坦尼克号的沉没',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -741,6 +750,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 12,
     title: 'Life on a Desert Island',
     titleCn: '荒岛生活',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -748,6 +758,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 13,
     title: '‘It’s Only Me’',
     titleCn: '是我，别害怕',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -755,6 +766,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 19,
     title: 'A Very Dear Cat',
     titleCn: '一只贵重的宝贝猫',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -762,6 +774,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 21,
     title: 'Daniel Mendoza',
     titleCn: '丹尼尔·门多萨',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -769,6 +782,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 22,
     title: 'By Heart',
     titleCn: '熟记台词',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -776,6 +790,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 24,
     title: 'A Skeleton in the Cupboard',
     titleCn: '家丑',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -783,6 +798,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 26,
     title: 'Wanted: a Large Biscuit Tin',
     titleCn: '征购大饼干筒',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -790,6 +806,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 27,
     title: 'Nothing to Sell and Nothing to Buy',
     titleCn: '不卖也不买',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -797,6 +814,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 29,
     title: 'Funny or Not?',
     titleCn: '是否可笑？',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -804,6 +822,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 30,
     title: 'The Death of a Ghost',
     titleCn: '幽灵之死',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -811,6 +830,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 31,
     title: 'A Lovable Eccentric',
     titleCn: '可爱的怪人',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -818,6 +838,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 32,
     title: 'A Lost Ship',
     titleCn: '一艘沉船',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -825,6 +846,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 33,
     title: 'A Day to Remember',
     titleCn: '难忘的一天',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -832,6 +854,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 37,
     title: 'The Westhaven Express',
     titleCn: '开往威斯特海温的快车',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -839,6 +862,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 38,
     title: 'The First Calender',
     titleCn: '最早的日历',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -852,6 +876,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 41,
     title: 'Illusions of Pastoral Peace',
     titleCn: '宁静田园生活的遐想',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -859,6 +884,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 42,
     title: 'Modern Cavemen',
     titleCn: '现代洞穴人',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -866,6 +892,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 50,
     title: 'New Year Resolutions',
     titleCn: '新年的决心',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -873,6 +900,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 54,
     title: 'Instinct or Cleverness?',
     titleCn: '是本能还是机智？',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -880,6 +908,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 59,
     title: 'Possession Amassing and Collecting',
     titleCn: '收藏',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -887,6 +916,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 60,
     title: 'The Importance of Punctuality',
     titleCn: '太早和太晚',
+    keyArticle: true,
     level: 'NCE3',
   },
   {
@@ -895,6 +925,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C1',
     title: 'Finding fossil man',
     titleCn: '发现化石人',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -903,6 +934,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C2',
     title: 'Spare that spider',
     titleCn: '不要伤害蜘蛛',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -911,6 +943,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C3',
     title: 'Matterhorn man',
     titleCn: '马特霍恩山区人',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -919,6 +952,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C4',
     title: 'Seeing hands',
     titleCn: '能看见东西的手',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -927,6 +961,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C7',
     title: 'The sports spirit',
     titleCn: '体育精神',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -935,6 +970,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C9',
     title: 'Bats',
     titleCn: '蝙蝠',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -942,6 +978,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 8,
     title: 'Trading Standards',
     titleCn: '贸易标准',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -950,6 +987,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C14',
     title: 'How to grow old',
     titleCn: '如何安度晚年',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -957,6 +995,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 13,
     title: 'The search for oil',
     titleCn: '探寻石油',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -965,6 +1004,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C18',
     title: 'Secrecy in industry',
     titleCn: '工业中的秘密',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -973,6 +1013,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C20',
     title: 'The modern city',
     titleCn: '现代城市',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -981,6 +1022,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C22',
     title: 'Porpoises',
     titleCn: '海豚',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -988,6 +1030,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 21,
     title: 'William S. Hart and the Early "Western" Film',
     titleCn: '威廉·S·哈特与早期的西部片',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -996,6 +1039,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C27',
     title: 'Knowledge and progress',
     titleCn: '知识和进步',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1004,6 +1048,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C29',
     title: 'Beauty',
     titleCn: '美',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1012,6 +1057,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C34',
     title: 'Patients and doctors',
     titleCn: '病人与医生',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1020,6 +1066,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C36',
     title: 'Exploring the sea-floor',
     titleCn: '海底勘探',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1028,6 +1075,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C39',
     title: 'Galileo reborn',
     titleCn: '伽利略的复生',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1036,6 +1084,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C41',
     title: 'Education',
     titleCn: '教育',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1044,6 +1093,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C42',
     title: 'Adolescence',
     titleCn: '青春期',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1052,6 +1102,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C45',
     title: 'The process of ageing',
     titleCn: '衰老过程',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1060,6 +1111,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C55',
     title: 'Patterns of culture',
     titleCn: '文化的模式',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1068,6 +1120,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C58',
     title: 'Hobbies',
     titleCn: '业余爱好',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1075,6 +1128,7 @@ export const articleMetas: ArticleMeta[] = [
     lesson: 48,
     title: 'Planning a share portfolio',
     titleCn: '规划股票投资组合',
+    keyArticle: true,
     level: 'NCE4',
   },
   {
@@ -1083,6 +1137,7 @@ export const articleMetas: ArticleMeta[] = [
     tag: 'C6',
     title: 'The Problem of Youth',
     titleCn: '青年',
+    keyArticle: true,
     level: 'NCE4',
   },
 ]
