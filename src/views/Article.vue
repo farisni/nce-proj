@@ -184,20 +184,18 @@ function segClass(seg: Segment): string {
           <div class="section-main">
             <h2 class="section-title">全文翻译</h2>
             <p v-for="(t, idx) in article.translation.paragraphs" :key="idx" class="paragraph translation">{{ t }}</p>
+            <div class="nav-buttons">
+              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← Lesson {{ neighbors.prev.lesson }}</button>
+              <span v-else class="nav-btn nav-prev nav-disabled"></span>
+              <button v-if="neighbors.next" class="nav-btn nav-next" @click="$router.push({ name: 'article', params: { id: neighbors.next.id } })">Lesson {{ neighbors.next.lesson }} →</button>
+              <span v-else class="nav-btn nav-next nav-disabled"></span>
+            </div>
           </div>
           <div class="section-divider"></div>
           <div class="section-side"></div>
         </div>
       </div>
     </div>
-    <el-affix :offset="0" position="bottom" target=".reading-page">
-      <div class="nav-buttons">
-        <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← Lesson {{ neighbors.prev.lesson }}</button>
-        <span v-else class="nav-btn nav-prev nav-disabled"></span>
-        <button v-if="neighbors.next" class="nav-btn nav-next" @click="$router.push({ name: 'article', params: { id: neighbors.next.id } })">Lesson {{ neighbors.next.lesson }} →</button>
-        <span v-else class="nav-btn nav-next nav-disabled"></span>
-      </div>
-    </el-affix>
   </div>
 </template>
 
@@ -268,11 +266,8 @@ function segClass(seg: Segment): string {
 .translation { font-size: 0.9rem; color: var(--color-text-secondary); }
 .nav-buttons {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 14px 24px;
-  background: rgba(250, 247, 240, 0.92);
-  backdrop-filter: blur(8px);
+  padding: 20px 0 0; margin-top: 28px;
   border-top: 1px solid var(--color-border);
-  max-width: 1040px; margin: 0 auto;
 }
 .nav-btn {
   padding: 10px 24px; border: 1px solid var(--color-border);
