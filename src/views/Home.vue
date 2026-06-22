@@ -79,6 +79,12 @@ function goArticle(id: string) {
     top: -4px;
   }
 
+  &:nth-child(4n) {
+    background: #d4eafc;
+    transform: rotate(3deg);
+    top: -2px;
+  }
+
 }
 
 .card-title { font-size: 1.25rem; font-weight: 600; color: var(--color-text); line-height: 1.6; }
