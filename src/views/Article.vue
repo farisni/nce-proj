@@ -162,6 +162,12 @@ function segClass(seg: Segment): string {
                 </template>
               </div>
             </div>
+            <div class="nav-buttons">
+              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
+              <span v-else class="nav-btn nav-prev nav-disabled"></span>
+              <button v-if="neighbors.next" class="nav-btn nav-next" @click="router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
+              <span v-else class="nav-btn nav-next nav-disabled"></span>
+            </div>
           </div>
           <div class="section-divider"></div>
           <div class="section-side">
@@ -185,10 +191,6 @@ function segClass(seg: Segment): string {
           <div class="section-main">
             <h2 class="section-title">全文翻译</h2>
             <p v-for="(t, idx) in article.translation.paragraphs" :key="idx" class="paragraph translation">{{ t }}</p>
-            <div class="nav-buttons">
-              <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="router.push({ name: 'article', params: { id: neighbors.prev.id } })">← {{ neighbors.prev.title }}</button>
-              <button v-if="neighbors.next" class="nav-btn nav-next" @click="router.push({ name: 'article', params: { id: neighbors.next.id } })">{{ neighbors.next.title }} →</button>
-            </div>
           </div>
           <div class="section-divider"></div>
           <div class="section-side"></div>
@@ -265,11 +267,11 @@ function segClass(seg: Segment): string {
 .translation { font-size: 0.9rem; color: var(--color-text-secondary); }
 .nav-buttons {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 28px 0 0; margin-top: 24px;
+  padding: 20px 0 0; margin-top: 28px;
   border-top: 1px solid var(--color-border);
 }
 .nav-btn {
-  padding: 8px 20px; border: 1px solid var(--color-border);
+  padding: 10px 24px; border: 1px solid var(--color-border);
   border-radius: 6px; cursor: pointer;
   background: var(--color-panel-bg);
   color: var(--color-text);
@@ -281,4 +283,5 @@ function segClass(seg: Segment): string {
 }
 .nav-prev { text-align: left; }
 .nav-next { text-align: right; margin-left: auto; }
+.nav-disabled { visibility: hidden; }
 </style>
