@@ -15,35 +15,43 @@ interface Segment {
   text: string
   clause?: boolean
   predicate?: boolean
+  noteText?: string
 }
 
-function markWords(sentence: string, predicates: string[], clauseIntroducers: string[]): Segment[] {
-  if (!predicates.length && !clauseIntroducers.length) return [{ text: sentence }]
+function markWords(
+  sentence: string,
+  predicates: string[],
+  clauseIntroducers: string[],
+  notes: { phrase: string; note: string }[],
+): Segment[] {
+  if (!predicates.length && !clauseIntroducers.length && !notes.length) return [{ text: sentence }]
 
-  interface Range {
+  interface Span {
     start: number
     end: number
-    type: 'predicate' | 'clause'
+    predicate: boolean
+    clause: boolean
+    noteText: string
   }
 
-  const ranges: Range[] = []
+  const spans: Span[] = []
   const lower = sentence.toLowerCase()
 
+  // 谓语单词匹配
   const predWords = new Set<string>()
   for (const pred of predicates) {
-    for (const w of pred.split(/\s+/)) {
-      predWords.add(w.toLowerCase())
-    }
+    for (const w of pred.split(/\s+/)) predWords.add(w.toLowerCase())
   }
   for (const pw of predWords) {
     const escaped = pw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     const regex = new RegExp(`(?<![a-zA-Z'-])${escaped}(?![a-zA-Z'-])`, 'gi')
     let match: RegExpExecArray | null
     while ((match = regex.exec(lower)) !== null) {
-      ranges.push({ start: match.index, end: match.index + pw.length, type: 'predicate' })
+      spans.push({ start: match.index, end: match.index + pw.length, predicate: true, clause: false, noteText: '' })
     }
   }
 
+  // 从句引导词匹配
   for (const ci of clauseIntroducers) {
     const lc = ci.toLowerCase()
     let idx = lower.indexOf(lc)
@@ -51,44 +59,76 @@ function markWords(sentence: string, predicates: string[], clauseIntroducers: st
       const beforeOk = idx === 0 || /\s|[—,'"(\[{]/.test(sentence[idx - 1])
       const afterOk = idx + ci.length === sentence.length || /\s|[—,.'"!?;:)\]}。，！？；：、]/.test(sentence[idx + ci.length])
       if (beforeOk && afterOk) {
-        if (!ranges.some(r => r.type === 'predicate' && r.start < idx + ci.length && r.end > idx)) {
-          ranges.push({ start: idx, end: idx + ci.length, type: 'clause' })
-        }
+        spans.push({ start: idx, end: idx + ci.length, predicate: false, clause: true, noteText: '' })
       }
       idx = lower.indexOf(lc, idx + 1)
     }
   }
 
-  if (!ranges.length) return [{ text: sentence }]
+  // 笔记短语匹配
+  for (const note of notes) {
+    const ln = note.phrase.toLowerCase()
+    let idx = lower.indexOf(ln)
+    while (idx !== -1) {
+      spans.push({ start: idx, end: idx + ln.length, predicate: false, clause: false, noteText: note.note })
+      idx = lower.indexOf(ln, idx + 1)
+    }
+  }
 
-  ranges.sort((a, b) => a.start - b.start)
+  if (!spans.length) return [{ text: sentence }]
 
+  spans.sort((a, b) => a.start - b.start)
+
+  // 字符级标注：逐字叠加
+  const len = sentence.length
+  const charPred = new Array(len).fill(false)
+  const charClause = new Array(len).fill(false)
+  const charNote: (string | null)[] = new Array(len).fill(null)
+
+  for (const span of spans) {
+    for (let i = span.start; i < span.end; i++) {
+      if (span.predicate) charPred[i] = true
+      if (span.clause) charClause[i] = true
+      if (span.noteText) charNote[i] = span.noteText
+    }
+  }
+
+  // 按字符状态变化切分片段
   const segments: Segment[] = []
-  let pos = 0
-
-  for (const r of ranges) {
-    if (r.start < pos) {
-      if (r.end > pos && r.type === 'predicate') {
-        segments.push({ text: sentence.slice(pos, r.end), predicate: true })
-        pos = r.end
-      }
-      continue
+  let i = 0
+  while (i < len) {
+    const pred = charPred[i]
+    const cls = charClause[i]
+    const note = charNote[i]
+    let j = i + 1
+    while (j < len && charPred[j] === pred && charClause[j] === cls && charNote[j] === note) {
+      j++
     }
-    if (r.start > pos) {
-      segments.push({ text: sentence.slice(pos, r.start) })
-    }
-    segments.push({
-      text: sentence.slice(r.start, r.end),
-      predicate: r.type === 'predicate',
-      clause: r.type === 'clause',
-    })
-    pos = r.end
+    const seg: Segment = { text: sentence.slice(i, j) }
+    if (pred) seg.predicate = true
+    if (cls) seg.clause = true
+    if (note) seg.noteText = note
+    segments.push(seg)
+    i = j
   }
 
-  if (pos < sentence.length) {
-    segments.push({ text: sentence.slice(pos) })
+
+  // 合并相邻同 note 的片段
+  const merged: Segment[] = []
+  for (const seg of segments) {
+    const last = merged[merged.length - 1]
+    if (
+      last &&
+      seg.noteText &&
+      seg.noteText === last.noteText
+    ) {
+      last.text += seg.text
+    } else {
+      merged.push({ ...seg })
+    }
   }
 
+  return merged
   return segments
 }
 
@@ -103,7 +143,12 @@ const originalSentences = computed(() =>
     return sentences.map((sentence, sIdx) => {
       const meta = article.original.predicateParagraph[pIdx]?.[sIdx]
       return {
-        segments: markWords(sentence, meta?.predicates ?? [], meta?.clauseIntroducers ?? []),
+        segments: markWords(
+          sentence,
+          meta?.predicates ?? [],
+          meta?.clauseIntroducers ?? [],
+          meta?.notes ?? [],
+        ),
         key: `${pIdx}-${sIdx}`,
       }
     })
@@ -114,6 +159,13 @@ const activeKey = ref('')
 
 function togglePanel(key: string) {
   activeKey.value = activeKey.value === key ? '' : key
+}
+
+function segClass(seg: Segment): string {
+  const cls: string[] = []
+  if (seg.clause) cls.push('clause-mark')
+  if (seg.predicate) cls.push('predicate-mark')
+  return cls.join(' ')
 }
 </script>
 
@@ -134,8 +186,14 @@ function togglePanel(key: string) {
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
                   <span class="sentence-inline"
                     ><template v-for="(seg, gIdx) in s.segments" :key="gIdx">
-                      <span v-if="seg.clause" class="clause-mark">{{ seg.text }}</span>
-                      <span v-else-if="seg.predicate" class="predicate-mark">{{ seg.text }}</span>
+                      <span
+                        v-if="seg.noteText"
+                        class="noted-phrase"
+                      >
+                        <span :class="segClass(seg)">{{ seg.text }}</span>
+                        <span class="note-label">{{ seg.noteText }}</span>
+                      </span>
+                      <span v-else-if="segClass(seg)" :class="segClass(seg)">{{ seg.text }}</span>
                       <template v-else>{{ seg.text }}</template>
                     </template><img
                       :src="yumaoIcon"
@@ -188,6 +246,7 @@ function togglePanel(key: string) {
   </div>
 </template>
 
+
 <style lang="scss" scoped>
 .reading-page {
   min-height: 100vh;
@@ -235,13 +294,6 @@ function togglePanel(key: string) {
   padding-top: 28px;
 }
 
-.side-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--color-text-secondary);
-  margin-bottom: 16px;
-}
-
 .paragraph-wrapper {
   & + & {
     margin-top: 20px;
@@ -279,6 +331,22 @@ function togglePanel(key: string) {
 
 .predicate-mark {
   color: #e0552a;
+}
+
+.noted-phrase {
+  position: relative;
+}
+
+.note-label {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2.4em;
+  font-size: 0.65rem;
+  color: #999;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .vocab-list {

@@ -3,6 +3,7 @@
 export interface SentenceMeta {
   predicates: string[]
   clauseIntroducers: string[]
+  notes?: { phrase: string; note: string }[]
 }
 
 export interface TextSegment {
@@ -35,25 +36,49 @@ export const article: Article = {
       'I find young people exciting. They have an air of freedom, and they have not a dreary commitment to mean ambitions or love of comfort. They are not anxious social climbers, and they have no devotion to material things. All this seems to me to link them with life, and the origins of things. It\'s as if they were in some sense cosmic beings in violent and lovely contrast with us suburban creatures. All that is in my mind when I meet a young person. He may be conceited, ill-mannered, presumptuous or fatuous, but I do not turn for protection to dreary clichés about respect for elders—as if mere age were a reason for respect. I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.',
     ],
     predicateParagraph: [
-      // Paragraph 1 (4 sentences)
+      // Paragraph 1
       [
         { predicates: ['are talking'], clauseIntroducers: [] },
         { predicates: ['is', 'take', 'create'], clauseIntroducers: ['If', 'which', 'then'] },
-        { predicates: ['get', 'agree', 'are'], clauseIntroducers: ['that'] },
-        { predicates: ['is', 'has', 'has', 'is'], clauseIntroducers: ['where'] },
+        {
+          predicates: ['get', 'agree', 'are'],
+          clauseIntroducers: ['that'],
+          notes: [{ phrase: 'get down to', note: '着手处理' }, { phrase: 'fundamentals', note: '基本原则' }],
+        },
+        {
+          predicates: ['is', 'has', 'has', 'is'],
+          clauseIntroducers: ['where'],
+          notes: [
+            { phrase: 'glorious', note: '辉煌的' },
+            { phrase: 'splendid', note: '灿烂的' },
+            { phrase: 'the rub', note: '症结所在' },
+          ],
+        },
       ],
-      // Paragraph 2 (2 sentences)
+      // Paragraph 2
       [
-        { predicates: ['felt', 'was', 'was', 'would have been pleased'], clauseIntroducers: ['When', 'that', 'that'] },
+        {
+          predicates: ['felt', 'was', 'was', 'would have been very pleased'],
+          clauseIntroducers: ['When', 'that', 'that'],
+          notes: [{ phrase: 'would have been very pleased', note: '过去一定会高兴' }],
+        },
         { predicates: ['gives', 'are engaged'], clauseIntroducers: ['that'] },
       ],
-      // Paragraph 3 (8 sentences)
+      // Paragraph 3
       [
         { predicates: ['find'], clauseIntroducers: [] },
-        { predicates: ['have', 'have'], clauseIntroducers: [] },
+        {
+          predicates: ['have', 'have'],
+          clauseIntroducers: [],
+          notes: [{ phrase: 'dreary', note: '沉闷的' }],
+        },
         { predicates: ['are', 'have'], clauseIntroducers: [] },
         { predicates: ['seems'], clauseIntroducers: [] },
-        { predicates: ['were'], clauseIntroducers: ['as if'] },
+        {
+          predicates: ['were'],
+          clauseIntroducers: ['as if'],
+          notes: [{ phrase: 'cosmic', note: '宇宙的' }, { phrase: 'suburban', note: '市郊的' }],
+        },
         { predicates: ['is', 'meet'], clauseIntroducers: ['when'] },
         { predicates: ['may be', 'do turn'], clauseIntroducers: ['but'] },
         { predicates: ['accept', 'are', 'will argue', 'think', 'is'], clauseIntroducers: ['that', 'if'] },
@@ -70,7 +95,7 @@ export const article: Article = {
   vocabulary: [
     { word: 'youth', pos: 'n.', meaning: '青春；青年' },
     { word: 'doubt', pos: 'n./v.', meaning: '怀疑' },
-    { word: 'fundamental', pos: 'n.', meaning: '基本原则；根本' },
+    { word: 'fundamentals', pos: 'n.', meaning: '基本原则；根本' },
     { word: 'glorious', pos: 'adj.', meaning: '辉煌的；光荣的' },
     { word: 'splendid', pos: 'adj.', meaning: '灿烂的；极好的' },
     { word: 'rub', pos: 'n.', meaning: '困难；症结' },
