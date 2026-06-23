@@ -335,7 +335,7 @@ function goBack() {
   &:hover { .para-label { color: #1a1a1a; } }
 }
 
-.add-btn { border: none; background: transparent; color: #9b9a97; padding: 4px 0; font-size: 0.85rem;
+.add-btn { border: none; background: transparent; color: #b0afac; padding: 2px 0; font-size: 0.75rem;
   &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 4px 8px; }
 }
 
@@ -351,7 +351,7 @@ function goBack() {
   padding: 6px 10px; background: #fff; border-radius: 4px; border-left: 3px solid #e3e2e0; line-height: 1.5;
 }
 .grammar-field { margin-bottom: 12px; }
-.grammar-field-label { display: block; font-size: 0.75rem; color: #9b9a97; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.grammar-field-label { display: block; font-size: 0.75rem; color: #5a5a57; font-weight: 600; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
 .grammar-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .grammar-tag-input { width: 150px; }
 .grammar-notes-table { margin-bottom: 8px; }
