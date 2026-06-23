@@ -211,10 +211,12 @@ function segClass(seg: Segment): string {
                   <!-- 笔记面板：展开时显示 200px 浅绿底 -->
                   <transition name="panel">
                     <div v-if="activeKey === s.key" class="sentence-panel">
-                      <div v-for="(pn, pni) in s.panelNotes" :key="'pn'+pni" class="panel-note-item">
-                        <span class="panel-note-snippet">{{ pn.title }}</span>
-                        <span class="panel-note-desc">{{ pn.body }}</span>
-                      </div>
+                      <table class="panel-note-table">
+                        <tr v-for="(pn, pni) in s.panelNotes" :key="'pn'+pni" class="panel-note-item">
+                          <td class="panel-note-td"><span class="panel-note-snippet">{{ pn.title }}</span></td>
+                          <td class="panel-note-td"><span class="panel-note-desc">{{ pn.body }}</span></td>
+                        </tr>
+                      </table>
                     </div>
                   </transition>
                 </template>
@@ -332,10 +334,19 @@ function segClass(seg: Segment): string {
   background: #f2f7f2; min-height: 200px;
   position: relative; z-index: 11;
 }
-.panel-note-item { display: flex; gap: 8px; padding: 4px 0; font-size: 0.85rem; }
-.panel-note-item + .panel-note-item { border-top: 1px solid #e2e8e0; }
-.panel-note-snippet { font-weight: 600; color: #3d3d3d; min-width: 80px; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
-.panel-note-desc { color: #666; }
+.panel-note-table { width: 100%; border-collapse: collapse; }
+.panel-note-item { }
+.panel-note-td { padding: 4px 8px 4px 0; vertical-align: baseline; }
+.panel-note-td:first-child { width: 1%; white-space: nowrap; }
+.panel-note-item + .panel-note-item .panel-note-td { border-top: 1px solid #e2e8e0; }
+.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
+/* panelNotes 莫兰迪色轮换 */
+.panel-note-item:nth-child(5n+1) .panel-note-snippet { background: #ede8e3; }
+.panel-note-item:nth-child(5n+2) .panel-note-snippet { background: #e3e8ed; }
+.panel-note-item:nth-child(5n+3) .panel-note-snippet { background: #e8ede3; }
+.panel-note-item:nth-child(5n+4) .panel-note-snippet { background: #ede3e8; }
+.panel-note-item:nth-child(5n+5) .panel-note-snippet { background: #e8e3ed; }
+.panel-note-desc { color: #666; font-size: 0.8rem; }
 
 // 语法标记：从句引导词（斜体加粗暗色）/ 谓语（橘红）
 .clause-mark { font-style: italic; font-weight: 600; color: #3d3d3d; }
