@@ -458,5 +458,5 @@ function goBack() {
 .notion-btn-cancel:hover { background: #f1f1ef; color: #37352f; border-color: #d3d2d0; }
 .notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
 .notion-btn-save:hover { background: #337ECC; border-color: #337ECC; color: #fff; }
-.text-en-ta :deep(textarea) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
+.text-en-ta :deep(textarea) { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif; }
 </style>
