@@ -89,11 +89,14 @@ function addPanelNote(pIdx: number, sIdx: number) {
 
 // Collapse state
 const showParagraph = ref<Record<number, boolean>>({})
-// 双击编辑状态：记录哪些单元格处于编辑模式
+// 双击编辑状态：记录哪些单元格/字段处于编辑模式
 const editingCells = ref(new Set<string>())
+const editingMetaFields = ref(new Set<string>())
 
 function startEdit(key: string) { editingCells.value.add(key); editingCells.value = new Set(editingCells.value) }
 function stopEdit(key: string) { editingCells.value.delete(key); editingCells.value = new Set(editingCells.value) }
+function startMetaEdit(key: string) { editingMetaFields.value.add(key); editingMetaFields.value = new Set(editingMetaFields.value) }
+function stopMetaEdit(key: string) { editingMetaFields.value.delete(key); editingMetaFields.value = new Set(editingMetaFields.value) }
 function toggleParagraph(idx: number) {
   showParagraph.value[idx] = !showParagraph.value[idx]
 }
@@ -117,8 +120,8 @@ function goBack() {
       <div class="edit-title-row">
         <span class="header-title">编辑：{{ editArticle?.title || id }}</span>
         <div class="header-actions">
-          <el-button size="small" @click="goBack">取消</el-button>
-          <el-button size="small" type="primary" @click="save">保存</el-button>
+          <el-button size="small" class="notion-btn notion-btn-cancel" @click="goBack">取消</el-button>
+          <el-button size="small" class="notion-btn notion-btn-save"  @click="save">保存</el-button>
         </div>
       </div>
     </div>
@@ -128,23 +131,38 @@ function goBack() {
       <el-tab-pane label="元数据" name="meta">
         <div class="tab-content" v-if="editArticle">
           <el-form label-width="100px" label-position="left" size="default">
-            <el-form-item label="ID"><el-input v-model="editArticle.id" /></el-form-item>
-            <el-form-item label="英文标题"><el-input v-model="editArticle.title" /></el-form-item>
-            <el-form-item label="中文标题"><el-input v-model="editArticle.titleCn" /></el-form-item>
-            <el-row :gutter="16">
+            <el-form-item label="ID">
+                <template v-if="editingMetaFields.has('id')">
+                  <el-input v-model="editArticle.id" @blur="stopMetaEdit('id')" @keyup.enter="stopMetaEdit('id')" autofocus />
+                </template>
+                <span v-else class="cell-text" @dblclick="startMetaEdit('id')">{{ editArticle.id || '—' }}</span>
+              </el-form-item>
+            <el-form-item label="英文标题">
+                <template v-if="editingMetaFields.has('title')">
+                  <el-input v-model="editArticle.title" @blur="stopMetaEdit('title')" @keyup.enter="stopMetaEdit('title')" autofocus />
+                </template>
+                <span v-else class="cell-text" @dblclick="startMetaEdit('title')">{{ editArticle.title || '—' }}</span>
+              </el-form-item>
+            <el-form-item label="中文标题">
+                <template v-if="editingMetaFields.has('titleCn')">
+                  <el-input v-model="editArticle.titleCn" @blur="stopMetaEdit('titleCn')" @keyup.enter="stopMetaEdit('titleCn')" autofocus />
+                </template>
+                <span v-else class="cell-text" @dblclick="startMetaEdit('titleCn')">{{ editArticle.titleCn || '—' }}</span>
+              </el-form-item>
+            <el-row :gutter="16" class="meta-compact">
               <el-col :span="8">
-                <el-form-item label="课号"><el-input-number v-model="editArticle.lesson" :min="1" /></el-form-item>
+                <el-form-item label="课号"><el-input-number v-model="editArticle.lesson" :min="1" size="small" /></el-form-item>
               </el-col>
               <el-col :span="8">
                 <el-form-item label="标签 (Cx)">
-                  <el-select v-model="editArticle.tag" clearable placeholder="可选">
+                  <el-select v-model="editArticle.tag" clearable placeholder="可选" size="small">
                     <el-option v-for="n in 20" :key="n" :label="'C' + n" :value="'C' + n" />
                   </el-select>
                 </el-form-item>
               </el-col>
               <el-col :span="8">
                 <el-form-item label="册">
-                  <el-select v-model="editArticle.level">
+                  <el-select v-model="editArticle.level" size="small">
                     <el-option label="NCE2" value="NCE2" />
                     <el-option label="NCE3" value="NCE3" />
                     <el-option label="NCE4" value="NCE4" />
@@ -152,7 +170,7 @@ function goBack() {
                 </el-form-item>
               </el-col>
             </el-row>
-            <el-form-item label="重点文章"><el-switch v-model="editArticle.keyArticle" /></el-form-item>
+            <el-form-item label="重点文章"><el-switch v-model="editArticle.keyArticle" size="small" /></el-form-item>
           </el-form>
         </div>
       </el-tab-pane>
@@ -173,7 +191,7 @@ function goBack() {
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
                   <el-popconfirm title="确定删除？" @confirm="removeSentence(pIdx, sIdx)"><template #reference><span class="del-btn">删除</span></template></el-popconfirm>
                 </div>
-                <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" />
+                <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" class="text-en-ta" />
                 <el-input v-model="sd.translation" type="textarea" :rows="1" placeholder="翻译" />
               </div>
               <el-button class="add-btn" size="small" @click="addSentence(pIdx)">+ 添加句子</el-button>
@@ -328,6 +346,12 @@ function goBack() {
 .edit-page { max-width: 780px; margin: 0 auto; padding: 32px 24px 80px; }
 
 .edit-header { margin-bottom: 24px; }
+/* 编辑页使用 MiSans */
+.edit-page .cell-text,
+.edit-page :deep(.el-input__inner) { font-family: 'MiSans Latin', sans-serif; }
+/* 元数据表单组件缩短 */
+.meta-compact :deep(.el-input-number) { width: 140px; }
+.meta-compact :deep(.el-select) { width: 120px; }
 .edit-title-row { display: flex; align-items: center; justify-content: space-between; margin-top: 20px; }
 .header-title { font-size: 1.5rem; font-weight: 600; color: #1a1a1a; }
 .header-actions { display: flex; gap: 2px; }
@@ -359,8 +383,8 @@ function goBack() {
 .add-btn { border: none; background: transparent; color: #888; padding: 2px 0; font-size: 0.75rem; cursor: pointer; 
   &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 4px 8px; }
 }
-.del-btn { color: #888; font-size: 0.75rem; cursor: pointer; padding: 2px 4px; border-radius: 3px; display: inline-block;
-  &:hover { color: #e0552a; background: #fef0f0; }
+.del-btn { color: #888; font-size: 0.75rem; cursor: pointer; padding: 2px 4px; border-radius: 3px; display: inline-block; transition: all 0.15s;
+  &:hover { color: #e0552a; background: #fef0f0; border-radius: 4px; padding: 4px 8px; }
 }
 :deep(.el-popconfirm__action) { .el-button--primary { font-size: 0.75rem; } }
 
@@ -380,8 +404,8 @@ function goBack() {
 .grammar-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .grammar-tag-input { width: 150px; }
 .grammar-notes-table { margin-bottom: 8px; }
-.cell-text { display: block; padding: 4px 8px; min-height: 24px; cursor: pointer; color: #37352f; border-radius: 3px; }
-.cell-text:hover { background: #f1f1f1; }
+.cell-text { display: flex; align-items: center; padding: 0 12px; min-height: 32px; cursor: pointer; color: #37352f; border-radius: 3px; border: 1px solid transparent; }
+.cell-text:hover { background: #f1f1f1; border-color: #e3e2e0; }
 
 // Sentence border colors
 .grammar-sentence:nth-child(1) .grammar-sentence-text { border-left-color: #f0c040; }
@@ -407,7 +431,7 @@ function goBack() {
 .ntd-cell { flex-shrink: 0; padding: 4px 6px; display: flex; align-items: center; }
 .ntd-action { justify-content: center; }
 .notion-cell-input { width: 100%; border: 1px solid transparent; background: transparent; padding: 4px 6px; font-size: 0.85rem; font-family: inherit; color: #1a1a1a; border-radius: 3px; outline: none;
-  &:focus { border-color: #2383e2; background: #fff; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
+  &:focus { border-color: #409EFF; background: #fff; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
   &:hover:not(:focus) { border-color: #e3e2e0; background: #fdfdfc; }
 }
 .notion-row-delete { opacity: 0; font-size: 0.85rem; color: #d94a4a; cursor: pointer; padding: 2px 6px; border-radius: 3px; transition: opacity 0.1s;
@@ -418,14 +442,21 @@ function goBack() {
 :deep(.el-form-item__label) { color: #6b6b6b; font-weight: 400; font-size: 0.85rem; }
 :deep(.el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; border-radius: 4px; background: #fff; }
 :deep(.el-input__wrapper:hover) { border-color: #b4b3b0; }
-:deep(.el-input.is-focus .el-input__wrapper) { border-color: #2383e2; box-shadow: 0 0 0 1px rgba(35,131,226,0.2) !important; }
+:deep(.el-input.is-focus .el-input__wrapper) { border-color: #409EFF; box-shadow: 0 0 0 1px rgba(35,131,226,0.2) !important; }
 :deep(.el-textarea__inner) { border-color: #e3e2e0; border-radius: 4px; font-size: 0.9rem; }
-:deep(.el-textarea__inner:focus) { border-color: #2383e2; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
+:deep(.el-textarea__inner:focus) { border-color: #409EFF; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
 :deep(.el-select .el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; }
 :deep(.el-input-number .el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; }
-:deep(.el-button--primary) { background: #2383e2; border-color: #2383e2; border-radius: 4px; font-weight: 400; }
+:deep(.el-button--primary) { background: #409EFF; border-color: #409EFF; border-radius: 4px; font-weight: 400; }
 :deep(.el-button) { border-radius: 4px; }
 :deep(.el-page-header__back) { color: #6b6b6b; font-size: 0.9rem; }
 :deep(.el-page-header__back:hover) { color: #1a1a1a; }
 :deep(.el-empty__description) { color: #b4b3b0; }
+/* Notion-style header buttons */
+.notion-btn { border-radius: 4px; font-size: 0.8rem; padding: 4px 12px; transition: background 0.15s; }
+.notion-btn-cancel { border: 1px solid #e3e2e0; background: #fff; color: #37352f; }
+.notion-btn-cancel:hover { background: #f1f1ef; color: #37352f; border-color: #d3d2d0; }
+.notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
+.notion-btn-save:hover { background: #337ECC; border-color: #337ECC; color: #fff; }
+.text-en-ta :deep(textarea) { font-family: 'MiSans Latin', sans-serif; }
 </style>
