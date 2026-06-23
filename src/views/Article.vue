@@ -335,7 +335,7 @@ function segClass(seg: Segment): string {
   position: relative; z-index: 11;
 }
 .panel-note-table { width: 100%; border-collapse: collapse; }
-.panel-note-item { }
+.panel-note-item { font-size: 0.85rem; line-height: 1.7; }
 .panel-note-td { padding: 4px 8px 4px 0; vertical-align: baseline; }
 .panel-note-td:first-child { width: 1%; white-space: nowrap; }
 .panel-note-item + .panel-note-item .panel-note-td { border-top: 1px solid #e2e8e0; }
@@ -346,7 +346,7 @@ function segClass(seg: Segment): string {
 .panel-note-item:nth-child(5n+3) .panel-note-snippet { background: #e8ede3; }
 .panel-note-item:nth-child(5n+4) .panel-note-snippet { background: #ede3e8; }
 .panel-note-item:nth-child(5n+5) .panel-note-snippet { background: #e8e3ed; }
-.panel-note-desc { color: #666; font-size: 0.8rem; }
+.panel-note-desc { color: #666; font-family: 'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', serif; }
 
 // 语法标记：从句引导词（斜体加粗暗色）/ 谓语（橘红）
 .clause-mark { font-style: italic; font-weight: 600; color: #3d3d3d; }
