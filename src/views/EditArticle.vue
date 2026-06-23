@@ -372,7 +372,7 @@ function goBack() {
 .grammar-sentence-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .grammar-sentence-label { font-size: 0.85rem; font-weight: 600; color: #1a1a1a; }
 .grammar-sentence-text {
-  font-size: 0.85rem; color: #1a1a1a; font-weight: 500; margin-bottom: 12px;
+  font-family: 'Merriweather', Georgia, serif; font-size: 0.95rem; color: #1a1a1a; font-weight: 500; margin-bottom: 12px;
   padding: 6px 10px; background: #fff; border-radius: 4px; border-left: 3px solid #e3e2e0; line-height: 1.5;
 }
 .grammar-field { margin-bottom: 12px; }
