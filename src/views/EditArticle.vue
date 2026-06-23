@@ -210,8 +210,7 @@ function goBack() {
             <div class="notion-table-header">
               <span class="nth-col" style="width:140px">单词</span>
               <span class="nth-col" style="width:150px">音标</span>
-              <span class="nth-col" style="width:80px">词性</span>
-              <span class="nth-col" style="flex:1">释义</span>
+              <span class="nth-col" style="flex:1">词性 · 释义</span>
               <span class="nth-col" style="width:150px">音节拆分</span>
               <span class="nth-col" style="width:60px"></span>
             </div>
@@ -219,8 +218,10 @@ function goBack() {
             <div v-for="(item, vi) in editArticle.vocabulary" :key="vi" class="notion-table-row">
               <div class="ntd-cell" style="width:140px"><input v-model="editArticle!.vocabulary[vi].word" placeholder="单词" class="notion-cell-input vocab-word-input" /></div>
               <div class="ntd-cell" style="width:150px"><input v-model="editArticle!.vocabulary[vi].phonetic" placeholder="音标" class="notion-cell-input" /></div>
-              <div class="ntd-cell" style="width:80px"><input v-model="editArticle!.vocabulary[vi].pos" placeholder="词性" class="notion-cell-input" /></div>
-              <div class="ntd-cell" style="flex:1"><input v-model="editArticle!.vocabulary[vi].meaning" placeholder="释义" class="notion-cell-input" /></div>
+              <div class="ntd-cell ntd-combined" style="flex:1">
+                <span class="pos-prefix" v-if="editArticle!.vocabulary[vi].pos">{{ editArticle!.vocabulary[vi].pos }}</span>
+                <input v-model="editArticle!.vocabulary[vi].meaning" placeholder="释义" class="notion-cell-input" style="flex:1" />
+              </div>
               <div class="ntd-cell" style="width:150px"><input v-model="editArticle!.vocabulary[vi].syllables" placeholder="音节拆分" class="notion-cell-input" /></div>
               <div class="ntd-cell ntd-action" style="width:60px">
                 <el-popconfirm title="确定删除？" @confirm="removeVocab(vi)">
@@ -463,4 +464,6 @@ function goBack() {
 /* 词汇表 MiSans Latin Light */
 .edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-word-input { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
+.ntd-combined { display: flex; align-items: center; gap: 4px; }
+.pos-prefix { font-size: 0.75rem; color: #9b9a97; white-space: nowrap; }
 </style>
