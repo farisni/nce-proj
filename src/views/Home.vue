@@ -64,7 +64,7 @@ function goArticle(id: string) {
   padding: 20px 18px;
   cursor: pointer;
   box-shadow: 3px 3px 6px rgba(33,33,33,.35);
-  transform: rotate(-3deg);
+  transform: rotate(-4deg);
   transition: transform 0.2s, box-shadow 0.2s;
 
   &:hover {
@@ -76,25 +76,25 @@ function goArticle(id: string) {
   // 交替配色 + 角度
   &:nth-child(even) {
     background: #cfc;
-    transform: rotate(2deg);
+    transform: rotate(3.5deg);
     top: 4px;
   }
 
   &:nth-child(3n) {
     background: #ccf;
-    transform: rotate(-5deg);
+    transform: rotate(-6deg);
     top: -4px;
   }
 
   &:nth-child(4n) {
     background: #d4eafc;
-    transform: rotate(3deg);
+    transform: rotate(1.5deg);
     top: -2px;
   }
 
   &:nth-child(7n) {
     background: #fde0e8;
-    transform: rotate(-2deg);
+    transform: rotate(-3.5deg);
     top: 2px;
   }
 

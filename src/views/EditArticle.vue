@@ -132,10 +132,7 @@ function goBack() {
         <div class="tab-content" v-if="editArticle">
           <el-form label-width="100px" label-position="left" size="default">
             <el-form-item label="ID">
-                <template v-if="editingMetaFields.has('id')">
-                  <el-input v-model="editArticle.id" class="meta-auto-input" @blur="stopMetaEdit('id')" @keyup.enter="stopMetaEdit('id')" autofocus />
-                </template>
-                <span v-else class="cell-text" @dblclick="startMetaEdit('id')">{{ editArticle.id || '—' }}</span>
+                <span class="cell-text readonly">{{ editArticle.id || '—' }}</span>
               </el-form-item>
             <el-form-item label="英文标题">
                 <template v-if="editingMetaFields.has('title')">
@@ -386,8 +383,8 @@ function goBack() {
 }
 
 .tab-content { padding: 0; }
-.section-label { font-size: 0.8rem; font-weight: 500; color: #9b9a97; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
-.notion-hint { font-size: 0.85rem; color: #9b9a97; margin-bottom: 16px; line-height: 1.6;
+.section-label { font-size: 0.8rem; font-weight: 500; color: #37352f; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+.notion-hint { font-size: 0.85rem; color: #37352f; margin-bottom: 16px; line-height: 1.6;
   code { background: #f1f1ef; padding: 1px 6px; border-radius: 3px; font-size: 0.82rem; color: #e0552a; }
 }
 
@@ -485,7 +482,9 @@ function goBack() {
 .edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-word-input { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
 .ntd-combined { display: flex; align-items: center; gap: 4px; }
-.pos-prefix { font-size: 0.75rem; color: #9b9a97; white-space: nowrap; }
+.pos-prefix { font-size: 0.75rem; color: #37352f; white-space: nowrap; }
 .vocab-word-preview { font-family: "MiSans Latin Regular", "LXGW WenKai", "PingFang SC", serif !important; }
+.cell-text.readonly { cursor: default; color: #37352f; }
+.cell-text.readonly:hover { background: transparent; border-color: transparent; }
 </style>
 
