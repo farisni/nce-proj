@@ -3,7 +3,7 @@
 > 数据来源: https://nce.mymdm.top/nce4/
 
 ## Lesson 1 Finding fossil man 发现化石人
-*ROBIN PLACE Finding fossil man*
+*ROBIN PLACE《Finding fossil man》*
 
 ### 课文原文
 
@@ -54,7 +54,7 @@ people+s 表示民族
 ---
 
 ## Lesson 2 Spare that spider 不要伤害蜘蛛
-*T.H.GILLESPIE Spare that spider from The Listener*
+*T.H.GILLESPIE《Spare that spider》from《The Listener》*
 
 ### 课文原文
 
@@ -83,7 +83,7 @@ content  /ˈkɑnˌtɛnt/ adj. 满足的
 
 ---
 ## Lesson 3 Matterhorn man 马特霍恩山区人
-*WALTER UNSWORTH Matterhorn Man*
+*WALTER UNSWORTH《Matterhorn Man》*
 
 ### 课文原文
 
@@ -129,7 +129,7 @@ the Alps /ði ælps/ n.阿尔卑斯山脉
 ---
 
 ## Lesson 4 Seeing hands  能看见东西的手
-*ERIC DE MAUNY Seeing hands from The Listener*
+*ERIC DE MAUNY《Seeing hands》from《The Listener》*
 
 
 ### 课文原文
@@ -166,7 +166,7 @@ blindfold /ˈblaɪndfoʊld/ adj.& adv. 被蒙上眼睛的
 
 ---
 ## Lesson 5 Youth 青年
-*SAMUEL ULLMAN Youth, 1917*
+*SAMUEL ULLMAN《Youth》, 1917*
 
 ### 课文原文
 
@@ -208,7 +208,7 @@ cliche n.陈词滥调
 ---
 
 ## Lesson 6 The sporting spirit 体育的精神
-*GEORGE ORWELL The sporting spirit*
+*GEORGE ORWELL《The sporting spirit》*
 
 ### 课文原文
 
@@ -250,7 +250,7 @@ absurd adj.荒唐的
 ---
 
 ## Lesson 7 Bats 蝙蝠
-*MAURICE BURTON Curiosities of animal life*
+*MAURICE BURTON《Curiosities of animal life》*
 
 ### 课文原文
 
@@ -297,7 +297,7 @@ squeak n.尖叫声
 ---
 
 ## Lesson 8 Trading standards 贸易标准
-*from The Economist, 1997*
+*from《The Economist》, 1997*
 
 ### 课文原文
 
@@ -338,7 +338,7 @@ pact n.合同，条约，公约
 ---
 
 ## Lesson 9 Royal espionage 王室谍报活动
-*BERNARD NEWMAN Spies in Britain*
+*BERNARD NEWMAN《Spies in Britain》*
 
 ### 课文原文
 
@@ -394,7 +394,7 @@ skirmish n.小规模战斗
 ---
 
 ## Lesson 10 Silicon valley 硅谷
-*US NEWS AND WORLD REPORT, October 2, 1989*
+*《US NEWS AND WORLD REPORT》, October 2, 1989*
 
 ### 课文原文
 
@@ -441,7 +441,7 @@ Missouri n.密苏里(美国州名)
 ---
 
 ## Lesson 11 How to grow old 如何安度晚年
-*BERTRAND RUSSELL How to grow old from Portraits from Memory*
+*BERTRAND RUSSELL《How to grow old》from《Portraits from Memory》*
 
 ### 课文原文
 
@@ -481,7 +481,7 @@ veariness n.疲惫感
 ---
 
 ## Lesson 12 Banks and their customers 银行和顾客
-*GORDON BARRIE and AUBREY L. DLAMOND The Consumer Society and the Law*
+*GORDON BARRIE and AUBREY L. DLAMOND《The Consumer Society and the Law》*
 
 ### 课文原文
 
@@ -520,7 +520,7 @@ facilitate v.使便利
 ---
 
 ## Lesson 13 The search for oil 探寻石油
-*T. F. GASKELL The Search for the Earth's Minerals from Discovery*
+*T. F. GASKELL《The Search for the Earth's Minerals》from《Discovery》*
 
 ### 课文原文
 
@@ -590,7 +590,7 @@ If you endeavour to do something, you try very hard to do it. 同义词组喂str
 ---
 
 ## Lesson 14 The Butterfly Effect 蝴蝶效应
-*JAMES GLEICK, Chaos*
+*JAMES GLEICK《Chaos》*
 
 ### 课文原文
 
@@ -666,7 +666,7 @@ agent n.情报人员
 ---
 
 ## Lesson 16 The modern city 现代城市
-*ALEXIS CARREL Man, the Unknown*
+*ALEXIS CARREL《Man, the Unknown》*
 
 ### 课文原文
 
@@ -708,7 +708,7 @@ throng v.挤满，壅塞
 ---
 
 ## Lesson 17 A man-made disease 人为的疾病
-*RITCHIE CALDER Science Makes Sense*
+*RITCHIE CALDER《Science Makes Sense》*
 
 ### 课文原文
 
@@ -757,7 +757,7 @@ domesticate v.驯养
 ---
 
 ## Lesson 18 Porpoises 海豚
-*RALPH NADING HILL Window in the Sea*
+*RALPH NADING HILL《Window in the Sea》*
 
 ### 课文原文
 
@@ -844,7 +844,7 @@ implication n. 表明
 ---
 
 ## Lesson 20 Snake poison 蛇
-*JOHN CROMPTON The snake*
+*JOHN CROMPTON《The snake》*
 
 ### 课文原文
 
@@ -903,7 +903,7 @@ viperine adj. 毒蛇
 ---
 
 ## Lesson 21 Williams S.Hart and the early 'Western' film
-*CARL FOREMAN Virtue and a Fast Gun from The Observer*
+*CARL FOREMAN《Virtue and a Fast Gun》from《The Observer》*
 
 ### 课文原文
 
@@ -994,7 +994,7 @@ twofold adj. 双重的
 ---
 
 ## Lesson 23 Bird flight 鸟的飞行方法
-*WILLIAM BEACH THOMAS A Countryman's Creed*
+*WILLIAM BEACH THOMAS《A Countryman's Creed》*
 
 ### 课文原文
 
@@ -1032,7 +1032,7 @@ omen n. 预兆
 ---
 
 ## Lesson 24 Beauty 美
-*C. E. M. JOAD Pieces of mind, 1961*
+*C. E. M. JOAD《Pieces of mind》, 1961*
 
 ### 课文原文
 
@@ -1070,7 +1070,7 @@ invest v. 赋予
 ---
 
 ## Lesson 25 Non-auditory effects of noise
-*D.E.BROADBENT Non-auditory effects of noise from Science Survey*
+*D.E.BROADBENT《Non-auditory effects of noise》from《Science Survey》*
 
 ### 课文原文
 
@@ -1115,7 +1115,7 @@ orphanage n. 孤儿院
 ---
 
 ## Lesson 26 The past life of the earth 地球上的昔日生命
-*ERROL WHITE The past life of the earth from Discovery*
+*ERROL WHITE《The past life of the earth》from《Discovery》*
 
 ### 课文原文
 
@@ -1147,7 +1147,7 @@ bogged adj. 陷入泥沼的，陷入要困境的
 ---
 
 ## Lesson 27 The 'Vasa' ＂瓦萨＂号
-*ROY SAUNGERS The Raising of the 'Vasa' from The Listener*
+*ROY SAUNGERS《The Raising of the 'Vasa'》from《The Listener》*
 
 
 ### 课文原文
@@ -1213,7 +1213,7 @@ Baltic n.波罗的海
 
 ---
 ## Lesson 28 Patients and doctors 病人与医生
-*KENNETH WALKER Patients and doctors*
+*KENNETH WALKER《Patients and doctors》*
 
 ### 课文原文
 
@@ -1253,7 +1253,7 @@ inconvenience n. 不便
 ---
 
 ## Lesson 29 The hovercraft 气垫船
-*EGON LARSEN The Pegasus Book of Inventors*
+*EGON LARSEN《The Pegasus Book of Inventors》*
 
 ### 课文原文
 
@@ -1341,7 +1341,7 @@ erode v. 侵蚀
 ---
 
 ## Lesson 31 The sculptor speaks 雕塑家的语言
-*HENRY MOORE The Sculptor Speaks from The Listener*
+*HENRY MOORE《The Sculptor Speaks》from《The Listener》*
 
 
 ### 课文原文
@@ -1383,7 +1383,7 @@ bulrush n. 芦苇
 
 ---
 ## Lesson 32 Galileo reborn 伽利略的复生
-*MICHAEL HOSKIN Galileo Reborn from The Listener*
+*MICHAEL HOSKIN《Galileo Reborn》from《The Listener》*
 
 
 ### 课文原文
@@ -1430,7 +1430,7 @@ distort v. 歪曲
 
 ---
 ## Lesson 33 Education 教育
-*JULIUS E. LIPS The Origin of Things*
+*JULIUS E. LIPS《The Origin of Things》*
 
 ### 课文原文
 
@@ -1475,7 +1475,7 @@ delinquency n. 犯罪
 ---
 
 ## Lesson 34 Adolescence 青春期
-*DOTID OFLUM Journey Through Adolescence*
+*DOTID OFLUM《Journey Through Adolescence》*
 
 ### 课文原文
 
@@ -1574,7 +1574,7 @@ canyon n. 峡谷
 ---
 
 ## Lesson 36 The cost of government 政府的开支
-*RAYMOND FROST The Backward Society*
+*RAYMOND FROST《The Backward Society》*
 
 ### 课文原文
 
@@ -1619,7 +1619,7 @@ unduly adv. 过度地
 ---
 
 ## Lesson 37 The process of ageing 衰老过程
-*ALEX COMPORT The process of ageing*
+*ALEX COMPORT《The process of ageing》*
 
 ### 课文原文
 
@@ -1659,7 +1659,7 @@ friction n. 摩擦
 ---
 
 ## Lesson 38 Water and the traveller 水和旅行者
-*RICHARD DAWOOD Travellers' Health*
+*RICHARD DAWOOD《Travellers' Health》*
 
 ### 课文原文
 
@@ -1709,7 +1709,7 @@ methylated adj. 加入甲醇的
 ---
 
 ## Lesson 39 What every writer wants 作家之所需
-*JOHN LE CARRE What every writer wants from Harper's*
+*JOHN LE CARRE《What every writer wants》from《Harper's》*
 
 ### 课文原文
 
@@ -1813,7 +1813,7 @@ gravitational adj. 地心吸力的
 ---
 
 ## Lesson 41 Training elephants 训练大象
-*RICHARD CARRINGTON Elephants*
+*RICHARD CARRINGTON《Elephants》*
 
 ### 课文原文
 
@@ -1919,7 +1919,7 @@ transverse adj. 横向的
 ---
 
 ## Lesson 43 Are there strangers in space? 宇宙中有外星人吗？
-*ANTHONY MICHAELIS Are There Strangers in Space? from The Weekend Telegraph*
+*ANTHONY MICHAELIS《Are There Strangers in Space?》from《The Weekend Telegraph》*
 
 ### 课文原文
 
@@ -1970,7 +1970,7 @@ rendezvous n. 约会地点
 ---
 
 ## Lesson 44 Patterns of culture 文化的模式
-*RUTH BENEDICT Patterns of Culture*
+*RUTH BENEDICT《Patterns of Culture》*
 
 ### 课文原文
 
@@ -2031,7 +2031,7 @@ supernatural adj. 超自然的
 ---
 
 ## Lesson 45 Of men and galaxies 人生星系
-*FRED HOYLE Of Men and Galaxies*
+*FRED HOYLE《Of Men and Galaxies》*
 
 ### 课文原文
 
@@ -2075,7 +2075,7 @@ original adj.有独到见解的
 ---
 
 ## Lesson 46 Hobbies 业余爱好
-*WINSTON CHURCHILL Painting as a Pastime*
+*WINSTON CHURCHILL《Painting as a Pastime》*
 
 ### 课文原文
 
@@ -2136,7 +2136,7 @@ banish v. 排除，放弃
 ---
 
 ## Lesson 47 The great escape 大逃亡
-*NIGEL BUXTON The Great Escape from The Weekend Telegraph*
+*NIGEL BUXTON《The Great Escape》from《The Weekend Telegraph》*
 
 ### 课文原文
 

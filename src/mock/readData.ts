@@ -6292,7 +6292,7 @@ const articleNce4L1: Article = {
     ],
 
 
-  attribution: 'ROBIN PLACE Finding fossil man',
+  attribution: 'ROBIN PLACE《Finding fossil man》',
     original: {
     paragraphs: [
       [
@@ -6390,7 +6390,7 @@ const articleNce4L3: Article = {
     ],
 
 
-  attribution: 'WALTER UNSWORTH Matterhorn Man',
+  attribution: 'WALTER UNSWORTH《Matterhorn Man》',
     original: {
     paragraphs: [
       [
@@ -6449,7 +6449,7 @@ const articleNce4L4: Article = {
     ],
 
 
-  attribution: 'ERIC DE MAUNY Seeing hands from The Listener',
+  attribution: 'ERIC DE MAUNY《Seeing hands》from《The Listener》',
     original: {
         paragraphs: [
       [
@@ -6496,7 +6496,7 @@ const articleNce4L6: Article = {
     ],
 
 
-  attribution: 'GEORGE ORWELL The sporting spirit',
+  attribution: 'GEORGE ORWELL《The sporting spirit》',
     original: {
     paragraphs: [
       [
@@ -6549,7 +6549,7 @@ const articleNce4L7: Article = {
     ],
 
 
-  attribution: 'MAURICE BURTON Curiosities of animal life',
+  attribution: 'MAURICE BURTON《Curiosities of animal life》',
     original: {
     paragraphs: [
       [
@@ -6606,7 +6606,7 @@ const articleNce4L8: Article = {
     ],
 
 
-  attribution: 'from The Economist, 1997',
+  attribution: 'from《The Economist》, 1997',
     original: {
     paragraphs: [
       [
@@ -6664,7 +6664,7 @@ const articleNce4L11: Article = {
     ],
 
 
-  attribution: 'BERTRAND RUSSELL How to grow old from Portraits from Memory',
+  attribution: 'BERTRAND RUSSELL《How to grow old》from《Portraits from Memory》',
     original: {
     paragraphs: [
       [
@@ -6715,7 +6715,7 @@ const articleNce4L13: Article = {
     ],
 
 
-  attribution: "T. F. GASKELL The Search for the Earth's Minerals from Discovery",
+  attribution: "T. F. GASKELL《The Search for the Earth's Minerals》from《Discovery》",
     original: {
     paragraphs: [
       [
@@ -6815,7 +6815,7 @@ const articleNce4L16: Article = {
     ],
 
 
-  attribution: 'ALEXIS CARREL Man, the Unknown',
+  attribution: 'ALEXIS CARREL《Man, the Unknown》',
     original: {
     paragraphs: [
       [
@@ -6872,7 +6872,7 @@ const articleNce4L18: Article = {
     ],
 
 
-  attribution: 'RALPH NADING HILL Window in the Sea',
+  attribution: 'RALPH NADING HILL《Window in the Sea》',
     original: {
     paragraphs: [
       [
@@ -6948,7 +6948,7 @@ const articleNce4L21: Article = {
     ],
 
 
-  attribution: 'CARL FOREMAN Virtue and a Fast Gun from The Observer',
+  attribution: 'CARL FOREMAN《Virtue and a Fast Gun》from《The Observer》',
     original: {
     paragraphs: [
       [
@@ -7070,7 +7070,7 @@ const articleNce4L24: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'C. E. M. JOAD Pieces of mind, 1961',
+  attribution: 'C. E. M. JOAD《Pieces of mind》, 1961',
     original: {
     paragraphs: [
       [
@@ -7121,7 +7121,7 @@ const articleNce4L28: Article = {
     ],
 
 
-  attribution: 'KENNETH WALKER Patients and doctors',
+  attribution: 'KENNETH WALKER《Patients and doctors》',
     original: {
     paragraphs: [
       [
@@ -7237,7 +7237,7 @@ const articleNce4L32: Article = {
     ],
 
 
-  attribution: 'MICHAEL HOSKIN Galileo Reborn from The Listener',
+  attribution: 'MICHAEL HOSKIN《Galileo Reborn》from《The Listener》',
     original: {
         paragraphs: [
       [
@@ -7301,7 +7301,7 @@ const articleNce4L33: Article = {
     ],
 
 
-  attribution: 'JULIUS E. LIPS The Origin of Things',
+  attribution: 'JULIUS E. LIPS《The Origin of Things》',
     original: {
     paragraphs: [
       [
@@ -7372,7 +7372,7 @@ const articleNce4L34: Article = {
     ],
 
 
-  attribution: 'DOTID OFLUM Journey Through Adolescence',
+  attribution: 'DOTID OFLUM《Journey Through Adolescence》',
     original: {
     paragraphs: [
       [
@@ -7434,7 +7434,7 @@ const articleNce4L37: Article = {
     ],
 
 
-  attribution: 'ALEX COMPORT The process of ageing',
+  attribution: 'ALEX COMPORT《The process of ageing》',
     original: {
     paragraphs: [
       [
@@ -7496,7 +7496,7 @@ const articleNce4L44: Article = {
     ],
 
 
-  attribution: 'RUTH BENEDICT Patterns of Culture',
+  attribution: 'RUTH BENEDICT《Patterns of Culture》',
     original: {
     paragraphs: [
       [
@@ -7578,7 +7578,7 @@ const articleNce4L46: Article = {
     ],
 
 
-  attribution: 'WINSTON CHURCHILL Painting as a Pastime',
+  attribution: 'WINSTON CHURCHILL《Painting as a Pastime》',
     original: {
     paragraphs: [
       [
@@ -7739,7 +7739,7 @@ const articleNce4L5: Article = {
       [2,1,0,0,1,2,3,1,2],
     ],
 
-  attribution: 'SAMUEL ULLMAN Youth, 1917',
+  attribution: 'SAMUEL ULLMAN《Youth》, 1917',
   original: {
     paragraphs: [
       [
@@ -7800,7 +7800,7 @@ const articleNce4L9: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'BERNARD NEWMAN Spies in Britain',
+  attribution: 'BERNARD NEWMAN《Spies in Britain》',
   original: {
     paragraphs: [
       [
@@ -7846,7 +7846,7 @@ const articleNce4L10: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'US NEWS AND WORLD REPORT, October 2, 1989',
+  attribution: '《US NEWS AND WORLD REPORT》, October 2, 1989',
   original: {
     paragraphs: [
       [
@@ -7887,7 +7887,7 @@ const articleNce4L12: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'GORDON BARRIE and AUBREY L. DLAMOND The Consumer Society and the Law',
+  attribution: 'GORDON BARRIE and AUBREY L. DLAMOND《The Consumer Society and the Law》',
   original: {
     paragraphs: [
       [
@@ -7922,7 +7922,7 @@ const articleNce4L14: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'JAMES GLEICK, Chaos',
+  attribution: 'JAMES GLEICK《Chaos》',
   original: {
     paragraphs: [
       [
@@ -7963,7 +7963,7 @@ const articleNce4L17: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'RITCHIE CALDER Science Makes Sense',
+  attribution: 'RITCHIE CALDER《Science Makes Sense》',
   original: {
     paragraphs: [
       [
@@ -8030,7 +8030,7 @@ const articleNce4L20: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'JOHN CROMPTON The snake',
+  attribution: 'JOHN CROMPTON《The snake》',
   original: {
     paragraphs: [
       [
@@ -8078,7 +8078,7 @@ const articleNce4L23: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'WILLIAM BEACH THOMAS A Countryman\'s Creed',
+  attribution: 'WILLIAM BEACH THOMAS《A Countryman\'s Creed》',
   original: {
     paragraphs: [
       [
@@ -8115,7 +8115,7 @@ const articleNce4L25: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'D.E.BROADBENT Non-auditory effects of noise from Science Survey',
+  attribution: 'D.E.BROADBENT《Non-auditory effects of noise》from《Science Survey》',
   original: {
     paragraphs: [
       [
@@ -8160,7 +8160,7 @@ const articleNce4L26: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'ERROL WHITE The past life of the earth from Discovery',
+  attribution: 'ERROL WHITE《The past life of the earth》from《Discovery》',
   original: {
     paragraphs: [
       [
@@ -8201,7 +8201,7 @@ const articleNce4L27: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: "ROY SAUNGERS The Raising of the 'Vasa' from The Listener",
+  attribution: "ROY SAUNGERS《The Raising of the 'Vasa'》from《The Listener》",
   original: {
         paragraphs: [
       [
@@ -8245,7 +8245,7 @@ const articleNce4L29: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'EGON LARSEN The Pegasus Book of Inventors',
+  attribution: 'EGON LARSEN《The Pegasus Book of Inventors》',
   original: {
     paragraphs: [
       [
@@ -8287,7 +8287,7 @@ const articleNce4L31: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'HENRY MOORE The Sculptor Speaks from The Listener',
+  attribution: 'HENRY MOORE《The Sculptor Speaks》from《The Listener》',
   original: {
         paragraphs: [
       [
@@ -8386,7 +8386,7 @@ const articleNce4L36: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'RAYMOND FROST The Backward Society',
+  attribution: 'RAYMOND FROST《The Backward Society》',
   original: {
     paragraphs: [
       [
@@ -8432,7 +8432,7 @@ const articleNce4L38: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'RICHARD DAWOOD Travellers\' Health',
+  attribution: 'RICHARD DAWOOD《Travellers\' Health》',
   original: {
     paragraphs: [
       [
@@ -8486,7 +8486,7 @@ const articleNce4L39: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'JOHN LE CARRE What every writer wants from Harper\'s',
+  attribution: 'JOHN LE CARRE《What every writer wants》from《Harper\'s》',
   original: {
     paragraphs: [
       [
@@ -8578,7 +8578,7 @@ const articleNce4L41: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'RICHARD CARRINGTON Elephants',
+  attribution: 'RICHARD CARRINGTON《Elephants》',
   original: {
     paragraphs: [
       [
@@ -8700,7 +8700,7 @@ const articleNce4L43: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'ANTHONY MICHAELIS Are There Strangers in Space? from The Weekend Telegraph',
+  attribution: 'ANTHONY MICHAELIS《Are There Strangers in Space?》from《The Weekend Telegraph》',
   original: {
     paragraphs: [
       [
@@ -8757,7 +8757,7 @@ const articleNce4L45: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'FRED HOYLE Of Men and Galaxies',
+  attribution: 'FRED HOYLE《Of Men and Galaxies》',
   original: {
     paragraphs: [
       [
@@ -8815,7 +8815,7 @@ const articleNce4L47: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'NIGEL BUXTON The Great Escape from The Weekend Telegraph',
+  attribution: 'NIGEL BUXTON《The Great Escape》from《The Weekend Telegraph》',
   original: {
     paragraphs: [
       [
