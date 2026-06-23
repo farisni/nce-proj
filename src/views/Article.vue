@@ -266,8 +266,8 @@ function segClass(seg: Segment): string {
 
   &:last-child { border-bottom: none; }
 }
-.vocab-word { font-weight: 500; font-size: 0.9rem; color: var(--color-text); }
-.vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; }
+.vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'Poppins', sans-serif; }
+.vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'Poppins', sans-serif; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); }
 
 .panel-enter-active, .panel-leave-active { transition: all 0.25s ease; }
