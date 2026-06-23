@@ -74,7 +74,7 @@ function goArticle(id: string) {
   }
 
   // 交替配色 + 角度
-  &:nth-child(even) {
+  &:nth-child(2n+1) {
     background: #cfc;
     transform: rotate(3.5deg);
     top: 4px;
@@ -86,7 +86,7 @@ function goArticle(id: string) {
     top: -4px;
   }
 
-  &:nth-child(4n) {
+  &:nth-child(5n) {
     background: #d4eafc;
     transform: rotate(1.5deg);
     top: -2px;
