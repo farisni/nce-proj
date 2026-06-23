@@ -288,7 +288,13 @@ function segClass(seg: Segment): string {
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .article-notes { margin-bottom: 24px; }
 .note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
-.note-label { font-size: 1rem; font-weight: 400; color: #333; margin-right: 6px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
+.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; margin-right: 8px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
+/* 莫兰迪色系轮换 */
+.note-item:nth-child(5n+1) .note-label { background: #ede8e3; }
+.note-item:nth-child(5n+2) .note-label { background: #e3e8ed; }
+.note-item:nth-child(5n+3) .note-label { background: #e8ede3; }
+.note-item:nth-child(5n+4) .note-label { background: #ede3e8; }
+.note-item:nth-child(5n+5) .note-label { background: #e8e3ed; }
 .note-body { color: #666; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 20px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
