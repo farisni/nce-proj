@@ -133,19 +133,19 @@ function goBack() {
           <el-form label-width="100px" label-position="left" size="default">
             <el-form-item label="ID">
                 <template v-if="editingMetaFields.has('id')">
-                  <el-input v-model="editArticle.id" @blur="stopMetaEdit('id')" @keyup.enter="stopMetaEdit('id')" autofocus />
+                  <el-input v-model="editArticle.id" class="meta-auto-input" @blur="stopMetaEdit('id')" @keyup.enter="stopMetaEdit('id')" autofocus />
                 </template>
                 <span v-else class="cell-text" @dblclick="startMetaEdit('id')">{{ editArticle.id || '—' }}</span>
               </el-form-item>
             <el-form-item label="英文标题">
                 <template v-if="editingMetaFields.has('title')">
-                  <el-input v-model="editArticle.title" @blur="stopMetaEdit('title')" @keyup.enter="stopMetaEdit('title')" autofocus />
+                  <el-input v-model="editArticle.title" class="meta-auto-input" @blur="stopMetaEdit('title')" @keyup.enter="stopMetaEdit('title')" autofocus />
                 </template>
                 <span v-else class="cell-text" @dblclick="startMetaEdit('title')">{{ editArticle.title || '—' }}</span>
               </el-form-item>
             <el-form-item label="中文标题">
                 <template v-if="editingMetaFields.has('titleCn')">
-                  <el-input v-model="editArticle.titleCn" @blur="stopMetaEdit('titleCn')" @keyup.enter="stopMetaEdit('titleCn')" autofocus />
+                  <el-input v-model="editArticle.titleCn" class="meta-auto-input" @blur="stopMetaEdit('titleCn')" @keyup.enter="stopMetaEdit('titleCn')" autofocus />
                 </template>
                 <span v-else class="cell-text" @dblclick="startMetaEdit('titleCn')">{{ editArticle.titleCn || '—' }}</span>
               </el-form-item>
