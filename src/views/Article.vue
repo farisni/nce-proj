@@ -1,5 +1,17 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+/**
+ * Article.vue — 文章阅读页
+ * 
+ * 数据流：URL :id → articles[id] (SentenceData[][]) → 逐句渲染
+ * - 每个句子拆成 Segment[]，标记谓语/从句引导词/行间笔记
+ * - 谓语 → 橘红字体 (.predicate-mark)
+ * - 从句引导词 → 斜体加粗 (.clause-mark)
+ * - 行间笔记 → <ruby> 元素显示在词下方
+ * - 点击羽毛图标 → 展开/收起评论面板 + 聚光灯效果
+ * - 右侧词汇表 → 单击切换音节拆分
+ */
+
+import { ref, computed } from 'vue' 
 import { articles, articleMetas } from '../mock/readData'
 import { useRoute } from 'vue-router'
 
@@ -26,6 +38,13 @@ interface Segment {
   noteText?: string
 }
 
+/**
+ * 将句子文字 + 语法标注 → Segment[]
+ * 1) 谓语词 → predicate 标记
+ * 2) 从句引导词 → clause 标记（要求词边界匹配）
+ * 3) 行间笔记短语 → noteText 标记（大小写不敏感子串匹配）
+ * 最后合并相邻同类 Segment
+ */
 function markWords(
   sentence: string,
   predicates: string[],
@@ -94,6 +113,7 @@ function markWords(
   return merged
 }
 
+// 核心数据：每段 → 每句 → Segment[]，用于模板逐句渲染
 const originalSentences = computed(() =>
   article.value.original.paragraphs.map((para) =>
     para.map((sd, sIdx) => ({
@@ -121,6 +141,18 @@ function segClass(seg: Segment): string {
 </script>
 
 <template>
+  <!-- 
+    页面结构：
+    1. spotlight-overlay — 聚光灯遮罩（点击关闭）
+    2. main-content
+       ├─ article-section 1: 英文原文 + 词汇侧栏
+       │   ├─ nav-buttons — ← Lesson N / Lesson N →
+       │   ├─ article-title + Heatmap
+       │   ├─ paragraph-wrapper (.paragraph) — 逐句渲染
+       │   │   └─ sentence-inline (.spotlight 聚光灯) + sentence-panel
+       │   └─ section-side (.vocab-list) — 词汇表
+       └─ article-section 2: 全文翻译
+  -->
   <div class="reading-page">
     <div v-if="activeKey" class="spotlight-overlay" @click="activeKey = ''"></div>
 
