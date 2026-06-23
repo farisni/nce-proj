@@ -482,7 +482,7 @@ function goBack() {
 .edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-word-input { padding: 1px 6px !important; font-size: 1rem !important; font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
 .ntd-combined { display: flex; align-items: center; gap: 4px; }
-.pos-prefix { font-size: 0.75rem; color: #37352f; white-space: nowrap; }
+.pos-prefix { font-size: 0.75rem; color: #37352f; white-space: nowrap; display: inline-block; width: 2.5em; text-align: right; }
 .vocab-word-preview { font-family: "MiSans Latin Regular", "LXGW WenKai", "PingFang SC", serif !important; }
 .cell-text.readonly { cursor: default; color: #37352f; }
 .cell-text.readonly:hover { background: transparent; border-color: transparent; }
