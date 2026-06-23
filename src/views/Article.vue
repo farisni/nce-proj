@@ -189,9 +189,8 @@ function segClass(seg: Segment): string {
 
             <!-- 文章标题：L课号 + 标签 + 标题 + 热力图 -->
             <h1 class="article-title">
-              <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></span>
+              <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template><img :src="editIcon" class="edit-icon" title="编辑文章" @click.stop="$router.push({ name: 'editArticle', params: { id: currentMeta?.id } })" /></span>
               <Heatmap v-if="currentMeta?.heatmap" :data="currentMeta.heatmap" />
-              <img :src="editIcon" class="edit-icon" title="编辑文章" @click.stop="$router.push({ name: 'editArticle', params: { id: currentMeta?.id } })" />
             </h1>
             <!-- 段落 → 句子渲染：span.sentence-inline（高亮 + 羽毛图标）+ transition 笔记面板 -->
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
