@@ -424,7 +424,7 @@ function goBack() {
 .cell-text { display: flex; align-items: center; padding: 0 12px; min-height: 32px; cursor: pointer; color: #37352f; border-radius: 3px; border: 1px solid transparent; }
 .cell-text:hover { background: #f1f1f1; border-color: #e3e2e0; }
 .ntd-cell .cell-text { min-height: unset; padding: 4px 6px; border: none; border-radius: 3px; display: block; font-size: 0.85rem; font-family: 'MiSans Latin Light', 'LXGW WenKai', 'PingFang SC', serif; }
-.vocab-word-preview { min-height: unset; padding: 4px 6px; border: none; border-radius: 3px; display: block; font-size: 0.85rem; }
+.vocab-word-preview { min-height: unset; padding: 1px 6px; border: none; border-radius: 3px; display: block; font-size: 1rem !important; line-height: 1.3; }
 
 // Sentence border colors
 .grammar-sentence:nth-child(1) .grammar-sentence-text { border-left-color: #f0c040; }
@@ -480,12 +480,12 @@ function goBack() {
 .text-en-ta :deep(textarea) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif !important; }
 /* 词汇表 MiSans Latin Light */
 .edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
-.vocab-word-input { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
+.vocab-word-input { padding: 1px 6px !important; font-size: 1rem !important; font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
 .ntd-combined { display: flex; align-items: center; gap: 4px; }
 .pos-prefix { font-size: 0.75rem; color: #37352f; white-space: nowrap; }
 .vocab-word-preview { font-family: "MiSans Latin Regular", "LXGW WenKai", "PingFang SC", serif !important; }
 .cell-text.readonly { cursor: default; color: #37352f; }
 .cell-text.readonly:hover { background: transparent; border-color: transparent; }
-.phonetic-input, .phonetic-preview { font-family: 'Noto Sans', sans-serif; }
+.phonetic-input, .phonetic-preview { font-family: 'Noto Sans', sans-serif !important; font-weight: 300; }
 </style>
 
