@@ -4,6 +4,19 @@ import { useRoute, useRouter } from 'vue-router'
 import { articles, articleMetas, type Article, type ArticleMeta } from '../mock/readData'
 import { ElMessage } from 'element-plus'
 
+const sentencePattern = /([^.!?。！？]+[.!?。！？]+)/g
+
+function splitSentences(paragraph: string): string[] {
+  const matches = paragraph.match(sentencePattern)
+  if (!matches || matches.length === 0) return [paragraph]
+  return matches.map(s => s.trim()).filter(Boolean)
+}
+
+function getSentences(pIdx: number): string[] {
+  if (!editArticle.value) return []
+  return splitSentences(editArticle.value.original.paragraphs[pIdx] || '')
+}
+
 const route = useRoute()
 const router = useRouter()
 
@@ -245,6 +258,7 @@ function goBack() {
                 <div class="grammar-sentence-head">
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
                 </div>
+                <div class="grammar-sentence-text">{{ getSentences(pIdx)[sIdx] || '(无文本)' }}</div>
                 
                 <!-- Predicates -->
                 <div class="grammar-field">
@@ -454,6 +468,21 @@ function goBack() {
   background: #fafaf8; border-radius: 6px;
 }
 .grammar-sentence-head { margin-bottom: 10px; }
+.grammar-sentence-text {
+  font-size: 0.85rem; color: #1a1a1a; font-weight: 500;
+  margin-bottom: 12px; padding: 6px 10px; background: #fff; border-radius: 4px;
+  border-left: 3px solid #e3e2e0; line-height: 1.5;
+}
+.grammar-sentence:nth-child(1) .grammar-sentence-text { border-left-color: #f0c040; }
+.grammar-sentence:nth-child(2) .grammar-sentence-text { border-left-color: #7bc87b; }
+.grammar-sentence:nth-child(3) .grammar-sentence-text { border-left-color: #6b8fce; }
+.grammar-sentence:nth-child(4) .grammar-sentence-text { border-left-color: #6db8d4; }
+.grammar-sentence:nth-child(5) .grammar-sentence-text { border-left-color: #e898a8; }
+.grammar-sentence:nth-child(6) .grammar-sentence-text { border-left-color: #d4a060; }
+.grammar-sentence:nth-child(7) .grammar-sentence-text { border-left-color: #8cb88c; }
+.grammar-sentence:nth-child(8) .grammar-sentence-text { border-left-color: #7e9ed4; }
+.grammar-sentence:nth-child(9) .grammar-sentence-text { border-left-color: #7cc8d8; }
+.grammar-sentence:nth-child(10) .grammar-sentence-text { border-left-color: #e8a8b4; }
 .grammar-sentence-label { font-size: 0.85rem; font-weight: 600; color: #1a1a1a; }
 .grammar-field { margin-bottom: 12px; }
 .grammar-field-label { display: block; font-size: 0.75rem; color: #9b9a97; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
