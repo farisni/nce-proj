@@ -173,7 +173,7 @@ function goBack() {
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
                   <el-button type="danger" size="small" text @click="removeSentence(pIdx, sIdx)">删除</el-button>
                 </div>
-                <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" class="text-en" />
+                <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" textarea-style="font-family:Merriweather,Georgia,serif;font-size:1.05rem" />
                 <el-input v-model="sd.translation" type="textarea" :rows="1" placeholder="翻译" />
               </div>
               <el-button class="add-btn" size="small" @click="addSentence(pIdx)">+ 添加句子</el-button>
@@ -420,7 +420,6 @@ function goBack() {
 :deep(.el-input__wrapper:hover) { border-color: #b4b3b0; }
 :deep(.el-input.is-focus .el-input__wrapper) { border-color: #2383e2; box-shadow: 0 0 0 1px rgba(35,131,226,0.2) !important; }
 :deep(.el-textarea__inner) { border-color: #e3e2e0; border-radius: 4px; font-size: 0.9rem; }
-.text-en :deep(.el-textarea__inner) { font-family: 'Merriweather', Georgia, serif; font-size: 1.05rem; }
 :deep(.el-textarea__inner:focus) { border-color: #2383e2; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
 :deep(.el-select .el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; }
 :deep(.el-input-number .el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; }
