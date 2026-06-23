@@ -2,7 +2,7 @@
 import { ref, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { articles, type Article, type SentenceData } from '../mock/readData'
-import { ElMessage, ElMessageBox } from 'element-plus'
+import { ElMessage } from 'element-plus'
 
 const route = useRoute()
 const router = useRouter()
@@ -79,16 +79,6 @@ function addNote(pIdx: number, sIdx: number) {
   }
 }
 
-async function confirmDeleteNote(pIdx: number, sIdx: number, nIdx: number) {
-  try { await ElMessageBox.confirm('确定删除？', '提示', { confirmButtonText: '确定', cancelButtonText: '取消', type: 'warning' })
-    editArticle.value?.original.paragraphs[pIdx]?.[sIdx]?.notes?.splice(nIdx, 1)
-  } catch {}
-}
-async function confirmDeletePanelNote(pIdx: number, sIdx: number, nIdx: number) {
-  try { await ElMessageBox.confirm('确定删除？', '提示', { confirmButtonText: '确定', cancelButtonText: '取消', type: 'warning' })
-    editArticle.value?.original.paragraphs[pIdx]?.[sIdx]?.panelNotes?.splice(nIdx, 1)
-  } catch {}
-}
 function addPanelNote(pIdx: number, sIdx: number) {
   const sent = editArticle.value?.original.paragraphs[pIdx]?.[sIdx]
   if (sent) {
@@ -282,7 +272,7 @@ function goBack() {
                     </el-table-column>
                     <el-table-column label="操作" width="80">
                       <template #default="{ $index }">
-<span class="del-btn" @click="confirmDeleteNote(pIdx, sIdx, $index)">删除</span>
+<el-popconfirm title="确定删除？" @confirm="sd.notes!.splice($index, 1)"><template #reference><span class="del-btn">删除</span></template></el-popconfirm>
                       </template>
                     </el-table-column>
                   </el-table>
@@ -311,7 +301,7 @@ function goBack() {
                     </el-table-column>
                     <el-table-column label="操作" width="80">
                       <template #default="{ $index }">
-<span class="del-btn" @click="confirmDeletePanelNote(pIdx, sIdx, $index)">删除</span>
+<el-popconfirm title="确定删除？" @confirm="sd.panelNotes!.splice($index, 1)"><template #reference><span class="del-btn">删除</span></template></el-popconfirm>
                       </template>
                     </el-table-column>
                   </el-table>
@@ -372,6 +362,7 @@ function goBack() {
 .del-btn { color: #888; font-size: 0.75rem; cursor: pointer; padding: 2px 4px; border-radius: 3px; display: inline-block;
   &:hover { color: #e0552a; background: #fef0f0; }
 }
+:deep(.el-popconfirm__action) { .el-button--primary { font-size: 0.75rem; } }
 
 // Grammar section
 .grammar-para { margin-bottom: 8px; }
