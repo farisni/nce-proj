@@ -129,7 +129,7 @@ function markWords(
 const originalSentences = computed(() =>
   article.value.original.paragraphs.map((para) =>
     para.map((sd, sIdx) => ({
-      segments: markWords(sd.text, sd.predicates, sd.clauseIntroducers, sd.notes ?? []),
+      segments: markWords(sd.text, sd.predicates, sd.clauseIntroducers, sd.rubyNotes ?? []),
       key: sd.text.slice(0, 40) + '-' + sIdx,
       panelNotes: sd.panelNotes ?? [],
     }))
@@ -206,7 +206,7 @@ function segClass(seg: Segment): string {
                       </ruby>
                       <span v-else-if="segClass(seg)" :class="segClass(seg)">{{ seg.text }}</span>
                       <template v-else>{{ seg.text }}</template>
-                    </template><img :src="yumaoIcon" class="sentence-icon" @click.stop="togglePanel(s.key)"
+                    </template><img v-if="s.panelNotes && s.panelNotes.length" :src="yumaoIcon" class="sentence-icon" @click.stop="togglePanel(s.key)"
                   /></span>
                   <!-- 笔记面板：展开时显示 200px 浅绿底 -->
                   <transition name="panel">

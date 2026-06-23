@@ -29,7 +29,7 @@ const articleNce4L1: Article = {
   original: {
     paragraphs: [
 [
-{ text: "We can read of things that happened 5,000 years ago in the Near East, where people first learned to write.", translation: "我们从书籍中可读到5,000 年前近东发生的事情，那里的人最早学会了写字。", predicates: [], clauseIntroducers: [], rubyNotes: [] ,
+{ text: "We can read of things that happened 5,000 years ago in the Near East, where people first learned to write.", translation: "我们从书籍中可读到5,000 年前近东发生的事情，那里的人最早学会了写字。", predicates: ["can"], clauseIntroducers: [], rubyNotes: [{"title":"read of","body":"读到"}] ,
         panelNotes: [    { title: "hand downhand downhand down", body: "把...传下去例句：Many old legends were handed down from generation by mouth. 许多古老的传说都是一代一代口传下来了。" },
     { title: "read of", body: "读到，和 read about 是相同的意思。" },]},
 { text: "But there are some parts of the world where even now people cannot write.", translation: "但直到现在,世界上有些地方，人们还不会书写。", predicates: [], clauseIntroducers: [], rubyNotes: [] },
