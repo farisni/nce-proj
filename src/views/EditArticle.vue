@@ -422,7 +422,7 @@ function goBack() {
 .grammar-tag-input { width: 150px; }
 .grammar-notes-table { margin-bottom: 8px; }
 .cell-text { display: flex; align-items: center; padding: 0 12px; min-height: 32px; cursor: pointer; color: #37352f; border-radius: 3px; border: 1px solid transparent; }
-.cell-text:hover { background: #f1f1f1; border-color: #e3e2e0; }
+.cell-text:hover { background: #fff; border-color: #e3e2e0; }
 .ntd-cell .cell-text { min-height: unset; padding: 4px 6px; border: none; border-radius: 3px; display: block; font-size: 0.85rem; font-family: 'MiSans Latin Light', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-word-preview { min-height: unset; padding: 1px 6px; border: none; border-radius: 3px; display: block; font-size: 1rem !important; line-height: 1.3; }
 
