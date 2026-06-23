@@ -254,8 +254,8 @@ function goBack() {
                 <div class="grammar-field">
                   <span class="grammar-field-label">行间笔记</span>
                   <el-table :data="sd.notes || []" size="small" class="grammar-notes-table" empty-text="暂无笔记">
-                    <el-table-column prop="phrase" label="短语" min-width="140">
-                      <template #default="{ $index }"><el-input v-model="sd.notes![$index].phrase" size="small" placeholder="短语" /></template>
+                    <el-table-column prop="phrase" label="单词 / 短语 / 片段" min-width="140">
+                      <template #default="{ $index }"><el-input v-model="sd.notes![$index].phrase" size="small" placeholder="单词 / 短语 / 片段" /></template>
                     </el-table-column>
                     <el-table-column prop="note" label="笔记" min-width="180">
                       <template #default="{ $index }"><el-input v-model="sd.notes![$index].note" size="small" placeholder="笔记内容" /></template>

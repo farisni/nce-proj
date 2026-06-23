@@ -217,6 +217,7 @@ function segClass(seg: Segment): string {
     width: 18px; height: 18px; margin-left: 6px; margin-right: 4px;
     vertical-align: middle; cursor: pointer; opacity: 0.4; transition: opacity 0.2s;
     &:hover { opacity: 0.8; }
+    .spotlight & { opacity: 1; filter: drop-shadow(0 0 3px rgba(220,180,80,0.6)); }
   }
 }
 
