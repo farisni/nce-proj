@@ -166,6 +166,7 @@ blindfold /ˈblaɪndfoʊld/ adj.& adv. 被蒙上眼睛的
 
 ---
 ## Lesson 5 Youth 青年
+*SAMUEL ULLMAN Youth, 1917*
 
 ### 课文原文
 
@@ -296,6 +297,7 @@ squeak n.尖叫声
 ---
 
 ## Lesson 8 Trading standards 贸易标准
+*from The Economist, 1997*
 
 ### 课文原文
 
@@ -518,6 +520,7 @@ facilitate v.使便利
 ---
 
 ## Lesson 13 The search for oil 探寻石油
+*T. F. GASKELL The Search for the Earth's Minerals from Discovery*
 
 ### 课文原文
 
@@ -1029,6 +1032,7 @@ omen n. 预兆
 ---
 
 ## Lesson 24 Beauty 美
+*C. E. M. JOAD Pieces of mind, 1961*
 
 ### 课文原文
 

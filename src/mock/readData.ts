@@ -6605,6 +6605,8 @@ const articleNce4L8: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'from The Economist, 1997',
     original: {
     paragraphs: [
       [
@@ -6712,6 +6714,8 @@ const articleNce4L13: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: "T. F. GASKELL The Search for the Earth's Minerals from Discovery",
     original: {
     paragraphs: [
       [
@@ -7066,6 +7070,7 @@ const articleNce4L24: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+  attribution: 'C. E. M. JOAD Pieces of mind, 1961',
     original: {
     paragraphs: [
       [
@@ -7734,7 +7739,7 @@ const articleNce4L5: Article = {
       [2,1,0,0,1,2,3,1,2],
     ],
 
-  attribution: 'T.H.GILLESPIE Spare that spider from The Listener',
+  attribution: 'SAMUEL ULLMAN Youth, 1917',
   original: {
     paragraphs: [
       [
