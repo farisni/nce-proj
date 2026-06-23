@@ -430,7 +430,7 @@ function goBack() {
 }
 .ntd-cell { flex-shrink: 0; padding: 4px 6px; display: flex; align-items: center; }
 .ntd-action { justify-content: center; }
-.notion-cell-input { width: 100%; border: 1px solid transparent; background: transparent; padding: 4px 6px; font-size: 0.85rem; font-family: inherit; color: #1a1a1a; border-radius: 3px; outline: none;
+.notion-cell-input { width: 100%; border: 1px solid transparent; background: transparent; padding: 4px 6px; font-size: 0.85rem; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; color: #1a1a1a; border-radius: 3px; outline: none;
   &:focus { border-color: #409EFF; background: #fff; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
   &:hover:not(:focus) { border-color: #e3e2e0; background: #fdfdfc; }
 }
@@ -459,4 +459,6 @@ function goBack() {
 .notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
 .notion-btn-save:hover { background: #337ECC; border-color: #337ECC; color: #fff; }
 .text-en-ta :deep(textarea) { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif; }
+/* 词汇表 MiSans Latin Light */
+.edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 </style>
