@@ -165,13 +165,13 @@ function goBack() {
               <span>{{ showParagraph[pIdx] ? '▾' : '▸' }}</span>
               <span class="para-label">段落 {{ pIdx + 1 }}</span>
               <span class="grammar-meta">{{ para.length }} 句</span>
-              <span v-if="editArticle.original.paragraphs.length > 1" class="del-btn" style="margin-left:auto" @click.stop="removeParagraph(pIdx)">删除段</span>
+              <el-popconfirm v-if="editArticle.original.paragraphs.length > 1" title="确定删除？" @confirm="removeParagraph(pIdx)"><template #reference><span class="del-btn" style="margin-left:auto">删除段</span></template></el-popconfirm>
             </div>
             <div v-if="showParagraph[pIdx]" class="grammar-body">
               <div v-for="(sd, sIdx) in para" :key="'s'+sIdx" class="grammar-sentence">
                 <div class="grammar-sentence-head">
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
-                  <span class="del-btn" @click="removeSentence(pIdx, sIdx)">删除</span>
+                  <el-popconfirm title="确定删除？" @confirm="removeSentence(pIdx, sIdx)"><template #reference><span class="del-btn">删除</span></template></el-popconfirm>
                 </div>
                 <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" />
                 <el-input v-model="sd.translation" type="textarea" :rows="1" placeholder="翻译" />
