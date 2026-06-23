@@ -413,8 +413,8 @@ function goBack() {
 .grammar-sentence-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .grammar-sentence-label { font-size: 0.85rem; font-weight: 600; color: #1a1a1a; }
 .grammar-sentence-text { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; 
-  font-size: 0.85rem; color: #1a1a1a; font-weight: 500; margin-bottom: 12px;
-  padding: 6px 10px; background: #fff; border-radius: 4px; border-left: 3px solid #e3e2e0; line-height: 1.5;
+  font-size: 1rem; color: #1a1a1a; font-weight: 500; margin-bottom: 12px;
+  padding: 6px 10px; background: #fff; border-radius: 0; border-left: 3px solid #e3e2e0; line-height: 1.5;
 }
 .grammar-field { margin-bottom: 12px; }
 .grammar-field-label { display: block; font-size: 0.75rem; color: #6e6e6b; font-weight: 600; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
