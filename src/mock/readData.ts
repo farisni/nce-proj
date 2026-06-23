@@ -7692,7 +7692,7 @@ const articleNce4L48: Article = {
   ],
 }
 
-const article: Article = {
+const articleNce4L5: Article = {
   original: {
     paragraphs: [
       [
@@ -7889,5 +7889,5 @@ export const articles: Record<string, Article> = {
   'nce4-l44': articleNce4L44,
   'nce4-l46': articleNce4L46,
   'nce4-l48': articleNce4L48,
-  'problem-of-youth': article,
+  'problem-of-youth': articleNce4L5,
 }
