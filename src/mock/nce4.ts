@@ -958,20 +958,22 @@ const articleNce4L32: Article = {
     original: {
         paragraphs: [
 [
-{ text: "In his own lifetime Galileo was the centre of violent controversy; but the scientific dust has long since settled, and today we can see even his famous clash with the Inquisition in something like its proper perspective.", translation: "伽利略在世时是激烈论战的中心。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But, in contrast, it is only in modern times that Galileo has become a problem child for historians of science.", translation: "但是，自他逝世以来，那场科学上的纷争早已平息了下来，甚至他和宗教法庭的著名冲突，我们今天也能正确如实地看待。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The old view of Galileo was delightfully uncomplicated.", translation: "但是相比之下，对于科学史家来说，伽利略只是在现代才变成了一个新的难题。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He was, above all, a man who experimented: who despised the prejudices and book learning of the Aristotelians, who put his questions to nature instead of to the ancients, and who drew his conclusions fearlessly.", translation: "令人高兴的是，过去对伽利略的看法并不复杂。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He had been the first to turn a telescope to the sky, and he had seen their evidence enough to overthrow Aristotle and Ptolemy together.", translation: "他首先是个实验工作者，他蔑视亚里士多德学派的偏见和空洞的书本知识。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He was the man who climbed the Leaning Tower of Pisa and dropped various weights from the top, who rolled balls down inclined planes, and then generalized the results of his many experiments into the famous law of free fall.", translation: "他向自然界而不是向古人提出问题，并大胆地得出结论。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But a closer study of the evidence, supported by a deeper sense of the period, and particularly by a new consciousness of the philosophical undercurrents in the scientific revolution, has profoundly modified this view of Galileo.", translation: "他是第一个把望远镜对准天空的人，观察到的论据足以把亚里士多德和托勒密一起推翻。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Today, although the old Galileo lives on in many popular writings, among historians of science a new and more sophisticated picture has emerged.", translation: "他就是那个曾经爬上比萨斜塔，从塔顶向下抛掷各种重物的人；他是那个使球体沿斜面向下滚动，然后将多次实验结果概括成著名的自由落体定律的人。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "At the same time our sympathy for Galileo's opponents has grown somewhat.", translation: "但是，对那个时代的深化了解，尤其是以科学家革命中哲学潜流的新意识为依据，进一步仔细研究，就会极大地改变对伽利略的看法。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "His telescopic observations are justly immortal; they aroused great interest at the time, they had important theoretical consequences, and they provided a striking demonstration of the potentialities hidden in instruments and apparatus.", translation: "今天，虽然已故的伽利略继续活在许多通俗读物中，但在科学史家中间，一个新的更加复杂的伽利略形象出现了。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But can we blame those who looked and failed to see what Galileo saw, if we remember that to use a telescope at the limit of its powers calls for long experience and intimate familiarity with one's instrument?", translation: "与此同时，我们对伽利略的反对派的同情也有所增加。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Was the philosopher who refused to look through Galileo's telescope more culpable than those who alleged that the spiral nebulae observed with Lord Rosse's great telescope in the 1840s were scratches left by the grinder?", translation: "伽利略用望远镜所作的观察确实是不朽的，这些观察当时引起人们极大的兴趣，具有重要的理论意义，并充分显示出了仪表和仪器的潜在力量。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "We can perhaps forgive those who said the moons of Jupiter were produced by Galileo's spyglass if we recall that in his day, as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth; and if a single curved glass would distort nature, how much more would a pair of them?", translation: "但是，如果我们想到，使用一架倍数有限的望远镜需要长期的经验和对自己仪器的熟悉程度，那么我们怎么能去责备观察了天空但没有看到伽利略所看到的东西的那些人呢？", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "MICHAEL HOSKIN Galileo Reborn from The Listener", translation: "某位哲学家曾拒绝使用伽利略的望远镜去观察天空；到了19世纪40年代，有人硬把罗斯勋爵高倍望远镜观测到的螺旋状星云说成是磨镜工留下的磨痕。 难道反对伽利略的哲学家比诋毁罗斯勋爵造谣者应受到更大的谴责吗？ 如果我们回想一下伽利略之前几个世纪期间，曲面镜一直是一种用于产生幻影而不是产生真象的把戏装置，那么我们就会原谅那些当时把伽利略观察到的木星卫星说成是伽利略用他的小望远镜变出来的人们，何况一片曲面镜就可歪曲自然，那么伽利略的两片曲面镜对自然的歪曲又该多大呢？", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "In his own lifetime Galileo was the centre of violent controversy;", translation: "伽利略在世时是激烈论战的中心。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "but the scientific dust has long since settled, and today we can see even his famous clash with the Inquisition in something like its proper perspective.", translation: "但是，自他逝世以来，那场科学上的纷争早已平息了下来，甚至他和宗教法庭的著名冲突，我们今天也能正确如实地看待。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "But, in contrast, it is only in modern times that Galileo has become a problem child for historians of science.", translation: "但是相比之下，对于科学史家来说，伽利略只是在现代才变成了一个新的难题。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The old view of Galileo was delightfully uncomplicated.", translation: "令人高兴的是，过去对伽利略的看法并不复杂。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He was, above all, a man who experimented: who despised the prejudices and book learning of the Aristotelians, who put his questions to nature instead of to the ancients, and who drew his conclusions fearlessly.", translation: "他首先是个实验工作者，他蔑视亚里士多德学派的偏见和空洞的书本知识。他向自然界而不是向古人提出问题，并大胆地得出结论。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He had been the first to turn a telescope to the sky, and he had seen their evidence enough to overthrow Aristotle and Ptolemy together.", translation: "他是第一个把望远镜对准天空的人，观察到的论据足以把亚里士多德和托勒密一起推翻。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He was the man who climbed the Leaning Tower of Pisa and dropped various weights from the top, who rolled balls down inclined planes, and then generalized the results of his many experiments into the famous law of free fall.", translation: "他就是那个曾经爬上比萨斜塔，从塔顶向下抛掷各种重物的人；他是那个使球体沿斜面向下滚动，然后将多次实验结果概括成著名的自由落体定律的人。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "But a closer study of the evidence, supported by a deeper sense of the period, and particularly by a new consciousness of the philosophical undercurrents in the scientific revolution, has profoundly modified this view of Galileo.", translation: "但是，对那个时代的深化了解，尤其是以科学家革命中哲学潜流的新意识为依据，进一步仔细研究，就会极大地改变对伽利略的看法。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Today, although the old Galileo lives on in many popular writings, among historians of science a new and more sophisticated picture has emerged.", translation: "今天，虽然已故的伽利略继续活在许多通俗读物中，但在科学史家中间，一个新的更加复杂的伽利略形象出现了。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "At the same time our sympathy for Galileo's opponents has grown somewhat.", translation: "与此同时，我们对伽利略的反对派的同情也有所增加。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "His telescopic observations are justly immortal;", translation: "伽利略用望远镜所作的观察确实是不朽的，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "they aroused great interest at the time, they had important theoretical consequences, and they provided a striking demonstration of the potentialities hidden in instruments and apparatus.", translation: "这些观察当时引起人们极大的兴趣，具有重要的理论意义，并充分显示出了仪表和仪器的潜在力量。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "But can we blame those who looked and failed to see what Galileo saw, if we remember that to use a telescope at the limit of its powers calls for long experience and intimate familiarity with one's instrument?", translation: "但是，如果我们想到，使用一架倍数有限的望远镜需要长期的经验和对自己仪器的熟悉程度，那么我们怎么能去责备观察了天空但没有看到伽利略所看到的东西的那些人呢？", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Was the philosopher who refused to look through Galileo's telescope more culpable than those who alleged that the spiral nebulae observed with Lord Rosse's great telescope in the 1840s were scratches left by the grinder?", translation: "某位哲学家曾拒绝使用伽利略的望远镜去观察天空；到了19世纪40年代，有人硬把罗斯勋爵高倍望远镜观测到的螺旋状星云说成是磨镜工留下的磨痕。难道反对伽利略的哲学家比诋毁罗斯勋爵造谣者应受到更大的谴责吗？", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "We can perhaps forgive those who said the moons of Jupiter were produced by Galileo's spyglass if we recall that in his day, as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth;", translation: "如果我们回想一下伽利略之前几个世纪期间，曲面镜一直是一种用于产生幻影而不是产生真象的把戏装置，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "and if a single curved glass would distort nature, how much more would a pair of them?", translation: "那么我们就会原谅那些当时把伽利略观察到的木星卫星说成是伽利略用他的小望远镜变出来的人们，何况一片曲面镜就可歪曲自然，那么伽利略的两片曲面镜对自然的歪曲又该多大呢？", predicates: [], clauseIntroducers: [], notes: [] },
 ]
 ],
   },
@@ -1025,26 +1027,28 @@ const articleNce4L33: Article = {
 { text: "Education is one of the key words of our time.", translation: "教育是我们这个时代的关键词之一。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "A man without an education, many of us believe, is an unfortunate victim of adverse circumstances, deprived of one of the greatest twentieth-century opportunities.", translation: "我们许多人都相信，一个没有受过教育的人，是逆境的牺牲品，被剥夺了20世纪的最优越的机会之一。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Convinced of the importance of education, modern states 'invest' in institutions of learning to get back 'interest' in the form of a large group of enlightened young men and women who are potential leaders.", translation: "现代国家深深懂得教育的重要性，对教育机构投资，收回的‘利息’便是培养出大批有知识的男女青年，这些人可能成为未来的栋梁。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Education, with its cycles of instruction so carefully worked out, punctuated by textbooks -- those purchasable wells of wisdom - what would civilization be like without its benefits?", translation: "教育，以其教学周期如此精心地安排，并以教科书 -- 那些可以买到的智慧源泉 -- 予以强化，如果不受其惠，文明将会是个什么样子呢？ 至少，这些是可以肯定的：虽然我们还会有医生和牧师、律师和被告、婚姻和生育，但人们的精神面貌将是另一个样子。 人们不会重视‘资料和数据’，而靠好记性、实用心理学与同伴相处的能力。 如果我们的教育制度仿效没有书籍的古代教育，我们的学院将具有可以想象得出的最民主的形式了。 在部落中，通过传统继承的知识为所有人共享，并传授给部落中的每一个成员。 从这个意义上讲，人人受到的有关生活本领的教育是相等的。 这就是我们最进步的现代教育试图恢复的“平等起步”的理想状况。 在原始文化中，寻求和接受传统教育的义务对全民都有约束力。 因而没有“文盲”（如果这个字眼儿可以用于没有文字的民族的话）。 而我们的义务教育成为法律在德国是在1642年，在法国是在1806年，在英国是在1876年。 今天，在许多“文明” 国家里，义务教育迄今尚未实行。 这说明，经过了多么漫长的时间之后，我们才认识到，有必要确保我们的孩子享有多少个世纪以来由‘少数幸运者’所积累起来的知识。 荒凉地区的教育不是钱的问题，所有的人都享有平等起步的权利。 那里没有我们今天社会中的匆忙生活，而匆忙的生活常常妨碍个性的全面发展。 荒凉地区的孩子无时无刻不在父母关怀下成长。 因此，丛林和荒凉地区不知道什么叫“青少年犯罪”。 人们没有必要离家谋生，所以不会产生孩子无人管的问题，也不存在父亲无力为孩子支付教育费用而犯难的问题。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Education, with its cycles of instruction so carefully worked out, punctuated by textbooks -- those purchasable wells of wisdom - what would civilization be like without its benefits?", translation: "教育，以其教学周期如此精心地安排，并以教科书 -- 那些可以买到的智慧源泉 -- 予以强化，如果不受其惠，文明将会是个什么样子呢？", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "So much is certain: that we would have doctors and preachers, lawyers and defendants, marriages and births -- but our spiritual outlook would be different.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We would lay less stress on 'facts and figures' and more on a good memory, on applied psychology, and on the capacity of a man to get along with his fellow-citizens.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If our educational system were fashioned after its bookless past we would have the most democratic form of 'college' imaginable.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Among tribal people all knowledge inherited by tradition is shared by all; it is taught to every member of the tribe so that in this respect everybody is equally equipped for life.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "So much is certain: that we would have doctors and preachers, lawyers and defendants, marriages and births -- but our spiritual outlook would be different.", translation: "至少，这些是可以肯定的：虽然我们还会有医生和牧师、律师和被告、婚姻和生育，但人们的精神面貌将是另一个样子。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We would lay less stress on 'facts and figures' and more on a good memory, on applied psychology, and on the capacity of a man to get along with his fellow-citizens.", translation: "人们不会重视‘资料和数据’，而靠好记性、实用心理学与同伴相处的能力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If our educational system were fashioned after its bookless past we would have the most democratic form of 'college' imaginable.", translation: "如果我们的教育制度仿效没有书籍的古代教育，我们的学院将具有可以想象得出的最民主的形式了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Among tribal people all knowledge inherited by tradition is shared by all;", translation: "在部落中，通过传统继承的知识为所有人共享，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "it is taught to every member of the tribe so that in this respect everybody is equally equipped for life.", translation: "并传授给部落中的每一个成员。从这个意义上讲，人人受到的有关生活本领的教育是相等的。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "It is the ideal condition of the 'equal start' which only our most progressive forms of modern education try to regain.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In primitive cultures the obligation to seek and to receive the traditional instruction is binding to all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There are no 'illiterates' -- if the term can be applied to peoples without a script -- while our own compulsory school attendance became law in Germany in 1642, in France in 1806, and in England in 1876, and is still non-existent in a number of 'civilized' nations.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This shows how long it was before we deemed it necessary to make sure that all our children could share in the knowledge accumulated by the 'happy few' during the past centuries.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "It is the ideal condition of the 'equal start' which only our most progressive forms of modern education try to regain.", translation: "这就是我们最进步的现代教育试图恢复的“平等起步”的理想状况。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In primitive cultures the obligation to seek and to receive the traditional instruction is binding to all.", translation: "在原始文化中，寻求和接受传统教育的义务对全民都有约束力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There are no 'illiterates' -- if the term can be applied to peoples without a script -- while our own compulsory school attendance became law in Germany in 1642, in France in 1806, and in England in 1876, and is still non-existent in a number of 'civilized' nations.", translation: "因而没有“文盲”（如果这个字眼儿可以用于没有文字的民族的话）。而我们的义务教育成为法律在德国是在1642年，在法国是在1806年，在英国是在1876年。今天，在许多“文明”国家里，义务教育迄今尚未实行。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This shows how long it was before we deemed it necessary to make sure that all our children could share in the knowledge accumulated by the 'happy few' during the past centuries.", translation: "这说明，经过了多么漫长的时间之后，我们才认识到，有必要确保我们的孩子享有多少个世纪以来由‘少数幸运者’所积累起来的知识。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "Education in the wilderness is not a matter of monetary means.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "All are entitled to an equal start.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There is none of the hurry which, in our society, often hampers the full development of a growing personality.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There, a child grows up under the ever-present attention of his parent; therefore the jungles and the savannahs know of no 'juvenile delinquency'.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "No necessity of making a living away from home results in neglect of children, and no father is confronted with his inability to 'buy' an education for his child.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Education in the wilderness is not a matter of monetary means.", translation: "荒凉地区的教育不是钱的问题。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "All are entitled to an equal start.", translation: "所有的人都享有平等起步的权利。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There is none of the hurry which, in our society, often hampers the full development of a growing personality.", translation: "那里没有我们今天社会中的匆忙生活，而匆忙的生活常常妨碍个性的全面发展。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There, a child grows up under the ever-present attention of his parent;", translation: "荒凉地区的孩子无时无刻不在父母关怀下成长。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "therefore the jungles and the savannahs know of no 'juvenile delinquency'.", translation: "因此，丛林和荒凉地区不知道什么叫“青少年犯罪”。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "No necessity of making a living away from home results in neglect of children, and no father is confronted with his inability to 'buy' an education for his child.", translation: "人们没有必要离家谋生，所以不会产生孩子无人管的问题，也不存在父亲无力为孩子支付教育费用而犯难的问题。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
         { text: "From: Julius E.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
@@ -1096,22 +1100,23 @@ const articleNce4L34: Article = {
 { text: "Parents are often upset when their children praise the homes of their friends and regard it as a slur on their own cooking, or cleaning, or furniture, and often are foolish enough to let the adolescents see that they are annoyed.", translation: "当家长听到孩子赞扬自己朋友的家时，总感到不安，认为孩子在嫌弃自家的饭菜、卫生、或家具，而且愚蠢地让孩子看出自己的烦恼。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "They may even accuse them of disloyalty, or make some spiteful remark about the friends' parents.", translation: "他们甚至责备孩子不忠，或者讲些小朋友家长的坏话。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Such a loss of dignity and descent into childish behaviour on the part of the adults deeply shocks the adolescents, and make them resolve that in future they will not talk to their parents about the places or people they visit.", translation: "家长这种有失身份和孩子气的作法使青春期的孩子大为震惊，决心以后不再向父母讲述去过的地方和见过的人。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Before very long the parents will be complaining that the child is so secretive and never tells them anything, but they seldom realize that they have brought this on themselves.", translation: "不要很久,家长就会抱怨孩子守口如瓶，什么事也不告诉他们，殊不知这是他们自找的。 不管家长的人品有多么好，作为父母有多么合格，孩子们对家长幻想的破灭在某种程度上是不可避免的。 除非父母自身不能令人满意，大多数孩子对父母估价过高，以致这种估价很难指望经受住现实的考验。 如果家长意识到孩子们通常是多么相信家长的品行和绝对正确，意识到孩子们的这种信念会对孩子产生多么大的影响，那么家长会大为吃惊和深受感动的。 如果家长对青少年的这种反应有思想准备，并且意识到这象征着孩子们正在成熟和正在发展宝贵的观察力、独立判断力，那么他们就不会那样伤心，也就不会由于怨恨和抵触这种反应，而把孩子推到自己的对立面去。 青少年酷爱真诚，对于能够承认错误或无知、甚至承认自己做得不公平或不公正的父母，他们总是尊敬的，孩子们所不能原谅的是：父母错了，孩子们也看出来了，可是做父母的还不肯承认。 维多利亚时代的父母认为，他们可以靠无理的权威气派来维护自己的尊严，实际上那是根本不行的。 孩子们只不过被吓得不敢让父母知道自己的想法罢了。 虽然现在我们倾向于走向另一个极端，但总地来看，孩子和家长双方态度都比较端正。 遇事采取面对现实的态度总是比较明智和稳妥的，尽管会有暂时的痛苦。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Before very long the parents will be complaining that the child is so secretive and never tells them anything, but they seldom realize that they have brought this on themselves.", translation: "不要很久,家长就会抱怨孩子守口如瓶，什么事也不告诉他们，殊不知这是他们自找的。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Disillusionment with the parents, however good and adequate they may be both as parents and as individuals, is to some degree inevitable.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Most children have such a high ideal of their parents, unless the parents themselves have been unsatisfactory, that it can hardly hope to stand up to a realistic evaluation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Parents would be greatly surprised and deeply touched if they realized how much belief their children usually have in their character and infallibility, and how much this faith means to a child.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If parents were prepared for this adolescent reaction, and realized that it was a sign that the child was growing up and developing valuable powers of observation and independent judgment, they would not be so hurt, and therefore would not drive the child into opposition by resenting and resisting it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Disillusionment with the parents, however good and adequate they may be both as parents and as individuals, is to some degree inevitable.", translation: "不管家长的人品有多么好，作为父母有多么合格，孩子们对家长幻想的破灭在某种程度上是不可避免的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Most children have such a high ideal of their parents, unless the parents themselves have been unsatisfactory, that it can hardly hope to stand up to a realistic evaluation.", translation: "除非父母自身不能令人满意，大多数孩子对父母估价过高，以致这种估价很难指望经受住现实的考验。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Parents would be greatly surprised and deeply touched if they realized how much belief their children usually have in their character and infallibility, and how much this faith means to a child.", translation: "如果家长意识到孩子们通常是多么相信家长的品行和绝对正确，意识到孩子们的这种信念会对孩子产生多么大的影响，那么家长会大为吃惊和深受感动的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If parents were prepared for this adolescent reaction, and realized that it was a sign that the child was growing up and developing valuable powers of observation and independent judgment, they would not be so hurt, and therefore would not drive the child into opposition by resenting and resisting it.", translation: "如果家长对青少年的这种反应有思想准备，并且意识到这象征着孩子们正在成熟和正在发展宝贵的观察力、独立判断力，那么他们就不会那样伤心，也就不会由于怨恨和抵触这种反应，而把孩子推到自己的对立面去。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "The adolescent, with his passion for sincerity, always respects a parent who admits that he is wrong, or ignorant, or even that he has been unfair or unjust.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "What the child cannot forgive is the parent's refusal to admit these charges if the child knows them to be true.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The adolescent, with his passion for sincerity, always respects a parent who admits that he is wrong, or ignorant, or even that he has been unfair or unjust.", translation: "青少年酷爱真诚，对于能够承认错误或无知、甚至承认自己做得不公平或不公正的父母，他们总是尊敬的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "What the child cannot forgive is the parent's refusal to admit these charges if the child knows them to be true.", translation: "孩子们所不能原谅的是：父母错了，孩子们也看出来了，可是做父母的还不肯承认。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "Victorian parents believed that they kept their dignity by retreating behind an unreasoning authoritarian attitude; in fact they did nothing of the kind, but children were then too cowed to let them know how they really felt.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Today we tend to go to the other extreme, but on the whole this is a healthier attitude both for the child and the parent.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is always wiser and safer to face up to reality, however painful it may be at the moment.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Victorian parents believed that they kept their dignity by retreating behind an unreasoning authoritarian attitude;", translation: "维多利亚时代的父母认为，他们可以靠无理的权威气派来维护自己的尊严，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "in fact they did nothing of the kind, but children were then too cowed to let them know how they really felt.", translation: "实际上那是根本不行的，但孩子们只不过被吓得不敢让父母知道自己的想法罢了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Today we tend to go to the other extreme, but on the whole this is a healthier attitude both for the child and the parent.", translation: "虽然现在我们倾向于走向另一个极端，但总地来看，孩子和家长双方态度都比较端正。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is always wiser and safer to face up to reality, however painful it may be at the moment.", translation: "遇事采取面对现实的态度总是比较明智和稳妥的，尽管会有暂时的痛苦。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -1156,25 +1161,29 @@ const articleNce4L37: Article = {
     paragraphs: [
 [
 { text: "At the age of 12 years, the human body is at its most vigorous.", translation: "人体在12岁时是生命力最旺盛的时期。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It has yet to reach its full size and strength, and its owner his or her full intelligence; but at this age the likelihood of death is least.", translation: "虽然这个时期人的身材、体力和智力还有待发展和完善，但在这个年龄死亡的可能性最小。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Earlier, we were infants and young children, and consequently more vulnerable; later, we shall undergo a progressive loss of our vigour and resistance which, though imperceptible at first, will finally become so steep that we can live no longer, however well we look after ourselves, and however well society, and our doctors, look after us.", translation: "再早一些，我们是幼儿和小孩子，身体较脆弱；再迟一些，我们就要经历生命力和抵抗力逐步衰退的过程。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "This decline in vigour with the passing of time is called ageing.", translation: "虽然这个过程起初难以觉察，但最终会急转直下，不管我们怎样精心照料我们自己，不管社会和医生怎样对我们进行精心照顾，我们也无法再活下去了。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It is one of the most unpleasant discoveries which we all make that we must decline in this way, that if we escape wars, accidents and diseases we shall eventually 'die of old age', and that this happens at a rate which differs little from person to person, so that there are heavy odds in favour of our dying between the ages of 65 and 80.", translation: "生命力随着时间的流失而衰退叫做衰老。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Some of us will die sooner, a few will live longer -- on into a ninth or tenth decade.", translation: "人类发现的最不愉快的一个事实是：人必然会衰老。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But the chances are against it, and there is a virtual limit on how long we can hope to remain alive, however lucky and robust we are.", translation: "既使我们能避开战争、意外的事故和各种疾病，我们最终也会“老死”；衰老的速度在人与人之间相差甚微，我们最可能死亡的年龄在65至80岁之间，有些人会死得早一些，少数人寿命会长一些 -- 活到八十几岁或九十几岁，但这种可能性很小。 不管我们多么幸运，多么健壮，我们所希望的长寿实际上是有限度的。 衰老的过程，不经提起，正常人容易忘记；一经提醒，才会记起。 我们对人总是要衰老的现象并不陌生，多年来就已认识到。 生命随着时间流失而丧失活力，人随着年龄的增长而接近死亡，这是不言而喻的，就像一壶热水迟早会凉不来，一双鞋渐渐会磨破一样。 人们不但认识到所有的动物，大概也认识到所有的有机物。 如树木，甚至宇宙本身，从事物的本质上来说都会“磨损掉”。 我们通常看到的大多数动物，即使能让它们活得足够长久的话，也会像我们一样衰老的。 像上紧发条的手表那样的机械装置，或太阳，也都会消耗完其能量（整个宇宙是否如此，目前沿有争论）。 不过，这些衰老的情况同人并不相似。 手表停了依然是只手表，还可以重上好发条。 然而一只老掉牙的手表，磨损太厉害，老得一点儿不准了，最终不值得修理了。 但是，手表决不会自行修理，它不是由有生命的部件组成，而是由金属组成，而金属可以随着磨擦而磨损殆尽。 而我们人，在一定时间内是可以自行修复的，除了暴病死或意外事故外，至少足以克服一切疾病和事故。 在12岁至80岁之间，我们逐渐丧失这种能力。 能使我们在12岁时病倒的疾病，到了80岁可能会使我们一蹶不振而进入坟墓。 假如我们能保持12岁时的旺盛生命力，那么我们当中的一半人过700年才会死去，剩下的一半人再过700年，才会又减少一半。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "It has yet to reach its full size and strength, and its owner his or her full intelligence;", translation: "虽然这个时期人的身材、体力和智力还有待发展和完善，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "but at this age the likelihood of death is least.", translation: "但在这个年龄死亡的可能性最小。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Earlier, we were infants and young children, and consequently more vulnerable;", translation: "再早一些，我们是幼儿和小孩子，身体较脆弱；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "later, we shall undergo a progressive loss of our vigour and resistance which, though imperceptible at first, will finally become so steep that we can live no longer, however well we look after ourselves, and however well society, and our doctors, look after us.", translation: "再迟一些，我们就要经历生命力和抵抗力逐步衰退的过程，虽然这个过程起初难以觉察，但最终会急转直下，不管我们怎样精心照料我们自己，不管社会和医生怎样对我们进行精心照顾，我们也无法再活下去了。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "This decline in vigour with the passing of time is called ageing.", translation: "生命力随着时间的流失而衰退叫做衰老。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It is one of the most unpleasant discoveries which we all make that we must decline in this way, that if we escape wars, accidents and diseases we shall eventually 'die of old age', and that this happens at a rate which differs little from person to person, so that there are heavy odds in favour of our dying between the ages of 65 and 80.", translation: "人类发现的最不愉快的一个事实是：人必然会衰老。既使我们能避开战争、意外的事故和各种疾病，我们最终也会“老死”；衰老的速度在人与人之间相差甚微，我们最可能死亡的年龄在65至80岁之间，有些人会死得早一些，少数人寿命会长一些 -- 活到八十几岁或九十几岁，但这种可能性很小。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Some of us will die sooner, a few will live longer -- on into a ninth or tenth decade.", translation: "不管我们多么幸运，多么健壮，我们所希望的长寿实际上是有限度的。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "But the chances are against it, and there is a virtual limit on how long we can hope to remain alive, however lucky and robust we are.", translation: "衰老的过程，不经提起，正常人容易忘记；一经提醒，才会记起。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Normal people tend to forget this process unless and until they are reminded of it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We are so familiar with the fact that man ages, that people have for years assumed that the process of losing vigour with time, of becoming more likely to die the older we get, was something self-evident, like the cooling of a hot kettle or the wearing-out of a pair of shoes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They have also assumed that all animals, and probably other organisms such as trees, or even the universe itself, must in the nature of things 'wear out'.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Most animals we commonly observe do in fact age as we do, if given the chance to live long enough; and mechanical systems like a wound watch, or the sun, do in fact run out of energy in accordance with the second law of thermodynamics (whether the whole universe does so is a moot point at present).", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But these are not analogous to what happens when man ages.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A run-down watch is still a watch and can be rewound.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "An old watch, by contrast, becomes so worn and unreliable that it eventually is not worth mending.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But a watch could never repair itself -- it does not consist of living parts, only of metal, which wears away by friction.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We could, at one time, repair ourselves --well enough, at least, to overcome all but the most instantly fatal illnesses and accidents.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Between 12 and 80 years we gradually lose this power; an illness which at 12 would knock us over, at 80 can knock us out, and into our grave.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If we could stay as vigorous as we are at 12 , it would take about 700 years for half of us to die, and another 700 for the survivors to be reduced by half again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Normal people tend to forget this process unless and until they are reminded of it.", translation: "我们对人总是要衰老的现象并不陌生，多年来就已认识到。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We are so familiar with the fact that man ages, that people have for years assumed that the process of losing vigour with time, of becoming more likely to die the older we get, was something self-evident, like the cooling of a hot kettle or the wearing-out of a pair of shoes.", translation: "生命随着时间流失而丧失活力，人随着年龄的增长而接近死亡，这是不言而喻的，就像一壶热水迟早会凉不来，一双鞋渐渐会磨破一样。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "They have also assumed that all animals, and probably other organisms such as trees, or even the universe itself, must in the nature of things 'wear out'.", translation: "人们不但认识到所有的动物，大概也认识到所有的有机物。如树木，甚至宇宙本身，从事物的本质上来说都会“磨损掉”。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Most animals we commonly observe do in fact age as we do, if given the chance to live long enough;", translation: "我们通常看到的大多数动物，即使能让它们活得足够长久的话，也会像我们一样衰老的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "and mechanical systems like a wound watch, or the sun, do in fact run out of energy in accordance with the second law of thermodynamics (whether the whole universe does so is a moot point at present).", translation: "像上紧发条的手表那样的机械装置，或太阳，也都会消耗完其能量（整个宇宙是否如此，目前沿有争论）。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But these are not analogous to what happens when man ages.", translation: "不过，这些衰老的情况同人并不相似。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A run-down watch is still a watch and can be rewound.", translation: "手表停了依然是只手表，还可以重上好发条。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "An old watch, by contrast, becomes so worn and unreliable that it eventually is not worth mending.", translation: "然而一只老掉牙的手表，磨损太厉害，老得一点儿不准了，最终不值得修理了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But a watch could never repair itself -- it does not consist of living parts, only of metal, which wears away by friction.", translation: "但是，手表决不会自行修理，它不是由有生命的部件组成，而是由金属组成，而金属可以随着磨擦而磨损殆尽。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We could, at one time, repair ourselves --well enough, at least, to overcome all but the most instantly fatal illnesses and accidents.", translation: "而我们人，在一定时间内是可以自行修复的，除了暴病死或意外事故外，至少足以克服一切疾病和事故。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Between 12 and 80 years we gradually lose this power;", translation: "在12岁至80岁之间，我们逐渐丧失这种能力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "an illness which at 12 would knock us over, at 80 can knock us out, and into our grave.", translation: "能使我们在12岁时病倒的疾病，到了80岁可能会使我们一蹶不振而进入坟墓。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If we could stay as vigorous as we are at 12 , it would take about 700 years for half of us to die, and another 700 for the survivors to be reduced by half again.", translation: "假如我们能保持12岁时的旺盛生命力，那么我们当中的一半人过700年才会死去，剩下的一半人再过700年，才会又减少一半。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -1219,35 +1228,36 @@ const articleNce4L44: Article = {
 [
 { text: "Custom has not commonly been regarded as a subject of any great moment.", translation: "风俗一般未被认为是什么重要的课题。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The inner workings of our own brains we feel to be uniquely worthy of investigation, but custom, we have a way of thinking, is behaviour at its most commonplace.", translation: "我们觉得，只有我们大脑内部的活动情况才值得研究，至于风俗呢，只是些司空见惯的行为而已。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "As a matter of fact, it is the other way around.", translation: "事实小，情况正好相反。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "As a matter of fact, it is the other way around.", translation: "事实上，情况正好相反。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Traditional custom, taken the world over, is a mass of detailed behaviour more astonishing than what any one person can ever evolve in individual actions, no matter how aberrant.", translation: "从世界范围来看，传统风俗是由许多细节性的习惯行为组成，它比任何一个养成的行为都更加引人注目，不管个人行为多么异常。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Yet that is a rather trivial aspect of the matter.", translation: "这只是问题的一个次要的侧面。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The fact of first-rate importance is the predominant role that custom plays in experience and in belief, and the very great varieties it may manifest.", translation: "最重要的是，风俗在实践中和信仰上所起的举足轻重的作用，以及它所表现出来的极其丰富多采的形式。 没有一个人是用纯洁而无偏见的眼光看待世界。 人们所看到的是一个受特定风俗习惯、制度和思想方式剪辑过的世界。 甚至在哲学领域的探索中，人们也无法超越这此定型的框框。 人们关于真与伪的概念依然和特定的传统风俗有关。 约翰.杜威曾经非常严肃地指出：风俗在形成个人行为方面所起的作用和一个对风俗的任何影响相比，就好像他本国语言的总词汇量和自己咿呀学语时他家庭所接纳的他的词汇量之比。 当一个人认真地研究自发形成的社会秩序时，杜威的比喻就是他实事求是观察得来的形象化的说法。 个人的生活史首先是适应他的社团世代相传形成的生活方式和准则。 从他呱呱坠地的时刻起，他所生于其中的风俗就开始塑造他的经历和行为规范。 到会说话时，他就是传统文化塑造的一个小孩子；等他长大了，能做各种事了，他的社团的习惯就是他的习惯，他的社团的信仰就是他的信仰，他的社团不能做的事就是他不能做的事。 每一个和他诞生在同一个社团中的孩子和他一样具有相同的风俗；而在地球的另一边。 诞生在另一个社团的孩子与他就是少有相同的风俗。 没有任何一个社会问题比得上风俗的作用问题更要求我们对它理解。 直到我们理解了风俗的规律性和多样性，我们才能明白人为生活中主要的复杂现象。 只有在某些基本的主张被接受下来、同时有些主张被激烈反对时，对风俗的研究才是全面的，才会有收获。 首先，任何科学研究都要求人们对可供考虑的诸多因素不能厚此薄彼，偏向某一方面。 在一切争议较小的领域里，如对仙人掌、白议或星云性质的研究，应采取的研究方法是。 把有关各方面的材料汇集起来，同时注意任何可能出现的异常情况和条件。 例如，用这种方法，我们完全掌握了天文学的规律和昆虫群居的习性。 只是在对人类自身的研究。 只要我们同原始人，我们同野蛮人，我们同异教徒之间存有的区别在人的思想中占主工导地位，那么人类学按其定义来说就无法存在。 我们首先需要达到这样一种成熟的程度：不用自己的信仰去反对我们邻居的迷信。 必须认识到，这些建立在相同前提基础上的风俗，暂且可以说是超自然的东西，必须放在一起加以考虑，我们自己的风俗和其他民族的风俗都在其中。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "The fact of first-rate importance is the predominant role that custom plays in experience and in belief, and the very great varieties it may manifest.", translation: "最重要的是，风俗在实践中和信仰上所起的举足轻重的作用，以及它所表现出来的极其丰富多采的形式。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "No man ever looks at the world with pristine eyes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He sees it edited by a definite set of customs and institutions and ways of thinking.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Even in his philosophical probings he cannot go behind these stereotypes; his very concepts of the true and the false will still have reference to his particular traditional customs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "John Dewey has said in all seriousness that the part played by custom in shaping the behaviour of the individual, as against any way in which he can affect traditional custom, is as the proportion of the total vocabulary of his mother tongue against those words of his own baby talk that are taken up into the vernacular of his family.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When one seriously studies the social orders that have had the opportunity to develop autonomously, the figure becomes no more than an exact and matter-of-fact observation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The life history of the individual is first and foremost an accommodation to the patterns and standards traditionally handed down in his community.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "From the moment of his birth, the customs into which he is born shape his experience and behaviour.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By the time he can talk, he is the little creature of his culture, and by the time he is grown and able to take part in its activities, its habits are his habits, its beliefs his beliefs, its impossibilities his impossibilities.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Every child that is born into his group will share them with him, and no child born into one on the opposite side of the globe can ever achieve the thousandth part.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There is no social problem it is more incumbent upon us to understand than this of the role of custom.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Until we are intelligent as to its laws and varieties, the main complicating facts of human life must remain unintelligible.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "No man ever looks at the world with pristine eyes.", translation: "没有一个人是用纯洁而无偏见的眼光看待世界。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "He sees it edited by a definite set of customs and institutions and ways of thinking.", translation: "人们所看到的是一个受特定风俗习惯、制度和思想方式剪辑过的世界。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Even in his philosophical probings he cannot go behind these stereotypes;", translation: "甚至在哲学领域的探索中，人们也无法超越这些定型的框框。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "his very concepts of the true and the false will still have reference to his particular traditional customs.", translation: "人们关于真与伪的概念依然和特定的传统风俗有关。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "John Dewey has said in all seriousness that the part played by custom in shaping the behaviour of the individual, as against any way in which he can affect traditional custom, is as the proportion of the total vocabulary of his mother tongue against those words of his own baby talk that are taken up into the vernacular of his family.", translation: "约翰.杜威曾经非常严肃地指出：风俗在形成个人行为方面所起的作用和一个对风俗的任何影响相比，就好像他本国语言的总词汇量和自己咿呀学语时他家庭所接纳的他的词汇量之比。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "When one seriously studies the social orders that have had the opportunity to develop autonomously, the figure becomes no more than an exact and matter-of-fact observation.", translation: "当一个人认真地研究自发形成的社会秩序时，杜威的比喻就是他实事求是观察得来的形象化的说法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The life history of the individual is first and foremost an accommodation to the patterns and standards traditionally handed down in his community.", translation: "个人的生活史首先是适应他的社团世代相传形成的生活方式和准则。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "From the moment of his birth, the customs into which he is born shape his experience and behaviour.", translation: "从他呱呱坠地的时刻起，他所生于其中的风俗就开始塑造他的经历和行为规范。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "By the time he can talk, he is the little creature of his culture, and by the time he is grown and able to take part in its activities, its habits are his habits, its beliefs his beliefs, its impossibilities his impossibilities.", translation: "到会说话时，他就是传统文化塑造的一个小孩子；等他长大了，能做各种事了，他的社团的习惯就是他的习惯，他的社团的信仰就是他的信仰，他的社团不能做的事就是他不能做的事。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Every child that is born into his group will share them with him, and no child born into one on the opposite side of the globe can ever achieve the thousandth part.", translation: "每一个和他诞生在同一个社团中的孩子和他一样具有相同的风俗；而在地球另一边诞生在另一个社团的孩子与他就是少有相同的风俗。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There is no social problem it is more incumbent upon us to understand than this of the role of custom.", translation: "没有任何一个社会问题比得上风俗的作用问题更要求我们对它理解。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Until we are intelligent as to its laws and varieties, the main complicating facts of human life must remain unintelligible.", translation: "直到我们理解了风俗的规律性和多样性，我们才能明白人为生活中主要的复杂现象。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "The study of custom can be profitable only after certain preliminary propositions have been accepted, and some of these propositions have been violently opposed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the first place, any scientific study requires that there be no preferential weighting of one or another of the items in the series it selects for its consideration.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In all the less controversial fields, like the study of cacti or termites or the mature of nebulae, the necessary method of study is to group the relevant material and to take note of all possible variant forms and conditions.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In this way, we have learned all that we know of the laws of astronomy, or of the habits of the social insects, let us say.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is only in the study of man himself that the major social sciences have substituted the study of one local variation, that of Western civilization.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The study of custom can be profitable only after certain preliminary propositions have been accepted, and some of these propositions have been violently opposed.", translation: "只有在某些基本的主张被接受下来、同时有些主张被激烈反对时，对风俗的研究才是全面的，才会有收获。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In the first place, any scientific study requires that there be no preferential weighting of one or another of the items in the series it selects for its consideration.", translation: "首先，任何科学研究都要求人们对可供考虑的诸多因素不能厚此薄彼，偏向某一方面。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In all the less controversial fields, like the study of cacti or termites or the mature of nebulae, the necessary method of study is to group the relevant material and to take note of all possible variant forms and conditions.", translation: "在一切争议较小的领域里，如对仙人掌、白蚁或星云性质的研究，应采取的研究方法是把有关各方面的材料汇集起来，同时注意任何可能出现的异常情况和条件。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In this way, we have learned all that we know of the laws of astronomy, or of the habits of the social insects, let us say.", translation: "例如，用这种方法，我们完全掌握了天文学的规律和昆虫群居的习性。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is only in the study of man himself that the major social sciences have substituted the study of one local variation, that of Western civilization.", translation: "只是在对人类自身的研究中，各主要社会科学才用对一个局部地区各种情况的研究代替了对一般人类的研究。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "Anthropology was by definition impossible, as long as these distinctions between ourselves and the primitive, ourselves and the barbarian, ourselves and the pagan, held sway over people's minds.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was necessary first to arrive at that degree of sophistication where we no longer set our own belief against our neighbour's superstition.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was necessary to recognize that these institutions which are based on the same premises, let us say the supernatural, must be considered together, our own among the rest.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Anthropology was by definition impossible, as long as these distinctions between ourselves and the primitive, ourselves and the barbarian, ourselves and the pagan, held sway over people's minds.", translation: "只要我们同原始人，我们同野蛮人，我们同异教徒之间存有的区别在人的思想中占主导地位，那么人类学按其定义来说就无法存在。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It was necessary first to arrive at that degree of sophistication where we no longer set our own belief against our neighbour's superstition.", translation: "我们首先需要达到这样一种成熟的程度：不用自己的信仰去反对我们邻居的迷信。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It was necessary to recognize that these institutions which are based on the same premises, let us say the supernatural, must be considered together, our own among the rest.", translation: "必须认识到，这些建立在相同前提基础上的风俗，暂且可以说是超自然的东西，必须放在一起加以考虑，我们自己的风俗和其他民族的风俗都在其中。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -1299,35 +1309,40 @@ const articleNce4L46: Article = {
     original: {
     paragraphs: [
 [
-{ text: "A gifted American psychologist has said, 'Worry is a spasm of the emotion; the mind catches hold of something and will not let it go.' It is useless to argue with the mind in this condition.", translation: "一位天才的美国心理学家曾经说过：“烦恼是感情的发作，此时脑子纠缠住了某种东西又不肯松手。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "' It is useless to argue with the mind in this condition.", translation: "”在这种情况下，你又和头脑争吵让它松手是无济于事的。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "A gifted American psychologist has said, 'Worry is a spasm of the emotion;", translation: "一位天才的美国心理学家曾经说过：“烦恼是感情的发作，此时脑子纠缠住了某种东西又不肯松手。”", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "the mind catches hold of something and will not let it go.' It is useless to argue with the mind in this condition.", translation: "在这种情况下，", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "' It is useless to argue with the mind in this condition.", translation: "你又和头脑争吵让它松手是无济于事的。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The stronger the will, the more futile the task.", translation: "这种意志越是强烈，这种尝试越是徒劳。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "One can only gently insinuate something else into its convulsive grasp.", translation: "你只能缓和而巧纱地让另一种东西进入痉挛僵持的头脑中。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "And if this something else is rightly chosen, if it is really attended by the illumination of another field of interest, gradually, and often quite swiftly, the old undue grip relaxes and the process of recuperation and repair begins.", translation: "如果选得合适，而且的确受到别的领域的情趣的启迪，那么渐渐地，往往也是很顺利地，原先不适当的紧张就会松弛下来，恢复和修整的过程就会开始。 因此，对一个从事社会活动的人来说，培养一种业余爱好和各种新的兴趣是关等重要的作法。 但这并非一日之功，也不是单凭一蹴而就的事。 精神上多种情趣的培养是一个长期的过程。 要想在需要的时候可随手摘取充满生机的果实，那就必然从选良种做起，然后将其植入肥沃的土地，还需要勤勉地护理。 一个人要想真正感到幸福和平安，至少应有两三种爱好，而且都比较实际。 到了晚年才开始说：“我会对这些人或那个人发生兴趣”，已没有用了。 这种愿望只能加剧精神紧张。 一个人可能会获得与其日常工作无关的某些课题的渊博知识，而没有从中得到什么实益或宽慰。 干你所喜欢的事是没有用的，你喜欢你所干的事。 泛泛地说，人可以分为3类：劳累至死的人、忧虑至死的人、无聊至死的人。 对于流汗出力干了一周苦活的体力劳动者来说，让他们在星期六下午再踢足球或打垒球是不合适的；同样，对于为严肃的公务操劳或烦恼了6天的政界人士、专业人员、商人来说，在周未再让他们为琐事而动脑子和忧虑也是无益的。 至于那些能任意支配一切的“可怜的人”，他们能够恣意妄为，能染指一切追求的目标。 对这种人来说，多一种新的乐趣、多一种新的刺激只是增加一分厌腻而已。 他们到处奔乱跑，企图以闲聊和乱窜来摆脱无聊对他们的报复，但这是徒劳的。 对他们来说，用某种形式的纪律约束他们一下才能有希望使他们走上正道。 也可以这样说，理智的，勤劳的、有用的人可以分为两类：第一类是他分清工作是工作，娱乐是娱乐的人；第二类人的工作和娱乐是一回事。 这两类人当中，第一类人是大多数，他们能够得到补偿。 在办公室或工厂里长时间工作给他们带来了酬劳，这不仅是谋生的手段，而且还带来了寻找乐趣的强烈欲望，那怕是最简单的、最低等的乐趣。 但是，命运之神的宠儿是第二类人，他们的生活是一种自然的和谐，对他们来说，工作时间总不会太长，每天都是假日，而通常的假期来到，他们却惋惜这假期强制打断了他们埋头从事的工作。 然而对这两种人来说，都需要换一换脑子，改变一下气氛，转移一下注意力，这是不可缺少的。 说实在的，把工作当作享受的那些人最需要每隔一段时间把工作从头脑中撇开。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "And if this something else is rightly chosen, if it is really attended by the illumination of another field of interest, gradually, and often quite swiftly, the old undue grip relaxes and the process of recuperation and repair begins.", translation: "如果选得合适，而且的确受到别的领域的情趣的启迪，那么渐渐地，往往也是很顺利地，原先不适当的紧张就会松弛下来，恢复和修整的过程就会开始。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "The cultivation of a hobby and new forms of interest is therefore a policy of the first importance to a public man.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But this is not a business that can be undertaken in a day or swiftly improvised by a mere command of the will.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The growth of alternative mental interests is a long process.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The seeds must be carefully chosen; they must fall on good ground; they must be sedulously tended, if the vivifying fruits are to be at hand when needed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The cultivation of a hobby and new forms of interest is therefore a policy of the first importance to a public man.", translation: "因此，对一个从事社会活动的人来说，培养一种业余爱好和各种新的兴趣是关等重要的作法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But this is not a business that can be undertaken in a day or swiftly improvised by a mere command of the will.", translation: "但这并非一日之功，也不是单凭一蹴而就的事。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The growth of alternative mental interests is a long process.", translation: "精神上多种情趣的培养是一个长期的过程。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The seeds must be carefully chosen;", translation: "要想在需要的时候可随手摘取充满生机的果实，那就必然从选良种做起，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "they must fall on good ground;", translation: "然后将其植入肥沃的土地，还需要勤勉地护理。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "they must be sedulously tended, if the vivifying fruits are to be at hand when needed.", translation: "一个人要想真正感到幸福和平安，至少应有两三种爱好，而且都比较实际。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "To be really happy and really safe, one ought to have at least two or three hobbies, and they must all be real.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is no use starting late in life to say: 'I will take an interest in this or that.' Such an attempt only aggravates the strain of mental effort.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' Such an attempt only aggravates the strain of mental effort.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A man may acquire great knowledge of topics unconnected with his daily work, and yet get hardly any benefit or relief.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is no use doing what you like; you have got to like what you do.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Broadly speaking, human beings may be divided into three classes: those who are toiled to death, those who are worried to death, and those who are bored to death.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is no use offering the manual labourer, tired out with a hard week's sweat and effort, the chance of playing a game of football or baseball on Saturday afternoon.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is no use inviting the politician or the professional or business man, who has been working or worrying about serious things for six days, to work or worry about trifling things at the weekend.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "To be really happy and really safe, one ought to have at least two or three hobbies, and they must all be real.", translation: "到了晚年才开始说：“我会对这些人或那个人发生兴趣”，已没有用了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is no use starting late in life to say: 'I will take an interest in this or that.' Such an attempt only aggravates the strain of mental effort.", translation: "这种愿望只能加剧精神紧张。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "' Such an attempt only aggravates the strain of mental effort.", translation: "一个人可能会获得与其日常工作无关的某些课题的渊博知识，而没有从中得到什么实益或宽慰。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A man may acquire great knowledge of topics unconnected with his daily work, and yet get hardly any benefit or relief.", translation: "干你所喜欢的事是没有用的，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is no use doing what you like;", translation: "你喜欢你所干的事。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "you have got to like what you do.", translation: "泛泛地说，人可以分为3类：劳累至死的人、忧虑至死的人、无聊至死的人。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Broadly speaking, human beings may be divided into three classes: those who are toiled to death, those who are worried to death, and those who are bored to death.", translation: "对于流汗出力干了一周苦活的体力劳动者来说，让他们在星期六下午再踢足球或打垒球是不合适的；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is no use offering the manual labourer, tired out with a hard week's sweat and effort, the chance of playing a game of football or baseball on Saturday afternoon.", translation: "同样，对于为严肃的公务操劳或烦恼了6天的政界人士、专业人员、商人来说，在周未再让他们为琐事而动脑子和忧虑也是无益的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is no use inviting the politician or the professional or business man, who has been working or worrying about serious things for six days, to work or worry about trifling things at the weekend.", translation: "至于那些能任意支配一切的“可怜的人”，他们能够恣意妄为，能染指一切追求的目标。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "As for the unfortunate people who can command everything they want, who can gratify every caprice and lay their hands on almost every object of desire -- for them a new pleasure, a new excitement is only an additional satiation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In vain they rush frantically round from place to place, trying to escape from avenging boredom by mere clatter and motion.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For them discipline in one form or another is the most hopeful path.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "As for the unfortunate people who can command everything they want, who can gratify every caprice and lay their hands on almost every object of desire -- for them a new pleasure, a new excitement is only an additional satiation.", translation: "对这种人来说，多一种新的乐趣、多一种新的刺激只是增加一分厌腻而已。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In vain they rush frantically round from place to place, trying to escape from avenging boredom by mere clatter and motion.", translation: "他们到处奔乱跑，企图以闲聊和乱窜来摆脱无聊对他们的报复，但这是徒劳的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "For them discipline in one form or another is the most hopeful path.", translation: "对他们来说，用某种形式的纪律约束他们一下才能有希望使他们走上正道。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "It may also be said that rational, industrious, useful human beings are divided into two classes: first,those whose work is work and whose pleasure is pleasure; and secondly those whose work and pleasure are one.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It may also be said that rational, industrious, useful human beings are divided into two classes: first,those whose work is work and whose pleasure is pleasure;", translation: "也可以这样说，理智的，勤劳的、有用的人可以分为两类：第一类是他分清工作是工作，娱乐是娱乐的人；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "and secondly those whose work and pleasure are one.", translation: "第二类人的工作和娱乐是一回事。", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "Of these the former are the majority.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "They have their compensations.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "The long hours in the office or the factory bring with them as their reward, not only the means of sustenance, but a keen appetite for pleasure even in its simplest and most modest forms.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1392,30 +1407,30 @@ const articleNce4L48: Article = {
 { text: "There is no shortage of tipsters around offering 'get-rich-quick' opportunities.", translation: "我们周围不乏情报贩子，向人们提供迅速发财致富的机遇。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "But if you are a serious private investor, leave the Las Vegas mentality to those with money to fritter.", translation: "但是，如果你是一个认真的私人投资者，就把拉斯韦加斯的心态留给那些有钱可供挥霍的人。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The serious investor needs a proper 'portfolio' -- a well-planned selection of investments, with a definite structure and a clear aim.", translation: "认真的投资者需要一份正规的投资组合表 -- 一种计划很周密的投资选择，包括你的投资结构和明确的目标。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But exactly how does a newcomer to the stock market go about achieving that?", translation: "但是, 一个股票市场的新手又如何能做到这一点呢？ 如果你去向5位有威望的股票经纪人咨询，询问你应该如何使用你的资金，你可能得到5种不同的答复，即便你提供了有关于你的年龄、家庭、财源和你想从投资中获得好处的信息。 这是个道德问题吗？ 没有一种完全“正确”的方法来排列这种投资组合，然而，却毫无疑问地有几种错误的方法。 可以相信5位经纪人中不会有人建议你把全部（或一部份）资金投入佩里威格斯公司。 那么你该怎么做呢？ 我们假定你已把基本情况弄清楚了，如抵押贷款、养老金、保险金和动用现金储备的机会。 然后，你一定要建立起自己的目标。 这里一方面是个所处的环境，另一方面是个心理学的问题。 比如说，如果你年纪较大，你从重大投资损失中恢复过来的时间就较少，你就很希望能够提高你的养老金收入。 因此，你的首要任务就是保护你的资金和引发额外的收入。 在这种情况下，你大概想制定一份包括某些股份（但不是风险很大的股份）的投资组合，同时还有高度可靠的证券、现金储蓄，可能还有可换证券，或分割资本投资信托公司的所得股。 如果你年轻一些，并且经济状况可靠，你可能会采取一种积极进取的方式 -- 你必须性格开朗，不会因股票价格的浮动而夜不能眠。 如果你觉得你的情况是这样的话，你可在投资组合中包括几项有令人陶醉的增值前景的增长股，和其他比较平淡的投资项目放在一起。 一旦你的投资组合中包括几项有令人陶醉的增值前景的增长股，和其他比较平淡的投资项目放在一起。 一旦你的投资目标确立以后，你就可以决定你的钱投向何处。 这里的指导原则是：分散你的投资风险。 如果你把所有资金投入佩里威格斯国际公司，你就把自己当成了命运的人质。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "But exactly how does a newcomer to the stock market go about achieving that?", translation: "但是, 一个股票市场的新手又如何能做到这一点呢？", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Well, if you go to five reputable stock brokers and ask them what you should do with your money, you're likely to get five different answers, -- even if you give all the relevant information about your age, family, finances and what you want from your investments.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Moral?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There is no one 'right' way to structure a portfolio.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "However, there are undoubtedly some wrong ways, and you can be sure that none of our five advisers would have suggested sinking all (or perhaps any) of your money into Periwigs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Well, if you go to five reputable stock brokers and ask them what you should do with your money, you're likely to get five different answers, -- even if you give all the relevant information about your age, family, finances and what you want from your investments.", translation: "如果你去向5位有威望的股票经纪人咨询，询问你应该如何使用你的资金，你可能得到5种不同的答复，即便你提供了有关于你的年龄、家庭、财源和你想从投资中获得好处的信息。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Moral?", translation: "这是个道德问题吗？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There is no one 'right' way to structure a portfolio.", translation: "没有一种完全“正确”的方法来排列这种投资组合，然而，却毫无疑问地有几种错误的方法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "However, there are undoubtedly some wrong ways, and you can be sure that none of our five advisers would have suggested sinking all (or perhaps any) of your money into Periwigs.", translation: "可以相信5位经纪人中不会有人建议你把全部（或一部份）资金投入佩里威格斯公司。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "So what should you do?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We'll assume that you have sorted out the basics -- like mortgages, pensions, insurance and access to sufficient cash reserves.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "You should then establish your own individual aims.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "These are partly a matter of personal circumstances, partly a matter of psychology.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "So what should you do?", translation: "那么你该怎么做呢？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We'll assume that you have sorted out the basics -- like mortgages, pensions, insurance and access to sufficient cash reserves.", translation: "我们假定你已把基本情况弄清楚了，如抵押贷款、养老金、保险金和动用现金储备的机会。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "You should then establish your own individual aims.", translation: "然后，你一定要建立起自己的目标。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "These are partly a matter of personal circumstances, partly a matter of psychology.", translation: "这里一方面是个所处的环境，另一方面是个心理学的问题。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "For instance, if you are older you have less time to recover from any major losses, and you may well wish to boost your pension income.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "So preserving your capital and generating extra income are your main priorities.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In this case, you'd probably construct a portfolio with some shares (but not high risk ones), along with gilts, cash deposits, and perhaps convertibles or the income shares of split capital investment trusts.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "For instance, if you are older you have less time to recover from any major losses, and you may well wish to boost your pension income.", translation: "比如说，如果你年纪较大，你从重大投资损失中恢复过来的时间就较少，你就很希望能够提高你的养老金收入。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "So preserving your capital and generating extra income are your main priorities.", translation: "因此，你的首要任务就是保护你的资金和引发额外的收入。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In this case, you'd probably construct a portfolio with some shares (but not high risk ones), along with gilts, cash deposits, and perhaps convertibles or the income shares of split capital investment trusts.", translation: "在这种情况下，你大概想制定一份包括某些股份（但不是风险很大的股份）的投资组合，同时还有高度可靠的证券、现金储蓄，可能还有可换证券，或分割资本投资信托公司的所得股。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "If you are younger, and in a solid financial position, you may decide to take an aggressive approach -- but only if you're blessed with a sanguine disposition and won't suffer sleepless nights over share prices.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If you recognize yourself in this description, you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Once you have decided on your investment aims, you can then decide where to put your money.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The golden rule here is spread your risk -- if you put all of your money into Periwigs International, you're setting yourself up as a hostage to fortune.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "If you are younger, and in a solid financial position, you may decide to take an aggressive approach -- but only if you're blessed with a sanguine disposition and won't suffer sleepless nights over share prices.", translation: "如果你年轻一些，并且经济状况可靠，你可能会采取一种积极进取的方式 -- 你必须性格开朗，不会因股票价格的浮动而夜不能眠。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If you recognize yourself in this description, you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments.", translation: "如果你觉得你的情况是这样的话，你可在投资组合中包括几项有令人陶醉的增值前景的增长股，和其他比较平淡的投资项目放在一起。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Once you have decided on your investment aims, you can then decide where to put your money.", translation: "一旦你的投资目标确立以后，你就可以决定你的钱投向何处。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The golden rule here is spread your risk -- if you put all of your money into Periwigs International, you're setting yourself up as a hostage to fortune.", translation: "这里的指导原则是：分散你的投资风险。如果你把所有资金投入佩里威格斯国际公司，你就把自己当成了命运的人质。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -2005,16 +2020,19 @@ const articleNce4L29: Article = {
 { text: "As a shipbuilder, Cockerell was trying to find a solution to the problem of the wave resistance which wastes a good deal of a surface ship's power and limits its speed.", translation: "作为一个船舶技师，科克雷尔在寻找解决波浪阻力的方法，因为波浪阻力浪费掉了船在水面行驶的大量动力，从而限制了船的速度。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "His answer was to lift the vessel out of the water by making it ride on a cushion of air, no more than one or two feet thick.", translation: "他的解决办法是把船体提离水面，让船在一个气垫上行驶，气垫只有一两英尺厚。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "This is done by a great number of ring-shaped air jets on the bottom of the craft.", translation: "船底装上大量环状喷气嘴以实现这一目的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It 'flies', therefore, but it cannot fly higher -- its action depends on the surface, water or ground, over which it rides.", translation: "这样，船就能飞了，但飞不高。 它的飞行限决于它所悬浮的水面或地面。 1959年，在苏伦特海峡进行的首次试航引起了轰动，气垫船先是在水面上行驶，后又登上海岸，爬上沙丘，最后停在路上。 后来气垫船跨越英吉利海峡，平衡地在波浪上方行驶，波浪不再产生阻力。 从那以后，各种各样的气垫船出现了，并开始了定期航行服务。 气垫船在非洲、澳大利亚等交通不发达地区特别有用。 它能成为“飞行水果盘子”，把香蕉从种植园运到港口。 大型的气垫班轮或许能跨越大西洋。 未来的火车或许能成为“气垫火车”，靠气垫在单轨上行驶而不接触轨道，时速可达每小时300英里。 气垫船的前途是不可限量的。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "It 'flies', therefore, but it cannot fly higher -- its action depends on the surface, water or ground, over which it rides.", translation: "这样，船就能飞了，但飞不高。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "The first tests on the Solent in 1959 caused a sensation.", translation: "1959年，在苏伦特海峡进行的首次试航引起了轰动，", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The hovercraft travelled first over the water, then mounted the beach, climbed up the dunes, and sat down on a road.", translation: "气垫船先是在水面上行驶，后又登上海岸，爬上沙丘，最后停在路上。", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Later it crossed the Channel, riding smoothly over the waves, which presented no problem.", translation: "后来气垫船跨越英吉利海峡，平稳地在波浪上方行驶，波浪不再产生阻力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The first tests on the Solent in 1959 caused a sensation.", translation: "它的飞行限决于它所悬浮的水面或地面。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The hovercraft travelled first over the water, then mounted the beach, climbed up the dunes, and sat down on a road.", translation: "1959年，在苏伦特海峡进行的首次试航引起了轰动，气垫船先是在水面上行驶，后又登上海岸，爬上沙丘，最后停在路上。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Later it crossed the Channel, riding smoothly over the waves, which presented no problem.", translation: "后来气垫船跨越英吉利海峡，平衡地在波浪上方行驶，波浪不再产生阻力。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
         { text: "Since that time, various types of hovercraft have appeared and taken up regular service.", translation: "从那以后，各种各样的气垫船出现了，并开始了定期航行服务。", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The hovercraft is particularly useful in large areas with poor communications such as Africa or Australia; it can become a 'flying fruit-bowl', carrying bananas from the plantations to the ports; giant hovercraft liners could span the Atlantic; and the railway of the future may well be the 'hovertrain', riding on its air cushion over a single rail, which it never touches, at speeds up to 300 m.p.h. -- the possibilities appear unlimited.", translation: "气垫船在非洲、澳大利亚等交通不发达地区特别有用。它能成为\u201c飞行水果盘子\u201d，把香蕉从种植园运到港口。大型的气垫班轮或许能跨越大西洋。未来的火车或许能成为\u201c气垫火车\u201d，靠气垫在单轨上行驶而不接触轨道，时速可达每小时300英里。气垫船的前途是不可限量的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The hovercraft is particularly useful in large areas with poor communications such as Africa or Australia;", translation: "气垫船在非洲、澳大利亚等交通不发达地区特别有用。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "it can become a 'flying fruit-bowl', carrying bananas from the plantations to the ports;", translation: "它能成为“飞行水果盘子”，把香蕉从种植园运到港口。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "giant hovercraft liners could span the Atlantic;", translation: "大型的气垫班轮或许能跨越大西洋。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "and the railway of the future may well be the 'hovertrain', riding on its air cushion over a single rail, which it never touches, at speeds up to 300 m.p.h. -- the possibilities appear unlimited.", translation: "未来的火车或许能成为“气垫火车”，靠气垫在单轨上行驶而不接触轨道，时速可达每小时300英里。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2040,22 +2058,25 @@ const articleNce4L31: Article = {
   original: {
         paragraphs: [
 [
-{ text: "Appreciation of sculpture depends upon the ability to respond to form in three dimensions.", translation: "对雕塑的鉴赏力取决于对立体的反应能力。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "That is perhaps why sculpture has been described as the most difficult of all arts; certainly it is more difficult than the arts which involve appreciation of flat forms, shape in only two dimensions.", translation: "雕塑被说成是所有艺术中最难的艺术，可能就是这个道理。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Many more people are 'form-blind' than colour-blind.", translation: "欣赏雕塑品当然比欣赏平面的艺术品要难。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The child learning to see, first distinguishes only two-dimensional shape; it cannot judge distances, depths.", translation: "“形盲”的人数比 “色盲”的人数要多得多。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Later, for its personal safety and practical needs, it has to develop (partly by means of touch) the ability to judge roughly three-dimensonal distances.", translation: "正在学看东西的儿童起初只会分辨二维形态，不会判断距离和深度。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But having satisfied the requirements of practical necessity, most people go no further.", translation: "慢慢地，由于自身安全和实际需要，儿童必须发展（部分通过触觉）粗略判断三维空间距离的能力。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Though they may attain considerable accuracy in the perception of flat form, they do not make the further intellectual and emotional effort needed to comprehend form in its full spatial existence.", translation: "但是。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "This is what the sculptor must do.", translation: "大部分人在满足了实际需要后，就不再继续发展这种能力了。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He must strive continually to think of, and use, form in its full spatial completeness.", translation: "虽然他们对平面形式的感觉能达到相当准确的程度，但他们没有在智力和感情上进一步努力去理解存在于空间的整个形态。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He gets the solid shape, as it were, inside his head-he thinks of it, whatever its size, as if he were holding it completely enclosed in the hollow of his hand.", translation: "而雕塑家就必须做到这一点。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He mentally visualizes a complex form from all round itself; he knows while he looks at one side what the other side is like, he identifies himself with its centre of gravity, its mass, its weight; he realizes its volume, as the space that the shape displaces in the air.", translation: "他必须勤于想像并且利用形体在空间中的完整性。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "And the sensitive observer of sculpture must also learn to feel shape simply as shape, not as description or reminiscence.", translation: "可以说，当他想像一个物体时，不管其大小如何，他脑子里得到的是一个立体的概念，就好像完全握在自己手心里一样。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He must, for example, perceive an egg as a simple single solid shape, quite apart from its significance as food, or from the literary idea that it will become a bird.", translation: "他的大脑能从物体周围的各个角度勾画出其复杂的形象，他看物体的一边时，便知道另一边是个什么样子。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom, a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone.", translation: "他把自身和物体重心、质量、重量融为一体。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "From these he can go on to appreciate more complex forms or combinations of several forms.", translation: "他能意识到物体的体积，那就是它的形状在空气中所占的空间。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "HENRY MOORE The Sculptor Speaks from The Listener", translation: "因此，敏锐的雕塑观赏者也必须学会把形体作为形体来感觉，不要靠描述和印象去想象。 以鸟蛋为例。 观赏者必须感觉到它是一个单一的实体形态，而完全不靠它的食用意义或它会变成鸟这样的文字概念来感觉。 对于其他实体，如，贝壳、核桃、李子、梨子、蝌蚪、蘑菇、山峰、肾脏、胡萝卜、树干、鸟儿、花蕾、云雀、瓢虫、芦苇以及骨头也应这样来感觉。 从这些形体出发，观赏者可进一步观察更为复杂的形体或若干形体的组合。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Appreciation of sculpture depends upon the ability to respond to form in three dimensions.", translation: "对雕塑的鉴赏力取决于立体的反应能力。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "That is perhaps why sculpture has been described as the most difficult of all arts;", translation: "雕塑被说成是所有艺术中最难的艺术，可能就是这个道理。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "certainly it is more difficult than the arts which involve appreciation of flat forms, shape in only two dimensions.", translation: "欣赏雕塑品当然比欣赏平面的艺术品要难。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Many more people are 'form-blind' than colour-blind.", translation: "“形盲”的人数比 “色盲”的人数要多得多。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The child learning to see, first distinguishes only two-dimensional shape;", translation: "正在学看东西的儿童起初只会分辨二维形态，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "it cannot judge distances, depths.", translation: "不会判断距离和深度。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Later, for its personal safety and practical needs, it has to develop (partly by means of touch) the ability to judge roughly three-dimensonal distances.", translation: "慢慢地，由于自身安全和实际需要，儿童必须发展（部分通过触觉）粗略判断三维空间距离的能力。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "But having satisfied the requirements of practical necessity, most people go no further.", translation: "但是大部分人在满足了实际需要后，就不再继续发展这种能力了。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Though they may attain considerable accuracy in the perception of flat form, they do not make the further intellectual and emotional effort needed to comprehend form in its full spatial existence.", translation: "虽然他们对平面形式的感觉能达到相当准确的程度，但他们没有在智力和感情上进一步努力去理解存在于空间的整个形态。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "This is what the sculptor must do.", translation: "而雕塑家就必须做到这一点。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He must strive continually to think of, and use, form in its full spatial completeness.", translation: "他必须勤于想像并且利用形体在空间中的完整性。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He gets the solid shape, as it were, inside his head-he thinks of it, whatever its size, as if he were holding it completely enclosed in the hollow of his hand.", translation: "可以说，当他想像一个物体时，不管其大小如何，他脑子里得到的是一个立体的概念，就好像完全握在自己手心里一样。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He mentally visualizes a complex form from all round itself;", translation: "他的大脑能从物体周围的各个角度勾画出其复杂的形象，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "he knows while he looks at one side what the other side is like, he identifies himself with its centre of gravity, its mass, its weight;", translation: "他看物体的一边时，便知道另一边是个什么样子。他把自身和物体重心、质量、重量融为一体。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "he realizes its volume, as the space that the shape displaces in the air.", translation: "他能意识到物体的体积，那就是它的形状在空气中所占的空间。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "And the sensitive observer of sculpture must also learn to feel shape simply as shape, not as description or reminiscence.", translation: "因此，敏锐的雕塑观赏者也必须学会把形体作为形体来感觉，不要靠描述和印象去想象。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He must, for example, perceive an egg as a simple single solid shape, quite apart from its significance as food, or from the literary idea that it will become a bird.", translation: "以鸟蛋为例。观赏者必须感觉到它是一个单一的实体形态，而完全不靠它的食用意义或它会变成鸟这样的文字概念来感觉。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom, a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone.", translation: "对于其他实体，如，贝壳、核桃、李子、梨子、蝌蚪、蘑菇、山峰、肾脏、胡萝卜、树干、鸟儿、花蕾、云雀、瓢虫、芦苇以及骨头也应这样来感觉。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "From these he can go on to appreciate more complex forms or combinations of several forms.", translation: "从这些形体出发，观赏者可进一步观察更为复杂的形体或若干形体的组合。", predicates: [], clauseIntroducers: [], notes: [] },
 ]
 ],
   },
@@ -2081,41 +2102,40 @@ const articleNce4L35: Article = {
   original: {
     paragraphs: [
 [
-{ text: "The Moon is likely to become the industrial hub of the Solar System, supplying the rocket fuels for its ships, easily obtainable from the lunar rocks in the form of liquid oxygen.", translation: "月球很可能成为太阳系的工业中心。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The reason lies in its gravity.", translation: "从月球上的岩石中很容易提炼出液态氧，作为航天飞船的燃料。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Because the Moon has only an eightieth of the Earth's mass, it requires 97 per cent less energy to travel the quarter of a million miles from the Moon to Earth-orbit than the 200 mile-journey from Earth's surface into orbit!", translation: "其原因在于月球的重力。 因为月球的重只有地球的1/8，因此，从月球到地球的25万英里所消耗的能量要比从地球表面进入地球轨道的200英里所耗能量少97%。 这点听起来令人难以置信，但却很容易计算出来。 要乘坐一枚火箭飞离地球，火箭的速度要达到每秒7英里，而从月球出发的相应速度是每秒1.5英里。 由于月球表面的重力仅是地球表面的1/6 -- 还记得阿波罗飞船中的宇航员轻松地跳跃 -- 在月球上加速到每秒1.5英里比在地球上所用能源要少得多。 月球居民在太空遨游的费用仅是地球上朋友飞越同样路所需费用的3%。 亚瑟.C.克拉克曾提议，一种创新的想法要经过以下3个阶段： 1 “根本不可能，不要浪费我的时间。 ” 2 “可能，但不值得做。 ” 3 “我一直说这是个好想法。 ” 如果有相当数量的人永久性地住在太空，征服火星的计划 -- 一个比月球远160倍的星球 -- 就可以明确地从第2阶段进入第3阶段。 火星对未来的星际旅客来说有着特殊的魅力。 美国、俄罗斯和欧洲都有许多热心此项事业的人 -- 其中的不少是认真和资深的科学家，他们一直梦想着把人送上火星。 他们的目标是可以理解的。 火星是太阳系里与地球最接近的一颗行星。 这是一个红色沙漠的世界（因而得名：红色行星），无云的天空，凶猛的沙暴，比大峡谷还宽的裂缝，起码有一座山有珠穆朗玛峰的近两倍高。 看起来，它很合适居住。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "The Moon is likely to become the industrial hub of the Solar System, supplying the rocket fuels for its ships, easily obtainable from the lunar rocks in the form of liquid oxygen.", translation: "月球很可能成为太阳系的工业中心。从月球上的岩石中很容易提炼出液态氧，作为航天飞船的燃料。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The reason lies in its gravity.", translation: "其原因在于月球的重力。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Because the Moon has only an eightieth of the Earth's mass, it requires 97 per cent less energy to travel the quarter of a million miles from the Moon to Earth-orbit than the 200 mile-journey from Earth's surface into orbit!", translation: "因为月球的重只有地球的1/8，因此，从月球到地球的25万英里所消耗的能量要比从地球表面进入地球轨道的200英里所耗能量少97%。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "This may sound fantastic, but it is easily calculated.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "To escape from the Earth in a rocket, one must travel at seven miles per second.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The comparable speed from the Moon is only 1.5 miles per second.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Because the gravity on the Moon's surface is only a sixth of Earth's (remember how easily the Apollo astronauts bounded along), it takes much less energy to accelerate to that 1.5 miles per second than it does on Earth.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Moon-dwellers will be able to fly in space at only three per cent of the cost of similar journeys by their terrestrial dwellers will be able to fly in space at only three per cent of the cost of similar journeys by their terrestrial cousins.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This may sound fantastic, but it is easily calculated.", translation: "这点听起来令人难以置信，但却很容易计算出来。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "To escape from the Earth in a rocket, one must travel at seven miles per second.", translation: "要乘坐一枚火箭飞离地球，火箭的速度要达到每秒7英里。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The comparable speed from the Moon is only 1.5 miles per second.", translation: "而从月球出发的相应速度是每秒1.5英里。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Because the gravity on the Moon's surface is only a sixth of Earth's (remember how easily the Apollo astronauts bounded along), it takes much less energy to accelerate to that 1.5 miles per second than it does on Earth.", translation: "由于月球表面的重力仅是地球表面的1/6 -- 还记得阿波罗飞船中的宇航员轻松地跳跃 -- 在月球上加速到每秒1.5英里比在地球上所用能源要少得多。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Moon-dwellers will be able to fly in space at only three per cent of the cost of similar journeys by their terrestrial dwellers will be able to fly in space at only three per cent of the cost of similar journeys by their terrestrial cousins.", translation: "月球居民在太空遨游的费用仅是地球上朋友飞越同样路所需费用的3%。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Arthur C.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Clark once suggested a revolutionary idea passes through three phases:", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Arthur C.", translation: "亚瑟.C.克拉克曾提议，一种创新的想法要经过以下3个阶段：", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Clark once suggested a revolutionary idea passes through three phases:", translation: "“根本不可能，不要浪费我的时间。”", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "1 'It's impossible -- don't waste my time.'", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "1 'It's impossible -- don't waste my time.'", translation: "“可能，但不值得做。”", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "2 'It's possible, but not worth doing.'", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "2 'It's possible, but not worth doing.'", translation: "“我一直说这是个好想法。”", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "3 'I said it was a good idea all along.'", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "3 'I said it was a good idea all along.'", translation: "如果有相当数量的人永久性地住在太空，征服火星的计划 -- 一个比月球远160倍的星球 -- 就可以明确地从第2阶段进入第3阶段。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "The idea of colonising Mars -- a world 160 times more distant time the Moon -- will move decisively from the second phase to the third, when a significant number of people are living permanently in space.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Mars has an extraordinary fascination for would-be voyagers.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "America, Russia and Europe are filled with enthusiasts -- many of them serious and senior scientists -- who dream of sending people to it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Their aim is understandable.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is the one world in the Solar System that is most like the Earth.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is a world of red sandy deserts (hence its name -- the Red Planet), cloudless skies, savage sandstorms, chasms wider than the Grand Canyon and at least one mountain more than twice as tall as Everest.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The idea of colonising Mars -- a world 160 times more distant time the Moon -- will move decisively from the second phase to the third, when a significant number of people are living permanently in space.", translation: "火星对未来的星际旅客来说有着特殊的魅力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Mars has an extraordinary fascination for would-be voyagers.", translation: "美国、俄罗斯和欧洲都有许多热心此项事业的人 -- 其中的不少是认真和资深的科学家，他们一直梦想着把人送上火星。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "America, Russia and Europe are filled with enthusiasts -- many of them serious and senior scientists -- who dream of sending people to it.", translation: "他们的目标是可以理解的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Their aim is understandable.", translation: "火星是太阳系里与地球最接近的一颗行星。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is the one world in the Solar System that is most like the Earth.", translation: "这是一个红色沙漠的世界（因而得名：红色行星），无云的天空，凶猛的沙暴，比大峡谷还宽的裂缝，起码有一座山有珠穆朗玛峰的近两倍高。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is a world of red sandy deserts (hence its name -- the Red Planet), cloudless skies, savage sandstorms, chasms wider than the Grand Canyon and at least one mountain more than twice as tall as Everest.", translation: "看起来，它很合适居住。", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "It seems ideal for settlement.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "7 DAYS, February 19, 1989", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2144,24 +2164,26 @@ const articleNce4L36: Article = {
 { text: "If a nation is essentially disunited, it is left to the government to hold it together.", translation: "如果一个国家实际上处于分裂状态，使之联合起来就是政府的事了。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "This increases the expense of government, and reduces correspondingly the amount of economic resources that could be used for developing the country.", translation: "这样的一来就增加了政府的开支，从而相应地减少了可以用来了展国家的那部分经济资源。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "And it should not be forgotten how small those resources are in a poor and backward country.", translation: "不应忘记，在一个贫穷落后的国家里，那部分财力是很有限的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Where the cost of government is high, resources for development are correspondingly low.", translation: "凡是政府管理费用高的地方，用于发展国家经济的资金就会相应地减少。 把国家的状况同私人企业的状况加以比较，就可以看清这个问题。 一个企业为了继续经营，不得不支出一定的费用和开销。 就我们的目的而言，我们只关心一种费用 -- 企业行政管理费。 一家企业的行政管理开支类似于一个国家的政府管理所用的开支。 如果企业中的每个人都在真诚地为提高企业利润而工作，那么企业的管理费用就会降低到相应的程度。 如果企业的每个人都信得过，人人都认真负责，在各自的工作范围内发挥主动性，行政管理费用就会降低。 行政管理费用的降低的原因是：每项工作只需要一个人去完成，用不着另外再有一个人检查工作。 督促他遵守章程，或向有关人士汇报他的工作。 但是，如果企业中谁也不可信赖会对工作尽忠守职，那公企业就会需大批的管理人员、检查人员和带班人员，管理费用就会相应在增加。 管理费用增加了，那么在扣除管理费用后，企业的收入就降低了。 因此用于分红的金额就用于将来开拓和发展的投资就相应地减少了。 一个国家的情况也完全相同。 如果人民忠于职守，举止规矩，能受到政府的信赖，那么政府就不需要大批的警察和文职人员运去促使人民遵纪守法。 但是，如果一个国家处于分裂状态，政府不能相信人民的行动有利于国家，那么政府就不得不对人民进行监督、检查和控制。 因此，一个处于分裂的国家必须要支付过高的行政管理费用。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Where the cost of government is high, resources for development are correspondingly low.", translation: "凡是政府管理费用高的地方，用于发展国家经济的资金就会相应地减少。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "This may be illustrated by comparing the position of a nation with that of a private business enterprise.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "An enterprise has to incur certain costs and expenses in order to stay in business.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For our purposes, we are concerned only with one kind of cost -- the cost of managing and administering the business.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Such administrative overheads in a business are analogous to the cost of government in a nation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The administrative overheads of a business are low to the extent that everyone working in the business can be trusted to behave in a way that best promotes the interests of the firm.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If they can each be trusted to take such responsibilities and to exercise such initiative as falls within their sphere, then administrative overheads will be low.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It will be low because it will be necessary to have only one man looking after each job, without having another man to check upon what he is doing, keep him in line, and report on him to someone else.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But if no one can be trusted to act in a loyal and responsible manner towards his job, then the business will require armies of administrators, checkers, and foremen and administrative overheads will rise correspondingly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As administrative overheads rise, so the earnings of the business after meeting the expense of administration, will fall; and the business will have less money to distribute as dividends or invest directly in its future progress and development.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This may be illustrated by comparing the position of a nation with that of a private business enterprise.", translation: "把国家的状况同私人企业的状况加以比较，就可以看清这个问题。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "An enterprise has to incur certain costs and expenses in order to stay in business.", translation: "一个企业为了继续经营，不得不支出一定的费用和开销。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "For our purposes, we are concerned only with one kind of cost -- the cost of managing and administering the business.", translation: "就我们的目的而言，我们只关心一种费用 -- 企业行政管理费。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Such administrative overheads in a business are analogous to the cost of government in a nation.", translation: "一家企业的行政管理开支类似于一个国家的政府管理所用的开支。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The administrative overheads of a business are low to the extent that everyone working in the business can be trusted to behave in a way that best promotes the interests of the firm.", translation: "如果企业中的每个人都在真诚地为提高企业利润而工作，那么企业的管理费用就会降低到相应的程度。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If they can each be trusted to take such responsibilities and to exercise such initiative as falls within their sphere, then administrative overheads will be low.", translation: "如果企业的每个人都信得过，人人都认真负责，在各自的工作范围内发挥主动性，行政管理费用就会降低。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It will be low because it will be necessary to have only one man looking after each job, without having another man to check upon what he is doing, keep him in line, and report on him to someone else.", translation: "行政管理费用的降低的原因是：每项工作只需要一个人去完成，用不着另外再有一个人检查工作。督促他遵守章程，或向有关人士汇报他的工作。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But if no one can be trusted to act in a loyal and responsible manner towards his job, then the business will require armies of administrators, checkers, and foremen and administrative overheads will rise correspondingly.", translation: "但是，如果企业中谁也不可信赖会对工作尽忠守职，那公企业就会需大批的管理人员、检查人员和带班人员，管理费用就会相应在增加。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "As administrative overheads rise, so the earnings of the business after meeting the expense of administration, will fall;", translation: "管理费用增加了，那么在扣除管理费用后，企业的收入就降低了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "and the business will have less money to distribute as dividends or invest directly in its future progress and development.", translation: "因此用于分红的金额就用于将来开拓和发展的投资就相应地减少了。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "It is precisely the same with a nation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "To the extent that the people can be relied upon to behave in a loyal and responsible manner, the government does not require armies of police and civil servants to keep them in order.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But if a nation is disunited, the government cannot be sure that the actions of the people will be in the interests of the nation; and it will have to watch, check, and control the people accordingly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A disunited nation therefore has to incur unduly high costs of government.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is precisely the same with a nation.", translation: "一个国家的情况也完全相同。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "To the extent that the people can be relied upon to behave in a loyal and responsible manner, the government does not require armies of police and civil servants to keep them in order.", translation: "如果人民忠于职守，举止规矩，能受到政府的信赖，那么政府就不需要大批的警察和文职人员运去促使人民遵纪守法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But if a nation is disunited, the government cannot be sure that the actions of the people will be in the interests of the nation;", translation: "但是，如果一个国家处于分裂状态，政府不能相信人民的行动有利于国家，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "and it will have to watch, check, and control the people accordingly.", translation: "那么政府就不得不对人民进行监督、检查和控制。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A disunited nation therefore has to incur unduly high costs of government.", translation: "因此，一个处于分裂的国家必须要支付过高的行政管理费用。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2189,33 +2211,34 @@ const articleNce4L38: Article = {
 [
 { text: "Contamination of water supplies is usually due to poor sanitation close to water sources, sewage disposal into the sources themselves, leakage of sewage into distribution systems or contamination with industrial or farm waste.", translation: "水源的污染通常是由于接近水源的地方卫条件太差而造成的：污水排入水源，污水渗入给水系统或工农业污水造成污染。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Even if a piped water supply is safe at its source, it is not always safe by the time it reaches the tap.", translation: "即使管道供水系统在水源处安全的，等水到达龙头时就不一定总是安全的了。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Intermittent tap-water supplies should be regarded as particularly suspect.", translation: "断断续续的水管应该被视为是非常可疑的。 短途旅行到水质不保险的地区时，应避免饮用水龙头的水或未经处理任何其他来源的水。 最好仅饮用开水，名牌瓶装或罐装水 -- 装瓶厂通常遵循国际水处理的标准。 碳酸饮料是酸性的，就更安全一些。 确保瓶子是当你面开启的，瓶口清洁干燥。 烧开一直是水处理的一种好办法。 有的酒店根据要求可提供开水，这些开水可用于饮用和刷牙。 如果有相配的电压，可以煮少量水的便携式热水装置是有用的。 应谢绝任何不明来源的冷饮。 冰块只有当制造冰块的水安全时才是保险的，只有知道冰块安全时才能加入饮料。 可以把饮料置于冰块之上来冷却，而不是把冰块加进饮料之中。 酒精可能是医学上的消毒剂，但决不可用来消毒饮用水。 乙醇的浓度为50%至70%时比较有效，浓度低于20%时，杀菌能力基本上就不存在了。 强度标为95的酒中含有47%的酒精。 要提防甲基化酒精，那是剧毒的，永远不能掺入饮用水。 如果没有其他安全的饮用水，水管中流出的烫手的水可以留下来冷却。 这种水一般是安全的。 那些计划去偏远地区旅行，或在饮用水不现成的国家居住的人，应该知道如何使水适于饮用的各种办法。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Intermittent tap-water supplies should be regarded as particularly suspect.", translation: "断断续续的水管应该被视为是非常可疑的。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Travellers on short trips to areas with water supplies of uncertain quality should avoid drinking tap-water, or untreated water from any other source.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is best to keep to hot drinks, bottled or canned drinks of well-known brand names -- international standards of water treatment are usually followed at bottling plants.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Carbonated drinks are acidic, and slightly safer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Make sure that all bottles are opened in your presence, and that their rims are clean and dry.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Travellers on short trips to areas with water supplies of uncertain quality should avoid drinking tap-water, or untreated water from any other source.", translation: "短途旅行到水质不保险的地区时，应避免饮用水龙头的水或未经处理任何其他来源的水。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is best to keep to hot drinks, bottled or canned drinks of well-known brand names -- international standards of water treatment are usually followed at bottling plants.", translation: "最好仅饮用开水，名牌瓶装或罐装水 -- 装瓶厂通常遵循国际水处理的标准。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Carbonated drinks are acidic, and slightly safer.", translation: "碳酸饮料是酸性的，就更安全一些。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Make sure that all bottles are opened in your presence, and that their rims are clean and dry.", translation: "确保瓶子是当你面开启的，瓶口清洁干燥。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Boiling is always a good way of treating water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Some hotels supply boiled water on request and this can be used for drinking, or for brushing teeth.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Portable boiling elements that can boil small quantities of water are useful when the right voltage of electricity is available.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Refuse politely any cold drink from an unknown source.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Boiling is always a good way of treating water.", translation: "烧开一直是水处理的一种好办法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Some hotels supply boiled water on request and this can be used for drinking, or for brushing teeth.", translation: "有的酒店根据要求可提供开水，这些开水可用于饮用和刷牙。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Portable boiling elements that can boil small quantities of water are useful when the right voltage of electricity is available.", translation: "如果有相配的电压，可以煮少量水的便携式热水装置是有用的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Refuse politely any cold drink from an unknown source.", translation: "应谢绝任何不明来源的冷饮。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Ice is only as safe as the water from which it is made, and should not be put in drinks unless it is known to be safe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Drinks can be cooled by placing them on ice rather than adding ice to them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Ice is only as safe as the water from which it is made, and should not be put in drinks unless it is known to be safe.", translation: "冰块只有当制造冰块的水安全时才是保险的，只有知道冰块安全时才能加入饮料。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Drinks can be cooled by placing them on ice rather than adding ice to them.", translation: "可以把饮料置于冰块之上来冷却，而不是把冰块加进饮料之中。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Alcohol may be a medical disinfectant, but should not be relied upon to sterilize water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Ethanol is more effective at a concentration of 50-70 per cent; below 20 per cent, its bactericidal action is negligible.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Spirits labelled 95 proof contain only about 47 per cent alcohol.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Beware of methylated alcohol, which is very poisonous, and should never be added to drinking water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Alcohol may be a medical disinfectant, but should not be relied upon to sterilize water.", translation: "酒精可能是医学上的消毒剂，但决不可用来消毒饮用水。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Ethanol is more effective at a concentration of 50-70 per cent;", translation: "乙醇的浓度为50%至70%时比较有效，浓度低于20%时，杀菌能力基本上就不存在了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "below 20 per cent, its bactericidal action is negligible.", translation: "强度标为95的酒中含有47%的酒精。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Spirits labelled 95 proof contain only about 47 per cent alcohol.", translation: "要提防甲基化酒精，那是剧毒的，永远不能掺入饮用水。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Beware of methylated alcohol, which is very poisonous, and should never be added to drinking water.", translation: "如果没有其他安全的饮用水，水管中流出的烫手的水可以留下来冷却。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "If no other safe water supply can be obtained, tap water that is too hot to touch can be left to cool and is generally safe to drink.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Those planning a trip to remote areas, or intending to live in countries where drinking water is not readily available, should know about the various possible methods for making water safe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If no other safe water supply can be obtained, tap water that is too hot to touch can be left to cool and is generally safe to drink.", translation: "这种水一般是安全的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Those planning a trip to remote areas, or intending to live in countries where drinking water is not readily available, should know about the various possible methods for making water safe.", translation: "那些计划去偏远地区旅行，或在饮用水不现成的国家居住的人，应该知道如何使水适于饮用的各种办法。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2242,24 +2265,31 @@ const articleNce4L39: Article = {
     paragraphs: [
 [
 { text: "I have known very few writers, but those I have known, and whom I respect, confess at once that they have little idea where they are going when they first set pen to paper.", translation: "我认识的作家寥寥无几，然而凡是我所认识和尊敬的作家，都立即承认在他们动笔时，不清楚要写什么，怎么写。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "They have a character, perhaps two; they are in that condition of eager discomfort which passes for inspiration; all admit radical changes of destination once the journey has begun; one, to my certain knowledge, spent nine months on a novel about Kashmir, then reset the whole thing in the Scottish Highlands.", translation: "他们心中只在一个或两个角色。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "I never heard of anyone making a 'skeleton', as we were taught at school.", translation: "他们处于急切不安的状态，而被当作是灵感。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "In the breaking and remaking, in the timing, interweaving, beginning afresh, the writer comes to discern things in his material which were not consciously in his mind when he began.", translation: "他们无不承认，一旦“旅程”开始，“目的地”常有急剧的变化。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "This organic process, often leading to moments of extraordinary self-discovery, is of an indescribable fascination.", translation: "据我所知，有位作家花了9个月的时间写了一部关于克什米尔的小说，后来却把整个故事背景换成了苏格兰高地。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "A blurred image appears; he adds a brushstroke and another, and it is gone; but something was there, and he will not rest till he has captured it.", translation: "我从未听说过任何一位作家像我们在学校那样，动笔前先列什么提纲。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Sometimes the yeast within a writer outlives a book he has written.", translation: "作家在剪裁修改、构思时间、穿插情节、以至从头重写的过程中，会领悟到素材中很多东西是他刚动笔时所未意识到的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "I have heard of writers who read nothing but their own books; like adolescents they stand before the mirror, and still cannot fathom the exact outline of the vision before them.", translation: "这种有机的加工过程往往达到不寻常自我发现的境界，具有难以言表的构思魅力。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "For the same reason, writers talk interminably about their own books, winkling out hidden meanings, super-imposing new ones, begging response from those around them.", translation: "一个朦胧的形象出现在作家的脑海里，他左添一笔，右添一笔，形象反而消逝了；可是，好像还有什么东西存在着，不把它捕捉到，作家是不会罢休的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Of course a writer doing this is misunderstood: he might as well try to explain a crime or a love affair.", translation: "有时，一个作家一本书写完了，但兴奋仍不消散。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "He is also, incidentally, an unforgivable bore.", translation: "我听说一些作家，除了自己的书外，别的书一概不读，犹如希腊神话中那位漂亮的少年，站在镜前，不能辨认自身的真面目。 由于这个原因，作家喋喋不休地谈论自己的书，挖掘其隐晦的含义，询问周围人的反应。 作家如此行事当然被人误解。 他还不如给人讲一个犯罪案件或一个恋爱故事。 顺便说一句，他也是个不可饶恕的令人厌烦的人。 这种企图消除自己和读者之间距离的作法，企图用不了解自己的人的观点来研究自己塑造的形象的作法，会导致作家的毁灭，因为他已经开始为取悦他人而写作了。 一两年前，一位年轻的英国作家发表了中肯的看法。 他说，初稿是才华，以后各稿是艺术。 也是由于这个原因，作家同任何艺术家一样，找不到可休息的场所，找不到伙伴和活动使自己得到安逸。 任何局外人的判断也比不上他内心的正确判断。 一旦作家从内心的紊乱中理出头绪，就应该按任何评论家想像不到的无情规范约束自己写作；当他沽名钓誉时，他就脱离了自我生活，脱离了对自己灵魂最深处世界的探索。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "They have a character, perhaps two;", translation: "他们心中只在一个或两个角色。他们处于急切不安的状态，而被当作是灵感。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "they are in that condition of eager discomfort which passes for inspiration;", translation: "他们无不承认，一旦“旅程”开始，“目的地”常有急剧的变化。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "all admit radical changes of destination once the journey has begun;", translation: "据我所知，有位作家花了9个月的时间写了一部关于克什米尔的小说，后来却把整个故事背景换成了苏格兰高地。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "one, to my certain knowledge, spent nine months on a novel about Kashmir, then reset the whole thing in the Scottish Highlands.", translation: "我从未听说过任何一位作家像我们在学校那样，动笔前先列什么提纲。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "I never heard of anyone making a 'skeleton', as we were taught at school.", translation: "作家在剪裁修改、构思时间、穿插情节、以至从头重写的过程中，会领悟到素材中很多东西是他刚动笔时所未意识到的。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "In the breaking and remaking, in the timing, interweaving, beginning afresh, the writer comes to discern things in his material which were not consciously in his mind when he began.", translation: "这种有机的加工过程往往达到不寻常自我发现的境界，具有难以言表的构思魅力。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "This organic process, often leading to moments of extraordinary self-discovery, is of an indescribable fascination.", translation: "一个朦胧的形象出现在作家的脑海里，他左添一笔，右添一笔，形象反而消逝了；", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "A blurred image appears;", translation: "可是，好像还有什么东西存在着，不把它捕捉到，作家是不会罢休的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "he adds a brushstroke and another, and it is gone;", translation: "有时，一个作家一本书写完了，但兴奋仍不消散。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "but something was there, and he will not rest till he has captured it.", translation: "我听说一些作家，除了自己的书外，别的书一概不读，犹如希腊神话中那位漂亮的少年，站在镜前，不能辨认自身的真面目。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Sometimes the yeast within a writer outlives a book he has written.", translation: "由于这个原因，作家喋喋不休地谈论自己的书，挖掘其隐晦的含义，询问周围人的反应。作家如此行事当然被人误解。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "I have heard of writers who read nothing but their own books;", translation: "他还不如给人讲一个犯罪案件或一个恋爱故事。顺便说一句，他也是个不可饶恕的令人厌烦的人。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "like adolescents they stand before the mirror, and still cannot fathom the exact outline of the vision before them.", translation: "这种企图消除自己和读者之间距离的作法，企图用不了解自己的人的观点来研究自己塑造的形象的作法，会导致作家的毁灭，因为他已经开始为取悦他人而写作了。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "For the same reason, writers talk interminably about their own books, winkling out hidden meanings, super-imposing new ones, begging response from those around them.", translation: "一两年前，一位年轻的英国作家发表了中肯的看法。他说，初稿是才华，以后各稿是艺术。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Of course a writer doing this is misunderstood: he might as well try to explain a crime or a love affair.", translation: "也是由于这个原因，作家同任何艺术家一样，找不到可休息的场所，找不到伙伴和活动使自己得到安逸。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "He is also, incidentally, an unforgivable bore.", translation: "任何局外人的判断也比不上他内心的正确判断。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "This temptation to cover the distance between himself and the reader, to study his image in the sight of those who do not know him, can be his undoing: he has begun to write to please.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This temptation to cover the distance between himself and the reader, to study his image in the sight of those who do not know him, can be his undoing: he has begun to write to please.", translation: "一旦作家从内心的紊乱中理出头绪，", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "A young English writer made the pertinent observation a year or two back that the talent goes into the first draft, and the art into the drafts that follow.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For this reason also the writer, like any other artist, has no resting place, no crowd or movement in which he may take comfort, no judgment from outside which can replace the judgment from within.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A writer makes order out of the anarchy of his heart; he submits himself to a more ruthless discipline than any critic dreamed of, and when he flirts with fame, he is taking time off from living with himself, from the search for what his world contains at its inmost point.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A young English writer made the pertinent observation a year or two back that the talent goes into the first draft, and the art into the drafts that follow.", translation: "就应该按任何评论家想像不到的无情规范约束自己写作；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "For this reason also the writer, like any other artist, has no resting place, no crowd or movement in which he may take comfort, no judgment from outside which can replace the judgment from within.", translation: "当他沽名钓誉时，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A writer makes order out of the anarchy of his heart;", translation: "他就脱离了自我生活，脱离了对自己灵魂最深处世界的探索。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "he submits himself to a more ruthless discipline than any critic dreamed of, and when he flirts with fame, he is taking time off from living with himself, from the search for what his world contains at its inmost point.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2286,30 +2316,30 @@ const articleNce4L40: Article = {
     paragraphs: [
 [
 { text: "Waves are the children of the struggle between ocean and atmosphere, the ongoing signatures of infinity.", translation: "海浪是大海和空气相斗的产物，无限的一种不间断的标志。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Rays from the sun excite and energize the atmosphere of the earth, awakening it to flow, to movement, to rhythm, to life.", translation: "太阳光刺激了地球的大气层，并给予它能量；阳光使空气开始流动，产生节奏，获得生命。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The wind then speaks the message of the sun to the sea and the sea transmits it on through waves -- an ancient, exquisite, powerful message.", translation: "然后，风把太阳的住处带给了大海，海洋用波浪的形式传递这个信息 -- 一个源过流长、高雅而有力的信息。 这些海浪属于地球上最复杂的自然现象。 它们的基本特征包括浪峰（波浪的最高点）、波谷（最低点）、浪高（从波谷到浪峰的垂直距离）、波长（两个浪峰间的水平距离）和周期（海峰走过一个波长所需的时间）。 虽然，海浪给人的印象是一堵由水组成的墙向你压过来，而实际上，浪从水中移过，而水则留在原处。 如果水和浪一起移动的话，那么大海和海里所有的东西就会向岸边疾涌过来，带来明显的灾难性后果。 穿过深水的海浪使水面上的一个微粒按照一种近乎圆形的轨道移动，先把微粒拉向前移动的海浪，然后推上波浪，随着波浪移动，然后 -- 当波浪把微粒留在身后时 -- 又回到出发点。 从成熟到消亡，波浪和其他任何“活动中”的东西一样，都受制于共同的法则。 一度它获得非凡的个性，但最终又被重新融进生命的大洋。 公海上起伏的波浪是由3个自然因素构成的：风、地球的运动或震颤和月亮、太阳的引力。 一旦波浪形成，地球引力是持续不断企图使海面复原为平面的力量。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Rays from the sun excite and energize the atmosphere of the earth, awakening it to flow, to movement, to rhythm, to life.", translation: "太阳光刺激了地球的大气层，并给予它能量；", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The wind then speaks the message of the sun to the sea and the sea transmits it on through waves -- an ancient, exquisite, powerful message.", translation: "空气开始流动，产生微风，进而产生台风。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "These ocean waves are among the earth's most complicated natural phenomena.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The basic features include a crest (the highest point of the wave), a trough (the lowest point), a height (the vertical distance from the trough to the crest), a wave length (the horizontal distance between two wave crests), and a period (which is the time it takes a wave crest to travel one wave length).", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "These ocean waves are among the earth's most complicated natural phenomena.", translation: "当空气流动时，其质点会撞击海洋的茫茫水面，从而产生海浪。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The basic features include a crest (the highest point of the wave), a trough (the lowest point), a height (the vertical distance from the trough to the crest), a wave length (the horizontal distance between two wave crests), and a period (which is the time it takes a wave crest to travel one wave length).", translation: "即使风已平息，海浪仍继续向前滚动。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Although an ocean wave gives the impression of a wall of water moving in your direction, in actuality waves move through the water leaving the water about where it was.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If the water was moving with the wave, the ocean and everything on it would be racing in to the shore with obviously catastrophic results.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Although an ocean wave gives the impression of a wall of water moving in your direction, in actuality waves move through the water leaving the water about where it was.", translation: "当它移向几乎毫不相干的另一海域时，仍继续滚动。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If the water was moving with the wave, the ocean and everything on it would be racing in to the shore with obviously catastrophic results.", translation: "发生海啸时，情况就大不相同了。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "An ocean wave passing through deep water causes a particle on the surface to move in a roughly circular orbit, drawing the particle first towards the advancing wave, then up into the wave, then forward with it and then -- as the wave leaves the particles behind -- back to its starting point again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "An ocean wave passing through deep water causes a particle on the surface to move in a roughly circular orbit, drawing the particle first towards the advancing wave, then up into the wave, then forward with it and then -- as the wave leaves the particles behind -- back to its starting point again.", translation: "海啸是由水下地震引起的，如1896年发生在日本三陆的强震。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "From both maturity to death, a wave is subject to the same laws as any other 'living' thing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For a time it assumes a miraculous individuality that, in the end, is reabsorbed into the great ocean of life.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "From both maturity to death, a wave is subject to the same laws as any other 'living' thing.", translation: "当时在毫无防备的情况下，约有3万人丧失。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "For a time it assumes a miraculous individuality that, in the end, is reabsorbed into the great ocean of life.", translation: "海啸的xio不是由水下地震所造成的，而是由近海底的海水运行所造成的。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "The undulating waves of the open sea are generated by three natural causes: wind, earth movements or tremors, and the gravitational pull of the moon and the sun.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Once waves have been generated, gravity is the force that drives them in a continual attempt to restore the ocean surface to a flat plain.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The undulating waves of the open sea are generated by three natural causes: wind, earth movements or tremors, and the gravitational pull of the moon and the sun.", translation: "据测得，在发生强震时，海底的情形与整个海洋的情形几乎一样。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Once waves have been generated, gravity is the force that drives them in a continual attempt to restore the ocean surface to a flat plain.", translation: "只不过海水在冲击的沿岸海湾和水库时使灾难加剧。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "from World Magazine (BBC Enterprises)", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "from World Magazine (BBC Enterprises)", translation: "但是，暴雨掀起的巨浪和海啸掀起的巨浪不可同日而语。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2335,36 +2365,36 @@ const articleNce4L41: Article = {
   original: {
     paragraphs: [
 [
-{ text: "Two main techniques have been used for training elephants, which we may call respectively the tough and the gentle.", translation: "驯象有两种主要的方法，我们分别称之为强硬法和温柔法。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The former method simply consists of setting an elephant to work and beating him until he does what is expected of him.", translation: "强硬法就是驱使象去干活，把它打顺从为止。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Apart from any moral considerations this is a stupid method of training, for it produces a resentful animal who at a later stage may well turn man-killer.", translation: "且不说道义问题，这本身就是一种愚蠢的训练方法，因为这种方法训练会使动物反感，在以后某个时期可能会变成伤人的动物。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The gentle method requires more patience in the early stages, but produces a cheerful, good-tempered elephant who will give many years of loyal service.", translation: "温柔法要求在最初阶段保持较大的耐心，但这种方法可以训练出性情愉快、脾气温顺，能忠实为人服务多年的大象。 驯象中至关重要的是指派一名专门的驯象员，全面负责这项工作。 大象和狗一样，喜欢有一个专一的主人，而且会对主人产生相当深厚的私人感情。 甚至有这样的故事：训练了一半的小象，由于不可避免的情况与他们的主人分离后，竟拒绝吃食，消瘦至死。 这种极端的事例虽不可全信，但强调了一项基本原则，象和驯象员之间的关系是驯象成功与否的关健。 捕捉15至20岁之间年龄的大象进行驯象最为经济。 这个年龄的象差不多已能干重活，可以很快挣回饲养它的开支。 但这个年龄的象不易驯服，因此开始阶段需要有一位强有力的老手。 捕来拴在树上的大象，每当有人走近它时，就会向前猛冲并发出尖叫，甚至一连几天都由于愤怒和恐惧而拒绝进食。 有时，把一头已驯服的象拴在旁边能给野象以信心。 在大多数情况下，刚缚来的象会慢慢静下来，接着开始吃食。 下一步就是把象带到训练场所，这是一件棘手的事，需要在它两侧拴上两头驯服的大象才能完成。 几只象同时训练时，通常是把新到的安置在两头训练得很好的大象的象厩中间，然后给它以充足的食物和水，一定不要惊扰它，以便让他能适应新居的气氛，并且看到自己的同伴身上没有发生让自己担惊受怕的事。 当它进食正常了，训练就开始。 驯练员手持一根有锋利金属尖头的长棒，站在象前。 两位助手骑在驯服的象的背上，从两侧控制新捕的象，其他人唱着单调的歌声用手抚摸象的皮肤。 据说这是为了使象产生愉快的感觉，为了加强这种效果，人们还按象的年龄性别，给以亲切的外号，如“嗬！ 我的孩子”、“嗬！ 我的爸爸”、“嗬！ 我的妈妈”。 然而大象不会立刻被这些讨好的话感动，而往往是用鼻子朝各个方向猛烈地甩动。 训练员要用有锋利金属尖的长棒控制它的这种举动，象鼻子最后疼得卷了起来，以后它就很少用鼻子去进攻了。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Two main techniques have been used for training elephants, which we may call respectively the tough and the gentle.", translation: "有两种主要的技术可以驯服大象，它们分别被称为强压法和温柔法。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The former method simply consists of setting an elephant to work and beating him until he does what is expected of him.", translation: "强压法通常是在小象很小的时候就把它从母象身边带走，这种方法需要有一位驯练员和一名助手，", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Apart from any moral considerations this is a stupid method of training, for it produces a resentful animal who at a later stage may well turn man-killer.", translation: "他们一起将小象的腿拴住，然后将它与其他象栓在一起。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The gentle method requires more patience in the early stages, but produces a cheerful, good-tempered elephant who will give many years of loyal service.", translation: "然后他们一起唱着单调的歌曲，用手抚摸小象的皮肤，使它产生愉快的感觉。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "The first essential in elephant training is to assign to the animal a single mahout who will be entirely responsible for the job.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Elephants like to have one master just as dogs do, and are capable of a considerable degree of personal affection.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There are even stories of half-trained elephant calves who have refused to feed and pined to death when by some unavoidable circumstance they have been deprived of their own trainer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Such extreme cases must probably be taken with a grain of salt, but they do underline the general principle that the relationship between elephant and mahout is the key to successful training.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The first essential in elephant training is to assign to the animal a single mahout who will be entirely responsible for the job.", translation: "温柔法需要在它的两侧拴上驯服的大象，然后给以充足的食物和水，让它适应新居的气氛。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Elephants like to have one master just as dogs do, and are capable of a considerable degree of personal affection.", translation: "当它进食正常了，训练就开始。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There are even stories of half-trained elephant calves who have refused to feed and pined to death when by some unavoidable circumstance they have been deprived of their own trainer.", translation: "驯练员手持一根有锋利金属尖头的长棒，站在象前。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Such extreme cases must probably be taken with a grain of salt, but they do underline the general principle that the relationship between elephant and mahout is the key to successful training.", translation: "两位助手骑在驯服的象背上，从两侧控制新捕的象。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "The most economical age to capture an elephant for training is between 15 and 20 years, for it is then almost ready to undertake heavy work and can begin to earn its keep straight away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But animals of this age do not easily become subservient to man, and a very firm hand must be employed in the early stages.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The captive elephant, still roped to a tree, plunges and screams every time a man approaches, and for several days will probably refuse all food through anger and fear.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Sometimes a tame elephant is tethered nearby to give the wild one confidence, and in most cases the captive gradually quietens down and begins to accept its food.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The next stage is to get the elephant to the training establishment, a ticklish business which is achieved with the aid of two tame elephants roped to the captive on either side.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The most economical age to capture an elephant for training is between 15 and 20 years, for it is then almost ready to undertake heavy work and can begin to earn its keep straight away.", translation: "其他人唱着单调的歌声用手抚摸象的皮肤。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But animals of this age do not easily become subservient to man, and a very firm hand must be employed in the early stages.", translation: "据说这是为了使象产生愉快的感觉，为了加强这种效果，人们还按象的年龄性别，给以亲切的外号。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The captive elephant, still roped to a tree, plunges and screams every time a man approaches, and for several days will probably refuse all food through anger and fear.", translation: "大象不会立即被这些讨好的话感动，而往往是用鼻子朝各个方向猛烈地甩动。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Sometimes a tame elephant is tethered nearby to give the wild one confidence, and in most cases the captive gradually quietens down and begins to accept its food.", translation: "驯练员要用有锋利金属尖的长棒控制它的动作，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The next stage is to get the elephant to the training establishment, a ticklish business which is achieved with the aid of two tame elephants roped to the captive on either side.", translation: "象的鼻子最终才会体会到惹是生非是不值得的，", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "When several elephants are being trained at one time, it is customary for the new arrival to be placed between the stalls of two captives whose training is already well advanced.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is then left completely undisturbed with plenty of food and water so that it can absorb the atmosphere of its new home and see that nothing particularly alarming is happening to its companions.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When it is eating normally, its own training begins.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The trainer stands in front of the elephant holding a long stick with a sharp metal point.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Two assistants, mounted on tame elephants, control the captive from either side, while others rub their hands over his skin to the accompaniment of a monotonous and soothing chant.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This is supposed to induce pleasurable sensations in the elephant, and its effects are reinforced by the use of endearing epithets. such as 'ho! my son', or 'ho! my father', or 'my mother', according to the age and sex of the captive.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The elephant is not immediately susceptible to such blandishments, however, and usually lashes fiercely with its trunk in all directions.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "These movements are controlled by the trainer with the metal-pointed stick, and the trunk eventually becomes so sore that the elephant curls it up and seldom afterwards uses it for offensive purposes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "When several elephants are being trained at one time, it is customary for the new arrival to be placed between the stalls of two captives whose training is already well advanced.", translation: "然后它就驯服了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is then left completely undisturbed with plenty of food and water so that it can absorb the atmosphere of its new home and see that nothing particularly alarming is happening to its companions.", translation: "驯象中最为重要的手段是一种响亮的单调的歌声。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "When it is eating normally, its own training begins.", translation: "大象听了这种歌声就会在前额出现一个凹陷，然后它就驯服了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The trainer stands in front of the elephant holding a long stick with a sharp metal point.", translation: "这种能力被认为是大象的智慧，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Two assistants, mounted on tame elephants, control the captive from either side, while others rub their hands over his skin to the accompaniment of a monotonous and soothing chant.", translation: "实际上大象是十分愿意被驯服的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This is supposed to induce pleasurable sensations in the elephant, and its effects are reinforced by the use of endearing epithets. such as 'ho! my son', or 'ho! my father', or 'my mother', according to the age and sex of the captive.", translation: "一头成年印度野象在训练开始几天里被用绳索拴在两头已驯服的象中间。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The elephant is not immediately susceptible to such blandishments, however, and usually lashes fiercely with its trunk in all directions.", translation: "当它接近大象时，就会向前猛冲并发出尖叫，甚至一连几天都由于愤怒和恐惧而拒绝进食。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "These movements are controlled by the trainer with the metal-pointed stick, and the trunk eventually becomes so sore that the elephant curls it up and seldom afterwards uses it for offensive purposes.", translation: "有时，把一头已驯服的象拴在旁边能给野象以信心。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "A wild Indian elephant is roped to two trained ones during the first few days of training.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A wild Indian elephant is roped to two trained ones during the first few days of training.", translation: "在大多数情况下，刚缚来的象会慢慢静下来，接着开始吃食。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2391,36 +2421,37 @@ const articleNce4L42: Article = {
 { text: "An earthquake comes like a thief in the night, without warning.", translation: "地震就像夜间的小偷，不打招呼就来了。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "It was necessary, therefore, to invent instruments that neither slumbered nor slept.", translation: "因此，有必要发明一种仪器，既不打盹儿，也不睡觉。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Some devices were quite simple.", translation: "有些装置非常简单。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "One, for instance, consisted of rods of various lengths and thicknesses which would stand up on end like ninepins.", translation: "例如，有一种装置是由一些长短、粗细不同的木棒组成，就像九柱戏的木棒一样坚立着，一旦有地震，就会震动竖立在坚硬的桌上的木棒。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "When a shock came, it shook the rigid table upon which these stood.", translation: "如果地震轻微，只有不稳定的木棒倒下；如果地震剧烈，所有的木棒都会例下。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "If it were gentle, only the more unstable rods fell.", translation: "由于地震太弱而未惊醒科学家时，木棒倒下的多少和倒下的方向就为科学家记录下了地震的强度和地震方向。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "If it were severe, they all fell.", translation: "但是，如果要取得真正重大的进展，需要有比这种装置精细得多的仪器。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Thus the rods, by falling, and by the direction in which they fell, recorded for the slumbering scientist the strength of a shock that was too weak to waken him, and the direction from which it came.", translation: "理想的目标是设计出这样一种仪器：当地震发生时，它能用笔在纸上记录下大地和桌子运动情况。 我写字时，笔是移动的，纸是静止的。 毫无疑问，经过练习，我最终能够学会笔不动而纸动来写字。 这听起来似乎是一种愚蠢的想法，但是早期记录地震波的仪器（地震仪）正是采用了这中思路。 可是，当桌子、夹笔装置、纸都在移动时，怎么能书写得清楚呢？ 可以从我们的日常生活观察中找到这个问题的答案。 一个站在公共汽车或火车上，当车突然开动时，他为什么会倾倒呢？ 这是因为他的脚动了，而他的头保持着静止。 再做一个简单的实验可以帮助我们进一步理解这个问题。 把一个生物拴在一根长绳子的一端，把手高高举在空中握住绳子，让重物几乎接触地面。 然后把手前后左右以及旋转摆动，但不要上下摆动。 结果会发现，重物是动了，但动得很小，甚至没动。 假定把一支笔拴在重物上，笔尖落在地板上的一张纸上，假定地震发生了，地板、纸、你和你的手都会动，重物和笔却不动。 由于纸在笔下来回运动，纸的表面就会用墨水记录下地板运动的情况。 根据这一原理，制造出了最初的地震仪器，但是纸是卷在慢慢放置的圆筒上的。 只要一切都是静止的，笔就会划出一条直线；但是，圆筒受到震动，笔所画出的线就会就会左右摆动。 然而，这里所说的仪器记录下来的只是地震波运动中的水平部份，地震波的运动实际比这要复杂得多。 假如我们真能看到诸如岩石中一个沙粒子的运动轨迹，那就像一只嗡嗡叫的绿头苍蝇在屋内飞行的轨迹，呈现出上上下下、来来回回、左左右右3种性质的运动。 已经设计出了一些仪器，它按照一定的安放方式就可测绘出这三种运动的曲线图。 如果把这种仪器安装在距震源700多英里远的地方，曲线记录就能显示出前后相同的这3种地震波。 首先记录下的是纵向波的到达；然后记录下的是横向波的到达，横向波比纵向波传播得慢，在纵向波到过几分钟后能到达。 这珍两种波都是穿过地球而来的。 正是从这两种波中的研究中，我们可以了解到地球内部的许多情况。 第三种波，即主波，是最慢的，是围绕地球通过表面岩石传来的。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "One, for instance, consisted of rods of various lengths and thicknesses which would stand up on end like ninepins.", translation: "例如，有一种装置是由一些长短、粗细不同的木棒组成，就像九柱戏的木棒一样坚立着。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "When a shock came, it shook the rigid table upon which these stood.", translation: "一旦有地震，就会震动竖立在坚硬的桌上的木棒。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "If it were gentle, only the more unstable rods fell.", translation: "如果地震轻微，只有不稳定的木棒倒下；", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "If it were severe, they all fell.", translation: "如果地震剧烈，所有的木棒都会倒下。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Thus the rods, by falling, and by the direction in which they fell, recorded for the slumbering scientist the strength of a shock that was too weak to waken him, and the direction from which it came.", translation: "由于地震太弱而未惊醒科学家时，木棒倒下的多少和倒下的方向就为科学家记录下了地震的强度和地震方向。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "But instruments far more delicate than that were needed if any really serious advance was to be made.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The ideal to be aimed at was to devise an instrument that could record with a pen on paper, the movements of the ground or of the table as the quake passed by.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "While I write my pen moves, but the paper keeps still.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "With practice, no doubt, I could in time learn to write by holding the pen still while the paper moved.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "That sounds a silly suggestion, but that was precisely the idea adopted in some of the early instruments (seismometers) for recording earthquake waves.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But when table, penholder and paper are all moving, how is it possible to write legibly?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The key to a solution of that problem lay in an everyday observation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Why does a person standing in a bus or train tend to fall when a sudden start is made?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is because his feet move on , but his head stays still.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A simple experiment will help us a little further.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tie a heavy weight at the end of a long piece of string.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "With the hand held high in the air, hold the string so that the weight nearly touches the ground.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now move the hand to and fro and around but not up and down.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It will be found that the weight moves but slightly or not at all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Imagine a pen attached to the weight in such a way that its point rests upon a piece of paper on the floor.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Imagine an earthquake shock shaking the floor, the paper, you and your hand.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the midst of all this movement, the weight and the pen would be still.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But as the paper moved from side to side under the pen point, its movement would be recorded in ink upon its surface.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was upon this principle that the first instruments were made, but the paper was wrapped round a drum which rotated slowly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As long as all was still, the pen drew a straight line, but while the drum was being shaken, the line that the pen was drawing wriggled from side to side.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The apparatus thus described, however, records only the horizontal component of the wave movement, which is, in fact, much more complicated.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If we could actually see the path described by a particle, such as a sand grain in the rock, it would be more like that of a bluebottle buzzing round the room; it would be up and down, to and fro and from side to side.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Instruments have been devised and can be so placed that all three elements can be recorded in different graphs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But instruments far more delicate than that were needed if any really serious advance was to be made.", translation: "但是，如果要取得真正重大的进展，需要有比这种装置精细得多的仪器。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The ideal to be aimed at was to devise an instrument that could record with a pen on paper, the movements of the ground or of the table as the quake passed by.", translation: "理想的目标是设计出这样一种仪器：当地震发生时，它能用笔在纸上记录下大地和桌子运动情况。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "While I write my pen moves, but the paper keeps still.", translation: "我写字时，笔是移动的，纸是静止的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "With practice, no doubt, I could in time learn to write by holding the pen still while the paper moved.", translation: "毫无疑问，经过练习，我最终能够学会笔不动而纸动来写字。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "That sounds a silly suggestion, but that was precisely the idea adopted in some of the early instruments (seismometers) for recording earthquake waves.", translation: "这听起来似乎是一种愚蠢的想法，但是早期记录地震波的仪器（地震仪）正是采用了这种思路。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But when table, penholder and paper are all moving, how is it possible to write legibly?", translation: "可是，当桌子、夹笔装置、纸都在移动时，怎么能书写得清楚呢？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The key to a solution of that problem lay in an everyday observation.", translation: "可以从我们的日常生活观察中找到这个问题的答案。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Why does a person standing in a bus or train tend to fall when a sudden start is made?", translation: "一个站在公共汽车或火车上的人，当车突然开动时，他为什么会倾倒呢？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is because his feet move on , but his head stays still.", translation: "这是因为他的脚动了，而他的头保持着静止。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A simple experiment will help us a little further.", translation: "把这个原理反过来，就可以得到地震仪的设计原理。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Tie a heavy weight at the end of a long piece of string.", translation: "在地震仪中，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "With the hand held high in the air, hold the string so that the weight nearly touches the ground.", translation: "纸是移动的，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Now move the hand to and fro and around but not up and down.", translation: "笔是静止的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It will be found that the weight moves but slightly or not at all.", translation: "只要吊摆是静止的，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Imagine a pen attached to the weight in such a way that its point rests upon a piece of paper on the floor.", translation: "地震仪就能记录下地面运动。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Imagine an earthquake shock shaking the floor, the paper, you and your hand.", translation: "最早的仪器用一个简单的吊摆，通过杠杆连接到一支笔上。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In the midst of all this movement, the weight and the pen would be still.", translation: "当圆筒转动时，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But as the paper moved from side to side under the pen point, its movement would be recorded in ink upon its surface.", translation: "地震仪就画出一条线；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It was upon this principle that the first instruments were made, but the paper was wrapped round a drum which rotated slowly.", translation: "把这个原理反过来，就可以得到地震仪的设计原理。在地震仪中，纸是移动的，笔是静止的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "As long as all was still, the pen drew a straight line, but while the drum was being shaken, the line that the pen was drawing wriggled from side to side.", translation: "只要吊摆是静止的，地震仪就能记录下地面运动。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The apparatus thus described, however, records only the horizontal component of the wave movement, which is, in fact, much more complicated.", translation: "最早的仪器用一个简单的吊摆，通过杠杆连接到一支笔上。当圆筒转动时，地震仪就画出一条线；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If we could actually see the path described by a particle, such as a sand grain in the rock, it would be more like that of a bluebottle buzzing round the room;", translation: "当地震发生时，吊摆就会留在原位，圆筒和纸就会移动。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "it would be up and down, to and fro and from side to side.", translation: "然而，这种仪器只能记录下地震波运动中的水平部分；地震波的运动实际比这要复杂。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Instruments have been devised and can be so placed that all three elements can be recorded in different graphs.", translation: "如果我们能看到诸如岩石中一个沙粒子的运动轨迹，那就像一只嗡嗡叫的绿头苍蝇在屋内飞行的轨迹。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
         { text: "When the instrument is situated at more than 700 miles from the earthquake centre, the graphic record shows three waves arriving one after the other at short intervals.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
@@ -2458,37 +2489,38 @@ const articleNce4L43: Article = {
     paragraphs: [
 [
 { text: "We must conclude from the work of those who have studied the origin of life, that given a planet only approximately like our own, life is almost certain to start.", translation: "根据研究生命起源的人们所作的工作，我们必然会得出这样的结论：如果设想有一颗行星和我们地球的情况基本相似，那几乎肯定会产生生命。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Of all the planets in our own solar system, we ware now pretty certain the Earth is the only one on which life can survive.", translation: "我们目前可以肯定的是，在我们太阳系的所有行星中，地球是生命能存在的唯一行星。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Mars is too dry and poor in oxygen, Venus far too hot, and so is Mercury, and the outer planets have temperatures near absolute zero and hydrogen-dominated atmospheres.", translation: "火星太干燥又缺氧，金星太热，水星也一样。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But other suns, stars as the astronomers call them, are bound to have planets like our own, and as is the number of stars in the universe is so vast, this possibility becomes virtual certainty.", translation: "除此之外，太阳系的其他行星的温度都接近绝对零度，并围绕着以氢气为主的大气层。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "There are 100,000 million stars in our own Milky Way alone, and then there are 3,000 million other Milky Ways, or galaxies, in the universe.", translation: "但是，其他的太阳，既天文学家所说的恒星，肯定会有像我们地球一样的行星。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "So the number of stars that we know exist is now estimated at about 300 million million million.", translation: "因为宇宙中恒星的数目极其庞大，所以存在着产生生命星球的这种可能性是肯定无疑的。 仅我们的银河系就有1000亿颗星，况且在宇宙中还有30亿个天河，即银河系。 因此，我们所知道的现有恒星数目估计约有30亿X1000亿颗。 虽然在已经产生生命的某个地方，可能只有1%会发展成高度复杂有智力的生命形态，但是行星的数目是那么庞大，有智力的生命必然是宇宙的自然组成部分。 既然我们如此坚信宇宙中存在着其他有智力的生命，那么我们为什么还未见到外层空间来访的客人呢？ 首先，他们可能在几千年前或几百年前已来过我们地球，并且发现我们地球那时普遍存在着的原始状态同他们的先进的知识相比是索然无味的。 美国一位重要的射电天文学家罗纳德.布雷斯韦尔教授在《自然》杂志上提出了这样的观点：假如有如此高级文明生命访问了我们的太阳系，很可能会在离开太阳系时留下自动化信号装置，等待先进文明的觉醒。 这种自动化信息装置，在接收到我们的无线电和电视信号后，完全有可能把这些信号发回到原来的行星。 至于其他文明行星对我们地球会有什么印象，还是不说为好。 然而，在和外星人联系中我们遇到的最大困难是分隔我们的天文距离。 据合理推算，外星人离我们平均距离也有100光年之远（1光年是光以每秒186，000 英里的速度在一年内走的距离即6万亿英里）。 无线电波也是以光速传播的。 假定外星人的这种自动化信息装置接收了我们二十世纪二十年代的第一次广播信号，那么这个信号在发回到原来的行星途中刚刚走了一半路程。 同样，我们目前使用的原始化学火箭，虽然把人送入轨道，但尚不能把我们送到离我们最近、相距4光年的其他星球上去，更不用说几十光年或几百光年远的地方了。 幸运的是，有一种我们可以和其他智力生命通迅联系的“唯一合理的方法”，正如活尔特.沙利方在其杰作《我们并不孤独》中阐述的。 这种通迅联系要靠21厘米波段，即每秒1420兆周的精确无线电频率。 这个频率是空间氢原子释放的自然频率，是在1951年被人类发现的。 这个频率是宇宙中任何射电天文学家都应该熟悉的。 一旦这种波长的实际存在被发现，提出把它作为星际间唯一可辨认的广播频率就为期不远了。 没有这手段，要想寻觅其他星球上的智力生命，就如同去伦敦见一位朋友，事先未约定地点，而荒唐地在街上游逛，以期待碰巧遇上一样。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Of all the planets in our own solar system, we ware now pretty certain the Earth is the only one on which life can survive.", translation: "我们目前可以肯定会存在生命的行星就是地球。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Mars is too dry and poor in oxygen, Venus far too hot, and so is Mercury, and the outer planets have temperatures near absolute zero and hydrogen-dominated atmospheres.", translation: "然而，我们怀疑宇宙中是否有其他行星能够维持生命，", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "But other suns, stars as the astronomers call them, are bound to have planets like our own, and as is the number of stars in the universe is so vast, this possibility becomes virtual certainty.", translation: "因为这个宇宙中有无数其他恒星，它们很可能有行星围绕。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "There are 100,000 million stars in our own Milky Way alone, and then there are 3,000 million other Milky Ways, or galaxies, in the universe.", translation: "在银河系中，有1000亿颗恒星，其中相当一部分可能有行星围绕。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "So the number of stars that we know exist is now estimated at about 300 million million million.", translation: "既然有那么多行星，", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Although perhaps only 1% of the life that has started somewhere will develop into highly complex and intelligent patterns, so vast is the number of planets, that intelligent life is bound to be a natural part of the universe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Although perhaps only 1% of the life that has started somewhere will develop into highly complex and intelligent patterns, so vast is the number of planets, that intelligent life is bound to be a natural part of the universe.", translation: "其中很可能有存在智慧生命的行星。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "If then we are so certain that other intelligent life exists in the universe, why have we had no visitors from outer space yet?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "First of all, they may have come to this planet of ours thousands or millions of years ago, and found our then prevailing primitive state completely uninteresting to their own advanced knowledge.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Professor Ronald Bracewell, a leading American radio astronomer, argued in Nature that such a superior civilization, on a visit to our own solar system, may have left an automatic messenger behind to await the possible awakening of an advanced civilization.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Such a messenger, receiving our radio and television signals, might well re-transmit them back to its home-planet, although what impression any other civilization would thus get from us is best left unsaid.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If then we are so certain that other intelligent life exists in the universe, why have we had no visitors from outer space yet?", translation: "但是，我们怎样和他们联系呢？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "First of all, they may have come to this planet of ours thousands or millions of years ago, and found our then prevailing primitive state completely uninteresting to their own advanced knowledge.", translation: "假设我们想和一个遥远的文明社会联系，他们也许距离我们100光年甚至1000光年。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Professor Ronald Bracewell, a leading American radio astronomer, argued in Nature that such a superior civilization, on a visit to our own solar system, may have left an automatic messenger behind to await the possible awakening of an advanced civilization.", translation: "无线电波和光波都以每秒186,000英里的速度传播，这是已知的最大速度。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Such a messenger, receiving our radio and television signals, might well re-transmit them back to its home-planet, although what impression any other civilization would thus get from us is best left unsaid.", translation: "假设我们收到了这样一个信息，", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "But here we come up against the most difficult of all obstacles to contact with people on other planets -- the astronomical distances which separate us.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As a reasonable guess, they might, on an average, be 100 light years away. (A light year is the distance which light travels at 186,000 miles per second in one year, namely 6 million million miles.) Radio waves also travel at the speed of light, and assuming such an automatic messenger picked up our first broadcasts of the 1920's, the message to its home planet is barely halfway there.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Similarly, our own present primitive chemical rockets, though good enough to orbit men, have no chance of transporting us to the nearest other star, four light years away, let alone distances of tens or hundreds of light years.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But here we come up against the most difficult of all obstacles to contact with people on other planets -- the astronomical distances which separate us.", translation: "“喂，我们在这里。”", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "As a reasonable guess, they might, on an average, be 100 light years away. (A light year is the distance which light travels at 186,000 miles per second in one year, namely 6 million million miles.) Radio waves also travel at the speed of light, and assuming such an automatic messenger picked up our first broadcasts of the 1920's, the message to its home planet is barely halfway there.", translation: "由我们太阳系最近的恒星是4光年远，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Similarly, our own present primitive chemical rockets, though good enough to orbit men, have no chance of transporting us to the nearest other star, four light years away, let alone distances of tens or hundreds of light years.", translation: "所以回电需要8年才能到达。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Fortunately, there is a 'uniquely rational way' for us to communicate with other intelligent beings, as Walter Sullivan has put it in his excellent book, We Are not Alone.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This depends on the precise radio frequency of the 21-cm wavelength, or 1420 megacycles per second.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is the natural frequency of emission of the hydrogen atoms in space and was discovered by us in 1951; it must be known to any kind of radio astronomer in the universe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Fortunately, there is a 'uniquely rational way' for us to communicate with other intelligent beings, as Walter Sullivan has put it in his excellent book, We Are not Alone.", translation: "与一个1000光年远的文明社会联系将需要2000年才能收到回音。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This depends on the precise radio frequency of the 21-cm wavelength, or 1420 megacycles per second.", translation: "使用无线电波似乎是唯一可行的办法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is the natural frequency of emission of the hydrogen atoms in space and was discovered by us in 1951;", translation: "实际上，我们已经在无意中向宇宙发出了我们的存在，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "it must be known to any kind of radio astronomer in the universe.", translation: "因为我们的无线电和电视广播已经以光速向宇宙扩散了50多年。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Once the existence of this wave-length had been discovered, it was not long before its use as the uniquely recognizable broadcasting frequency for interstellar communication was suggested.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Without something of this kind, searching for intelligences on other planets would be like trying to meet a friend in London without a pre-arranged rendezvous and absurdly wandering the streets in the hope of a chance encounter.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Once the existence of this wave-length had been discovered, it was not long before its use as the uniquely recognizable broadcasting frequency for interstellar communication was suggested.", translation: "很可能外星人已经知道了我们的存在，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Without something of this kind, searching for intelligences on other planets would be like trying to meet a friend in London without a pre-arranged rendezvous and absurdly wandering the streets in the hope of a chance encounter.", translation: "并正在试图与我们联系。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Simulation of a hypothetical sighting of a UFO(unidentified flying object) in the small town of Bellelille,Wisconsin,USA.For several months in 1986-1989,the town was plagued by UFO sightings.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Simulation of a hypothetical sighting of a UFO(unidentified flying object) in the small town of Bellelille,Wisconsin,USA.For several months in 1986-1989,the town was plagued by UFO sightings.", translation: "或者，他们可能选择保持沉默。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2519,34 +2551,35 @@ const articleNce4L45: Article = {
 { text: "Indeed, we lack practice and experience nowadays in dealing with primitive conditions.", translation: "确实，我们今天缺乏对付原始环境的实践和经验。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "I am sure that, without modern weapons, I would make a very poor show of disputing the ownership of a cave with a bear, and in this I do not think that I stand alone.", translation: "我断定，如果没有现代化的武器，要我和一只熊去争洞穴，我会出洋相的；我也相信，出洋相者并非我一人。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The last creature to compete with man was the mosquito.", translation: "能与竞争的生物最后只有蚊子，然而即使蚊子，也由于我们注意清理污水和喷洒化学药品就被制服了。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But even the mosquito has been subdued by attention to drainage and by chemical sprays.", translation: "然而人类之间的战争，人与人，团体与团体，依然在进行着，而且和以前一样激烈。 但是，人与人的竞争并不像生物学中想像的那样是一个简单过程。 它已不是为争得物质环境所决定的东西所决定。 摩洛哥和加利福尼亚是地球上纬度极其相似的两个地方，都在各自大陆的西海岸，气候相似，自然资源也可能相似。 但是，这两个地方目前的发展程度完全不一样。 这倒不是因为人民不同，而是由于居民头脑中的思想不同。 这是我要强调的论点。 我们环境中最重要的因素就是我们的思想状况。 众所周知，凡是白人侵入原始文化的地方，破坏作用最大的不是杀人的武器，而是思想。 思想是危险的。 宗教法庭对此是非常清楚的，因此从前它总是把异教徒烧死。 的确，言论自由的概念只存在于我们现代社会中，因为当你生活在一个社团中时，社团的风俗习惯会严格地制约你，使你很难有破坏性的想法。 只有外部的旁观者才能灌输危险的思想。 向现代世界灌输一种思想以便摧毁我们人类是可能的事，对此我并不怀疑。 我愿为你举个例子，但幸亏我举不出。 也许提一下核弹就足以证明了。 对一个尚未拥有核弹、但科技相当发达的社会，如果告诉它制造核弹的可能性，而且向它提供制造核弹的细节，那么可以设想，这将对这个社会产生何等的影响。 如果把二三十页的情报交给1952年前后的任何一个世界强国，就足以改变世界历史的进程。 二三十页材料中的思想和情报会将当今的世界翻天覆地，甚至毁灭这个世界。 这是个离奇的想法。 不过我认为这个想法是正确的。 我常常试图想像这些纸上所写的东西，不过我是做不到的，因为我和你们大家一样，是当今世界上的凡人。 我们不能脱离我们大脑所限定的模式去思考问题，我们只能稍微离开一点儿，就这也需要我们有独创的思想。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "But even the mosquito has been subdued by attention to drainage and by chemical sprays.", translation: "然而人类之间的战争，人与人，团体与团体，依然在进行着，而且和以前一样激烈。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Competition between ourselves, person against person, community against community, still persists, however; and it is as fierce as it ever was.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Competition between ourselves, person against person, community against community, still persists, however;", translation: "但是，人与人的竞争并不像生物学中想像的那样是一个简单过程。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "and it is as fierce as it ever was.", translation: "它已不是为争得物质环境所决定的东西所决定。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "But the competition of man against man is not the simple process envisioned in biology.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is not a simple competition for a fixed amount of food determined by the physical environment, because the environment that determines our evolution is no longer essentially physical.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Our environment is chiefly conditioned by the things we believe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Morocco and California are bits of the Earth in very similar latitudes, both on the west coasts of continents with similar climates, and probably with rather similar natural resources.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Yet their present development is wholly different, not so much because of different people even, but because of the different thoughts that exist in the minds of their inhabitants.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This is the point I wish to emphasize.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The most important factor in our environment is the state of our own minds.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But the competition of man against man is not the simple process envisioned in biology.", translation: "摩洛哥和加利福尼亚是地球上纬度极其相似的两个地方，都在各自大陆的西海岸，气候相似，自然资源也可能相似。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is not a simple competition for a fixed amount of food determined by the physical environment, because the environment that determines our evolution is no longer essentially physical.", translation: "但是，这两个地方目前的发展程度完全不一样。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Our environment is chiefly conditioned by the things we believe.", translation: "这倒不是因为人民不同，而是由于居民头脑中的思想不同。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Morocco and California are bits of the Earth in very similar latitudes, both on the west coasts of continents with similar climates, and probably with rather similar natural resources.", translation: "这是我要强调的论点。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Yet their present development is wholly different, not so much because of different people even, but because of the different thoughts that exist in the minds of their inhabitants.", translation: "我们环境中最重要的因素就是我们的思想状况。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This is the point I wish to emphasize.", translation: "众所周知，凡是白人侵入原始文化的地方，破坏作用最大的不是杀人的武器，而是思想。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The most important factor in our environment is the state of our own minds.", translation: "思想是危险的。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "It is well known that where the white man has invaded a primitive culture, the most destructive effects have come not from physical weapons but from ideas.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Ideas are dangerous.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The Holy Office knew this full well when it caused heretics to be burned in days gone by.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Indeed, the concept of free speech only exists in our modern society because when you are inside a community, you are conditioned by the conventions of the community to such a degree that it is very difficult to conceive of anything really destructive.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is only someone looking on from outside that can inject the dangerous thoughts.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I do not doubt that it would be possible to inject ideas into the modern world that would utterly destroy us.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I would like to give you an example, but fortunately I cannot do so.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Perhaps it will suffice to mention the nuclear bomb.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Imagine the effect on a reasonably advanced technological society, one that still does not possess the bomb, of making it aware of the possibility, of supplying sufficient details to enable the thing to be constructed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Twenty or thirty pages of information handed to any of the major world powers around the year 1925 would have been sufficient to change the course of world history.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is a strange thought, but I believe a correct one, that twenty or thirty pages of ideas and information would be capable of turning the present-day world upside down, or even destroying it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I have often tried to conceive of what those pages might contain, but of course I cannot do so because I am a prisoner of the present-day world, just as all of you are.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We cannot think outside the particular patterns that our brains are conditioned to, or, to be more accurate, we can think only a very little way outside, and then only if we are very original.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is well known that where the white man has invaded a primitive culture, the most destructive effects have come not from physical weapons but from ideas.", translation: "宗教法庭对此是非常清楚的，因此从前它总是把异教徒烧死。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Ideas are dangerous.", translation: "的确，言论自由的概念只存在于我们现代社会中，因为当你生活在一个社团中时，社团的风俗习惯会严格地制约你，使你很难有破坏性的想法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The Holy Office knew this full well when it caused heretics to be burned in days gone by.", translation: "只有外部的旁观者才能灌输危险的思想。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Indeed, the concept of free speech only exists in our modern society because when you are inside a community, you are conditioned by the conventions of the community to such a degree that it is very difficult to conceive of anything really destructive.", translation: "向现代世界灌输一种思想以便摧毁我们人类是可能的事，对此我并不怀疑。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is only someone looking on from outside that can inject the dangerous thoughts.", translation: "我愿为你举个例子，但幸亏我举不出。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "I do not doubt that it would be possible to inject ideas into the modern world that would utterly destroy us.", translation: "也许提一下核弹就足以证明了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "I would like to give you an example, but fortunately I cannot do so.", translation: "对一个尚未拥有核弹、但科技相当发达的社会，如果告诉它制造核弹的可能性，而且向它提供制造核弹的细节，那么可以设想，这将对这个社会产生何等的影响。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Perhaps it will suffice to mention the nuclear bomb.", translation: "如果把二三十页的情报交给1952年前后的任何一个世界强国，就足以改变世界历史的进程。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Imagine the effect on a reasonably advanced technological society, one that still does not possess the bomb, of making it aware of the possibility, of supplying sufficient details to enable the thing to be constructed.", translation: "二三十页材料中的思想和情报会将当今的世界翻天覆地，甚至毁灭这个世界。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Twenty or thirty pages of information handed to any of the major world powers around the year 1925 would have been sufficient to change the course of world history.", translation: "这是个离奇的想法。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is a strange thought, but I believe a correct one, that twenty or thirty pages of ideas and information would be capable of turning the present-day world upside down, or even destroying it.", translation: "不过我认为这个想法是正确的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "I have often tried to conceive of what those pages might contain, but of course I cannot do so because I am a prisoner of the present-day world, just as all of you are.", translation: "我常常试图想像这些纸上所写的东西，不过我是做不到的，因为我和你们大家一样，是当今世界上的凡人。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We cannot think outside the particular patterns that our brains are conditioned to, or, to be more accurate, we can think only a very little way outside, and then only if we are very original.", translation: "我们不能脱离我们大脑所限定的模式去思考问题，我们只能稍微离开一点儿，就这也需要我们有独创的思想。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2575,45 +2608,49 @@ const articleNce4L47: Article = {
 { text: "Economy is one powerful motive for camping, since after the initial outlay upon equipment, or through hiring it, the total expense can be far less than the cost of hotels.", translation: "图省钱是露营的一个主要动机，因为除了开始时购置或是租借一套露营装备外，总费用算起来要比住旅馆开支少得多。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "But, contrary to a popular assumption, it is far from being the only one, or even the greatest.", translation: "但是，和一般的看法相反，这决非是仅有的，甚至不是最主要的动机。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The man who manoeuvres carelessly into his 20 pounds' worth of space at one of Europe's myriad permanent sites may find himself bumping a Bentley.", translation: "如果一位游客漫不经心地驾车驶入欧洲无数常年营地之一，花20镑租用一个空位，那么他可能会碰见一辆本特利汽车，更可能会望见一辆福特.康索尔或一辆雷诺或一辆梅塞迪斯并排停放着，不过双人自行车则不容易看到。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "More likely, Ford Escort will be hub to hub with Renault or Mercedes, but rarely with bicycles made for two.", translation: "现代露营装备一年比一年讲究，这对那些厌世嫉俗者来说是一件有趣的自相矛盾的事情。 而对于发誓用露营来摆脱烦恼的人来说，却带来了更光明的前景。 学社会学的大学生来露营是另一种形式的摆脱现实，他们的目的很可能是根据观察到的露营现象去写论文。 现代露营旅游的人往往讨厌在“斯普兰迪德”和“贝拉维斯塔” 这样的大酒店，这并不是因为他们付不起钱，也不是为了躲避物质享受，而是因为他们害怕酒店。 他们可能很富有，但给看门人和房间女服务多少小费，心中却根本没有数；他们在家可能是主人，但不知道什么时候才能对酒店的经理表示不满。 露营使人们免除了这些忧虑。 诚然，露营地本身也存在以露营装备和方式取人的势利现象，但如果有这种情况，露营者也容易理解，知道如何对付，但在露营地里根本不会有管人的“人上人”和酒店里的等级制度来使露营者的假日过得阴郁低沉。 除以上动机外，还应加上一个。 当前崇拜汽车现象可以用与所有权相伴的独立和自由意识来解释。 因此开车去露营会给这种快乐意识增加一种优雅意境。 从自己的家门出发到国内国外的山区或沙滩上露营然后返回，一切都很便利。 完全在自己掌握之中的私人汽车不仅是到达假日天堂的工具，而且也是逃离假日地狱（如海滩太挤，当地天气恶劣）方便工具，因为汽车就停在帐篷外面，或者汽车本身可能就是露营帐篷的一个组成部分。 理想主义者像反对旅行社安排一切的一揽子旅游一样反对露营的作法，说这种封闭的作法使到国外旅游者失去了了解所去国家人民的机会。 他们争论说，心胸狭窄和自我封闭是并存的。 但这种说法在受人欢迎的欧洲露营地是站不住脚的。 假日旅馆有只接待来自一个国家的旅游者的倾向，有时会达到排他的程度。 而露营驻地则相反，是高度世界性的。 在大多数地中海露营地里，德国人占优势似乎是个普遍现象，确实如此，但并没有特别的优待。 禁止露天晒衣服、禁止用水龙头冲洗汽车的布告和邀请露营朋友参加舞会、乘船观光的招贴不仅印志法语、意大利语、西班牙语，而且也印成英语、德语、荷兰语。 用饭的时候，德国泡菜味和大蒜味争相散发，法国人的早点咖啡和英国人的咸肉煎蛋竞相比美。 有组织的露营活动的明显发展是否意味着较独立的自我封闭式露营的最终消失，还很难说。 市政当局当然希望获得露营者的场地费和其他光临的好处，警察则对那些查不出有固定营地或住处的游荡者保持警惕。 但最重要的或许是露营者自己，即他们引起了多少场野火，留下了多少垃圾。 总之，他们是否弄得土地的主人和乡间的居民同他们反目。 只有优良的童子军活动才能保持不朽的童子军所衷心热爱的各项自由。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "More likely, Ford Escort will be hub to hub with Renault or Mercedes, but rarely with bicycles made for two.", translation: "现代露营装备一年比一年讲究，这对那些厌世嫉俗者来说是一件有趣的自相矛盾的事情。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "That the equipment of modern camping becomes yearly more sophisticated is an entertaining paradox for the cynic, a brighter promise for the hopeful traveler who has sworn to get away from it all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It also provides and some student sociologist might care to base his thesis upon the phenomenon -- an escape of another kind.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The modern traveller is often a man who dislikes the Splendide and the Bellavista, not because he cannot afford, or shuns their material comforts. but because he is afraid of them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Affluent he may be, but he is by no means sure what to tip the doorman or the chambermaid.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Master in his own house, he has little idea of when to say boo to a maitre d'hotel.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "That the equipment of modern camping becomes yearly more sophisticated is an entertaining paradox for the cynic, a brighter promise for the hopeful traveler who has sworn to get away from it all.", translation: "而对于发誓用露营来摆脱烦恼的人来说，却带来了更光明的前景。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It also provides and some student sociologist might care to base his thesis upon the phenomenon -- an escape of another kind.", translation: "学社会学的大学生来露营是另一种形式的摆脱现实，他们的目的很可能是根据观察到的露营现象去写论文。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The modern traveller is often a man who dislikes the Splendide and the Bellavista, not because he cannot afford, or shuns their material comforts. but because he is afraid of them.", translation: "现代露营旅游的人往往讨厌在“斯普兰迪德”和“贝拉维斯塔”这样的大酒店，这并不是因为他们付不起钱，也不是为了躲避物质享受，而是因为他们害怕酒店。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Affluent he may be, but he is by no means sure what to tip the doorman or the chambermaid.", translation: "他们可能很富有，但给看门人和房间女服务多少小费，心中却根本没有数；他们在家可能是主人，但不知道什么时候才能对酒店的经理表示不满。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Master in his own house, he has little idea of when to say boo to a maitre d'hotel.", translation: "露营使人们免除了这些忧虑。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "From all such fears camping releases him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Granted, a snobbery of camping itself, based upon equipment and techniques, already exists; but it is of a kind that, if he meets it, he can readily understand and deal with.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There is no superior 'they' in the shape of managements and hotel hierarchies to darken his holiday days.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "From all such fears camping releases him.", translation: "诚然，露营地本身也存在以露营装备和方式取人的势利现象，但如果有这种情况，露营者也容易理解，知道如何对付，但在露营地里根本不会有管人的“人上人”和酒店里的等级制度来使露营者的假日过得阴郁低沉。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Granted, a snobbery of camping itself, based upon equipment and techniques, already exists;", translation: "除以上动机外，还应加上一个。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "but it is of a kind that, if he meets it, he can readily understand and deal with.", translation: "当前崇拜汽车现象可以用与所有权相伴的独立和自由意识来解释。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There is no superior 'they' in the shape of managements and hotel hierarchies to darken his holiday days.", translation: "因此开车去露营会给这种快乐意识增加一种优雅意境。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "To such motives, yet another must be added.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The contemporary phenomenon of car worship is to be explained not least by the sense of independence and freedom that ownership entails.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "To this pleasure camping gives an exquisite refinement.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "To such motives, yet another must be added.", translation: "从自己的家门出发到国内国外的山区或沙滩上露营然后返回，一切都很便利。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The contemporary phenomenon of car worship is to be explained not least by the sense of independence and freedom that ownership entails.", translation: "完全在自己掌握之中的私人汽车不仅是到达假日天堂的工具，而且也是逃离假日地狱（如海滩太挤，当地天气恶劣）方便工具，因为汽车就停在帐篷外面，或者汽车本身可能就是露营帐篷的一个组成部分。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "To this pleasure camping gives an exquisite refinement.", translation: "理想主义者像反对旅行社安排一切的一揽子旅游一样反对露营的作法，说这种封闭的作法使到国外旅游者失去了了解所去国家人民的机会。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "From one's own front door to home or foreign hills or sands and back again, everything is to hand.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Not only are the means of arriving at the holiday paradise entirely within one's own command and keeping, but the means of escape from holiday hell (if the beach proves too crowded, the local weather too inclement) are there, outside -- or, as likely, part of -- the tent.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "From one's own front door to home or foreign hills or sands and back again, everything is to hand.", translation: "他们争论说，心胸狭窄和自我封闭是并存的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Not only are the means of arriving at the holiday paradise entirely within one's own command and keeping, but the means of escape from holiday hell (if the beach proves too crowded, the local weather too inclement) are there, outside -- or, as likely, part of -- the tent.", translation: "但这种说法在受人欢迎的欧洲露营地是站不住脚的。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Idealists have objected to the practice of camping, as to the package tour, that the traveller abroad thereby denies himself the opportunity of getting to know the people of the country visited.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Insularity and self-containment, it is argued, go hand in hand.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The opinion does not survive experience of a popular Continental camping place.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Holiday hotels tend to cater for one nationality of visitors especially, sometimes exclusively.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Camping sites, by contrast, are highly cosmopolitan.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Granted, a preponderance of Germans is a characteristic that seems common to most Mediterranean sites; but as yet there is no overwhelmingly specialized patronage.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Notices forbidding the open-air drying of clothes, or the use of water points for car washing, or those inviting 'our camping friends' to a dance or a boat trip are printed not only in French or Italian or Spanish, but also in English, German and Dutch.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At meal times the odour of sauerkraut vies with that of garlic.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The Frenchman's breakfast coffee competes with the Englishman's bacon and eggs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Idealists have objected to the practice of camping, as to the package tour, that the traveller abroad thereby denies himself the opportunity of getting to know the people of the country visited.", translation: "假日旅馆有只接待来自一个国家的旅游者的倾向，有时会达到排他的程度。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Insularity and self-containment, it is argued, go hand in hand.", translation: "而露营驻地则相反，是高度世界性的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The opinion does not survive experience of a popular Continental camping place.", translation: "在大多数地中海露营地里，德国人占优势似乎是个普遍现象，确实如此，但并没有特别的优待。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Holiday hotels tend to cater for one nationality of visitors especially, sometimes exclusively.", translation: "禁止露天晒衣服、禁止用水龙头冲洗汽车的布告和邀请露营朋友参加舞会、乘船观光的招贴不仅印志法语、意大利语、西班牙语，而且也印成英语、德语、荷兰语。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Camping sites, by contrast, are highly cosmopolitan.", translation: "用饭的时候，德国泡菜味和大蒜味争相散发，法国人的早点咖啡和英国人的咸肉煎蛋竞相比美。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Granted, a preponderance of Germans is a characteristic that seems common to most Mediterranean sites;", translation: "有组织的露营活动的明显发展是否意味着较独立的自我封闭式露营的最终消失，还很难说。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "but as yet there is no overwhelmingly specialized patronage.", translation: "市政当局当然希望获得露营者的场地费和其他光临的好处，警察则对那些查不出有固定营地或住处的游荡者保持警惕。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Notices forbidding the open-air drying of clothes, or the use of water points for car washing, or those inviting 'our camping friends' to a dance or a boat trip are printed not only in French or Italian or Spanish, but also in English, German and Dutch.", translation: "但最重要的或许是露营者自己，即他们引起了多少场野火，留下了多少垃圾。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "At meal times the odour of sauerkraut vies with that of garlic.", translation: "总之，他们是否弄得土地的主人和乡间的居民同他们反目。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The Frenchman's breakfast coffee competes with the Englishman's bacon and eggs.", translation: "只有优良的童子军活动才能保持不朽的童子军所衷心热爱的各项自由。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
         { text: "Whether the remarkable growth of organized camping means the eventual death of the more independent kind is hard to say.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "Municipalities naturally want to secure the campers' site fees and other custom.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "Police are wary of itinerants who cannot be traced to a recognized camp boundary or to four walls.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But most probably it will all depend upon campers themselves: how many heath fires they cause; how much litter they leave; in short, whether or not they wholly alienate landowners and those who live in the countryside.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But most probably it will all depend upon campers themselves: how many heath fires they cause;", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "how much litter they leave;", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "in short, whether or not they wholly alienate landowners and those who live in the countryside.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "Only good scouting is likely to preserve the freedoms so dear to the heart of the eternal Boy Scout.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [

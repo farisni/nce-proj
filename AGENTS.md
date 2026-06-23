@@ -43,3 +43,31 @@ chore: 排除大字体文件
 
 - **句子横批** — 词/短语下方的小字注解，对应 `SentenceData.notes`，CSS ruby 渲染
 - **行间笔记** — 展开面板中的片段+解析，对应 `SentenceData.panelNotes`，面板内渲染
+
+## 数据规范
+
+### 英文句子拆分规则
+
+向 `SentenceData[]` 拆分英文原文时，以下标点视为句子边界：
+
+| 标点 | 说明 |
+|------|------|
+| `.` 句号 | 句子边界 |
+| `?` 问号 | 句子边界 |
+| `!` 感叹号 | 句子边界 |
+| `;` 分号 | **也视为句子边界**，拆成独立句 |
+
+**注意：** `;` 分号连接的两个独立分句应拆为两个 `SentenceData`，各自对应独立的翻译句。破折号 `--` 不拆句。
+
+### 示例
+
+原文：
+```
+The hovercraft is particularly useful in large areas such as Africa; it can become a 'flying fruit-bowl'.
+```
+
+拆为两句：
+```ts
+{ text: "The hovercraft is particularly useful in large areas such as Africa;", ... },
+{ text: "it can become a 'flying fruit-bowl'.", ... },
+```
