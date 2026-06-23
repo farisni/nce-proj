@@ -7752,7 +7752,7 @@ const articleNce4L9: Article = {
     tag: 'C9',
     title: 'Royal espionage',
     titleCn: '王室谍报活动',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -7796,7 +7796,7 @@ const articleNce4L10: Article = {
     tag: 'C10',
     title: 'Silicon valley',
     titleCn: '硅谷',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -7835,7 +7835,7 @@ const articleNce4L12: Article = {
     tag: 'C12',
     title: 'Banks and their customers',
     titleCn: '银行和顾客',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -7868,7 +7868,7 @@ const articleNce4L14: Article = {
     tag: 'C14',
     title: 'The Butterfly Effect',
     titleCn: '蝴蝶效应',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -7907,7 +7907,7 @@ const articleNce4L17: Article = {
     tag: 'C17',
     title: 'A man-made disease',
     titleCn: '人为的疾病',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -7947,7 +7947,7 @@ const articleNce4L19: Article = {
     tag: 'C19',
     title: 'The stuff of dreams',
     titleCn: '话说梦的本质',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -7972,7 +7972,7 @@ const articleNce4L20: Article = {
     tag: 'C20',
     title: 'Snake poison',
     titleCn: '蛇',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8018,7 +8018,7 @@ const articleNce4L23: Article = {
     tag: 'C23',
     title: 'Bird flight',
     titleCn: '鸟的飞行方法',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8053,7 +8053,7 @@ const articleNce4L25: Article = {
     tag: 'C25',
     title: 'Non-auditory effects of noise',
     titleCn: '',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8096,7 +8096,7 @@ const articleNce4L26: Article = {
     tag: 'C26',
     title: 'The past life of the earth',
     titleCn: '地球上的昔日生命',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8135,7 +8135,7 @@ const articleNce4L27: Article = {
     tag: 'C27',
     title: 'The \'Vasa\' ＂',
     titleCn: '瓦萨＂号',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8177,7 +8177,7 @@ const articleNce4L29: Article = {
     tag: 'C29',
     title: 'The hovercraft',
     titleCn: '气垫船',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8217,7 +8217,7 @@ const articleNce4L31: Article = {
     tag: 'C31',
     title: 'The sculptor speaks',
     titleCn: '雕塑家的语言',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8256,7 +8256,7 @@ const articleNce4L35: Article = {
     tag: 'C35',
     title: 'Space odyssey',
     titleCn: '太空探索',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8314,7 +8314,7 @@ const articleNce4L36: Article = {
     tag: 'C36',
     title: 'The cost of government',
     titleCn: '政府的开支',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8358,7 +8358,7 @@ const articleNce4L38: Article = {
     tag: 'C38',
     title: 'Water and the traveller',
     titleCn: '水和旅行者',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8410,7 +8410,7 @@ const articleNce4L39: Article = {
     tag: 'C39',
     title: 'What every writer wants',
     titleCn: '作家之所需',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8452,7 +8452,7 @@ const articleNce4L40: Article = {
     tag: 'C40',
     title: 'Waves',
     titleCn: '海浪',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8500,7 +8500,7 @@ const articleNce4L41: Article = {
     tag: 'C41',
     title: 'Training elephants',
     titleCn: '训练大象',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8553,7 +8553,7 @@ const articleNce4L42: Article = {
     tag: 'C42',
     title: 'Recording and earthquake',
     titleCn: '记录地震',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8620,7 +8620,7 @@ const articleNce4L43: Article = {
     tag: 'C43',
     title: 'Are there strangers in space?',
     titleCn: '宇宙中有外星人吗？',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8675,7 +8675,7 @@ const articleNce4L45: Article = {
     tag: 'C45',
     title: 'Of men and galaxies',
     titleCn: '人生星系',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -8731,7 +8731,7 @@ const articleNce4L47: Article = {
     tag: 'C47',
     title: 'The great escape',
     titleCn: '大逃亡',
-    keyArticle: true,
+    keyArticle: false,
     level: 'NCE4',
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
