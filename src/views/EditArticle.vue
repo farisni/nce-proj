@@ -173,7 +173,7 @@ function goBack() {
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
                   <el-button type="danger" size="small" text @click="removeSentence(pIdx, sIdx)">删除</el-button>
                 </div>
-                <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" textarea-style="font-family:Merriweather,Georgia,serif;font-size:1.05rem" />
+                <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" class="text-en-input" />
                 <el-input v-model="sd.translation" type="textarea" :rows="1" placeholder="翻译" />
               </div>
               <el-button class="add-btn" size="small" @click="addSentence(pIdx)">+ 添加句子</el-button>
@@ -428,4 +428,5 @@ function goBack() {
 :deep(.el-page-header__back) { color: #6b6b6b; font-size: 0.9rem; }
 :deep(.el-page-header__back:hover) { color: #1a1a1a; }
 :deep(.el-empty__description) { color: #b4b3b0; }
+.text-en-input :deep(textarea), .text-en-input :deep(.el-textarea__inner) { font-family: Merriweather, Georgia, serif !important; font-size: 1.05rem !important; }
 </style>
