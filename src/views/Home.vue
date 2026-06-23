@@ -18,10 +18,6 @@ const filteredArticles = computed(() => {
   return Object.values(articles).filter(a => a.level === props.activeLevel)
 })
 
-function goEdit(id: string) {
-  router.push({ name: 'editArticle', params: { id } })
-}
-
 function goArticle(id: string) {
   router.push({ name: 'article', params: { id } })
 }
@@ -32,7 +28,7 @@ function goArticle(id: string) {
     <div v-if="filteredArticles.length === 0" class="empty-tip">暂无文章</div>
     <div
       v-for="item in filteredArticles" :key="item.id"
-      class="article-card" @click="goArticle(item.id)" @dblclick="goEdit(item.id)"
+      class="article-card" @click="goArticle(item.id)"
     >
       <img :src="tudingIcon" class="tuding-icon" alt="" />
       <h3 class="card-title">

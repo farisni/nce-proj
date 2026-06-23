@@ -18,6 +18,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 const article = computed(() => articles[route.params.id as string])
 import yumaoIcon from '../asserts/icon/yumao.svg'
+import editIcon from '../asserts/icon/edit.svg'
 import Heatmap from '../components/Heatmap.vue'
 
 // 当前文章元数据：从 article.value 直接读取（已合并 ArticleMeta 字段）
@@ -190,6 +191,7 @@ function segClass(seg: Segment): string {
             <h1 class="article-title">
               <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></span>
               <Heatmap v-if="currentMeta?.heatmap" :data="currentMeta.heatmap" />
+              <img :src="editIcon" class="edit-icon" title="编辑文章" @click.stop="$router.push({ name: 'editArticle', params: { id: currentMeta?.id } })" />
             </h1>
             <!-- 段落 → 句子渲染：span.sentence-inline（高亮 + 羽毛图标）+ transition 笔记面板 -->
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
@@ -266,6 +268,8 @@ function segClass(seg: Segment): string {
 .title-text-wrap { flex: 1; min-width: 0; }
 
 .title-lesson { color: #999; font-weight: 400; }
+.edit-icon { width: 18px; height: 18px; margin-left: 10px; cursor: pointer; opacity: 0.35; transition: opacity 0.2s; flex-shrink: 0; }
+.edit-icon:hover { opacity: 0.7; }
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 20px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
