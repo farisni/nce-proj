@@ -244,9 +244,9 @@ function segClass(seg: Segment): string {
         <div class="section-row">
           <div class="section-main">
             <!-- 课文注释 -->
-            <div v-if="article.notes && article.notes.length" class="article-notes">
+            <div v-if="article.notesOnText && article.notesOnText.length" class="article-notes">
               <h2 class="section-title">课文注释</h2>
-              <div v-for="(note, ni) in article.notes" :key="ni" class="note-item">
+              <div v-for="(note, ni) in article.notesOnText" :key="ni" class="note-item">
                 <span class="note-label">{{ note.title }}</span>
                 <span class="note-body">{{ note.body }}</span>
               </div>

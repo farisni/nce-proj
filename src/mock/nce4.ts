@@ -18,7 +18,7 @@ const articleNce4L1: Article = {
 
 
   attribution: "ROBIN PLACE（罗宾·普莱斯）《Finding fossil man》",
-    notes: [
+    notesOnText: [
     { title: "hand down", body: "把...传下去。例句：Many old legends were handed down from generation by mouth. 许多古老的传说都是一代一代口传下来了。" },
     { title: "read of", body: "读到，和 read about 是相同的意思。谈到：speak of，talk of；了解到：know of；听到：hear of。" },
     { title: "the first people", body: "原始人。people+s 表示民族。" },

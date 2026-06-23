@@ -3,7 +3,7 @@ export interface SentenceData {
   translation?: string
   predicates: string[]
   clauseIntroducers: string[]
-  notes?: { phrase: string; note: string }[]
+  notesOnText?: { phrase: string; note: string }[]
   panelNotes?: { snippet: string; desc: string }[]
 }
 
@@ -25,7 +25,7 @@ export interface Article {
   keyArticle?: boolean
   heatmap?: number[][]
   attribution?: string
-  notes?: { title: string; body: string }[]
+  notesOnText?: { title: string; body: string }[]
 
   original: {
     paragraphs: SentenceData[][]
