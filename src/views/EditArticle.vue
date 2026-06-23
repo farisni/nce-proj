@@ -56,18 +56,6 @@ function removeTranslationParagraph(idx: number) {
   editArticle.value?.translation.paragraphs.splice(idx, 1)
 }
 
-function getPredicateJson(idx: number): string {
-  if (!editArticle.value) return '[]'
-  const pp = editArticle.value.original.predicateParagraph[idx]
-  return pp ? JSON.stringify(pp, null, 2) : '[]'
-}
-function setPredicateJson(idx: number, val: string) {
-  if (!editArticle.value) return
-  try {
-    editArticle.value.original.predicateParagraph[idx] = JSON.parse(val)
-  } catch { /* ignore parse errors */ }
-}
-
 const showPredicateIdx = ref<string>('')
 function togglePredicate(idx: number) {
   showPredicateIdx.value = showPredicateIdx.value === String(idx) ? '' : String(idx)
@@ -82,6 +70,40 @@ function save() {
     Object.assign(articleMetas[metaIdx], m)
   }
   ElMessage.success('保存成功（刷新页面后丢失）')
+}
+
+// Grammar helpers
+const newPredicate = ref<Record<string, string>>({})
+const newClause = ref<Record<string, string>>({})
+
+function addPredicate(pIdx: number, sIdx: number) {
+  const key = pIdx + '-' + sIdx
+  const val = newPredicate.value[key]?.trim()
+  if (!val) return
+  const arr = editArticle.value?.original.predicateParagraph[pIdx]
+  if (arr && arr[sIdx]) {
+    if (!arr[sIdx].predicates) arr[sIdx].predicates = []
+    arr[sIdx].predicates.push(val)
+  }
+  newPredicate.value[key] = ''
+}
+function addClause(pIdx: number, sIdx: number) {
+  const key = pIdx + '-' + sIdx
+  const val = newClause.value[key]?.trim()
+  if (!val) return
+  const arr = editArticle.value?.original.predicateParagraph[pIdx]
+  if (arr && arr[sIdx]) {
+    if (!arr[sIdx].clauseIntroducers) arr[sIdx].clauseIntroducers = []
+    arr[sIdx].clauseIntroducers.push(val)
+  }
+  newClause.value[key] = ''
+}
+function addNote(pIdx: number, sIdx: number) {
+  const arr = editArticle.value?.original.predicateParagraph[pIdx]
+  if (arr && arr[sIdx]) {
+    if (!arr[sIdx].notes) arr[sIdx].notes = []
+    arr[sIdx].notes!.push({ phrase: '', note: '' })
+  }
 }
 
 function goBack() {
@@ -164,63 +186,132 @@ function goBack() {
         <div class="tab-content" v-if="editArticle">
           <div class="section-label">词汇列表 · {{ editArticle.vocabulary.length }} 个</div>
           <el-button class="add-btn" size="small" @click="addVocab" style="margin-bottom:12px">+ 添加单词</el-button>
-          <el-table :data="editArticle.vocabulary" size="small" max-height="500" empty-text="暂无词汇">
-            <el-table-column prop="word" label="单词" width="140">
-              <template #default="{ row, $index }">
-                <el-input v-model="editArticle!.vocabulary[$index].word" size="small" placeholder="单词" />
-              </template>
-            </el-table-column>
-            <el-table-column prop="phonetic" label="音标" width="150">
-              <template #default="{ row, $index }">
-                <el-input v-model="editArticle!.vocabulary[$index].phonetic" size="small" placeholder="音标" />
-              </template>
-            </el-table-column>
-            <el-table-column prop="pos" label="词性" width="80">
-              <template #default="{ row, $index }">
-                <el-input v-model="editArticle!.vocabulary[$index].pos" size="small" placeholder="词性" />
-              </template>
-            </el-table-column>
-            <el-table-column prop="meaning" label="释义" min-width="160">
-              <template #default="{ row, $index }">
-                <el-input v-model="editArticle!.vocabulary[$index].meaning" size="small" placeholder="释义" />
-              </template>
-            </el-table-column>
-            <el-table-column prop="syllables" label="音节拆分" width="150">
-              <template #default="{ row, $index }">
-                <el-input v-model="editArticle!.vocabulary[$index].syllables" size="small" placeholder="音节拆分" />
-              </template>
-            </el-table-column>
-            <el-table-column label="操作" width="80" fixed="right">
-              <template #default="{ $index }">
-                <el-popconfirm title="确定删除？" @confirm="removeVocab($index)">
+          <div class="notion-table-wrapper">
+            <div class="notion-table-header">
+              <span class="nth-col" style="width:140px">单词</span>
+              <span class="nth-col" style="width:150px">音标</span>
+              <span class="nth-col" style="width:80px">词性</span>
+              <span class="nth-col" style="flex:1">释义</span>
+              <span class="nth-col" style="width:150px">音节拆分</span>
+              <span class="nth-col" style="width:60px"></span>
+            </div>
+            <div v-if="editArticle.vocabulary.length === 0" class="notion-table-empty">暂无词汇，点击上方按钮添加</div>
+            <div
+              v-for="(item, vi) in editArticle.vocabulary"
+              :key="vi"
+              class="notion-table-row"
+            >
+              <div class="ntd-cell" style="width:140px">
+                <input v-model="editArticle!.vocabulary[vi].word" placeholder="单词" class="notion-cell-input" />
+              </div>
+              <div class="ntd-cell" style="width:150px">
+                <input v-model="editArticle!.vocabulary[vi].phonetic" placeholder="音标" class="notion-cell-input" />
+              </div>
+              <div class="ntd-cell" style="width:80px">
+                <input v-model="editArticle!.vocabulary[vi].pos" placeholder="词性" class="notion-cell-input" />
+              </div>
+              <div class="ntd-cell" style="flex:1">
+                <input v-model="editArticle!.vocabulary[vi].meaning" placeholder="释义" class="notion-cell-input" />
+              </div>
+              <div class="ntd-cell" style="width:150px">
+                <input v-model="editArticle!.vocabulary[vi].syllables" placeholder="音节拆分" class="notion-cell-input" />
+              </div>
+              <div class="ntd-cell ntd-action" style="width:60px">
+                <el-popconfirm title="确定删除？" @confirm="removeVocab(vi)">
                   <template #reference>
-                    <el-button type="danger" size="small" text>删除</el-button>
+                    <span class="notion-row-delete">✕</span>
                   </template>
                 </el-popconfirm>
-              </template>
-            </el-table-column>
-          </el-table>
+              </div>
+            </div>
+          </div>
         </div>
       </el-tab-pane>
 
       <el-tab-pane label="语法标注" name="grammar">
         <div class="tab-content" v-if="editArticle">
-          <div class="section-label">语法标注 JSON</div>
+          <div class="section-label">语法标注</div>
           <div class="notion-hint">
-            每段为一个数组，数组中每个对象对应一个句子：<code>{ predicates: string[], clauseIntroducers: string[], notes: { phrase, note }[] }</code>
+            每段包含多个句子，每个句子可标注谓语、从句引导词、行间笔记
           </div>
-          <div v-for="(p, idx) in editArticle.original.paragraphs" :key="'gp'+idx" class="para-block">
-            <div class="para-head notion-toggle" @click="togglePredicate(idx)">
-              <span>{{ showPredicateIdx === String(idx) ? '▾' : '▸' }}</span>
-              <span class="para-label">段落 {{ idx + 1 }}</span>
+          <div v-for="(p, pIdx) in editArticle.original.paragraphs" :key="'gp'+pIdx" class="grammar-para">
+            <div class="para-head notion-toggle" @click="togglePredicate(pIdx)">
+              <span>{{ showPredicateIdx === String(pIdx) ? '▾' : '▸' }}</span>
+              <span class="para-label">段落 {{ pIdx + 1 }}</span>
+              <span class="grammar-meta">{{ (editArticle.original.predicateParagraph[pIdx] || []).length }} 句</span>
             </div>
-            <el-input
-              v-if="showPredicateIdx === String(idx)"
-              :model-value="getPredicateJson(idx)"
-              @update:model-value="setPredicateJson(idx, $event)"
-              type="textarea"
-              :rows="6"
-            />
+            <div v-if="showPredicateIdx === String(pIdx)" class="grammar-body">
+              <div v-for="(s, sIdx) in (editArticle.original.predicateParagraph[pIdx] || [])" :key="'s'+sIdx" class="grammar-sentence">
+                <div class="grammar-sentence-head">
+                  <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
+                </div>
+                
+                <!-- Predicates -->
+                <div class="grammar-field">
+                  <span class="grammar-field-label">谓语 (predicates)</span>
+                  <div class="grammar-tags">
+                    <el-tag
+                      v-for="(pred, pi) in s.predicates" :key="'pred'+pi"
+                      closable size="small" type="danger" effect="light"
+                      @close="s.predicates.splice(pi, 1)"
+                    >{{ pred }}</el-tag>
+                    <el-input
+                      v-model="newPredicate[pIdx+'-'+sIdx]"
+                      size="small" placeholder="添加谓语..."
+                      class="grammar-tag-input"
+                      @keyup.enter="addPredicate(pIdx, sIdx)"
+                      @blur="addPredicate(pIdx, sIdx)"
+                    />
+                  </div>
+                </div>
+
+                <!-- Clause Introducers -->
+                <div class="grammar-field">
+                  <span class="grammar-field-label">从句引导词 (clauseIntroducers)</span>
+                  <div class="grammar-tags">
+                    <el-tag
+                      v-for="(ci, cii) in s.clauseIntroducers" :key="'ci'+cii"
+                      closable size="small" effect="light"
+                      @close="s.clauseIntroducers.splice(cii, 1)"
+                    >{{ ci }}</el-tag>
+                    <el-input
+                      v-model="newClause[pIdx+'-'+sIdx]"
+                      size="small" placeholder="添加引导词..."
+                      class="grammar-tag-input"
+                      @keyup.enter="addClause(pIdx, sIdx)"
+                      @blur="addClause(pIdx, sIdx)"
+                    />
+                  </div>
+                </div>
+
+                <!-- Notes -->
+                <div class="grammar-field">
+                  <span class="grammar-field-label">行间笔记 (notes)</span>
+                  <el-table :data="s.notes || []" size="small" class="grammar-notes-table" empty-text="暂无笔记">
+                    <el-table-column prop="phrase" label="短语" min-width="140">
+                      <template #default="{ $index }">
+                        <el-input v-model="s.notes![$index].phrase" size="small" placeholder="短语" />
+                      </template>
+                    </el-table-column>
+                    <el-table-column prop="note" label="笔记" min-width="180">
+                      <template #default="{ $index }">
+                        <el-input v-model="s.notes![$index].note" size="small" placeholder="笔记内容" />
+                      </template>
+                    </el-table-column>
+                    <el-table-column label="操作" width="80">
+                      <template #default="{ $index }">
+                        <el-popconfirm title="确定删除？" @confirm="s.notes!.splice($index, 1)">
+                          <template #reference>
+                            <el-button type="danger" size="small" text>删除</el-button>
+                          </template>
+                        </el-popconfirm>
+                      </template>
+                    </el-table-column>
+                  </el-table>
+                  <el-button class="add-btn" size="small" @click="addNote(pIdx, sIdx)">+ 添加笔记</el-button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </el-tab-pane>
@@ -306,17 +397,44 @@ function goBack() {
 :deep(.el-input-number .el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; }
 
 // Notion-style table
-:deep(.el-table) {
-  border: none;
-  --el-table-border-color: #ededec;
-  --el-table-header-bg-color: #f7f6f3;
-  font-size: 0.88rem;
-  th { font-weight: 500; color: #6b6b6b; font-size: 0.82rem; border-bottom: 1px solid #ededec; }
-  td { border-bottom: 1px solid #f1f1ef; padding: 6px 0; }
-  .el-input__wrapper { box-shadow: none !important; border: 1px solid transparent; background: transparent; padding: 2px 8px; }
-  .el-input__wrapper:hover { border-color: #e3e2e0; background: #fafaf8; }
-  .el-input.is-focus .el-input__wrapper { border-color: #2383e2; background: #fff; box-shadow: 0 0 0 1px rgba(35,131,226,0.2) !important; }
-  tr:hover td { background: #fafaf8; }
+.notion-table-wrapper {
+  border: 1px solid #ededec; border-radius: 6px; overflow: hidden;
+}
+.notion-table-header {
+  display: flex; align-items: center; background: #f7f6f3;
+  border-bottom: 1px solid #e3e2e0; padding: 7px 12px;
+}
+.nth-col {
+  font-size: 0.78rem; font-weight: 500; color: #6b6b6b;
+  flex-shrink: 0; padding: 0 6px;
+}
+.notion-table-empty {
+  padding: 32px 12px; text-align: center; font-size: 0.85rem; color: #b4b3b0;
+}
+.notion-table-row {
+  display: flex; align-items: center; padding: 0 12px;
+  border-bottom: 1px solid #f1f1ef;
+  transition: background 0.1s;
+  &:last-child { border-bottom: none; }
+  &:hover { background: #fafaf8;
+    .notion-row-delete { opacity: 1; }
+  }
+}
+.ntd-cell {
+  flex-shrink: 0; padding: 4px 6px; display: flex; align-items: center;
+}
+.ntd-action { justify-content: center; }
+.notion-cell-input {
+  width: 100%; border: 1px solid transparent; background: transparent;
+  padding: 4px 6px; font-size: 0.85rem; font-family: inherit; color: #1a1a1a;
+  border-radius: 3px; outline: none;
+  &:focus { border-color: #2383e2; background: #fff; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
+  &:hover:not(:focus) { border-color: #e3e2e0; background: #fdfdfc; }
+}
+.notion-row-delete {
+  opacity: 0; font-size: 0.85rem; color: #d94a4a; cursor: pointer;
+  padding: 2px 6px; border-radius: 3px; transition: opacity 0.1s;
+  &:hover { background: #fef0f0; }
 }
 
 // Buttons
@@ -326,6 +444,22 @@ function goBack() {
 // Page header back button
 :deep(.el-page-header__back) { color: #6b6b6b; font-size: 0.9rem; }
 :deep(.el-page-header__back:hover) { color: #1a1a1a; }
+
+// Grammar section
+.grammar-para { margin-bottom: 8px; }
+.grammar-meta { font-size: 0.78rem; color: #b4b3b0; margin-left: 8px; }
+.grammar-body { padding: 12px 0 8px 16px; border-left: 2px solid #f1f1ef; margin-left: 8px; }
+.grammar-sentence {
+  margin-bottom: 16px; padding: 12px 14px;
+  background: #fafaf8; border-radius: 6px;
+}
+.grammar-sentence-head { margin-bottom: 10px; }
+.grammar-sentence-label { font-size: 0.85rem; font-weight: 600; color: #1a1a1a; }
+.grammar-field { margin-bottom: 12px; }
+.grammar-field-label { display: block; font-size: 0.75rem; color: #9b9a97; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.grammar-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.grammar-tag-input { width: 150px; }
+.grammar-notes-table { margin-bottom: 8px; }
 
 // Empty state
 :deep(.el-empty__description) { color: #b4b3b0; }
