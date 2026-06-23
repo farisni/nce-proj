@@ -4,6 +4,7 @@ export interface SentenceData {
   predicates: string[]
   clauseIntroducers: string[]
   notes?: { phrase: string; note: string }[]
+  panelNotes?: { snippet: string; desc: string }[]
 }
 
 export interface VocabItem {

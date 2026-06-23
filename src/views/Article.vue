@@ -131,6 +131,7 @@ const originalSentences = computed(() =>
     para.map((sd, sIdx) => ({
       segments: markWords(sd.text, sd.predicates, sd.clauseIntroducers, sd.notes ?? []),
       key: sd.text.slice(0, 40) + '-' + sIdx,
+      panelNotes: sd.panelNotes ?? [],
     }))
   ),
 )
@@ -208,7 +209,12 @@ function segClass(seg: Segment): string {
                   /></span>
                   <!-- 笔记面板：展开时显示 200px 浅绿底 -->
                   <transition name="panel">
-                    <div v-if="activeKey === s.key" class="sentence-panel"></div>
+                    <div v-if="activeKey === s.key" class="sentence-panel">
+                      <div v-for="(pn, pni) in s.panelNotes" :key="'pn'+pni" class="panel-note-item">
+                        <span class="panel-note-snippet">{{ pn.snippet }}</span>
+                        <span class="panel-note-desc">{{ pn.desc }}</span>
+                      </div>
+                    </div>
                   </transition>
                 </template>
               </div>
@@ -300,10 +306,14 @@ function segClass(seg: Segment): string {
 
 // 笔记面板：浅绿底色 200px 高
 .sentence-panel {
-  display: block; margin: 6px 0; border-radius: 8px;
+  display: block; margin: 6px 0; border-radius: 8px; padding: 12px 16px;
   background: #f2f7f2; min-height: 200px;
   position: relative; z-index: 11;
 }
+.panel-note-item { display: flex; gap: 8px; padding: 4px 0; font-size: 0.85rem; }
+.panel-note-item + .panel-note-item { border-top: 1px solid #e2e8e0; }
+.panel-note-snippet { font-weight: 600; color: #3d3d3d; min-width: 80px; font-family: 'Poppins', sans-serif; }
+.panel-note-desc { color: #666; }
 
 // 语法标记：从句引导词（斜体加粗暗色）/ 谓语（橘红）
 .clause-mark { font-style: italic; font-weight: 600; color: #3d3d3d; }

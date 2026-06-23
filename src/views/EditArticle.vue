@@ -44,7 +44,7 @@ function removeParagraph(pIdx: number) {
 // Sentence operations
 function addSentence(pIdx: number) {
   editArticle.value?.original.paragraphs[pIdx].push({
-    text: '', translation: '', predicates: [], clauseIntroducers: [], notes: []
+    text: '', translation: '', predicates: [], clauseIntroducers: [], notes: [], panelNotes: []
   })
 }
 function removeSentence(pIdx: number, sIdx: number) {
@@ -76,6 +76,14 @@ function addNote(pIdx: number, sIdx: number) {
   if (sent) {
     if (!sent.notes) sent.notes = []
     sent.notes.push({ phrase: '', note: '' })
+  }
+}
+
+function addPanelNote(pIdx: number, sIdx: number) {
+  const sent = editArticle.value?.original.paragraphs[pIdx]?.[sIdx]
+  if (sent) {
+    if (!sent.panelNotes) sent.panelNotes = []
+    sent.panelNotes.push({ snippet: '', desc: '' })
   }
 }
 
@@ -256,6 +264,27 @@ function goBack() {
                     </el-table-column>
                   </el-table>
                   <el-button class="add-btn" size="small" @click="addNote(pIdx, sIdx)">+ 添加笔记</el-button>
+                </div>
+
+                <!-- Panel Notes -->
+                <div class="grammar-field">
+                  <span class="grammar-field-label">面板笔记</span>
+                  <el-table :data="sd.panelNotes || []" size="small" class="grammar-notes-table" empty-text="暂无面板笔记">
+                    <el-table-column prop="snippet" label="片段" min-width="140">
+                      <template #default="{ $index }"><el-input v-model="sd.panelNotes![$index].snippet" size="small" placeholder="片段" /></template>
+                    </el-table-column>
+                    <el-table-column prop="desc" label="解析" min-width="180">
+                      <template #default="{ $index }"><el-input v-model="sd.panelNotes![$index].desc" size="small" placeholder="解析内容" /></template>
+                    </el-table-column>
+                    <el-table-column label="操作" width="80">
+                      <template #default="{ $index }">
+                        <el-popconfirm title="确定删除？" @confirm="sd.panelNotes!.splice($index, 1)">
+                          <template #reference><el-button type="danger" size="small" text>删除</el-button></template>
+                        </el-popconfirm>
+                      </template>
+                    </el-table-column>
+                  </el-table>
+                  <el-button class="add-btn" size="small" @click="addPanelNote(pIdx, sIdx)">+ 添加面板笔记</el-button>
                 </div>
               </div>
             </div>
