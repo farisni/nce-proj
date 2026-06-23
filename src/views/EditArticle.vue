@@ -93,6 +93,7 @@ const showParagraph = ref<Record<number, boolean>>({})
 const editingCells = ref(new Set<string>())
 const editingMetaFields = ref(new Set<string>())
 
+function isEditing(key: string) { return editingCells.value.has(key) }
 function startEdit(key: string) { editingCells.value.add(key); editingCells.value = new Set(editingCells.value) }
 function stopEdit(key: string) { editingCells.value.delete(key); editingCells.value = new Set(editingCells.value) }
 function startMetaEdit(key: string) { editingMetaFields.value.add(key); editingMetaFields.value = new Set(editingMetaFields.value) }
@@ -182,14 +183,20 @@ function goBack() {
               <span class="grammar-meta">{{ para.length }} 句</span>
               <el-popconfirm v-if="editArticle.original.paragraphs.length > 1" title="确定删除？" @confirm="removeParagraph(pIdx)"><template #reference><span class="del-text" style="margin-left:auto">删除段</span></template></el-popconfirm>
             </div>
-            <div v-if="showParagraph[pIdx]" class="grammar-body">
+            <div v-if="showParagraph[pIdx] !== false" class="grammar-body">
               <div v-for="(sd, sIdx) in para" :key="'s'+sIdx" class="grammar-sentence">
                 <div class="grammar-sentence-head">
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
                   <el-popconfirm title="确定删除？" @confirm="removeSentence(pIdx, sIdx)"><template #reference><span class="del-btn">✕</span></template></el-popconfirm>
                 </div>
-                <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" class="text-en-ta" />
-                <el-input v-model="sd.translation" type="textarea" :rows="1" placeholder="翻译" />
+                <template v-if="isEditing('text-'+pIdx+'-'+sIdx)">
+                  <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" class="text-en-ta" @blur="stopEdit('text-'+pIdx+'-'+sIdx)" autofocus />
+                </template>
+                <div v-else class="sentence-preview text-preview-en" @dblclick="startEdit('text-'+pIdx+'-'+sIdx)">{{ sd.text || '—' }}</div>
+                <template v-if="isEditing('trans-'+pIdx+'-'+sIdx)">
+                  <el-input v-model="sd.translation" type="textarea" placeholder="翻译" :autosize="{ minRows: 2, maxRows: 10 }" class="text-cn-ta" @blur="stopEdit('trans-'+pIdx+'-'+sIdx)" autofocus />
+                </template>
+                <div v-else class="sentence-preview text-preview-cn" @dblclick="startEdit('trans-'+pIdx+'-'+sIdx)">{{ sd.translation || '—' }}</div>
               </div>
               <el-button class="add-btn" size="small" @click="addSentence(pIdx)">+ 添加句子</el-button>
             </div>
@@ -259,7 +266,7 @@ function goBack() {
               <span class="para-label">段落 {{ pIdx + 1 }}</span>
               <span class="grammar-meta">{{ para.length }} 句</span>
             </div>
-            <div v-if="showParagraph[pIdx]" class="grammar-body">
+            <div v-if="showParagraph[pIdx] !== false" class="grammar-body">
               <div v-for="(sd, sIdx) in para" :key="'gs'+sIdx" class="grammar-sentence">
                 <div class="grammar-sentence-head">
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
@@ -477,8 +484,13 @@ function goBack() {
 .notion-btn-cancel:hover { background: #f1f1ef; color: #37352f; border-color: #d3d2d0; }
 .notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
 .notion-btn-save:hover { background: #337ECC; border-color: #337ECC; color: #fff; }
+.text-cn-ta :deep(textarea) { min-height: 44px; }
 .text-en-ta :deep(textarea) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif !important; }
 /* 词汇表 MiSans Latin Light */
+.sentence-preview { padding: 8px 12px; min-height: 36px; border-radius: 4px; cursor: text; white-space: pre-wrap; }
+.sentence-preview:hover { background: rgba(0,0,0,0.03); }
+.text-preview-en { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; font-size: 1.05rem; font-weight: 500; background: #f7f6f3; }
+.text-preview-cn { font-family: 'LXGW WenKai', 'PingFang SC', serif; font-size: 0.9rem; color: #555; margin-top: 4px; }
 .edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-word-input { padding: 1px 6px !important; font-size: 1rem !important; font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
 .ntd-combined { display: flex; align-items: center; gap: 4px; }

@@ -24,18 +24,18 @@ const articleNce4L1: Article = {
 { text: "We can read of things that happened 5,000 years ago in the Near East, where people first learned to write.", translation: "我们从书籍中可读到5,000 年前近东发生的事情，那里的人最早学会了写字。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "But there are some parts of the world where even now people cannot write.", translation: "但直到现在,世界上有些地方，人们还不会书写。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The only way that they can preserve their history is to recount it as sagas -- legends handed down from one generation of story tellers to another.", translation: "他们保存历史的唯一办法是将历史当作传说讲述，由讲述人一代接一代地将史实描述为传奇故事口传下来。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "These legends are useful because they can tell us something about migrations of people who lived long ago, but none could write down what they did.", translation: "人类学家过去不清楚如今生活在太平洋诸岛上的波利尼西亚人的祖先来自何方，当地人的传说却告诉人们：其中一部分是约在2,000年前从印度尼西亚迁来的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Anthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islands came from.", translation: "但是，和我们相似的原始人生活的年代太久远了，因此，有关他们的传说既使有如今也失传了。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "These legends are useful because they can tell us something about migrations of people who lived long ago, but none could write down what they did.", translation: "这些传说是有用的，因为他们讲述了很久以前有关迁居的事情。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Anthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islands came from.", translation: "人类学家过去不清楚如今生活在太平洋诸岛上的波利尼西亚人的祖先来自何方，", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The sagas of these people explain that some of them came from Indonesia about 2,000 years ago.", translation: "于是，考古学家们既缺乏历史记载，又无口头传说来帮助他们弄清最早的“现代人”是从哪里来的。 然而， 幸运的是，远古人用石头制作了工具，特别是用燧石，因为燧石较之其他石头更容易成形。 他们也可能用过木头和兽皮，但这类东西早已腐烂殆尽。 石头是不会腐烂的。 因此，尽管制造这些工具的人的骨头早已荡然无存，但远古时代的石头工具却保存了下来。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "But the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "So archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "But the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten.", translation: "但是，和我们相似的原始人生活的年代太久远了，因此，有关他们的传说既使有如今也失传了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "So archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.", translation: "于是，考古学家们既缺乏历史记载，又无口头传说来帮助他们弄清最早的\u201c现代人\u201d是从哪里来的。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "Fortunately, however, ancient men made tools of stone, especially flint, because this is easier to shape than other kinds.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They may also have used wood and skins, but these have rotted away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Fortunately, however, ancient men made tools of stone, especially flint, because this is easier to shape than other kinds.", translation: "然而，幸运的是，远古人用石头制作了工具，特别是用燧石，因为燧石较之其他石头更容易成形。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "They may also have used wood and skins, but these have rotted away.", translation: "他们也可能用过木头和兽皮，但这类东西早已腐烂殆尽。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.", translation: "石头是不会腐烂的。因此，尽管制造这些工具的人的骨头早已荡然无存，但远古时代的石头工具却保存了下来。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -77,18 +77,17 @@ const articleNce4L2: Article = {
         paragraphs: [
 [
 { text: "Why, you may wonder, should spiders be our friends?", translation: "你可能会觉得奇怪， 蜘蛛怎么会是我们的朋友呢？", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Because they destroy so many insects, and insects include some of the greatest enemies of the human race.", translation: "因为它们能消灭那么多的昆虫，其中包括一些人类的大敌，要不是人类受一些食虫动物的保护，昆虫就会使我们无法在地球上生活下去，昆虫会吞食我们的全部庄稼，杀死我们的成群的牛羊。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Insects would make it impossible for us to live in the world; they would devour all our crops and kill our flocks and herds, if it were not for the protection we get from insect-eating animals.", translation: "我们要十分感谢那些吃昆虫的鸟和兽，然而把它们所杀死的昆虫全部加在一起也只相当于蜘蛛所消灭的一小部分。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "We owe a lot to the birds and beasts who eat insects but all of them put together kill only a fraction of the number destroyed by spiders.", translation: "此外，蜘蛛不同于其他食虫动物，它们丝毫不危害我们和我们的财物。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.", translation: "许多人认为蜘蛛是昆虫，但它们不是昆虫，甚至与昆虫毫无关系。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Spiders are not insects, as many people think, nor even nearly related to them.", translation: "人们几乎一眼就能看出二者的差异，因为蜘蛛都是8条腿，而昆虫的腿从不超过6条。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "One can tell the difference almost at a glance, for a spider always has eight legs and an insect never more than six.", translation: "有多少蜘蛛在为我们效力呢？", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "How many spiders are engaged in this work on our behalf?", translation: "一位研究蜘蛛的权威对英国南部一块草坪上的蜘蛛作了一次调查。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "One authority on spiders made a census of the spiders in a grass field in the south of England, and he estimated that there were more than 2,250,000 in one acre; that is something like 6 million spiders of different kinds on a football pitch.", translation: "他估计每英亩草坪里有225万多只蜘蛛。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Spiders are busy for at least half the year in killing insects.", translation: "这就是说，在一个足球场上约有600万只不同种类的蜘蛛。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day.", translation: "蜘蛛至少有半年在忙于吃昆虫。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.", translation: "它们一年中消灭了多少昆虫，我们简直无法猜测，它们是吃不饱的动物，不满意一日三餐。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "T.H.GILLESPIE Spare that spider from The Listener", translation: "据估计，在英国蜘蛛一年里所消灭昆虫的重量超过这个国家人口的总重量。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Because they destroy so many insects, and insects include some of the greatest enemies of the human race.", translation: "因为它们能消灭那么多的昆虫，其中包括一些人类的大敌", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Insects would make it impossible for us to live in the world; they would devour all our crops and kill our flocks and herds, if it were not for the protection we get from insect-eating animals.", translation: "昆虫就会使我们无法在地球上生活下去，昆虫会吞食我们的全部庄稼，杀死我们的成群的牛羊，要不是人类受一些食虫动物的保护", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "We owe a lot to the birds and beasts who eat insects but all of them put together kill only a fraction of the number destroyed by spiders.", translation: "我们要十分感谢那些吃昆虫的鸟和兽，然而把它们所杀死的昆虫全部加在一起也只相当于蜘蛛所消灭的一小部分。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.", translation: "此外，蜘蛛不同于其他食虫动物，它们丝毫不危害我们和我们的财物。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Spiders are not insects, as many people think, nor even nearly related to them.", translation: "许多人认为蜘蛛是昆虫，但它们不是昆虫，甚至与昆虫毫无关系。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "One can tell the difference almost at a glance, for a spider always has eight legs and an insect never more than six.", translation: "人们几乎一眼就能看出二者的差异，因为蜘蛛都是8条腿，而昆虫的腿从不超过6条。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "How many spiders are engaged in this work on our behalf?", translation: "有多少蜘蛛在为我们效力呢？", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "One authority on spiders made a census of the spiders in a grass field in the south of England, and he estimated that there were more than 2,250,000 in one acre; that is something like 6 million spiders of different kinds on a football pitch.", translation: "一位研究蜘蛛的权威对英国南部一块草坪上的蜘蛛作了一次调查。他估计每英亩草坪里有225万多只蜘蛛。这就是说，在一个足球场上约有600万只不同种类的蜘蛛。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Spiders are busy for at least half the year in killing insects.", translation: "蜘蛛至少有半年在忙于吃昆虫。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day.", translation: "它们一年中消灭了多少昆虫，我们简直无法猜测，它们是吃不饱的动物，不满意一日三餐。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.", translation: "据估计，在英国蜘蛛一年里所消灭昆虫的重量超过这个国家人口的总重量。", predicates: [], clauseIntroducers: [], notes: [] }
 ]
 ],
   },
@@ -121,19 +120,19 @@ const articleNce4L3: Article = {
     original: {
     paragraphs: [
 [
-{ text: "Modern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded.", translation: "现代登山运动员总想找一条能够给他们带来运动乐趣的路线来攀登山峰。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "In the pioneering days, however, this was not the case at all.", translation: "他们认为， 道路愈艰险愈带劲儿。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The early climbers were looking for the easiest way to the top, because the summit was the prize they sought, especially if it had never been attained before.", translation: "然而，在登山运动的初期，全然不是这种情况。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It is true that during their explorations they often faced difficulties and dangers of the most perilous nature, equipped in a manner which would make a modern climber shudder at the thought, but they did not go out of their way to court such excitement.", translation: "早期登山者所寻找的是通往山顶的最方便的途径，因为顶峰特别是前人未曾到过的顶峰 -- 才是他们寻求的目标。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "They had a single aim, a solitary goal -- the top!", translation: "确实，在探险中他们经常遇到惊心动魄的困难和危险，而他们装备之简陋足以使现代登山者一想起来就胆战心惊。 但是，他们并非故意寻求这种刺激，他们只有一个目标，唯一的目标 -- 顶峰！ 我们今天很难想像昔日的登山先驱们是多么艰苦。 除了泽曼特和夏蒙尼等一两个很快出了名的地方外，阿尔卑斯山山区的小村几乎全是高山环抱、与世隔绝的穷乡僻壤。 那里的小客栈一般都很肮脏，而且跳蚤猖獗。 食物是当地的干酪和通常存放了一年之久的面包，人们就着劣酒吞下这种食物。 山谷里常常没有小客栈，登山者只好随遇而安。 有时同当地牧师 （他通常和他的教民一样穷）住在一起，有时同牧羊人或制乳酪的人住在一起。 无论住在哪儿，情况都一样：肮脏、贫穷，极其不舒适。 对于过惯了一顿饭吃7道菜、睡亚麻细布床单的人来说，变换一下生活环境来到阿尔卑斯山山区，那一定是很艰难的。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Modern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded.", translation: "现代登山运动员总想找一条能够给他们带来运动乐趣的路线来攀登山峰。他们认为，道路愈艰险愈带劲儿。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "In the pioneering days, however, this was not the case at all.", translation: "然而，在登山运动的初期，全然不是这种情况。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The early climbers were looking for the easiest way to the top, because the summit was the prize they sought, especially if it had never been attained before.", translation: "早期登山者所寻找的是通往山顶的最方便的途径，因为顶峰特别是前人未曾到过的顶峰——才是他们寻求的目标。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It is true that during their explorations they often faced difficulties and dangers of the most perilous nature, equipped in a manner which would make a modern climber shudder at the thought, but they did not go out of their way to court such excitement.", translation: "确实，在探险中他们经常遇到惊心动魄的困难和危险，而他们装备之简陋足以使现代登山者一想起来就胆战心惊。但是，他们并非故意寻求这种刺激，", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "They had a single aim, a solitary goal -- the top!", translation: "他们只有一个目标，唯一的目标——顶峰！", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "It is hard for us to realize nowadays how difficult it was for the pioneers.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Except for one or two places such as Zermatt and Chamonix, which had rapidly become popular, Alpine villages tended to be impoverished settlements cut off from civilization by the high mountains.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Such inns as there were generally dirty and flea-ridden; the food simply local cheese accompanied by bread often twelve months old, all washed down with coarse wine.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Often a valley boasted no inn at all, and climbers found shelter wherever they could -- sometimes with the local priest who was usually as poor as his parishioners, sometimes with shepherds or cheese-makers.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Invariably the background was the same: dirt and poverty, and very uncomfortable.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home, the change to the Alps must have been very hard indeed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "It is hard for us to realize nowadays how difficult it was for the pioneers.", translation: "我们今天很难想像昔日的登山先驱们是多么艰苦。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Except for one or two places such as Zermatt and Chamonix, which had rapidly become popular, Alpine villages tended to be impoverished settlements cut off from civilization by the high mountains.", translation: "除了泽曼特和夏蒙尼等一两个很快出了名的地方外，阿尔卑斯山山区的小村几乎全是高山环抱、与世隔绝的穷乡僻壤。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Such inns as there were generally dirty and flea-ridden; the food simply local cheese accompanied by bread often twelve months old, all washed down with coarse wine.", translation: "那里的小客栈一般都很肮脏，而且跳蚤猖獗。食物是当地的干酪和通常存放了一年之久的面包，人们就着劣酒吞下这种食物。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Often a valley boasted no inn at all, and climbers found shelter wherever they could -- sometimes with the local priest who was usually as poor as his parishioners, sometimes with shepherds or cheese-makers.", translation: "山谷里常常没有小客栈，登山者只好随遇而安。有时同当地牧师（他通常和他的教民一样穷）住在一起，有时同牧羊人或制乳酪的人住在一起。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Invariably the background was the same: dirt and poverty, and very uncomfortable.", translation: "无论住在哪儿，情况都一样：肮脏、贫穷，极其不舒适。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home, the change to the Alps must have been very hard indeed.", translation: "对于过惯了一顿饭吃7道菜、睡亚麻细布床单的人来说，变换一下生活环境来到阿尔卑斯山山区，那一定是很艰难的。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -181,16 +180,16 @@ const articleNce4L4: Article = {
         paragraphs: [
 [
 { text: "Several cases have been reported in Russia recently of people who can read and detect colours with their fingers, and even see through solid doors and walls.", translation: "俄罗斯最近报导了几个事例，有人能用手指看书识字和辨认颜色，甚至能透过厚实的门和墙看到东西。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "One case concerns an eleven-year-old schoolgirl, Vera Petrova, who has normal vision but who can also perceive things with different parts of her skin, and through solid walls.", translation: "其中有一例谈到有一个名叫维拉.彼托洛娃的11岁学生。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "This ability was first noticed by her father.", translation: "她的视力与常人一样，但她还能用皮肤的不同部位辨认东西，甚至看穿坚实的墙壁。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "One day she came into his office and happened to put her hands on the door of a locked safe.", translation: "是她父亲首先发现她这一功能的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Suddenly she asked her father why he kept so many old newspapers locked away there, and even described the way they were done up in bundles.", translation: "一天，维拉走进父亲的办公室，偶然把手放在一个锁着的保险柜的门上，她突然问父亲为什么把这么多的旧报纸锁在柜子里，还说了报纸捆扎的情况。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Vera's curious talent was brought to the notice of a scientific research institute in the town of Ulyanovsk, near where she lives, and in April she was given a series of tests by a special commission of the Ministry of Health of the Russian Federal Republic.", translation: "维拉的特异功能引起了她家附近乌里扬诺夫斯克城一个科研单位的注意。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "During these tests she was able to read a newspaper through an opaque screen and, stranger still, by moving her elbow over a child's game of Lotto she was able to describe the figures and colours printed on it; and, in another instance, wearing stockings and slippers, to make out with her foot the outlines and colours of a picture hidden under a carpet.", translation: "4月里，俄罗斯卫生部一个特别委员会对她进行了一系列的测试。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Other experiments showed that her knees and shoulders had a similar sensitivity.", translation: "在这些测试中，她能隔着不透明的屏幕读报纸。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "One case concerns an eleven-year-old schoolgirl, Vera Petrova, who has normal vision but who can also perceive things with different parts of her skin, and through solid walls.", translation: "其中有一例谈到有一个名叫维拉·彼托洛娃的11岁学生。她的视力与常人一样，但她还能用皮肤的不同部位辨认东西，甚至看穿坚实的墙壁。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "This ability was first noticed by her father.", translation: "是她父亲首先发现她这一功能的。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "One day she came into his office and happened to put her hands on the door of a locked safe.", translation: "一天，维拉走进父亲的办公室，偶然把手放在一个锁着的保险柜的门上，", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Suddenly she asked her father why he kept so many old newspapers locked away there, and even described the way they were done up in bundles.", translation: "她突然问父亲为什么把这么多的旧报纸锁在柜子里，还说了报纸捆扎的情况。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Vera's curious talent was brought to the notice of a scientific research institute in the town of Ulyanovsk, near where she lives, and in April she was given a series of tests by a special commission of the Ministry of Health of the Russian Federal Republic.", translation: "维拉的特异功能引起了她家附近乌里扬诺夫斯克城一个科研单位的注意。4月里，俄罗斯卫生部一个特别委员会对她进行了一系列的测试。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "During these tests she was able to read a newspaper through an opaque screen and, stranger still, by moving her elbow over a child's game of Lotto she was able to describe the figures and colours printed on it; and, in another instance, wearing stockings and slippers, to make out with her foot the outlines and colours of a picture hidden under a carpet.", translation: "在这些测试中，她能隔着不透明的屏幕读报纸。更为奇怪的是，她把肘部在儿童玩的\u201c罗托\u201d纸牌上移动一下，便能说出印在纸牌上的数字和颜色。还有一次，她穿着长筒袜子和拖鞋，能用脚步识别出藏在地毯下面的一幅画的轮廓和颜色。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Other experiments showed that her knees and shoulders had a similar sensitivity.", translation: "其他实验表明，她的膝盖和双肩有类似的感觉能力，", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "During all these tests Vera was blindfold; and, indeed, except when blindfold she lacked the ability to perceive things with her skin.", translation: "更为奇怪的是，她把肘部在儿童玩的“罗托”纸牌上移动一下，便能说出印在纸牌上的数字和颜色。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.", translation: "还有一次，她穿着长筒袜子和拖鞋，能用脚步识别出藏在地毯下面的一幅画的轮廓和颜色。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "ERIC DE MAUNY Seeing hands from The Listener Another Russian girl,Rosa Kuleshova,reads blindfold.", translation: "其他实验表明，她的膝盖和双肩有类似的感觉能力，在所有这些实验中，维拉的双眼都是蒙着的。 如果不蒙上双眼她的皮肤就不再具有识别物体的能力。 这是千真万确的。 同时还发现，尽管她能用手指识别东西，但她的手一旦弄湿，这种功能便会立即消失。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.", translation: "同时还发现，尽管她能用手指识别东西，但她的手一旦弄湿，这种功能便会立即消失。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "ERIC DE MAUNY Seeing hands from The Listener Another Russian girl,Rosa Kuleshova,reads blindfold.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
 ]
 ],
   },
@@ -1476,23 +1475,23 @@ const articleNce4L5: Article = {
     paragraphs: [
 [
 { text: "People are always talking about 'the problem of youth'.", translation: "人们总是在谈论「青年问题」。", predicates: ["are talking"], clauseIntroducers: [], notes: [{ phrase: "about 'the problem of youth'", note: "介词 + 名词 → 作状语" }] },
-{ text: "If there is one—which I take leave to doubt—then it is older people who create it, not the young themselves.", translation: "", predicates: ["is", "take", "create"], clauseIntroducers: ["If", "which", "then"], notes: [] },
-{ text: "Let us get down to fundamentals and agree that the young are after all human beings—people just like their elders.", translation: "", predicates: ["get", "agree", "are"], clauseIntroducers: ["that"], notes: [{ phrase: "get down to", note: "着手处理" }, { phrase: "fundamentals", note: "基本原则" }] },
-{ text: "There is only one difference between an old man and a young one: the young man has a glorious future before him and the old one has a splendid future behind him: and maybe that is where the rub is.", translation: "", predicates: ["is", "has", "has", "is"], clauseIntroducers: ["where"], notes: [{ phrase: "glorious", note: "辉煌的" }, { phrase: "splendid", note: "灿烂的" }, { phrase: "the rub", note: "症结所在" }] }
+{ text: "If there is one—which I take leave to doubt—then it is older people who create it, not the young themselves.", translation: "如果真有这个问题——我对此持怀疑态度——那也是年长者造成的，而不是年轻人自己。", predicates: ["is", "take", "create"], clauseIntroducers: ["If", "which", "then"], notes: [] },
+{ text: "Let us get down to fundamentals and agree that the young are after all human beings—people just like their elders.", translation: "让我们回到基本点，承认年轻人毕竟也是人——和他们的长辈一样。", predicates: ["get", "agree", "are"], clauseIntroducers: ["that"], notes: [{ phrase: "get down to", note: "着手处理" }, { phrase: "fundamentals", note: "基本原则" }] },
+{ text: "There is only one difference between an old man and a young one: the young man has a glorious future before him and the old one has a splendid future behind him: and maybe that is where the rub is.", translation: "老人和年轻人之间只有一个区别：年轻人有辉煌的未来在前方，而老人有灿烂的过去在身后：也许问题就在这里。", predicates: ["is", "has", "has", "is"], clauseIntroducers: ["where"], notes: [{ phrase: "glorious", note: "辉煌的" }, { phrase: "splendid", note: "灿烂的" }, { phrase: "the rub", note: "症结所在" }] }
 ],
 [
-        { text: "When I was a teenager, I felt that I was just young and uncertain—that I was a new boy in a huge school, and I would have been very pleased to be regarded as something so interesting as a problem.", translation: "", predicates: ["felt", "was", "was", "would have been very pleased"], clauseIntroducers: ["When", "that", "that"], notes: [{ phrase: "would have been very pleased", note: "过去一定会高兴" }] },
-        { text: "For one thing, being a problem gives you a certain identity, and that is one of the things the young are busily engaged in seeking.", translation: "", predicates: ["gives", "are engaged"], clauseIntroducers: ["that"], notes: [] },
+        { text: "When I was a teenager, I felt that I was just young and uncertain—that I was a new boy in a huge school, and I would have been very pleased to be regarded as something so interesting as a problem.", translation: "当我还是个十几岁的少年时，我觉得自己只是年轻和不确定——我就像一所大学校里的新生，如果有人把我看作一个有趣的问题，我会非常高兴。", predicates: ["felt", "was", "was", "would have been very pleased"], clauseIntroducers: ["When", "that", "that"], notes: [{ phrase: "would have been very pleased", note: "过去一定会高兴" }] },
+        { text: "For one thing, being a problem gives you a certain identity, and that is one of the things the young are busily engaged in seeking.", translation: "毕竟，成为问题会给你一种身份认同，而这正是年轻人忙于追求的东西之一。", predicates: ["gives", "are engaged"], clauseIntroducers: ["that"], notes: [] },
       ],
 [
-        { text: "I find young people exciting.", translation: "", predicates: ["find"], clauseIntroducers: [], notes: [] },
-        { text: "They have an air of freedom, and they have not a dreary commitment to mean ambitions or love of comfort.", translation: "", predicates: ["have", "have"], clauseIntroducers: [], notes: [{ phrase: "dreary", note: "沉闷的" }] },
-        { text: "They are not anxious social climbers, and they have no devotion to material things.", translation: "", predicates: ["are", "have"], clauseIntroducers: [], notes: [] },
-        { text: "All this seems to me to link them with life, and the origins of things.", translation: "", predicates: ["seems"], clauseIntroducers: [], notes: [] },
-        { text: "It's as if they were in some sense cosmic beings in violent and lovely contrast with us suburban creatures.", translation: "", predicates: ["were"], clauseIntroducers: ["as if"], notes: [{ phrase: "cosmic", note: "宇宙的" }, { phrase: "suburban", note: "市郊的" }] },
-        { text: "All that is in my mind when I meet a young person.", translation: "", predicates: ["is", "meet"], clauseIntroducers: ["when"], notes: [] },
-        { text: "He may be conceited, ill-mannered, presumptuous or fatuous, but I do not turn for protection to dreary clichés about respect for elders—as if mere age were a reason for respect.", translation: "", predicates: ["may be", "do turn"], clauseIntroducers: ["but"], notes: [] },
-        { text: "I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.", translation: "", predicates: ["accept", "are", "will argue", "think", "is"], clauseIntroducers: ["that", "if"], notes: [] },
+        { text: "I find young people exciting.", translation: "我发现年轻人令人兴奋。", predicates: ["find"], clauseIntroducers: [], notes: [] },
+        { text: "They have an air of freedom, and they have not a dreary commitment to mean ambitions or love of comfort.", translation: "他们有一种自由的气息，没有对平庸野心的沉闷承诺或对舒适的贪恋。", predicates: ["have", "have"], clauseIntroducers: [], notes: [{ phrase: "dreary", note: "沉闷的" }] },
+        { text: "They are not anxious social climbers, and they have no devotion to material things.", translation: "他们不是焦虑的社交攀爬者，也不迷恋物质。", predicates: ["are", "have"], clauseIntroducers: [], notes: [] },
+        { text: "All this seems to me to link them with life, and the origins of things.", translation: "这一切在我看来，将他们与生命和万物的起源联系在一起。", predicates: ["seems"], clauseIntroducers: [], notes: [] },
+        { text: "It's as if they were in some sense cosmic beings in violent and lovely contrast with us suburban creatures.", translation: "他们仿佛在某种意义上是宇宙生灵，与我们这些市郊生物形成强烈而可爱的对比。", predicates: ["were"], clauseIntroducers: ["as if"], notes: [{ phrase: "cosmic", note: "宇宙的" }, { phrase: "suburban", note: "市郊的" }] },
+        { text: "All that is in my mind when I meet a young person.", translation: "当我遇见一个年轻人时，这一切都在我脑海中。", predicates: ["is", "meet"], clauseIntroducers: ["when"], notes: [] },
+        { text: "He may be conceited, ill-mannered, presumptuous or fatuous, but I do not turn for protection to dreary clichés about respect for elders—as if mere age were a reason for respect.", translation: "他可能自负、无礼、冒昧或愚蠢，但我不会用那些关于尊敬长辈的陈词滥调来保护自己——仿佛年龄本身就是一个值得尊敬的理由。", predicates: ["may be", "do turn"], clauseIntroducers: ["but"], notes: [] },
+        { text: "I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.", translation: "我接受我们是平等的，如果我认为他错了，我会以平等的身份与他争论。", predicates: ["accept", "are", "will argue", "think", "is"], clauseIntroducers: ["that", "if"], notes: [] },
       ]
 ],
   },
