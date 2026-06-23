@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { articles, articleMetas, type Article, type ArticleMeta, type SentenceData } from '../mock/readData'
+import { articles, type Article, type SentenceData } from '../mock/readData'
 import { ElMessage } from 'element-plus'
 
 const route = useRoute()
@@ -15,21 +15,13 @@ const activeTab = ref('meta')
 function cloneArticle(src: Article): Article {
   return JSON.parse(JSON.stringify(src))
 }
-function cloneMeta(src: ArticleMeta): ArticleMeta {
-  return JSON.parse(JSON.stringify(src))
-}
-
 const editArticle = ref<Article | null>(null)
-const editMeta = ref<ArticleMeta | null>(null)
 
 watch(id, (newId) => {
   if (articles[newId]) {
     editArticle.value = cloneArticle(articles[newId])
-    const m = articleMetas.find(a => a.id === newId)
-    editMeta.value = m ? cloneMeta(m) : null
   } else {
     editArticle.value = null
-    editMeta.value = null
   }
 }, { immediate: true })
 
@@ -94,13 +86,8 @@ function toggleParagraph(idx: number) {
 }
 
 function save() {
-  if (!editArticle.value || !editMeta.value) return
+  if (!editArticle.value) return
   articles[id.value] = cloneArticle(editArticle.value)
-  const metaIdx = articleMetas.findIndex(m => m.id === id.value)
-  if (metaIdx >= 0) {
-    const m = cloneMeta(editMeta.value)
-    Object.assign(articleMetas[metaIdx], m)
-  }
   ElMessage.success('保存成功（刷新页面后丢失）')
 }
 

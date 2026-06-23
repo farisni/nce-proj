@@ -15,14 +15,6 @@ export interface VocabItem {
 }
 
 export interface Article {
-  original: {
-    paragraphs: SentenceData[][]
-  }
-
-  vocabulary: VocabItem[]
-}
-
-export interface ArticleMeta {
   id: string
   title: string
   titleCn?: string
@@ -31,10 +23,16 @@ export interface ArticleMeta {
   tag?: string
   keyArticle?: boolean
   heatmap?: number[][]
+
+  original: {
+    paragraphs: SentenceData[][]
+  }
+
+  vocabulary: VocabItem[]
 }
 
-export const articleMetas: ArticleMeta[] = [
-  {
+const articleNce2L1: Article = {
+
     id: 'nce2-l1',
     lesson: 1,
     title: 'A private conversation',
@@ -46,1873 +44,7 @@ export const articleMetas: ArticleMeta[] = [
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
-  },
-  {
-    id: 'nce2-l2',
-    lesson: 2,
-    title: 'Breakfast or lunch?',
-    titleCn: '早餐还是午餐？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l3',
-    lesson: 3,
-    title: 'Please send me a card',
-    titleCn: '请给我寄一张明信片',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l4',
-    lesson: 4,
-    title: 'An exciting trip',
-    titleCn: '激动人心的旅行',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l5',
-    lesson: 5,
-    title: 'No wrong numbers',
-    titleCn: '无错号之虞',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l6',
-    lesson: 6,
-    title: 'Percy Buttons',
-    titleCn: '珀西·巴顿斯',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l7',
-    lesson: 7,
-    title: 'Too late',
-    titleCn: '为时太晚',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l8',
-    lesson: 8,
-    title: 'The best and the worst',
-    titleCn: '最好的和最差的',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l9',
-    lesson: 9,
-    title: 'A cold welcome',
-    titleCn: '冷遇',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l10',
-    lesson: 10,
-    title: 'Not for jazz',
-    titleCn: '不适于演奏爵士乐',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l11',
-    lesson: 11,
-    title: 'One good turn deserves another',
-    titleCn: '礼尚往来',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l12',
-    lesson: 12,
-    title: 'Goodbye and good luck',
-    titleCn: '再见，一路顺风',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l13',
-    lesson: 13,
-    title: 'The Greenwood Boys',
-    titleCn: '绿林少年',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l14',
-    lesson: 14,
-    title: 'Do you speak English?',
-    titleCn: '你会讲英语吗？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l15',
-    lesson: 15,
-    title: 'Good news',
-    titleCn: '佳音',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l16',
-    lesson: 16,
-    title: 'A polite request',
-    titleCn: '彬彬有礼的要求',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l17',
-    lesson: 17,
-    title: 'Always young',
-    titleCn: '青春常驻',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l18',
-    lesson: 18,
-    title: 'He often does this!',
-    titleCn: '他经常干这种事！',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l19',
-    lesson: 19,
-    title: 'Sold out',
-    titleCn: '票已售完',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l20',
-    lesson: 20,
-    title: 'One man in a boat',
-    titleCn: '独坐孤舟',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l21',
-    lesson: 21,
-    title: 'Mad or not?',
-    titleCn: '是不是疯了？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l22',
-    lesson: 22,
-    title: 'A glass envelope',
-    titleCn: '玻璃信封',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l23',
-    lesson: 23,
-    title: 'A new house',
-    titleCn: '新居',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l24',
-    lesson: 24,
-    title: 'It could be worse',
-    titleCn: '不幸中之万幸',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l25',
-    lesson: 25,
-    title: 'Do the English speak English?',
-    titleCn: '英国人讲的是英语吗？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l26',
-    lesson: 26,
-    title: 'The best art critics',
-    titleCn: '最佳艺术评论家',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l27',
-    lesson: 27,
-    title: 'A wet night',
-    titleCn: '雨夜',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l28',
-    lesson: 28,
-    title: 'No parking',
-    titleCn: '禁止停车',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l29',
-    lesson: 29,
-    title: 'Taxi!',
-    titleCn: '出租车！',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l30',
-    lesson: 30,
-    title: 'Football or polo?',
-    titleCn: '足球还是水球？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l31',
-    lesson: 31,
-    title: 'Success story',
-    titleCn: '成功者的故事',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l32',
-    lesson: 32,
-    title: 'Shopping made easy',
-    titleCn: '购物变得很容易',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l33',
-    lesson: 33,
-    title: 'Out of the darkness',
-    titleCn: '冲出黑暗',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l34',
-    lesson: 34,
-    title: 'Quick work',
-    titleCn: '破案"神速"',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l35',
-    lesson: 35,
-    title: 'Stop thief!',
-    titleCn: '捉贼！',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l36',
-    lesson: 36,
-    title: 'Across the Channel',
-    titleCn: '横渡海峡',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l37',
-    lesson: 37,
-    title: 'The Olympic Games',
-    titleCn: '奥林匹克运动会',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l38',
-    lesson: 38,
-    title: 'Everything except the weather',
-    titleCn: '唯独没有考虑到天气',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l39',
-    lesson: 39,
-    title: 'Am I all right?',
-    titleCn: '我是否痊愈？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l40',
-    lesson: 40,
-    title: 'Food and talk',
-    titleCn: '进餐与交谈',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l41',
-    lesson: 41,
-    title: 'Do you call that a hat?',
-    titleCn: '你把那个叫帽子吗？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l42',
-    lesson: 42,
-    title: 'Not very musical',
-    titleCn: '并非很懂音乐',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l43',
-    lesson: 43,
-    title: 'Over the South Pole',
-    titleCn: '飞越南极',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l44',
-    lesson: 44,
-    title: 'Through the forest',
-    titleCn: '穿过森林',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l45',
-    lesson: 45,
-    title: 'A clear conscience',
-    titleCn: '问心无愧',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l46',
-    lesson: 46,
-    title: 'Expensive and uncomfortable',
-    titleCn: '既昂贵又受罪',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l47',
-    lesson: 47,
-    title: 'A thirsty ghost',
-    titleCn: '嗜酒的鬼魂',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l48',
-    lesson: 48,
-    title: 'Did you want to tell me something?',
-    titleCn: '你想对我说什么吗？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l49',
-    lesson: 49,
-    title: 'The end of a dream',
-    titleCn: '美梦告终',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l50',
-    lesson: 50,
-    title: 'Taken for a ride',
-    titleCn: '乘车兜风',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l51',
-    lesson: 51,
-    title: 'Reward for virtue',
-    titleCn: '对美德的奖赏',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l52',
-    lesson: 52,
-    title: 'A pretty carpet',
-    titleCn: '漂亮的地毯',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l53',
-    lesson: 53,
-    title: 'Hot snake',
-    titleCn: '触电的蛇',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l54',
-    lesson: 54,
-    title: 'Sticky fingers',
-    titleCn: '黏糊的手指',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l55',
-    lesson: 55,
-    title: 'Not a gold mine',
-    titleCn: '并非金矿',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l56',
-    lesson: 56,
-    title: 'Faster than sound!',
-    titleCn: '比声音还快！',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l57',
-    lesson: 57,
-    title: 'Can I help you, madam?',
-    titleCn: '您要买什么，夫人？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l58',
-    lesson: 58,
-    title: 'A blessing in disguise?',
-    titleCn: '是因祸得福吗？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l59',
-    lesson: 59,
-    title: 'In or out?',
-    titleCn: '进来还是出去？',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l60',
-    lesson: 60,
-    title: 'The future',
-    titleCn: '未来',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l61',
-    lesson: 61,
-    title: 'Trouble with the Hubble',
-    titleCn: '哈勃望远镜的困境',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l62',
-    lesson: 62,
-    title: 'After the fire',
-    titleCn: '大火之后',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l63',
-    lesson: 63,
-    title: 'She was not amused',
-    titleCn: '她并不觉得好笑',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l64',
-    lesson: 64,
-    title: 'The Channel Tunnel',
-    titleCn: '海峡隧道',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l65',
-    lesson: 65,
-    title: 'Jumbo versus the police',
-    titleCn: '小象对警察',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l66',
-    lesson: 66,
-    title: 'Sweet as honey!',
-    titleCn: '像蜜一样甜！',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l67',
-    lesson: 67,
-    title: 'Volcanoes',
-    titleCn: '火山',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l68',
-    lesson: 68,
-    title: 'Persistent',
-    titleCn: '纠缠不休',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l69',
-    lesson: 69,
-    title: 'But not murder!',
-    titleCn: '并非谋杀！',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l70',
-    lesson: 70,
-    title: 'Red for danger',
-    titleCn: '危险的红色',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l71',
-    lesson: 71,
-    title: 'A famous clock',
-    titleCn: '大名鼎鼎的钟',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l72',
-    lesson: 72,
-    title: 'A car called Bluebird',
-    titleCn: '蓝鸟汽车',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l73',
-    lesson: 73,
-    title: 'The record-holder',
-    titleCn: '纪录保持者',
-    level: 'NCE2',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce2-l74',
-    lesson: 74,
-    title: 'Out of the limelight',
-    titleCn: '舞台之外',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l75',
-    lesson: 75,
-    title: 'SOS',
-    titleCn: '呼救信号',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l76',
-    lesson: 76,
-    title: 'April Fools Day',
-    titleCn: '愚人节',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l77',
-    lesson: 77,
-    title: 'A successful operation',
-    titleCn: '一例成功的手术',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l78',
-    lesson: 78,
-    title: 'The last one? ？',
-    titleCn: '最后一枝吗？',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l79',
-    lesson: 79,
-    title: 'By air',
-    titleCn: '乘飞机',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l80',
-    lesson: 80,
-    title: 'The Crystal Palace',
-    titleCn: '水晶宫',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l81',
-    lesson: 81,
-    title: 'Escape',
-    titleCn: '脱逃',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l82',
-    lesson: 82,
-    title: 'Monster or fish? ？',
-    titleCn: '是妖还是鱼？',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l83',
-    lesson: 83,
-    title: 'After the elections',
-    titleCn: '大选之后',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l84',
-    lesson: 84,
-    title: 'On strike',
-    titleCn: '罢工',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l85',
-    lesson: 85,
-    title: 'Never too old to learn',
-    titleCn: '活到老学到老',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l86',
-    lesson: 86,
-    title: 'Out of control',
-    titleCn: '失控',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l87',
-    lesson: 87,
-    title: 'A perfect alibi',
-    titleCn: '极好的不在犯罪现场的证据',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l88',
-    lesson: 88,
-    title: 'Trapped in a mine',
-    titleCn: '困在矿井里',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l89',
-    lesson: 89,
-    title: 'A slip of the tongue',
-    titleCn: '口误',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l90',
-    lesson: 90,
-    title: 'Whats for supper ？ ？',
-    titleCn: '晚餐吃什么？',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l91',
-    lesson: 91,
-    title: 'Three men in a basket',
-    titleCn: '三人同篮',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l92',
-    lesson: 92,
-    title: 'Asking for trouble',
-    titleCn: '自找麻烦',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l93',
-    lesson: 93,
-    title: 'A noble gift',
-    titleCn: '崇高的礼物',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l94',
-    lesson: 94,
-    title: 'Future champions',
-    titleCn: '未来的冠军',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l95',
-    lesson: 95,
-    title: 'A fantasy',
-    titleCn: '纯属虚构',
-    level: 'NCE2',
-  },  {
-    id: 'nce2-l96',
-    lesson: 96,
-    title: 'The dead return',
-    titleCn: '亡灵返乡',
-    level: 'NCE2',
-  },  {
-    id: 'nce3-l1',
-    lesson: 1,
-    title: 'A Puma at Large',
-    titleCn: '逃遁的美洲狮',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l2',
-    lesson: 2,
-    title: 'Thirteen Equals One',
-    titleCn: '十三等于一',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l3',
-    lesson: 3,
-    title: 'An Unknown Goddess',
-    titleCn: '无名女神',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l4',
-    lesson: 4,
-    title: 'The Double Life of Alfred Bloggs',
-    titleCn: '阿尔弗雷德·布洛格斯的双重生活',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l5',
-    lesson: 5,
-    title: 'The Facts',
-    titleCn: '事实',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l6',
-    lesson: 6,
-    title: 'Smash-and-grab',
-    titleCn: '砸橱窗抢劫',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l7',
-    lesson: 7,
-    title: 'Mutilated ladies',
-    titleCn: '残钞鉴别组',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l10',
-    lesson: 10,
-    title: 'The Loss of the Titanic',
-    titleCn: '泰坦尼克号的沉没',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l12',
-    lesson: 12,
-    title: 'Life on a Desert Island',
-    titleCn: '荒岛生活',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l13',
-    lesson: 13,
-    title: '‘It’s Only Me’',
-    titleCn: '是我，别害怕',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l19',
-    lesson: 19,
-    title: 'A Very Dear Cat',
-    titleCn: '一只贵重的宝贝猫',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l21',
-    lesson: 21,
-    title: 'Daniel Mendoza',
-    titleCn: '丹尼尔·门多萨',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l22',
-    lesson: 22,
-    title: 'By Heart',
-    titleCn: '熟记台词',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l24',
-    lesson: 24,
-    title: 'A Skeleton in the Cupboard',
-    titleCn: '家丑',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l26',
-    lesson: 26,
-    title: 'Wanted: a Large Biscuit Tin',
-    titleCn: '征购大饼干筒',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l27',
-    lesson: 27,
-    title: 'Nothing to Sell and Nothing to Buy',
-    titleCn: '不卖也不买',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l29',
-    lesson: 29,
-    title: 'Funny or Not?',
-    titleCn: '是否可笑？',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l30',
-    lesson: 30,
-    title: 'The Death of a Ghost',
-    titleCn: '幽灵之死',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l31',
-    lesson: 31,
-    title: 'A Lovable Eccentric',
-    titleCn: '可爱的怪人',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l32',
-    lesson: 32,
-    title: 'A Lost Ship',
-    titleCn: '一艘沉船',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l33',
-    lesson: 33,
-    title: 'A Day to Remember',
-    titleCn: '难忘的一天',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l37',
-    lesson: 37,
-    title: 'The Westhaven Express',
-    titleCn: '开往威斯特海温的快车',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l38',
-    lesson: 38,
-    title: 'The First Calender',
-    titleCn: '最早的日历',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l40',
-    lesson: 40,
-    title: 'Who\'s Who',
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l41',
-    lesson: 41,
-    title: 'Illusions of Pastoral Peace',
-    titleCn: '宁静田园生活的遐想',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l42',
-    lesson: 42,
-    title: 'Modern Cavemen',
-    titleCn: '现代洞穴人',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l50',
-    lesson: 50,
-    title: 'New Year Resolutions',
-    titleCn: '新年的决心',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l54',
-    lesson: 54,
-    title: 'Instinct or Cleverness?',
-    titleCn: '是本能还是机智？',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l59',
-    lesson: 59,
-    title: 'Possession Amassing and Collecting',
-    titleCn: '收藏',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce3-l60',
-    lesson: 60,
-    title: 'The Importance of Punctuality',
-    titleCn: '太早和太晚',
-    keyArticle: true,
-    level: 'NCE3',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l1',
-    lesson: 1,
-    tag: 'C1',
-    title: 'Finding fossil man',
-    titleCn: '发现化石人',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l2',
-    lesson: 2,
-    tag: 'C2',
-    title: 'Spare that spider',
-    titleCn: '不要伤害蜘蛛',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l3',
-    lesson: 3,
-    tag: 'C3',
-    title: 'Matterhorn man',
-    titleCn: '马特霍恩山区人',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l4',
-    lesson: 4,
-    tag: 'C4',
-    title: 'Seeing hands',
-    titleCn: '能看见东西的手',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l6',
-    lesson: 6,
-    tag: 'C7',
-    title: 'The sports spirit',
-    titleCn: '体育精神',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l7',
-    lesson: 7,
-    tag: 'C9',
-    title: 'Bats',
-    titleCn: '蝙蝠',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l8',
-    lesson: 8,
-    title: 'Trading Standards',
-    titleCn: '贸易标准',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l11',
-    lesson: 11,
-    tag: 'C14',
-    title: 'How to grow old',
-    titleCn: '如何安度晚年',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l13',
-    lesson: 13,
-    title: 'The search for oil',
-    titleCn: '探寻石油',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l15',
-    lesson: 15,
-    tag: 'C18',
-    title: 'Secrecy in industry',
-    titleCn: '工业中的秘密',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l16',
-    lesson: 16,
-    tag: 'C20',
-    title: 'The modern city',
-    titleCn: '现代城市',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l18',
-    lesson: 18,
-    tag: 'C22',
-    title: 'Porpoises',
-    titleCn: '海豚',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l21',
-    lesson: 21,
-    title: 'William S. Hart and the Early "Western" Film',
-    titleCn: '威廉·S·哈特与早期的西部片',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l22',
-    lesson: 22,
-    tag: 'C27',
-    title: 'Knowledge and progress',
-    titleCn: '知识和进步',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l24',
-    lesson: 24,
-    tag: 'C29',
-    title: 'Beauty',
-    titleCn: '美',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l28',
-    lesson: 28,
-    tag: 'C34',
-    title: 'Patients and doctors',
-    titleCn: '病人与医生',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l30',
-    lesson: 30,
-    tag: 'C36',
-    title: 'Exploring the sea-floor',
-    titleCn: '海底勘探',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l32',
-    lesson: 32,
-    tag: 'C39',
-    title: 'Galileo reborn',
-    titleCn: '伽利略的复生',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l33',
-    lesson: 33,
-    tag: 'C41',
-    title: 'Education',
-    titleCn: '教育',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l34',
-    lesson: 34,
-    tag: 'C42',
-    title: 'Adolescence',
-    titleCn: '青春期',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l37',
-    lesson: 37,
-    tag: 'C45',
-    title: 'The process of ageing',
-    titleCn: '衰老过程',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l44',
-    lesson: 44,
-    tag: 'C55',
-    title: 'Patterns of culture',
-    titleCn: '文化的模式',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l46',
-    lesson: 46,
-    tag: 'C58',
-    title: 'Hobbies',
-    titleCn: '业余爱好',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l48',
-    lesson: 48,
-    title: 'Planning a share portfolio',
-    titleCn: '规划股票投资组合',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-      [0,0,0,0,0,0,0,0,0],
-    ],
-  },
-  {
-    id: 'nce4-l5',
-    lesson: 5,
-    tag: 'C6',
-    title: 'The Problem of Youth',
-    titleCn: '青年',
-    keyArticle: true,
-    level: 'NCE4',
-    heatmap: [
-      [0,1,2,0,1,3,2,1,0],
-      [1,2,0,1,0,2,4,0,1],
-      [0,0,1,3,2,0,1,2,0],
-      [2,1,0,0,1,2,3,1,2],
-    ],
-  },
-]
 
-const articleNce2L1: Article = {
     original: {
     paragraphs: [
       [
@@ -1954,6 +86,19 @@ const articleNce2L1: Article = {
   ],
 }
 const articleNce2L2: Article = {
+
+    id: 'nce2-l2',
+    lesson: 2,
+    title: 'Breakfast or lunch?',
+    titleCn: '早餐还是午餐？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -1998,6 +143,19 @@ const articleNce2L2: Article = {
   ],
 }
 const articleNce2L3: Article = {
+
+    id: 'nce2-l3',
+    lesson: 3,
+    title: 'Please send me a card',
+    titleCn: '请给我寄一张明信片',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2031,6 +189,19 @@ const articleNce2L3: Article = {
   ],
 }
 const articleNce2L4: Article = {
+
+    id: 'nce2-l4',
+    lesson: 4,
+    title: 'An exciting trip',
+    titleCn: '激动人心的旅行',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2057,6 +228,19 @@ const articleNce2L4: Article = {
   ],
 }
 const articleNce2L5: Article = {
+
+    id: 'nce2-l5',
+    lesson: 5,
+    title: 'No wrong numbers',
+    titleCn: '无错号之虞',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2080,6 +264,19 @@ const articleNce2L5: Article = {
   ],
 }
 const articleNce2L6: Article = {
+
+    id: 'nce2-l6',
+    lesson: 6,
+    title: 'Percy Buttons',
+    titleCn: '珀西·巴顿斯',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2106,6 +303,19 @@ const articleNce2L6: Article = {
   ],
 }
 const articleNce2L7: Article = {
+
+    id: 'nce2-l7',
+    lesson: 7,
+    title: 'Too late',
+    titleCn: '为时太晚',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2137,6 +347,19 @@ const articleNce2L7: Article = {
   ],
 }
 const articleNce2L8: Article = {
+
+    id: 'nce2-l8',
+    lesson: 8,
+    title: 'The best and the worst',
+    titleCn: '最好的和最差的',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2160,6 +383,19 @@ const articleNce2L8: Article = {
   ],
 }
 const articleNce2L9: Article = {
+
+    id: 'nce2-l9',
+    lesson: 9,
+    title: 'A cold welcome',
+    titleCn: '冷遇',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2191,6 +427,19 @@ const articleNce2L9: Article = {
   ],
 }
 const articleNce2L10: Article = {
+
+    id: 'nce2-l10',
+    lesson: 10,
+    title: 'Not for jazz',
+    titleCn: '不适于演奏爵士乐',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2225,6 +474,19 @@ const articleNce2L10: Article = {
   ],
 }
 const articleNce2L11: Article = {
+
+    id: 'nce2-l11',
+    lesson: 11,
+    title: 'One good turn deserves another',
+    titleCn: '礼尚往来',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2250,6 +512,19 @@ const articleNce2L11: Article = {
   ],
 }
 const articleNce2L12: Article = {
+
+    id: 'nce2-l12',
+    lesson: 12,
+    title: 'Goodbye and good luck',
+    titleCn: '再见，一路顺风',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2277,6 +552,19 @@ const articleNce2L12: Article = {
   ],
 }
 const articleNce2L13: Article = {
+
+    id: 'nce2-l13',
+    lesson: 13,
+    title: 'The Greenwood Boys',
+    titleCn: '绿林少年',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2303,6 +591,19 @@ const articleNce2L13: Article = {
   ],
 }
 const articleNce2L14: Article = {
+
+    id: 'nce2-l14',
+    lesson: 14,
+    title: 'Do you speak English?',
+    titleCn: '你会讲英语吗？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2330,6 +631,19 @@ const articleNce2L14: Article = {
   ],
 }
 const articleNce2L15: Article = {
+
+    id: 'nce2-l15',
+    lesson: 15,
+    title: 'Good news',
+    titleCn: '佳音',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2359,6 +673,19 @@ const articleNce2L15: Article = {
   ],
 }
 const articleNce2L16: Article = {
+
+    id: 'nce2-l16',
+    lesson: 16,
+    title: 'A polite request',
+    titleCn: '彬彬有礼的要求',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2388,6 +715,19 @@ const articleNce2L16: Article = {
   ],
 }
 const articleNce2L17: Article = {
+
+    id: 'nce2-l17',
+    lesson: 17,
+    title: 'Always young',
+    titleCn: '青春常驻',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2412,6 +752,19 @@ const articleNce2L17: Article = {
   ],
 }
 const articleNce2L18: Article = {
+
+    id: 'nce2-l18',
+    lesson: 18,
+    title: 'He often does this!',
+    titleCn: '他经常干这种事！',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2437,6 +790,19 @@ const articleNce2L18: Article = {
   ],
 }
 const articleNce2L19: Article = {
+
+    id: 'nce2-l19',
+    lesson: 19,
+    title: 'Sold out',
+    titleCn: '票已售完',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2460,6 +826,19 @@ const articleNce2L19: Article = {
   ],
 }
 const articleNce2L20: Article = {
+
+    id: 'nce2-l20',
+    lesson: 20,
+    title: 'One man in a boat',
+    titleCn: '独坐孤舟',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2490,6 +869,19 @@ const articleNce2L20: Article = {
   ],
 }
 const articleNce2L21: Article = {
+
+    id: 'nce2-l21',
+    lesson: 21,
+    title: 'Mad or not?',
+    titleCn: '是不是疯了？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2514,6 +906,19 @@ const articleNce2L21: Article = {
   ],
 }
 const articleNce2L22: Article = {
+
+    id: 'nce2-l22',
+    lesson: 22,
+    title: 'A glass envelope',
+    titleCn: '玻璃信封',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2536,6 +941,19 @@ const articleNce2L22: Article = {
   ],
 }
 const articleNce2L23: Article = {
+
+    id: 'nce2-l23',
+    lesson: 23,
+    title: 'A new house',
+    titleCn: '新居',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2562,6 +980,19 @@ const articleNce2L23: Article = {
   ],
 }
 const articleNce2L24: Article = {
+
+    id: 'nce2-l24',
+    lesson: 24,
+    title: 'It could be worse',
+    titleCn: '不幸中之万幸',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2590,6 +1021,19 @@ const articleNce2L24: Article = {
   ],
 }
 const articleNce2L25: Article = {
+
+    id: 'nce2-l25',
+    lesson: 25,
+    title: 'Do the English speak English?',
+    titleCn: '英国人讲的是英语吗？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2623,6 +1067,19 @@ const articleNce2L25: Article = {
   ],
 }
 const articleNce2L26: Article = {
+
+    id: 'nce2-l26',
+    lesson: 26,
+    title: 'The best art critics',
+    titleCn: '最佳艺术评论家',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2668,6 +1125,19 @@ const articleNce2L26: Article = {
   ],
 }
 const articleNce2L27: Article = {
+
+    id: 'nce2-l27',
+    lesson: 27,
+    title: 'A wet night',
+    titleCn: '雨夜',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2706,6 +1176,19 @@ const articleNce2L27: Article = {
   ],
 }
 const articleNce2L28: Article = {
+
+    id: 'nce2-l28',
+    lesson: 28,
+    title: 'No parking',
+    titleCn: '禁止停车',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2734,6 +1217,19 @@ const articleNce2L28: Article = {
   ],
 }
 const articleNce2L29: Article = {
+
+    id: 'nce2-l29',
+    lesson: 29,
+    title: 'Taxi!',
+    titleCn: '出租车！',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2764,6 +1260,19 @@ const articleNce2L29: Article = {
   ],
 }
 const articleNce2L30: Article = {
+
+    id: 'nce2-l30',
+    lesson: 30,
+    title: 'Football or polo?',
+    titleCn: '足球还是水球？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2792,6 +1301,19 @@ const articleNce2L30: Article = {
   ],
 }
 const articleNce2L31: Article = {
+
+    id: 'nce2-l31',
+    lesson: 31,
+    title: 'Success story',
+    titleCn: '成功者的故事',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2821,6 +1343,19 @@ const articleNce2L31: Article = {
   ],
 }
 const articleNce2L32: Article = {
+
+    id: 'nce2-l32',
+    lesson: 32,
+    title: 'Shopping made easy',
+    titleCn: '购物变得很容易',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2847,6 +1382,19 @@ const articleNce2L32: Article = {
   ],
 }
 const articleNce2L33: Article = {
+
+    id: 'nce2-l33',
+    lesson: 33,
+    title: 'Out of the darkness',
+    titleCn: '冲出黑暗',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2880,6 +1428,19 @@ const articleNce2L33: Article = {
   ],
 }
 const articleNce2L34: Article = {
+
+    id: 'nce2-l34',
+    lesson: 34,
+    title: 'Quick work',
+    titleCn: '破案"神速"',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2903,6 +1464,19 @@ const articleNce2L34: Article = {
   ],
 }
 const articleNce2L35: Article = {
+
+    id: 'nce2-l35',
+    lesson: 35,
+    title: 'Stop thief!',
+    titleCn: '捉贼！',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2935,6 +1509,19 @@ const articleNce2L35: Article = {
   ],
 }
 const articleNce2L36: Article = {
+
+    id: 'nce2-l36',
+    lesson: 36,
+    title: 'Across the Channel',
+    titleCn: '横渡海峡',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2965,6 +1552,19 @@ const articleNce2L36: Article = {
   ],
 }
 const articleNce2L37: Article = {
+
+    id: 'nce2-l37',
+    lesson: 37,
+    title: 'The Olympic Games',
+    titleCn: '奥林匹克运动会',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -2994,6 +1594,19 @@ const articleNce2L37: Article = {
   ],
 }
 const articleNce2L38: Article = {
+
+    id: 'nce2-l38',
+    lesson: 38,
+    title: 'Everything except the weather',
+    titleCn: '唯独没有考虑到天气',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3021,6 +1634,19 @@ const articleNce2L38: Article = {
   ],
 }
 const articleNce2L39: Article = {
+
+    id: 'nce2-l39',
+    lesson: 39,
+    title: 'Am I all right?',
+    titleCn: '我是否痊愈？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3050,6 +1676,19 @@ const articleNce2L39: Article = {
   ],
 }
 const articleNce2L40: Article = {
+
+    id: 'nce2-l40',
+    lesson: 40,
+    title: 'Food and talk',
+    titleCn: '进餐与交谈',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3091,6 +1730,19 @@ const articleNce2L40: Article = {
   ],
 }
 const articleNce2L41: Article = {
+
+    id: 'nce2-l41',
+    lesson: 41,
+    title: 'Do you call that a hat?',
+    titleCn: '你把那个叫帽子吗？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3129,6 +1781,19 @@ const articleNce2L41: Article = {
   ],
 }
 const articleNce2L42: Article = {
+
+    id: 'nce2-l42',
+    lesson: 42,
+    title: 'Not very musical',
+    titleCn: '并非很懂音乐',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3161,6 +1826,19 @@ const articleNce2L42: Article = {
   ],
 }
 const articleNce2L43: Article = {
+
+    id: 'nce2-l43',
+    lesson: 43,
+    title: 'Over the South Pole',
+    titleCn: '飞越南极',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3195,6 +1873,19 @@ const articleNce2L43: Article = {
   ],
 }
 const articleNce2L44: Article = {
+
+    id: 'nce2-l44',
+    lesson: 44,
+    title: 'Through the forest',
+    titleCn: '穿过森林',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3223,6 +1914,19 @@ const articleNce2L44: Article = {
   ],
 }
 const articleNce2L45: Article = {
+
+    id: 'nce2-l45',
+    lesson: 45,
+    title: 'A clear conscience',
+    titleCn: '问心无愧',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3248,6 +1952,19 @@ const articleNce2L45: Article = {
   ],
 }
 const articleNce2L46: Article = {
+
+    id: 'nce2-l46',
+    lesson: 46,
+    title: 'Expensive and uncomfortable',
+    titleCn: '既昂贵又受罪',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3281,6 +1998,19 @@ const articleNce2L46: Article = {
   ],
 }
 const articleNce2L47: Article = {
+
+    id: 'nce2-l47',
+    lesson: 47,
+    title: 'A thirsty ghost',
+    titleCn: '嗜酒的鬼魂',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3309,6 +2039,19 @@ const articleNce2L47: Article = {
   ],
 }
 const articleNce2L48: Article = {
+
+    id: 'nce2-l48',
+    lesson: 48,
+    title: 'Did you want to tell me something?',
+    titleCn: '你想对我说什么吗？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3335,6 +2078,19 @@ const articleNce2L48: Article = {
   ],
 }
 const articleNce2L49: Article = {
+
+    id: 'nce2-l49',
+    lesson: 49,
+    title: 'The end of a dream',
+    titleCn: '美梦告终',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3373,6 +2129,19 @@ const articleNce2L49: Article = {
   ],
 }
 const articleNce2L50: Article = {
+
+    id: 'nce2-l50',
+    lesson: 50,
+    title: 'Taken for a ride',
+    titleCn: '乘车兜风',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3411,6 +2180,19 @@ const articleNce2L50: Article = {
   ],
 }
 const articleNce2L51: Article = {
+
+    id: 'nce2-l51',
+    lesson: 51,
+    title: 'Reward for virtue',
+    titleCn: '对美德的奖赏',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3448,6 +2230,19 @@ const articleNce2L51: Article = {
   ],
 }
 const articleNce2L52: Article = {
+
+    id: 'nce2-l52',
+    lesson: 52,
+    title: 'A pretty carpet',
+    titleCn: '漂亮的地毯',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3477,6 +2272,19 @@ const articleNce2L52: Article = {
   ],
 }
 const articleNce2L53: Article = {
+
+    id: 'nce2-l53',
+    lesson: 53,
+    title: 'Hot snake',
+    titleCn: '触电的蛇',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3516,6 +2324,19 @@ const articleNce2L53: Article = {
   ],
 }
 const articleNce2L54: Article = {
+
+    id: 'nce2-l54',
+    lesson: 54,
+    title: 'Sticky fingers',
+    titleCn: '黏糊的手指',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3557,6 +2378,19 @@ const articleNce2L54: Article = {
   ],
 }
 const articleNce2L55: Article = {
+
+    id: 'nce2-l55',
+    lesson: 55,
+    title: 'Not a gold mine',
+    titleCn: '并非金矿',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3599,6 +2433,19 @@ const articleNce2L55: Article = {
   ],
 }
 const articleNce2L56: Article = {
+
+    id: 'nce2-l56',
+    lesson: 56,
+    title: 'Faster than sound!',
+    titleCn: '比声音还快！',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3635,6 +2482,19 @@ const articleNce2L56: Article = {
   ],
 }
 const articleNce2L57: Article = {
+
+    id: 'nce2-l57',
+    lesson: 57,
+    title: 'Can I help you, madam?',
+    titleCn: '您要买什么，夫人？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3667,6 +2527,19 @@ const articleNce2L57: Article = {
   ],
 }
 const articleNce2L58: Article = {
+
+    id: 'nce2-l58',
+    lesson: 58,
+    title: 'A blessing in disguise?',
+    titleCn: '是因祸得福吗？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3703,6 +2576,19 @@ const articleNce2L58: Article = {
   ],
 }
 const articleNce2L59: Article = {
+
+    id: 'nce2-l59',
+    lesson: 59,
+    title: 'In or out?',
+    titleCn: '进来还是出去？',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3733,6 +2619,19 @@ const articleNce2L59: Article = {
   ],
 }
 const articleNce2L60: Article = {
+
+    id: 'nce2-l60',
+    lesson: 60,
+    title: 'The future',
+    titleCn: '未来',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3766,6 +2665,19 @@ const articleNce2L60: Article = {
   ],
 }
 const articleNce2L61: Article = {
+
+    id: 'nce2-l61',
+    lesson: 61,
+    title: 'Trouble with the Hubble',
+    titleCn: '哈勃望远镜的困境',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3803,6 +2715,19 @@ const articleNce2L61: Article = {
   ],
 }
 const articleNce2L62: Article = {
+
+    id: 'nce2-l62',
+    lesson: 62,
+    title: 'After the fire',
+    titleCn: '大火之后',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3838,6 +2763,19 @@ const articleNce2L62: Article = {
   ],
 }
 const articleNce2L63: Article = {
+
+    id: 'nce2-l63',
+    lesson: 63,
+    title: 'She was not amused',
+    titleCn: '她并不觉得好笑',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3866,6 +2804,19 @@ const articleNce2L63: Article = {
   ],
 }
 const articleNce2L64: Article = {
+
+    id: 'nce2-l64',
+    lesson: 64,
+    title: 'The Channel Tunnel',
+    titleCn: '海峡隧道',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3901,6 +2852,19 @@ const articleNce2L64: Article = {
   ],
 }
 const articleNce2L65: Article = {
+
+    id: 'nce2-l65',
+    lesson: 65,
+    title: 'Jumbo versus the police',
+    titleCn: '小象对警察',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3930,6 +2894,19 @@ const articleNce2L65: Article = {
   ],
 }
 const articleNce2L66: Article = {
+
+    id: 'nce2-l66',
+    lesson: 66,
+    title: 'Sweet as honey!',
+    titleCn: '像蜜一样甜！',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -3970,6 +2947,19 @@ const articleNce2L66: Article = {
   ],
 }
 const articleNce2L67: Article = {
+
+    id: 'nce2-l67',
+    lesson: 67,
+    title: 'Volcanoes',
+    titleCn: '火山',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -4003,6 +2993,19 @@ const articleNce2L67: Article = {
   ],
 }
 const articleNce2L68: Article = {
+
+    id: 'nce2-l68',
+    lesson: 68,
+    title: 'Persistent',
+    titleCn: '纠缠不休',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -4036,6 +3039,19 @@ const articleNce2L68: Article = {
   ],
 }
 const articleNce2L69: Article = {
+
+    id: 'nce2-l69',
+    lesson: 69,
+    title: 'But not murder!',
+    titleCn: '并非谋杀！',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -4072,6 +3088,19 @@ const articleNce2L69: Article = {
   ],
 }
 const articleNce2L70: Article = {
+
+    id: 'nce2-l70',
+    lesson: 70,
+    title: 'Red for danger',
+    titleCn: '危险的红色',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -4109,6 +3138,19 @@ const articleNce2L70: Article = {
   ],
 }
 const articleNce2L71: Article = {
+
+    id: 'nce2-l71',
+    lesson: 71,
+    title: 'A famous clock',
+    titleCn: '大名鼎鼎的钟',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -4143,6 +3185,19 @@ const articleNce2L71: Article = {
   ],
 }
 const articleNce2L72: Article = {
+
+    id: 'nce2-l72',
+    lesson: 72,
+    title: 'A car called Bluebird',
+    titleCn: '蓝鸟汽车',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -4172,6 +3227,19 @@ const articleNce2L72: Article = {
   ],
 }
 const articleNce2L73: Article = {
+
+    id: 'nce2-l73',
+    lesson: 73,
+    title: 'The record-holder',
+    titleCn: '纪录保持者',
+    level: 'NCE2',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -4203,6 +3271,13 @@ const articleNce2L73: Article = {
   ],
 }
 const articleNce2L74: Article = {
+
+    id: 'nce2-l74',
+    lesson: 74,
+    title: 'Out of the limelight',
+    titleCn: '舞台之外',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4253,6 +3328,13 @@ const articleNce2L74: Article = {
   ],
 }
 const articleNce2L75: Article = {
+
+    id: 'nce2-l75',
+    lesson: 75,
+    title: 'SOS',
+    titleCn: '呼救信号',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4284,6 +3366,13 @@ const articleNce2L75: Article = {
   ],
 }
 const articleNce2L76: Article = {
+
+    id: 'nce2-l76',
+    lesson: 76,
+    title: 'April Fools Day',
+    titleCn: '愚人节',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4323,6 +3412,13 @@ const articleNce2L76: Article = {
   ],
 }
 const articleNce2L77: Article = {
+
+    id: 'nce2-l77',
+    lesson: 77,
+    title: 'A successful operation',
+    titleCn: '一例成功的手术',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4361,6 +3457,13 @@ const articleNce2L77: Article = {
   ],
 }
 const articleNce2L78: Article = {
+
+    id: 'nce2-l78',
+    lesson: 78,
+    title: 'The last one? ？',
+    titleCn: '最后一枝吗？',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4397,6 +3500,13 @@ const articleNce2L78: Article = {
   ],
 }
 const articleNce2L79: Article = {
+
+    id: 'nce2-l79',
+    lesson: 79,
+    title: 'By air',
+    titleCn: '乘飞机',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4425,6 +3535,13 @@ const articleNce2L79: Article = {
   ],
 }
 const articleNce2L80: Article = {
+
+    id: 'nce2-l80',
+    lesson: 80,
+    title: 'The Crystal Palace',
+    titleCn: '水晶宫',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4457,6 +3574,13 @@ const articleNce2L80: Article = {
   ],
 }
 const articleNce2L81: Article = {
+
+    id: 'nce2-l81',
+    lesson: 81,
+    title: 'Escape',
+    titleCn: '脱逃',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4495,6 +3619,13 @@ const articleNce2L81: Article = {
   ],
 }
 const articleNce2L82: Article = {
+
+    id: 'nce2-l82',
+    lesson: 82,
+    title: 'Monster or fish? ？',
+    titleCn: '是妖还是鱼？',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4522,6 +3653,13 @@ const articleNce2L82: Article = {
   ],
 }
 const articleNce2L83: Article = {
+
+    id: 'nce2-l83',
+    lesson: 83,
+    title: 'After the elections',
+    titleCn: '大选之后',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4555,6 +3693,13 @@ const articleNce2L83: Article = {
   ],
 }
 const articleNce2L84: Article = {
+
+    id: 'nce2-l84',
+    lesson: 84,
+    title: 'On strike',
+    titleCn: '罢工',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4590,6 +3735,13 @@ const articleNce2L84: Article = {
   ],
 }
 const articleNce2L85: Article = {
+
+    id: 'nce2-l85',
+    lesson: 85,
+    title: 'Never too old to learn',
+    titleCn: '活到老学到老',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4624,6 +3776,13 @@ const articleNce2L85: Article = {
   ],
 }
 const articleNce2L86: Article = {
+
+    id: 'nce2-l86',
+    lesson: 86,
+    title: 'Out of control',
+    titleCn: '失控',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4659,6 +3818,13 @@ const articleNce2L86: Article = {
   ],
 }
 const articleNce2L87: Article = {
+
+    id: 'nce2-l87',
+    lesson: 87,
+    title: 'A perfect alibi',
+    titleCn: '极好的不在犯罪现场的证据',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4706,6 +3872,13 @@ const articleNce2L87: Article = {
   ],
 }
 const articleNce2L88: Article = {
+
+    id: 'nce2-l88',
+    lesson: 88,
+    title: 'Trapped in a mine',
+    titleCn: '困在矿井里',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4741,6 +3914,13 @@ const articleNce2L88: Article = {
   ],
 }
 const articleNce2L89: Article = {
+
+    id: 'nce2-l89',
+    lesson: 89,
+    title: 'A slip of the tongue',
+    titleCn: '口误',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4772,6 +3952,13 @@ const articleNce2L89: Article = {
   ],
 }
 const articleNce2L90: Article = {
+
+    id: 'nce2-l90',
+    lesson: 90,
+    title: 'Whats for supper ？ ？',
+    titleCn: '晚餐吃什么？',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4811,6 +3998,13 @@ const articleNce2L90: Article = {
   ],
 }
 const articleNce2L91: Article = {
+
+    id: 'nce2-l91',
+    lesson: 91,
+    title: 'Three men in a basket',
+    titleCn: '三人同篮',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4837,6 +4031,13 @@ const articleNce2L91: Article = {
   ],
 }
 const articleNce2L92: Article = {
+
+    id: 'nce2-l92',
+    lesson: 92,
+    title: 'Asking for trouble',
+    titleCn: '自找麻烦',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4872,6 +4073,13 @@ const articleNce2L92: Article = {
   ],
 }
 const articleNce2L93: Article = {
+
+    id: 'nce2-l93',
+    lesson: 93,
+    title: 'A noble gift',
+    titleCn: '崇高的礼物',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4905,6 +4113,13 @@ const articleNce2L93: Article = {
   ],
 }
 const articleNce2L94: Article = {
+
+    id: 'nce2-l94',
+    lesson: 94,
+    title: 'Future champions',
+    titleCn: '未来的冠军',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4935,6 +4150,13 @@ const articleNce2L94: Article = {
   ],
 }
 const articleNce2L95: Article = {
+
+    id: 'nce2-l95',
+    lesson: 95,
+    title: 'A fantasy',
+    titleCn: '纯属虚构',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -4988,6 +4210,13 @@ const articleNce2L95: Article = {
   ],
 }
 const articleNce2L96: Article = {
+
+    id: 'nce2-l96',
+    lesson: 96,
+    title: 'The dead return',
+    titleCn: '亡灵返乡',
+    level: 'NCE2',
+
     original: {
     paragraphs: [
       [
@@ -5012,6 +4241,20 @@ const articleNce2L96: Article = {
 }
 
 const articleNce3L1: Article = {
+
+    id: 'nce3-l1',
+    lesson: 1,
+    title: 'A Puma at Large',
+    titleCn: '逃遁的美洲狮',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5053,6 +4296,20 @@ const articleNce3L1: Article = {
   ],
 }
 const articleNce3L2: Article = {
+
+    id: 'nce3-l2',
+    lesson: 2,
+    title: 'Thirteen Equals One',
+    titleCn: '十三等于一',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5096,6 +4353,20 @@ const articleNce3L2: Article = {
   ],
 }
 const articleNce3L3: Article = {
+
+    id: 'nce3-l3',
+    lesson: 3,
+    title: 'An Unknown Goddess',
+    titleCn: '无名女神',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5150,6 +4421,20 @@ const articleNce3L3: Article = {
   ],
 }
 const articleNce3L4: Article = {
+
+    id: 'nce3-l4',
+    lesson: 4,
+    title: 'The Double Life of Alfred Bloggs',
+    titleCn: '阿尔弗雷德·布洛格斯的双重生活',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5187,6 +4472,20 @@ const articleNce3L4: Article = {
   ],
 }
 const articleNce3L5: Article = {
+
+    id: 'nce3-l5',
+    lesson: 5,
+    title: 'The Facts',
+    titleCn: '事实',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5224,6 +4523,20 @@ const articleNce3L5: Article = {
   ],
 }
 const articleNce3L6: Article = {
+
+    id: 'nce3-l6',
+    lesson: 6,
+    title: 'Smash-and-grab',
+    titleCn: '砸橱窗抢劫',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5268,6 +4581,20 @@ const articleNce3L6: Article = {
   ],
 }
 const articleNce3L7: Article = {
+
+    id: 'nce3-l7',
+    lesson: 7,
+    title: 'Mutilated ladies',
+    titleCn: '残钞鉴别组',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5309,6 +4636,20 @@ const articleNce3L7: Article = {
   ],
 }
 const articleNce3L10: Article = {
+
+    id: 'nce3-l10',
+    lesson: 10,
+    title: 'The Loss of the Titanic',
+    titleCn: '泰坦尼克号的沉没',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5357,6 +4698,20 @@ const articleNce3L10: Article = {
   ],
 }
 const articleNce3L12: Article = {
+
+    id: 'nce3-l12',
+    lesson: 12,
+    title: 'Life on a Desert Island',
+    titleCn: '荒岛生活',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5404,6 +4759,20 @@ const articleNce3L12: Article = {
   ],
 }
 const articleNce3L13: Article = {
+
+    id: 'nce3-l13',
+    lesson: 13,
+    title: '‘It’s Only Me’',
+    titleCn: '是我，别害怕',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5451,6 +4820,20 @@ const articleNce3L13: Article = {
   ],
 }
 const articleNce3L19: Article = {
+
+    id: 'nce3-l19',
+    lesson: 19,
+    title: 'A Very Dear Cat',
+    titleCn: '一只贵重的宝贝猫',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5502,6 +4885,20 @@ const articleNce3L19: Article = {
   ],
 }
 const articleNce3L21: Article = {
+
+    id: 'nce3-l21',
+    lesson: 21,
+    title: 'Daniel Mendoza',
+    titleCn: '丹尼尔·门多萨',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5558,6 +4955,20 @@ const articleNce3L21: Article = {
   ],
 }
 const articleNce3L22: Article = {
+
+    id: 'nce3-l22',
+    lesson: 22,
+    title: 'By Heart',
+    titleCn: '熟记台词',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5613,6 +5024,20 @@ const articleNce3L22: Article = {
   ],
 }
 const articleNce3L24: Article = {
+
+    id: 'nce3-l24',
+    lesson: 24,
+    title: 'A Skeleton in the Cupboard',
+    titleCn: '家丑',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5670,6 +5095,20 @@ const articleNce3L24: Article = {
   ],
 }
 const articleNce3L26: Article = {
+
+    id: 'nce3-l26',
+    lesson: 26,
+    title: 'Wanted: a Large Biscuit Tin',
+    titleCn: '征购大饼干筒',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5724,6 +5163,20 @@ const articleNce3L26: Article = {
   ],
 }
 const articleNce3L27: Article = {
+
+    id: 'nce3-l27',
+    lesson: 27,
+    title: 'Nothing to Sell and Nothing to Buy',
+    titleCn: '不卖也不买',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5776,6 +5229,20 @@ const articleNce3L27: Article = {
   ],
 }
 const articleNce3L29: Article = {
+
+    id: 'nce3-l29',
+    lesson: 29,
+    title: 'Funny or Not?',
+    titleCn: '是否可笑？',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5827,6 +5294,20 @@ const articleNce3L29: Article = {
   ],
 }
 const articleNce3L30: Article = {
+
+    id: 'nce3-l30',
+    lesson: 30,
+    title: 'The Death of a Ghost',
+    titleCn: '幽灵之死',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5878,6 +5359,20 @@ const articleNce3L30: Article = {
   ],
 }
 const articleNce3L31: Article = {
+
+    id: 'nce3-l31',
+    lesson: 31,
+    title: 'A Lovable Eccentric',
+    titleCn: '可爱的怪人',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5932,6 +5427,20 @@ const articleNce3L31: Article = {
   ],
 }
 const articleNce3L32: Article = {
+
+    id: 'nce3-l32',
+    lesson: 32,
+    title: 'A Lost Ship',
+    titleCn: '一艘沉船',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -5986,6 +5495,20 @@ const articleNce3L32: Article = {
   ],
 }
 const articleNce3L33: Article = {
+
+    id: 'nce3-l33',
+    lesson: 33,
+    title: 'A Day to Remember',
+    titleCn: '难忘的一天',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6040,6 +5563,20 @@ const articleNce3L33: Article = {
   ],
 }
 const articleNce3L37: Article = {
+
+    id: 'nce3-l37',
+    lesson: 37,
+    title: 'The Westhaven Express',
+    titleCn: '开往威斯特海温的快车',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6099,6 +5636,20 @@ const articleNce3L37: Article = {
   ],
 }
 const articleNce3L38: Article = {
+
+    id: 'nce3-l38',
+    lesson: 38,
+    title: 'The First Calender',
+    titleCn: '最早的日历',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6167,6 +5718,18 @@ const articleNce3L38: Article = {
   ],
 }
 const articleNce3L40: Article = {
+
+    id: 'nce3-l40',
+    lesson: 40,
+    title: 'Who\'s Who',
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6215,6 +5778,20 @@ const articleNce3L40: Article = {
   ],
 }
 const articleNce3L41: Article = {
+
+    id: 'nce3-l41',
+    lesson: 41,
+    title: 'Illusions of Pastoral Peace',
+    titleCn: '宁静田园生活的遐想',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6281,6 +5858,20 @@ const articleNce3L41: Article = {
   ],
 }
 const articleNce3L42: Article = {
+
+    id: 'nce3-l42',
+    lesson: 42,
+    title: 'Modern Cavemen',
+    titleCn: '现代洞穴人',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6355,6 +5946,20 @@ const articleNce3L42: Article = {
   ],
 }
 const articleNce3L50: Article = {
+
+    id: 'nce3-l50',
+    lesson: 50,
+    title: 'New Year Resolutions',
+    titleCn: '新年的决心',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6425,6 +6030,20 @@ const articleNce3L50: Article = {
   ],
 }
 const articleNce3L54: Article = {
+
+    id: 'nce3-l54',
+    lesson: 54,
+    title: 'Instinct or Cleverness?',
+    titleCn: '是本能还是机智？',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6494,6 +6113,20 @@ const articleNce3L54: Article = {
   ],
 }
 const articleNce3L59: Article = {
+
+    id: 'nce3-l59',
+    lesson: 59,
+    title: 'Possession Amassing and Collecting',
+    titleCn: '收藏',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6553,6 +6186,20 @@ const articleNce3L59: Article = {
   ],
 }
 const articleNce3L60: Article = {
+
+    id: 'nce3-l60',
+    lesson: 60,
+    title: 'The Importance of Punctuality',
+    titleCn: '太早和太晚',
+    keyArticle: true,
+    level: 'NCE3',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6627,6 +6274,21 @@ const articleNce3L60: Article = {
 }
 
 const articleNce4L1: Article = {
+
+    id: 'nce4-l1',
+    lesson: 1,
+    tag: 'C1',
+    title: 'Finding fossil man',
+    titleCn: '发现化石人',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6665,6 +6327,21 @@ const articleNce4L1: Article = {
   ],
 }
 const articleNce4L2: Article = {
+
+    id: 'nce4-l2',
+    lesson: 2,
+    tag: 'C2',
+    title: 'Spare that spider',
+    titleCn: '不要伤害蜘蛛',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6700,6 +6377,21 @@ const articleNce4L2: Article = {
   ],
 }
 const articleNce4L3: Article = {
+
+    id: 'nce4-l3',
+    lesson: 3,
+    tag: 'C3',
+    title: 'Matterhorn man',
+    titleCn: '马特霍恩山区人',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6742,6 +6434,21 @@ const articleNce4L3: Article = {
   ],
 }
 const articleNce4L4: Article = {
+
+    id: 'nce4-l4',
+    lesson: 4,
+    tag: 'C4',
+    title: 'Seeing hands',
+    titleCn: '能看见东西的手',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6773,6 +6480,21 @@ const articleNce4L4: Article = {
   ],
 }
 const articleNce4L6: Article = {
+
+    id: 'nce4-l6',
+    lesson: 6,
+    tag: 'C7',
+    title: 'The sports spirit',
+    titleCn: '体育精神',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6809,6 +6531,21 @@ const articleNce4L6: Article = {
   ],
 }
 const articleNce4L7: Article = {
+
+    id: 'nce4-l7',
+    lesson: 7,
+    tag: 'C9',
+    title: 'Bats',
+    titleCn: '蝙蝠',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6850,6 +6587,20 @@ const articleNce4L7: Article = {
   ],
 }
 const articleNce4L8: Article = {
+
+    id: 'nce4-l8',
+    lesson: 8,
+    title: 'Trading Standards',
+    titleCn: '贸易标准',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6891,6 +6642,21 @@ const articleNce4L8: Article = {
   ],
 }
 const articleNce4L11: Article = {
+
+    id: 'nce4-l11',
+    lesson: 11,
+    tag: 'C14',
+    title: 'How to grow old',
+    titleCn: '如何安度晚年',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6926,6 +6692,20 @@ const articleNce4L11: Article = {
   ],
 }
 const articleNce4L13: Article = {
+
+    id: 'nce4-l13',
+    lesson: 13,
+    title: 'The search for oil',
+    titleCn: '探寻石油',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6966,6 +6746,21 @@ const articleNce4L13: Article = {
   ],
 }
 const articleNce4L15: Article = {
+
+    id: 'nce4-l15',
+    lesson: 15,
+    tag: 'C18',
+    title: 'Secrecy in industry',
+    titleCn: '工业中的秘密',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -6994,6 +6789,21 @@ const articleNce4L15: Article = {
   ],
 }
 const articleNce4L16: Article = {
+
+    id: 'nce4-l16',
+    lesson: 16,
+    tag: 'C20',
+    title: 'The modern city',
+    titleCn: '现代城市',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7034,6 +6844,21 @@ const articleNce4L16: Article = {
   ],
 }
 const articleNce4L18: Article = {
+
+    id: 'nce4-l18',
+    lesson: 18,
+    tag: 'C22',
+    title: 'Porpoises',
+    titleCn: '海豚',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7094,6 +6919,20 @@ const articleNce4L18: Article = {
   ],
 }
 const articleNce4L21: Article = {
+
+    id: 'nce4-l21',
+    lesson: 21,
+    title: 'William S. Hart and the Early "Western" Film',
+    titleCn: '威廉·S·哈特与早期的西部片',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7143,6 +6982,21 @@ const articleNce4L21: Article = {
   ],
 }
 const articleNce4L22: Article = {
+
+    id: 'nce4-l22',
+    lesson: 22,
+    tag: 'C27',
+    title: 'Knowledge and progress',
+    titleCn: '知识和进步',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7185,6 +7039,21 @@ const articleNce4L22: Article = {
   ],
 }
 const articleNce4L24: Article = {
+
+    id: 'nce4-l24',
+    lesson: 24,
+    tag: 'C29',
+    title: 'Beauty',
+    titleCn: '美',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7219,6 +7088,21 @@ const articleNce4L24: Article = {
   ],
 }
 const articleNce4L28: Article = {
+
+    id: 'nce4-l28',
+    lesson: 28,
+    tag: 'C34',
+    title: 'Patients and doctors',
+    titleCn: '病人与医生',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7256,6 +7140,21 @@ const articleNce4L28: Article = {
   ],
 }
 const articleNce4L30: Article = {
+
+    id: 'nce4-l30',
+    lesson: 30,
+    tag: 'C36',
+    title: 'Exploring the sea-floor',
+    titleCn: '海底勘探',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7303,6 +7202,21 @@ const articleNce4L30: Article = {
   ],
 }
 const articleNce4L32: Article = {
+
+    id: 'nce4-l32',
+    lesson: 32,
+    tag: 'C39',
+    title: 'Galileo reborn',
+    titleCn: '伽利略的复生',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7353,6 +7267,21 @@ const articleNce4L32: Article = {
   ],
 }
 const articleNce4L33: Article = {
+
+    id: 'nce4-l33',
+    lesson: 33,
+    tag: 'C41',
+    title: 'Education',
+    titleCn: '教育',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7407,6 +7336,21 @@ const articleNce4L33: Article = {
   ],
 }
 const articleNce4L34: Article = {
+
+    id: 'nce4-l34',
+    lesson: 34,
+    tag: 'C42',
+    title: 'Adolescence',
+    titleCn: '青春期',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7452,6 +7396,21 @@ const articleNce4L34: Article = {
   ],
 }
 const articleNce4L37: Article = {
+
+    id: 'nce4-l37',
+    lesson: 37,
+    tag: 'C45',
+    title: 'The process of ageing',
+    titleCn: '衰老过程',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7497,6 +7456,21 @@ const articleNce4L37: Article = {
   ],
 }
 const articleNce4L44: Article = {
+
+    id: 'nce4-l44',
+    lesson: 44,
+    tag: 'C55',
+    title: 'Patterns of culture',
+    titleCn: '文化的模式',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7562,6 +7536,21 @@ const articleNce4L44: Article = {
   ],
 }
 const articleNce4L46: Article = {
+
+    id: 'nce4-l46',
+    lesson: 46,
+    tag: 'C58',
+    title: 'Hobbies',
+    titleCn: '业余爱好',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7638,6 +7627,20 @@ const articleNce4L46: Article = {
   ],
 }
 const articleNce4L48: Article = {
+
+    id: 'nce4-l48',
+    lesson: 48,
+    title: 'Planning a share portfolio',
+    titleCn: '规划股票投资组合',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0],
+    ],
+
     original: {
     paragraphs: [
       [
@@ -7693,6 +7696,21 @@ const articleNce4L48: Article = {
 }
 
 const articleNce4L5: Article = {
+
+    id: 'nce4-l5',
+    lesson: 5,
+    tag: 'C6',
+    title: 'The Problem of Youth',
+    titleCn: '青年',
+    keyArticle: true,
+    level: 'NCE4',
+    heatmap: [
+      [0,1,2,0,1,3,2,1,0],
+      [1,2,0,1,0,2,4,0,1],
+      [0,0,1,3,2,0,1,2,0],
+      [2,1,0,0,1,2,3,1,2],
+    ],
+
   original: {
     paragraphs: [
       [

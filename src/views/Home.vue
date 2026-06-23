@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { articleMetas } from '../mock/readData'
+import { articles } from '../mock/readData'
 import tudingIcon from '../asserts/icon/tuding.svg'
 
 const props = defineProps<{ activeLevel: 'NCE2' | 'NCE3' | 'NCE4'; searchText?: string }>()
@@ -10,12 +10,12 @@ const router = useRouter()
 const filteredArticles = computed(() => {
   const q = props.searchText?.trim().toLowerCase()
   if (q) {
-    return articleMetas.filter(a =>
+    return Object.values(articles).filter(a =>
       a.title.toLowerCase().includes(q) ||
       (a.titleCn && a.titleCn.includes(q))
     )
   }
-  return articleMetas.filter(a => a.level === props.activeLevel)
+  return Object.values(articles).filter(a => a.level === props.activeLevel)
 })
 
 function goEdit(id: string) {

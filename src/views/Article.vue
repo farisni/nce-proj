@@ -12,7 +12,7 @@
  */
 
 import { ref, computed } from 'vue' 
-import { articles, articleMetas } from '../mock/readData'
+import { articles } from '../mock/readData'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
@@ -20,13 +20,13 @@ const article = computed(() => articles[route.params.id as string])
 import yumaoIcon from '../asserts/icon/yumao.svg'
 import Heatmap from '../components/Heatmap.vue'
 
-// 当前文章元数据（标题/课号/tag/level/热力图）
-const currentMeta = computed(() => articleMetas.find(m => m.id === route.params.id))
+// 当前文章元数据：从 article.value 直接读取（已合并 ArticleMeta 字段）
+const currentMeta = computed(() => article.value ?? null)
 // 同 level 下的上一篇/下一篇文章，用于导航按钮
 const neighbors = computed(() => {
   if (!currentMeta.value) return { prev: null, next: null }
-  const sameLevel = articleMetas.filter(m => m.level === currentMeta.value!.level)
-  const idx = sameLevel.indexOf(currentMeta.value)
+  const sameLevel = Object.values(articles).filter(a => a.level === currentMeta.value!.level)
+  const idx = sameLevel.findIndex(a => a.id === currentMeta.value!.id)
   return {
     prev: idx > 0 ? sameLevel[idx - 1] : null,
     next: idx < sameLevel.length - 1 ? sameLevel[idx + 1] : null,

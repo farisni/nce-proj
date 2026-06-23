@@ -2,7 +2,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { Search } from '@element-plus/icons-vue'
-import { articleMetas } from './mock/readData'
+
 
 const router = useRouter()
 const route = useRoute()
