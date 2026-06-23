@@ -3,8 +3,8 @@ export interface SentenceData {
   translation?: string
   predicates: string[]
   clauseIntroducers: string[]
-  notesOnText?: { phrase: string; note: string }[]
-  panelNotes?: { snippet: string; desc: string }[]
+  rubyNotes?: { title: string; body: string }[]
+  panelNotes?: { title: string; body: string }[]
 }
 
 export interface VocabItem {

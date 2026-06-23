@@ -83,7 +83,7 @@ function addPanelNote(pIdx: number, sIdx: number) {
   const sent = editArticle.value?.original.paragraphs[pIdx]?.[sIdx]
   if (sent) {
     if (!sent.panelNotes) sent.panelNotes = []
-    sent.panelNotes.push({ snippet: '', desc: '' })
+    sent.panelNotes.push({ title: '', body: '' })
   }
 }
 
@@ -324,20 +324,20 @@ function goBack() {
                 <div class="grammar-field">
                   <span class="grammar-field-label">行间笔记</span>
                   <el-table :data="sd.panelNotes || []" size="small" class="grammar-notes-table" empty-text="暂无行间笔记">
-                    <el-table-column prop="snippet" label="片段" min-width="140">
+                    <el-table-column prop="title" label="片段" min-width="140">
                       <template #default="{ $index }">
                         <template v-if="editingCells.has('pn-snippet-'+pIdx+'-'+sIdx+'-'+$index)">
-                          <el-input v-model="sd.panelNotes![$index].snippet" size="small" @blur="stopEdit('pn-snippet-'+pIdx+'-'+sIdx+'-'+$index)" @keyup.enter="stopEdit('pn-snippet-'+pIdx+'-'+sIdx+'-'+$index)" autofocus />
+                          <el-input v-model="sd.panelNotes![$index].title" size="small" @blur="stopEdit('pn-snippet-'+pIdx+'-'+sIdx+'-'+$index)" @keyup.enter="stopEdit('pn-snippet-'+pIdx+'-'+sIdx+'-'+$index)" autofocus />
                         </template>
-                        <span v-else class="cell-text" @dblclick="startEdit('pn-snippet-'+pIdx+'-'+sIdx+'-'+$index)">{{ sd.panelNotes![$index].snippet || '—' }}</span>
+                        <span v-else class="cell-text" @dblclick="startEdit('pn-snippet-'+pIdx+'-'+sIdx+'-'+$index)">{{ sd.panelNotes![$index].title || '—' }}</span>
                       </template>
                     </el-table-column>
-                    <el-table-column prop="desc" label="解析" min-width="180">
+                    <el-table-column prop="body" label="解析" min-width="180">
                       <template #default="{ $index }">
                         <template v-if="editingCells.has('pn-desc-'+pIdx+'-'+sIdx+'-'+$index)">
-                          <el-input v-model="sd.panelNotes![$index].desc" size="small" @blur="stopEdit('pn-desc-'+pIdx+'-'+sIdx+'-'+$index)" @keyup.enter="stopEdit('pn-desc-'+pIdx+'-'+sIdx+'-'+$index)" autofocus />
+                          <el-input v-model="sd.panelNotes![$index].body" size="small" @blur="stopEdit('pn-desc-'+pIdx+'-'+sIdx+'-'+$index)" @keyup.enter="stopEdit('pn-desc-'+pIdx+'-'+sIdx+'-'+$index)" autofocus />
                         </template>
-                        <span v-else class="cell-text" @dblclick="startEdit('pn-desc-'+pIdx+'-'+sIdx+'-'+$index)">{{ sd.panelNotes![$index].desc || '—' }}</span>
+                        <span v-else class="cell-text" @dblclick="startEdit('pn-desc-'+pIdx+'-'+sIdx+'-'+$index)">{{ sd.panelNotes![$index].body || '—' }}</span>
                       </template>
                     </el-table-column>
                     <el-table-column label="操作" width="80">

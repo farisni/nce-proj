@@ -53,7 +53,7 @@ function markWords(
   sentence: string,
   predicates: string[],
   clauseIntroducers: string[],
-  notes: { phrase: string; note: string }[],
+  notes: { title: string; body: string }[],
 ): Segment[] {
   // 无标注数据 → 整句作为一个 Segment
   if (!predicates.length && !clauseIntroducers.length && !notes.length) return [{ text: sentence }]
@@ -87,9 +87,9 @@ function markWords(
 
   // 步骤 3：句子横批 → 大小写不敏感子串匹配（不需要词边界）
   for (const note of notes) {
-    const ln = note.phrase.toLowerCase(); let idx = lower.indexOf(ln)
+    const ln = note.title.toLowerCase(); let idx = lower.indexOf(ln)
     while (idx !== -1) {
-      spans.push({ start: idx, end: idx + ln.length, predicate: false, clause: false, noteText: note.note })
+      spans.push({ start: idx, end: idx + ln.length, predicate: false, clause: false, noteText: note.body })
       idx = lower.indexOf(ln, idx + 1)
     }
   }
@@ -212,8 +212,8 @@ function segClass(seg: Segment): string {
                   <transition name="panel">
                     <div v-if="activeKey === s.key" class="sentence-panel">
                       <div v-for="(pn, pni) in s.panelNotes" :key="'pn'+pni" class="panel-note-item">
-                        <span class="panel-note-snippet">{{ pn.snippet }}</span>
-                        <span class="panel-note-desc">{{ pn.desc }}</span>
+                        <span class="panel-note-snippet">{{ pn.title }}</span>
+                        <span class="panel-note-desc">{{ pn.body }}</span>
                       </div>
                     </div>
                   </transition>

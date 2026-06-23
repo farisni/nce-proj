@@ -17,24 +17,24 @@ const articleNce2L1: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Last week I went to the theatre.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had a very good seat.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The play was very interesting.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I did not enjoy it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A young man and a young woman were sitting behind me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They were talking loudly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I got very angry.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I could not hear the actors.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I turned round.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I looked at the man and the woman angrily.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They did not pay any attention.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the end, I could not bear it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I turned round again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I can't hear a word!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I said angrily.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' It's none of your business,' the young man said rudely.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' This is a private conversation!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Last week I went to the theatre.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had a very good seat.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The play was very interesting.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I did not enjoy it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A young man and a young woman were sitting behind me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They were talking loudly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I got very angry.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I could not hear the actors.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I turned round.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I looked at the man and the woman angrily.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They did not pay any attention.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In the end, I could not bear it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I turned round again.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I can't hear a word!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I said angrily.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' It's none of your business,' the young man said rudely.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' This is a private conversation!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -71,34 +71,34 @@ const articleNce2L2: Article = {
     original: {
     paragraphs: [
       [
-        { text: "It was Sunday.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I never get up early on Sundays.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I sometimes stay in bed until lunch time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "It was Sunday.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I never get up early on Sundays.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I sometimes stay in bed until lunch time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "Last Sunday I got up very late.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I looked out of the window.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was dark outside.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Last Sunday I got up very late.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I looked out of the window.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was dark outside.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'What a day!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I thought.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'It's raining again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' Just then, the telephone rang.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was my aunt Lucy.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I've just arrived by train,' she said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I'm coming to see you.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' 'But I'm still having breakfast,' I said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'What a day!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I thought.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'It's raining again.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' Just then, the telephone rang.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was my aunt Lucy.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I've just arrived by train,' she said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I'm coming to see you.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' 'But I'm still having breakfast,' I said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'What are you doing?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' she asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I'm having breakfast,' I repeated.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'What are you doing?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' she asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I'm having breakfast,' I repeated.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Dear me,' she said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Do you always get up so late?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It's one o'clock!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Dear me,' she said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Do you always get up so late?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It's one o'clock!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -128,17 +128,17 @@ const articleNce2L3: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Postcards always spoil my holidays.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Last summer, I went to Italy.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I visited museums and sat in public gardens.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A friendly waiter taught me a few words of Italian.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Then he lent me a book.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I read a few lines, but I did not understand a word.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Every day I thought about postcards.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My holidays passed quickly, but I did not send any cards to my friends.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On the last day I made a big decision.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I got up early and bought thirty-seven cards.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I spent the whole day in my room, but I did not write a single card!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Postcards always spoil my holidays.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Last summer, I went to Italy.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I visited museums and sat in public gardens.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A friendly waiter taught me a few words of Italian.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Then he lent me a book.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I read a few lines, but I did not understand a word.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Every day I thought about postcards.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My holidays passed quickly, but I did not send any cards to my friends.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On the last day I made a big decision.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I got up early and bought thirty-seven cards.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I spent the whole day in my room, but I did not write a single card!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -174,15 +174,15 @@ const articleNce2L4: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I have just received a letter from my brother, Tim.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He is in Australia.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has been there for six months.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tim is an engineer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He is working for a big firm and he has already visited a great number of different places in Australia.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He will soon visit Darwin.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "From there, he will fly to Perth.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My brother has never been abroad before, so he is finding this trip very exciting.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I have just received a letter from my brother, Tim.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He is in Australia.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has been there for six months.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Tim is an engineer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He is working for a big firm and he has already visited a great number of different places in Australia.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He will soon visit Darwin.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "From there, he will fly to Perth.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My brother has never been abroad before, so he is finding this trip very exciting.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -213,12 +213,12 @@ const articleNce2L5: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Mr James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Pinhurstis only five miles from Silbury, but Mr Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The bird covered the distance in three minutes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Up to now, Mr Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In this way, he has begun his own private telephone service.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Mr James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Pinhurstis only five miles from Silbury, but Mr Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The bird covered the distance in three minutes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Up to now, Mr Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In this way, he has begun his own private telephone service.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -249,17 +249,17 @@ const articleNce2L6: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I have just moved to a house in Bridge Street.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Yesterday a beggar knocked at my door.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He asked me for a meal and a glass of beer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In return for this, the beggar stood on his head and sang songs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I gave him a meal.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He ate the food and drank the beer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then he put a piece of cheese in his pocket and went away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Later a neighbour told me about him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Everybody knows him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "His name is Percy Buttons.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He calls at every house in the street once a month and always asks for a meal and a glass of beer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I have just moved to a house in Bridge Street.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Yesterday a beggar knocked at my door.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He asked me for a meal and a glass of beer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In return for this, the beggar stood on his head and sang songs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I gave him a meal.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He ate the food and drank the beer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then he put a piece of cheese in his pocket and went away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Later a neighbour told me about him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Everybody knows him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "His name is Percy Buttons.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He calls at every house in the street once a month and always asks for a meal and a glass of beer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -288,13 +288,13 @@ const articleNce2L7: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The plane was late and detectives were waiting at the airport all morning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They were expecting a valuable parcel of diamond from South Africa.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A few hours earlier, someone had told the police that thieves would try to steal the diamonds.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Two men took the parcel off the plane and carried it into the Customs House.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "While two detectives were keeping guard at the door, two others opened the parcel.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "To their surprise, the precious parcel was full of stones and sand!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The plane was late and detectives were waiting at the airport all morning.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They were expecting a valuable parcel of diamond from South Africa.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A few hours earlier, someone had told the police that thieves would try to steal the diamonds.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Two men took the parcel off the plane and carried it into the Customs House.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "While two detectives were keeping guard at the door, two others opened the parcel.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "To their surprise, the precious parcel was full of stones and sand!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -332,13 +332,13 @@ const articleNce2L8: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Joe Sanders has the most beautiful garden in our town.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Nearly everybody enters for 'The Nicest Garden Competition' each year, but Joe wins every time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Bill Frith's garden is larger than Joe's.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Bill works harder than Joe and grows more flowers and vegetables, but Joe's garden is more interesting.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has made neat paths and has built a wooden bridge over a pool.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I like gardens too, but I do not like hard work.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Every year I enter for the garden competition too, and I always win a little prize for the worst garden in the town!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Joe Sanders has the most beautiful garden in our town.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Nearly everybody enters for 'The Nicest Garden Competition' each year, but Joe wins every time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Bill Frith's garden is larger than Joe's.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Bill works harder than Joe and grows more flowers and vegetables, but Joe's garden is more interesting.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has made neat paths and has built a wooden bridge over a pool.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I like gardens too, but I do not like hard work.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Every year I enter for the garden competition too, and I always win a little prize for the worst garden in the town!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -368,18 +368,18 @@ const articleNce2L9: Article = {
     original: {
     paragraphs: [
       [
-        { text: "On Wednesday evening, we went to the Town Hall.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was the last day of the year and a large crowd of people had gathered under the Town Hall clock.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It would strike twelve in twenty minutes' time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Fifteen minutes passed and then, at five to twelve, the clock stopped.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The big minute hand did not move.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We waited and waited, but nothing happened.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Suddenly someone shouted, 'It's two minutes past twelve!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The clock has stopped!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I looked at my watch.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was true.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The big clock refused to welcome the New Year.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At that moment everybody began to laugh and sing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "On Wednesday evening, we went to the Town Hall.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was the last day of the year and a large crowd of people had gathered under the Town Hall clock.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It would strike twelve in twenty minutes' time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Fifteen minutes passed and then, at five to twelve, the clock stopped.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The big minute hand did not move.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We waited and waited, but nothing happened.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Suddenly someone shouted, 'It's two minutes past twelve!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The clock has stopped!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I looked at my watch.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was true.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The big clock refused to welcome the New Year.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At that moment everybody began to laugh and sing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -412,18 +412,18 @@ const articleNce2L10: Article = {
     original: {
     paragraphs: [
       [
-        { text: "We have an old musical instrument.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is called a clavichord.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was made in Germany in 1681.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Our clavichord is kept in the living-room.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It has belong to our family for a long time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The instrument was bought by my grandfather many years ago.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Recently it was damaged by a visitor.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She tried to play jazz on it!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She struck the keys too hard and two of the strings were broken.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My father was shocked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now we are not allowed to touch it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is being repaired by a friend of my father's.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "We have an old musical instrument.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is called a clavichord.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was made in Germany in 1681.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Our clavichord is kept in the living-room.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It has belong to our family for a long time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The instrument was bought by my grandfather many years ago.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Recently it was damaged by a visitor.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She tried to play jazz on it!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She struck the keys too hard and two of the strings were broken.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My father was shocked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Now we are not allowed to touch it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is being repaired by a friend of my father's.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -459,14 +459,14 @@ const articleNce2L11: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I was having dinner at a restaurant when Harry Steele came in.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Harry worked in a lawyer's office years ago, but he is now working at a bank.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He gets a good salary, but he always borrows money from his friends and never pays it back.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Harry saw me and came and sat at the same table.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has never borrowed money from me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "While he was eating, I asked him to lend me £2.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "To my surprise, he gave me the money immediately.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I have never borrowed any money from you,' Harry said, 'so now you can pay for my dinner!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I was having dinner at a restaurant when Harry Steele came in.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Harry worked in a lawyer's office years ago, but he is now working at a bank.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He gets a good salary, but he always borrows money from his friends and never pays it back.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Harry saw me and came and sat at the same table.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has never borrowed money from me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "While he was eating, I asked him to lend me £2.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "To my surprise, he gave me the money immediately.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I have never borrowed any money from you,' Harry said, 'so now you can pay for my dinner!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -497,16 +497,16 @@ const articleNce2L12: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Our neighbor, Captain Charles Alison, will sail from Portsmouth tomorrow.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We shall meet him at the harbour early in the morning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He will be in his small boat, Topsail.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tapsail is a famous little boat.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It has sailed across the Atlantic many times.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Captain Alison will set out at eight o'clock so we shall have plenty of time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We shall see his boat and then we shall say good-bye to him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He will be away for two months.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We are very proud of him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He will take part in an important race across the Atlantic.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Our neighbor, Captain Charles Alison, will sail from Portsmouth tomorrow.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We shall meet him at the harbour early in the morning.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He will be in his small boat, Topsail.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Tapsail is a famous little boat.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It has sailed across the Atlantic many times.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Captain Alison will set out at eight o'clock so we shall have plenty of time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We shall see his boat and then we shall say good-bye to him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He will be away for two months.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We are very proud of him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He will take part in an important race across the Atlantic.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -537,16 +537,16 @@ const articleNce2L13: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The Greenwood Boys are a group of popular singers.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At present, they are visiting all parts of the country.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They will be arriving here tomorrow.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They will be coming by train and most of the young people in the town will be meeting them at the station.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tomorrow evening they will be singing at the Workers' Club.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The Greenwood Boys will be staying for five days.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "During this time, they will give five performances.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As usual, the police will have a difficult time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They will be trying to keep order.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is always the same on these occasions.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The Greenwood Boys are a group of popular singers.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At present, they are visiting all parts of the country.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They will be arriving here tomorrow.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They will be coming by train and most of the young people in the town will be meeting them at the station.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Tomorrow evening they will be singing at the Workers' Club.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The Greenwood Boys will be staying for five days.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "During this time, they will give five performances.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As usual, the police will have a difficult time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They will be trying to keep order.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is always the same on these occasions.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -576,15 +576,15 @@ const articleNce2L14: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I had an amusing experience last year.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After I had left a small village in the south of France, I drove on to the next town.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On the way, a young man waved to me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I stopped and he asked me for a lift.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as he had got into the car, I said good morning to him in French and he replied in the same language.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Apart from a few words, I do not know any French at all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Neither of us spoke during the journey.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had nearly reached the town, when the young man suddenly said, very slowly, 'Do you speak English?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' As I soon learnt, he was English himself!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I had an amusing experience last year.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After I had left a small village in the south of France, I drove on to the next town.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On the way, a young man waved to me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I stopped and he asked me for a lift.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as he had got into the car, I said good morning to him in French and he replied in the same language.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Apart from a few words, I do not know any French at all.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Neither of us spoke during the journey.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had nearly reached the town, when the young man suddenly said, very slowly, 'Do you speak English?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' As I soon learnt, he was English himself!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -616,19 +616,19 @@ const articleNce2L15: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The secretary told me that Mr.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Harmsworth would see me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I felt very nervous when.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I went into his office.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He did not look up from his desk when I entered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After I had sat down, he said that business was very bad.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He told me that the firm could not afford to pay such large salaries.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Twenty people had already left.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I knew that my turn had come.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Mr.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Harmsworth,' I said in a weak voice.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Don't interrupt,' he Said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then he smiled and told me I would receive an extra £100 a year!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The secretary told me that Mr.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Harmsworth would see me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I felt very nervous when.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I went into his office.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He did not look up from his desk when I entered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After I had sat down, he said that business was very bad.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He told me that the firm could not afford to pay such large salaries.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Twenty people had already left.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I knew that my turn had come.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Mr.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Harmsworth,' I said in a weak voice.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Don't interrupt,' he Said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then he smiled and told me I would receive an extra £100 a year!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -658,15 +658,15 @@ const articleNce2L16: Article = {
     original: {
     paragraphs: [
       [
-        { text: "If you park your car in the wrong place, a traffic policeman will soon find it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "You will be very lucky if he lets you go without a ticket.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "However, this does not always happen.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Traffic police are sometimes very polite.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "During a holiday in Sweden, I found this note on my car:' Sir, we welcome you to our city.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This is a \"No Parking\" area.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "You will enjoy your stay here if you pay attention to our street signs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This note is only a reminder.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' If you receive a request like this, you cannot fail to obey it!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "If you park your car in the wrong place, a traffic policeman will soon find it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "You will be very lucky if he lets you go without a ticket.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "However, this does not always happen.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Traffic police are sometimes very polite.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "During a holiday in Sweden, I found this note on my car:' Sir, we welcome you to our city.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This is a \"No Parking\" area.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "You will enjoy your stay here if you pay attention to our street signs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This note is only a reminder.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' If you receive a request like this, you cannot fail to obey it!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -700,14 +700,14 @@ const articleNce2L17: Article = {
     original: {
     paragraphs: [
       [
-        { text: "My aunt Jennifer is an actress.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She must be at least thirty-five years old.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In spite of this, she often appears on the stage as a young girl.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Jennifer will have to take part in a new play soon.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This time, she will be a girl of seventeen.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the play, she must appear in a bright red dress and long black stockings.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Last year in another play, she had to wear short socks and a bright, orange-coloured dress.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If anyone ever asked her how old she is, she always answers, 'My dear, it must be terrible to be grown up!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "My aunt Jennifer is an actress.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She must be at least thirty-five years old.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In spite of this, she often appears on the stage as a young girl.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Jennifer will have to take part in a new play soon.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This time, she will be a girl of seventeen.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In the play, she must appear in a bright red dress and long black stockings.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Last year in another play, she had to wear short socks and a bright, orange-coloured dress.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If anyone ever asked her how old she is, she always answers, 'My dear, it must be terrible to be grown up!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -737,17 +737,17 @@ const articleNce2L18: Article = {
     original: {
     paragraphs: [
       [
-        { text: "After I had had lunch at a village inn, I looked for my bag.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had left it on a chair beside the door and now it wasn't there!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As I was looking for it, the inn-keeper came in.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Did you have a good meal?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' he asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Yes, thank you,' I answered, 'but I can't pay the bill.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I haven't got my bag.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' The inn-keeper smiled and immediately went out.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In a few minutes he returned with my bag and gave it back to me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I'm very sorry,' he said ' My dog had taken it into the garden.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He often does this.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "After I had had lunch at a village inn, I looked for my bag.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had left it on a chair beside the door and now it wasn't there!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As I was looking for it, the inn-keeper came in.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Did you have a good meal?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' he asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Yes, thank you,' I answered, 'but I can't pay the bill.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I haven't got my bag.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' The inn-keeper smiled and immediately went out.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In a few minutes he returned with my bag and gave it back to me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I'm very sorry,' he said ' My dog had taken it into the garden.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He often does this.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -775,12 +775,12 @@ const articleNce2L19: Article = {
     original: {
     paragraphs: [
       [
-        { text: "'I hurried to the ticket-office.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'May I have two tickets please?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'I hurried to the ticket-office.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'May I have two tickets please?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Certainly, 'the girl said, 'but they are for next Wednesday's performance.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Certainly, 'the girl said, 'but they are for next Wednesday's performance.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -811,20 +811,20 @@ const articleNce2L20: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Fishing is my favourite sport.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I often fish for hours without catching anything.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But this does not worry me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Some fishermen are unlucky.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Instead of catching fish, they catch old boots and rubbish.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I am even less lucky.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I never catch anything-not even old boots.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After having spent whole mornings on the river, I always go home with an empty bag.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'You must give up fishing!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' my friends say.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' It's a waste of time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' But they don't realize one important thing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I'm not really interested in fishing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I am only interested in sitting in a boat and doing nothing at all!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Fishing is my favourite sport.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I often fish for hours without catching anything.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "But this does not worry me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Some fishermen are unlucky.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Instead of catching fish, they catch old boots and rubbish.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I am even less lucky.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I never catch anything-not even old boots.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After having spent whole mornings on the river, I always go home with an empty bag.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'You must give up fishing!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' my friends say.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' It's a waste of time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' But they don't realize one important thing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I'm not really interested in fishing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I am only interested in sitting in a boat and doing nothing at all!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -854,15 +854,15 @@ const articleNce2L21: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Aeroplanes are slowly driving me mad.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I live near an airport and passing planes can be heard night and day.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The airport was built during the war, but for some reason it could not be used then.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Last year, however, it came into use.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Over a hundred people must have been driven away from their homes by the noise.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I am one of the few people left.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Sometimes I think this house will be knocked down by a passing plane.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I have been offered a large sum of money to go away, but I am determined to stay here.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Everybody says I must be mad and they are probably right.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Aeroplanes are slowly driving me mad.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I live near an airport and passing planes can be heard night and day.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The airport was built during the war, but for some reason it could not be used then.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Last year, however, it came into use.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Over a hundred people must have been driven away from their homes by the noise.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I am one of the few people left.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Sometimes I think this house will be knocked down by a passing plane.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I have been offered a large sum of money to go away, but I am determined to stay here.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Everybody says I must be mad and they are probably right.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -891,13 +891,13 @@ const articleNce2L22: Article = {
     original: {
     paragraphs: [
       [
-        { text: "My daughter, Jane, never dreamed of [receiving a letter]from a girl of her own age in Holland.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She threw the bottle into the sea.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She never thought of it again, but ten months later, she received a letter from a girl in Holland.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Both girls write to each other regularly now.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "However, they have decided to use the post-office.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Letters will cost a litt1e more, but they will certainly travel faster.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "My daughter, Jane, never dreamed of [receiving a letter]from a girl of her own age in Holland.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She threw the bottle into the sea.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She never thought of it again, but ten months later, she received a letter from a girl in Holland.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Both girls write to each other regularly now.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "However, they have decided to use the post-office.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Letters will cost a litt1e more, but they will certainly travel faster.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -926,17 +926,17 @@ const articleNce2L23: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I had received a letter from my sister yesterday.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She lives in Nigeria.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In her letter, she said that she would come to England next year.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If she comes, she will get a surprise.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We are now living in a beautiful new house in the country.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Work on it had begun [before my sister left].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The house was completed five months ago.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In my letter, I told her that she could stay with us.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The house has many large rooms and there is a lovely garden.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is a very modern house, so it looks strange to some people.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It must be the only modern house in the district.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I had received a letter from my sister yesterday.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She lives in Nigeria.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In her letter, she said that she would come to England next year.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If she comes, she will get a surprise.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We are now living in a beautiful new house in the country.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Work on it had begun [before my sister left].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The house was completed five months ago.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In my letter, I told her that she could stay with us.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The house has many large rooms and there is a lovely garden.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is a very modern house, so it looks strange to some people.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It must be the only modern house in the district.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -965,16 +965,16 @@ const articleNce2L24: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I entered the hotel manager's office and sat down.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had just lost £50 and I felt very upset.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I left the money in my room,' I said, 'and it's not there now.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' The manager was sympathetic, but he could do nothing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Everyone's losing money these days,' he said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He started to complain about this wicked world but was interrupted by a knock at the door.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A girl came in and put an envelope on his desk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It contained £50.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I found this outside this gentleman's room' she said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Well,' I said to the manager, 'there is still some honesty in this world!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I entered the hotel manager's office and sat down.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had just lost £50 and I felt very upset.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I left the money in my room,' I said, 'and it's not there now.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' The manager was sympathetic, but he could do nothing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Everyone's losing money these days,' he said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He started to complain about this wicked world but was interrupted by a knock at the door.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A girl came in and put an envelope on his desk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It contained £50.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I found this outside this gentleman's room' she said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Well,' I said to the manager, 'there is still some honesty in this world!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1006,23 +1006,23 @@ const articleNce2L25: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I arrived in London at last.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The railway station was big, black and dark.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I did not know the way to my hotel, so I asked a porter.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I not only spoke English very carefully, but very clearly as well.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The porter, however, could not understand me; I repeated my question several times and at last he understood.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He answered me, but he spoke neither slowly nor clearly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I am a foreigner,' I said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then he spoke slowly, but I could not understand him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My teacher never spoke English [like that]!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The porter and I looked at each other and smiled.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then he said something and I understood it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'You'll soon learn English!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' he said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I wonder.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In England, each man speaks a different language.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The English understand each other, but I don't understand them!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Do they speak English?", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I arrived in London at last.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The railway station was big, black and dark.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I did not know the way to my hotel, so I asked a porter.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I not only spoke English very carefully, but very clearly as well.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The porter, however, could not understand me; I repeated my question several times and at last he understood.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He answered me, but he spoke neither slowly nor clearly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I am a foreigner,' I said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then he spoke slowly, but I could not understand him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My teacher never spoke English [like that]!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The porter and I looked at each other and smiled.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then he said something and I understood it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'You'll soon learn English!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' he said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I wonder.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In England, each man speaks a different language.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The English understand each other, but I don't understand them!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Do they speak English?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1052,26 +1052,26 @@ const articleNce2L26: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I am an art student and I paint a lot of pictures.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Many people pretend that they understand modern art.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They always tell you [what a picture is 'about'].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Of course, many pictures arc not 'about' anything.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They are just pretty patterns.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We like them in the same way [that we like pretty curtain material].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I think that young children often appreciate modern pictures better than anyone else.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They notice more.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My sister is only seven, but she always tells me [whether my pictures are good or not].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She came into my room yesterday.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' What are you doing?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' she asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I'm hanging this picture on the wall,' I answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'It's a new one.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Do you like it?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' She looked at it critically for a moment.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' It's all right,' she said, 'but isn't it upside-down?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I looked at it again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She was right!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I am an art student and I paint a lot of pictures.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Many people pretend that they understand modern art.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They always tell you [what a picture is 'about'].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Of course, many pictures arc not 'about' anything.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They are just pretty patterns.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We like them in the same way [that we like pretty curtain material].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I think that young children often appreciate modern pictures better than anyone else.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They notice more.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My sister is only seven, but she always tells me [whether my pictures are good or not].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She came into my room yesterday.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' What are you doing?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' she asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I'm hanging this picture on the wall,' I answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'It's a new one.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Do you like it?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' She looked at it critically for a moment.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' It's all right,' she said, 'but isn't it upside-down?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I looked at it again.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She was right!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1110,18 +1110,18 @@ const articleNce2L27: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Late in the afternoon, the boys put up their tent in the middle of a field.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as this was done, they cooked a meal over an open fire.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They were all hungry and the food smelt good.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After a wonderful meal, they told stories and sang songs by the camp fire.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But some time later it began to rain.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The boys felt tired so they pet out the fire and crept into their tent.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Their sleeping-bags were warm and comfortable, so they all slept soundly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the middle of the night, two boys woke up and began shouting.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The tent was full of water!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They all leapt out of their sleeping-bags and hurried outside.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was raining heavily and they found that a stream had formed in the field.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The stream wound its way across the field and then flowed right under their tent!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Late in the afternoon, the boys put up their tent in the middle of a field.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as this was done, they cooked a meal over an open fire.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They were all hungry and the food smelt good.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After a wonderful meal, they told stories and sang songs by the camp fire.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "But some time later it began to rain.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The boys felt tired so they pet out the fire and crept into their tent.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Their sleeping-bags were warm and comfortable, so they all slept soundly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In the middle of the night, two boys woke up and began shouting.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The tent was full of water!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They all leapt out of their sleeping-bags and hurried outside.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was raining heavily and they found that a stream had formed in the field.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The stream wound its way across the field and then flowed right under their tent!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1161,16 +1161,16 @@ const articleNce2L28: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Jasper White is one of those rare people who believes in ancient myths.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has just bought a new house in the city, but ever since he moved in, he has had trouble with motorists.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "when he returns home at night, he always finds that someone has parked a car outside his gate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Because of this, he has not been able to get his own car into his garage even once.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Jasper has put up' No Parking' signs outside his gate, but these have not had any effect.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now he has put an ugly stone head over the gate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is one of the ugliest faces I have ever seen.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I asked him what it was and he told me that it was Medusa, the Gorgon.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Jasper hopes that she will turn motorists to stone.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But none of them has been turned to stone yet!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Jasper White is one of those rare people who believes in ancient myths.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has just bought a new house in the city, but ever since he moved in, he has had trouble with motorists.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "when he returns home at night, he always finds that someone has parked a car outside his gate.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Because of this, he has not been able to get his own car into his garage even once.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Jasper has put up' No Parking' signs outside his gate, but these have not had any effect.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Now he has put an ugly stone head over the gate.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is one of the ugliest faces I have ever seen.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I asked him what it was and he told me that it was Medusa, the Gorgon.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Jasper hopes that she will turn motorists to stone.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "But none of them has been turned to stone yet!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1202,15 +1202,15 @@ const articleNce2L29: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This wonderful plane can carry seven passengers.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Since then, Captain Fawcett has flown passengers to many unusual places.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Captain Fawcett has just refused a strange request from a businessman.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This wonderful plane can carry seven passengers.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Since then, Captain Fawcett has flown passengers to many unusual places.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Captain Fawcett has just refused a strange request from a businessman.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1245,16 +1245,16 @@ const articleNce2L30: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The Wayle is a small river that cuts across the park near my home.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I like sitting by the Wayle on fine afternoons.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was warm last Sunday, so I went and sat on the river bank as usual.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Some children were playing games on the bank and there were some people rowing on the river.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Suddenly, one of the children kicked a ball very hard and it went towards a passing boat.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Some people on the bank called out to the man in the boat, but he did not hear them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The ball struck him so hard that he nearly fell into the water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I turned to look at the children, but there weren't any in sight: they had all run away!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The man laughed when he realized what had happened.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He called out to the children and threw the ball back to the bank.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The Wayle is a small river that cuts across the park near my home.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I like sitting by the Wayle on fine afternoons.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was warm last Sunday, so I went and sat on the river bank as usual.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Some children were playing games on the bank and there were some people rowing on the river.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Suddenly, one of the children kicked a ball very hard and it went towards a passing boat.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Some people on the bank called out to the man in the boat, but he did not hear them.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The ball struck him so hard that he nearly fell into the water.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I turned to look at the children, but there weren't any in sight: they had all run away!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The man laughed when he realized what had happened.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He called out to the children and threw the ball back to the bank.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1286,16 +1286,16 @@ const articleNce2L31: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Yesterday afternoon Frank Hawkins was telling me about his experiences as a young man.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Frank is now the head of a very large business company, but as a boy he used to work in a small shop.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was his job to repair bicycles and at that time he used to work fourteen hours a day.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He saved money for years and in 1938 he bought a small work-shop of his own.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "During the war Frank used to make spare parts for aeroplanes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At that time he had two helpers.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By the end of the war, the small work-shop had become a large factory which employed seven hundred and twenty-eight people.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Frank smiled when he remembered his hard early years and the long road to success.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He was still smiling when the door opened and his wife came in.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She wanted him to repair their son's bicycle!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Yesterday afternoon Frank Hawkins was telling me about his experiences as a young man.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Frank is now the head of a very large business company, but as a boy he used to work in a small shop.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was his job to repair bicycles and at that time he used to work fourteen hours a day.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He saved money for years and in 1938 he bought a small work-shop of his own.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "During the war Frank used to make spare parts for aeroplanes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At that time he had two helpers.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "By the end of the war, the small work-shop had become a large factory which employed seven hundred and twenty-eight people.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Frank smiled when he remembered his hard early years and the long road to success.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He was still smiling when the door opened and his wife came in.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She wanted him to repair their son's bicycle!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1328,15 +1328,15 @@ const articleNce2L32: Article = {
     original: {
     paragraphs: [
       [
-        { text: "People are not so honest as they once were (honest).", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The temptation [to steal]to do is greater than ever before -- especially in large shops.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A detective recently watched a well-dressed woman who always went into a large store on Monday mornings.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "One Monday, there were fewer people in the shop than usual when the woman came in, so it was easier for the detective to watch her.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The woman first bought a few small articles.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After a little time, she chose one of the most expensive dresses in the shop and handed it to an assistant who wrapped it up for her as quickly as possible.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then the woman simply took the parcel and walked out of the shop without paying.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When she was arrested, the detective found out that the shop-assistant was her daughter.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The girl' gave' her mother a free dress once a week!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "People are not so honest as they once were (honest).", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The temptation [to steal]to do is greater than ever before -- especially in large shops.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A detective recently watched a well-dressed woman who always went into a large store on Monday mornings.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "One Monday, there were fewer people in the shop than usual when the woman came in, so it was easier for the detective to watch her.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The woman first bought a few small articles.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After a little time, she chose one of the most expensive dresses in the shop and handed it to an assistant who wrapped it up for her as quickly as possible.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then the woman simply took the parcel and walked out of the shop without paying.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When she was arrested, the detective found out that the shop-assistant was her daughter.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The girl' gave' her mother a free dress once a week!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1367,16 +1367,16 @@ const articleNce2L33: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Nearly a week passed before the girl was able to explain what had happened to her.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "One afternoon she set out from the coast in a small boat and was caught in a storm.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Towards evening, the boat struck a rock and the girl jumped into the sea.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then she swam to the shore after spending the whole night in the water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "During that time she covered a distance of eight miles.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Early next morning, she saw a light ahead.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She knew she was near the shore because the light was high up on the cliffs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On arriving at the shore, the girl struggled up the cliff towards the light she had seen.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "That was all (that)[she remembered].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When she woke up a day later, she found herself in hospital.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Nearly a week passed before the girl was able to explain what had happened to her.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "One afternoon she set out from the coast in a small boat and was caught in a storm.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Towards evening, the boat struck a rock and the girl jumped into the sea.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then she swam to the shore after spending the whole night in the water.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "During that time she covered a distance of eight miles.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Early next morning, she saw a light ahead.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She knew she was near the shore because the light was high up on the cliffs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On arriving at the shore, the girl struggled up the cliff towards the light she had seen.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "That was all (that)[she remembered].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When she woke up a day later, she found herself in hospital.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1413,16 +1413,16 @@ const articleNce2L34: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Ted Robinson has been worried all the week.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Last Tuesday he received a letter from the local police.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the letter he was asked to call at the station.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Ted wondered why he was wanted by the police, but he went to the station yesterday and now he is not worried any more.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At the station, he was told by a smiling policeman that his bicycle had been found.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Five days ago, the policeman told him, the bicycle was picked up in a small village four hundred miles away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is now being sent to his home by train.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Ted was most surprised when he heard the news.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He was amused too, because he never expected the bicycle to be found.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was stolen twenty years ago when Ted was a boy of fifteen!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Ted Robinson has been worried all the week.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Last Tuesday he received a letter from the local police.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In the letter he was asked to call at the station.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Ted wondered why he was wanted by the police, but he went to the station yesterday and now he is not worried any more.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At the station, he was told by a smiling policeman that his bicycle had been found.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Five days ago, the policeman told him, the bicycle was picked up in a small village four hundred miles away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is now being sent to his home by train.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Ted was most surprised when he heard the news.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He was amused too, because he never expected the bicycle to be found.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was stolen twenty years ago when Ted was a boy of fifteen!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1449,17 +1449,17 @@ const articleNce2L35: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Rov Trenton used to drive a taxi.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A short while ago, however, he became a bus-driver and he was not regretted it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He is finding his new work far more exciting.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When he was driving along Catford Street recently, he saw two thieves [rush out of a shop and run towards a waiting car]do to.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "One of them was carrying a bag full of money.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Roy acted quickly and drove the bus straight at the thieves.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The one with the money got such a fright [that he dropped the bag].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As the thieves were trying to get away in their car, Roy drove his bus into the back of it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "While the battered car was moving away, Roy stopped his bus and telephoned the police.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The thieves' car was badly damaged and easy to recognize.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Shortly afterwards, the police stopped the car and both men were arrested.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Rov Trenton used to drive a taxi.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A short while ago, however, he became a bus-driver and he was not regretted it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He is finding his new work far more exciting.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When he was driving along Catford Street recently, he saw two thieves [rush out of a shop and run towards a waiting car]do to.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "One of them was carrying a bag full of money.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Roy acted quickly and drove the bus straight at the thieves.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The one with the money got such a fright [that he dropped the bag].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As the thieves were trying to get away in their car, Roy drove his bus into the back of it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "While the battered car was moving away, Roy stopped his bus and telephoned the police.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The thieves' car was badly damaged and easy to recognize.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Shortly afterwards, the police stopped the car and both men were arrested.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1494,17 +1494,17 @@ const articleNce2L36: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Erna Hart is going to swim across the English Channel tomorrow.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She is going to set out from the French coast at five o'clock in the morning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Erna is only fourteen years old and she hopes to set up a new world record.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She is a strong swimmer and many people feel that she is sure to succeed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Erna's father will set out with her in a small boat.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Mr Hart has trained his daughter for years.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tomorrow he will be watching her anxiously as she swims the long distance to England.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Erna intends to take short rests every two hours.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She will have something to drink but she will not eat any solid food.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Most of Erna's school friends will be waiting for her on the English coast.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Among them will be Erna's mother, who swam the Channel herself when she was a girl.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Erna Hart is going to swim across the English Channel tomorrow.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She is going to set out from the French coast at five o'clock in the morning.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Erna is only fourteen years old and she hopes to set up a new world record.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She is a strong swimmer and many people feel that she is sure to succeed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Erna's father will set out with her in a small boat.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Mr Hart has trained his daughter for years.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Tomorrow he will be watching her anxiously as she swims the long distance to England.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Erna intends to take short rests every two hours.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She will have something to drink but she will not eat any solid food.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Most of Erna's school friends will be waiting for her on the English coast.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Among them will be Erna's mother, who swam the Channel herself when she was a girl.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1537,15 +1537,15 @@ const articleNce2L37: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The Olympic Games will be held in our country in four years' time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Asa great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a fine new swimming pool.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'They will also be building new roads and a special railway-line.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The Games will be held just outside the capital and the whole area will be called 'Olympic City'.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Workers will have completed the new roads by the end of this year.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Bythe end of next year, they will have finished work on the new stadium.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The fine modern buildings have been designed by Kurt Gunter.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Everybody will be watching anxiously asthe new buildings go up.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We are all very excited and are looking forward to the Olympic Games because they have never been held before in this country.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The Olympic Games will be held in our country in four years' time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Asa great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a fine new swimming pool.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'They will also be building new roads and a special railway-line.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The Games will be held just outside the capital and the whole area will be called 'Olympic City'.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Workers will have completed the new roads by the end of this year.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Bythe end of next year, they will have finished work on the new stadium.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The fine modern buildings have been designed by Kurt Gunter.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Everybody will be watching anxiously asthe new buildings go up.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We are all very excited and are looking forward to the Olympic Games because they have never been held before in this country.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1579,16 +1579,16 @@ const articleNce2L38: Article = {
     original: {
     paragraphs: [
       [
-        { text: "My old friend, Harrison, had lived in the Mediterranean for many years before he returned to England.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He had often dreamedof retiring in England and had planned to settle down in the country.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He had no sooner returned thanhe bought a fine house and went to live there.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Almost immediately he began to complain about the weather, for even though it was still summer, it rained continually and it was often bitterly cold.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After so many years of sunshine, Harrison got a shock.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He acted as if he had never lived in England before.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the end, it was more than he could bear.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He had hardly had time to settle down when he sold the house and left the country.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The dream he had had for so many years ended there.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Harrison had thought of everything except the weather.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "My old friend, Harrison, had lived in the Mediterranean for many years before he returned to England.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He had often dreamedof retiring in England and had planned to settle down in the country.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He had no sooner returned thanhe bought a fine house and went to live there.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Almost immediately he began to complain about the weather, for even though it was still summer, it rained continually and it was often bitterly cold.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After so many years of sunshine, Harrison got a shock.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He acted as if he had never lived in England before.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In the end, it was more than he could bear.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He had hardly had time to settle down when he sold the house and left the country.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The dream he had had for so many years ended there.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Harrison had thought of everything except the weather.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1619,14 +1619,14 @@ const articleNce2L39: Article = {
     original: {
     paragraphs: [
       [
-        { text: "While John Gilbert was in hospital, he askedhis doctor to tell him whether his operation had been successful, but the doctor refused to do so.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The following day, the patient asked for a bedside telephone.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When he was alone, he telephoned the hospital exchange and asked for Doctor Millington.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When the doctor answered the phone, Mr Gilbert said he was inquiring about a certain patient, a Mr John Gilbert.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He asked if Mr Gilbert's operation had been successful and the doctor told him that it had been.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He then asked when Mr Gilbert would be allowed to go home and the doctor told him that he would have to stay in hospital for another two weeks.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then Dr Millington asked the caller if he was a relative of the patient.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' No,' the patient answered,' I am Mr John Gilbert.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "While John Gilbert was in hospital, he askedhis doctor to tell him whether his operation had been successful, but the doctor refused to do so.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The following day, the patient asked for a bedside telephone.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When he was alone, he telephoned the hospital exchange and asked for Doctor Millington.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When the doctor answered the phone, Mr Gilbert said he was inquiring about a certain patient, a Mr John Gilbert.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He asked if Mr Gilbert's operation had been successful and the doctor told him that it had been.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He then asked when Mr Gilbert would be allowed to go home and the doctor told him that he would have to stay in hospital for another two weeks.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then Dr Millington asked the caller if he was a relative of the patient.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' No,' the patient answered,' I am Mr John Gilbert.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1661,30 +1661,30 @@ const articleNce2L40: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Last week at a dinner-party, the hostess asked me to sit next to Mrs Rumbold.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Mrs Rumbold was a large, unsmiling lady in a tight black dress.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She did not even look up when I took my seat beside her.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Her eyes were fixed on her plate and in a short time, she was busy eating.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I tried to make conversation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Last week at a dinner-party, the hostess asked me to sit next to Mrs Rumbold.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Mrs Rumbold was a large, unsmiling lady in a tight black dress.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She did not even look up when I took my seat beside her.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Her eyes were fixed on her plate and in a short time, she was busy eating.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I tried to make conversation.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' A new play is coming to\" The Globe\" soon,' I said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Will you be seeing it?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' ' No,' she answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Will you be spending your holidays abroad this year?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' No,' she answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' A new play is coming to\" The Globe\" soon,' I said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Will you be seeing it?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' ' No,' she answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Will you be spending your holidays abroad this year?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' No,' she answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' Will you be staying in England?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' No,' she answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' Will you be staying in England?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' No,' she answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "In despair, I asked her whether she was enjoying her dinnerIO，DO.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "In despair, I asked her whether she was enjoying her dinnerIO，DO.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' Young man,' she answered,' if you ate more and talked less, we would both enjoy our dinner!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' Young man,' she answered,' if you ate more and talked less, we would both enjoy our dinner!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1715,27 +1715,27 @@ const articleNce2L41: Article = {
     original: {
     paragraphs: [
       [
-        { text: "'Do you call that a hat?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I said to my wife.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'You needn't be so rude about it,' my wife answered as she looked at herself in the mirror.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I sat down on one of those modern chairs with holes in it and waited.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We had been in the hat shop for half an hour and my wife was still in front of the mirror.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Do you call that a hat?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I said to my wife.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'You needn't be so rude about it,' my wife answered as she looked at herself in the mirror.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I sat down on one of those modern chairs with holes in it and waited.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We had been in the hat shop for half an hour and my wife was still in front of the mirror.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' We mustn't buy things we don't need,' I remarked suddenly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I regretted saying it almost at once.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' We mustn't buy things we don't need,' I remarked suddenly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I regretted saying it almost at once.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'You needn't have said that,' my wife answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I need not remind you [of that terrible tie] you bought yesterday.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'You needn't have said that,' my wife answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I need not remind you [of that terrible tie] you bought yesterday.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' I find it beautiful,' I said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'A man can never have too many ties.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' I find it beautiful,' I said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'A man can never have too many ties.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "Ten minutes later we walked out of the shop together.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My wife was wearing a hat that looked like a lighthouse!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Ten minutes later we walked out of the shop together.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My wife was wearing a hat that looked like a lighthouse!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1766,14 +1766,14 @@ const articleNce2L42: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Aswe had had a long walk through one of the markets of Old Delhi, we stopped at a square to have a rest.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After a time, we noticed a snake-charmer with two large baskets at the other side of the square, so we went to have a look at him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When he began to play a tune, we had our first glimpse of the snake.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It rose out of the basket and began to follow the movements of the pipe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We were very much surprised when the snake charmer suddenly began to play jazz tunes and modern pop songs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The snake, however, continued to 'dance' slowly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It obviously could not tell the difference between Indian music and jazz!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Aswe had had a long walk through one of the markets of Old Delhi, we stopped at a square to have a rest.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After a time, we noticed a snake-charmer with two large baskets at the other side of the square, so we went to have a look at him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When he began to play a tune, we had our first glimpse of the snake.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It rose out of the basket and began to follow the movements of the pipe.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We were very much surprised when the snake charmer suddenly began to play jazz tunes and modern pop songs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The snake, however, continued to 'dance' slowly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It obviously could not tell the difference between Indian music and jazz!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1811,16 +1811,16 @@ const articleNce2L43: Article = {
     original: {
     paragraphs: [
       [
-        { text: "In 1929, three yearsafter his flight over the North Pole, the American explorer, R.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "E.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Byrd, successfully flew over the South Pole for the first time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though, at first, Byrd and his men were able to take a great many photographs of the mountains that lay below, they soon ran into serious trouble.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At one point, it seemed certain that their plane would crash.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It could only get over the mountains if it rose to 10,000 feet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Byrd at once ordered his men to throw out two heavy food sacks.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The plane was then able to rise and it cleared the mountains by 400 feet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Byrd now knew that he would be able to reach the South Pole which was 300 miles away, for there were no more mountains in sight.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The aircraft was able to fly over the endless white plains without difficulty.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "In 1929, three yearsafter his flight over the North Pole, the American explorer, R.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "E.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Byrd, successfully flew over the South Pole for the first time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though, at first, Byrd and his men were able to take a great many photographs of the mountains that lay below, they soon ran into serious trouble.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At one point, it seemed certain that their plane would crash.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It could only get over the mountains if it rose to 10,000 feet.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Byrd at once ordered his men to throw out two heavy food sacks.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The plane was then able to rise and it cleared the mountains by 400 feet.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Byrd now knew that he would be able to reach the South Pole which was 300 miles away, for there were no more mountains in sight.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The aircraft was able to fly over the endless white plains without difficulty.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1858,14 +1858,14 @@ const articleNce2L44: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Mrs Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Mrs Sterling got so angry that she ran after them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She was soon out of breath, but she continued to run.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The men got such a fright that they dropped the bag and ran away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'The strap needs mending,' said Mrs Sterling later, 'but they did not steal anything.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Mrs Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Mrs Sterling got so angry that she ran after them.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She was soon out of breath, but she continued to run.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The men got such a fright that they dropped the bag and ran away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'The strap needs mending,' said Mrs Sterling later, 'but they did not steal anything.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1899,14 +1899,14 @@ const articleNce2L45: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The whole village soon learnt that a large sum of money had been lost.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Sam Benton, the local butcher, had lost his wallet while taking his savings to the post-office.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Sam was sure that the wallet must have been found by one of the villagers, but it was not returned to him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Three months passed, and then one morning, Sam found his wallet outside his front door.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said: 'A thief, yes, 'but only 5o per cent a thief!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' Two months later, some more money was sent to Sam with another note:' Only 25 per cent a thief now!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' In time, all Sam's money was paid back in this way.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The last note said:' I am 100 per cent honest now!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The whole village soon learnt that a large sum of money had been lost.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Sam Benton, the local butcher, had lost his wallet while taking his savings to the post-office.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Sam was sure that the wallet must have been found by one of the villagers, but it was not returned to him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Three months passed, and then one morning, Sam found his wallet outside his front door.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said: 'A thief, yes, 'but only 5o per cent a thief!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' Two months later, some more money was sent to Sam with another note:' Only 25 per cent a thief now!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' In time, all Sam's money was paid back in this way.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The last note said:' I am 100 per cent honest now!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1937,16 +1937,16 @@ const articleNce2L46: Article = {
     original: {
     paragraphs: [
       [
-        { text: "When a plane from London arrived at Sydney airport, workers began to unload a number of wooden boxes which contained clothing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "No one could account for the fact that one of the boxes was extremely heavy.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It suddenly occurred to one of the workers to open up the box.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He was astonished at what he found.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A man was lying in the box on top of a pile of woollen goods.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He was so surprised at being discovered that he did not even try to run away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After he was arrested, the man admitted hiding in the box before the plane left London.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He had had a long and uncomfortable trip, for he had been confined to the wooden box for over ten hours.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The man was ordered to pay345 pounds for the cost of the trip.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The normal price of a ticket is 230 pounds!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "When a plane from London arrived at Sydney airport, workers began to unload a number of wooden boxes which contained clothing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "No one could account for the fact that one of the boxes was extremely heavy.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It suddenly occurred to one of the workers to open up the box.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He was astonished at what he found.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A man was lying in the box on top of a pile of woollen goods.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He was so surprised at being discovered that he did not even try to run away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After he was arrested, the man admitted hiding in the box before the plane left London.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He had had a long and uncomfortable trip, for he had been confined to the wooden box for over ten hours.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The man was ordered to pay345 pounds for the cost of the trip.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The normal price of a ticket is 230 pounds!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -1983,14 +1983,14 @@ const articleNce2L47: Article = {
     original: {
     paragraphs: [
       [
-        { text: "A public house which was recently bought by Mr Ian Thompson is up for sale.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Mr Thompson is going to sell it because it is haunted.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though Mr Thompson had turned the lights off before he went to bed, they were on in the morning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When I suggested that some villagers must have come in for a free drink, Mr Thompson shook his head.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The villagers have told him that they will not accept the inn even if he gives it away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "A public house which was recently bought by Mr Ian Thompson is up for sale.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Mr Thompson is going to sell it because it is haunted.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though Mr Thompson had turned the lights off before he went to bed, they were on in the morning.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When I suggested that some villagers must have come in for a free drink, Mr Thompson shook his head.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The villagers have told him that they will not accept the inn even if he gives it away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2024,15 +2024,15 @@ const articleNce2L48: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Dentists always ask questions when it is impossible for you to answer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My dentist had just pulled out one of my teeth and had told me to rest for a while.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I tried to say something, but my mouth was full of cotton-wool.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He knew I collected birds' eggs and asked me whether my collection was growing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He then asked me how my brother was and whether I liked my new job in London.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In answer to these questions I either nodded or made strange noises.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Meanwhile, my tongue was busy searching out the hole where the tooth had been.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I suddenly felt very worried, but could not say anything.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When the dentist at last removed the cotton-wool from my mouth, I was able to tell him that he had pulled out the wrong tooth.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Dentists always ask questions when it is impossible for you to answer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My dentist had just pulled out one of my teeth and had told me to rest for a while.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I tried to say something, but my mouth was full of cotton-wool.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He knew I collected birds' eggs and asked me whether my collection was growing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He then asked me how my brother was and whether I liked my new job in London.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In answer to these questions I either nodded or made strange noises.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Meanwhile, my tongue was busy searching out the hole where the tooth had been.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I suddenly felt very worried, but could not say anything.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When the dentist at last removed the cotton-wool from my mouth, I was able to tell him that he had pulled out the wrong tooth.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2063,20 +2063,20 @@ const articleNce2L49: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Tired of sleeping on the floor, a young man in Teheran saved up for years to buy a real bed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For the first time in his life, he became the proud owner of a bed which had springs and a mattress.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Because the weather was very hot, he carried the bed on to the roof of his house.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He slept very welladv.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "for the first two nights, but on the third night, a storm blew up.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Tired of sleeping on the floor, a young man in Teheran saved up for years to buy a real bed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "For the first time in his life, he became the proud owner of a bed which had springs and a mattress.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Because the weather was very hot, he carried the bed on to the roof of his house.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He slept very welladv.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "for the first two nights, but on the third night, a storm blew up.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "The young man did not wake up until the bed had struck the ground.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Although the bed was smashedadj.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "to pieces, the man was miraculously unhurt.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When he woke up, he was still on the mattress.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Glancing at the bits of wood and metal that lay around him, the man sadly picked up the mattress and carried it into his house.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After he had put it on the floor, he promptly went to sleep again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The young man did not wake up until the bed had struck the ground.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Although the bed was smashedadj.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "to pieces, the man was miraculously unhurt.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When he woke up, he was still on the mattress.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Glancing at the bits of wood and metal that lay around him, the man sadly picked up the mattress and carried it into his house.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After he had put it on the floor, he promptly went to sleep again.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2114,29 +2114,29 @@ const articleNce2L50: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I love travelling in the country, but I don't like losing my way.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I love travelling in the country, but I don't like losing my way.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "I went on an excursion recently, but my trip took me longer than I expected.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I went on an excursion recently, but my trip took me longer than I expected.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'I'm going to Woodford Green,' I said to the conductor as I got on the bus, 'but I don't know where it is.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'I'm going to Woodford Green,' I said to the conductor as I got on the bus, 'but I don't know where it is.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "I sat in the front of the bus to get a good view of the countryside.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After some time, the bus stopped.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Looking round, I realized with a shock that I was the only passenger left on the bus.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I sat in the front of the bus to get a good view of the countryside.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After some time, the bus stopped.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Looking round, I realized with a shock that I was the only passenger left on the bus.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'You'll have to get off here,' the conductor said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'This is as far as we go.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'You'll have to get off here,' the conductor said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'This is as far as we go.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Oh dear,' said the conductor suddenly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I forgot to put you off.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Oh dear,' said the conductor suddenly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I forgot to put you off.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Well, in that case, I prefer to stay on the bus,' I answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Well, in that case, I prefer to stay on the bus,' I answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2165,22 +2165,22 @@ const articleNce2L51: Article = {
     original: {
     paragraphs: [
       [
-        { text: "My friend, Hugh, has always been fat, but thingsgot so bad recently that he decided to go on a diet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He began his diet a week ago.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "First of all, he wrote out a long list of all the foods which were forbidden.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The list included most of the things Hugh loves: butter, potatoes, rice, beer, milk, chocolate; and sweets.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "My friend, Hugh, has always been fat, but thingsgot so bad recently that he decided to go on a diet.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He began his diet a week ago.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "First of all, he wrote out a long list of all the foods which were forbidden.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The list included most of the things Hugh loves: butter, potatoes, rice, beer, milk, chocolate; and sweets.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "Yesterday I paid him a visit.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I rang the bell and was not surprised to see that Hugh was still as fat as ever.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He led me into his room and hurriedly hid a large parcel under his desk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was obvious that he was very embarrassed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When I asked him what he was doing, he smiled guiltily and then put the parcel on the desk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Yesterday I paid him a visit.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I rang the bell and was not surprised to see that Hugh was still as fat as ever.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He led me into his room and hurriedly hid a large parcel under his desk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was obvious that he was very embarrassed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When I asked him what he was doing, he smiled guiltily and then put the parcel on the desk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "occasionally.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then he showed me the contents of the parcel.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It contained five large bars of chocolate and three bags of sweets!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "occasionally.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then he showed me the contents of the parcel.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It contained five large bars of chocolate and three bags of sweets!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2215,20 +2215,20 @@ const articleNce2L52: Article = {
     original: {
     paragraphs: [
       [
-        { text: "We have just moved into a new house and I have been working hard all morning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I have been trying to get my new room in order.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "We have just moved into a new house and I have been working hard all morning.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I have been trying to get my new room in order.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "I own over a thousand books.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "To make matters worse, the room is rather small, so I have temporarily put my books on the floor.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I own over a thousand books.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "To make matters worse, the room is rather small, so I have temporarily put my books on the floor.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "At the moment, they cover every inch of floor space and I actually have to walk on them to get in or out of the room.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A short while ago, my sister helped me to carry one of my old bookcases up the stairs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She went into my room and got a big surprise when she saw all those books on the floor.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'This is the prettiest carpet I have ever seen,' she said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She gazed at it for some time then added, 'You don't need bookcases at all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "You can sit here in your spare time and read the carpet!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "At the moment, they cover every inch of floor space and I actually have to walk on them to get in or out of the room.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A short while ago, my sister helped me to carry one of my old bookcases up the stairs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She went into my room and got a big surprise when she saw all those books on the floor.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'This is the prettiest carpet I have ever seen,' she said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She gazed at it for some time then added, 'You don't need bookcases at all.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "You can sit here in your spare time and read the carpet!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2257,20 +2257,20 @@ const articleNce2L53: Article = {
     original: {
     paragraphs: [
       [
-        { text: "At last firemen have put out a big forest fire in California.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Since then, they have been trying to find out how the fire began.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "At last firemen have put out a big forest fire in California.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Since then, they have been trying to find out how the fire began.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "Yesterday the firemen examined the ground carefully, but were not able to find any broken glass.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They were also quite sure that a cigarette end did not start the fire.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This morning, however, a firemen accidentally discovered the cause.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He noticed the remains of a snake which was wound round the electric wires of a 16,000-volt power line.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In this way, he was able to solve the mystery.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The explanation was simple but very unusual.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A bird had snatched up the snake from the ground and then dropped it on to the wires.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The snake then, wound itself round the wires.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When it did so, it sent sparks down to the ground and these immediately started a fire.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Yesterday the firemen examined the ground carefully, but were not able to find any broken glass.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They were also quite sure that a cigarette end did not start the fire.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This morning, however, a firemen accidentally discovered the cause.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He noticed the remains of a snake which was wound round the electric wires of a 16,000-volt power line.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In this way, he was able to solve the mystery.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The explanation was simple but very unusual.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A bird had snatched up the snake from the ground and then dropped it on to the wires.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The snake then, wound itself round the wires.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When it did so, it sent sparks down to the ground and these immediately started a fire.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2309,22 +2309,22 @@ const articleNce2L54: Article = {
     original: {
     paragraphs: [
       [
-        { text: "After breakfast, I sent the children to school and then I went to the shops.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was still early when I returned home.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The children were at school, my husband was at work and the house was quiet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "So I decided to make some meat pies.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In a short time I was busy mixing butter and flour and my hands were soon covered with sticky pastry.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "After breakfast, I sent the children to school and then I went to the shops.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was still early when I returned home.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The children were at school, my husband was at work and the house was quiet.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "So I decided to make some meat pies.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In a short time I was busy mixing butter and flour and my hands were soon covered with sticky pastry.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "At exactly that moment, the telephone rang.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Nothing could have been more annoying.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I picked up the receiver between two sticky fingers and was dismayed when I recognized the voice of Helen Bates.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It took me ten minutes to persuade her to ring back later.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At last I hung up the receiver.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "What a mess!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There was pastry on my fingers, on the telephone, and on the doorknobs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had no sooner got back to the kitchen than the doorbell rang loud enough to wake the dead.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This time it was the postman and he wanted me to sign for a registered letter!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "At exactly that moment, the telephone rang.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Nothing could have been more annoying.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I picked up the receiver between two sticky fingers and was dismayed when I recognized the voice of Helen Bates.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It took me ten minutes to persuade her to ring back later.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At last I hung up the receiver.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "What a mess!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "There was pastry on my fingers, on the telephone, and on the doorknobs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had no sooner got back to the kitchen than the doorbell rang loud enough to wake the dead.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This time it was the postman and he wanted me to sign for a registered letter!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2363,18 +2363,18 @@ const articleNce2L55: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Dreams of finding lost treasure almost came true recently.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A new machine called 'The Revealer' has been invented and it has been used to detect gold which has been buried in the ground.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The machine was used in a cave near the seashore where -- it is said -- pirates used to hide gold.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The pirates would often bury gold in the cave and then fail to collect it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Armed with the new machine, a search party went into the cave hoping to find buried treasure.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Dreams of finding lost treasure almost came true recently.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A new machine called 'The Revealer' has been invented and it has been used to detect gold which has been buried in the ground.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The machine was used in a cave near the seashore where -- it is said -- pirates used to hide gold.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The pirates would often bury gold in the cave and then fail to collect it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Armed with the new machine, a search party went into the cave hoping to find buried treasure.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "The leader of the party was examining the soil near the entrance to the cave when the machine showed that there was gold under the ground.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Very excited, the party dug a hole two feel deep.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They finally found a small gold coin which was almost worthless.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The party then searched the whole cave thoroughly but did not find anything except an empty tin trunk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The leader of the party was examining the soil near the entrance to the cave when the machine showed that there was gold under the ground.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Very excited, the party dug a hole two feel deep.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They finally found a small gold coin which was almost worthless.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The party then searched the whole cave thoroughly but did not find anything except an empty tin trunk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2418,20 +2418,20 @@ const articleNce2L56: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Once a year, a race is held for old cars.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "One of the most handsome cars was a Rolls-Royce Silver Ghost.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The most unusual car was a Benz which had only three wheels.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Built in 1885, it was the oldest car taking part.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After a great many loud explosions, the race began.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Once a year, a race is held for old cars.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "One of the most handsome cars was a Rolls-Royce Silver Ghost.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The most unusual car was a Benz which had only three wheels.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Built in 1885, it was the oldest car taking part.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After a great many loud explosions, the race began.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "Many of the cars broke down on the course and some drivers spent more time under their cars than in them!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A few cars, however, completed the race.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The winning car reached a speed of forty miles an hour -- much faster than any of its rivals.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The race gave everyone a great deal of pleasure.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was very different from modern car races but no less exciting.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Many of the cars broke down on the course and some drivers spent more time under their cars than in them!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A few cars, however, completed the race.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The winning car reached a speed of forty miles an hour -- much faster than any of its rivals.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The race gave everyone a great deal of pleasure.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was very different from modern car races but no less exciting.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2467,19 +2467,19 @@ const articleNce2L57: Article = {
     original: {
     paragraphs: [
       [
-        { text: "A woman in jeans stood at the window of an expensive shop.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though she hesitated for a moment, she finally went in and asked to see a dress that was in the window.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The assistant who served her did not like the way she was dressed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Glancing at her scornfully, he told her that the dress was sold.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The woman walked out of the shop angrily and decided to punish the assistant next day.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "A woman in jeans stood at the window of an expensive shop.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though she hesitated for a moment, she finally went in and asked to see a dress that was in the window.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The assistant who served her did not like the way she was dressed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Glancing at her scornfully, he told her that the dress was sold.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The woman walked out of the shop angrily and decided to punish the assistant next day.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "After seeking out the rude assistant, she asked for the same dress.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Not realizing who she was, the assistant was eager to serve her this time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "With great difficulty, he climbed into the shop window to get the dress.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as she saw it, the woman said she did not like it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "After seeking out the rude assistant, she asked for the same dress.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Not realizing who she was, the assistant was eager to serve her this time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "With great difficulty, he climbed into the shop window to get the dress.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as she saw it, the woman said she did not like it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2512,15 +2512,15 @@ const articleNce2L58: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The tiny village of Frinley is said to possess a 'cursed tree'.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Because the tree was mentioned in a newspaper, the number of visitors to Frinley has now increased.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The tree was planted near the church fifty years ago, but it is only in recent years that it has gained an evil reputation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is said that if anyone touches the tree, he will have bad luck; if he picks a leaf, he will die.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Many villagers believe that the tree has already claimed a number of victims.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The vicar has been asked to have the tree cut down, but so far he has refused.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has pointed out that the tree is a useful source of income, as tourists have been coming from all parts of the country to see it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In spite of all that has been said, the tourists have been picking leaves and cutting their names on the tree-trunk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "So far, not one of them has been struck down by sudden death!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The tiny village of Frinley is said to possess a 'cursed tree'.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Because the tree was mentioned in a newspaper, the number of visitors to Frinley has now increased.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The tree was planted near the church fifty years ago, but it is only in recent years that it has gained an evil reputation.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is said that if anyone touches the tree, he will have bad luck; if he picks a leaf, he will die.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Many villagers believe that the tree has already claimed a number of victims.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The vicar has been asked to have the tree cut down, but so far he has refused.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has pointed out that the tree is a useful source of income, as tourists have been coming from all parts of the country to see it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In spite of all that has been said, the tourists have been picking leaves and cutting their names on the tree-trunk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "So far, not one of them has been struck down by sudden death!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2561,17 +2561,17 @@ const articleNce2L59: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Our dog, Rex, used to sit outside our front gate and dark.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Every time he wanted to come into the garden he would bark until someone opened the gate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Rex soon became an expert at opening the gate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "However, when I was going out shopping last week, I noticed him in the garden near the gate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This time he was barking so that someone would let him out!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Since then, he has developed another bad habit.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then he sits and barks until someone lets him out.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After this he immediately lets himself in and begins barking again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Yesterday my husband removed the gate and Rex got so annoyed we have not seen him since.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Our dog, Rex, used to sit outside our front gate and dark.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Every time he wanted to come into the garden he would bark until someone opened the gate.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Rex soon became an expert at opening the gate.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "However, when I was going out shopping last week, I noticed him in the garden near the gate.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This time he was barking so that someone would let him out!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Since then, he has developed another bad habit.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then he sits and barks until someone lets him out.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After this he immediately lets himself in and begins barking again.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Yesterday my husband removed the gate and Rex got so annoyed we have not seen him since.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2604,22 +2604,22 @@ const articleNce2L60: Article = {
     original: {
     paragraphs: [
       [
-        { text: "At a village fair, I decided to visit a fortune-teller called Madam Bellinsky.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I went into her tent and she told me to sit down.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After I had given her some money, she looked into a crystal ball and said: 'A relation of yours is coming to see you.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She will be arriving this evening and intends to stay for a few days.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The moment you leave this tent, you will get a big surprise.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A woman you know well will rush towards you.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She will speak to you and then she will lead you away from this place.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "That is all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "At a village fair, I decided to visit a fortune-teller called Madam Bellinsky.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I went into her tent and she told me to sit down.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After I had given her some money, she looked into a crystal ball and said: 'A relation of yours is coming to see you.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She will be arriving this evening and intends to stay for a few days.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The moment you leave this tent, you will get a big surprise.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A woman you know well will rush towards you.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She will speak to you and then she will lead you away from this place.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "That is all.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "As soon as I went outside, I forgot all about Madam Bellinsky because my wife hurried towards me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Where have you been hiding?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' she asked impatiently.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Your sister will be here in less than an hour and we must be at the station to meet her.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We are late already.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' As she walked away, I followed her out of the fair.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "As soon as I went outside, I forgot all about Madam Bellinsky because my wife hurried towards me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Where have you been hiding?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' she asked impatiently.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Your sister will be here in less than an hour and we must be at the station to meet her.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We are late already.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' As she walked away, I followed her out of the fair.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2650,15 +2650,15 @@ const articleNce2L61: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The Hubble telescope was launched into space by NASA on April 20,1990 at a cost of over a billion dollars.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Right from the start there was trouble with the Hubble.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The pictures it sent us were very disappointing because its main mirror was faulty!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "NASA is now going to put the telescope right, so it will soon be sending up four astronauts to repair it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The shuttle Endeavour will be taking the astronauts to the Hubble.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A robot-arm from the Endeavour will grab the telescope and hold it while the astronauts make the necessary repairs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Of course, the Hubble is above the earth's atmosphere, so it will soon be sending us the clearest pictures of the stars and distant galaxies that we have ever seen.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The Hubble will tell us a great deal about the age and size of the universe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By the time you read this, the Hubble's eagle eye will have sent us thousands and thousands of wonderful pictures.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The Hubble telescope was launched into space by NASA on April 20,1990 at a cost of over a billion dollars.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Right from the start there was trouble with the Hubble.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The pictures it sent us were very disappointing because its main mirror was faulty!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "NASA is now going to put the telescope right, so it will soon be sending up four astronauts to repair it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The shuttle Endeavour will be taking the astronauts to the Hubble.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A robot-arm from the Endeavour will grab the telescope and hold it while the astronauts make the necessary repairs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Of course, the Hubble is above the earth's atmosphere, so it will soon be sending us the clearest pictures of the stars and distant galaxies that we have ever seen.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The Hubble will tell us a great deal about the age and size of the universe.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "By the time you read this, the Hubble's eagle eye will have sent us thousands and thousands of wonderful pictures.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2700,15 +2700,15 @@ const articleNce2L62: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Firemen had been fighting the forest for nearly three weeks before they could get it under control.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A short time before, great trees had covered the countryside for miles around.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now, smoke still rose up from the warm ground over the desolate hills.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Winter was coming on and the hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The seed was sprayed over the ground in huge quantities by aeroplanes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The planes had been planting seed for nearly a month when it began to rain.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By then, however, in many places the grass had already taken root.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In place of the great trees which had been growing there for centuries patches of green had begun to appear in the blackened soil.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Firemen had been fighting the forest for nearly three weeks before they could get it under control.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A short time before, great trees had covered the countryside for miles around.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Now, smoke still rose up from the warm ground over the desolate hills.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Winter was coming on and the hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The seed was sprayed over the ground in huge quantities by aeroplanes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The planes had been planting seed for nearly a month when it began to rain.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "By then, however, in many places the grass had already taken root.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In place of the great trees which had been growing there for centuries patches of green had begun to appear in the blackened soil.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2748,17 +2748,17 @@ const articleNce2L63: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Jeremy Hampden has a large circle of friends and if very popular at parties.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Everybody admires him for his great sense of humour -- everybody, that is, except his six-year-old daughter, Jenny.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Recently, one of Jeremy's closest friends asked him to make a speech at a wedding reception.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This is the sort of thing that Jeremy loves.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He prepared the speech carefully and went to the wedding with Jenny.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "he had included a large number of funny stories in the speech and, of course, it was a great success.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as he had finished, Jenny told him she wanted to go home.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Jeremy was a little disappointed by this but he did as his daughter asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On the way home, he asked Jenny if she had enjoyed the speech.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "To his surprise, she said she hadn't.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Jeremy asked her why this was so and she told him that she did not like to see so many people laughing at him!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Jeremy Hampden has a large circle of friends and if very popular at parties.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Everybody admires him for his great sense of humour -- everybody, that is, except his six-year-old daughter, Jenny.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Recently, one of Jeremy's closest friends asked him to make a speech at a wedding reception.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This is the sort of thing that Jeremy loves.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He prepared the speech carefully and went to the wedding with Jenny.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "he had included a large number of funny stories in the speech and, of course, it was a great success.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as he had finished, Jenny told him she wanted to go home.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Jeremy was a little disappointed by this but he did as his daughter asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On the way home, he asked Jenny if she had enjoyed the speech.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "To his surprise, she said she hadn't.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Jeremy asked her why this was so and she told him that she did not like to see so many people laughing at him!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2789,17 +2789,17 @@ const articleNce2L64: Article = {
     original: {
     paragraphs: [
       [
-        { text: "In 1858, a French engineer, Aime Thome de Gamond, arrived in England with a plan for a twenty-one-mile tunnel under the English Channel.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He said that it would be possible to build a platform in the centre of the Channel.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This platform would serve as a port and a railway station.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The tunnel would be well-ventilated if tall chimneys were built above sea level.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In 1860, a better plan was put forward by an Englishman, William Low.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He suggested that a double railway-tunnel should be built.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This would solve the problem of ventilation, for if a train entered this tunnel, it would draw in fresh air behind it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Forty-two years later a tunnel was actually begun.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If, at the time, the British had not feared invasion, it would have been completed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The world had to wait almost another 100 years for the Channel Tunnel.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was officially opened on March 7,1994, finally connecting Britain to the European continent.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "In 1858, a French engineer, Aime Thome de Gamond, arrived in England with a plan for a twenty-one-mile tunnel under the English Channel.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He said that it would be possible to build a platform in the centre of the Channel.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This platform would serve as a port and a railway station.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The tunnel would be well-ventilated if tall chimneys were built above sea level.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In 1860, a better plan was put forward by an Englishman, William Low.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He suggested that a double railway-tunnel should be built.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This would solve the problem of ventilation, for if a train entered this tunnel, it would draw in fresh air behind it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Forty-two years later a tunnel was actually begun.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If, at the time, the British had not feared invasion, it would have been completed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The world had to wait almost another 100 years for the Channel Tunnel.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was officially opened on March 7,1994, finally connecting Britain to the European continent.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2837,15 +2837,15 @@ const articleNce2L65: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Last Christmas, the circus owner, Jimmy Gates, decided to take some presents to a children's hospital.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Dressed up as Father Christmas and accompanied by a 'guard of honour' of six pretty girls, he set off down the main street of the city riding a baby elephant called Jumbo.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He should have known that the police would never allow this sort of thing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A policeman approached Jimmy and told him he ought to have gone along a side street as Jumbo was holding up the traffic.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though Jimmy agreed to go at once, Jumbo refused to move.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Fifteen policemen had to push very hard to get him off the main street.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The police had a difficult time, but they were most amused.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Jumbo must weigh a few tons,' said a policeman afterwards, 'so it was fortunate that we didn't have to carry him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Of course, we should arrest him, but as he has a good record, we shall let him off this time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Last Christmas, the circus owner, Jimmy Gates, decided to take some presents to a children's hospital.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Dressed up as Father Christmas and accompanied by a 'guard of honour' of six pretty girls, he set off down the main street of the city riding a baby elephant called Jumbo.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He should have known that the police would never allow this sort of thing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A policeman approached Jimmy and told him he ought to have gone along a side street as Jumbo was holding up the traffic.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though Jimmy agreed to go at once, Jumbo refused to move.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Fifteen policemen had to push very hard to get him off the main street.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The police had a difficult time, but they were most amused.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Jumbo must weigh a few tons,' said a policeman afterwards, 'so it was fortunate that we didn't have to carry him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Of course, we should arrest him, but as he has a good record, we shall let him off this time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2879,15 +2879,15 @@ const articleNce2L66: Article = {
     original: {
     paragraphs: [
       [
-        { text: "In 1963 a Lancaster bomber crashed on Wallis Island, a remote place in the South Pacific, a long way west of Samoa.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The plane wasn't too badly damaged, but over the years, the crash was forgotten and the wreck remained undisturbed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then in 1989, twenty-six years after the crash, the plane was accidentally rediscovered in an aerial survey of the island.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By this time, a Lancaster bomber in reasonable condition was rare and worth rescuing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The French authorities had the plane packaged and moved in parts back to France.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now a group of enthusiasts are going to have the plane restored.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It has four Rolls-Royce Merlin engines, but the group will need to have only three of them rebuilt.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Imagine their surprise and delight when they broke open the packing cases and found that the fourth engine was sweet as honey -- still in perfect condition.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A colony of bees had turned the engine into a hive and it was totally preserved in beeswax!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "In 1963 a Lancaster bomber crashed on Wallis Island, a remote place in the South Pacific, a long way west of Samoa.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The plane wasn't too badly damaged, but over the years, the crash was forgotten and the wreck remained undisturbed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then in 1989, twenty-six years after the crash, the plane was accidentally rediscovered in an aerial survey of the island.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "By this time, a Lancaster bomber in reasonable condition was rare and worth rescuing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The French authorities had the plane packaged and moved in parts back to France.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Now a group of enthusiasts are going to have the plane restored.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It has four Rolls-Royce Merlin engines, but the group will need to have only three of them rebuilt.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Imagine their surprise and delight when they broke open the packing cases and found that the fourth engine was sweet as honey -- still in perfect condition.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A colony of bees had turned the engine into a hive and it was totally preserved in beeswax!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2932,16 +2932,16 @@ const articleNce2L67: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Haroun Tazieff, the Polish scientist, has spent his lifetime studying active volcanoes and deep caves in all parts of the world.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In 1948, he went to Lake Kivu in the Congo to observe a new volcano which he later named Kituro.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tazieff was able to set up his camp very close to the volcano while it was erupting violently.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though he managed to take a number of brilliant photographs, he could not stay near the volcano for very long.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He noticed that a river of liquid rock was coming towards him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It threatened to surround him completely, but Tazieff managed to escape just in time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He waited until the volcano became quiet and he was able to return two days later.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This time, he managed to climb into the mouth of Kituro so that he could take photographs and measure temperatures.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tazieff has often risked his life in this way.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has been able to tell us more about active volcanoes than any man alive.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Haroun Tazieff, the Polish scientist, has spent his lifetime studying active volcanoes and deep caves in all parts of the world.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In 1948, he went to Lake Kivu in the Congo to observe a new volcano which he later named Kituro.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Tazieff was able to set up his camp very close to the volcano while it was erupting violently.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though he managed to take a number of brilliant photographs, he could not stay near the volcano for very long.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He noticed that a river of liquid rock was coming towards him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It threatened to surround him completely, but Tazieff managed to escape just in time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He waited until the volcano became quiet and he was able to return two days later.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This time, he managed to climb into the mouth of Kituro so that he could take photographs and measure temperatures.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Tazieff has often risked his life in this way.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has been able to tell us more about active volcanoes than any man alive.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -2978,25 +2978,25 @@ const articleNce2L68: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I crossed the street to avoid meeting him, but he saw me and came running towards me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was no use pretending that I had not seen him, so I waved to him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I never enjoy meeting Nigel Dykes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He never has anything to do.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "No matter how busy you are, he always insists on coming with you.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had to think of a way of preventing him from following me around all morning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I crossed the street to avoid meeting him, but he saw me and came running towards me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was no use pretending that I had not seen him, so I waved to him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I never enjoy meeting Nigel Dykes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He never has anything to do.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "No matter how busy you are, he always insists on coming with you.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had to think of a way of preventing him from following me around all morning.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Hi, Elizabeth,' Nigel answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'I was just wondering how to spend the morning -- until I saw you.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "You're not busy doing anything, are you?", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Hi, Elizabeth,' Nigel answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'I was just wondering how to spend the morning -- until I saw you.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "You're not busy doing anything, are you?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Would you mind my coming with you?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' he asked, before I had finished speaking.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Would you mind my coming with you?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' he asked, before I had finished speaking.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Then I'll come with you,' he answered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'There's always plenty to read in the waiting room!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Then I'll come with you,' he answered.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'There's always plenty to read in the waiting room!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3024,20 +3024,20 @@ const articleNce2L69: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I was being tested for a driving licence for the third time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had been asked to drive in heavy traffic and had done so successfully.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After having been instructed to drive out of town, I began to acquire confidence.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Sure that I had passed, I was almost beginning to enjoy my test.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The examiner must have been pleased with my performance, for he smiled and said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Just one more thing, Mr.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Eames.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Let us suppose that a child suddenly crosses the road in front of you.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as I tap on the window, you must stop within five feet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I continued driving and after some time, the examiner tapped loudly, Though the sound could be heard clearly, it took me a long time to react.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I suddenly pressed the brake pedal and we were both thrown forward.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The examiner looked at me sadly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Mr.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Eames,' he said, in a mournful voice, 'you have just killed that child!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I was being tested for a driving licence for the third time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had been asked to drive in heavy traffic and had done so successfully.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After having been instructed to drive out of town, I began to acquire confidence.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Sure that I had passed, I was almost beginning to enjoy my test.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The examiner must have been pleased with my performance, for he smiled and said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Just one more thing, Mr.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Eames.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Let us suppose that a child suddenly crosses the road in front of you.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as I tap on the window, you must stop within five feet.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I continued driving and after some time, the examiner tapped loudly, Though the sound could be heard clearly, it took me a long time to react.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I suddenly pressed the brake pedal and we were both thrown forward.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The examiner looked at me sadly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Mr.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Eames,' he said, in a mournful voice, 'you have just killed that child!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3073,16 +3073,16 @@ const articleNce2L70: Article = {
     original: {
     paragraphs: [
       [
-        { text: "During a bullfight, a drunk suddenly wandered into the middle of the ring.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The crowd began to shout, but the drunk was unaware of the danger.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The bull was busy with the matador at the time, but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Apparently sensitive to criticism, the bull forgot all about the matador and charged at the drunk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The crowd suddenly grew quiet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The drunk, however, seemed quite sure of himself.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When the bull got close to him, he clumsily stepped aside to let it pass.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The crowd broke into cheers and the drunk bowed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By this time, however, three men had come into the ring and they quickly dragged the drunk to safety.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Even the bull seemed to feel sorry for him, for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "During a bullfight, a drunk suddenly wandered into the middle of the ring.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The crowd began to shout, but the drunk was unaware of the danger.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The bull was busy with the matador at the time, but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Apparently sensitive to criticism, the bull forgot all about the matador and charged at the drunk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The crowd suddenly grew quiet.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The drunk, however, seemed quite sure of himself.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When the bull got close to him, he clumsily stepped aside to let it pass.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The crowd broke into cheers and the drunk bowed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "By this time, however, three men had come into the ring and they quickly dragged the drunk to safety.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Even the bull seemed to feel sorry for him, for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3123,20 +3123,20 @@ const articleNce2L71: Article = {
     original: {
     paragraphs: [
       [
-        { text: "When you visit London, one of the first things you will see is Big Ben, the famous clock which can be heard all over the world on the B.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "B.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "C.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If the Houses of Parliament had hot been burned down in 1834, the great clock would never have been erected.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Big Ben takes its name from Sir Benjamin Hall who was responsible for the making of the clock when the new Houses of Parliament were being built.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is not only of immense size, but is extremely accurate as well.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Officials from Greenwich Observatory have the clock checked twice a day.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On the B.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "B.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "C.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "you can hear the clock when it is actually striking because microphones are connected to the clock tower.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Big Ben has rarely gone wrong.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Once, however, it failed to give the correct time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A painter who had been working on the tower hung a pot of paint on one of the hands and slowed it down!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "When you visit London, one of the first things you will see is Big Ben, the famous clock which can be heard all over the world on the B.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "B.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "C.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If the Houses of Parliament had hot been burned down in 1834, the great clock would never have been erected.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Big Ben takes its name from Sir Benjamin Hall who was responsible for the making of the clock when the new Houses of Parliament were being built.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is not only of immense size, but is extremely accurate as well.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Officials from Greenwich Observatory have the clock checked twice a day.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On the B.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "B.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "C.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "you can hear the clock when it is actually striking because microphones are connected to the clock tower.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Big Ben has rarely gone wrong.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Once, however, it failed to give the correct time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A painter who had been working on the tower hung a pot of paint on one of the hands and slowed it down!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3170,17 +3170,17 @@ const articleNce2L72: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The great racing driver, Sir Malcolm Campbell, was the first man to drive at over 300 miles per hour.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He set up a new world record in September 1935 at Bonneville Salt Flats, Utah.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Bluebird, the car he was driving, had been specially built for him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was over 30 feet in length and had a 2500 horse-power engine.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Although Campbell reached a speed of over 304 miles per hour, he had great difficulty in controlling the car because a tyre burst during the first run.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After his attempt, Campbell was disappointed to learn that his average speed had been 299 miles per hour.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "However, a few days later, he was told that a mistake had been made.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "His average speed had been 301 miles per hour.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Since that time, racing drivers have reached speeds of over 400 miles an hour.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Following his father's footsteps many years later, Sir Malcolm's son, Donald, also set up a world record.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Like his father, he was driving a car called Bluebird.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The great racing driver, Sir Malcolm Campbell, was the first man to drive at over 300 miles per hour.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He set up a new world record in September 1935 at Bonneville Salt Flats, Utah.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Bluebird, the car he was driving, had been specially built for him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was over 30 feet in length and had a 2500 horse-power engine.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Although Campbell reached a speed of over 304 miles per hour, he had great difficulty in controlling the car because a tyre burst during the first run.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After his attempt, Campbell was disappointed to learn that his average speed had been 299 miles per hour.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "However, a few days later, he was told that a mistake had been made.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "His average speed had been 301 miles per hour.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Since that time, racing drivers have reached speeds of over 400 miles an hour.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Following his father's footsteps many years later, Sir Malcolm's son, Donald, also set up a world record.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Like his father, he was driving a car called Bluebird.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3212,17 +3212,17 @@ const articleNce2L73: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Little boys who play truant from school are unimaginative.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A quiet day's fishing, or eight hours in a cinema seeing the same filmover and over again, is usually as far as they get.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They have all been put to shame by a boy who, while playing truant, travelled 1600 miles.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He hitch- hiked to Dover and, towards evening, went into a boat to find somewhere to sleep.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "No one noticed the boy as he crept off.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "From there, he hitch-hiked to Paris in a lorry.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The driver gave him a few biscuits and a cup of coffee and left him just outside the city.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The next car [the boy stopped] did not take him into the centre of Paris as he hoped it would, but to Perpignan on the French-Spanish border.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There he was picked up by a policeman and sent back to England by the local authorities.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has surely set up a record for the thousands of boys who dream of evading school.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Little boys who play truant from school are unimaginative.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A quiet day's fishing, or eight hours in a cinema seeing the same filmover and over again, is usually as far as they get.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They have all been put to shame by a boy who, while playing truant, travelled 1600 miles.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He hitch- hiked to Dover and, towards evening, went into a boat to find somewhere to sleep.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "No one noticed the boy as he crept off.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "From there, he hitch-hiked to Paris in a lorry.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The driver gave him a few biscuits and a cup of coffee and left him just outside the city.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The next car [the boy stopped] did not take him into the centre of Paris as he hoped it would, but to Perpignan on the French-Spanish border.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "There he was picked up by a policeman and sent back to England by the local authorities.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has surely set up a record for the thousands of boys who dream of evading school.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3250,38 +3250,38 @@ const articleNce2L74: Article = {
     original: {
     paragraphs: [
       [
-        { text: "An ancient bus stopped by a dry river bed and a party of famous actors and actresses got off.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But as they soon discovered, disguises can sometimes be too perfect.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "An ancient bus stopped by a dry river bed and a party of famous actors and actresses got off.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "But as they soon discovered, disguises can sometimes be too perfect.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'This is a wonderful place for a picnic,' said Gloria Gleam.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'This is a wonderful place for a picnic,' said Gloria Gleam.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' It couldn't be better, Gloria,' Brinksley Meers agreed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'No newspaper men, no film fans!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Why don't we come more often?", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' It couldn't be better, Gloria,' Brinksley Meers agreed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'No newspaper men, no film fans!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Why don't we come more often?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "Meanwhile, two other actors, Rockwall Slinger and Merlin Greeves, had carried two large food baskets to a shady spot under some trees.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When they had all made themselves comfortable, a stranger appeared.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He looked very angry.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Meanwhile, two other actors, Rockwall Slinger and Merlin Greeves, had carried two large food baskets to a shady spot under some trees.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When they had all made themselves comfortable, a stranger appeared.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He looked very angry.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Now you gut out of here, all of you!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' he shouted: ' I'm sheriff here.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Do you see that notice?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It says\" No Camping\"-in case you can't read!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Now you gut out of here, all of you!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' he shouted: ' I'm sheriff here.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Do you see that notice?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It says\" No Camping\"-in case you can't read!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' Look, sheriff, 'said Rockwall,' don't be too hard on us.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I'm Rockwall Slinger and this is Merlin Greeves.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' Look, sheriff, 'said Rockwall,' don't be too hard on us.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I'm Rockwall Slinger and this is Merlin Greeves.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' Oh, is it?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' said the sheriff with a sneer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Well, I'm Brinksley Meers, and my other name is Gloria Gleam.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now you get out of here fast!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' Oh, is it?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' said the sheriff with a sneer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Well, I'm Brinksley Meers, and my other name is Gloria Gleam.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Now you get out of here fast!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3307,20 +3307,20 @@ const articleNce2L75: Article = {
     original: {
     paragraphs: [
       [
-        { text: "When a light passenger plane flew off course some time ago, it crashed in the mountains and its pilot was killed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The only passengers, a young woman and her two baby daughters, were unhurt.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was the middle of winter.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Snow lay thick on the ground.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The woman knew that the nearest village was miles away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When it grew dark.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "she turned a suitcase into a bed and put the children inside it, covering them with all the clothes she could find.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "During the night, it got terribly cold.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The woman kept as near as she could to the children and even tried to get into the case herself, but it was too small.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Early, next morning she heard planes passing overhead and wondered how she could send a signal.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then she had an idea.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She stamped out the letters' SOS' in the snow.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Fortunately, a pilot saw the signal and sent a message by radio to the nearest town.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was not long before a helicopter arrived on the scene to rescue the survivors of the scrash.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "When a light passenger plane flew off course some time ago, it crashed in the mountains and its pilot was killed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The only passengers, a young woman and her two baby daughters, were unhurt.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was the middle of winter.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Snow lay thick on the ground.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The woman knew that the nearest village was miles away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When it grew dark.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "she turned a suitcase into a bed and put the children inside it, covering them with all the clothes she could find.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "During the night, it got terribly cold.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The woman kept as near as she could to the children and even tried to get into the case herself, but it was too small.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Early, next morning she heard planes passing overhead and wondered how she could send a signal.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then she had an idea.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She stamped out the letters' SOS' in the snow.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Fortunately, a pilot saw the signal and sent a message by radio to the nearest town.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was not long before a helicopter arrived on the scene to rescue the survivors of the scrash.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3345,19 +3345,19 @@ const articleNce2L76: Article = {
     original: {
     paragraphs: [
       [
-        { text: "'To end our special news bulletin,' said the voice of the television announcer,' we are taking you to the macaroni fields of Calabria.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Macaroni has been grown in this area for over six hundred years.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Two of the leading growers, Giuseppe Moldova and Ricardo Brabante, tell me that they have been expecting a splendid crop this year and harvestingn.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "has begun earlier than usual.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Here you can see two workers who, between them, have just finished cutting three cart-loads of golden brown macaroni stalks.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The whole village has been working day and night gathering and threshing this year's crop [before the September rains].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On the right, you can see Mrs Brabante herself.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "She has been helping her husband for thirty years now.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Mrs Brabante is talking to the manager of the local factory where the crop is processed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This last scene shows you what will happen at the end of the harvest: the famous Calabrian macaroni-eating competition!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Signor Fratelli, the present champion, has won it every year since 1961.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "And that ends our special bulletin for today, Thursday, April 1st.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We are now returning you to the studio.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'To end our special news bulletin,' said the voice of the television announcer,' we are taking you to the macaroni fields of Calabria.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Macaroni has been grown in this area for over six hundred years.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Two of the leading growers, Giuseppe Moldova and Ricardo Brabante, tell me that they have been expecting a splendid crop this year and harvestingn.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "has begun earlier than usual.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Here you can see two workers who, between them, have just finished cutting three cart-loads of golden brown macaroni stalks.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The whole village has been working day and night gathering and threshing this year's crop [before the September rains].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On the right, you can see Mrs Brabante herself.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "She has been helping her husband for thirty years now.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Mrs Brabante is talking to the manager of the local factory where the crop is processed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This last scene shows you what will happen at the end of the harvest: the famous Calabrian macaroni-eating competition!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Signor Fratelli, the present champion, has won it every year since 1961.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "And that ends our special bulletin for today, Thursday, April 1st.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We are now returning you to the studio.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3391,19 +3391,19 @@ const articleNce2L77: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The mummy of an Egyptian woman [who died in 800 B.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "C.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "] has just had an operation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The mummy is that of Shepenmut who was once a singer in the Temple of Thebes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As there were strange marks on the X-ray plates taken of the mummy, doctors have been trying to find out whether the woman died of a rare disease.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The only way to do this was to operate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The operation, which lasted for over four hours, proved to be very difficult because of the hard resin which covered the skin.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The doctors removed a section of the mummy and sent it to a laboratory.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They also found something which the X-ray of the god Duamutef.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This god which has the head of a cow was normally placed inside a mummy.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The doctors have not yet decided how the woman died.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They feared that the mummy would fall to pieces when they cut it open, but fortunately this has not happened.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The mummy successfully survived the operation.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The mummy of an Egyptian woman [who died in 800 B.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "C.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "] has just had an operation.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The mummy is that of Shepenmut who was once a singer in the Temple of Thebes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As there were strange marks on the X-ray plates taken of the mummy, doctors have been trying to find out whether the woman died of a rare disease.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The only way to do this was to operate.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The operation, which lasted for over four hours, proved to be very difficult because of the hard resin which covered the skin.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The doctors removed a section of the mummy and sent it to a laboratory.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They also found something which the X-ray of the god Duamutef.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This god which has the head of a cow was normally placed inside a mummy.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The doctors have not yet decided how the woman died.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They feared that the mummy would fall to pieces when they cut it open, but fortunately this has not happened.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The mummy successfully survived the operation.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3436,19 +3436,19 @@ const articleNce2L78: Article = {
     original: {
     paragraphs: [
       [
-        { text: "After reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I smoked with concentration and pleasure as I was sure that this would be my last cigarette.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For a whole week I did not smoke at all and during this time, my wife suffered terribly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My friends kept on offering me cigarettes and cigars.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After seven days of this I went to a party.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Everybody around me was smoking and I felt extremely uncomfortable.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When my old friend Brian urged me to accept a cigarette, it was more than I could bear.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I took one guiltily, lit it and smoked with satisfaction.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My wife was delighted that things had returned to normal once more.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Anyway, as Brian pointed out, it is the easiest thing in the world to give up smoking.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He himself has done it lots of times!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "After reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I smoked with concentration and pleasure as I was sure that this would be my last cigarette.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "For a whole week I did not smoke at all and during this time, my wife suffered terribly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My friends kept on offering me cigarettes and cigars.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After seven days of this I went to a party.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Everybody around me was smoking and I felt extremely uncomfortable.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When my old friend Brian urged me to accept a cigarette, it was more than I could bear.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I took one guiltily, lit it and smoked with satisfaction.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My wife was delighted that things had returned to normal once more.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Anyway, as Brian pointed out, it is the easiest thing in the world to give up smoking.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He himself has done it lots of times!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3479,17 +3479,17 @@ const articleNce2L79: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I used to travel by air a great deal when I was a boy.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My parents, used to live in South America and I used to fly there from Europe in the holidays.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "An air-hostess would take charge of me and I never had an unpleasant experience.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I am used to travelling by air and only on one occasion have I ever felt frightened.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After taking off, we were flying low over the city and slowly gaining height, when the plane suddenly turned round and flew back to the airport.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "While we were waiting to land, an air-hostess told us to keep calm and to get off the plane quietly as soon as it had touched down.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Everybody on board was worried and we were curious to find out what had happened.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Later we learnt that there was a very important person on board.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The police had been told that a bomb had been planted on the plane.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After we had landed, the plane was searched thoroughly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Fortunately, nothing was found and five hours later we were able to take off again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I used to travel by air a great deal when I was a boy.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My parents, used to live in South America and I used to fly there from Europe in the holidays.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "An air-hostess would take charge of me and I never had an unpleasant experience.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I am used to travelling by air and only on one occasion have I ever felt frightened.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After taking off, we were flying low over the city and slowly gaining height, when the plane suddenly turned round and flew back to the airport.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "While we were waiting to land, an air-hostess told us to keep calm and to get off the plane quietly as soon as it had touched down.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Everybody on board was worried and we were curious to find out what had happened.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Later we learnt that there was a very important person on board.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The police had been told that a bomb had been planted on the plane.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After we had landed, the plane was searched thoroughly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Fortunately, nothing was found and five hours later we were able to take off again.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3514,17 +3514,17 @@ const articleNce2L80: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Perhaps the most extraordinary building of the nineteenth century was the Crystal Palace, which was built in Hyde Park for the Great Exhibition of 1851.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was one of the biggest buildings of all time and a lot of people from many countries came to see it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A great many goods were sent to the exhibition from various parts of the world.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There was also a great deal of machinery on display.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The most wonderful piece of machinery on show was Nasmyth's steam hammer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though in those days, travelling was not as easy as it is today, steam boats carried thousands of visitors across the Channel from Europe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On arriving in England, they were taken to the Crystal Palace by train.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There were six million visitors in all, and the profits from the exhibition were used to build museums and colleges.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Later, the Crystal Palace was moved to South London.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It remained one of the most famous buildings in the world until it was burnt down in 1936.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Perhaps the most extraordinary building of the nineteenth century was the Crystal Palace, which was built in Hyde Park for the Great Exhibition of 1851.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was one of the biggest buildings of all time and a lot of people from many countries came to see it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A great many goods were sent to the exhibition from various parts of the world.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "There was also a great deal of machinery on display.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The most wonderful piece of machinery on show was Nasmyth's steam hammer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though in those days, travelling was not as easy as it is today, steam boats carried thousands of visitors across the Channel from Europe.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On arriving in England, they were taken to the Crystal Palace by train.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "There were six million visitors in all, and the profits from the exhibition were used to build museums and colleges.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Later, the Crystal Palace was moved to South London.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It remained one of the most famous buildings in the world until it was burnt down in 1936.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3553,19 +3553,19 @@ const articleNce2L81: Article = {
     original: {
     paragraphs: [
       [
-        { text: "When he had killed the guard, the prisoner of war quickly dragged him into the bushes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Working rapidly in the darkness, he soon changed into the dead man's clothes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now, dressed in a blue uniform and with a rifle over his shoulder, the prisoner marched boldly up and down in front of the camp.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He could hear shouting in the camp itself.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Lights were blazing and men were running here and there: they had just discovered that a prisoner had escaped.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At that moment, a large black car with four officers inside it, stopped at the camp gates.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The officers got out and the prisoner stood to attention and saluted as they passed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When they had gone, the driver of the car came towards him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The man obviously wanted to talk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He was rather elderly with grey hair and clear blue eyes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The prisoner felt sorry for him, but there was nothing else he could do.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As the man came near, the prisoner knocked him to the ground with a sharp blow.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Then, jumping into the car, he drove off as quickly as he could.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "When he had killed the guard, the prisoner of war quickly dragged him into the bushes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Working rapidly in the darkness, he soon changed into the dead man's clothes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Now, dressed in a blue uniform and with a rifle over his shoulder, the prisoner marched boldly up and down in front of the camp.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He could hear shouting in the camp itself.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Lights were blazing and men were running here and there: they had just discovered that a prisoner had escaped.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At that moment, a large black car with four officers inside it, stopped at the camp gates.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The officers got out and the prisoner stood to attention and saluted as they passed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When they had gone, the driver of the car came towards him.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The man obviously wanted to talk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He was rather elderly with grey hair and clear blue eyes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The prisoner felt sorry for him, but there was nothing else he could do.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As the man came near, the prisoner knocked him to the ground with a sharp blow.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Then, jumping into the car, he drove off as quickly as he could.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3598,15 +3598,15 @@ const articleNce2L82: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Fishermen and sailors sometimes claim to have seen monsters in the sea.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though people have often laughed at stories told by seamen, it is now known that many of these 'monsters' which have at times been sighted are simply strange fish.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Occasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Some time ago, however, a peculiar fish was caught near Madagascar.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A small fishing-boat was carried miles out to sea by the powerful fish as it pulled on the line.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Realizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When it was eventually brought to shore, it was found [to be over thirteen feet long].", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It had a head like a horse, big blue eyes, shining silver skin, and a bright red tail, The fish, which has since been sent to a museum where it is being examined by a scientist, is called an oarfish.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Such creatures have rarely been seen alive by man as they live at a depth of six hundred feet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Fishermen and sailors sometimes claim to have seen monsters in the sea.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though people have often laughed at stories told by seamen, it is now known that many of these 'monsters' which have at times been sighted are simply strange fish.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Occasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Some time ago, however, a peculiar fish was caught near Madagascar.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A small fishing-boat was carried miles out to sea by the powerful fish as it pulled on the line.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Realizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When it was eventually brought to shore, it was found [to be over thirteen feet long].", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It had a head like a horse, big blue eyes, shining silver skin, and a bright red tail, The fish, which has since been sent to a museum where it is being examined by a scientist, is called an oarfish.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Such creatures have rarely been seen alive by man as they live at a depth of six hundred feet.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3632,19 +3632,19 @@ const articleNce2L83: Article = {
     original: {
     paragraphs: [
       [
-        { text: "The former Prime Minister, Mr Wentworth Lane, was defeated in the recent elections.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He is now retiring from political life and has gone abroad.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My friend, Crawley, has always been a fanatical opponent of Mr Lane's Radical Progressive Party.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After the elections, Crawley went to the former Prime Minister's house.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When he asked if Mr Lane lived there, the policeman on duty told him that since his defeat, the ex-Prime Minister had gone abroad.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On the following day, Crawley went to the house again.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The same policeman was just walking slowly past the entrance, when Crawley asked the same question.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though a little suspicious this time, the policeman gave him the same answer.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The day after, Crawley went to the house once more and asked exactly the same question.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This time, the policeman lost his temper.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I told you yesterday and the day before yesterday,' he shouted, 'Mr Lane was defeated in the elections.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He has retired from political life and gone to live abroad!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' ' I know,' answered Crawley,' but I love to hear you say it!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The former Prime Minister, Mr Wentworth Lane, was defeated in the recent elections.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He is now retiring from political life and has gone abroad.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My friend, Crawley, has always been a fanatical opponent of Mr Lane's Radical Progressive Party.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After the elections, Crawley went to the former Prime Minister's house.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When he asked if Mr Lane lived there, the policeman on duty told him that since his defeat, the ex-Prime Minister had gone abroad.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On the following day, Crawley went to the house again.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The same policeman was just walking slowly past the entrance, when Crawley asked the same question.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though a little suspicious this time, the policeman gave him the same answer.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The day after, Crawley went to the house once more and asked exactly the same question.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This time, the policeman lost his temper.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I told you yesterday and the day before yesterday,' he shouted, 'Mr Lane was defeated in the elections.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He has retired from political life and gone to live abroad!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' ' I know,' answered Crawley,' but I love to hear you say it!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3672,19 +3672,19 @@ const articleNce2L84: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Busmen have decided to go on strike next week.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The strike is due to begin on Tuesday.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "No one knows how long it will last.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Most people believe that the strike will last for at least a week.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Many owners of private cars are going to offer 'free rides' to people on their way to work.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This will relieve pressure on the trains to some extent.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Meanwhile, a number of university students have volunteered to drive buses while the strike lasts.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "All the young men are expert drivers, but before they drive any of the buses, they will have to pass a special test.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The students are going to take the test in two days' time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Even so, people are going to find it difficult to get to work.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But so far, the public has expressed its gratitude to the students in letters to the Press.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Only one or two people have objected that the students will drive too fast!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Busmen have decided to go on strike next week.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The strike is due to begin on Tuesday.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "No one knows how long it will last.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Most people believe that the strike will last for at least a week.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Many owners of private cars are going to offer 'free rides' to people on their way to work.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This will relieve pressure on the trains to some extent.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Meanwhile, a number of university students have volunteered to drive buses while the strike lasts.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "All the young men are expert drivers, but before they drive any of the buses, they will have to pass a special test.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The students are going to take the test in two days' time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Even so, people are going to find it difficult to get to work.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "But so far, the public has expressed its gratitude to the students in letters to the Press.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Only one or two people have objected that the students will drive too fast!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3714,15 +3714,15 @@ const articleNce2L85: Article = {
     original: {
     paragraphs: [
       [
-        { text: "I have just received a letter from my old school informing me that my former head- master, Mr Regmald Page, will be retiring next week.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Pupils of the school, old and new, will be sending him a present to mark the occasion.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We shall all remember Mr Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A great many former pupils will be attending a farewell dinner in his honour next Thursday.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is a curious coincidence that the day before his retirement, Mr Page will have been teaching for a total of forty years.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After he has retired, he will devote himself to gardening.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For him, this will be an entirely new hobby.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But this does not matter, for, as he has often remarked, one is never too old to learn.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I have just received a letter from my old school informing me that my former head- master, Mr Regmald Page, will be retiring next week.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Pupils of the school, old and new, will be sending him a present to mark the occasion.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We shall all remember Mr Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A great many former pupils will be attending a farewell dinner in his honour next Thursday.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It is a curious coincidence that the day before his retirement, Mr Page will have been teaching for a total of forty years.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After he has retired, he will devote himself to gardening.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "For him, this will be an entirely new hobby.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "But this does not matter, for, as he has often remarked, one is never too old to learn.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3755,19 +3755,19 @@ const articleNce2L86: Article = {
     original: {
     paragraphs: [
       [
-        { text: "As the man tried to swing the speed-boat round, the steering-wheel came away in his hands.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He waved desperately to his companion, who had been water-skiing for the last fifteen minutes.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Both men had hardly had time to realize what was happening when they were thrown violent1y into the sea.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The speed-boat had struck a buoy, but it continued to move very quickly across the water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Both men had just begun to swim towards the shore.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "when they noticed with dismay that the speed-boat was moving in a circle.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It now came straight towards them at tremendous speed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In less than a minute, it roared past them only a few feet away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "After it had passed, they swam on as quickly as they could because they knew that the boat would soon return.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They had just had enough time to swim out of danger when the boat again completed a circle.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On this occasion, however, it had slowed down considerably.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The petrol had nearly all been used up.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Before long, the noise dropped completely and the boat began to drift gently across the water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "As the man tried to swing the speed-boat round, the steering-wheel came away in his hands.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He waved desperately to his companion, who had been water-skiing for the last fifteen minutes.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Both men had hardly had time to realize what was happening when they were thrown violent1y into the sea.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The speed-boat had struck a buoy, but it continued to move very quickly across the water.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Both men had just begun to swim towards the shore.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "when they noticed with dismay that the speed-boat was moving in a circle.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It now came straight towards them at tremendous speed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In less than a minute, it roared past them only a few feet away.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "After it had passed, they swam on as quickly as they could because they knew that the boat would soon return.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They had just had enough time to swim out of danger when the boat again completed a circle.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "On this occasion, however, it had slowed down considerably.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The petrol had nearly all been used up.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Before long, the noise dropped completely and the boat began to drift gently across the water.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3797,35 +3797,35 @@ const articleNce2L87: Article = {
     original: {
     paragraphs: [
       [
-        { text: "'At the time the murder was committed, I was travelling on the 8.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "0 o'clock train to London,' said the man.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'At the time the murder was committed, I was travelling on the 8.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "0 o'clock train to London,' said the man.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Do you always catch such an early train?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' asked the inspector.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Do you always catch such an early train?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' asked the inspector.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Of course I do,' answered the man.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' I must be at work at 10.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "0 o'clock.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "My employer will confirm that I was there on time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Of course I do,' answered the man.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' I must be at work at 10.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "0 o'clock.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "My employer will confirm that I was there on time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "' Would a later train get you to work on time?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' asked the inspector.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "' Would a later train get you to work on time?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' asked the inspector.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'At ten to eight.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I bought a paper and waited for the train.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'At ten to eight.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I bought a paper and waited for the train.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'I suggest,' said the inspector, 'that you are not telling the truth.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I suggest that you did not catch the 8.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "0 o'clock train, but that you caught the 8.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "25 which would still get you to work on time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "You see, on the morning of the murder, the 8.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "0 o'clock train did not run at all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It broke down at Ferngreen station and was taken off the line.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'I suggest,' said the inspector, 'that you are not telling the truth.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I suggest that you did not catch the 8.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "0 o'clock train, but that you caught the 8.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "25 which would still get you to work on time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "You see, on the morning of the murder, the 8.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "0 o'clock train did not run at all.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It broke down at Ferngreen station and was taken off the line.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3851,18 +3851,18 @@ const articleNce2L88: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Six men have been trapped in a mine for seventeen hours.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If they are not brought to the surface soon they may lose their lives.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "However, rescue operations are proving difficult.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If explosives are used, vibrations will cause the roof of the mine to collapse.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Rescue workers are therefore drilling a hole on the north side of the mine.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They intend to bring the men up in a special capsule.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If there had not been a hard layer of rock beneath the soil, they would have completed the job in a few hours.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As it is, they have been drilling for sixteen hours and they still have a long way to go.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Meanwhile, a microphone, which was lowered into the mine two hours ago, has enabled the men to keep in touch with the closest relatives.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Though they are running out of food and drink, the men are cheerful and confident that they will get out soon.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They have been told that rescue operations are progressing smoothly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If they knew how difficult it was to drill through the hard rock, they would lose heart.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Six men have been trapped in a mine for seventeen hours.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If they are not brought to the surface soon they may lose their lives.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "However, rescue operations are proving difficult.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If explosives are used, vibrations will cause the roof of the mine to collapse.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Rescue workers are therefore drilling a hole on the north side of the mine.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They intend to bring the men up in a special capsule.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If there had not been a hard layer of rock beneath the soil, they would have completed the job in a few hours.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As it is, they have been drilling for sixteen hours and they still have a long way to go.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Meanwhile, a microphone, which was lowered into the mine two hours ago, has enabled the men to keep in touch with the closest relatives.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Though they are running out of food and drink, the men are cheerful and confident that they will get out soon.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "They have been told that rescue operations are progressing smoothly.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If they knew how difficult it was to drill through the hard rock, they would lose heart.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3893,18 +3893,18 @@ const articleNce2L89: Article = {
     original: {
     paragraphs: [
       [
-        { text: "People will do anything to see a free show--even if it is a bad one.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When the news got round that a variety show would be presented at our local cinema by the P.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "and U.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Bird Seed Company, we all rushed to see it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We had to queue for hours to get in and there must have been several hundred people present just be- fore the show began.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Unfortunately, the show was one of the dullest we have ever seen.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Those who failed to get in need not have felt disappointed as many of the artistes who should have appeared did not come.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The only funny things we heard that evening came from the advertiser at the beginning of the programme.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He was obviously very nervous and for some minutes stood awkwardly before the microphone.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As soon as he opened his mouth, everyone burst out laughing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We all know what the poor man should have said, but what he actually said was: 'This is the Poo and Ee Seed Bird Company.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Good ladies, evening and gentlemen!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "People will do anything to see a free show--even if it is a bad one.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When the news got round that a variety show would be presented at our local cinema by the P.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "and U.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Bird Seed Company, we all rushed to see it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We had to queue for hours to get in and there must have been several hundred people present just be- fore the show began.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Unfortunately, the show was one of the dullest we have ever seen.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Those who failed to get in need not have felt disappointed as many of the artistes who should have appeared did not come.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The only funny things we heard that evening came from the advertiser at the beginning of the programme.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He was obviously very nervous and for some minutes stood awkwardly before the microphone.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As soon as he opened his mouth, everyone burst out laughing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "We all know what the poor man should have said, but what he actually said was: 'This is the Poo and Ee Seed Bird Company.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Good ladies, evening and gentlemen!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3931,19 +3931,19 @@ const articleNce2L90: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Though Brazil is one of the richest countries in the world, much of it has not yet been developed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It was mainly for this reason that the Brazilian government decided to have a new city built 600 miles north-west of Rio de Janeiro.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Designed by the great architect Lucio Costa, the new city, Brasilia, replaced Rio de Janeiro as the capital of Brazif in 1960.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Brasilia has been carefully planned for modern living.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Though Brazil is one of the richest countries in the world, much of it has not yet been developed.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "It was mainly for this reason that the Brazilian government decided to have a new city built 600 miles north-west of Rio de Janeiro.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Designed by the great architect Lucio Costa, the new city, Brasilia, replaced Rio de Janeiro as the capital of Brazif in 1960.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Brasilia has been carefully planned for modern living.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "away from living areas.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Children do not have to cross busy streets to go to school.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Housewives can visit-shopping centres on foot, for in these specially designed living areas, cars are unnecessary.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At first, the government had great difficulty in persuading people to leave Rio and to settle in Brasilia.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Since 1960, however, the population has been growing all the time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Brasilia has quickly established itself as the capital of the country.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The idea to have the capital moved so far inland will have a great effect on the future of Brazil.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "away from living areas.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Children do not have to cross busy streets to go to school.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Housewives can visit-shopping centres on foot, for in these specially designed living areas, cars are unnecessary.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At first, the government had great difficulty in persuading people to leave Rio and to settle in Brasilia.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Since 1960, however, the population has been growing all the time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Brasilia has quickly established itself as the capital of the country.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The idea to have the capital moved so far inland will have a great effect on the future of Brazil.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -3977,16 +3977,16 @@ const articleNce2L91: Article = {
     original: {
     paragraphs: [
       [
-        { text: "A pilot noticed a balloon which seemed to be making for a Royal Air Force Station nearby.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He informed the station at once, but no one there was able to explain the mystery.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The officer in the control tower was very angry when he heard the news, because balloons can be a great danger to aircraft.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He said that someone might by spying on the station and the pilot was ordered to keep track of the strange object.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The pilot managed to circle the balloon for some time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He could make out three men in a basket under it and one of them was holding field-glasses.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "When the balloon was over the station, the pilot saw one of the men taking photographs.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Soon afterwards, the balloon began to descend and it landed near an airfield.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The police were called in, but they could not arrest anyone, for the basket contained two Members of Parliament and the Commanding Officer of the station!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As the Commanding Officer explained later, one half of the station did not know what the other half was doing!", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "A pilot noticed a balloon which seemed to be making for a Royal Air Force Station nearby.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He informed the station at once, but no one there was able to explain the mystery.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The officer in the control tower was very angry when he heard the news, because balloons can be a great danger to aircraft.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He said that someone might by spying on the station and the pilot was ordered to keep track of the strange object.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The pilot managed to circle the balloon for some time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He could make out three men in a basket under it and one of them was holding field-glasses.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "When the balloon was over the station, the pilot saw one of the men taking photographs.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Soon afterwards, the balloon began to descend and it landed near an airfield.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The police were called in, but they could not arrest anyone, for the basket contained two Members of Parliament and the Commanding Officer of the station!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As the Commanding Officer explained later, one half of the station did not know what the other half was doing!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -4010,25 +4010,25 @@ const articleNce2L92: Article = {
     original: {
     paragraphs: [
       [
-        { text: "It must have been about two in the morning when I returned home.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I tried to wake up my wife by ringing the door-bell, but she was fast asleep, so I got a ladder from the shed in the garden, put it against the wall, and began climbing towards the bedroom window.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I was almost there when a sarcastic voice below said,' I don't think the windows need cleaning at this time of the night.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "It must have been about two in the morning when I returned home.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I tried to wake up my wife by ringing the door-bell, but she was fast asleep, so I got a ladder from the shed in the garden, put it against the wall, and began climbing towards the bedroom window.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I was almost there when a sarcastic voice below said,' I don't think the windows need cleaning at this time of the night.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "I looked down and nearly fell off the ladder when I saw a policeman.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I immediately regretted answering in the way I did, but I said, 'I enjoy cleaning windows at night.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "I looked down and nearly fell off the ladder when I saw a policeman.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I immediately regretted answering in the way I did, but I said, 'I enjoy cleaning windows at night.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'So do I,' answered the policeman in the same tone.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Excuse my interrupting you.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I hate to interrupt a man when he's busy working, but would you mind coming with me to the station?", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'So do I,' answered the policeman in the same tone.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Excuse my interrupting you.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I hate to interrupt a man when he's busy working, but would you mind coming with me to the station?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Well, I'd prefer to stay here,' I said.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'You see, I've forgotten my key.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Well, I'd prefer to stay here,' I said.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'You see, I've forgotten my key.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "Fortunately, the shouting woke up my wife who opened the window just as the policeman had started to climb towards me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Fortunately, the shouting woke up my wife who opened the window just as the policeman had started to climb towards me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -4052,15 +4052,15 @@ const articleNce2L93: Article = {
     original: {
     paragraphs: [
       [
-        { text: "One of the most famous monuments in the world, the Statue of Liberty, was presented to the United States of America in the nineteenth century by the people of France.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The great statue, which was designed by the sculptor Auguste Bartholdi, took ten years to complete.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The actual figure was made of copper supported by a metal framework which had been especially constructed by Eiffel.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Before it could be transported to the United States, a site had to be found for it and a pedestal had to be built.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The site chosen was an island at the entrance of New York Harbour.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By 1884, a statue which was 151 feet tall, had been erected in Paris.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The following year, it was taken to pieces and sent to America.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By the end of October 1886, the statue had been put together again and it was officially presented to the American people by Bartholdi.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Ever since then, the great monument has been a symbol of liberty for the millions of people who have passed through New York Harbour to make their homes in America.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "One of the most famous monuments in the world, the Statue of Liberty, was presented to the United States of America in the nineteenth century by the people of France.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The great statue, which was designed by the sculptor Auguste Bartholdi, took ten years to complete.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The actual figure was made of copper supported by a metal framework which had been especially constructed by Eiffel.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Before it could be transported to the United States, a site had to be found for it and a pedestal had to be built.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The site chosen was an island at the entrance of New York Harbour.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "By 1884, a statue which was 151 feet tall, had been erected in Paris.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The following year, it was taken to pieces and sent to America.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "By the end of October 1886, the statue had been put together again and it was officially presented to the American people by Bartholdi.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Ever since then, the great monument has been a symbol of liberty for the millions of people who have passed through New York Harbour to make their homes in America.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -4092,16 +4092,16 @@ const articleNce2L94: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Experiments have proved that children can be instructed in swimming at a very early age.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At a special swimming pool in Los Angeles, children become expert at holding their breath under water even before they can walk.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Babies of two months old do not appear to be reluctant to enter the water, It is not long before they are so accustomed to swimming that they can pick up weights from the floor of the pool.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A game that is very popular with these young swimmers is the underwater tricycle race.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Tricycles are lined up on the floor of the pool seven feet under water.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The children compete against each other to reach the other end of the pool.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Many pedal their tricycles, but most of them prefer to push or drag them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Some children can cover the whole length of the pool without coming up for breath even once.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Whether they will ever become future Olympic champions, only time will tell.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Meanwhile, they should encourage those among us who cannot swim five yards before they are gasping for air.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Experiments have proved that children can be instructed in swimming at a very early age.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "At a special swimming pool in Los Angeles, children become expert at holding their breath under water even before they can walk.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Babies of two months old do not appear to be reluctant to enter the water, It is not long before they are so accustomed to swimming that they can pick up weights from the floor of the pool.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "A game that is very popular with these young swimmers is the underwater tricycle race.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Tricycles are lined up on the floor of the pool seven feet under water.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "The children compete against each other to reach the other end of the pool.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Many pedal their tricycles, but most of them prefer to push or drag them.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Some children can cover the whole length of the pool without coming up for breath even once.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Whether they will ever become future Olympic champions, only time will tell.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Meanwhile, they should encourage those among us who cannot swim five yards before they are gasping for air.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -4129,37 +4129,37 @@ const articleNce2L95: Article = {
     original: {
     paragraphs: [
       [
-        { text: "When the Ambassador of Escalopia returned home for lunch, his wife got a shock.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He looked pale and his clothes were in a frightful state.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "When the Ambassador of Escalopia returned home for lunch, his wife got a shock.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He looked pale and his clothes were in a frightful state.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'A fire-extinguisher, my dear,' answered the Ambassador drily.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'University students set the Embassy on fire this morning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'A fire-extinguisher, my dear,' answered the Ambassador drily.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'University students set the Embassy on fire this morning.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Good heavens!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' exclaimed his wife.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'And where were you at the time?", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Good heavens!", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' exclaimed his wife.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'And where were you at the time?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'I was in my office as usual,' answered the Ambassador.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'The fire broke out in the basement.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I went down immediately.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "of course, and that fool, Horst, aimed a fire-extinguisher at me.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He thought I was on fire.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "I must definitely get that fellow posted.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'I was in my office as usual,' answered the Ambassador.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'The fire broke out in the basement.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I went down immediately.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "of course, and that fool, Horst, aimed a fire-extinguisher at me.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "He thought I was on fire.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "I must definitely get that fellow posted.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "The Ambassador's wife went on asking questions, when she suddenly noticed a big hole in her husband's hat.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'And how can you explain that?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "' she asked.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The Ambassador's wife went on asking questions, when she suddenly noticed a big hole in her husband's hat.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'And how can you explain that?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "' she asked.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ],
       [
-        { text: "'Oh, that,' said the Ambassador.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "'Someone fired a shot through my office window.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Accurate, don't you think?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Fortunately, I wasn't wearing it at the time.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If I had been, I would not have been able to get home for lunch.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "'Oh, that,' said the Ambassador.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "'Someone fired a shot through my office window.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Accurate, don't you think?", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Fortunately, I wasn't wearing it at the time.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "If I had been, I would not have been able to get home for lunch.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
@@ -4189,15 +4189,15 @@ const articleNce2L96: Article = {
     original: {
     paragraphs: [
       [
-        { text: "A Festival for the Dead is held once a year in Japan.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This festival is a cheerful occasion, for on this day, the dead are said to return to their homes and they are welcomed by the living.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As they are expected to be hungry after their long journey, food is laid out for them.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Specially-made lanterns are hung outside each house to help the dead to find their way.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "All night long, people dance and sing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In the early morning, the food that had been laid out for the dead is thrown into a river or into the sea as it is considered unlucky for anyone living to eat it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In towns that are near the sea, the tiny lanterns which had been hung in the streets the night before, are placed into the water when the festival is over.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Thousands of lanterns slowly drift out to sea guiding the dead on their return journey to the other world.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This is a moving spectacle, for crowds of people stand on the shore watching the lanterns drifting away until they can be seen no more.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "A Festival for the Dead is held once a year in Japan.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This festival is a cheerful occasion, for on this day, the dead are said to return to their homes and they are welcomed by the living.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "As they are expected to be hungry after their long journey, food is laid out for them.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Specially-made lanterns are hung outside each house to help the dead to find their way.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "All night long, people dance and sing.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In the early morning, the food that had been laid out for the dead is thrown into a river or into the sea as it is considered unlucky for anyone living to eat it.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "In towns that are near the sea, the tiny lanterns which had been hung in the streets the night before, are placed into the water when the festival is over.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "Thousands of lanterns slowly drift out to sea guiding the dead on their return journey to the other world.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] },
+        { text: "This is a moving spectacle, for crowds of people stand on the shore watching the lanterns drifting away until they can be seen no more.", translation: "", predicates: [], clauseIntroducers: [], rubyNotes: [] }
       ]
     ],
   },
