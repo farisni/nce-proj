@@ -1558,6 +1558,25 @@ const articleNce4L9: Article = {
 ],
   },
   vocabulary: [
+    { word: "espionage", pos: "n.", meaning: "间谍活动", phonetic: "/'espiənɑ:ʒ/" },
+    { word: "Alfred", pos: "n.", meaning: "阿尔弗雷德(公元871-899年间任英国国王)", phonetic: "/'ælfrid/" },
+    { word: "Danish", pos: "adj.", meaning: "丹麦的，丹麦人的，丹麦语的", phonetic: "/'deiniʃ/" },
+    { word: "minstrel", pos: "n.", meaning: "中世纪的吟游歌手", phonetic: "/'minstrəl/" },
+    { word: "wandering", pos: "adj.", meaning: "漫游的", phonetic: "/'wɔndəriŋ/" },
+    { word: "harp", pos: "n.", meaning: "竖琴", phonetic: "/hɑ:p/" },
+    { word: "ballad", pos: "n.", meaning: "民歌", phonetic: "/'bæləd/" },
+    { word: "acrobatic", pos: "adj.", meaning: "杂技的", phonetic: "/ækrə'bætik/" },
+    { word: "conjuring", pos: "n.", meaning: "魔术", phonetic: "/'kʌndʒəriŋ/" },
+    { word: "Athelney", pos: "n.", meaning: "阿塞尔纳（英国一个小岛）", phonetic: "/'æθəlni/" },
+    { word: "Chippenham", pos: "n.", meaning: "切本哈姆（英国一城市）", phonetic: "/'tʃipənəm/" },
+    { word: "thither", pos: "adv.", meaning: "向那里", phonetic: "/'ðiðə/" },
+    { word: "Dane", pos: "n.", meaning: "丹麦人", phonetic: "/dein/" },
+    { word: "slack", pos: "adj.", meaning: "涣散的", phonetic: "/slæk/" },
+    { word: "conqueror", pos: "n.", meaning: "征服者", phonetic: "/'kɔŋkərə/" },
+    { word: "casual", pos: "adj.", meaning: "马虎的，随便的", phonetic: "/'kæʒjuəl/" },
+    { word: "precaution", pos: "n.", meaning: "预防，警惕", phonetic: "/pri'kɔ:ʃən/" },
+    { word: "proceeds", pos: "n.", meaning: "所得", phonetic: "/'prəusi:dz/" },
+    { word: "assemble", pos: "v.", meaning: "集合", phonetic: "/ə'sembl/" }
   ],
 }
 const articleNce4L10: Article = {
@@ -1598,6 +1617,28 @@ const articleNce4L10: Article = {
 ],
   },
   vocabulary: [
+    { word: "silicon", pos: "n.", meaning: "硅", phonetic: "/'silikən/" },
+    { word: "integrated", pos: "adj.", meaning: "综合的", phonetic: "/'intigreitid/" },
+    { word: "circuit", pos: "n.", meaning: "线路，电路", phonetic: "/'sə:kit/" },
+    { word: "California", pos: "n.", meaning: "加利福尼亚（美国州名）", phonetic: "/kæli'fɔ:njə/" },
+    { word: "workstation", pos: "n.", meaning: "工作站", phonetic: "/'wə:ksteiʃən/" },
+    { word: "chip", pos: "n.", meaning: "芯片，集成电路片，集成块", phonetic: "/tʃip/" },
+    { word: "newsletter", pos: "n.", meaning: "时事通讯", phonetic: "/'nju:zletə/" },
+    { word: "Macintosh", pos: "n.", meaning: "苹果机，一种个人电脑", phonetic: "/'mækintɔʃ/" },
+    { word: "penalize", pos: "v.", meaning: "处罚，惩罚", phonetic: "/'pi:nəlaiz/" },
+    { word: "customize", pos: "v.", meaning: "按顾客具体需要制造", phonetic: "/'kʌstəmaiz/" },
+    { word: "spawn", pos: "v.", meaning: "引起，酿成", phonetic: "/spɔ:n/" },
+    { word: "thrive", pos: "v.", meaning: "兴旺，繁荣", phonetic: "/θraiv/" },
+    { word: "anarchy", pos: "n.", meaning: "无政府状态，混乱", phonetic: "/'ænəki/" },
+    { word: "oriental", pos: "n.", meaning: "东方人", phonetic: "/ɔ:ri'entl/" },
+    { word: "constitute", pos: "v.", meaning: "构成", phonetic: "/'kɔnstitju:t/" },
+    { word: "drove", pos: "n.", meaning: "群", phonetic: "/drəuv/" },
+    { word: "innovator", pos: "n.", meaning: "发明者", phonetic: "/'inəuveitə/" },
+    { word: "forge", pos: "v.", meaning: "发展", phonetic: "/fɔ:dʒ/" },
+    { word: "memory-chip", pos: "n.", meaning: "内存条", phonetic: "/'meməritʃip/" },
+    { word: "AT&T", pos: "n.", meaning: "美国电话电报公司", phonetic: "/'ei'ti:ænd'ti:/" },
+    { word: "Kansas", pos: "n.", meaning: "堪萨斯（美国州名）", phonetic: "/'kænzəs/" },
+    { word: "Missouri", pos: "n.", meaning: "密苏里（美国州名）", phonetic: "/mi'zuəri/" }
   ],
 }
 const articleNce4L12: Article = {
@@ -1633,6 +1674,20 @@ const articleNce4L12: Article = {
 ],
   },
   vocabulary: [
+    { word: "current", pos: "adj.", meaning: "通用的，流行的", phonetic: "/'kʌrənt/" },
+    { word: "account", pos: "n.", meaning: "账户", phonetic: "/ə'kaunt/" },
+    { word: "cash", pos: "n.", meaning: "现金", phonetic: "/kæʃ/" },
+    { word: "cheque", pos: "n.", meaning: "支票", phonetic: "/tʃek/" },
+    { word: "debtor", pos: "n.", meaning: "借方", phonetic: "/'detə/" },
+    { word: "creditor", pos: "n.", meaning: "贷方", phonetic: "/'kreditə/" },
+    { word: "obligation", pos: "n.", meaning: "义务", phonetic: "/ɔbli'geiʃən/" },
+    { word: "complication", pos: "n.", meaning: "纠纷", phonetic: "/kɔmpli'keiʃən/" },
+    { word: "debit", pos: "v.", meaning: "把...记入借方", phonetic: "/'debit/" },
+    { word: "specimen", pos: "n.", meaning: "样本", phonetic: "/'spesimin/" },
+    { word: "forge", pos: "v.", meaning: "伪造", phonetic: "/fɔ:dʒ/" },
+    { word: "forgery", pos: "n.", meaning: "伪造（文件，签名等）", phonetic: "/'fɔ:dʒəri/" },
+    { word: "adopt", pos: "v.", meaning: "采用", phonetic: "/ə'dɔpt/" },
+    { word: "facilitate", pos: "v.", meaning: "使便利", phonetic: "/fə'siliteit/" }
   ],
 }
 const articleNce4L14: Article = {
@@ -1674,6 +1729,24 @@ const articleNce4L14: Article = {
     ],
   },
   vocabulary: [
+    { word: "forecast", pos: "n.", meaning: "预报", phonetic: "/'fɔ:kɑ:st/" },
+    { word: "speculative", pos: "adj.", meaning: "推测的", phonetic: "/'spekjulətiv/" },
+    { word: "blizzard", pos: "n.", meaning: "暴风雪", phonetic: "/'blizəd/" },
+    { word: "deteriorate", pos: "v.", meaning: "变坏，恶化", phonetic: "/di'tiəriəreit/" },
+    { word: "multiply", pos: "v.", meaning: "增加", phonetic: "/'mʌltiplai/" },
+    { word: "cascade", pos: "v.", meaning: "瀑布似的落下", phonetic: "/kæs'keid/" },
+    { word: "turbulent", pos: "adj.", meaning: "狂暴的", phonetic: "/'tə:bjulənt/" },
+    { word: "dust devil", pos: "n.", meaning: "小尘暴，尘旋风", phonetic: "/'dʌst'devl/" },
+    { word: "squall", pos: "n.", meaning: "暴风", phonetic: "/skwɔ:l/" },
+    { word: "eddy", pos: "n.", meaning: "旋涡", phonetic: "/'edi/" },
+    { word: "grid", pos: "n.", meaning: "坐标方格", phonetic: "/grid/" },
+    { word: "sensor", pos: "n.", meaning: "传感器", phonetic: "/'sensə/" },
+    { word: "humidity", pos: "n.", meaning: "湿度", phonetic: "/hju:'miditi/" },
+    { word: "meteorologist", pos: "n.", meaning: "气象学家", phonetic: "/mi:tjə'rɔlədʒist/" },
+    { word: "Princeton", pos: "n.", meaning: "普林斯顿（美国城市）", phonetic: "/'prinstən/" },
+    { word: "New Jersey", pos: "n.", meaning: "新泽西（美国州名）", phonetic: "/nju:'dʒə:zi/" },
+    { word: "fluctuation", pos: "n.", meaning: "起伏，波动", phonetic: "/flʌktju'eiʃən/" },
+    { word: "deviation", pos: "n.", meaning: "偏差", phonetic: "/di:vi'eiʃən/" }
   ],
 }
 const articleNce4L17: Article = {
@@ -1716,6 +1789,25 @@ const articleNce4L17: Article = {
 ],
   },
   vocabulary: [
+    { word: "settlement", pos: "n.", meaning: "新拓居地", phonetic: "/'setlmənt/" },
+    { word: "enterprising", pos: "adj.", meaning: "有事业心的", phonetic: "/'entəpraiziŋ/" },
+    { word: "settler", pos: "n.", meaning: "移居者", phonetic: "/'setlə/" },
+    { word: "Antipodes", pos: "n.", meaning: "新西兰和澳大利亚（英）", phonetic: "/æn'tipədi:z/" },
+    { word: "promiscuous", pos: "adj.", meaning: "杂乱的", phonetic: "/prə'miskjuəs/" },
+    { word: "abandon", pos: "n.", meaning: "放任，纵情", phonetic: "/ə'bændən/" },
+    { word: "overrun", pos: "v.", meaning: "蔓延，泛滥", phonetic: "/əuvə'rʌn/" },
+    { word: "devastation", pos: "n.", meaning: "破坏，劫掠", phonetic: "/devəs'teiʃən/" },
+    { word: "burrow", pos: "v.", meaning: "挖、掘", phonetic: "/'bʌrəu/" },
+    { word: "susceptible", pos: "adj.", meaning: "易受感染的", phonetic: "/sə'septəbl/" },
+    { word: "virus", pos: "n.", meaning: "病毒", phonetic: "/'vaiərəs/" },
+    { word: "myxomatosis", pos: "n.", meaning: "多发性粘液瘤", phonetic: "/miksəmə'təusis/" },
+    { word: "infect", pos: "v.", meaning: "传染", phonetic: "/in'fekt/" },
+    { word: "epidemic", pos: "n.", meaning: "流行病", phonetic: "/epi'demik/" },
+    { word: "mosquito", pos: "n.", meaning: "蚊虫", phonetic: "/məs'ki:təu/" },
+    { word: "carrier", pos: "n.", meaning: "带菌者", phonetic: "/'kæriə/" },
+    { word: "exterminate", pos: "v.", meaning: "消灭", phonetic: "/eks'tə:mineit/" },
+    { word: "ironically", pos: "adv.", meaning: "具有讽刺意味的", phonetic: "/ai'rɔnikəli/" },
+    { word: "bequeath", pos: "v.", meaning: "把...传给", phonetic: "/bi'kwi:ð/" }
   ],
 }
 const articleNce4L19: Article = {
@@ -1820,6 +1912,30 @@ const articleNce4L20: Article = {
 ],
   },
   vocabulary: [
+    { word: "saliva", pos: "n.", meaning: "唾液", phonetic: "/saliva/" },
+    { word: "digestive", pos: "adj.", meaning: "助消化的", phonetic: "/digestive/" },
+    { word: "defy", pos: "v.", meaning: "使不可能", phonetic: "/defy/" },
+    { word: "analysis", pos: "n.", meaning: "分析", phonetic: "/analysis/" },
+    { word: "prey", pos: "n.", meaning: "被捕食的动物", phonetic: "/prey/" },
+    { word: "fierce", pos: "adj.", meaning: "凶猛的", phonetic: "/fierce/" },
+    { word: "tussle", pos: "n.", meaning: "扭打", phonetic: "/tussle/" },
+    { word: "carnivore", pos: "n.", meaning: "食肉动物", phonetic: "/carnivore/" },
+    { word: "vertebrate", pos: "n.", meaning: "脊椎动物", phonetic: "/vertebrate/" },
+    { word: "lizard", pos: "n.", meaning: "蜥蜴", phonetic: "/lizard/" },
+    { word: "concoct", pos: "v.", meaning: "调制", phonetic: "/concoct/" },
+    { word: "potency", pos: "n.", meaning: "效力", phonetic: "/potency/" },
+    { word: "conversion", pos: "n.", meaning: "转变", phonetic: "/conversion/" },
+    { word: "arsenic", pos: "n.", meaning: "砒霜", phonetic: "/arsenic/" },
+    { word: "strychnine", pos: "n.", meaning: "马钱子碱", phonetic: "/strychnine/" },
+    { word: "mamba", pos: "n.", meaning: "树眼镜蛇", phonetic: "/mamba/" },
+    { word: "cobra", pos: "n.", meaning: "眼镜蛇", phonetic: "/cobra/" },
+    { word: "venom", pos: "n.", meaning: "毒液", phonetic: "/venom/" },
+    { word: "neurotoxic", pos: "adj.", meaning: "毒害神经的", phonetic: "/neurotoxic/" },
+    { word: "viper", pos: "n.", meaning: "蝰蛇", phonetic: "/viper/" },
+    { word: "adder", pos: "n.", meaning: "蝮蛇", phonetic: "/adder/" },
+    { word: "rattlesnake", pos: "n.", meaning: "响尾蛇", phonetic: "/rattlesnake/" },
+    { word: "haemolytic", pos: "adj.", meaning: "溶血性的", phonetic: "/haemolytic/" },
+    { word: "viperine", pos: "adj.", meaning: "毒蛇", phonetic: "/viperine/" }
   ],
 }
 const articleNce4L23: Article = {
@@ -1858,6 +1974,20 @@ const articleNce4L23: Article = {
   },
 
   vocabulary: [
+    { word: "albatross", pos: "n.", meaning: "信天翁", phonetic: "/albatross/" },
+    { word: "sustenance", pos: "n.", meaning: "支撑力", phonetic: "/sustenance/" },
+    { word: "glider", pos: "n.", meaning: "滑翔者", phonetic: "/glider/" },
+    { word: "harness", pos: "v.", meaning: "利用", phonetic: "/harness/" },
+    { word: "endow", pos: "v.", meaning: "赋有", phonetic: "/endow/" },
+    { word: "ply", pos: "v.", meaning: "不断地供给", phonetic: "/ply/" },
+    { word: "gale", pos: "n.", meaning: "大风", phonetic: "/gale/" },
+    { word: "partridge", pos: "n.", meaning: "鹧鸪", phonetic: "/partridge/" },
+    { word: "like", pos: "adj.", meaning: "类似的", phonetic: "/like/" },
+    { word: "propulsion", pos: "n.", meaning: "推进力", phonetic: "/propulsion/" },
+    { word: "utter", pos: "adj.", meaning: "完全的", phonetic: "/utter/" },
+    { word: "slip", pos: "v.", meaning: "滑行", phonetic: "/slip/" },
+    { word: "adverse", pos: "adj.", meaning: "逆的，相反的", phonetic: "/adverse/" },
+    { word: "omen", pos: "n.", meaning: "预兆", phonetic: "/omen/" }
   ],
 }
 const articleNce4L25: Article = {
@@ -1900,6 +2030,22 @@ const articleNce4L25: Article = {
 ],
   },
   vocabulary: [
+    { word: "auditory", pos: "adj.", meaning: "听觉的", phonetic: "/auditory/" },
+    { word: "inadequate", pos: "adj.", meaning: "不适当的", phonetic: "/inadequate/" },
+    { word: "plea", pos: "n.", meaning: "要求", phonetic: "/plea/" },
+    { word: "abatement", pos: "n.", meaning: "减少", phonetic: "/abatement/" },
+    { word: "discredit", pos: "v.", meaning: "怀疑", phonetic: "/discredit/" },
+    { word: "allegation", pos: "n.", meaning: "断言", phonetic: "/allegation/" },
+    { word: "caption", pos: "n.", meaning: "插图说明", phonetic: "/caption/" },
+    { word: "wreck", pos: "n.", meaning: "残废人", phonetic: "/wreck/" },
+    { word: "snag", pos: "n.", meaning: "疑难之处，障碍", phonetic: "/snag/" },
+    { word: "anecdote", pos: "n.", meaning: "轶闻", phonetic: "/anecdote/" },
+    { word: "slander", pos: "v.", meaning: "诽谤", phonetic: "/slander/" },
+    { word: "persecute", pos: "v.", meaning: "迫害", phonetic: "/persecute/" },
+    { word: "squadron", pos: "n.", meaning: "中队", phonetic: "/squadron/" },
+    { word: "psychiatric", pos: "adj.", meaning: "精神病学的", phonetic: "/psychiatric/" },
+    { word: "diagnosis", pos: "n.", meaning: "诊所", phonetic: "/diagnosis/" },
+    { word: "orphanage", pos: "n.", meaning: "孤儿院", phonetic: "/orphanage/" }
   ],
 }
 const articleNce4L26: Article = {
@@ -1941,6 +2087,19 @@ const articleNce4L26: Article = {
 ],
   },
   vocabulary: [
+    { word: "preservation", pos: "n.", meaning: "保存", phonetic: "/preservation/" },
+    { word: "silt", pos: "n.", meaning: "淤泥", phonetic: "/silt/" },
+    { word: "scavenger", pos: "n.", meaning: "食腐动物", phonetic: "/scavenger/" },
+    { word: "vole", pos: "n.", meaning: "野鼠，鼹鼠", phonetic: "/vole/" },
+    { word: "decompose", pos: "v.", meaning: "腐烂", phonetic: "/decompose/" },
+    { word: "inaccessible", pos: "adj.", meaning: "不能到达的", phonetic: "/inaccessible/" },
+    { word: "crevasse", pos: "n.", meaning: "缝隙", phonetic: "/crevasse/" },
+    { word: "Siberian", pos: "adj.", meaning: "西伯利亚的", phonetic: "/siberian/" },
+    { word: "palaeontological", pos: "adj.", meaning: "古生物学的", phonetic: "/palaeontological/" },
+    { word: "St. Petersburg", pos: "n.", meaning: "圣彼得堡", phonetic: "/st. petersburg/" },
+    { word: "sabre-toothed", pos: "adj.", meaning: "长着锐利的长牙", phonetic: "/sabre-toothed/" },
+    { word: "venture", pos: "v.", meaning: "冒险", phonetic: "/venture/" },
+    { word: "bogged", pos: "adj.", meaning: "陷入泥沼的，陷入要困境的", phonetic: "/bogged/" }
   ],
 }
 const articleNce4L27: Article = {
@@ -1964,6 +2123,43 @@ const articleNce4L27: Article = {
 ],
   },
   vocabulary: [
+    { word: "galleon", pos: "n.", meaning: "大型帆船", phonetic: "/galleon/" },
+    { word: "Stockholm", pos: "n.", meaning: "斯德哥尔摩", phonetic: "/stockholm/" },
+    { word: "flagship", pos: "n.", meaning: "旗舰", phonetic: "/flagship/" },
+    { word: "imperial", pos: "adj.", meaning: "帝国的", phonetic: "/imperial/" },
+    { word: "hurricane", pos: "n.", meaning: "飓风", phonetic: "/hurricane/" },
+    { word: "armament", pos: "n.", meaning: "军械", phonetic: "/armament/" },
+    { word: "triple", pos: "adj.", meaning: "三层的", phonetic: "/triple/" },
+    { word: "mount", pos: "v.", meaning: "架有", phonetic: "/mount/" },
+    { word: "bronze", pos: "n.", meaning: "青铜", phonetic: "/bronze/" },
+    { word: "cannon", pos: "n.", meaning: "加农炮", phonetic: "/cannon/" },
+    { word: "might", pos: "n.", meaning: "力量", phonetic: "/might/" },
+    { word: "ferment", pos: "n.", meaning: "激动不安", phonetic: "/ferment/" },
+    { word: "ornament", pos: "v.", meaning: "装饰", phonetic: "/ornament/" },
+    { word: "riot", pos: "n.", meaning: "丰富", phonetic: "/riot/" },
+    { word: "demon", pos: "n.", meaning: "恶魔", phonetic: "/demon/" },
+    { word: "mermaid", pos: "n.", meaning: "美人鱼", phonetic: "/mermaid/" },
+    { word: "cherub", pos: "n.", meaning: "小天使", phonetic: "/cherub/" },
+    { word: "zoomorphic", pos: "adj.", meaning: "兽形的", phonetic: "/zoomorphic/" },
+    { word: "ablaze", pos: "adj.", meaning: "光彩的", phonetic: "/ablaze/" },
+    { word: "portray", pos: "v.", meaning: "绘制", phonetic: "/portray/" },
+    { word: "drifting", pos: "adj.", meaning: "弥漫的", phonetic: "/drifting/" },
+    { word: "churn", pos: "v.", meaning: "翻滚", phonetic: "/churn/" },
+    { word: "pennant", pos: "n.", meaning: "三角旗", phonetic: "/pennant/" },
+    { word: "superstructure", pos: "n.", meaning: "上部结构", phonetic: "/superstructure/" },
+    { word: "majestic", pos: "adj.", meaning: "威严的", phonetic: "/majestic/" },
+    { word: "muzzle", pos: "n.", meaning: "炮口", phonetic: "/muzzle/" },
+    { word: "freshen", pos: "v.", meaning: "变强", phonetic: "/freshen/" },
+    { word: "squall", pos: "n.", meaning: "狂风", phonetic: "/squall/" },
+    { word: "list", pos: "v.", meaning: "倾斜", phonetic: "/list/" },
+    { word: "ordnance", pos: "n.", meaning: "军械", phonetic: "/ordnance/" },
+    { word: "heave", pos: "v.", meaning: "拖", phonetic: "/heave/" },
+    { word: "starboard", pos: "n.", meaning: "(船、飞机的)右舷", phonetic: "/starboard/" },
+    { word: "counteract", pos: "v.", meaning: "抵消", phonetic: "/counteract/" },
+    { word: "steepen", pos: "v.", meaning: "变得更陡峭", phonetic: "/steepen/" },
+    { word: "ballast", pos: "n.", meaning: "压舱物", phonetic: "/ballast/" },
+    { word: "inrush", pos: "n.", meaning: "水的涌入", phonetic: "/inrush/" },
+    { word: "Baltic", pos: "n.", meaning: "波罗的海", phonetic: "/baltic/" }
   ],
 }
 const articleNce4L29: Article = {
@@ -2009,6 +2205,15 @@ const articleNce4L29: Article = {
 ],
   },
   vocabulary: [
+    { word: "hovercraft", pos: "n.", meaning: "气垫船", phonetic: "/hovercraft/" },
+    { word: "Norfolk Broads", pos: "n.", meaning: "诺福克郡的湖泊地区", phonetic: "/norfolk broads/" },
+    { word: "cushion", pos: "n.", meaning: "座垫", phonetic: "/cushion/" },
+    { word: "ring", pos: "v.", meaning: "围", phonetic: "/ring/" },
+    { word: "Solent", pos: "n.", meaning: "（英国的）苏伦特海峡", phonetic: "/solent/" },
+    { word: "sensation", pos: "n.", meaning: "轰动", phonetic: "/sensation/" },
+    { word: "dune", pos: "n.", meaning: "沙丘", phonetic: "/dune/" },
+    { word: "plantation", pos: "n.", meaning: "种植园", phonetic: "/plantation/" },
+    { word: "hovertrain", pos: "n.", meaning: "气垫火车", phonetic: "/hovertrain/" }
   ],
 }
 const articleNce4L31: Article = {
@@ -2053,6 +2258,19 @@ const articleNce4L31: Article = {
 ],
   },
   vocabulary: [
+    { word: "colour-blind", pos: "adj.", meaning: "色盲的", phonetic: "/colour-blind/" },
+    { word: "perception", pos: "n.", meaning: "知觉", phonetic: "/perception/" },
+    { word: "comprehend", pos: "v.", meaning: "理解", phonetic: "/comprehend/" },
+    { word: "spatial", pos: "adj.", meaning: "空间", phonetic: "/spatial/" },
+    { word: "visualize", pos: "v.", meaning: "使具形象，设想", phonetic: "/visualize/" },
+    { word: "reminiscence", pos: "n.", meaning: "回忆，联想", phonetic: "/reminiscence/" },
+    { word: "tadpole", pos: "n.", meaning: "蝌蚪", phonetic: "/tadpole/" },
+    { word: "mushroom", pos: "n.", meaning: "蘑菇", phonetic: "/mushroom/" },
+    { word: "carrot", pos: "n.", meaning: "胡萝卜", phonetic: "/carrot/" },
+    { word: "bud", pos: "n.", meaning: "花蕾", phonetic: "/bud/" },
+    { word: "lark", pos: "n.", meaning: "云雀", phonetic: "/lark/" },
+    { word: "ladybird", pos: "n.", meaning: "瓢虫", phonetic: "/ladybird/" },
+    { word: "bulrush", pos: "n.", meaning: "芦苇", phonetic: "/bulrush/" }
   ],
 }
 const articleNce4L35: Article = {
@@ -2112,6 +2330,17 @@ const articleNce4L35: Article = {
 ],
   },
   vocabulary: [
+    { word: "hub", pos: "n.", meaning: "（活动的）中心", phonetic: "/hub/" },
+    { word: "lunar", pos: "adj.", meaning: "月球的", phonetic: "/lunar/" },
+    { word: "oxygen", pos: "n.", meaning: "氧气", phonetic: "/oxygen/" },
+    { word: "Apollo", pos: "n.", meaning: "阿波罗", phonetic: "/apollo/" },
+    { word: "accelerate", pos: "v.", meaning: "加速", phonetic: "/accelerate/" },
+    { word: "terrestrial", pos: "adj.", meaning: "地球的", phonetic: "/terrestrial/" },
+    { word: "permanently", pos: "adv.", meaning: "永远地", phonetic: "/permanently/" },
+    { word: "fascination", pos: "n.", meaning: "魅力", phonetic: "/fascination/" },
+    { word: "senior", pos: "adj.", meaning: "资历深的，年长的", phonetic: "/senior/" },
+    { word: "chasm", pos: "n.", meaning: "断层，裂口", phonetic: "/chasm/" },
+    { word: "canyon", pos: "n.", meaning: "峡谷", phonetic: "/canyon/" }
   ],
 }
 const articleNce4L36: Article = {
@@ -2160,6 +2389,19 @@ const articleNce4L36: Article = {
 ],
   },
   vocabulary: [
+    { word: "disunited", pos: "adj.", meaning: "分裂的", phonetic: "/disunited/" },
+    { word: "correspondingly", pos: "adv.", meaning: "相应地", phonetic: "/correspondingly/" },
+    { word: "backward", pos: "adj.", meaning: "落后的", phonetic: "/backward/" },
+    { word: "incur", pos: "v.", meaning: "承担", phonetic: "/incur/" },
+    { word: "administer", pos: "v.", meaning: "管理", phonetic: "/administer/" },
+    { word: "adminstrative", pos: "adj.", meaning: "行政管理的", phonetic: "/adminstrative/" },
+    { word: "analogous", pos: "adj.", meaning: "类似的", phonetic: "/analogous/" },
+    { word: "overheads", pos: "n.", meaning: "一般费用", phonetic: "/overheads/" },
+    { word: "initiative", pos: "n.", meaning: "主动，积极性", phonetic: "/initiative/" },
+    { word: "checker", pos: "n.", meaning: "检查人员", phonetic: "/checker/" },
+    { word: "foreman", pos: "n.", meaning: "监工", phonetic: "/foreman/" },
+    { word: "dividend", pos: "n.", meaning: "红利", phonetic: "/dividend/" },
+    { word: "unduly", pos: "adv.", meaning: "过度地", phonetic: "/unduly/" }
   ],
 }
 const articleNce4L38: Article = {
@@ -2215,6 +2457,20 @@ const articleNce4L38: Article = {
 ],
   },
   vocabulary: [
+    { word: "contamination", pos: "n.", meaning: "污染", phonetic: "/contamination/" },
+    { word: "sanitation", pos: "n.", meaning: "卫生，卫生设备", phonetic: "/sanitation/" },
+    { word: "sewage", pos: "n.", meaning: "污水", phonetic: "/sewage/" },
+    { word: "leakage", pos: "n.", meaning: "泄漏", phonetic: "/leakage/" },
+    { word: "intermittent", pos: "adj.", meaning: "间歇的，断断续续的", phonetic: "/intermittent/" },
+    { word: "carbonated", pos: "adj.", meaning: "碳化的，碳酸的", phonetic: "/carbonated/" },
+    { word: "acidic", pos: "adj.", meaning: "酸的，酸性的", phonetic: "/acidic/" },
+    { word: "alcohol", pos: "n.", meaning: "酒精", phonetic: "/alcohol/" },
+    { word: "disinfectant", pos: "n.", meaning: "消毒剂", phonetic: "/disinfectant/" },
+    { word: "sterilize", pos: "v.", meaning: "消毒", phonetic: "/sterilize/" },
+    { word: "ethanol", pos: "n.", meaning: "乙醇", phonetic: "/ethanol/" },
+    { word: "bactericidal", pos: "adj.", meaning: "杀菌的", phonetic: "/bactericidal/" },
+    { word: "negligible", pos: "adj.", meaning: "可以忽略的，微不足道的", phonetic: "/negligible/" },
+    { word: "methylated", pos: "adj.", meaning: "加入甲醇的", phonetic: "/methylated/" }
   ],
 }
 const articleNce4L39: Article = {
@@ -2266,6 +2522,22 @@ const articleNce4L39: Article = {
 ],
   },
   vocabulary: [
+    { word: "confress", pos: "v.", meaning: "承认", phonetic: "/confress/" },
+    { word: "inspiration", pos: "n.", meaning: "灵感", phonetic: "/inspiration/" },
+    { word: "Kasmir", pos: "n.", meaning: "克什米尔", phonetic: "/kasmir/" },
+    { word: "interweave", pos: "v.", meaning: "交织", phonetic: "/interweave/" },
+    { word: "afresh", pos: "adv.", meaning: "重新", phonetic: "/afresh/" },
+    { word: "discern", pos: "v.", meaning: "辨明，领悟", phonetic: "/discern/" },
+    { word: "indescribable", pos: "adj.", meaning: "无法描述的", phonetic: "/indescribable/" },
+    { word: "blur", pos: "v.", meaning: "使...模糊不清", phonetic: "/blur/" },
+    { word: "yeast", pos: "n.", meaning: "激动", phonetic: "/yeast/" },
+    { word: "fathom", pos: "v.", meaning: "领悟，彻底了解", phonetic: "/fathom/" },
+    { word: "interminably", pos: "adv.", meaning: "没完没了地", phonetic: "/interminably/" },
+    { word: "winkle", pos: "v.", meaning: "挖掘", phonetic: "/winkle/" },
+    { word: "incidentally", pos: "adv.", meaning: "顺便说一下", phonetic: "/incidentally/" },
+    { word: "pertinent", pos: "adj.", meaning: "中肯的", phonetic: "/pertinent/" },
+    { word: "flirt", pos: "v.", meaning: "调情", phonetic: "/flirt/" },
+    { word: "inmost", pos: "adj.", meaning: "内心深处的", phonetic: "/inmost/" }
   ],
 }
 const articleNce4L40: Article = {
@@ -2313,6 +2585,25 @@ const articleNce4L40: Article = {
 ],
   },
   vocabulary: [
+    { word: "signature", pos: "n.", meaning: "签名，标记", phonetic: "/signature/" },
+    { word: "infinity", pos: "n.", meaning: "无穷", phonetic: "/infinity/" },
+    { word: "ray", pos: "n.", meaning: "光线", phonetic: "/ray/" },
+    { word: "energize", pos: "v.", meaning: "给与...能量", phonetic: "/energize/" },
+    { word: "rhythm", pos: "n.", meaning: "节奏", phonetic: "/rhythm/" },
+    { word: "transmit", pos: "v.", meaning: "传送", phonetic: "/transmit/" },
+    { word: "exquisite", pos: "adj.", meaning: "高雅的", phonetic: "/exquisite/" },
+    { word: "phenomena", pos: "n.", meaning: "现象", phonetic: "/phenomena/" },
+    { word: "crest", pos: "n.", meaning: "浪峰", phonetic: "/crest/" },
+    { word: "trough", pos: "n.", meaning: "波谷", phonetic: "/trough/" },
+    { word: "vertical", pos: "adj.", meaning: "垂直的", phonetic: "/vertical/" },
+    { word: "horizontal", pos: "adj.", meaning: "水平的", phonetic: "/horizontal/" },
+    { word: "actuality", pos: "n.", meaning: "现实", phonetic: "/actuality/" },
+    { word: "catastrophic", pos: "adj.", meaning: "大灾难的", phonetic: "/catastrophic/" },
+    { word: "particle", pos: "n.", meaning: "微粒", phonetic: "/particle/" },
+    { word: "maturity", pos: "n.", meaning: "成熟", phonetic: "/maturity/" },
+    { word: "undulate", pos: "v.", meaning: "波动，形成波浪", phonetic: "/undulate/" },
+    { word: "tremor", pos: "n.", meaning: "震颤", phonetic: "/tremor/" },
+    { word: "gravitational", pos: "adj.", meaning: "地心吸力的", phonetic: "/gravitational/" }
   ],
 }
 const articleNce4L41: Article = {
@@ -2368,6 +2659,31 @@ const articleNce4L41: Article = {
 ],
   },
   vocabulary: [
+    { word: "technique", pos: "n.", meaning: "技术", phonetic: "/technique/" },
+    { word: "tough", pos: "adj.", meaning: "强硬的", phonetic: "/tough/" },
+    { word: "resentful", pos: "adj.", meaning: "忿恨不满的", phonetic: "/resentful/" },
+    { word: "assign", pos: "v.", meaning: "分配，指派", phonetic: "/assign/" },
+    { word: "mahout", pos: "n.", meaning: "驯象人", phonetic: "/mahout/" },
+    { word: "calf", pos: "n.", meaning: "幼仔", phonetic: "/calf/" },
+    { word: "pine", pos: "v.", meaning: "消瘦", phonetic: "/pine/" },
+    { word: "underline", pos: "v.", meaning: "着重说明，强调", phonetic: "/underline/" },
+    { word: "keep", pos: "n.", meaning: "生计", phonetic: "/keep/" },
+    { word: "subservient", pos: "adj.", meaning: "屈从的", phonetic: "/subservient/" },
+    { word: "plunge", pos: "v.", meaning: "向前冲", phonetic: "/plunge/" },
+    { word: "tame", pos: "adj.", meaning: "养驯服了的", phonetic: "/tame/" },
+    { word: "tether", pos: "v.", meaning: "（用绳）拴", phonetic: "/tether/" },
+    { word: "ticklish", pos: "adj.", meaning: "难对付的，棘手的", phonetic: "/ticklish/" },
+    { word: "alarming", pos: "adj.", meaning: "引起惊恐的", phonetic: "/alarming/" },
+    { word: "accompaniment", pos: "n.", meaning: "伴奏", phonetic: "/accompaniment/" },
+    { word: "soothe", pos: "v.", meaning: "镇定", phonetic: "/soothe/" },
+    { word: "chant", pos: "n.", meaning: "单调的歌", phonetic: "/chant/" },
+    { word: "reinforce", pos: "v.", meaning: "加强", phonetic: "/reinforce/" },
+    { word: "endearing", pos: "adj.", meaning: "惹人喜爱的", phonetic: "/endearing/" },
+    { word: "epithet", pos: "n.", meaning: "称呼", phonetic: "/epithet/" },
+    { word: "susceptible", pos: "adj.", meaning: "易受感动的", phonetic: "/susceptible/" },
+    { word: "blandishment", pos: "n.", meaning: "奉承", phonetic: "/blandishment/" },
+    { word: "lash", pos: "v.", meaning: "猛烈地甩", phonetic: "/lash/" },
+    { word: "curl", pos: "v.", meaning: "使卷曲", phonetic: "/curl/" }
   ],
 }
 const articleNce4L42: Article = {
@@ -2433,6 +2749,21 @@ const articleNce4L42: Article = {
 ],
   },
   vocabulary: [
+    { word: "earthquake", pos: "n.", meaning: "地震", phonetic: "/earthquake/" },
+    { word: "slumber", pos: "v.", meaning: "睡眠", phonetic: "/slumber/" },
+    { word: "ninepin", pos: "n.", meaning: "九柱戏中的木柱", phonetic: "/ninepin/" },
+    { word: "rigid", pos: "adj.", meaning: "坚硬的", phonetic: "/rigid/" },
+    { word: "delicate", pos: "adj.", meaning: "灵感的", phonetic: "/delicate/" },
+    { word: "seismometer", pos: "n.", meaning: "地震仪", phonetic: "/seismometer/" },
+    { word: "penholder", pos: "n.", meaning: "笔杆", phonetic: "/penholder/" },
+    { word: "legibly", pos: "adv.", meaning: "字迹清楚地", phonetic: "/legibly/" },
+    { word: "drum", pos: "n.", meaning: "鼓状物", phonetic: "/drum/" },
+    { word: "wriggle", pos: "v.", meaning: "扭动", phonetic: "/wriggle/" },
+    { word: "bluebottle", pos: "n.", meaning: "绿头苍蝇", phonetic: "/bluebottle/" },
+    { word: "graph", pos: "n.", meaning: "图表", phonetic: "/graph/" },
+    { word: "graphic", pos: "adj.", meaning: "图示的", phonetic: "/graphic/" },
+    { word: "longitudinal", pos: "adj.", meaning: "纵向的", phonetic: "/longitudinal/" },
+    { word: "transverse", pos: "adj.", meaning: "横向的", phonetic: "/transverse/" }
   ],
 }
 const articleNce4L43: Article = {
@@ -2491,6 +2822,16 @@ const articleNce4L43: Article = {
 ],
   },
   vocabulary: [
+    { word: "Mercury", pos: "n.", meaning: "水星", phonetic: "/mercury/" },
+    { word: "hydrogen", pos: "n.", meaning: "氢气", phonetic: "/hydrogen/" },
+    { word: "prevailing", pos: "adj.", meaning: "普遍的", phonetic: "/prevailing/" },
+    { word: "uniquely", pos: "adv.", meaning: "唯一地", phonetic: "/uniquely/" },
+    { word: "rational", pos: "adj.", meaning: "合理的", phonetic: "/rational/" },
+    { word: "cm", pos: "n.", meaning: "厘米", phonetic: "/cm/" },
+    { word: "megacycle", pos: "n.", meaning: "兆周", phonetic: "/megacycle/" },
+    { word: "emission", pos: "n.", meaning: "散发", phonetic: "/emission/" },
+    { word: "intersteller", pos: "adj.", meaning: "星际的", phonetic: "/intersteller/" },
+    { word: "rendezvous", pos: "n.", meaning: "约会地点", phonetic: "/rendezvous/" }
   ],
 }
 const articleNce4L45: Article = {
@@ -2550,6 +2891,18 @@ const articleNce4L45: Article = {
 ],
   },
   vocabulary: [
+    { word: "dispute", pos: "v.", meaning: "争夺", phonetic: "/dis'pju:t/" },
+    { word: "mosquito", pos: "n.", meaning: "蚊子", phonetic: "/məs'ki:təu/" },
+    { word: "subdue", pos: "v.", meaning: "征服", phonetic: "/səb'dju:/" },
+    { word: "drainage", pos: "n.", meaning: "下水系统", phonetic: "/'dreinidʒ/" },
+    { word: "envision", pos: "v.", meaning: "预想", phonetic: "/in'viʒən/" },
+    { word: "Morocco", pos: "n.", meaning: "摩洛哥", phonetic: "/mə'rɔkəu/" },
+    { word: "latitude", pos: "n.", meaning: "纬度", phonetic: "/'lætitju:d/" },
+    { word: "heretic", pos: "n.", meaning: "异教徒，异端邪说", phonetic: "/'herətik/" },
+    { word: "conceive", pos: "v.", meaning: "想像", phonetic: "/kən'si:v/" },
+    { word: "suffice", pos: "v.", meaning: "足够", phonetic: "/sə'fais/" },
+    { word: "nuclear", pos: "adj.", meaning: "原子弹的", phonetic: "/'nju:kliə/" },
+    { word: "original", pos: "adj.", meaning: "有独到见解的", phonetic: "/ə'ridʒənəl/" }
   ],
 }
 const articleNce4L47: Article = {
@@ -2618,13 +2971,39 @@ const articleNce4L47: Article = {
         { text: "how much litter they leave;", translation: "留下了多少垃圾。", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "in short, whether or not they wholly alienate landowners and those who live in the countryside.", translation: "总之，他们是否弄得土地的主人和乡间的居民同他们反目。", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "Only good scouting is likely to preserve the freedoms so dear to the heart of the eternal Boy Scout.", translation: "只有优良的童子军活动才能保持不朽的童子军所衷心热爱的各项自由。", predicates: [], clauseIntroducers: [], notes: [] },
-      ],
-[
-        { text: "Modern camping", translation: "现代露营", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
   vocabulary: [
+    { word: "assumption", pos: "n.", meaning: "假定", phonetic: "/assumption/" },
+    { word: "manoeuvre", pos: "v.", meaning: "（驱车）移动", phonetic: "/manoeuvre/" },
+    { word: "myriad", pos: "adj.", meaning: "无数的", phonetic: "/myriad/" },
+    { word: "paradox", pos: "n.", meaning: "自相矛盾的呈", phonetic: "/paradox/" },
+    { word: "cynic", pos: "n.", meaning: "愤世嫉俗者", phonetic: "/cynic/" },
+    { word: "sociologist", pos: "n.", meaning: "社会学家", phonetic: "/sociologist/" },
+    { word: "shun", pos: "v.", meaning: "避开", phonetic: "/shun/" },
+    { word: "affluent", pos: "adj.", meaning: "富有的", phonetic: "/affluent/" },
+    { word: "chambermaid", pos: "n.", meaning: "女招待员", phonetic: "/chambermaid/" },
+    { word: "boo", pos: "n.", meaning: "呸的一声", phonetic: "/boo/" },
+    { word: "maitre d'hotel", pos: "n.", meaning: "[法语]总管", phonetic: "/maitre d'hotel/" },
+    { word: "snobbery", pos: "n.", meaning: "势利", phonetic: "/snobbery/" },
+    { word: "hierarchy", pos: "n.", meaning: "等级制度", phonetic: "/hierarchy/" },
+    { word: "entail", pos: "v.", meaning: "便成为必要", phonetic: "/entail/" },
+    { word: "inclement", pos: "adj.", meaning: "险恶的", phonetic: "/inclement/" },
+    { word: "insularity", pos: "n.", meaning: "偏狭", phonetic: "/insularity/" },
+    { word: "cater", pos: "v.", meaning: "迎合", phonetic: "/cater/" },
+    { word: "exclusively", pos: "adv.", meaning: "排他地", phonetic: "/exclusively/" },
+    { word: "cosmopolitan", pos: "adj.", meaning: "世界的", phonetic: "/cosmopolitan/" },
+    { word: "preponderance", pos: "n.", meaning: "优势", phonetic: "/preponderance/" },
+    { word: "overwhelmingly", pos: "adv.", meaning: "以压倒优势地，清一色地", phonetic: "/overwhelmingly/" },
+    { word: "patronage", pos: "n.", meaning: "恩惠，惠顾", phonetic: "/patronage/" },
+    { word: "sauerkraut", pos: "n.", meaning: "泡菜", phonetic: "/sauerkraut/" },
+    { word: "vie", pos: "v.", meaning: "竞争", phonetic: "/vie/" },
+    { word: "municipality", pos: "n.", meaning: "市政当局", phonetic: "/municipality/" },
+    { word: "itinerant", pos: "n.", meaning: "巡回者", phonetic: "/itinerant/" },
+    { word: "heath", pos: "n.", meaning: "荒地", phonetic: "/heath/" },
+    { word: "alienate", pos: "v.", meaning: "使疏远", phonetic: "/alienate/" },
+    { word: "eternal", pos: "adj.", meaning: "永久的", phonetic: "/eternal/" }
   ],
 }
 

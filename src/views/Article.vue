@@ -26,7 +26,7 @@ const currentMeta = computed(() => article.value ?? null)
 // 同 level 下的上一篇/下一篇文章，用于导航按钮
 const neighbors = computed(() => {
   if (!currentMeta.value) return { prev: null, next: null }
-  const sameLevel = Object.values(articles).filter(a => a.level === currentMeta.value!.level)
+  const sameLevel = Object.values(articles).filter(a => a.level === currentMeta.value!.level).sort((a, b) => a.lesson - b.lesson)
   const idx = sameLevel.findIndex(a => a.id === currentMeta.value!.id)
   return {
     prev: idx > 0 ? sameLevel[idx - 1] : null,
