@@ -81,7 +81,11 @@ const articleNce4L2: Article = {
 
 
   attribution: "T.H.GILLESPIE（T.H.吉莱斯皮）《Spare that spider》from《The Listener》",
-    original: {
+    notesOnText: [
+    { title: "if it were not for the protection we get from inscet-eating animals 这是一个非真实条件状语从句", body: "were表示虚拟语气。" }
+  ],
+
+  original: {
         paragraphs: [
 [
 { text: "Why, you may wonder, should spiders be our friends?", translation: "你可能会觉得奇怪， 蜘蛛怎么会是我们的朋友呢？", predicates: [], clauseIntroducers: [], notes: [] },
@@ -125,7 +129,15 @@ const articleNce4L3: Article = {
 
 
   attribution: "WALTER UNSWORTH（沃尔特·昂斯沃思）《Matterhorn Man》",
-    original: {
+    notesOnText: [
+    { title: "in the pioneering days", body: "在初创时期，这里指登山运动的初创期。" },
+    { title: "equipped in a manner which would make a modern climber shudder at the thought", body: "他们的装备如此简陋，足以使现代登山者一想起来就胆战心惊。at the thought,一想到（他们的装备），英文中省略了 of the manner." },
+    { title: "go out of one's way 特地", body: "不怕麻烦" },
+    { title: "such inns as there were 那里有的小客栈", body: "as there were 用来修饰inns,作定语。" },
+    { title: "the food simply local cheese", body: "在food 后面省略了was。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Modern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded.", translation: "现代登山运动员总想找一条能够给他们带来运动乐趣的路线来攀登山峰。他们认为，道路愈艰险愈带劲儿。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -184,7 +196,17 @@ const articleNce4L4: Article = {
 
 
   attribution: "ERIC DE MAUNY（埃里克·德莫尼）《Seeing hands》from《The Listener》",
-    original: {
+    notesOnText: [
+    { title: "1 of people who can read...", body: "这个定语从句用来修饰主语cases,由于太长，因此被移至谓语之后。" },
+    { title: "2 through solid walls与 with different parts of her skin并列", body: "作perceive的状语。" },
+    { title: "3 lock something away", body: "把...锁藏起来。" },
+    { title: "4 do up", body: "引起捆，包" },
+    { title: "5 bring...to the notice of", body: "引起某人注意。" },
+    { title: "6 except when blindfold", body: "其中when之后省略了she was。" },
+    { title: "7 the moment her hands were wet", body: "这是一个时间状语从句,the moment 有\"一....就....\"的意思。" }
+  ],
+
+  original: {
         paragraphs: [
 [
 { text: "Several cases have been reported in Russia recently of people who can read and detect colours with their fingers, and even see through solid doors and walls.", translation: "俄罗斯最近报导了几个事例，有人能用手指看书识字和辨认颜色，甚至能透过厚实的门和墙看到东西。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -231,7 +253,15 @@ const articleNce4L6: Article = {
 
 
   attribution: "GEORGE ORWELL（乔治·奥威尔）《The sporting spirit》",
-    original: {
+    notesOnText: [
+    { title: "1 if only the common peoples of the world...", body: "这里 if only 引导的一个非真实条件句，if only作“只要”讲。" },
+    { title: "2 have no inclination to do", body: "无意做.....,不想做.....。" },
+    { title: "4 You play to win. 句中的you 是泛指人", body: "可译作“人们”。" },
+    { title: "5 pick up", body: "随意挑选。" },
+    { title: "6 and", body: "behind the spectators,of the nations,在of the nations前面省略了the attitude。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield.", translation: "当我听人们说体育运动可创造国家之间的友谊，还说各国民众若在足球场或板球场上交锋，就不愿在战场上残杀的时候，我总是惊愕不已。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -284,7 +314,16 @@ const articleNce4L7: Article = {
 
 
   attribution: "MAURICE BURTON（莫里斯·伯顿）《Curiosities of animal life》",
-    original: {
+    notesOnText: [
+    { title: "1 Not all sounds made by animals serve as language", body: "动物发出的声音不全是作语言交际。此句采用了部分否定，即不是否定所有的动物，而只是一部分。serve as,作...之用。" },
+    { title: "2 turn to", body: "求助于。" },
+    { title: "3 play a role in", body: "在...方面起作用。" },
+    { title: "4 in the vicinity of", body: "在...的附近。" },
+    { title: "5 So was born the echo-sounding apparatus", body: "这样就诞生了回声探测仪。这是一个倒装句，主要是为了避免因主语过长而使全句失去平衡，同时也为了使apparatus的定语now in general use in ships紧挨着名词。in general use,普遍使用。" },
+    { title: "6 steer clear of", body: "避开。" }
+  ],
+
+  original: {
     paragraphs: [
       [
         { text: "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.", translation: "动物发出的声音不都是用作语言交际。我们只要看一看蝙蝠回声定位这一极不寻常的发现，就可以探究一下声音在什么情况下有绝对的实用价值。", predicates: [], clauseIntroducers: [], notes: [] }
@@ -341,7 +380,13 @@ const articleNce4L8: Article = {
 
 
   attribution: "from《The Economist》, 1997",
-    original: {
+    notesOnText: [
+    { title: "1 Chickens slaughtered in ... to grace European tables.在这句话中引用了布鲁塞尔官员的评论", body: "却没有放在引号之中。这种方式常用于报刊文章，对读者的直接影响更大。在claim officials in Brussels中，动词claim置于名词之前。" },
+    { title: "2 it is differences in national regulations .. between rich countries.是各国管理条例上的差异", body: "而不是关税阻碍了发达国家之间的贸易。这是一个it 引导的强调句。put sand in the wheels of,阻碍，阻挠。" },
+    { title: "3 So", body: "ask businesses on both sides of the Atlantic,why have two lots of tests where one would do?这是另一个没有引号的直接引语的例子。注意why have two...do 中的语序，这是非常口语化的直接引语的语序。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Chickens slaughtered in the United States, claim officials in Brussels, are not fit to grace European tables.", translation: "布鲁塞尔的官员说，在美国屠宰的鸡不适于用来装点欧洲的餐桌。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -399,7 +444,16 @@ const articleNce4L11: Article = {
 
 
   attribution: "BERTRAND RUSSELL（伯特兰·罗素）《How to grow old》from《Portraits from Memory》",
-    original: {
+    notesOnText: [
+    { title: "1 in the young", body: "在年轻人身上。" },
+    { title: "2 Young men who have reason...that life has to offer.这个句子较长", body: "其中有3个that。第1个that引导一个宾语从句that...battle,是fear的宾语。第2个that引导一个同位语从句that they...to offer,说明thought的内容。第2个that引导一个定语从句that life has to offer,修饰things。" },
+    { title: "3 cheat of...", body: "从...那里骗取....。" },
+    { title: "4 whatever work it was in him to do", body: "他所能做的任何工作。" },
+    { title: "5 so at least it seems to me", body: "这里一个插入语，用了倒装语序，自然的语序是at least it seems so to me。" },
+    { title: "6 bit by bit", body: "一点一点地。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Some old people are oppressed by the fear of death.", translation: "有些老年人因为怕死而感到烦恼。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -450,7 +504,23 @@ const articleNce4L13: Article = {
 
 
   attribution: "T. F. GASKELL（T. F. 加斯克尔）《The Search for the Earth's Minerals》from《Discovery》",
-    original: {
+    notesOnText: [
+    { title: "they go down to as much as 25", body: "0000 feet，as much as意为“多达”，“达到（量）”。" },
+    { title: "as+形容词+as表示“……达”", body: "例如：as long as长达……，as tall as高达……，as expensive as贵至……。" },
+    { title: "as we must with other mineral deposits", body: "must后面省去了与上句中相同的部分send men down。" },
+    { title: "a foot in diameter", body: "直径一英尺。" },
+    { title: "every so often", body: "时常。" },
+    { title: "我不再经常看见约翰了", body: "但他偶尔还到我办公室来。" },
+    { title: "obtain a sample", body: "取样。" },
+    { title: "To obtain something means to get it or achieve it. (FORMAL)获得", body: "取得某物。" },
+    { title: "形容词形式为obtainable：If something is obtainable", body: "it is possible to get or achieve it." },
+    { title: "by means of", body: "用……，靠……手段。" },
+    { title: "endeavour to", body: "努力去，尽力去。" },
+    { title: "If you endeavour to do something", body: "you try very hard to do it. 同义词组喂strive to。" },
+    { title: "他们尽量使她快乐", body: "却徒劳无功。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "The deepest holes of all are made for oil, and they go down to as much as 25,000 feet.", translation: "在所有洞穴中，为寻找石油所钻出的洞是最深的，这些洞可深达25,000英尺。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -505,7 +575,15 @@ const articleNce4L15: Article = {
 
 
   attribution: "W. J. READER（W. J. 里德）from《The Observer》, 1964",
-    original: {
+    notesOnText: [
+    { title: "1 weigh against", body: "不利于....。" },
+    { title: "2 in so far as...", body: "就...而言。" },
+    { title: "3 which are of such general and fundamental nature", body: "其中to be of 有“具有”的意思。" },
+    { title: "4 are sought for with complete secrecy", body: "极端秘密地探索。" },
+    { title: "5 such and such a book", body: "某一本书。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Two factors weigh heavily against the effectiveness of scientific research in industry.", translation: "有两个因素严重地妨碍工业中科学研究的效率：一是科研工作中普遍存在的保密气氛；二是研究人员缺乏个人自由。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -607,7 +685,16 @@ const articleNce4L18: Article = {
 
 
   attribution: "RALPH NADING HILL（拉尔夫·纳丁·希尔）《Window in the Sea》",
-    original: {
+    notesOnText: [
+    { title: "however intelligent they may be", body: "不管它们有多聪明，这是一个让步状语从句。" },
+    { title: "as in riding the how waves of a ship", body: "就像它们追逐被船首犁开的浪花一样。" },
+    { title: "If as has been reported", body: "they have protected humans from sharks...," },
+    { title: "as 是关系代词", body: "代替they have protected humans from sharks." },
+    { title: "Whether it be bird", body: "fish or beast...,这是一个让步状语从句，用的是虚拟语气形式。" },
+    { title: "for dear life", body: "拼命地。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "There has long been a superstition among mariners that porpoises will save drowning men by pushing them to the surface, or protect them from sharks by surrounding them in defensive formation.", translation: "长期以来，海员中流传着一种迷信的说法，认为海豚会把快要淹死的人托到水面，救人性命；或在人们周围列队保护，使他们免遭鲨鱼伤害。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -676,7 +763,16 @@ const articleNce4L21: Article = {
 
 
   attribution: "CARL FOREMAN（卡尔·福尔曼）《Virtue and a Fast Gun》from《The Observer》",
-    original: {
+    notesOnText: [
+    { title: "1 nothing but", body: "仅仅，只是。" },
+    { title: "2 in short", body: "总而言之，一句话。" },
+    { title: "3 the old West", body: "指密西西比河以西地区。" },
+    { title: "4 be rooted in", body: "生根于。" },
+    { title: "5 join hands in", body: "携手联合。" },
+    { title: "6 live by", body: "靠...过活。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "William S.", translation: "威廉.S.哈特大概是美国西部电影明星中的佼佼者。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -742,7 +838,22 @@ const articleNce4L22: Article = {
 
 
   attribution: "BERTRAND RUSSELL（伯特兰·罗素）《The Impact of Science on Society》, 1952",
-    original: {
+    notesOnText: [
+    { title: "1 with the invention of writing", body: "短语中的with 是“由于”的意思。" },
+    { title: "2 education in its turn added to libraries", body: "教育反过来也丰富了藏书。" },
+    { title: "3 a kind of compound interest law", body: "一种复利法则。compound interest law有时也被称作雪球法则，即利上滚利，增长很快。" },
+    { title: "4 turn... to account", body: "利用...。" },
+    { title: "5 Could any spectacle", body: "...to restore them?这句话从形式上是个疑问句，但实质上起一个加强语气的陈述句的作用，这种疑问句常被称为修辞疑问句。" }
+  ],
+
+  notesOnText: [
+    { title: "1 in moments of intense aesthetic experience", body: "在感受到强烈美的时候。" },
+    { title: "2 in some way highter", body: "in some way是“在某种程度上”的意思，higher与前面的different and是并列的，作realm of existence的定语。" },
+    { title: "3 yet do they convey a hint of beauty", body: "其中的do 起强调作用，放在主语之前更具有强调的意义。" },
+    { title: "4 In some moods Nature shares it.在某种状态下", body: "大自然也具有这种力量。it是指前面一句中this power of suggesting a world beyond." }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Why does the idea of progress loom so large in the modern world?", translation: "为什么进步这个概念在现代世界显得如此突出？", predicates: [], clauseIntroducers: [], notes: [] },
@@ -800,7 +911,16 @@ const articleNce4L24: Article = {
     ],
 
   attribution: "C. E. M. JOAD（C. E. M. 乔德）《Pieces of mind》, 1961",
-    original: {
+    notesOnText: [
+    { title: "1 the same as theirs", body: "这里的theirs是指our forefathers'。" },
+    { title: "2 only too ready to provide", body: "非常乐意提供。在英语中too...to do...的结构通常表示否定，但如果在前面加上only,就有“非常...能做”的意思。" },
+    { title: "3 disposing of", body: "处理。" },
+    { title: "4 It is recounted of Thomas Carlyle...", body: "据说，托马斯.卡莱尔...（有下面这件）.托马斯.卡莱尔是十九世纪英国著名的散文作家和历史学家。" },
+    { title: "5 in all probability", body: "很可能。" },
+    { title: "6 put up with", body: "忍受。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "A young man sees a sunset and, unable to understand or to express the emotion that it rouses in him, concludes that it must be the gateway to a world that lies beyond.", translation: "一个年轻人看到日落，由于无法理解和表达日落在他心中唤起的激情，便得出结论：日落处想必是通往遥远世界的大门。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -851,7 +971,19 @@ const articleNce4L28: Article = {
 
 
   attribution: "KENNETH WALKER（肯尼斯·沃克）《Patients and doctors》",
-    original: {
+    notesOnText: [
+    { title: "1 be confined to", body: "仅限于...。" },
+    { title: "2 shallow water", body: "浅水区。" },
+    { title: "3 open sea", body: "无办际的大海。" },
+    { title: "4 gave more than a passing thought to", body: "稍微想过。" },
+    { title: "6 at the disposal of", body: "交由...支配。" },
+    { title: "7 a relief map", body: "地形图。" },
+    { title: "8 with", body: "superimposed upon it,the continents,together with the islands and other features of the oceans,这是with引导的一个过去分词独立主格结构。因逻辑主语太长，所以使用了倒装语序。superimposed upon it是逻辑谓语部分。" },
+    { title: "9 continental shelf", body: "大陆架。" },
+    { title: "10 1 in 30", body: "1/30。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "This is a sceptical age, but although our faith in many of the things in which our forefathers fervently believed has weakened, our confidence in the curative properties of the bottle of medicine remains the same as theirs.", translation: "这是一个怀疑一切的时代，可是虽然我们对我们祖先笃信的许多事物已不太相信，我们对瓶装药品疗效的信心仍与祖辈一样坚定。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -904,7 +1036,15 @@ const articleNce4L30: Article = {
 
 
   attribution: "H. H. HESS（H. H. 赫斯）from《Scientific American》, 1960",
-    original: {
+    notesOnText: [
+    { title: "1 something like", body: "多少，大约。" },
+    { title: "2 a problem child", body: "problem 作定语，修饰 child。这是一种比喻修辞法，意思是“新出现的问题”。" },
+    { title: "3 a man who... who... who... who...", body: "这里一连用了4个定语从句，均用who引导，构成了排比结构，起加强语气的作用。" },
+    { title: "4 at the time", body: "当时。" },
+    { title: "5 use a telescope at the limit of its power", body: "用望远镜的极限功率。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Our knowledge of the oceans a hundred years ago was confined to the two-dimensional shape of the sea surface and the hazards of navigation presented by the irregularities in depth of the shallow water close to the land.", translation: "100年前，我们只知道海洋是二维平面形的，以及靠近陆地浅水区的深浅不一能给航行带来危险。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -963,7 +1103,14 @@ const articleNce4L32: Article = {
 
 
   attribution: "MICHAEL HOSKIN（迈克尔·霍斯金）《Galileo Reborn》from《The Listener》",
-    original: {
+    notesOnText: [
+    { title: "1 Education", body: "with its cycles...,punctuated by textbooks...,这句话中的主语 Education 与 punctuated 并不是一种主谓关系，因此，这句话在语法上被称作单元句" },
+    { title: "2 So much is certain", body: "有承上启下的作用:一方面回答了前一段最后一句的提问，另一方面开始列举没有教育将会给社会文明带来的影响。" },
+    { title: "3 be fashioned after", body: "按...做成。" },
+    { title: "4 without a script", body: "没有文字的。" }
+  ],
+
+  original: {
         paragraphs: [
 [
 { text: "In his own lifetime Galileo was the centre of violent controversy;", translation: "伽利略在世时是激烈论战的中心。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1029,7 +1176,14 @@ const articleNce4L33: Article = {
 
 
   attribution: "JULIUS E. LIPS（朱利叶斯·E·利普斯）《The Origin of Things》",
-    original: {
+    notesOnText: [
+    { title: "1 on the part of", body: "在...一边。" },
+    { title: "2 they have brought this on themselves", body: "他们是咎由自取。" },
+    { title: "3 stand up to", body: "经得起。" },
+    { title: "4 face up to", body: "正视。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Education is one of the key words of our time.", translation: "教育是我们这个时代的关键词之一。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1099,7 +1253,14 @@ const articleNce4L34: Article = {
 
 
   attribution: "DOTID OFLUM（多蒂德·奥弗拉姆）《Journey Through Adolescence》",
-    original: {
+    notesOnText: [
+    { title: "1 at its most vigorous", body: "生命力最旺盛的时候。" },
+    { title: "2 with the passing of time", body: "随着时间的流失。" },
+    { title: "3 It is one of the most unpleasant discoveries...that...", body: "that...,and that..., 3个以that引导的从句是discoveries 的同位语。" },
+    { title: "4 a wound watch", body: "上紧了发条的表。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "Parents are often upset when their children praise the homes of their friends and regard it as a slur on their own cooking, or cleaning, or furniture, and often are foolish enough to let the adolescents see that they are annoyed.", translation: "当家长听到孩子赞扬自己朋友的家时，总感到不安，认为孩子在嫌弃自家的饭菜、卫生、或家具，而且愚蠢地让孩子看出自己的烦恼。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1162,7 +1323,20 @@ const articleNce4L37: Article = {
 
 
   attribution: "ALEX COMPORT（亚历克斯·康福特）《The process of ageing》",
-    original: {
+    notesOnText: [
+    { title: "1 The inner workings of our own brains", body: "这一部分是feel的宾语，为了强调而把宾语提前了，to be uniquely worthy of investigation 是宾语补足语。" },
+    { title: "2 the other way around", body: "正好相反。" },
+    { title: "3 taken the world over", body: "是过去分词短语，作Traditional custom的定语，taken前省略了it is 意为：被全世界所接受的。" },
+    { title: "4 go behind these stereotypes", body: "摆脱这些旧框框。" },
+    { title: "5 his very concepts", body: "其中的very是形容词，用于加强语气。" },
+    { title: "6 have reference to", body: "参照...,与...有关。" },
+    { title: "8 be taken up into", body: "被接纳进。" },
+    { title: "9 first and foremost", body: "首先。" },
+    { title: "10 the thousandth part", body: "等于the thousandth part of the customs。" },
+    { title: "11 let us say", body: "譬如说。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "At the age of 12 years, the human body is at its most vigorous.", translation: "人体在12岁时是生命力最旺盛的时期。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1311,7 +1485,12 @@ const articleNce4L46: Article = {
 
 
   attribution: "WINSTON CHURCHILL（温斯顿·丘吉尔）《Painting as a Pastime》",
-    original: {
+    notesOnText: [
+    { title: "catch hold of", body: "抓住....,let ...go,放掉....。" },
+    { title: "lay one's hands on", body: "得到...,抓到....。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "A gifted American psychologist has said, 'Worry is a spasm of the emotion;", translation: "一位天才的美国心理学家曾经说过：“烦恼是感情的发作，此时脑子纠缠住了某种东西又不肯松手。”", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1406,7 +1585,14 @@ const articleNce4L48: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-    original: {
+    notesOnText: [
+    { title: "1 go about", body: "从事，做。" },
+    { title: "2 Periwigs", body: "是一个假想中公司的名字。" },
+    { title: "3 the basics", body: "这里指基本情况，基本要素。" },
+    { title: "4 If you recognize yourself in this description", body: "如果你觉得你的情况是这样的话。" }
+  ],
+
+  original: {
     paragraphs: [
 [
 { text: "There is no shortage of tipsters around offering 'get-rich-quick' opportunities.", translation: "我们周围不乏情报贩子，向人们提供迅速发财致富的机遇。", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1477,6 +1663,15 @@ const articleNce4L5: Article = {
     ],
 
   attribution: "SAMUEL ULLMAN（塞缪尔·厄尔曼）《Youth》, 1917",
+  notesOnText: [
+    { title: "1 which I take leave to doubt", body: "这是一个插入成分，用两个破折号与句子的主要部分分工。take leave to do sth.是“擅自做”，“冒昧去做”的意思。" },
+    { title: "2 get down to", body: "认真处理，认真研究。" },
+    { title: "4 for one thing", body: "首先。" },
+    { title: "5 air of freedom", body: "无拘无束。" },
+    { title: "6 in some sense", body: "在某种意义上。" },
+    { title: "7 turn to...for ...", body: "为...而求助于....。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -1538,6 +1733,12 @@ const articleNce4L9: Article = {
     ],
 
   attribution: "BERNARD NEWMAN（伯纳德·纽曼）《Spies in Britain》",
+  notesOnText: [
+    { title: "1 settle down", body: "驻扎" },
+    { title: "2 They lived well", body: "on the proceeds of raids,他们的生活舒适，靠袭击（周围地区）掠夺得到的财物为生。live on ,靠为生。" },
+    { title: "3 be fit for", body: "适宜于.....。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -1603,6 +1804,13 @@ const articleNce4L10: Article = {
     ],
 
   attribution: "《US NEWS AND WORLD REPORT》, October 2, 1989",
+  notesOnText: [
+    { title: "1 much the way an editor creates a newsletter", body: "就像一位编辑出一份时事通讯一样。" },
+    { title: "2 be free to", body: "可以做....。" },
+    { title: "3 in droves", body: "一批批，成群地。" },
+    { title: "4 draw on", body: "依靠，凭借。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -1665,6 +1873,14 @@ const articleNce4L12: Article = {
     ],
 
   attribution: "GORDON BARRIE（戈登·巴里） and AUBREY L. DLAMOND《The Consumer Society and the Law》",
+  notesOnText: [
+    { title: "1 open a current account", body: "开一个活期账号" },
+    { title: "2 draw a cheque in favour of ...", body: "开一张以...为收款人的支票。" },
+    { title: "3 who is which depending on ...is overdrawn", body: "这是现在分词短语depending on ...is overdrawn的独立主格结构。who is which是分词短语意思上的主语，which代表debtor or creditor。" },
+    { title: "4 give rise to", body: "引起。" },
+    { title: "5 be loaded against...", body: "与...不利。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -1714,6 +1930,13 @@ const articleNce4L14: Article = {
     ],
 
   attribution: "JAMES GLEICK（詹姆斯·格莱克）《Chaos》",
+  notesOnText: [
+    { title: "1 so that it multiplied with that promiscuous abandon characteristic of rabbits", body: "这里so that引导的一个结果状语从句，可译成“因此便以兔子所特有的杂乱交配繁衍后代”。" },
+    { title: "2 be susceptible to ...", body: "易受...感染的，易受...影响的。" },
+    { title: "3 let loose", body: "让乱跑。" },
+    { title: "4 pass ... on to", body: "把...传给。" }
+  ],
+
   original: {
     paragraphs: [
       [
@@ -1773,6 +1996,13 @@ const articleNce4L17: Article = {
     ],
 
   attribution: "RITCHIE CALDER（里奇·考尔德）《Science Makes Sense》",
+  notesOnText: [
+    { title: "1 in terms of muscle relaxation and so on", body: "从使肌肉得到放松等方面来看。in terms of,从...方面看。" },
+    { title: "2 then perhaps it is the brain that need resting?这是个陈述句的语序", body: "但句尾加问号，表示说话人对这种观点有把握但需进一步证实。" },
+    { title: "3 were it not far two factors", body: "这是省略了if 的条件句，可译作“如果不是下面两个因素的话”。" },
+    { title: "4 servral nights on end", body: "一连几夜。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -1834,6 +2064,19 @@ const articleNce4L19: Article = {
     ],
 
   attribution: "H. W. MAGOUN（H. W. 马贡）《The Story of Language》, 1955",
+  notesOnText: [
+    { title: "1 How it came about that snakes...a mystery", body: "这句话的主语是一个句子：How it came about that snakes manufactured poison,谓语部分是is a mystery.主语从句中的it是形式主语，真正主语是that snakes manufactured poison,因为主语太长，所以使用it作先生主语的结构。" },
+    { title: "2 over the periods", body: "经过很长时间。" },
+    { title: "3 live on", body: "靠...生活。" },
+    { title: "4 a two-edged weapon", body: "一把双刃刀，这里的意思是：如果食肉动物都有毒液，就会造成食肉动物之间的互相残杀。" },
+    { title: "5 act on", body: "对...起作用。" },
+    { title: "6 by far the more unpleasant", body: "更难受得多，by far是“...得多”的意思。" },
+    { title: "7 so to speak", body: "插入语，有“可以这样说”，“打个比方说”的意思。" },
+    { title: "8 Be that as it may", body: "这是一个倒装的站步状语从句，相当于however that may be,可译成“尽管如此”。" },
+    { title: "9 does its business with man", body: "在人的身上发挥作用，要人的命。" },
+    { title: "10 the effects on these of viperine poison", body: "these是指rats and mice,介词宾语结构of viperine poison是作effects 的定语。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -1890,6 +2133,14 @@ const articleNce4L20: Article = {
     ],
 
   attribution: "JOHN CROMPTON（约翰·克朗普顿）《The snake》",
+  notesOnText: [
+    { title: "1 keep company with", body: "陪伴着....。" },
+    { title: "2 The currents of air that the walls of the ship direct upwards", body: "沿着船体上升的气流。" },
+    { title: "3 steel-like muscles", body: "that are a good part of the weight of the bird,句中以that引导的从句是一个非限定性定语从句，修饰muscles,但用that引导非限定性定语从句是很罕见的。" },
+    { title: "4 in hghest measure", body: "最大程度的。" },
+    { title: "5 It tires no nor does it boast of its power", body: "but belongs to the air,travelling it may be .. adverse.句中的tires not 是古英语或诗歌中使用的句式。boast of 中的of = about;belong to the air的意思是：与天空融为一体。travelling it may be是倒装语序，这是为了强调travelling 的生动逼真，自然语离是it may be travelling...;nesting home.意为home for nesting,flown young中的flown意为已会飞的。a medium(媒介)指air." }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -1962,6 +2213,14 @@ const articleNce4L23: Article = {
     ],
 
   attribution: "WILLIAM BEACH THOMAS（威廉·比奇·托马斯）《A Countryman's Creed》",
+  notesOnText: [
+    { title: "1 the Services", body: "军队" },
+    { title: "2 On turning eagerly to the text", body: "one learns that..." },
+    { title: "句中 on 的意思是 on the occasion of", body: "directly after(当时，随后)。" },
+    { title: "3 aircraft carrier", body: "航空母舰。" },
+    { title: "4 That does not prove that it does no exist;but it does mean that...句中出现的3个does的语法功能并不相同", body: "前两个does是一般现在时的否定式使用的助动词，第3个does则是强调用法，有强化句意的作用。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2072,6 +2331,13 @@ const articleNce4L26: Article = {
     ],
 
   attribution: "ERROL WHITE（埃罗尔·怀特）《The past life of the earth》from《Discovery》",
+  notesOnText: [
+    { title: "1 the 'Vasa'", body: "“瓦萨号”战船。这艘船是以瑞典瓦萨王朝（1523-1654）创始人Gustavus Vasa的姓氏命名的。Gustavus Vasa(1496-1560)曾领导了反对丹麦统治的暴动，1523年出任国王，使瑞典成了一个独立、统一、富强的国家。" },
+    { title: "2 the Thirty Years War \"三十年战争\"。这是欧洲历史上的一场多国混战", body: "具有政治和宗教色彩、是新教诸侯和天主教诸侯之间的连年战争（161801648）,最后在1648年签定了威斯物伐利亚条约，以天主教诸侯失败而告终。" },
+    { title: "3 a riot of", body: "许多...,主要指色彩丰富。" },
+    { title: "4 with the water churned...", body: "her flags flying,pennans waving,sails filling...,and the red and gold..ablaze...with 后有5个独立主格结构，均作方式状语，修饰动词emerged。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2126,6 +2392,16 @@ const articleNce4L27: Article = {
     ],
 
   attribution: "ROY SAUNGERS（罗伊·桑德斯）《The Raising of the 'Vasa'》from《The Listener》",
+  notesOnText: [
+    { title: "1 form-blind", body: "这是作者仿照colour-blind(色盲)生造的一个词，意指“形盲”" },
+    { title: "2 in its full spatial completeness", body: "存在于空间的整个（形体）。" },
+    { title: "3 as it were", body: "可以说是。" },
+    { title: "4 whatever its size", body: "这是一个省略了maybe的让步状语从句。" },
+    { title: "5 from all round itself", body: "从它的各个角度构想。" },
+    { title: "6 centre of gravity", body: "重心。" },
+    { title: "7 apart from", body: "撇开。" }
+  ],
+
   original: {
         paragraphs: [
 ],
@@ -2186,6 +2462,12 @@ const articleNce4L29: Article = {
     ],
 
   attribution: "EGON LARSEN（埃贡·拉森）《The Pegasus Book of Inventors》",
+  notesOnText: [
+    { title: "1 the comparable speed from the Moon", body: "从月球出发的相应的速度，这里是指摆脱月球引力所需达到的速度。" },
+    { title: "2 the Apollo astronauts", body: "指1969年7月20日美国“阿波罗11号”宇宙飞船第一次载人登月球。" },
+    { title: "3 the Grand Ganyon", body: "指位于美国亚利桑那州西北部的科罗拉多河的大峡谷。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2240,6 +2522,14 @@ const articleNce4L31: Article = {
     ],
 
   attribution: "HENRY MOORE（亨利·摩尔）《The Sculptor Speaks》from《The Listener》",
+  notesOnText: [
+    { title: "1 economic resource", body: "经济实力。" },
+    { title: "2 stay in business", body: "维持营业。" },
+    { title: "4 as falls within their sphere", body: "属于他们分内的。" },
+    { title: "5 keep someone in line", body: "控制住某人。" },
+    { title: "6 keep them in order", body: "管理他们。" }
+  ],
+
   original: {
         paragraphs: [
 [
@@ -2297,6 +2587,11 @@ const articleNce4L35: Article = {
     ],
 
   attribution: "ARTHUR C. CLARKE（阿瑟·克拉克）《The Exploration of Space》, 1951",
+  notesOnText: [
+    { title: "keep to", body: "局限于。" },
+    { title: "know about", body: "知道...的情况，了解。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2367,6 +2662,17 @@ const articleNce4L36: Article = {
     ],
 
   attribution: "RAYMOND FROST（雷蒙德·弗罗斯特）《The Backward Society》",
+  notesOnText: [
+    { title: "where they are going", body: "他们要写什么，怎么写。" },
+    { title: "set their pen to paper", body: "开始写作。" },
+    { title: "pass for", body: "\"被当作\"，但常指蒙骗，假冒。" },
+    { title: "to my certain knowledge", body: "据我所知。" },
+    { title: "nothing but", body: "仅，只。" },
+    { title: "like adolescents they stand before the mirror", body: "and still cannot fathom the exact outline of the vision before them." },
+    { title: "他们如同少年", body: "站在镜前，不能辨认出自身的真面目。此句出自古希腊的一则是神话：有一漂亮少年，他热恋上了水中自身的映像，最后憔悴而死，化为水仙花。" },
+    { title: "in the sight of", body: "从...角度来看。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2428,6 +2734,11 @@ const articleNce4L38: Article = {
     ],
 
   attribution: "RICHARD DAWOOD（理查德·达伍德）《Travellers' Health》",
+  notesOnText: [
+    { title: "1 back to its starting point again", body: "又返回出发点。" },
+    { title: "2 be subject to", body: "受...的支配，服从于...。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2497,6 +2808,14 @@ const articleNce4L39: Article = {
     ],
 
   attribution: "JOHN LE CARRE（约翰·勒卡雷）《What every writer wants》from《Harper's》",
+  notesOnText: [
+    { title: "1 by some unavoidable circumstance", body: "由于某些不可避免的情况。" },
+    { title: "2 with a grain of salt", body: "有保留地。" },
+    { title: "3 a very firm hand", body: "一个强有力的人。" },
+    { title: "4 with the aid of", body: "在...的帮助下。" },
+    { title: "5 This is supposed", body: "据说...。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2564,6 +2883,15 @@ const articleNce4L40: Article = {
     ],
 
   attribution: "S. H. HURLBUT（S. H. 赫伯特）《The Sea》, 1964",
+  notesOnText: [
+    { title: "stand up on end", body: "竖立着。" },
+    { title: "the ideal to be aimed at", body: "理想的目标。" },
+    { title: "I could in time...", body: "我最终能够....。" },
+    { title: "help us a little further", body: "帮助我们进一步搞清这个问题。" },
+    { title: "with the hand...hold the string...", body: "这是一个祈使句，谓语动词是hold,with the hand held high in the air是介词短语作方式状语。" },
+    { title: "to and fro", body: "来回地。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2708,6 +3036,12 @@ const articleNce4L42: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+  notesOnText: [
+    { title: "that given a planet...certain to start", body: "这是一个宾语从句，作动词conclude的宾语，其中given a planet...our own,过去分词短语作条件状语，given与if的意思相近，这个过去分词短语可译成“如果一个行星与我们所在的行星大致相同的话”。" },
+    { title: "is best left unsaid", body: "最好不去说（它）。" },
+    { title: "come up against", body: "遇到。" }
+  ],
+
   original: {
     paragraphs: [
 [
@@ -2790,6 +3124,13 @@ const articleNce4L43: Article = {
     ],
 
   attribution: "ANTHONY MICHAELIS（安东尼·米凯利斯）《Are There Strangers in Space?》from《The Weekend Telegraph》",
+  notesOnText: [
+    { title: "1 make a very poor show", body: "出丑。" },
+    { title: "2 I stand alone", body: "仅我一人。" },
+    { title: "3 the last creature to compete with man", body: "其中的last有“极不可能”的意思。" },
+    { title: "4 The Holy Office knew this full well when it caused heretics to be burned in days gone by.the Holy Office 是指罗马天主教的宗教法庭；full well中的full是副词", body: "有very的意思；gone by作days的定语，整个词组的意思是“过去的日子”。" }
+  ],
+
   original: {
     paragraphs: [
 [
