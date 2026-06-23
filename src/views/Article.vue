@@ -231,7 +231,7 @@ function segClass(seg: Segment): string {
                 class="vocab-item"
                 @click="toggleVocabSyllable(item.word)"
               >
-                <el-tooltip :content="item.phonetic" effect="light" placement="top" :show-after="300"><span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span></el-tooltip>
+                <el-tooltip :content="item.phonetic" effect="light" placement="top" :show-after="300" popper-class="phonetic-tooltip"><span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span></el-tooltip>
                 <span class="vocab-pos">{{ item.pos }}</span>
                 <span class="vocab-meaning">{{ item.meaning }}</span>
               </div>

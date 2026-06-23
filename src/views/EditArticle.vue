@@ -221,9 +221,9 @@ function goBack() {
               </div>
               <div class="ntd-cell" style="width:150px">
                 <template v-if="editingCells.has('vocab-phonetic-'+vi)">
-                  <input v-model="editArticle!.vocabulary[vi].phonetic" placeholder="音标" class="notion-cell-input" @blur="stopEdit('vocab-phonetic-'+vi)" @keyup.enter="stopEdit('vocab-phonetic-'+vi)" autofocus />
+                  <input v-model="editArticle!.vocabulary[vi].phonetic" placeholder="音标" class="notion-cell-input phonetic-input" @blur="stopEdit('vocab-phonetic-'+vi)" @keyup.enter="stopEdit('vocab-phonetic-'+vi)" autofocus />
                 </template>
-                <span v-else class="cell-text" @dblclick="startEdit('vocab-phonetic-'+vi)">{{ editArticle!.vocabulary[vi].phonetic || '—' }}</span>
+                <span v-else class="cell-text phonetic-preview" @dblclick="startEdit('vocab-phonetic-'+vi)">{{ editArticle!.vocabulary[vi].phonetic || '—' }}</span>
               </div>
               <div class="ntd-cell ntd-combined" style="flex:1">
                 <span class="pos-prefix" v-if="editArticle!.vocabulary[vi].pos">{{ editArticle!.vocabulary[vi].pos }}</span>
@@ -486,5 +486,6 @@ function goBack() {
 .vocab-word-preview { font-family: "MiSans Latin Regular", "LXGW WenKai", "PingFang SC", serif !important; }
 .cell-text.readonly { cursor: default; color: #37352f; }
 .cell-text.readonly:hover { background: transparent; border-color: transparent; }
+.phonetic-input, .phonetic-preview { font-family: 'Noto Sans', sans-serif; }
 </style>
 
