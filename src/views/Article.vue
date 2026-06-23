@@ -169,7 +169,7 @@ function segClass(seg: Segment): string {
        │   ├─ paragraph-wrapper (.paragraph) — 逐句渲染
        │   │   └─ sentence-inline (.spotlight 聚光灯) + sentence-panel
        │   └─ section-side (.vocab-list) — 词汇表
-       └─ article-section 2: 全文翻译
+       └─ article-section 2: 参考译文
   -->
   <div class="reading-page">
     <!-- 聚光灯遮罩：点击空白处关闭面板 -->
@@ -242,7 +242,7 @@ function segClass(seg: Segment): string {
       <div class="article-section">
         <div class="section-row">
           <div class="section-main">
-            <h2 class="section-title">全文翻译</h2>
+            <h2 class="section-title">参考译文</h2>
             <div v-for="(para, pIdx) in article.original.paragraphs" :key="'tp'+pIdx">
               <p class="paragraph translation">{{ para.map(s => s.translation || '').filter(Boolean).join('') }}</p>
             </div>
