@@ -396,7 +396,7 @@ function goBack() {
 .grammar-sentence { margin-bottom: 16px; padding: 12px 14px; background: #fafaf8; border-radius: 6px; }
 .grammar-sentence-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .grammar-sentence-label { font-size: 0.85rem; font-weight: 600; color: #1a1a1a; }
-.grammar-sentence-text {
+.grammar-sentence-text { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif; 
   font-size: 0.85rem; color: #1a1a1a; font-weight: 500; margin-bottom: 12px;
   padding: 6px 10px; background: #fff; border-radius: 4px; border-left: 3px solid #e3e2e0; line-height: 1.5;
 }
