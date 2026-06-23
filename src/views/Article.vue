@@ -3,10 +3,10 @@
  * Article.vue — 文章阅读页
  * 
  * 数据流：URL :id → articles[id] (SentenceData[][]) → 逐句渲染
- * - 每个句子拆成 Segment[]，标记谓语/从句引导词/行间笔记
+ * - 每个句子拆成 Segment[]，标记谓语/从句引导词/句子横批
  * - 谓语 → 橘红字体 (.predicate-mark)
  * - 从句引导词 → 斜体加粗 (.clause-mark)
- * - 行间笔记 → <ruby> 元素显示在词下方
+ * - 句子横批 → <ruby> 元素显示在词下方
  * - 点击羽毛图标 → 展开/收起笔记面板 + 聚光灯效果
  * - 右侧词汇表 → 单击切换音节拆分
  */
@@ -39,14 +39,14 @@ interface Segment {
   text: string        // 片段文字
   clause?: boolean    // 从句引导词 → 斜体加粗
   predicate?: boolean // 谓语 → 橘红色
-  noteText?: string   // 行间笔记 → ruby 下方小字
+  noteText?: string   // 句子横批 → ruby 下方小字
 }
 
 /**
  * 将句子文字 + 语法标注 → Segment[]
  * 1) 谓语词 → predicate 标记
  * 2) 从句引导词 → clause 标记（要求词边界匹配）
- * 3) 行间笔记短语 → noteText 标记（大小写不敏感子串匹配）
+ * 3) 句子横批短语 → noteText 标记（大小写不敏感子串匹配）
  * 最后合并相邻同类 Segment
  */
 function markWords(
@@ -85,7 +85,7 @@ function markWords(
     }
   }
 
-  // 步骤 3：行间笔记 → 大小写不敏感子串匹配（不需要词边界）
+  // 步骤 3：句子横批 → 大小写不敏感子串匹配（不需要词边界）
   for (const note of notes) {
     const ln = note.phrase.toLowerCase(); let idx = lower.indexOf(ln)
     while (idx !== -1) {
@@ -197,7 +197,7 @@ function segClass(seg: Segment): string {
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
-                  <!-- 单句：非面板展开时用 ruby 显示行间笔记，面板展开时收起笔记 -->
+                  <!-- 单句：非面板展开时用 ruby 显示句子横批，面板展开时收起笔记 -->
                   <span class="sentence-inline" :class="{ spotlight: activeKey === s.key }"
                     ><template v-for="(seg, gIdx) in s.segments" :key="gIdx">
                       <ruby v-if="seg.noteText && activeKey !== s.key" class="noted-ruby">
@@ -319,7 +319,7 @@ function segClass(seg: Segment): string {
 .clause-mark { font-style: italic; font-weight: 600; color: #3d3d3d; }
 .predicate-mark { color: #e0552a; }
 
-// 行间笔记：使用 CSS ruby 在词下方显示灰色小字
+// 句子横批：使用 CSS ruby 在词下方显示灰色小字
 .noted-ruby {
   ruby-position: under; ruby-align: center;
   rt { font-size: 0.65rem; color: #555; padding-top: 1px; font-family: 'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', serif; }

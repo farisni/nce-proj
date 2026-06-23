@@ -213,7 +213,7 @@ function goBack() {
       <el-tab-pane label="语法标注" name="grammar">
         <div class="tab-content" v-if="editArticle">
           <div class="section-label">语法标注</div>
-          <div class="notion-hint">标注谓语、从句引导词、行间笔记</div>
+          <div class="notion-hint">标注谓语、从句引导词、句子横批</div>
           <div v-for="(para, pIdx) in editArticle.original.paragraphs" :key="'gp'+pIdx" class="grammar-para">
             <div class="para-head notion-toggle" @click="toggleParagraph(pIdx)">
               <span>{{ showParagraph[pIdx] ? '▾' : '▸' }}</span>
@@ -247,7 +247,7 @@ function goBack() {
 
                 <!-- Notes -->
                 <div class="grammar-field">
-                  <span class="grammar-field-label">行间笔记</span>
+                  <span class="grammar-field-label">句子横批</span>
                   <el-table :data="sd.notes || []" size="small" class="grammar-notes-table" empty-text="暂无笔记">
                     <el-table-column prop="phrase" label="单词 / 短语 / 片段" min-width="140">
                       <template #default="{ $index }"><el-input v-model="sd.notes![$index].phrase" size="small" placeholder="单词 / 短语 / 片段" /></template>
