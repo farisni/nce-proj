@@ -258,7 +258,7 @@ function goBack() {
                     <el-table-column label="操作" width="80">
                       <template #default="{ $index }">
                         <el-popconfirm title="确定删除？" @confirm="sd.notes!.splice($index, 1)">
-                          <template #reference><el-button type="danger" size="small" text>删除</el-button></template>
+                          <template #reference><el-button class="add-btn" size="small" text>删除</el-button></template>
                         </el-popconfirm>
                       </template>
                     </el-table-column>
@@ -279,7 +279,7 @@ function goBack() {
                     <el-table-column label="操作" width="80">
                       <template #default="{ $index }">
                         <el-popconfirm title="确定删除？" @confirm="sd.panelNotes!.splice($index, 1)">
-                          <template #reference><el-button type="danger" size="small" text>删除</el-button></template>
+                          <template #reference><el-button class="add-btn" size="small" text>删除</el-button></template>
                         </el-popconfirm>
                       </template>
                     </el-table-column>
