@@ -25,6 +25,7 @@ export interface Article {
   keyArticle?: boolean
   heatmap?: number[][]
   attribution?: string
+  notes?: { title: string; body: string }[]
 
   original: {
     paragraphs: SentenceData[][]

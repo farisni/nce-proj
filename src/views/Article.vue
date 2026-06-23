@@ -243,6 +243,14 @@ function segClass(seg: Segment): string {
       <div class="article-section">
         <div class="section-row">
           <div class="section-main">
+            <!-- 课文注释 -->
+            <div v-if="article.notes && article.notes.length" class="article-notes">
+              <h2 class="section-title">课文注释</h2>
+              <div v-for="(note, ni) in article.notes" :key="ni" class="note-item">
+                <span class="note-label">{{ note.title }}</span>
+                <span class="note-body">{{ note.body }}</span>
+              </div>
+            </div>
             <h2 class="section-title">参考译文</h2>
             <div v-for="(para, pIdx) in article.original.paragraphs" :key="'tp'+pIdx">
               <p class="paragraph translation">{{ para.map(s => s.translation || '').filter(Boolean).join('') }}</p>
@@ -278,6 +286,10 @@ function segClass(seg: Segment): string {
 .edit-icon { width: 18px; height: 18px; margin-left: 10px; cursor: pointer; opacity: 0.35; transition: opacity 0.2s; flex-shrink: 0; }
 .edit-icon:hover { opacity: 0.75; }
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
+.article-notes { margin-bottom: 24px; }
+.note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
+.note-label { font-weight: 600; color: #c9b99a; margin-right: 6px; }
+.note-body { color: #666; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 20px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
 .paragraph { font-size: 1.15rem; line-height: 2; text-indent: 2em; font-family: 'Merriweather', Georgia, serif; }
