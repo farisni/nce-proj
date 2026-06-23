@@ -44,6 +44,18 @@ src/
 └── asserts/icon/         # SVG 图标（羽毛、图钉等）
 ```
 
+
+## 字体
+
+| 字体 | 用途 | 来源 |
+|------|------|------|
+| **LXGW WenKai**（霞鹜文楷） | 全局中文默认字体 | LXGW WenKai / 开源 |
+| **Huiwen Mingchao**（汇文明朝体） | 首页卡片中文标题 | 汇文明朝体 GBK / 开源 |
+| **Merriweather** | 文章正文英文 | Google Fonts |
+| **Playfair Display** | 文章大标题 | Google Fonts |
+| **Poppins** | 词汇侧栏英文 | Google Fonts |
+| **Caveat** | 首页卡片 Lesson 编号 | Google Fonts |
+
 ## 数据模型
 
 每篇文章为 `SentenceData[][]` — 段落 → 句子矩阵，每句自带：
