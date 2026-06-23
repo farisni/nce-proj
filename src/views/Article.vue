@@ -247,6 +247,7 @@ function segClass(seg: Segment): string {
             <div v-if="article.notesOnText && article.notesOnText.length" class="article-notes">
               <h2 class="section-title">课文注释</h2>
               <div v-for="(note, ni) in article.notesOnText" :key="ni" class="note-item">
+                <span class="note-index">{{ ni + 1 }}.</span>
                 <span class="note-label">{{ note.title }}</span>
                 <span class="note-body">{{ note.body }}</span>
               </div>
@@ -288,6 +289,7 @@ function segClass(seg: Segment): string {
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .article-notes { margin-bottom: 24px; }
 .note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
+.note-index { font-size: 0.85rem; font-weight: 550; color: #aaa; margin-right: 6px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
 .note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; margin-right: 8px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
 /* 莫兰迪色系轮换 */
 .note-item:nth-child(5n+1) .note-label { background: #ede8e3; }
