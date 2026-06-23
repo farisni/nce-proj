@@ -24,6 +24,7 @@ export interface Article {
   tag?: string
   keyArticle?: boolean
   heatmap?: number[][]
+  attribution?: string
 
   original: {
     paragraphs: SentenceData[][]
@@ -6290,6 +6291,8 @@ const articleNce4L1: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'ROBIN PLACE Finding fossil man',
     original: {
     paragraphs: [
       [
@@ -6386,6 +6389,8 @@ const articleNce4L3: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'WALTER UNSWORTH Matterhorn Man',
     original: {
     paragraphs: [
       [
@@ -6443,6 +6448,8 @@ const articleNce4L4: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'ERIC DE MAUNY Seeing hands from The Listener',
     original: {
         paragraphs: [
       [
@@ -6488,6 +6495,8 @@ const articleNce4L6: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'GEORGE ORWELL The sporting spirit',
     original: {
     paragraphs: [
       [
@@ -6539,6 +6548,8 @@ const articleNce4L7: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'MAURICE BURTON Curiosities of animal life',
     original: {
     paragraphs: [
       [
@@ -6650,6 +6661,8 @@ const articleNce4L11: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'BERTRAND RUSSELL How to grow old from Portraits from Memory',
     original: {
     paragraphs: [
       [
@@ -6797,6 +6810,8 @@ const articleNce4L16: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'ALEXIS CARREL Man, the Unknown',
     original: {
     paragraphs: [
       [
@@ -6852,6 +6867,8 @@ const articleNce4L18: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'RALPH NADING HILL Window in the Sea',
     original: {
     paragraphs: [
       [
@@ -6926,6 +6943,8 @@ const articleNce4L21: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'CARL FOREMAN Virtue and a Fast Gun from The Observer',
     original: {
     paragraphs: [
       [
@@ -7096,6 +7115,8 @@ const articleNce4L28: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'KENNETH WALKER Patients and doctors',
     original: {
     paragraphs: [
       [
@@ -7210,6 +7231,8 @@ const articleNce4L32: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'MICHAEL HOSKIN Galileo Reborn from The Listener',
     original: {
         paragraphs: [
       [
@@ -7272,6 +7295,8 @@ const articleNce4L33: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'JULIUS E. LIPS The Origin of Things',
     original: {
     paragraphs: [
       [
@@ -7341,6 +7366,8 @@ const articleNce4L34: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'DOTID OFLUM Journey Through Adolescence',
     original: {
     paragraphs: [
       [
@@ -7401,6 +7428,8 @@ const articleNce4L37: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'ALEX COMPORT The process of ageing',
     original: {
     paragraphs: [
       [
@@ -7461,6 +7490,8 @@ const articleNce4L44: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'RUTH BENEDICT Patterns of Culture',
     original: {
     paragraphs: [
       [
@@ -7541,6 +7572,8 @@ const articleNce4L46: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'WINSTON CHURCHILL Painting as a Pastime',
     original: {
     paragraphs: [
       [
@@ -7701,6 +7734,7 @@ const articleNce4L5: Article = {
       [2,1,0,0,1,2,3,1,2],
     ],
 
+  attribution: 'T.H.GILLESPIE Spare that spider from The Listener',
   original: {
     paragraphs: [
       [
@@ -7760,6 +7794,8 @@ const articleNce4L9: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'BERNARD NEWMAN Spies in Britain',
   original: {
     paragraphs: [
       [
@@ -7804,6 +7840,8 @@ const articleNce4L10: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'US NEWS AND WORLD REPORT, October 2, 1989',
   original: {
     paragraphs: [
       [
@@ -7843,6 +7881,8 @@ const articleNce4L12: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'GORDON BARRIE and AUBREY L. DLAMOND The Consumer Society and the Law',
   original: {
     paragraphs: [
       [
@@ -7876,6 +7916,8 @@ const articleNce4L14: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'JAMES GLEICK, Chaos',
   original: {
     paragraphs: [
       [
@@ -7915,6 +7957,8 @@ const articleNce4L17: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'RITCHIE CALDER Science Makes Sense',
   original: {
     paragraphs: [
       [
@@ -7980,6 +8024,8 @@ const articleNce4L20: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'JOHN CROMPTON The snake',
   original: {
     paragraphs: [
       [
@@ -8026,6 +8072,8 @@ const articleNce4L23: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'WILLIAM BEACH THOMAS A Countryman\'s Creed',
   original: {
     paragraphs: [
       [
@@ -8061,6 +8109,8 @@ const articleNce4L25: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'D.E.BROADBENT Non-auditory effects of noise from Science Survey',
   original: {
     paragraphs: [
       [
@@ -8104,6 +8154,8 @@ const articleNce4L26: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'ERROL WHITE The past life of the earth from Discovery',
   original: {
     paragraphs: [
       [
@@ -8143,6 +8195,8 @@ const articleNce4L27: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'ROY SAUNGERS The Raising of the 'Vasa' from The Listener',
   original: {
         paragraphs: [
       [
@@ -8185,6 +8239,8 @@ const articleNce4L29: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'EGON LARSEN The Pegasus Book of Inventors',
   original: {
     paragraphs: [
       [
@@ -8225,6 +8281,8 @@ const articleNce4L31: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'HENRY MOORE The Sculptor Speaks from The Listener',
   original: {
         paragraphs: [
       [
@@ -8322,6 +8380,8 @@ const articleNce4L36: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'RAYMOND FROST The Backward Society',
   original: {
     paragraphs: [
       [
@@ -8366,6 +8426,8 @@ const articleNce4L38: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'RICHARD DAWOOD Travellers\' Health',
   original: {
     paragraphs: [
       [
@@ -8418,6 +8480,8 @@ const articleNce4L39: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'JOHN LE CARRE What every writer wants from Harper\'s',
   original: {
     paragraphs: [
       [
@@ -8508,6 +8572,8 @@ const articleNce4L41: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'RICHARD CARRINGTON Elephants',
   original: {
     paragraphs: [
       [
@@ -8628,6 +8694,8 @@ const articleNce4L43: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'ANTHONY MICHAELIS Are There Strangers in Space? from The Weekend Telegraph',
   original: {
     paragraphs: [
       [
@@ -8683,6 +8751,8 @@ const articleNce4L45: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'FRED HOYLE Of Men and Galaxies',
   original: {
     paragraphs: [
       [
@@ -8739,6 +8809,8 @@ const articleNce4L47: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'NIGEL BUXTON The Great Escape from The Weekend Telegraph',
   original: {
     paragraphs: [
       [
