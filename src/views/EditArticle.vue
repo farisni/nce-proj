@@ -372,7 +372,7 @@ function goBack() {
 .meta-compact :deep(.el-input-number) { width: 140px; }
 .meta-compact :deep(.el-select) { width: 120px; }
 .edit-title-row { display: flex; align-items: center; justify-content: space-between; margin-top: 20px; }
-.header-title { font-size: 1.5rem; font-weight: 600; color: #1a1a1a; font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif; }
+.header-title { font-size: 1.5rem; font-weight: 600; color: #1a1a1a; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .header-actions { display: flex; gap: 2px; }
 
 .edit-tabs {
@@ -426,7 +426,8 @@ function goBack() {
 .grammar-notes-table { margin-bottom: 8px; }
 .cell-text { display: flex; align-items: center; padding: 0 12px; min-height: 32px; cursor: pointer; color: #37352f; border-radius: 3px; border: 1px solid transparent; }
 .cell-text:hover { background: #f1f1f1; border-color: #e3e2e0; }
-.vocab-word-preview, .ntd-cell .cell-text { min-height: unset; padding: 4px 6px; border: none; border-radius: 3px; display: block; font-size: 0.85rem; }
+.ntd-cell .cell-text { min-height: unset; padding: 4px 6px; border: none; border-radius: 3px; display: block; font-size: 0.85rem; font-family: 'MiSans Latin Light', 'LXGW WenKai', 'PingFang SC', serif; }
+.vocab-word-preview { min-height: unset; padding: 4px 6px; border: none; border-radius: 3px; display: block; font-size: 0.85rem; }
 
 // Sentence border colors
 .grammar-sentence:nth-child(1) .grammar-sentence-text { border-left-color: #f0c040; }
@@ -451,7 +452,7 @@ function goBack() {
 }
 .ntd-cell { flex-shrink: 0; padding: 4px 6px; display: flex; align-items: center; }
 .ntd-action { justify-content: center; }
-.notion-cell-input { width: 100%; border: 1px solid transparent; background: transparent; padding: 4px 6px; font-size: 0.85rem; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; color: #1a1a1a; border-radius: 3px; outline: none;
+.notion-cell-input { width: 100%; border: 1px solid transparent; background: transparent; padding: 4px 6px; font-size: 0.85rem; font-family: 'MiSans Latin Light', 'LXGW WenKai', 'PingFang SC', serif; color: #1a1a1a; border-radius: 3px; outline: none;
   &:focus { border-color: #409EFF; background: #fff; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
   &:hover:not(:focus) { border-color: #e3e2e0; background: #fdfdfc; }
 }
@@ -479,7 +480,7 @@ function goBack() {
 .notion-btn-cancel:hover { background: #f1f1ef; color: #37352f; border-color: #d3d2d0; }
 .notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
 .notion-btn-save:hover { background: #337ECC; border-color: #337ECC; color: #fff; }
-.text-en-ta :deep(textarea) { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
+.text-en-ta :deep(textarea) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif !important; }
 /* 词汇表 MiSans Latin Light */
 .edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-word-input { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }

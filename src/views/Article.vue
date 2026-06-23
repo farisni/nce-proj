@@ -312,7 +312,7 @@ function segClass(seg: Segment): string {
 }
 .panel-note-item { display: flex; gap: 8px; padding: 4px 0; font-size: 0.85rem; }
 .panel-note-item + .panel-note-item { border-top: 1px solid #e2e8e0; }
-.panel-note-snippet { font-weight: 600; color: #3d3d3d; min-width: 80px; font-family: 'Poppins', sans-serif; }
+.panel-note-snippet { font-weight: 600; color: #3d3d3d; min-width: 80px; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .panel-note-desc { color: #666; }
 
 // 语法标记：从句引导词（斜体加粗暗色）/ 谓语（橘红）
@@ -332,9 +332,9 @@ function segClass(seg: Segment): string {
 
   &:last-child { border-bottom: none; }
 }
-.vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'Poppins', sans-serif; }
-.vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'Poppins', sans-serif; }
-.vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); }
+.vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
+.vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
+.vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 
 .panel-enter-active, .panel-leave-active { transition: all 0.25s ease; }
 .panel-enter-from, .panel-leave-to { opacity: 0; transform: translateY(-6px); }
