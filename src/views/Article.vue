@@ -19,14 +19,6 @@ const neighbors = computed(() => {
   }
 })
 
-const sentencePattern = /([^.!?。！？]+[.!?。！？]+)/g
-
-function splitSentences(paragraph: string): string[] {
-  const matches = paragraph.match(sentencePattern)
-  if (!matches || matches.length === 0) return [paragraph]
-  return matches.map(s => s.trim()).filter(Boolean)
-}
-
 interface Segment {
   text: string
   clause?: boolean
@@ -102,19 +94,13 @@ function markWords(
   return merged
 }
 
-interface SentenceData { segments: Segment[]; key: string }
-
 const originalSentences = computed(() =>
-  article.value.original.paragraphs.map((p, pIdx) => {
-    const sents = splitSentences(p)
-    return sents.map((sent, sIdx) => {
-      const meta = article.value.original.predicateParagraph[pIdx]?.[sIdx]
-      return {
-        segments: markWords(sent, meta?.predicates ?? [], meta?.clauseIntroducers ?? [], meta?.notes ?? []),
-        key: `${pIdx}-${sIdx}`,
-      }
-    })
-  }),
+  article.value.original.paragraphs.map((para) =>
+    para.map((sd, sIdx) => ({
+      segments: markWords(sd.text, sd.predicates, sd.clauseIntroducers, sd.notes ?? []),
+      key: sd.text.slice(0, 40) + '-' + sIdx,
+    }))
+  ),
 )
 
 const activeKey = ref('')
