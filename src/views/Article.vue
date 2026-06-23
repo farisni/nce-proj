@@ -216,6 +216,7 @@ function segClass(seg: Segment): string {
           <div class="section-divider"></div>
           <!-- 右侧词汇侧栏：单击切换音节拆分，el-tooltip 显示音标 -->
           <div class="section-side">
+            <div class="vocab-title">课文单词</div>
             <div class="vocab-list">
               <div
                 v-for="item in article.vocabulary"
@@ -259,7 +260,8 @@ function segClass(seg: Segment): string {
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
-.section-side { flex: 3; min-width: 0; padding: 56px 0 16px; }
+.section-side { flex: 3; min-width: 0; padding: 0 0 16px; }
+.vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 12px; padding-top: 52px; font-family: inherit; }
 .article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
 .title-text-wrap { flex: 1; min-width: 0; }
 
