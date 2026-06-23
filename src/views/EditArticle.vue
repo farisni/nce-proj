@@ -360,7 +360,7 @@ function goBack() {
   &:hover { .para-label { color: #1a1a1a; } }
 }
 
-.add-btn, .del-btn { border: none; background: transparent; color: #888; padding: 2px 0; font-size: 0.75rem; cursor: pointer; display: inline-block;
+.add-btn, .del-btn { border: none; background: transparent; color: #888 !important; padding: 2px 0; font-size: 0.75rem; cursor: pointer; display: inline-block;
   &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 4px 8px; }
 }
 
