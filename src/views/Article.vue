@@ -193,6 +193,7 @@ function segClass(seg: Segment): string {
               <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template><img :src="editIcon" class="edit-icon" title="编辑文章" @click.stop="$router.push({ name: 'editArticle', params: { id: currentMeta?.id } })" /></span>
               <Heatmap v-if="currentMeta?.heatmap" :data="currentMeta.heatmap" />
             </h1>
+            <p v-if="currentMeta?.attribution" class="article-attribution">—— {{ currentMeta.attribution }}</p>
             <!-- 段落 → 句子渲染：span.sentence-inline（高亮 + 羽毛图标）+ transition 笔记面板 -->
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
@@ -269,7 +270,8 @@ function segClass(seg: Segment): string {
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 0 0 16px; }
 .vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 20px; padding-top: 76px; font-family: inherit; }
-.article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
+.article-attribution { font-size: 0.85rem; color: #999; margin: 0 0 4px 140px; font-style: italic; }
+.article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
 .title-text-wrap { flex: 1; min-width: 0; }
 
 .title-lesson { color: #999; font-weight: 400; }
