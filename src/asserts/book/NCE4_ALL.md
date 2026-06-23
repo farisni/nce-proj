@@ -635,6 +635,7 @@ deviation n.偏差
 ---
 
 ## Lesson 15 Secrecy in industry 工业中的秘密
+*W. J. READER from《The Observer》, 1964*
 
 ### 课文原文
 
@@ -807,6 +808,7 @@ as 是关系代词，代替they have protected humans from sharks.
 ---
 
 ## Lesson 19 The stuff of dreams 话说梦的本质
+*H. W. MAGOUN《The Story of Language》, 1955*
 
 ### 课文原文
 
@@ -955,6 +957,7 @@ code n. 准则
 ---
 
 ## Lesson 22 Knowledge and progress 知识和进步
+*BERTRAND RUSSELL《The Impact of Science on Society》, 1952*
 
 ### 课文原文
 
@@ -1291,6 +1294,7 @@ hovertrain n. 气垫火车
 ---
 
 ## Lesson 30 Exploring the sea-floor 海底勘探
+*H. H. HESS from《Scientific American》, 1960*
 
 ### 课文原文
 
@@ -1522,6 +1526,7 @@ cow v. 吓唬
 ---
 
 ## Lesson 35 Space odyssey 太空探索
+*ARTHUR C. CLARKE《The Exploration of Space》, 1951*
 
 ### 课文原文
 
@@ -1758,6 +1763,7 @@ inmost adj.内心深处的
 ---
 
 ## Lesson 40 Waves 海浪
+*S. H. HURLBUT《The Sea》, 1964*
 
 ### 课文原文
 

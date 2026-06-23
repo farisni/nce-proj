@@ -6771,6 +6771,8 @@ const articleNce4L15: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'W. J. READER from《The Observer》, 1964',
     original: {
     paragraphs: [
       [
@@ -7013,6 +7015,8 @@ const articleNce4L22: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'BERTRAND RUSSELL《The Impact of Science on Society》, 1952',
     original: {
     paragraphs: [
       [
@@ -7174,6 +7178,8 @@ const articleNce4L30: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
+
+  attribution: 'H. H. HESS from《Scientific American》, 1960',
     original: {
     paragraphs: [
       [
@@ -8004,6 +8010,8 @@ const articleNce4L19: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'H. W. MAGOUN《The Story of Language》, 1955',
   original: {
     paragraphs: [
       [
@@ -8327,6 +8335,8 @@ const articleNce4L35: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'ARTHUR C. CLARKE《The Exploration of Space》, 1951',
   original: {
     paragraphs: [
       [
@@ -8529,6 +8539,8 @@ const articleNce4L40: Article = {
       [0,0,0,0,0,0,0,0,0],
       [0,0,0,0,0,0,0,0,0],
     ],
+
+  attribution: 'S. H. HURLBUT《The Sea》, 1964',
   original: {
     paragraphs: [
       [
