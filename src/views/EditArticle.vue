@@ -348,7 +348,7 @@ function goBack() {
 .edit-header { margin-bottom: 24px; }
 /* 编辑页使用 MiSans */
 .edit-page .cell-text,
-.edit-page :deep(.el-input__inner) { font-family: 'MiSans Latin', sans-serif; }
+.edit-page :deep(.el-input__inner) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 /* 元数据表单组件缩短 */
 .meta-compact :deep(.el-input-number) { width: 140px; }
 .meta-compact :deep(.el-select) { width: 120px; }
@@ -458,5 +458,5 @@ function goBack() {
 .notion-btn-cancel:hover { background: #f1f1ef; color: #37352f; border-color: #d3d2d0; }
 .notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
 .notion-btn-save:hover { background: #337ECC; border-color: #337ECC; color: #fff; }
-.text-en-ta :deep(textarea) { font-family: 'MiSans Latin', sans-serif; }
+.text-en-ta :deep(textarea) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 </style>
