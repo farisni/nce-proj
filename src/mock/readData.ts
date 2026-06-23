@@ -7696,7 +7696,7 @@ const articleNce4L5: Article = {
   original: {
     paragraphs: [
       [
-        { text: "People are always talking about 'the problem of youth'.", translation: '人们总是在谈论「青年问题」。', predicates: ['are talking'], clauseIntroducers: [], notes: [] },
+        { text: "People are always talking about 'the problem of youth'.", translation: '人们总是在谈论「青年问题」。', predicates: ['are talking'], clauseIntroducers: [], notes: [{ phrase: "about 'the problem of youth'", note: '介词 + 名词 → 作状语' }] },
         { text: 'If there is one—which I take leave to doubt—then it is older people who create it, not the young themselves.', translation: '如果真有这个问题——我对此持怀疑态度——那也是年长者造成的，而不是年轻人自己。', predicates: ['is', 'take', 'create'], clauseIntroducers: ['If', 'which', 'then'], notes: [] },
         { text: 'Let us get down to fundamentals and agree that the young are after all human beings—people just like their elders.', translation: '让我们回到基本点，承认年轻人毕竟也是人——和他们的长辈一样。', predicates: ['get', 'agree', 'are'], clauseIntroducers: ['that'], notes: [{ phrase: 'get down to', note: '着手处理' }, { phrase: 'fundamentals', note: '基本原则' }] },
         { text: 'There is only one difference between an old man and a young one: the young man has a glorious future before him and the old one has a splendid future behind him: and maybe that is where the rub is.', translation: '老人和年轻人之间只有一个区别：年轻人有辉煌的未来在前方，而老人有灿烂的过去在身后：也许问题就在这里。', predicates: ['is', 'has', 'has', 'is'], clauseIntroducers: ['where'], notes: [{ phrase: 'glorious', note: '辉煌的' }, { phrase: 'splendid', note: '灿烂的' }, { phrase: 'the rub', note: '症结所在' }] },

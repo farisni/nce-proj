@@ -244,7 +244,7 @@ function segClass(seg: Segment): string {
 
 .noted-ruby {
   ruby-position: under; ruby-align: center;
-  rt { font-size: 0.65rem; color: #999; padding-top: 1px; font-family: 'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', serif; }
+  rt { font-size: 0.65rem; color: #555; padding-top: 1px; font-family: 'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', serif; }
 }
 
 .vocab-list { display: flex; flex-direction: column; }
