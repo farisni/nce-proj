@@ -68,12 +68,12 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
   &:hover { background: var(--color-bg); color: var(--color-text); }
   &.active { color: var(--color-text); font-weight: 600; background: var(--color-bg); }
 }
-.nce2.active { border-left-color: #d9534f; }
-.nce3.active { border-left-color: #f0ad4e; }
-.nce4.active { border-left-color: #428bca; }
-.nce2:hover { color: #d9534f; }
-.nce3:hover { color: #f0ad4e; }
-.nce4:hover { color: #428bca; }
+.nce2.active { border-left-color: #d9534f; color: #d9534f; }
+.nce3.active { border-left-color: #f0ad4e; color: #f0ad4e; }
+.nce4.active { border-left-color: #428bca; color: #428bca; }
+.nce2:not(.active):hover { color: #d9534f; }
+.nce3:not(.active):hover { color: #f0ad4e; }
+.nce4:not(.active):hover { color: #428bca; }
 .app-main { flex: 1; min-width: 0; }
 </style>
 

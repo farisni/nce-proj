@@ -404,7 +404,7 @@ function goBack() {
 }
 
 .add-btn { border: none; background: transparent; color: #888; padding: 2px 0; font-size: 0.75rem; cursor: pointer; 
-  &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 3px 6px; }
+  &:hover { color: #1a1a1a; background: #f1f1ef; padding: 3px 6px; }
 }
 .del-btn { color: #888; font-size: 0.75rem; cursor: pointer; width: 20px; height: 20px; line-height: 20px; text-align: center; border-radius: 3px; display: inline-flex; align-items: center; justify-content: center; transition: color 0.15s; }
 .del-btn:hover { color: #e0552a; background: #fef0f0; }
@@ -466,20 +466,20 @@ function goBack() {
 
 :deep(.el-form-item) { margin-bottom: 14px; }
 :deep(.el-form-item__label) { color: #6b6b6b; font-weight: 400; font-size: 0.85rem; }
-:deep(.el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; border-radius: 4px; background: #fff; }
+:deep(.el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; background: #fff; }
 :deep(.el-input__wrapper:hover) { border-color: #b4b3b0; }
 :deep(.el-input.is-focus .el-input__wrapper) { border-color: #409EFF; box-shadow: 0 0 0 1px rgba(35,131,226,0.2) !important; }
-:deep(.el-textarea__inner) { border-color: #e3e2e0; border-radius: 4px; font-size: 0.9rem; }
+:deep(.el-textarea__inner) { border-color: #e3e2e0; font-size: 0.9rem; }
 :deep(.el-textarea__inner:focus) { border-color: #409EFF; box-shadow: 0 0 0 1px rgba(35,131,226,0.2); }
 :deep(.el-select .el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; }
 :deep(.el-input-number .el-input__wrapper) { box-shadow: none !important; border: 1px solid #e3e2e0; }
-:deep(.el-button--primary) { background: #409EFF; border-color: #409EFF; border-radius: 4px; font-weight: 400; }
-:deep(.el-button) { border-radius: 4px; }
+:deep(.el-button--primary) { background: #409EFF; border-color: #409EFF; font-weight: 400; }
+:deep(.el-button) { }
 :deep(.el-page-header__back) { color: #6b6b6b; font-size: 0.9rem; }
 :deep(.el-page-header__back:hover) { color: #1a1a1a; }
 :deep(.el-empty__description) { color: #b4b3b0; }
 /* Notion-style header buttons */
-.notion-btn { border-radius: 4px; font-size: 0.8rem; padding: 4px 12px; transition: background 0.15s; }
+.notion-btn { font-size: 0.8rem; padding: 4px 12px; transition: background 0.15s; }
 .notion-btn-cancel { border: 1px solid #e3e2e0; background: #fff; color: #37352f; }
 .notion-btn-cancel:hover { background: #f1f1ef; color: #37352f; border-color: #d3d2d0; }
 .notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
@@ -487,7 +487,7 @@ function goBack() {
 .text-cn-ta :deep(textarea) { min-height: 44px; }
 .text-en-ta :deep(textarea) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif !important; }
 /* 词汇表 MiSans Latin Light */
-.sentence-preview { padding: 8px 12px; min-height: 36px; border-radius: 4px; cursor: text; white-space: pre-wrap; }
+.sentence-preview { padding: 8px 12px; min-height: 36px; cursor: text; white-space: pre-wrap; border-radius: 4px; }
 .sentence-preview:hover { background: rgba(0,0,0,0.03); }
 .text-preview-en { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; font-size: 1.05rem; font-weight: 500; background: #f7f6f3; }
 .text-preview-cn { font-family: 'LXGW WenKai', 'PingFang SC', serif; font-size: 0.9rem; color: #555; margin-top: 4px; }

@@ -227,16 +227,16 @@ const articleNce4L6: Article = {
     paragraphs: [
 [
 { text: "I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield.", translation: "当我听人们说体育运动可创造国家之间的友谊，还说各国民众若在足球场或板球场上交锋，就不愿在战场上残杀的时候，我总是惊愕不已。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Even if one didn't know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce it from general principles.", translation: "一个人即使不能从具体的事例（例如1936年的奥林匹克运动会）了解到国际运动比赛会导致疯狂的仇恨，也可以从常理中推断出结论。 现在开展的体育运动几乎都是竞争性的。 参加比赛就是为了取胜。 如果不拚命去赢，比赛就没有什么意义了。 在乡间的草坪上，当你随意组成两个队，并且不涉及任何地方情绪时，那才可能是单纯的为了娱乐和锻炼而进行比赛。 可是一量涉及到荣誉问题，一旦你想到你和某一团体会因为你输而丢脸时，那么最野蛮的争斗天性便会激发起来。 即使是仅仅参加过学校足球赛的人也有种体会。 在国际比赛中，体育简直是一场模拟战争。 但是，要紧的还不是运动员的行为，而是观众的态度，以及观众身后各个国家的态度。 面对着这些荒唐的比赛，参赛的各个国家会如痴如狂，甚至煞有介事地相信 -- 至少在短期内如此 -- 跑跑、跳跳、踢踢球是对一个民族品德素质的检验。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Even if one didn't know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce it from general principles.", translation: "一个人即使不能从具体的事例（例如1936年的奥林匹克运动会）了解到国际运动比赛会导致疯狂的仇恨，也可以从常理中推断出结论。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Nearly all the sports practised nowadays are competitive.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "You play to win, and the game has little meaning unless you do your utmost to win.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "On the village green, where you pick up sides and no feeling of local patriotism is involved, it is possible to play simply for the fun and exercise: but as soon as the question of prestige arises, as soon as you feel that you and some larger unit will be disgraced if you lose, the most savage combative instincts are aroused.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Anyone who has played even in a school football match knows this.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At the international level, sport is frankly mimic warfare.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But the significant thing is not the behaviour of the players but the attitude of the spectators: and, behind the spectators, (the attitude) of the nations.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But the significant thing is not the behaviour of the players but the attitude of the spectators: and, behind the spectators, of the nations who work themselves into furies over these absurd contests, and seriously believe -- at any rate for short periods -- that running, jumping and kicking a ball are tests of national virtue.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Nearly all the sports practised nowadays are competitive.", translation: "现在开展的体育运动几乎都是竞争性的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "You play to win, and the game has little meaning unless you do your utmost to win.", translation: "参加比赛就是为了取胜。如果不拚命去赢，比赛就没有什么意义了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "On the village green, where you pick up sides and no feeling of local patriotism is involved, it is possible to play simply for the fun and exercise: but as soon as the question of prestige arises, as soon as you feel that you and some larger unit will be disgraced if you lose, the most savage combative instincts are aroused.", translation: "在乡间的草坪上，当你随意组成两个队，并且不涉及任何地方情绪时，那才可能是单纯的为了娱乐和锻炼而进行比赛。可是一量涉及到荣誉问题，一旦你想到你和某一团体会因为你输而丢脸时，那么最野蛮的争斗天性便会激发起来。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Anyone who has played even in a school football match knows this.", translation: "即使是仅仅参加过学校足球赛的人也有种体会。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "At the international level, sport is frankly mimic warfare.", translation: "在国际比赛中，体育简直是一场模拟战争。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But the significant thing is not the behaviour of the players but the attitude of the spectators: and, behind the spectators, (the attitude) of the nations.", translation: "但是，要紧的还不是运动员的行为，而是观众的态度，以及观众身后各个国家的态度。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But the significant thing is not the behaviour of the players but the attitude of the spectators: and, behind the spectators, of the nations who work themselves into furies over these absurd contests, and seriously believe -- at any rate for short periods -- that running, jumping and kicking a ball are tests of national virtue.", translation: "面对着这些荒唐的比赛，参赛的各个国家会如痴如狂，甚至煞有介事地相信——至少在短期内如此——跑跑、跳跳、踢踢球是对一个民族品德素质的检验。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -279,22 +279,22 @@ const articleNce4L7: Article = {
     original: {
     paragraphs: [
       [
-        { text: "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.", translation: "动物发出的声音不都是用作语言交际。我们只要看一看蝙蝠回声定位这一极不寻常的发现，就可以探究一下声音在什么情况下有绝对的实用价值。 要透彻理解这句话的意义，我们应先回顾一下人类最近的几项发明。大家都知道，在墙壁或山腰附近发出的喊声，就会听到回声。固体障碍物越远。回声返回所用时间就越长。敲打船体所发了的声音会从海底传回来，测出回声间隔的时间，便可算出该处海洋的深度。这样就产生了目前各种船舶上普遍应用的回声探测仪。任何固体者反射声音，反射的声音因物体的大小和性质的不同而不同。鱼群也反射声音。从测定海深到测定鱼群，这一进展比较容易。根据经验和改进了的仪器，不仅能够确定鱼群的位置，而且可以根据鱼群回声的特点分辨出是鲱鱼、鳕鱼，这是人们所熟悉的其他鱼。 人们发现，某些蝙蝠能发出尖叫声，并能通过回声来确定并躲开障碍物，或找到它们赖以为生的昆虫。蝙蝠这种回声定位常常可与雷达相比较，其原理是相似的。", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.", translation: "动物发出的声音不都是用作语言交际。我们只要看一看蝙蝠回声定位这一极不寻常的发现，就可以探究一下声音在什么情况下有绝对的实用价值。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
       [
-        { text: "To get a full appreciation of what this means we must turn first to some recent human inventions.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Everyone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The further off this solid obstruction, the longer time will elapse for the return of the echo.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes, the depth of the sea at that point can be calculated.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "So was born the echo-sounding apparatus, now in general use in ships.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Every solid object will reflect a sound, varying according to the size and nature of the object.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A shoal of fish will do this.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "So it is a comparatively simple step from locating the sea bottom to locating a shoal of fish.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "To get a full appreciation of what this means we must turn first to some recent human inventions.", translation: "要透彻理解这句话的意义，我们应先回顾一下人类最近的几项发明。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Everyone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back.", translation: "大家都知道，在墙壁或山腰附近发出的喊声，就会听到回声。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The further off this solid obstruction, the longer time will elapse for the return of the echo.", translation: "固体障碍物越远，回声返回所用时间就越长。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes, the depth of the sea at that point can be calculated.", translation: "敲打船体所发出的声音会从海底传回来，测出回声间隔的时间，便可算出该处海洋的深度。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "So was born the echo-sounding apparatus, now in general use in ships.", translation: "这样就产生了目前各种船舶上普遍应用的回声探测仪。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Every solid object will reflect a sound, varying according to the size and nature of the object.", translation: "任何固体都反射声音，反射的声音因物体的大小和性质的不同而不同。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A shoal of fish will do this.", translation: "鱼群也反射声音。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "So it is a comparatively simple step from locating the sea bottom to locating a shoal of fish.", translation: "从测定海深到测定鱼群，这一进展比较容易。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.", translation: "根据经验和改进了的仪器，不仅能够确定鱼群的位置，而且可以根据鱼群回声的特点分辨出是鲱鱼、鳕鱼，还是人们所熟悉的其他鱼。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
       [
-        { text: "It has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This echo-location in bats is often compared with radar, the principle of which is similar.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "It has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed.", translation: "人们发现，某些蝙蝠能发出尖叫声，并能通过回声来确定并躲开障碍物，或找到它们赖以为生的昆虫。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This echo-location in bats is often compared with radar, the principle of which is similar.", translation: "蝙蝠这种回声定位常常可与雷达相比较，其原理是相似的。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
     ],
   },
@@ -340,20 +340,20 @@ const articleNce4L8: Article = {
 { text: "No, say the Americans: our fowl are fine, we simply clean them in a different way.", translation: "不，美国人说，我们的家禽很好，只是我们使用了另一种清洗方式。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "These days, it is differences in national regulations, far more than tariffs, that put sand in the wheels of trade between rich countries.", translation: "当前，是各国管理条例上的差异，而不是关税阻碍了发达国家之间的贸易。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "It is not just farmers who are complaining.", translation: "并不仅仅是农民在抱怨。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "An electric razor that meets the European Union's safety standards must be approved by American testers before it can be sold in the United States, and an American-made dialysis machine needs the EU's okay before it hits the market in Europe.", translation: "一把符合欧洲联盟安全标准的电动剃须刀必须得到美国检测人员的认可，方可在美国市场上销售；而美国制造的透析仪也要得到欧盟的首肯才能进入欧洲市场。 碰巧在欧洲使用安全的剃须刀不大可能使美国人触电身亡，因此，大西洋两岸的企业都在问，当一套测试可以解决问题时，为什么需要两套呢？ 政治家在原则上同意了， 因此，美国和欧洲一直在寻求达成协议，以便为许多产品取消双重检查。 他们希望尽早达成协议，为5月28日举行的美国和欧洲贸易的最高通级会议作准备。 然谈判代表持乐观态度，但协议细节如此复杂，他们所面临的困难很可能使他们无法取得一致。 为什么呢？ 困难之一是起草这些协议。 美国人很愿意就医疗器械的标准达成一个协议，然后推敲出不同的合同，用以涵盖 -- 比如说 -- 电子产品和药品的生产。 欧洲人遵循优良的大陆传统，则希望就普遍的原则取得一致，而这些原则适用于许多不同产品，同时可能延伸到其它国家。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "An electric razor that meets the European Union's safety standards must be approved by American testers before it can be sold in the United States, and an American-made dialysis machine needs the EU's okay before it hits the market in Europe.", translation: "一把符合欧洲联盟安全标准的电动剃须刀必须得到美国检测人员的认可，方可在美国市场上销售；而美国制造的透析仪也要得到欧盟的首肯才能进入欧洲市场。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "As it happens, a razor that is safe in Europe is unlikely to electrocute Americans.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "So, ask businesses on both sides of the Atlantic, why have two lots of tests where one would do?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Politicians agree, in principle, so America and the EU have been trying to reach a deal which would eliminate the need to double-test many products.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They hope to finish in time for a trade summit between America and the EU on May 28th.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Although negotiators are optimistic, the details are complex enough that they may be hard-pressed to get a deal at all.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "As it happens, a razor that is safe in Europe is unlikely to electrocute Americans.", translation: "碰巧在欧洲使用安全的剃须刀不大可能使美国人触电身亡，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "So, ask businesses on both sides of the Atlantic, why have two lots of tests where one would do?", translation: "因此，大西洋两岸的企业都在问，当一套测试可以解决问题时，为什么需要两套呢？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Politicians agree, in principle, so America and the EU have been trying to reach a deal which would eliminate the need to double-test many products.", translation: "政治家在原则上同意了，因此，美国和欧洲一直在寻求达成协议，以便为许多产品取消双重检查。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "They hope to finish in time for a trade summit between America and the EU on May 28th.", translation: "他们希望尽早达成协议，为5月28日举行的美国和欧洲贸易的最高通级会议作准备。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Although negotiators are optimistic, the details are complex enough that they may be hard-pressed to get a deal at all.", translation: "然谈判代表持乐观态度，但协议细节如此复杂，他们所面临的困难很可能使他们无法取得一致。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "Why?", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "One difficulty is to construct the agreements.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The Americans would happily reach one accord on standards for medical devices and then hammer out different pacts covering, say, electronic goods and drug manufacturing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The EU -- following fine continental traditions -- wants agreement on general principles, which could be applied to many types of products and perhaps extended to other countries.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Why?", translation: "为什么呢？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "One difficulty is to construct the agreements.", translation: "困难之一是起草这些协议。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The Americans would happily reach one accord on standards for medical devices and then hammer out different pacts covering, say, electronic goods and drug manufacturing.", translation: "美国人很愿意就医疗器械的标准达成一个协议，然后推敲出不同的合同，用以涵盖——比如说——电子产品和药品的生产。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The EU -- following fine continental traditions -- wants agreement on general principles, which could be applied to many types of products and perhaps extended to other countries.", translation: "欧洲人遵循优良的大陆传统，则希望就普遍的原则取得一致，而这些原则适用于许多不同产品，同时可能延伸到其它国家。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -402,8 +402,8 @@ const articleNce4L11: Article = {
 { text: "An individual human existence should be like a river -- small at first, narrowly contained within its banks, and rushing passionately past boulders and over waterfalls.", translation: "个人的存在应该像一条河流，开始很小，被紧紧地夹在两岸中间，接着热情奔放地冲过巨石，飞下瀑布。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Gradually the river grows wider, the banks recede, the waters flow more quietly, and in the end, without any visible break, they become merged in the sea, and painlessly lose their individual being.", translation: "然后河面渐渐地变宽，两岸后撤，河水流得平缓起来，最后连绵不断地汇入大海，毫无痛苦地失去了自我的存在。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The man who, in old age, can see his life in this way, will not suffer from the fear of death, since the things he cares for will continue.", translation: "上了年纪的人这样看待生命，就不会有惧怕死亡的心情了，因为自己关心的一切事件都会继续下去。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "And if, with the decay of vitality, weariness increases, the thought of rest will be not unwelcome.", translation: "再者，随着精力的衰退，老年人的疲惫会增长，有长眠的愿望未尝不是一件好事情，我希望工作到死为止，明白了有人会继续我的未竟事业，想到能做的事都做了，也就坦然了。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "I should wish to die while still at work, knowing that others will carry on what I can no longer do, and content in the thought that what was possible has been done.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "And if, with the decay of vitality, weariness increases, the thought of rest will be not unwelcome.", translation: "再者，随着精力的衰退，老年人的疲惫会增长，有长眠的愿望未尝不是一件好事情，", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "I should wish to die while still at work, knowing that others will carry on what I can no longer do, and content in the thought that what was possible has been done.", translation: "我希望工作到死为止，明白了有人会继续我的未竟事业，想到能做的事都做了，也就坦然了。", predicates: [], clauseIntroducers: [], notes: [] }
 ]
 ],
   },
@@ -448,19 +448,17 @@ const articleNce4L13: Article = {
 { text: "The deepest holes of all are made for oil, and they go down to as much as 25,000 feet.", translation: "在所有洞穴中，为寻找石油所钻出的洞是最深的，这些洞可深达25,000英尺。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "But we do not need to send men down to get the oil out, as we must with other mineral deposits.", translation: "但是，我们不必像开采其他矿藏那样，把人送到地下去把石油取出。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The holes are only borings, less than a foot in diameter.", translation: "这些洞只不过是一些钻孔，直径不到1英尺。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "T.F.GASKELL The Search for the Earth's Minerals from Discovery", translation: "我是专门搞石油的，寻找石油比其他任何采矿业对改进钻探作的贡献都要大。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "My particular experience is largely in oil, and the search for oil has done more to improve deep drilling than any other mining activity.", translation: "当确定钻孔地点后，我们就在那里竖起一个井架。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "When it has been decided where we are going to drill, we put up at the surface an oil derrick.", translation: "井架必须很高，因为它像一个巨型滑轮组。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It has to be tall because it is like a giant block and tackle, and we have to lowervt.", translation: "我们必须把很长的钻杆一节节地钻入地下，然后再从地下拉出来。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It has to be tall because it is like a giant block and tackle, and we have to lower into the ground and haul out of the ground great lengths of drill pipe which are rotated by an engine at the top and are fitted with a cutting bit at the bottom.", translation: "钻杆顶部安装的发动机带动钻杆旋转，它的底部装有钻头。 地质学家需要知道钻头已以到达什么样的岩层，因此时常要用芯钻头取样。 这种钻头能切割一段光滑的圆柱形岩石，从中能看出所钻透的地层。 一旦到达油层，石油就会由于地下巨大的压力流到地面上来，这种巨大的压力来自地下天然气或水。 这种压力必须加以控制，我们让泥桨顺着钻杆向下循环，用这种方法来控制压力。 我们尽量避免使用陈旧天真的喷井方法，那样会浪费石油和天然气。 我们要让石油留在井下，直到我们能用一种有控制的方法把它引上来为止。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "My particular experience is largely in oil, and the search for oil has done more to improve deep drilling than any other mining activity.", translation: "我是专门搞石油的，寻找石油比其他任何采矿业对改进钻探作的贡献都要大。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "When it has been decided where we are going to drill, we put up at the surface an oil derrick.", translation: "当确定钻孔地点后，我们就在那里竖起一个井架。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It has to be tall because it is like a giant block and tackle, and we have to lower into the ground and haul out of the ground great lengths of drill pipe which are rotated by an engine at the top and are fitted with a cutting bit at the bottom.", translation: "井架必须很高，因为它像一个巨型滑轮组。我们必须把很长的钻杆一节节地钻入地下，然后再从地下拉出来。钻杆顶部安装的发动机带动钻杆旋转，它的底部装有钻头。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "The geologist needs to know what rocks the drill has reached, so every so often a sample is obtained with a coring bit.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It cuts a clean cylinder of rock, from which can be seen the strata the drill has been cutting through.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Once we get down to the oil, it usually flows to the surface because great pressure, either from gas or water, is pushing it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We want it to stay down the hole until we can lead it off in a controlled manner.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "The geologist needs to know what rocks the drill has reached, so every so often a sample is obtained with a coring bit.", translation: "地质学家需要知道钻头已以到达什么样的岩层，因此时常要用芯钻头取样。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It cuts a clean cylinder of rock, from which can be seen the strata the drill has been cutting through.", translation: "这种钻头能切割一段光滑的圆柱形岩石，从中能看出所钻透的地层。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Once we get down to the oil, it usually flows to the surface because great pressure, either from gas or water, is pushing it.", translation: "一旦到达油层，石油就会由于地下巨大的压力流到地面上来，这种巨大的压力来自地下天然气或水。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe.", translation: "这种压力必须加以控制，我们让泥桨顺着钻杆向下循环，用这种方法来控制压力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas.", translation: "我们尽量避免使用陈旧天真的喷井方法，那样会浪费石油和天然气。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We want it to stay down the hole until we can lead it off in a controlled manner.", translation: "我们要让石油留在井下，直到我们能用一种有控制的方法把它引上来为止。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -605,32 +603,25 @@ const articleNce4L18: Article = {
     paragraphs: [
 [
 { text: "There has long been a superstition among mariners that porpoises will save drowning men by pushing them to the surface, or protect them from sharks by surrounding them in defensive formation.", translation: "长期以来，海员中流传着一种迷信的说法，认为海豚会把快要淹死的人托到水面，救人性命；或在人们周围列队保护，使他们免遭鲨鱼伤害。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Marine Studio biologists have pointed outadv.", translation: "海洋摄影室的生物学家指出，无论海豚多么聪明，认为它们有救人的动机可能是错误的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Marine Studio biologists have pointed out that, however intelligent they may be, it is probably a mistake to credit dolphins with any motive of lifesaving.", translation: "当它们偶尔把一个失去知觉的人推到岸边时，更大的可能是出于好奇或游戏，就像它们追逐被船首犁开的浪花一样。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "On the occasions when they have pushed to shore an unconscious human being they have much more likely done it out of curiosity or for sport, as in riding the bow waves of a ship.", translation: "1928年，有人拍摄到了海豚像海狸一样把浸透水的床垫推上岸的情景。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "In 1928 some porpoises were photographed working like beavers to push ashore a waterlogged mattress.", translation: "正如报道中所说，如果海豚保护人不受鲨鱼侵害，那么它们可能是出于好奇；而鲨鱼可能是闻到了可以美食一顿的香味。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "If, as has been reported, they have protected humans from sharks, it may have been because curiosity attracted them and because the scent of a possible meal attracted the sharks.", translation: "海豚和鲨鱼是天然仇敌，双方可能随之发生搏斗，搏斗结果是海豚赶走或咬死鲨鱼。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Porpoises and sharks are natural enemies.", translation: "海豚对凡是活的东西都感兴趣，不管是鸟、是鱼，还是野兽。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It is possible that upon such an occasion a battle ensued, with the sharks being driven away or killed.", translation: "它们经常追逐海龟，海龟则温顺地忍受着各种侮辱。 一只小海豚特别喜欢用鼻子把海龟推到水面，然后像滑水板一样把海龟从水池的这一边推到那一边。 几乎每天都可以看到一只小海豚把鼻子顶入一只300磅重的海龟的硬壳下面，拼命地把它翻过来。 这并非易事，可能需要两只海豚合伙干才行。 在另一场游戏中，当海龟游过水族馆时，第一只海豚从上方猛扑下去，用腹部撞击龟壳。 这一下子把海龟撞下去好几英尺。 海龟刚恢复平衡，第二只海豚又冲过来猛击一下。 这只海龟最终被撞到池底。 此时的海龟，只要能站起来就满足了，但它刚站起来，就被一只海豚击倒。 海龟终于屈服了，将4条腿缩进壳内。 游戏到此结束。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Marine Studio biologists have pointed out that, however intelligent they may be, it is probably a mistake to credit dolphins with any motive of lifesaving.", translation: "海洋摄影室的生物学家指出，无论海豚多么聪明，认为它们有救人的动机可能是错误的。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "On the occasions when they have pushed to shore an unconscious human being they have much more likely done it out of curiosity or for sport, as in riding the bow waves of a ship.", translation: "当它们偶尔把一个失去知觉的人推到岸边时，更大的可能是出于好奇或游戏，就像它们追逐被船首犁开的浪花一样。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "In 1928 some porpoises were photographed working like beavers to push ashore a waterlogged mattress.", translation: "1928年，有人拍摄到了海豚像海狸一样把浸透水的床垫推上岸的情景。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "If, as has been reported, they have protected humans from sharks, it may have been because curiosity attracted them and because the scent of a possible meal attracted the sharks.", translation: "正如报道中所说，如果海豚保护人不受鲨鱼侵害，那么它们可能是出于好奇；而鲨鱼可能是闻到了可以美食一顿的香味。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Porpoises and sharks are natural enemies.", translation: "海豚和鲨鱼是天然仇敌，", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It is possible that upon such an occasion a battle ensued, with the sharks being driven away or killed.", translation: "双方可能随之发生搏斗，搏斗结果是海豚赶走或咬死鲨鱼。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Whether it be bird, fish or beast, the porpoise is intrigued with anything that is alive.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They are constantly after the turtles, who peacefully submit to all sorts of indignities.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "One young calf especially enjoyed raising a turtle to the surface with his snout and then shoving him across the tank like an aquaplane.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Almost any day a young porpoise may be seen trying to turn a 300-pound sea turtle over by sticking his snout under the edge of his shell and pushing up for dear life.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This is not easy, and may require two porpoises working together.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In another game, as the turtle swims across the oceanarium, the first porpoise swoops down from above and butts his shell with his belly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This knocks the turtle down several feet.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He no sooner recovers his equilibrium than the next porpoise comes along and hits him another crack.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Eventually the turtle has been butted all the way down to the floor of the tank.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He is now satisfied merely to try to stand up, but as soon as he does so a porpoise knocks him flat.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The turtle at last gives up by pulling his feet under his shell and the game is over.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
-      ],
-[
-        { text: "have pointed out that.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "that in that/but that/except that, outadv.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "be after.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "； for life ， for dear life a.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Whether it be bird, fish or beast, the porpoise is intrigued with anything that is alive.", translation: "海豚对凡是活的东西都感兴趣，不管是鸟、是鱼，还是野兽。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "They are constantly after the turtles, who peacefully submit to all sorts of indignities.", translation: "它们经常追逐海龟，海龟则温顺地忍受着各种侮辱。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "One young calf especially enjoyed raising a turtle to the surface with his snout and then shoving him across the tank like an aquaplane.", translation: "一只小海豚特别喜欢用鼻子把海龟推到水面，然后像滑水板一样把海龟从水池的这一边推到那一边。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Almost any day a young porpoise may be seen trying to turn a 300-pound sea turtle over by sticking his snout under the edge of his shell and pushing up for dear life.", translation: "几乎每天都可以看到一只小海豚把鼻子顶入一只300磅重的海龟的硬壳下面，拼命地把它翻过来。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This is not easy, and may require two porpoises working together.", translation: "这并非易事，可能需要两只海豚合伙干才行。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In another game, as the turtle swims across the oceanarium, the first porpoise swoops down from above and butts his shell with his belly.", translation: "在另一场游戏中，当海龟游过水族馆时，第一只海豚从上方猛扑下去，用腹部撞击龟壳。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This knocks the turtle down several feet.", translation: "这一下子把海龟撞下去好几英尺。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "He no sooner recovers his equilibrium than the next porpoise comes along and hits him another crack.", translation: "海龟刚恢复平衡，第二只海豚又冲过来猛击一下。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Eventually the turtle has been butted all the way down to the floor of the tank.", translation: "这只海龟最终被撞到池底。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "He is now satisfied merely to try to stand up, but as soon as he does so a porpoise knocks him flat.", translation: "此时的海龟，只要能站起来就满足了，但它刚站起来，就被一只海豚击倒。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The turtle at last gives up by pulling his feet under his shell and the game is over.", translation: "海龟终于屈服了，将4条腿缩进壳内。游戏到此结束。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -1708,13 +1699,13 @@ const articleNce4L17: Article = {
 { text: "So while the rest of the world was trying to get rid of mosquitoes, Australia was encouraging this one.", translation: "因此，世界上其他地方在设法消灭蚊子的时候，澳大利亚却在促使这种蚊子大量繁殖。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "It effectively spread the disease all over the continent and drastically reduced the rabbit population.", translation: "蚊子把这种疾病扩散到整个澳洲大陆，效果甚佳，结果兔子的数目在为减少。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "It later became apparent that rabbits were developing a degree of resistance to this disease, so that the rabbit population was unlikely to be completely exterminated.", translation: "后来，明显看出，兔子对这种疾病已产生了一定程度的免疫力，所以兔子不可能被完全消灭。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "There were hopes, however, that the problem of the rabbit would become manageable.", translation: "但是，已有希望解决兔子所带来的问题。 具有讽刺意味的是，欧洲把这种兔子作为有害动物传给澳洲，而欧洲自己却染上了这种人为的瘟疫般的疾病。 一位法国内科医生决定除掉自己庄园内的野兔子，于是引进了这种多发性粘液瘤疾病。 然而，这种疾病并未被局限在他的庄园内，结果在整个法国蔓延开来。 野兔在法国一般不被当作有害动物，而被视为打猎取乐的玩物和有用的食物来源。 这种疾病又蔓延到了英国。 在英国，野兔被当作有害的动物，可是家兔是赚钱的毛皮工业的基础，然而家兔同样易感染这种疾病。 现在的问题是，人类能否控制住这种人为的疾病。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "There were hopes, however, that the problem of the rabbit would become manageable.", translation: "但是，已有希望解决兔子所带来的问题。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Ironically, Europe, which had bequeathed the rabbit as a pest to Australia acquired this man-made disease as a pestilence.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A French physician decided to get rid of the wild rabbits on his own estate and introduced myxomatosis.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It did not, however, remain within the confines of his estate.It spread through France where wild rabbits are not generally regarded as a pest but as a sport and a useful food supply, and it spread to Britain where wild rabbits are regarded as a pest but where domesticated rabbits, equally susceptible to the disease, are the basis of a profitable fur industry.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The question became one of whether Man could control the disease he had invented.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Ironically, Europe, which had bequeathed the rabbit as a pest to Australia acquired this man-made disease as a pestilence.", translation: "具有讽刺意味的是，欧洲把这种兔子作为有害动物传给澳洲，而欧洲自己却染上了这种人为的瘟疫般的疾病。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A French physician decided to get rid of the wild rabbits on his own estate and introduced myxomatosis.", translation: "一位法国内科医生决定除掉自己庄园内的野兔子，于是引进了这种多发性粘液瘤疾病。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It did not, however, remain within the confines of his estate.It spread through France where wild rabbits are not generally regarded as a pest but as a sport and a useful food supply, and it spread to Britain where wild rabbits are regarded as a pest but where domesticated rabbits, equally susceptible to the disease, are the basis of a profitable fur industry.", translation: "然而，这种疾病并未被局限在他的庄园内，结果在整个法国蔓延开来。野兔在法国一般不被当作有害动物，而被视为打猎取乐的玩物和有用的食物来源。这种疾病又蔓延到了英国。在英国，野兔被当作有害的动物，可是家兔是赚钱的毛皮工业的基础，然而家兔同样易感染这种疾病。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The question became one of whether Man could control the disease he had invented.", translation: "现在的问题是，人类能否控制住这种人为的疾病。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
