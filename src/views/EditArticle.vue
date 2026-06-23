@@ -268,8 +268,8 @@ function goBack() {
 
                 <!-- Panel Notes -->
                 <div class="grammar-field">
-                  <span class="grammar-field-label">面板笔记</span>
-                  <el-table :data="sd.panelNotes || []" size="small" class="grammar-notes-table" empty-text="暂无面板笔记">
+                  <span class="grammar-field-label">行间笔记</span>
+                  <el-table :data="sd.panelNotes || []" size="small" class="grammar-notes-table" empty-text="暂无行间笔记">
                     <el-table-column prop="snippet" label="片段" min-width="140">
                       <template #default="{ $index }"><el-input v-model="sd.panelNotes![$index].snippet" size="small" placeholder="片段" /></template>
                     </el-table-column>
@@ -284,7 +284,7 @@ function goBack() {
                       </template>
                     </el-table-column>
                   </el-table>
-                  <el-button class="add-btn" size="small" @click="addPanelNote(pIdx, sIdx)">+ 添加面板笔记</el-button>
+                  <el-button class="add-btn" size="small" @click="addPanelNote(pIdx, sIdx)">+ 添加行间笔记</el-button>
                 </div>
               </div>
             </div>
