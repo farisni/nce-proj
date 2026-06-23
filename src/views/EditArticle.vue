@@ -372,7 +372,7 @@ function goBack() {
 .meta-compact :deep(.el-input-number) { width: 140px; }
 .meta-compact :deep(.el-select) { width: 120px; }
 .edit-title-row { display: flex; align-items: center; justify-content: space-between; margin-top: 20px; }
-.header-title { font-size: 1.5rem; font-weight: 600; color: #1a1a1a; }
+.header-title { font-size: 1.5rem; font-weight: 600; color: #1a1a1a; font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif; }
 .header-actions { display: flex; gap: 2px; }
 
 .edit-tabs {
