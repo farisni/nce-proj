@@ -183,13 +183,13 @@ function goBack() {
               <span>{{ showParagraph[pIdx] ? '▾' : '▸' }}</span>
               <span class="para-label">段落 {{ pIdx + 1 }}</span>
               <span class="grammar-meta">{{ para.length }} 句</span>
-              <el-popconfirm v-if="editArticle.original.paragraphs.length > 1" title="确定删除？" @confirm="removeParagraph(pIdx)"><template #reference><span class="del-btn" style="margin-left:auto">删除段</span></template></el-popconfirm>
+              <el-popconfirm v-if="editArticle.original.paragraphs.length > 1" title="确定删除？" @confirm="removeParagraph(pIdx)"><template #reference><span class="del-text" style="margin-left:auto">删除段</span></template></el-popconfirm>
             </div>
             <div v-if="showParagraph[pIdx]" class="grammar-body">
               <div v-for="(sd, sIdx) in para" :key="'s'+sIdx" class="grammar-sentence">
                 <div class="grammar-sentence-head">
                   <span class="grammar-sentence-label">句子 {{ sIdx + 1 }}</span>
-                  <el-popconfirm title="确定删除？" @confirm="removeSentence(pIdx, sIdx)"><template #reference><span class="del-btn">删除</span></template></el-popconfirm>
+                  <el-popconfirm title="确定删除？" @confirm="removeSentence(pIdx, sIdx)"><template #reference><span class="del-btn">✕</span></template></el-popconfirm>
                 </div>
                 <el-input v-model="sd.text" type="textarea" :rows="2" placeholder="原文" style="margin-bottom:6px" class="text-en-ta" />
                 <el-input v-model="sd.translation" type="textarea" :rows="1" placeholder="翻译" />
@@ -381,11 +381,12 @@ function goBack() {
 }
 
 .add-btn { border: none; background: transparent; color: #888; padding: 2px 0; font-size: 0.75rem; cursor: pointer; 
-  &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 4px 8px; }
+  &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 3px 6px; }
 }
-.del-btn { color: #888; font-size: 0.75rem; cursor: pointer; padding: 2px 4px; border-radius: 3px; display: inline-block; transition: all 0.15s;
-  &:hover { color: #e0552a; background: #fef0f0; border-radius: 4px; padding: 4px 8px; }
-}
+.del-btn { color: #888; font-size: 0.75rem; cursor: pointer; width: 20px; height: 20px; line-height: 20px; text-align: center; border-radius: 3px; display: inline-flex; align-items: center; justify-content: center; transition: color 0.15s; }
+.del-btn:hover { color: #e0552a; background: #fef0f0; }
+.del-text { color: #888; font-size: 0.75rem; cursor: pointer; }
+.del-text:hover { color: #e0552a; }
 :deep(.el-popconfirm__action) { .el-button--primary { font-size: 0.75rem; } }
 
 // Grammar section
