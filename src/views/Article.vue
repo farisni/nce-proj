@@ -20,7 +20,9 @@ const article = computed(() => articles[route.params.id as string])
 import yumaoIcon from '../asserts/icon/yumao.svg'
 import Heatmap from '../components/Heatmap.vue'
 
+// 当前文章元数据（标题/课号/tag/level/热力图）
 const currentMeta = computed(() => articleMetas.find(m => m.id === route.params.id))
+// 同 level 下的上一篇/下一篇文章，用于导航按钮
 const neighbors = computed(() => {
   if (!currentMeta.value) return { prev: null, next: null }
   const sameLevel = articleMetas.filter(m => m.level === currentMeta.value!.level)
@@ -31,11 +33,12 @@ const neighbors = computed(() => {
   }
 })
 
+// 句子被 markWords() 拆分后的最小渲染单元
 interface Segment {
-  text: string
-  clause?: boolean
-  predicate?: boolean
-  noteText?: string
+  text: string        // 片段文字
+  clause?: boolean    // 从句引导词 → 斜体加粗
+  predicate?: boolean // 谓语 → 橘红色
+  noteText?: string   // 行间笔记 → ruby 下方小字
 }
 
 /**
@@ -51,12 +54,15 @@ function markWords(
   clauseIntroducers: string[],
   notes: { phrase: string; note: string }[],
 ): Segment[] {
+  // 无标注数据 → 整句作为一个 Segment
   if (!predicates.length && !clauseIntroducers.length && !notes.length) return [{ text: sentence }]
 
+  // Span：字符级标记区间，三色可叠加
   interface Span { start: number; end: number; predicate: boolean; clause: boolean; noteText: string }
   const spans: Span[] = []
   const lower = sentence.toLowerCase()
 
+  // 步骤 1：谓语拆分单词 → 词边界正则匹配
   const predWords = new Set<string>()
   for (const pred of predicates) for (const w of pred.split(/\s+/)) predWords.add(w.toLowerCase())
   for (const pw of predWords) {
@@ -67,6 +73,7 @@ function markWords(
       spans.push({ start: m.index, end: m.index + pw.length, predicate: true, clause: false, noteText: '' })
   }
 
+  // 步骤 2：从句引导词 → 要求词边界（前后为空格或标点）
   for (const ci of clauseIntroducers) {
     const lc = ci.toLowerCase(); let idx = lower.indexOf(lc)
     while (idx !== -1) {
@@ -77,6 +84,7 @@ function markWords(
     }
   }
 
+  // 步骤 3：行间笔记 → 大小写不敏感子串匹配（不需要词边界）
   for (const note of notes) {
     const ln = note.phrase.toLowerCase(); let idx = lower.indexOf(ln)
     while (idx !== -1) {
@@ -84,8 +92,9 @@ function markWords(
       idx = lower.indexOf(ln, idx + 1)
     }
   }
-
   if (!spans.length) return [{ text: sentence }]
+
+  // 步骤 4：按字符位元标记 → 合并相邻同类 → 合并 noteText 相同的 Segment
   spans.sort((a, b) => a.start - b.start)
 
   const len = sentence.length
@@ -104,6 +113,7 @@ function markWords(
     segs.push(seg); i = j
   }
 
+  // 步骤 5：相邻且 noteText 相同的 Segment 合并（避免重复显示多次笔记）
   const merged: Segment[] = []
   for (const seg of segs) {
     const last = merged[merged.length - 1]
@@ -113,7 +123,8 @@ function markWords(
   return merged
 }
 
-// 核心数据：每段 → 每句 → Segment[]，用于模板逐句渲染
+// 核心渲染数据：段落 → 句子 → { segments, key }
+// key 用于聚光灯 toggle（句首 40 字符 + 索引）
 const originalSentences = computed(() =>
   article.value.original.paragraphs.map((para) =>
     para.map((sd, sIdx) => ({
@@ -123,17 +134,22 @@ const originalSentences = computed(() =>
   ),
 )
 
+// 当前展开笔记面板的句子 key（空 = 全部收起）
 const activeKey = ref('')
+// 已切换为音节显示的词汇（单击词汇表单词切换）
 const vocabSyllableKeys = ref(new Set<string>())
 
+// 点击羽毛图标 → 展开/收起笔记面板（再次点击同一句关闭）
 function togglePanel(key: string) { activeKey.value = activeKey.value === key ? '' : key }
 
+// 单击词汇表单词 → 切换原形/音节拆分显示
 function toggleVocabSyllable(word: string) {
   if (vocabSyllableKeys.value.has(word)) vocabSyllableKeys.value.delete(word)
   else vocabSyllableKeys.value.add(word)
   vocabSyllableKeys.value = new Set(vocabSyllableKeys.value)
 }
 
+// 返回 Segment 的 CSS class 字符串（clause-mark / predicate-mark 可叠加）
 function segClass(seg: Segment): string {
   const c: string[] = []; if (seg.clause) c.push('clause-mark'); if (seg.predicate) c.push('predicate-mark')
   return c.join(' ')
@@ -154,6 +170,7 @@ function segClass(seg: Segment): string {
        └─ article-section 2: 全文翻译
   -->
   <div class="reading-page">
+    <!-- 聚光灯遮罩：点击空白处关闭面板 -->
     <div v-if="activeKey" class="spotlight-overlay" @click="activeKey = ''"></div>
 
 
@@ -161,6 +178,7 @@ function segClass(seg: Segment): string {
       <div class="article-section">
         <div class="section-row">
           <div class="section-main">
+            <!-- 上下课导航按钮（← Lesson N / Lesson N →） -->
             <div class="nav-buttons">
               <button v-if="neighbors.prev" class="nav-btn nav-prev" @click="$router.push({ name: 'article', params: { id: neighbors.prev.id } })">← Lesson {{ neighbors.prev.lesson }}</button>
               <span v-else class="nav-btn nav-prev nav-disabled"></span>
@@ -168,13 +186,16 @@ function segClass(seg: Segment): string {
               <span v-else class="nav-btn nav-next nav-disabled"></span>
             </div>
 
+            <!-- 文章标题：L课号 + 标签 + 标题 + 热力图 -->
             <h1 class="article-title">
               <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template></span>
               <Heatmap v-if="currentMeta?.heatmap" :data="currentMeta.heatmap" />
             </h1>
+            <!-- 段落 → 句子渲染：span.sentence-inline（高亮 + 羽毛图标）+ transition 笔记面板 -->
             <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
+                  <!-- 单句：非面板展开时用 ruby 显示行间笔记，面板展开时收起笔记 -->
                   <span class="sentence-inline" :class="{ spotlight: activeKey === s.key }"
                     ><template v-for="(seg, gIdx) in s.segments" :key="gIdx">
                       <ruby v-if="seg.noteText && activeKey !== s.key" class="noted-ruby">
@@ -184,6 +205,7 @@ function segClass(seg: Segment): string {
                       <template v-else>{{ seg.text }}</template>
                     </template><img :src="yumaoIcon" class="sentence-icon" @click.stop="togglePanel(s.key)"
                   /></span>
+                  <!-- 笔记面板：展开时显示 200px 浅绿底 -->
                   <transition name="panel">
                     <div v-if="activeKey === s.key" class="sentence-panel"></div>
                   </transition>
@@ -192,6 +214,7 @@ function segClass(seg: Segment): string {
             </div>
           </div>
           <div class="section-divider"></div>
+          <!-- 右侧词汇侧栏：单击切换音节拆分，el-tooltip 显示音标 -->
           <div class="section-side">
             <div class="vocab-list">
               <div
@@ -225,6 +248,7 @@ function segClass(seg: Segment): string {
 </template>
 
 <style lang="scss" scoped>
+// 页面背景：圆点纹理（手账风格）
 .reading-page {
   min-height: 100vh; position: relative;
   background-color: var(--color-bg);
@@ -244,6 +268,7 @@ function segClass(seg: Segment): string {
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
 .paragraph { font-size: 1.15rem; line-height: 2; text-indent: 2em; font-family: 'Merriweather', Georgia, serif; }
+// 句子行内：羽毛图标默认半透明，聚光灯模式下全亮
 .sentence-inline {
   .sentence-icon {
     width: 18px; height: 18px; margin-left: 6px; margin-right: 4px;
@@ -253,11 +278,13 @@ function segClass(seg: Segment): string {
   }
 }
 
+// 聚光灯遮罩：覆盖全屏的半透明黑底
 .spotlight-overlay {
   position: fixed; inset: 0; z-index: 10;
   background: rgba(0, 0, 0, 0.35);
 }
 
+// 被聚光句子：提升 z-index + 白色半透明背景
 .sentence-inline.spotlight {
   position: relative; z-index: 11;
   background: rgba(255, 255, 255, 0.9);
@@ -266,15 +293,18 @@ function segClass(seg: Segment): string {
   margin: 0 -6px;
 }
 
+// 笔记面板：浅绿底色 200px 高
 .sentence-panel {
   display: block; margin: 6px 0; border-radius: 8px;
   background: #f2f7f2; min-height: 200px;
   position: relative; z-index: 11;
 }
 
+// 语法标记：从句引导词（斜体加粗暗色）/ 谓语（橘红）
 .clause-mark { font-style: italic; font-weight: 600; color: #3d3d3d; }
 .predicate-mark { color: #e0552a; }
 
+// 行间笔记：使用 CSS ruby 在词下方显示灰色小字
 .noted-ruby {
   ruby-position: under; ruby-align: center;
   rt { font-size: 0.65rem; color: #555; padding-top: 1px; font-family: 'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', serif; }
