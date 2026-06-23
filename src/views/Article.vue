@@ -267,8 +267,7 @@ function segClass(seg: Segment): string {
 .title-text-wrap { flex: 1; min-width: 0; }
 
 .title-lesson { color: #999; font-weight: 400; }
-.edit-icon { width: 18px; height: 18px; margin-left: 10px; cursor: pointer; opacity: 0.35; transition: opacity 0.2s; flex-shrink: 0; }
-.edit-icon:hover { opacity: 0.7; }
+.edit-icon { width: 18px; height: 18px; margin-left: 10px; cursor: pointer; opacity: 0.55; flex-shrink: 0; }
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 20px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
