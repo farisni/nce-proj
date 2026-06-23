@@ -6344,27 +6344,22 @@ const articleNce4L2: Article = {
     ],
 
     original: {
-    paragraphs: [
+        paragraphs: [
       [
         { text: 'Why, you may wonder, should spiders be our friends?', translation: '你可能会觉得奇怪， 蜘蛛怎么会是我们的朋友呢？因为它们能消灭那么多的昆虫，其中包括一些人类的大敌，要不是人类受一些食虫动物的保护，昆虫就会使我们无法在地球上生活下去，昆虫会吞食我们的全部庄稼，杀死我们的成群的牛羊。我们要十分感谢那些吃昆虫的鸟和兽，然而把它们所杀死的昆虫全部加在一起也只相当于蜘蛛所消灭的一小部分。此外，蜘蛛不同于其他食虫动物，它们丝毫不危害我们和我们的财物。  许多人认为蜘蛛是昆虫，但它们不是昆虫，甚至与昆虫毫无关系。人们几乎一眼就能看出二者的差异，因为蜘蛛都是8条腿，而昆虫的腿从不超过6条。  有多少蜘蛛在为我们效力呢？一位研究蜘蛛的权威对英国南部一块草坪上的蜘蛛作了一次调查。他估计每英亩草坪里有225万多只蜘蛛。这就是说，在一个足球场上约有600万只不同种类的蜘蛛。蜘蛛至少有半年在忙于吃昆虫。它们一年中消灭了多少昆虫，我们简直无法猜测，它们是吃不饱的动物，不满意一日三餐。据估计，在英国蜘蛛一年里所消灭昆虫的重量超过这个国家人口的总重量。', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'Because they destroy so many insects, and insects include some of the greatest enemies of the human race.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'Insects would make it impossible for us to live in the world; they would devour all our crops and kill our flocks and herds, if it were not for the protection we get from insect-eating animals.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'We owe a lot to the birds and beasts but all of them put together kill only a fraction of the number destroyed by spiders.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
-      ],
-      [
+        { text: 'We owe a lot to the birds and beasts who eat insects but all of them put together kill only a fraction of the number destroyed by spiders.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'Spiders are not insects, as many people think, nor even nearly related to them.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'One can tell the difference almost at a glance, for a spider always has eight legs and an insect has never more than six.', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
-      ],
-      [
+        { text: 'One can tell the difference almost at a glance, for a spider always has eight legs and an insect never more than six.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'How many spiders are engaged in this work on our behalf?', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'One authority on spiders made a census of the spiders in a grass field in the south of England, and he estimated that there were more than 2,250,000 in one acre, that is something like 6,000,000 spiders on a football pitch.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'One authority on spiders made a census of the spiders in a grass field in the south of England, and he estimated that there were more than 2,250,000 in one acre; that is something like 6 million spiders of different kinds on a football pitch.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'Spiders are busy for at least half the year in killing insects.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
+        { text: 'It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'T.H.GILLESPIE Spare that spider from The Listener', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
       ],
-      [
-      ]
     ],
   },
 
@@ -6449,21 +6444,20 @@ const articleNce4L4: Article = {
     ],
 
     original: {
-    paragraphs: [
+        paragraphs: [
       [
-        { text: 'In the Soviet Union several cases have been reported recently of people who can read and detect colours with their fingers, and even see through solid doors and walls.', translation: '俄罗斯最近报导了几个事例，有人能用手指看书识字和辨认颜色，甚至能透过厚实的门和墙看到东西。 其中有一例谈到有一个名叫维拉.彼托洛娃的11岁学生。她的视力与常人一样，但她还能用皮肤的不同部位辨认东西，甚至看穿坚实的墙壁。是她父亲首先发现她这一功能的。一天，维拉走进父亲的办公室，偶然把手放在一个锁着的保险柜的门上，她突然问父亲为什么把这么多的旧报纸锁在柜子里，还说了报纸捆扎的情况。 维拉的特异功能引起了她家附近乌里扬诺夫斯克城一个科研单位的注意。4月里，俄罗斯卫生部一个特别委员会对她进行了一系列的测试。在这些测试中，她能隔着不透明的屏幕读报纸。更为奇怪的是，她把肘部在儿童玩的“罗托”纸牌上移动一下，便能说出印在纸牌上的数字和颜色。还有一次，她穿着长筒袜子和拖鞋，能用脚步识别出藏在地毯下面的一幅画的轮廓和颜色。其他实验表明，她的膝盖和双肩有类似的感觉能力，在所有这些实验中，维拉的双眼都是蒙着的。如果不蒙上双眼她的皮肤就不再具有识别物体的能力。这是千真万确的。同时还发现，尽管她能用手指识别东西，但她的手一旦弄湿，这种功能便会立即消失。', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'One case concerns an \'eleven-year-old schoolgirl, Vera Petrova, who has normal vision but who can also perceive things with different parts of her skin, and through solid walls.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Several cases have been reported in Russia recently of people who can read and detect colours with their fingers, and even see through solid doors and walls.', translation: '俄罗斯最近报导了几个事例，有人能用手指看书识字和辨认颜色，甚至能透过厚实的门和墙看到东西。 其中有一例谈到有一个名叫维拉.彼托洛娃的11岁学生。她的视力与常人一样，但她还能用皮肤的不同部位辨认东西，甚至看穿坚实的墙壁。是她父亲首先发现她这一功能的。一天，维拉走进父亲的办公室，偶然把手放在一个锁着的保险柜的门上，她突然问父亲为什么把这么多的旧报纸锁在柜子里，还说了报纸捆扎的情况。 维拉的特异功能引起了她家附近乌里扬诺夫斯克城一个科研单位的注意。4月里，俄罗斯卫生部一个特别委员会对她进行了一系列的测试。在这些测试中，她能隔着不透明的屏幕读报纸。更为奇怪的是，她把肘部在儿童玩的“罗托”纸牌上移动一下，便能说出印在纸牌上的数字和颜色。还有一次，她穿着长筒袜子和拖鞋，能用脚步识别出藏在地毯下面的一幅画的轮廓和颜色。其他实验表明，她的膝盖和双肩有类似的感觉能力，在所有这些实验中，维拉的双眼都是蒙着的。如果不蒙上双眼她的皮肤就不再具有识别物体的能力。这是千真万确的。同时还发现，尽管她能用手指识别东西，但她的手一旦弄湿，这种功能便会立即消失。', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'One case concerns an eleven-year-old schoolgirl, Vera Petrova, who has normal vision but who can also perceive things with different parts of her skin, and through solid walls.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'This ability was first noticed by her father.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'One day she came into his office and happened to put her hands on the door of a locked safe.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'Suddenly she asked her father why he kept so many old newspapers locked away there, and even described the way they were done up in bundles.', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
-      ],
-      [
-        { text: 'Vera\'s curious talent was brought to the notice of a scientific research institute in the town of UIyanovsk, near where she lives, and in April she was given a series of tests by a special commission of the Ministry of Health of the Russian Federal Republic.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'During these tests she was able to read a newspaper through an opaque screen and, stranger still, by moving her elbow over a child\'s game of Lotto she was able to describe the figures and colours printed on it; and, in another instance, wearing stockings and slippers, () to make out with her foot the outlines and colours of a picture hidden under a carpet.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Suddenly she asked her father why he kept so many old newspapers locked away there, and even described the way they were done up in bundles.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Vera\'s curious talent was brought to the notice of a scientific research institute in the town of Ulyanovsk, near where she lives, and in April she was given a series of tests by a special commission of the Ministry of Health of the Russian Federal Republic.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'During these tests she was able to read a newspaper through an opaque screen and, stranger still, by moving her elbow over a child\'s game of Lotto she was able to describe the figures and colours printed on it; and, in another instance, wearing stockings and slippers, to make out with her foot the outlines and colours of a picture hidden under a carpet.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'Other experiments showed that her knees and shoulders had a similar sensitivity.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'During all these tests Vera was blindfold; and, indeed, except when blindfold she lacked the ability to perceive things with her skin.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
-      ]
+        { text: 'It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'ERIC DE MAUNY Seeing hands from The Listener Another Russian girl,Rosa Kuleshova,reads blindfold.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+      ],
     ],
   },
 
@@ -7217,25 +7211,23 @@ const articleNce4L32: Article = {
     ],
 
     original: {
-    paragraphs: [
+        paragraphs: [
       [
-        { text: 'In his own lifetime Galileo was the centre of violent controversy; but the scientific dust has long since settled, and today we can see [even his famous clash with the Inquisition] in something like its proper perspective.', translation: '伽利略在世时是激烈论战的中心。但是，自他逝世以来，那场科学上的纷争早已平息了下来，甚至他和宗教法庭的著名冲突，我们今天也能正确如实地看待。但是相比之下，对于科学史家来说，伽利略只是在现代才变成了一个新的难题。 令人高兴的是，过去对伽利略的看法并不复杂。他首先是个实验工作者，他蔑视亚里士多德学派的偏见和空洞的书本知识。他向自然界而不是向古人提出问题，并大胆地得出结论。他是第一个把望远镜对准天空的人，观察到的论据足以把亚里士多德和托勒密一起推翻。他就是那个曾经爬上比萨斜塔，从塔顶向下抛掷各种重物的人；他是那个使球体沿斜面向下滚动，然后将多次实验结果概括成著名的自由落体定律的人。 但是，对那个时代的深化了解，尤其是以科学家革命中哲学潜流的新意识为依据，进一步仔细研究，就会极大地改变对伽利略的看法。今天，虽然已故的伽利略继续活在许多通俗读物中，但在科学史家中间，一个新的更加复杂的伽利略形象出现了。与此同时，我们对伽利略的反对派的同情也有所增加。伽利略用望远镜所作的观察确实是不朽的，这些观察当时引起人们极大的兴趣，具有重要的理论意义，并充分显示出了仪表和仪器的潜在力量。但是，如果我们想到，使用一架倍数有限的望远镜需要长期的经验和对自己仪器的熟悉程度，那么我们怎么能去责备观察了天空但没有看到伽利略所看到的东西的那些人呢？某位哲学家曾拒绝使用伽利略的望远镜去观察天空；到了19世纪40年代，有人硬把罗斯勋爵高倍望远镜观测到的螺旋状星云说成是磨镜工留下的磨痕。难道反对伽利略的哲学家比诋毁罗斯勋爵造谣者应受到更大的谴责吗？如果我们回想一下伽利略之前几个世纪期间，曲面镜一直是一种用于产生幻影而不是产生真象的把戏装置，那么我们就会原谅那些当时把伽利略观察到的木星卫星说成是伽利略用他的小望远镜变出来的人们，何况一片曲面镜就可歪曲自然，那么伽利略的两片曲面镜对自然的歪曲又该多大呢？', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'But, in contrast, it is only in modern times that Galileo has become a problem child for historians of science.', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
-      ],
-      [
+        { text: 'In his own lifetime Galileo was the centre of violent controversy; but the scientific dust has long since settled, and today we can see even his famous clash with the Inquisition in something like its proper perspective.', translation: '伽利略在世时是激烈论战的中心。但是，自他逝世以来，那场科学上的纷争早已平息了下来，甚至他和宗教法庭的著名冲突，我们今天也能正确如实地看待。但是相比之下，对于科学史家来说，伽利略只是在现代才变成了一个新的难题。 令人高兴的是，过去对伽利略的看法并不复杂。他首先是个实验工作者，他蔑视亚里士多德学派的偏见和空洞的书本知识。他向自然界而不是向古人提出问题，并大胆地得出结论。他是第一个把望远镜对准天空的人，观察到的论据足以把亚里士多德和托勒密一起推翻。他就是那个曾经爬上比萨斜塔，从塔顶向下抛掷各种重物的人；他是那个使球体沿斜面向下滚动，然后将多次实验结果概括成著名的自由落体定律的人。 但是，对那个时代的深化了解，尤其是以科学家革命中哲学潜流的新意识为依据，进一步仔细研究，就会极大地改变对伽利略的看法。今天，虽然已故的伽利略继续活在许多通俗读物中，但在科学史家中间，一个新的更加复杂的伽利略形象出现了。与此同时，我们对伽利略的反对派的同情也有所增加。伽利略用望远镜所作的观察确实是不朽的，这些观察当时引起人们极大的兴趣，具有重要的理论意义，并充分显示出了仪表和仪器的潜在力量。但是，如果我们想到，使用一架倍数有限的望远镜需要长期的经验和对自己仪器的熟悉程度，那么我们怎么能去责备观察了天空但没有看到伽利略所看到的东西的那些人呢？某位哲学家曾拒绝使用伽利略的望远镜去观察天空；到了19世纪40年代，有人硬把罗斯勋爵高倍望远镜观测到的螺旋状星云说成是磨镜工留下的磨痕。难道反对伽利略的哲学家比诋毁罗斯勋爵造谣者应受到更大的谴责吗？如果我们回想一下伽利略之前几个世纪期间，曲面镜一直是一种用于产生幻影而不是产生真象的把戏装置，那么我们就会原谅那些当时把伽利略观察到的木星卫星说成是伽利略用他的小望远镜变出来的人们，何况一片曲面镜就可歪曲自然，那么伽利略的两片曲面镜对自然的歪曲又该多大呢？', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'But, in contrast, it is only in modern times that Galileo has become a problem child for historians of science.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'The old view of Galileo was delightfully uncomplicated.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'He was, above all, a man who experimented: who despised the prejudices and book learning of the Aristotelians, who put his questions to nature instead of to the ancients, and who drew his conclusions fearlessly.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'He had been the first to turn a telescope to the sky, and he had seen there evidence enough to overthrow Aristotle and Ptolemy together.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'He was the man who climbed the Leaning Tower of Pisa and dropped various weights from the top, who rolled balls down inclined planes, and then generalized the results of his many experiments into the famous law of free fall.', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
-      ],
-      [
+        { text: 'He had been the first to turn a telescope to the sky, and he had seen their evidence enough to overthrow Aristotle and Ptolemy together.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'He was the man who climbed the Leaning Tower of Pisa and dropped various weights from the top, who rolled balls down inclined planes, and then generalized the results of his many experiments into the famous law of free fall.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'But a closer study of the evidence, supported by a deeper sense of the period, and particularly by a new consciousness of the philosophical undercurrents in the scientific revolution, has profoundly modified this view of Galileo.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'Today, although the old Galileo lives on in many popular writings, among historians of science a new and more sophisticated picture has emerged.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'His telescopic observation are justly immortal; they aroused great interest at the time, they had important theoretical consequences, and they provided a striking demonstration of the potentialities hidden in instruments and apparatus.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'At the same time our sympathy for Galileo\'s opponents has grown somewhat.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'His telescopic observations are justly immortal; they aroused great interest at the time, they had important theoretical consequences, and they provided a striking demonstration of the potentialities hidden in instruments and apparatus.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
         { text: 'But can we blame those who looked and failed to see what Galileo saw, if we remember that to use a telescope at the limit of its powers calls for long experience and intimate familiarity with one\'s instrument?', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'Was the philosopher more culpable than those ?', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
-        { text: 'We can perhaps forgive those who said the moons of Jupiter were produced by Galileo\'s spy-glass if we recall that in his day, asfor centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth; and if a single curved glass would distort nature, how much more would a pair of them?', translation: '', predicates: [], clauseIntroducers: [], notes: [] }
-      ]
+        { text: 'Was the philosopher who refused to look through Galileo\'s telescope more culpable than those who alleged that the spiral nebulae observed with Lord Rosse\'s great telescope in the 1840s were scratches left by the grinder?', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'We can perhaps forgive those who said the moons of Jupiter were produced by Galileo\'s spyglass if we recall that in his day, as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth; and if a single curved glass would distort nature, how much more would a pair of them?', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'MICHAEL HOSKIN Galileo Reborn from The Listener', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+      ],
     ],
   },
 
@@ -8152,12 +8144,27 @@ const articleNce4L27: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
   original: {
-    paragraphs: [
+        paragraphs: [
       [
-        { text: '### New words and expressions 生词和短语', translation: '1628年，一艘大帆船在处女航时就沉没了，这个从7世纪瑞典帝国流传至今的故事无疑是航海史上最离奇的事件之一。这艘大船在斯德哥尔摩港口的海底躺了将近3个半世纪之后，直到1956年才被发现。这就是“瓦萨”号，帝国大舰队的皇家旗舰。 当时号称“北方飓风”的国王古斯夫斯.阿道尔弗正处在“三十年战争”的军事鼎盛阶段，他亲自规定了这艘船的规模和武器配备。3层的火炮甲板上装着64门青铜加农炮，目的就是要在不断增长的瑞典势力中起主导作用。 1628年8月10日，“瓦萨”号准备首航时，斯德哥尔摩一片欢腾。人们从斯开波斯布朗和周围的岛屿前来观看这艘美丽的战船扬帆起航，乘风前进。瑞典人辛辛苦苦干了3年才建成这件水上艺术品，它比以往任何船只雕刻得都更加精美，装饰得都更加华丽。高耸的船楼上雕刻了令人眼花缭乱的神仙、妖魔、骑士、国王、武士、美人鱼和小天使，还有用红色、金黄色、蓝色绘制的光彩夺目的兽形图案，象征着勇敢、力量和残暴，以激起当时崇尚迷信的水手们的想像。 这时，停泊在港口的其他战船向“瓦萨”号鸣炮致礼，“瓦萨”号也鸣炮回礼。当“瓦萨”号从弥漫的礼炮烟云中出现时，船头下浪花四溅，舰旗迎风招展，三角旗随风飘动，微风鼓起风帆，金碧辉煌的船楼闪耀着灿烂的色彩。“瓦萨”号展现的壮观景象是斯德哥尔摩人从未见过的。船上的炮眼开着，炮口虎视眈眈地向外窥视着。 当风力增强时，突然刮来一阵大风，“瓦萨”号奇怪地摇晃了一下，便向左舷倾斜。炮长命令把左舷上所有大炮搬到右舷上来以抵消船的倾斜，但甲板的倾斜度仍在增加。当物品、压舱物、弹药和400个人轰地一声滑向陡斜的左舷时，岸上的观众听到了雷鸣般的轰响。下层炮眼已淹没在水里，涌进船舱的水给“瓦萨”号带来了难以逃脱的厄运。就这样，想要统治波罗的海的大型战舰“瓦萨”号，在它壮丽的起航时刻，带着全身飘扬的彩旗，沉没在了它诞生的港口。', predicates: [], clauseIntroducers: [], notes: [] },
-      ],
-      [
-        { text: 'galleon n. 大型帆船 Stockholm n. 斯德哥尔摩 flagship n. 旗舰 imperial adj. 帝国的 hurricane n. 飓风 armament n. 军械 triple adj. 三层的 mount v. 架有 bronze n. 青铜 cannon n. 加农炮 might n.力量 ferment n.激动不安 ornament v.装饰 riot n. 丰富 demon n.恶魔 mermaid n.美人鱼 cherub n.小天使 zoomorphic adj.兽形的 ablaze adj.光彩的 portray v.绘制 drifting adj.弥漫的 churn v.翻滚 pennant n.三角旗 superstructure n.上部结构 majestic adj.威严的 muzzle n.炮口 freshen v.变强 squall n.狂风 list v.倾斜 port n(船、飞机的)左舷 ordnance n.军械 heave v.拖 starboard n.(船、飞机的)右舷 counteract v.抵消 steepen v.变得更陡峭 ballast n.压舱物 inrush n.水的涌入 Baltic n.波罗的海', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'From the seventeenth-century empire of Sweden, the story of a galleon that sank at the start of her maiden voyage in 1628 must be one of the strangest tales of the sea.', translation: '1628年，一艘大帆船在处女航时就沉没了，这个从7世纪瑞典帝国流传至今的故事无疑是航海史上最离奇的事件之一。这艘大船在斯德哥尔摩港口的海底躺了将近3个半世纪之后，直到1956年才被发现。这就是“瓦萨”号，帝国大舰队的皇家旗舰。 当时号称“北方飓风”的国王古斯夫斯.阿道尔弗正处在“三十年战争”的军事鼎盛阶段，他亲自规定了这艘船的规模和武器配备。3层的火炮甲板上装着64门青铜加农炮，目的就是要在不断增长的瑞典势力中起主导作用。 1628年8月10日，“瓦萨”号准备首航时，斯德哥尔摩一片欢腾。人们从斯开波斯布朗和周围的岛屿前来观看这艘美丽的战船扬帆起航，乘风前进。瑞典人辛辛苦苦干了3年才建成这件水上艺术品，它比以往任何船只雕刻得都更加精美，装饰得都更加华丽。高耸的船楼上雕刻了令人眼花缭乱的神仙、妖魔、骑士、国王、武士、美人鱼和小天使，还有用红色、金黄色、蓝色绘制的光彩夺目的兽形图案，象征着勇敢、力量和残暴，以激起当时崇尚迷信的水手们的想像。 这时，停泊在港口的其他战船向“瓦萨”号鸣炮致礼，“瓦萨”号也鸣炮回礼。当“瓦萨”号从弥漫的礼炮烟云中出现时，船头下浪花四溅，舰旗迎风招展，三角旗随风飘动，微风鼓起风帆，金碧辉煌的船楼闪耀着灿烂的色彩。“瓦萨”号展现的壮观景象是斯德哥尔摩人从未见过的。船上的炮眼开着，炮口虎视眈眈地向外窥视着。 当风力增强时，突然刮来一阵大风，“瓦萨”号奇怪地摇晃了一下，便向左舷倾斜。炮长命令把左舷上所有大炮搬到右舷上来以抵消船的倾斜，但甲板的倾斜度仍在增加。当物品、压舱物、弹药和400个人轰地一声滑向陡斜的左舷时，岸上的观众听到了雷鸣般的轰响。下层炮眼已淹没在水里，涌进船舱的水给“瓦萨”号带来了难以逃脱的厄运。就这样，想要统治波罗的海的大型战舰“瓦萨”号，在它壮丽的起航时刻，带着全身飘扬的彩旗，沉没在了它诞生的港口。', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'For nearly three and a half centuries she lay at the bottom of Stockholm harbour until her discovery in 1956.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'This was the Vasa, royal flagship of the great imperial fleet.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'King Gustavus Adolphus, \'The Northern Hurricane\', then at the height of his military success in the Thirty Years\' War, had dictated her measurements and armament.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Triple gun-decks mounted sixty-four bronze cannon.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'She was intended to play a leading role in the growing might of Sweden.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'As she was prepared for her maiden voyage on August 10th, 1628, Stockholm was in a ferment.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'From the Skeppsbron and surrounding islands the people watched this thing of beauty begin to spread her sails and catch the wind.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'They had laboured for three years to produce this floating work of art; she was more richly carved and ornamented than any previous ship.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'The high stern castle was a riot of carved gods, demons, knights, kings, warriors, mermaids, cherubs; and zoomorphic animal shapes ablaze with red and gold and blue, symbols of courage, power, and cruelty, were portrayed to stir the imaginations of the superstitious sailors of the day.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Then the cannons of the anchored warships thundered a salute to which the Vasa fired in reply.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'As she emerged from her drifting cloud of gun smoke with the water churned to foam beneath her bow, her flags flying, pennants waving, sails fillng in the breeze, and the red and gold of her superstructure ablaze with colour, she presented a more majestic spectacle than Stockholmers had ever seen before.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'All gun-ports were open and the muzzles peeped wickedly from them.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'As the wind freshened there came a sudden squall and the ship made a strange movement, listing to port.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'The Ordnance Officer ordered all the port cannon to be heaved to starboard to counteract the list, but the steepening angle of the decks increased.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Then the sound of rumbling thunder reached the watchers on the shore, as cargo, ballast, ammunition and 400 people went sliding and crashing down to the port side of the steeply listing ship.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'The lower gun-ports were now below water and the inrush sealed the ship\'s fate.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'In that first glorious hour, the mighty Vasa, which was intended to rule the Baltic, sank with all flags flying-in the harbour of her birth.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'ROY SAUNGERS The Raising of the \'Vasa\' from The Listener', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
       ],
     ],
   },
@@ -8219,12 +8226,24 @@ const articleNce4L31: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
   original: {
-    paragraphs: [
+        paragraphs: [
       [
-        { text: '### New words and expressions 生词和短语', translation: '对雕塑的鉴赏力取决于对立体的反应能力。雕塑被说成是所有艺术中最难的艺术，可能就是这个道理。欣赏雕塑品当然比欣赏平面的艺术品要难。“形盲”的人数比 “色盲”的人数要多得多。正在学看东西的儿童起初只会分辨二维形态，不会判断距离和深度。慢慢地，由于自身安全和实际需要，儿童必须发展（部分通过触觉）粗略判断三维空间距离的能力。但是。大部分人在满足了实际需要后，就不再继续发展这种能力了。虽然他们对平面形式的感觉能达到相当准确的程度，但他们没有在智力和感情上进一步努力去理解存在于空间的整个形态。 而雕塑家就必须做到这一点。他必须勤于想像并且利用形体在空间中的完整性。可以说，当他想像一个物体时，不管其大小如何，他脑子里得到的是一个立体的概念，就好像完全握在自己手心里一样。他的大脑能从物体周围的各个角度勾画出其复杂的形象，他看物体的一边时，便知道另一边是个什么样子。他把自身和物体重心、质量、重量融为一体。他能意识到物体的体积，那就是它的形状在空气中所占的空间。 因此，敏锐的雕塑观赏者也必须学会把形体作为形体来感觉，不要靠描述和印象去想象。以鸟蛋为例。观赏者必须感觉到它是一个单一的实体形态，而完全不靠它的食用意义或它会变成鸟这样的文字概念来感觉。对于其他实体，如，贝壳、核桃、李子、梨子、蝌蚪、蘑菇、山峰、肾脏、胡萝卜、树干、鸟儿、花蕾、云雀、瓢虫、芦苇以及骨头也应这样来感觉。从这些形体出发，观赏者可进一步观察更为复杂的形体或若干形体的组合。', predicates: [], clauseIntroducers: [], notes: [] },
-      ],
-      [
-        { text: 'colour-blind adj. 色盲的 perception n. 知觉 comprehend v. 理解 spatial adj. 空间 visualize v. 使具形象，设想 reminiscence n. 回忆，联想 tadpole n. 蝌蚪 mushroom n. 蘑菇 carrot n. 胡萝卜 bud n. 花蕾 lark n. 云雀 ladybird n. 瓢虫 bulrush n. 芦苇', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Appreciation of sculpture depends upon the ability to respond to form in three dimensions.', translation: '对雕塑的鉴赏力取决于对立体的反应能力。雕塑被说成是所有艺术中最难的艺术，可能就是这个道理。欣赏雕塑品当然比欣赏平面的艺术品要难。“形盲”的人数比 “色盲”的人数要多得多。正在学看东西的儿童起初只会分辨二维形态，不会判断距离和深度。慢慢地，由于自身安全和实际需要，儿童必须发展（部分通过触觉）粗略判断三维空间距离的能力。但是。大部分人在满足了实际需要后，就不再继续发展这种能力了。虽然他们对平面形式的感觉能达到相当准确的程度，但他们没有在智力和感情上进一步努力去理解存在于空间的整个形态。 而雕塑家就必须做到这一点。他必须勤于想像并且利用形体在空间中的完整性。可以说，当他想像一个物体时，不管其大小如何，他脑子里得到的是一个立体的概念，就好像完全握在自己手心里一样。他的大脑能从物体周围的各个角度勾画出其复杂的形象，他看物体的一边时，便知道另一边是个什么样子。他把自身和物体重心、质量、重量融为一体。他能意识到物体的体积，那就是它的形状在空气中所占的空间。 因此，敏锐的雕塑观赏者也必须学会把形体作为形体来感觉，不要靠描述和印象去想象。以鸟蛋为例。观赏者必须感觉到它是一个单一的实体形态，而完全不靠它的食用意义或它会变成鸟这样的文字概念来感觉。对于其他实体，如，贝壳、核桃、李子、梨子、蝌蚪、蘑菇、山峰、肾脏、胡萝卜、树干、鸟儿、花蕾、云雀、瓢虫、芦苇以及骨头也应这样来感觉。从这些形体出发，观赏者可进一步观察更为复杂的形体或若干形体的组合。', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'That is perhaps why sculpture has been described as the most difficult of all arts; certainly it is more difficult than the arts which involve appreciation of flat forms, shape in only two dimensions.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Many more people are \'form-blind\' than colour-blind.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'The child learning to see, first distinguishes only two-dimensional shape; it cannot judge distances, depths.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Later, for its personal safety and practical needs, it has to develop (partly by means of touch) the ability to judge roughly three-dimensonal distances.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'But having satisfied the requirements of practical necessity, most people go no further.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'Though they may attain considerable accuracy in the perception of flat form, they do not make the further intellectual and emotional effort needed to comprehend form in its full spatial existence.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'This is what the sculptor must do.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'He must strive continually to think of, and use, form in its full spatial completeness.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'He gets the solid shape, as it were, inside his head-he thinks of it, whatever its size, as if he were holding it completely enclosed in the hollow of his hand.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'He mentally visualizes a complex form from all round itself; he knows while he looks at one side what the other side is like, he identifies himself with its centre of gravity, its mass, its weight; he realizes its volume, as the space that the shape displaces in the air.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'And the sensitive observer of sculpture must also learn to feel shape simply as shape, not as description or reminiscence.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'He must, for example, perceive an egg as a simple single solid shape, quite apart from its significance as food, or from the literary idea that it will become a bird.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom, a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'From these he can go on to appreciate more complex forms or combinations of several forms.', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
+        { text: 'HENRY MOORE The Sculptor Speaks from The Listener', translation: '', predicates: [], clauseIntroducers: [], notes: [] },
       ],
     ],
   },
