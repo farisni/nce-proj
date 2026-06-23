@@ -261,13 +261,13 @@ function segClass(seg: Segment): string {
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 0 0 16px; }
-.vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 12px; padding-top: 64px; font-family: inherit; }
+.vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 20px; padding-top: 64px; font-family: inherit; }
 .article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
 .title-text-wrap { flex: 1; min-width: 0; }
 
 .title-lesson { color: #999; font-weight: 400; }
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
-.section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; padding-top: 28px; }
+.section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 20px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
 .paragraph { font-size: 1.15rem; line-height: 2; text-indent: 2em; font-family: 'Merriweather', Georgia, serif; }
 // 句子行内：羽毛图标默认半透明，聚光灯模式下全亮
@@ -328,7 +328,7 @@ function segClass(seg: Segment): string {
 .translation { font-size: 0.9rem; color: var(--color-text-secondary); font-family: inherit; }
 .nav-buttons {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 0 0 16px; margin-bottom: 12px;
+  padding: 0 0 16px; margin-bottom: 20px;
   border-bottom: 1px solid var(--color-border);
 }
 .nav-btn {
