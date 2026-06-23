@@ -13,9 +13,9 @@ const filteredArticles = computed(() => {
     return Object.values(articles).filter(a =>
       a.title.toLowerCase().includes(q) ||
       (a.titleCn && a.titleCn.includes(q))
-    )
+    ).sort((a, b) => a.lesson - b.lesson)
   }
-  return Object.values(articles).filter(a => a.level === props.activeLevel)
+  return Object.values(articles).filter(a => a.level === props.activeLevel).sort((a, b) => a.lesson - b.lesson)
 })
 
 function goArticle(id: string) {

@@ -170,6 +170,12 @@ blindfold /ˈblaɪndfoʊld/ adj.& adv. 被蒙上眼睛的
 
 ### 课文原文
 
+People are always talking about 'the problem of youth'. If there is one—which I take leave to doubt—then it is older people who create it, not the young themselves. Let us get down to fundamentals and agree that the young are after all human beings—people just like their elders. There is only one difference between an old man and a young one: the young man has a glorious future before him and the old one has a splendid future behind him: and maybe that is where the rub is.
+
+When I was a teenager, I felt that I was just young and uncertain—that I was a new boy in a huge school, and I would have been very pleased to be regarded as something so interesting as a problem. For one thing, being a problem gives you a certain identity, and that is one of the things the young are busily engaged in seeking.
+
+I find young people exciting. They have an air of freedom, and they have not a dreary commitment to mean ambitions or love of comfort. They are not anxious social climbers, and they have no devotion to material things. All this seems to me to link them with life, and the origins of things. It's as if they were in some sense cosmic beings in violent and lovely contrast with us suburban creatures. All that is in my mind when I meet a young person. He may be conceited, ill-mannered, presumptuous or fatuous, but I do not turn for protection to dreary clichés about respect for elders—as if mere age were a reason for respect. I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.
+
 ### New words and expressions 生词和短语
 
 leave n.允许
@@ -812,7 +818,9 @@ as 是关系代词，代替they have protected humans from sharks.
 
 ### 课文原文
 
-Circadian rhythm experiment. A patient is asleep in a sleep research laboratory.Electrocles are attached to his head to measure brainwaves.
+It is fairly clear that the sleeping period must have some function, and because there is so much of it the function would seem to be important. Speculations about its nature have been going on for literally thousands of years, and one odd finding that makes the problem puzzling is that it looks very much as if sleeping is not simply a matter of giving the body a rest. 'Rest', in terms of muscle relaxation and so on, can be achieved by a brief period of lying, or even sitting down. The body's tissues are self-repairing and self-restoring to a degree, and function best when more or less continuously active. In fact, a basic amount of movement occurs during sleep which is specifically concerned with preventing muscle inactivity.
+
+If it is not a question of resting the body, then perhaps it is the brain that needs resting? This might be a plausible hypothesis were it not for two factors. First, the electroencephalograph (which is simply a device for recording the electrical activity of the brain by attaching electrodes to the scalp) shows that while there is a change in the pattern of activity during sleep, there is no evidence that the total amount of activity is any less. The second is more interesting, and more fundamental. Some years ago, an American psychiatrist published a paper in which he reported the activity of the eyes during sleep. He showed that the average individual's sleep cycle is punctuated with peculiar bursts of eye-movements, some drifting and slow, others jerky and rapid. People woken during these periods of eye-movements generally reported that they had been dreaming. When woken at other times they reported no dreams. If one group of people were disturbed from their eye-movement sleep for several nights on end, and another group were disturbed for an equal period of time but when they were not exhibiting eye-movements, the first group began to show some personality disorders while the others seemed more or less unaffected. The implications of all this are that it is not the disturbance of sleep that matters, but the disturbance of dreaming.
 
 ### New words and expressions 生词和短语
 

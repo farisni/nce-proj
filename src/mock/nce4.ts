@@ -674,20 +674,20 @@ const articleNce4L21: Article = {
 { text: "William S.", translation: "威廉.S.哈特大概是美国西部电影明星中的佼佼者。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Hart was, perhaps, the greatest of all Western stars, for unlike Gary Cooper and John Wayne he appeared in nothing but Westerns.", translation: "他和加里.古柏、约翰.韦恩不同，他只在西部电影中扮演角色。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "From 1914 to 1924 he was supreme and unchallenged.", translation: "在1914年至1924年期间，他首屈一指，独霸影坛。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It was Hart who created the basic formula of the Western film, and devised the protagonist he played in every film he made, the good-bad man, the accidental-noble outlaw, or the honest-but-framed cowboy, or the sheriff made suspect by vicious gossip; in short, the individual in conflict with himself and his frontier environment.", translation: "正是他创造了西部电影的基调，即在他自己的拍摄的影片中他所塑造的主人公形象：被认为是坏人的好人，出人意料的高尚的逃犯，诚实却遭陷害的牛仔或因流言蜚语蒙受嫌疑的司法官。 总之，主人公是一个自相矛盾，又与他的拓荒环境相矛盾的人物。 哈特与大部分同时代在好莱坞的演员不同，他确实了解西部早期拓荒生活的一些情况。 作为一个孩子他曾在西部生活过，当时西部拓荒生活正在消失。 他塑造的英雄人物深深地扎根于他本人的记忆和经历之中，也扎根于有关已经消失的拓荒生活的历史和神话之中。 虽然在美国历史上没有任何时期或地区像西部拓荒时期那样被荒谬地浪漫主义化了，但神话和事实至少在某一个舞台上共存，也就是存在于个人与渐渐闯入的文明这两者的冲突之中。 习惯与大自然和印第安人作斗争以求生存的拓荒者被政客、银行家和商人搞得晕头转向，最后被圈地、尖律我外来的清规戒律所击败。 哈特扮演的被误为坏人的好人总是一个局外人，总是一个被剥夺继承权的人。 如果他认为在进行过程中有必要枪击一个司法官或抢劫一个银行，他的早期观众很容易接受，觉得应该原谅他，特别是当哈特最后战胜了前来进攻的印第安人时，观众更能原谅他。 生活在20世纪20年代的观众认为，逃到一个即使艰苦但比较简朴的时代中去是件愉快的事，我们今天仍有这种感觉。 如今，不宣而战的侵略、战争、虚伪、诈骗、无政府状态以及即将临头的毁灭成了我们日常生活的一部分，我们都希望有一个赖以生存的行为准则。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "It was Hart who created the basic formula of the Western film, and devised the protagonist he played in every film he made, the good-bad man, the accidental-noble outlaw, or the honest-but-framed cowboy, or the sheriff made suspect by vicious gossip; in short, the individual in conflict with himself and his frontier environment.", translation: "正是他创造了西部电影的基调，即在他自己的拍摄的影片中他所塑造的主人公形象：被认为是坏人的好人，出人意料的高尚的逃犯，诚实却遭陷害的牛仔或因流言蜚语蒙受嫌疑的司法官。总之，主人公是一个自相矛盾，又与他的拓荒环境相矛盾的人物。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "Unlike most of his contemporaries in Hollywood, Hart actually knew something of the old West.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He had lived in it as a child when it was already disappearing, and his hero was firmly rooted in his memories and experiences, and in both the history and the mythology of the vanished frontier.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "And although no period or place in American history has been more absurdly romanticized, myth and reality did join hands in at least one arena, the conflict between the individual and encroaching civilization.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Unlike most of his contemporaries in Hollywood, Hart actually knew something of the old West.", translation: "哈特与大部分同时代在好莱坞的演员不同，他确实了解西部早期拓荒生活的一些情况。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "He had lived in it as a child when it was already disappearing, and his hero was firmly rooted in his memories and experiences, and in both the history and the mythology of the vanished frontier.", translation: "作为一个孩子他曾在西部生活过，当时西部拓荒生活正在消失。他塑造的英雄人物深深地扎根于他本人的记忆和经历之中，也扎根于有关已经消失的拓荒生活的历史和神话之中。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "And although no period or place in American history has been more absurdly romanticized, myth and reality did join hands in at least one arena, the conflict between the individual and encroaching civilization.", translation: "虽然在美国历史上没有任何时期或地区像西部拓荒时期那样被荒谬地浪漫主义化了，但神话和事实至少在某一个舞台上共存，也就是存在于个人与渐渐闯入的文明这两者的冲突之中。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "Men accustomed to struggling for survival against the elements and Indians were bewildered by politicians, bankers and businessmen, and unhorsed by fences, laws and alien taboos.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Hart's good-bad man was always an outsider, always one of the disinherited, and if he found it necessary to shoot a sheriff or rob a bank along the way, his early audiences found it easy to understand and forgive, especially when it was Hart who, in the end, overcame the attacking Indians.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Men accustomed to struggling for survival against the elements and Indians were bewildered by politicians, bankers and businessmen, and unhorsed by fences, laws and alien taboos.", translation: "习惯与大自然和印第安人作斗争以求生存的拓荒者被政客、银行家和商人搞得晕头转向，最后被圈地、法律和外来的清规戒律所击败。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Hart's good-bad man was always an outsider, always one of the disinherited, and if he found it necessary to shoot a sheriff or rob a bank along the way, his early audiences found it easy to understand and forgive, especially when it was Hart who, in the end, overcame the attacking Indians.", translation: "哈特扮演的被误为坏人的好人总是一个局外人，总是一个被剥夺继承权的人。如果他认为在进行过程中有必要枪击一个司法官或抢劫一个银行，他的早期观众很容易接受，觉得应该原谅他，特别是当哈特最后战胜了前来进攻的印第安人时，观众更能原谅他。", predicates: [], clauseIntroducers: [], notes: [] }
       ],
 [
-        { text: "Audiences in the second decade of the twentieth century found it pleasant to escape to a time when life, though hard, was relatively simple.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "We still do; living in a world in which undeclared aggression, war, hypocrisy, chicanery, anarchy and impending immolation are part of our daily lives, we all want a code to live by.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "Audiences in the second decade of the twentieth century found it pleasant to escape to a time when life, though hard, was relatively simple.", translation: "生活在20世纪20年代的观众认为，逃到一个即使艰苦但比较简朴的时代中去是件愉快的事，我们今天仍有这种感觉。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "We still do; living in a world in which undeclared aggression, war, hypocrisy, chicanery, anarchy and impending immolation are part of our daily lives, we all want a code to live by.", translation: "如今，不宣而战的侵略、战争、虚伪、诈骗、无政府状态以及即将临头的毁灭成了我们日常生活的一部分，我们都希望有一个赖以生存的行为准则。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -798,15 +798,15 @@ const articleNce4L24: Article = {
 { text: "A young man sees a sunset and, unable to understand or to express the emotion that it rouses in him, concludes that it must be the gateway to a world that lies beyond.", translation: "一个年轻人看到日落，由于无法理解和表达日落在他心中唤起的激情，便得出结论：日落处想必是通往遥远世界的大门。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "It is difficult for any of us in moments of intense aesthetic experience to resist the suggestion that we are catching a glimpse of a light that shines down to us from a different realm of existence, different and, because the experience is intensely moving, in some way higher.", translation: "无论是谁，在强烈感受到美的时刻，心中都不禁油生一种遐想：我们似乎瞥见从另一个世界射向我们的一线光芒，那个世界不仅不同于我们这个世界，而且由于美感的强烈感染，在某些方面比我们这个世界更美好。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "And, though the gleams blind and dazzle, yet do they convey a hint of beauty and serenity greater than we have known or imagined.", translation: "虽然这光芒令人眼花缭乱，但它确实给予我们一种不曾经历和无法想象的美感和静谧的启示。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Greater too than we can describe; for language, which was invented to convey the meanings of this world, cannot readily be fitted to the uses of another.", translation: "这种美感和静谧是我们无法描述的，因为我们发明的语言是用来描述这个世界的含义，不能随便拿来去描述另一个世界。 不可否认，一切伟大的艺术都具有使人遐想到进入天外世界的魅力。 在某种状态下，大自然也有这种魅力。 六月蔚蓝的天空总使人遥想一个更加蔚蓝的苍穹；美丽的落日总会引起一个更加绚丽的景象未及饱览便一闪即逝，并在消逝中给人留下不可名状的渴望和惆怅。 如果这个世界不只是一个拙劣的恶作剧，如果人生不只是群星寒光中平凡的一闪，如果存在不只是对神秘事物的一种空虚的笑声，如果某种玄妙事物的暗示不是消化不良引起的邪恶情绪，也不是魔鬼为了捉弄我们，使我们发狂而送给我们的邪念，一句话，如果美有某种意义的话，我们千万不要去阐明它的意义。 如果我瞥见了只可意会不可言传的事物，企图把它说出来，那是不明智的；对于我们不理解的事物，我们也不应该去赋予它某种意义。 用对我们人类有意义的词解释美是没有意义的。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "Greater too than we can describe; for language, which was invented to convey the meanings of this world, cannot readily be fitted to the uses of another.", translation: "这种美感和静谧是我们无法描述的，因为我们发明的语言是用来描述这个世界的含义，不能随便拿来去描述另一个世界。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "In some moods, Nature shares it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There is no sky in June so blue that it does not point forward to a bluer, no sunset so beautiful that it does not waken the vision of a greater beauty, a vision which passes before it is fully glimpsed, and in passing leaves an indefinable longing and regret.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But, if this world is not merely a bad joke, life a vulgar flare amid the cool radiance of the stars, and existence an empty laugh braying across the mysteries; if these intimations of a something behind and beyond are not evil humour born of indigestion, or whimsies sent by the devil to mock and madden us.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If, in a word, beauty means something, yet we must not seek to interpret the meaning.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "If we glimpse the unutterable, it is unwise to try to utter it, nor should we seek to invest with significance that which we cannot grasp.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "That all great art has this power of suggesting a world beyond is undeniable.", translation: "", predicates: [], clauseIntroducers: [], notes: [] }
+        { text: "In some moods, Nature shares it.", translation: "在某种状态下，大自然也有这种魅力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There is no sky in June so blue that it does not point forward to a bluer, no sunset so beautiful that it does not waken the vision of a greater beauty, a vision which passes before it is fully glimpsed, and in passing leaves an indefinable longing and regret.", translation: "六月蔚蓝的天空总使人遥想一个更加蔚蓝的苍穹；美丽的落日总会引起一个更加绚丽的景象未及饱览便一闪即逝，并在消逝中给人留下不可名状的渴望和惆怅。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But, if this world is not merely a bad joke, life a vulgar flare amid the cool radiance of the stars, and existence an empty laugh braying across the mysteries; if these intimations of a something behind and beyond are not evil humour born of indigestion, or whimsies sent by the devil to mock and madden us.", translation: "如果这个世界不只是一个拙劣的恶作剧，如果人生不只是群星寒光中平凡的一闪，如果存在不只是对神秘事物的一种空虚的笑声，如果某种玄妙事物的暗示不是消化不良引起的邪恶情绪，也不是魔鬼为了捉弄我们，使我们发狂而送给我们的邪念，一句话，如果美有某种意义的话，我们千万不要去阐明它的意义。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If, in a word, beauty means something, yet we must not seek to interpret the meaning.", translation: "如果美有某种意义的话，我们千万不要去阐明它的意义。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If we glimpse the unutterable, it is unwise to try to utter it, nor should we seek to invest with significance that which we cannot grasp.", translation: "如果我瞥见了只可意会不可言传的事物，企图把它说出来，那是不明智的；对于我们不理解的事物，我们也不应该去赋予它某种意义。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "That all great art has this power of suggesting a world beyond is undeniable.", translation: "不可否认，一切伟大的艺术都具有使人遐想到进入天外世界的魅力。", predicates: [], clauseIntroducers: [], notes: [] }
       ]
 ],
   },
@@ -1718,7 +1718,7 @@ const articleNce4L19: Article = {
     tag: "C19",
     title: "The stuff of dreams",
     titleCn: "话说梦的本质",
-    keyArticle: false,
+    keyArticle: true,
     level: "NCE4",
     heatmap: [
       [0,0,0,0,0,0,0,0,0],
@@ -1731,12 +1731,41 @@ const articleNce4L19: Article = {
   original: {
     paragraphs: [
 [
-{ text: "Circadian rhythm experiment.", translation: "很清楚，睡眠必然具有某种作用。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "A patient is asleep in a sleep research laboratory.Electrocles are attached to his head to measure brainwaves.", translation: "睡眠占去那么多时间，所以其作用似乎还是很重要。 人们对睡眠作用的种种猜测，确实有数千年之久。 一项使人对这个问题感到困惑的奇怪的发现是，睡眠在很大程度似乎并不仅仅是为了使身体得到休息。 “休息”，从使肌肉得到放松等方面来看，只要稍微躺一躺，甚至坐一坐就能达到。 人体组织在一定程度上有自我修补和自我恢复的能力，有张有弛地连续活动时，其功能最佳。 事实上，睡眠状态下仍有着基本的活动量，以防止肌肉活动停止。 如果睡眠的功能不是在于使身体得到休息，那么也许是让大脑得以休息？ 若不是下面两点，这种假使似乎是有道理的。 第一点，脑电图记录仪（不过是一种把电极接到头皮上记录脑电活动的仪器）显示，人在睡眠时大脑活动的方式有变化，但没有迹象表明，其活动总量有任何减少。 第二点更有意思，也更重要。 前些年，美国一位精神病学者发表了一篇报告，报告中记录了眼球在睡眠时的活动情况。 他指出，平常人的睡眠周期中不时伴有一阵阵奇怪的眼球队活动，这些活动有的飘忽而缓慢，有的急剧而快速。 在眼球活动期间被叫醒的人都说自己在做梦；在其他期间叫醒他们，则说没有做梦。 如果有两组人，一组人连续几夜在眼球队活动时被叫醒；另一组人也是连续几夜被叫醒，但是在眼球没活动时被叫醒的。 结果，第一组人开始出现性格失常，而第二组人似乎没受什么影响。 这一切暗示我们：睡眠受到干忧没关系，而做梦受到干忧是有问题的。", predicates: [], clauseIntroducers: [], notes: [] }
-]
+{ text: "It is fairly clear that the sleeping period must have some function, and because there is so much of it the function would seem to be important.", translation: "很清楚，睡眠必然具有某种作用。睡眠占去那么多时间，所以其作用似乎还是很重要。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Speculations about its nature have been going on for literally thousands of years, and one odd finding that makes the problem puzzling is that it looks very much as if sleeping is not simply a matter of giving the body a rest.", translation: "人们对睡眠作用的种种猜测，确实有数千年之久。一项使人对这个问题感到困惑的奇怪的发现是，睡眠在很大程度似乎并不仅仅是为了使身体得到休息。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "'Rest', in terms of muscle relaxation and so on, can be achieved by a brief period of lying, or even sitting down.", translation: "\"休息\"，从使肌肉得到放松等方面来看，只要稍微躺一躺，甚至坐一坐就能达到。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The body's tissues are self-repairing and self-restoring to a degree, and function best when more or less continuously active.", translation: "人体组织在一定程度上有自我修补和自我恢复的能力，有张有弛地连续活动时，其功能最佳。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "In fact, a basic amount of movement occurs during sleep which is specifically concerned with preventing muscle inactivity.", translation: "事实上，睡眠状态下仍有着基本的活动量，以防止肌肉活动停止。", predicates: [], clauseIntroducers: [], notes: [] }
+],
+[
+        { text: "If it is not a question of resting the body, then perhaps it is the brain that needs resting?", translation: "如果睡眠的功能不是在于使身体得到休息，那么也许是让大脑得以休息？", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This might be a plausible hypothesis were it not for two factors.", translation: "若不是下面两点，这种假使似乎是有道理的。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "First, the electroencephalograph (which is simply a device for recording the electrical activity of the brain by attaching electrodes to the scalp) shows that while there is a change in the pattern of activity during sleep, there is no evidence that the total amount of activity is any less.", translation: "第一点，脑电图记录仪（不过是一种把电极接到头皮上记录脑电活动的仪器）显示，人在睡眠时大脑活动的方式有变化，但没有迹象表明，其活动总量有任何减少。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The second is more interesting, and more fundamental.", translation: "第二点更有意思，也更重要。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Some years ago, an American psychiatrist published a paper in which he reported the activity of the eyes during sleep.", translation: "前些年，美国一位精神病学者发表了一篇报告，报告中记录了眼球在睡眠时的活动情况。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "He showed that the average individual's sleep cycle is punctuated with peculiar bursts of eye-movements, some drifting and slow, others jerky and rapid.", translation: "他指出，平常人的睡眠周期中不时伴有一阵阵奇怪的眼球活动，这些活动有的飘忽而缓慢，有的急剧而快速。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "People woken during these periods of eye-movements generally reported that they had been dreaming.", translation: "在眼球活动期间被叫醒的人都说自己在做梦；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "When woken at other times they reported no dreams.", translation: "在其他期间叫醒他们，则说没有做梦。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "If one group of people were disturbed from their eye-movement sleep for several nights on end, and another group were disturbed for an equal period of time but when they were not exhibiting eye-movements, the first group began to show some personality disorders while the others seemed more or less unaffected.", translation: "如果有两组人，一组人连续几夜在眼球活动时被叫醒；另一组人也是连续几夜被叫醒，但是在眼球没活动时被叫醒的。结果，第一组人开始出现性格失常，而第二组人似乎没受什么影响。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The implications of all this are that it is not the disturbance of sleep that matters, but the disturbance of dreaming.", translation: "这一切暗示我们：睡眠受到干扰没关系，而做梦受到干扰是有问题的。", predicates: [], clauseIntroducers: [], notes: [] }
+      ]
 ],
   },
   vocabulary: [
+    { word: "speculation", pos: "n.", meaning: "推测", phonetic: "/,spekju'leiʃən/" },
+    { word: "literally", pos: "adv.", meaning: "确实", phonetic: "/'litərəli/" },
+    { word: "odd", pos: "adj.", meaning: "奇特的", phonetic: "/ɔd/" },
+    { word: "tissue", pos: "n.", meaning: "组织", phonetic: "/'tiʃu:/" },
+    { word: "plausible", pos: "adj.", meaning: "似乎有理的", phonetic: "/'plɔ:zəbl/" },
+    { word: "hypothesis", pos: "n.", meaning: "假说", phonetic: "/hai'pɔθisis/" },
+    { word: "electroencephalograph", pos: "n.", meaning: "脑电图仪", phonetic: "//" },
+    { word: "electrode", pos: "n.", meaning: "电极", phonetic: "/i'lektrəud/" },
+    { word: "scalp", pos: "n.", meaning: "头皮", phonetic: "/skælp/" },
+    { word: "psychiatrist", pos: "n.", meaning: "精神病学家", phonetic: "/sai'kaiətrist/" },
+    { word: "punctuate", pos: "v.", meaning: "不时介入", phonetic: "/'pʌŋktjueit/" },
+    { word: "jerky", pos: "adj.", meaning: "急动的", phonetic: "/'dʒə:ki/" },
+    { word: "disorder", pos: "n.", meaning: "失调", phonetic: "/dis'ɔ:də/" },
+    { word: "implication", pos: "n.", meaning: "表明", phonetic: "/,impli'keiʃən/" }
   ],
 }
 const articleNce4L20: Article = {
@@ -1764,23 +1793,23 @@ const articleNce4L20: Article = {
 { text: "Poison to a snake is merely a luxury; it enables it to get its food with very little effort, no more effort than one bite.", translation: "毒液对毒蛇来说只不过是一种舒适生存的优越手段，它使蛇不用费多大力气就能捕获到食物，轻咬一口即可。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "And why only snakes?", translation: "为什么只有蛇才有毒液呢？", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Cats, for instance, would be greatly helped; no running fights with large, fierce rats or tussles with grown rabbits -- just a bite and no more effort needed.", translation: "譬如说，如果猫有毒液，那对猫会大有帮助，它就不必再和又大又凶的老鼠边跑边博斗了，也不必再和大兔子扭斗了，只要咬一口，就不必再费大力气。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "In fact, it would be an assistance to all carnivores though it would be a two-edged weapon when they fought each other.", translation: "因此，任何食肉动物有了毒液，都能从中获益。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "But, of the vertebrates, unpredictable Nature selected only snakes (and one lizard).", translation: "不过，当它们相互撕打时，毒液就成了利弊参半的武，可以杀死对方，也可以被对方的毒液杀死。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "One wonders also why Nature, with some snakes, concocted poison of such extreme potency.", translation: "然而，在脊椎动物中，大自然神秘模测地只选择了蛇（还有一种蜥蜴），人们弄不清楚大自然为什么在某些蛇的身上调制出如此高效的毒液来。 人们可能认为，唾液转变成毒液，其中有固定的程序。 其实没有。 有些蛇产生的毒液也在各方面与另外一些毒蛇产生的毒液不同，就像砒霜不同于马钱子碱一样。 不同毒蛇产生的毒液产生的效果不同，一种毒液作用于神经，另一种毒液作用于血液。 产生神经毒液的蛇有一种非洲树眼镜蛇和眼镜蛇，它们的毒液称为神经毒素。 蝰蛇（蝮蛇）和响尾蛇产生血液毒素，称为溶血性毒液。 这两种毒液都很可怕，但溶血性毒液尤其厉害。 据说，神经毒液在两种毒液中是较为原始的一种，而溶血性毒液，打个比方说，是根据改良配方生产的一种较新的产品。 不过，神经毒辣液比溶血性毒液在人身上起作用快得多。 但是，这没有什么关系，因为蛇有毒液不是用来对付人的，而是对付它的猎物，诸如鼠类，毒液对这些猎物会立刻起作用。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "In fact, it would be an assistance to all carnivores though it would be a two-edged weapon when they fought each other.", translation: "因此，任何食肉动物有了毒液，都能从中获益。不过，当它们相互撕打时，毒液就成了利弊参半的武器，可以杀死对方，也可以被对方的毒液杀死。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "But, of the vertebrates, unpredictable Nature selected only snakes (and one lizard).", translation: "然而，在脊椎动物中，大自然神秘莫测地只选择了蛇（还有一种蜥蜴），", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "One wonders also why Nature, with some snakes, concocted poison of such extreme potency.", translation: "人们弄不清楚大自然为什么在某些蛇的身上调制出如此高效的毒液来。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "In the conversion of saliva into poison, one might suppose that a fixed process took place.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It did not; some snakes manufacture a poison different in every respect from that of others, as different as arsenic is from strychnine, and having different effects.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "One poison acts on the nerves, the other on the blood.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In the conversion of saliva into poison, one might suppose that a fixed process took place.", translation: "人们可能认为，唾液转变成毒液，其中有固定的程序。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It did not; some snakes manufacture a poison different in every respect from that of others, as different as arsenic is from strychnine, and having different effects.", translation: "其实没有。有些蛇产生的毒液也在各方面与另外一些毒蛇产生的毒液不同，就像砒霜不同于马钱子碱一样。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "One poison acts on the nerves, the other on the blood.", translation: "不同毒蛇产生的毒液产生的效果不同，一种毒液作用于神经，另一种毒液作用于血液。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "The makers of the nerve poison include the mambas and the cobras and their venom is called neurotoxic.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Vipers (adders) and rattlesnakes manufacture the blood poison, which is known as haemolytic.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Both poisons are unpleasant, but by far the more unpleasant is the blood poison.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It is said that the nerve poison is the more primitive of the two, that the blood poison is, so to speak, a newer product from an improved formula.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Be that as it may, the nerve poison does its business with man far more quickly than the blood poison.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This, however, means nothing.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Snakes did not acquire their poison for use against man but for use against prey such as rats and mice, and the effects on these of viperine poison is almost immediate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The makers of the nerve poison include the mambas and the cobras and their venom is called neurotoxic.", translation: "产生神经毒液的蛇有一种非洲树眼镜蛇和眼镜蛇，它们的毒液称为神经毒素。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Vipers (adders) and rattlesnakes manufacture the blood poison, which is known as haemolytic.", translation: "蝰蛇（蝮蛇）和响尾蛇产生血液毒素，称为溶血性毒液。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Both poisons are unpleasant, but by far the more unpleasant is the blood poison.", translation: "这两种毒液都很可怕，但溶血性毒液尤其厉害。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is said that the nerve poison is the more primitive of the two, that the blood poison is, so to speak, a newer product from an improved formula.", translation: "据说，神经毒液在两种毒液中是较为原始的一种，而溶血性毒液，打个比方说，是根据改良配方生产的一种较新的产品。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Be that as it may, the nerve poison does its business with man far more quickly than the blood poison.", translation: "不过，神经毒液比溶血性毒液在人身上起作用快得多。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This, however, means nothing.", translation: "但是，这没有什么关系，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Snakes did not acquire their poison for use against man but for use against prey such as rats and mice, and the effects on these of viperine poison is almost immediate.", translation: "因为蛇有毒液不是用来对付人的，而是对付它的猎物，诸如鼠类，毒液对这些猎物会立刻起作用。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -1806,21 +1835,22 @@ const articleNce4L23: Article = {
   original: {
     paragraphs: [
 [
-{ text: "No two sorts of birds practise quite the same sort of flight; the varieties are infinite; but two classes may be roughly seen.", translation: "没有任何两种鸟的飞行方式是相同的。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Any ship that crosses the Pacific is accompanied for many days by the smaller albatross, which may keep company with the vessel for an hour without visible or more than occasional movement of wing.", translation: "鸟的飞行方式千差万别，但大体上可分为两类。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The currents of air that the walls of the ship direct upwards, as well as in the line of its course, are enough to give the great bird with its immense wings sufficient sustenance and progress.", translation: "任何一艘横度太平洋的轮船都会有一种小信天翁伴随飞行许多天。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The albatross is the king of the gliders, the class of fliers which harness the air to their purpose, but must yield to its opposition.", translation: "它们随船飞行一小时也难得见其扇动一下翅膀。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "In the contrary school, the duck is supreme.", translation: "沿船体的上升的气流和沿航线向前的气流给这种巨翼大鸟以足够的浮力和推力。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It comes nearer to the engines with which man has 'conquered' the air, as he boasts.", translation: "信天翁是滑翔飞行的鸟类之王，它能自如地驾驭空气，但必须顺气流飞行。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Duck, and like them the pigeons, are endowed with steel-like muscles, that are a good part of the weight of the bird, and these will ply the short wings with such irresistible power that they can bore for long distances through an opposing gale before exhaustion follows.", translation: "与滑翔鸟相对的另一类鸟中，数野鸭本领最高。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Their humbler followers, such as partridges, have a like power of strong propulsion, but soon tire.", translation: "它更近乎于人类自夸的“征服”了空气的发动机。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "You may pick them up in utter exhaustion, if wind over the sea has driven them to a long journey.", translation: "野鸭及它们相似的鸽子有天赋的钢铁般的肌肉，占了体重的很大一部分。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "The swallow shares the virtues of both schools in highest measure.", translation: "这些肌肉以巨大的力量扇动短小的翅膀，使这类鸟能顶着大风飞行很远的路才会疲劳。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "It tires not, nor does it boast of its power; but belongs to the air,travelling it may be 6,000 miles to and from its northern nesting home, feeding its flown young as it flies, and slipping through a medium that seems to help its passage even when the wind is adverse.", translation: "次于野鸭和鸽子的鸟，如鹧鸪，有相似的巨大推动力，但很快会疲劳。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Such birds do us good, though we no longer take omens from their flight on this side and that; and even the most superstitious villagers no longer take off their hats to the magpie and wish it good-morning.", translation: "如果海风驱使它们飞行很长距离，你可以捡到一些因筋疲力尽而摔下来的鹧鸪。 燕子充分兼有这两类鸟的长处，它既不疲劳，也不炫耀自己的飞翔力；在空中十分自如，可以飞行6，000英里，可以飞往北方做窝的老家，再从老家飞回；一边飞一边喂养会飞的雏燕，甚至在顶风时也能在气流中滑翔，似乎气流在帮它前进。 这些鸟对我们是有益的，虽然我们不再从它们的飞翔姿态来占卜吉凶，连最迷信的村民也不再对喜鹊脱帽行礼，祝它早安了。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "No two sorts of birds practise quite the same sort of flight; the varieties are infinite; but two classes may be roughly seen.", translation: "没有任何两种鸟的飞行方式是相同的。鸟的飞行方式千差万别，但大体上可分为两类。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Any ship that crosses the Pacific is accompanied for many days by the smaller albatross, which may keep company with the vessel for an hour without visible or more than occasional movement of wing.", translation: "任何一艘横度太平洋的轮船都会有一种小信天翁伴随飞行许多天。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The currents of air that the walls of the ship direct upwards, as well as in the line of its course, are enough to give the great bird with its immense wings sufficient sustenance and progress.", translation: "它们随船飞行一小时也难得见其扇动一下翅膀。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The albatross is the king of the gliders, the class of fliers which harness the air to their purpose, but must yield to its opposition.", translation: "沿船体的上升的气流和沿航线向前的气流给这种巨翼大鸟以足够的浮力和推力。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "In the contrary school, the duck is supreme.", translation: "信天翁是滑翔飞行的鸟类之王，它能自如地驾驭空气，但必须顺气流飞行。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It comes nearer to the engines with which man has 'conquered' the air, as he boasts.", translation: "与滑翔鸟相对的另一类鸟中，数野鸭本领最高。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Duck, and like them the pigeons, are endowed with steel-like muscles, that are a good part of the weight of the bird, and these will ply the short wings with such irresistible power that they can bore for long distances through an opposing gale before exhaustion follows.", translation: "它更近乎于人类自夸的\"征服\"了空气的发动机。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Their humbler followers, such as partridges, have a like power of strong propulsion, but soon tire.", translation: "野鸭及它们相似的鸽子有天赋的钢铁般的肌肉，占了体重的很大一部分。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "You may pick them up in utter exhaustion, if wind over the sea has driven them to a long journey.", translation: "这些肌肉以巨大的力量扇动短小的翅膀，使这类鸟能顶着大风飞行很远的路才会疲劳。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "The swallow shares the virtues of both schools in highest measure.", translation: "次于野鸭和鸽子的鸟，如鹧鸪，有相似的巨大推动力，但很快会疲劳。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "It tires not, nor does it boast of its power; but belongs to the air,travelling it may be 6,000 miles to and from its northern nesting home, feeding its flown young as it flies, and slipping through a medium that seems to help its passage even when the wind is adverse.", translation: "如果海风驱使它们飞行很长距离，你可以捡到一些因筋疲力尽而摔下来的鹧鸪。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Such birds do us good, though we no longer take omens from their flight on this side and that; and even the most superstitious villagers no longer take off their hats to the magpie and wish it good-morning.", translation: "燕子充分兼有这两类鸟的长处，它既不疲劳，也不炫耀自己的飞翔力；在空中十分自如，可以飞行6，000英里，可以飞往北方做窝的老家，再从老家飞回；一边飞一边喂养会飞的雏燕，甚至在顶风时也能在气流中滑翔，似乎气流在帮它前进。这些鸟对我们是有益的，虽然我们不再从它们的飞翔姿态来占卜吉凶，连最迷信的村民也不再对喜鹊脱帽行礼，祝它早安了。", predicates: [], clauseIntroducers: [], notes: [] }
 ]
 ],
   },
+
   vocabulary: [
   ],
 }
@@ -1849,12 +1879,12 @@ const articleNce4L25: Article = {
 { text: "One allegation often made is that noise produces mental illness.", translation: "常见的一种指责是，噪音能引起精神病。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "A recent article in a weekly newspaper, for instance, was headed with a striking illustration of a lady in a state of considerable distress, with the caption 'She was yet another victim, reduced to a screaming wreck '.", translation: "例如，最近一家周报刊登了一篇文章，文章上方有一幅引人注目的插图，是一位表情沮丧的女子。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "On turning eagerly to the text, one learns that the lady was a typist who found the sound of office typewriters worried her more and more until eventually she had to go into a mental hospital.", translation: "图的文字说明：“她是又一个受害者，成了只会尖叫的可怜虫。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Now the snag in this sort of anecdote is of course that one cannot distinguish cause and effect.", translation: "”当人们急切地看完正文后，便知道这女子是个打字员，办公室打字机的声音使她越来越烦，最终住进了精神病医院。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Was the noise a cause of the illness, or were the complaints about noise merely a symptom?", translation: "这类奇闻的疑难之处是无法区别因果关系。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Now the snag in this sort of anecdote is of course that one cannot distinguish cause and effect.", translation: "这类奇闻的疑难之处是无法区别因果关系。", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Was the noise a cause of the illness, or were the complaints about noise merely a symptom?", translation: "是噪音引起了（精神）病呢，还是（精神）病的症状之一是对噪音的抱怨？", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "Another patient might equally well complain that her neighbours were combining to slander her and persecute her, and yet one might be cautious about believing this statement.", translation: "是噪音引起了（精神）病呢，还是（精神）病的症状之一是对噪音的抱怨？ 另有一位病人可能同样有理由抱怨说，她的邻居们正在联合起来对她进行诽谤和迫害，不过，人们不会轻信她的抱怨。 对于噪音问题，需要对大量生活在噪音中的人进行研究，看一看他们是否比其他人更易患精神病。 例如，美国海军前些时候调查了许多在航空母航上工作的人，这次调查被称之为：“安内英工程”。 即使住在离机场几英里以外的地方，机场的噪音也会使人难受。 因此，如果你能想像出和几个中队的喷气机同在一个甲板上是什么滋味儿的话，你就会认识到现代海军是研究噪音的好地方。 但是，不管进行精神病学的调查访问，还是进行客观的测试，都不能显示噪音对这些美国水兵有任何影响。 这个结果只不过证实了美国和英国早些时候的研究结论：如果噪音对精神健康有影响的话，那也一定是微乎其微，以致现代的精神病诊断方法还发现不了。 这并不是证实不存在噪音对健康的影响。 但它确实说明，噪音的危险性 -- 比如说 -- 比在孤儿院长大所受的危害要小一些，孤儿院才是真正危害精神健康的地方。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "What is needed in the case of noise is a study of large numbers of people living under noisy conditions, to discover whether they are mentally ill more often than other people are.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "What is needed in the case of noise is a study of large numbers of people living under noisy conditions, to discover whether they are mentally ill more often than other people are.", translation: "对于噪音问题，需要对大量生活在噪音中的人进行研究，看一看他们是否比其他人更易患精神病。", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "Some time ago the United States Navy, for instance, examined a very large number of men working on aircraft carriers: the study was known as Project Anehin.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "It can be unpleasant to live even several miles from an aerodrome; if you think what it must be like to share the deck of a ship with several squadrons of jet aircraft, you will realize that a modern navy is a good place to study noise.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "But neither psychiatric interviews nor objective tests were able to show any effects upon these American sailors.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
@@ -1893,17 +1923,17 @@ const articleNce4L26: Article = {
 { text: "After all, all living creatures live by feeding on something else, whether it be plant or animal, dead or alive, and it is only by chance that such a fate is avoided.", translation: "因为一切生物都是靠吃别的东西来活命的，不管这种东西是植物还是动物，死的还是活的，因此，生物偶尔才能避免被吃掉的命运。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "The remains of plants and animals that lived on land are much more rarely preserved, for there is seldom anything to cover them over.", translation: "曾在陆地上生活过的动植物的遗体被保存下来的更为罕见，因为陆地上几乎没有什么东西覆盖它们。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "When you think of the innumerable birds that one sees flying about, not to mention the equally numerous small animals like field mice and voles which you do not see, it is very rarely that one comes across a dead body, except, of course, on the roads.", translation: "你可以想象出天上有看得见的飞来飞去、数不清的鸟，地上有不显眼的无数的老鼠和田鼠之类的小动物，但是，除非在路上，很少有人遇到这些动物的尸体，因为它们腐败之后很快就被风化掉，或被别的动物吃掉了。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "They decompose and are quickly destroyed by the weather or eaten by some other creature.", translation: "几乎总是由于某些特殊的条件，陆地动物的遗体才被存下来，如掉进难以到达的洞穴，或掉进冰河裂缝里，或者像西伯利亚长毛象那样掉进冰窟中，有时整个动物像被放在冰箱里一样被保存下来，著名的那林索夫卡长毛象就是这样被保存下来的，而且保存得很好。 它嘴里还留着冷杉 -- 它掉进冰河裂隙折断脊椎柱之前的最后一顿饭。 这头长毛象已被修复，现存于圣彼得堡古生物学博物馆。 有的动物掉进天然沥清坑里被保存下来，如在兰桥.拉.布里 -- 现在是洛杉矶的郊区发现的大象、剑齿虎和许多其他动物。 显然，事情的经过是这样：沥青坑里积存了水，大象那样的大动物冒险到似乎坚固的水面上去饮水，立即掉进了沥青坑。 大象死后，一些食肉动物，如剑齿虎和大灰狼就来吃大象，结果遭到了同样的命运。 沥青坑里还有无数只鸟的尸体。", predicates: [], clauseIntroducers: [], notes: [] }
+{ text: "They decompose and are quickly destroyed by the weather or eaten by some other creature.", translation: "几乎总是由于某些特殊的条件，陆地动物的遗体才被存下来，如掉进难以到达的洞穴，或掉进冰河裂缝里，或者像西伯利亚长毛象那样掉进冰窟中，有时整个动物像被放在冰箱里一样被保存下来，著名的那林索夫卡长毛象就是这样被保存下来的，而且保存得很好。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "It is almost always due to some very special circumstances that traces of land animals survive, as by falling into inaccessible caves, or into an ice crevasse, like the Siberian mammoths, when the whole animal is sometimes preserved, as in a refrigerator.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This is what happened to the famous Beresovka mammoth which was found preserved and in good condition.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "In his mouth were the remains of fir trees - the last meal that he had before he fell into the crevasse and broke his back.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The mammoth has now been restored in the Palaeontological Museum in St. Petersburg.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Other animals were trapped in tar pits, like the elephants, saber-toothed cats and numerous other creatures that are found at Racho La Brea, which is now just a suburb of Los Angeles.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Apparently what happened was that water collected on these tar pits, and the bigger animals like the elephants ventured out on to the apparently firm surface to drink, and were promptly bogged in the tar.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "And then, when they were dead, the carnivores, like the sabre-toothed cats and the giant wolves, came out to feed and suffered exactly the same fate.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There are also endless numbers of birds in the tar as well.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It is almost always due to some very special circumstances that traces of land animals survive, as by falling into inaccessible caves, or into an ice crevasse, like the Siberian mammoths, when the whole animal is sometimes preserved, as in a refrigerator.", translation: "几乎总是由于某些特殊的条件，陆地动物的遗体才被存下来，如掉进难以到达的洞穴，或掉进冰河裂缝里，或者像西伯利亚长毛象那样掉进冰窟中，有时整个动物像被放在冰箱里一样被保存下来，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This is what happened to the famous Beresovka mammoth which was found preserved and in good condition.", translation: "著名的那林索夫卡长毛象就是这样被保存下来的，而且保存得很好。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "In his mouth were the remains of fir trees - the last meal that he had before he fell into the crevasse and broke his back.", translation: "它嘴里还留着冷杉——它掉进冰河裂隙折断脊椎之前的最后一顿饭。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The mammoth has now been restored in the Palaeontological Museum in St. Petersburg.", translation: "这头长毛象已被修复，现存于圣彼得堡古生物学博物馆。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Other animals were trapped in tar pits, like the elephants, saber-toothed cats and numerous other creatures that are found at Racho La Brea, which is now just a suburb of Los Angeles.", translation: "有的动物掉进天然沥青坑里被保存下来，如在兰桥·拉·布里——现在是洛杉矶的郊区发现的大象、剑齿虎和许多其他动物。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Apparently what happened was that water collected on these tar pits, and the bigger animals like the elephants ventured out on to the apparently firm surface to drink, and were promptly bogged in the tar.", translation: "显然，事情的经过是这样：沥青坑里积存了水，大象那样的大动物冒险到似乎坚固的水面上去饮水，立即掉进了沥青坑。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "And then, when they were dead, the carnivores, like the sabre-toothed cats and the giant wolves, came out to feed and suffered exactly the same fate.", translation: "大象死后，一些食肉动物，如剑齿虎和大灰狼就来吃大象，结果遭到了同样的命运。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There are also endless numbers of birds in the tar as well.", translation: "沥青坑里还有无数只鸟的尸体。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
