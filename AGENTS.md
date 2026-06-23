@@ -38,3 +38,8 @@ refactor: 数据结构重构为句子级SentenceData
 docs: Article.vue 核心注释
 chore: 排除大字体文件
 ```
+
+## 术语约定
+
+- **句子横批** — 词/短语下方的小字注解，对应 `SentenceData.notes`，CSS ruby 渲染
+- **行间笔记** — 展开面板中的片段+解析，对应 `SentenceData.panelNotes`，面板内渲染
