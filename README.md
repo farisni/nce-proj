@@ -12,7 +12,6 @@
 | UI 库 | Element Plus |
 | 路由 | Vue Router |
 | 样式 | SCSS |
-| 字体 | LXGW WenKai、Huiwen Mingchao、Merriweather、Playfair Display、Poppins、Caveat |
 
 ## 快速开始
 
