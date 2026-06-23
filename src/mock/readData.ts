@@ -8196,7 +8196,7 @@ const articleNce4L27: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'ROY SAUNGERS The Raising of the 'Vasa' from The Listener',
+  attribution: "ROY SAUNGERS The Raising of the 'Vasa' from The Listener",
   original: {
         paragraphs: [
       [
