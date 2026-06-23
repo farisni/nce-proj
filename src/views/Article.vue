@@ -256,7 +256,7 @@ function segClass(seg: Segment): string {
 
 .noted-ruby {
   ruby-position: under; ruby-align: center;
-  rt { font-size: 0.65rem; color: #999; padding-top: 1px; }
+  rt { font-size: 0.65rem; color: #999; padding-top: 1px; font-family: 'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', serif; }
 }
 
 .vocab-list { display: flex; flex-direction: column; }
@@ -266,13 +266,13 @@ function segClass(seg: Segment): string {
 
   &:last-child { border-bottom: none; }
 }
-.vocab-word { font-weight: 600; font-size: 0.9rem; color: var(--color-text); }
+.vocab-word { font-weight: 500; font-size: 0.9rem; color: var(--color-text); }
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); }
 
 .panel-enter-active, .panel-leave-active { transition: all 0.25s ease; }
 .panel-enter-from, .panel-leave-to { opacity: 0; transform: translateY(-6px); }
-.translation { font-size: 0.9rem; color: var(--color-text-secondary); }
+.translation { font-size: 0.9rem; color: var(--color-text-secondary); font-family: inherit; }
 .nav-buttons {
   display: flex; justify-content: space-between; align-items: center;
   padding: 0 0 16px; margin-bottom: 12px;
