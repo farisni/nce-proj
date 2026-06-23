@@ -1167,7 +1167,7 @@ const articleNce4L37: Article = {
         { text: "later, we shall undergo a progressive loss of our vigour and resistance which, though imperceptible at first, will finally become so steep that we can live no longer, however well we look after ourselves, and however well society, and our doctors, look after us.", translation: "再迟一些，我们就要经历生命力和抵抗力逐步衰退的过程，虽然这个过程起初难以觉察，但最终会急转直下，不管我们怎样精心照料我们自己，不管社会和医生怎样对我们进行精心照顾，我们也无法再活下去了。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "This decline in vigour with the passing of time is called ageing.", translation: "生命力随着时间的流失而衰退叫做衰老。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "It is one of the most unpleasant discoveries which we all make that we must decline in this way, that if we escape wars, accidents and diseases we shall eventually 'die of old age', and that this happens at a rate which differs little from person to person, so that there are heavy odds in favour of our dying between the ages of 65 and 80.", translation: "人类发现的最不愉快的一个事实是：人必然会衰老。既使我们能避开战争、意外的事故和各种疾病，我们最终也会“老死”；衰老的速度在人与人之间相差甚微，我们最可能死亡的年龄在65至80岁之间，有些人会死得早一些，少数人寿命会长一些 -- 活到八十几岁或九十几岁，但这种可能性很小。", predicates: [], clauseIntroducers: [], notes: [] },
-{ text: "Some of us will die sooner, a few will live longer -- on into a ninth or tenth decade.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+{ text: "Some of us will die sooner, a few will live longer -- on into a ninth or tenth decade.", translation: "我们当中有些人会死得早些，少数人会活得更长——进入九十岁或一百岁的高龄。", predicates: [], clauseIntroducers: [], notes: [] },
 { text: "But the chances are against it, and there is a virtual limit on how long we can hope to remain alive, however lucky and robust we are.", translation: "不管我们多么幸运，多么健壮，我们所希望的长寿实际上是有限度的。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
@@ -1542,21 +1542,21 @@ const articleNce4L9: Article = {
 { text: "Alfred had learned many of their ballads in his youth, and could vary his programme with acrobatic tricks and simple conjuring.", translation: "阿尔弗德年轻时学过许多民歌，并能穿插演一些杂技和小魔术使自己的节目多样化。 阿尔弗雷德人数不多的军队开始在阿塞尔纳慢慢集结时，他亲自潜入丹麦入侵司令官古瑟罗姆的营地。 丹麦军已在切本哈姆扎下营准备过冬，阿尔弗雷便来到此地。 他马上发现丹麦军纪律松弛，他们以征服者自居，安全措施马马虎虎。 他们靠掠夺附近的地区的财物过着舒适的生活。 他们不仅搜刮吃的喝的，而且抢掠妇女，安逸的生活已使丹麦军队变得软弱无力。 阿尔弗雷德在敌营呆了一个星期后，回到了阿塞尔纳。 他集结在那里的军队和丹麦大军相比是微不足道的，然而，阿尔弗雷德断定，丹麦人已不再适应持久的战争，他们的军需供应处于无组织状态，只是靠临时抢夺来维持。 因此，面对丹麦人的进攻，阿尔弗雷德没有贸然同敌人作战，而是采用骚扰敌人的战术。 他的部队不停地移动，牵着敌人的鼻子，让他们跟着跑。 他派出巡逻队阻止敌人抢劫，因而饥饿威胁着丹麦军队。 这时，阿尔弗雷德发起一连串小规模的进攻，结果不出一个月，丹麦人就投降了。 这一幕历史可以说是王室谍报活动中最精彩的篇章。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "While Alfred's little army slowly began to gather at Athelney, the king himself set out to penetrate the camp of Guthrum, the commander of the Danish invaders.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "These had settled down for the winter at Chippenham: thither Alfred went.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He noticed at once that discipline was slack: the Danes had the self-confidence of conquerors, and their security precautions were casual.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "They lived well, on the proceeds of raids on neighbouring regions.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "There they collected women as well as food and drink, and a life of ease had made them soft.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Alfred stayed in the camp a week before he returned to Athelney.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The force there assembled was trivial compared with the Danish horde.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But Alfred had deduced that the Danes were no longer fit for prolonged battle: and that their commissariat had no organization, but depended on irregular raids.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "While Alfred's little army slowly began to gather at Athelney, the king himself set out to penetrate the camp of Guthrum, the commander of the Danish invaders.", translation: "阿尔弗雷德人数不多的军队开始在阿塞尔纳慢慢集结时，他亲自潜入丹麦入侵司令官古瑟罗姆的营地。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "These had settled down for the winter at Chippenham: thither Alfred went.", translation: "丹麦军已在切本哈姆扎下营准备过冬，阿尔弗雷便来到此地。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "He noticed at once that discipline was slack: the Danes had the self-confidence of conquerors, and their security precautions were casual.", translation: "他马上发现丹麦军纪律松弛，他们以征服者自居，安全措施马马虎虎。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "They lived well, on the proceeds of raids on neighbouring regions.", translation: "他们靠掠夺附近的地区的财物过着舒适的生活。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "There they collected women as well as food and drink, and a life of ease had made them soft.", translation: "他们不仅搜刮吃的喝的，而且抢掠妇女，安逸的生活已使丹麦军队变得软弱无力。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Alfred stayed in the camp a week before he returned to Athelney.", translation: "阿尔弗雷德在敌营呆了一个星期后，回到了阿塞尔纳。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The force there assembled was trivial compared with the Danish horde.", translation: "他集结在那里的军队和丹麦大军相比是微不足道的，", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But Alfred had deduced that the Danes were no longer fit for prolonged battle: and that their commissariat had no organization, but depended on irregular raids.", translation: "然而，阿尔弗雷德断定，丹麦人已不再适应持久的战争，他们的军需供应处于无组织状态，只是靠临时抢夺来维持。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "So, faced with the Danish advance, Alfred did not risk open battle but harried the enemy.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "He was constantly on the move, drawing the Danes after him.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "His patrols halted the raiding parties: hunger assailed the Danish army.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Now Alfred began a long series of skirmishes -- and within a month the Danes had surrendered.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The episode could reasonably serve as a unique epic of royal espionage!", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "So, faced with the Danish advance, Alfred did not risk open battle but harried the enemy.", translation: "因此，面对丹麦人的进攻，阿尔弗雷德没有贸然同敌人作战，而是采用骚扰敌人的战术。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "He was constantly on the move, drawing the Danes after him.", translation: "他的部队不停地移动，牵着敌人的鼻子，让他们跟着跑。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "His patrols halted the raiding parties: hunger assailed the Danish army.", translation: "他派出巡逻队阻止敌人抢劫，因而饥饿威胁着丹麦军队。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Now Alfred began a long series of skirmishes -- and within a month the Danes had surrendered.", translation: "这时，阿尔弗雷德发起一连串小规模的进攻，结果不出一个月，丹麦人就投降了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The episode could reasonably serve as a unique epic of royal espionage!", translation: "这一幕历史可以说是王室谍报活动中最精彩的篇章。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -1590,14 +1590,13 @@ const articleNce4L10: Article = {
 { text: "'We really thrive on anarchy.'", translation: "“我们确实是靠这种无政府状态发展起来的。 ” 靠的是亚洲人。 硅谷许多公司中工程技术人员的大多数是东方人和亚裔美国人。 中国、韩国、菲律宾和印度的工程师一批批地从加州的大学毕业。 作为新掘起一代的带头人，亚裔发明家可以凭借他们在习惯和语言上的优势，与关键的太平洋沿岸市场建立起更加牢固的联系。 比如说，亚历克斯.奥，一位来自香港的斯坦福大学博士，已经在台湾建厂，对日本在内存条市场上近似垄断的局面提出了挑战。 印度出生的N.达莫达.雷迪经营的小小的加州公司在堪萨斯城重新启用了美国电话电报公司的一家芯片工厂，并从密苏里州获取了财政上的支持。 在硅谷变成一个退休村之前，它很可能成为建立全球商业的一个教学场地。", predicates: [], clauseIntroducers: [], notes: [] }
 ],
 [
-        { text: "And on Asians.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Already, orientals and Asian Americans constitute the majority of the engineering staffs at many Valley firms.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "And Chinese, Korean, Filipino and Indian engineers are graduating in droves from California's colleges.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "As the heads of next-generation start-ups, these Asian innovators can draw on customs and languages to forge tighter links with crucial Pacific Rim markets.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For instance, Alex Au, a Stanford Ph.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "D. from Hong Kong, has set up a Taiwan factory to challenge Japan's near lock on the memory-chip market.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "India-born N.Damodar Reddy's tiny California company reopened an AT&T chip plant in Kansas City last spring with financing from the state of Missouri.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Before it becomes a retirement village, Silicon Valley may prove a classroom for building a global business.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "And on Asians.", translation: "靠的是亚洲人。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Already, orientals and Asian Americans constitute the majority of the engineering staffs at many Valley firms.", translation: "硅谷许多公司中工程技术人员的大多数是东方人和亚裔美国人。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "And Chinese, Korean, Filipino and Indian engineers are graduating in droves from California's colleges.", translation: "中国、韩国、菲律宾和印度的工程师一批批地从加州的大学毕业。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "As the heads of next-generation start-ups, these Asian innovators can draw on customs and languages to forge tighter links with crucial Pacific Rim markets.", translation: "作为新掘起一代的带头人，亚裔发明家可以凭借他们在习惯和语言上的优势，与关键的太平洋沿岸市场建立起更加牢固的联系。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "For instance, Alex Au, a Stanford Ph.D. from Hong Kong, has set up a Taiwan factory to challenge Japan's near lock on the memory-chip market.", translation: "比如说，亚历克斯.奥，一位来自香港的斯坦福大学博士，已经在台湾建厂，对日本在内存条市场上近似垄断的局面提出了挑战。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "India-born N.Damodar Reddy's tiny California company reopened an AT&T chip plant in Kansas City last spring with financing from the state of Missouri.", translation: "印度出生的N.达莫达.雷迪经营的小小的加州公司在堪萨斯城重新启用了美国电话电报公司的一家芯片工厂，并从密苏里州获取了财政上的支持。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Before it becomes a retirement village, Silicon Valley may prove a classroom for building a global business.", translation: "在硅谷变成一个退休村之前，它很可能成为建立全球商业的一个教学场地。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -1661,19 +1660,19 @@ const articleNce4L14: Article = {
         { text: "Beyond two or three days, the world's best weather forecasts are speculative, and beyond six or seven they are worthless.", translation: "世界上最好的两三天以上的天气预报具有很强的猜测性，如果超过六七天，天气预报就没有了任何价值。 原因是蝴蝶效应。对于小片的恶劣天气 -- 对一个全球性的气象预报员来说，“小”可以意味着雷暴雨和暴风雪 -- 任何预测的质量会很快下降。错误和不可靠性上升，接踵而来的是一系列湍流的徵状，从小尘暴和暴风发展到只有卫星上可以看到的席卷整块大陆的旋涡。 现代气象模型以一个坐标图来显示，图中每个点大约是间隔60英里。既使是这样，有些开始时的资料也不得不依靠推测，因为地面工作站和卫星不可能看到地球上的每一个地方。假设地球上可以布满传感器，每个相隔1英尺，并按1英尺的间隔从地面一直排列到大气层的顶端。再假定每个传感器都极极端准确地读出了温度、气压、温度和气象学家需要的任何其他数据。在正午时分，一个功能巨大的计算机搜集了所有的资料，并算出在每一个点上12：01、12：02、12：03时可能出现的情况。 计算机无法推断出1个月以后的某一天，新泽西州的普林斯顿究竟是晴天还是雨天。正午时分，传感器之间的距离会掩盖计算机无法知道的波动、任何偏平均值的变化。到12：01时，那些波动就已经会在1英尺远的地方造成偏差。很快这种偏差会增加到尺10英的范围，如此等等，一直到全球的范围。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
       [
-        { text: "The Butterfly Effect is the reason.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "For small pieces of weather -- and to a global forecaster, small can mean thunderstorms and blizzards -- any prediction deteriorates rapidly.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Errors and uncertainties multiply, cascading upward through a chain of turbulent features, from dust devils and squalls up to continent-size eddies that only satellites can see.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "The modern weather models work with a grid of points of the order of 60 miles apart, and even so, some starting data has to be guessed, since ground stations and satellites cannot see everywhere.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But suppose the earth could be covered with sensors spaced one foot apart, rising at one-foot intervals all the way to the top of the atmosphere.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Suppose every sensor gives perfectly accurate readings of temperature, pressure, humidity, and any other quantity a meteorologist would want.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Precisely at noon an infinitely powerful computer takes all the data and calculates what will happen at each point at 12.01, then 12.02, then 12.03...", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The Butterfly Effect is the reason.", translation: "原因是蝴蝶效应。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "For small pieces of weather -- and to a global forecaster, small can mean thunderstorms and blizzards -- any prediction deteriorates rapidly.", translation: "对于小片的恶劣天气——对一个全球性的气象预报员来说，\u201c小\u201d可以意味着雷暴雨和暴风雪——任何预测的质量会很快下降。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Errors and uncertainties multiply, cascading upward through a chain of turbulent features, from dust devils and squalls up to continent-size eddies that only satellites can see.", translation: "错误和不可靠性上升，接踵而来的是一系列湍流的特征，从小尘暴和暴风发展到只有卫星上可以看到的席卷整块大陆的旋涡。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The modern weather models work with a grid of points of the order of 60 miles apart, and even so, some starting data has to be guessed, since ground stations and satellites cannot see everywhere.", translation: "现代气象模型以一个坐标图来显示，图中每个点大约是间隔60英里。即使是这样，有些开始时的资料也不得不依靠推测，因为地面工作站和卫星不可能看到地球上的每一个地方。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But suppose the earth could be covered with sensors spaced one foot apart, rising at one-foot intervals all the way to the top of the atmosphere.", translation: "假设地球上可以布满传感器，每个相隔1英尺，并按1英尺的间隔从地面一直排列到大气层的顶端。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Suppose every sensor gives perfectly accurate readings of temperature, pressure, humidity, and any other quantity a meteorologist would want.", translation: "再假定每个传感器都极准确地读出了温度、气压、湿度和气象学家需要的任何其他数据。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Precisely at noon an infinitely powerful computer takes all the data and calculates what will happen at each point at 12.01, then 12.02, then 12.03...", translation: "在正午时分，一个功能极其强大的计算机搜集了所有的资料，并算出在每一个点上12:01、12:02、12:03时可能出现的情况。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
       [
-        { text: "The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "At noon the spaces between the sensors will hide fluctuations that the computer will not know about, tiny deviations from the average.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "By 12.01, those fluctuations will already have created small errors one foot away.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away.", translation: "计算机无法推断出1个月以后的某一天，新泽西州的普林斯顿究竟是晴天还是雨天。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "At noon the spaces between the sensors will hide fluctuations that the computer will not know about, tiny deviations from the average.", translation: "正午时分，传感器之间的距离会掩盖计算机无法知道的波动、任何偏离平均值的变化。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "By 12.01, those fluctuations will already have created small errors one foot away.", translation: "到12:01时，那些波动就已经会在1英尺远的地方造成偏差。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.", translation: "很快这种偏差会增加到10英尺的范围，如此等等，一直到全球的范围。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
     ],
   },
@@ -1895,11 +1894,11 @@ const articleNce4L25: Article = {
 ],
 [
         { text: "What is needed in the case of noise is a study of large numbers of people living under noisy conditions, to discover whether they are mentally ill more often than other people are.", translation: "对于噪音问题，需要对大量生活在噪音中的人进行研究，看一看他们是否比其他人更易患精神病。", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "Some time ago the United States Navy, for instance, examined a very large number of men working on aircraft carriers: the study was known as Project Anehin.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It can be unpleasant to live even several miles from an aerodrome; if you think what it must be like to share the deck of a ship with several squadrons of jet aircraft, you will realize that a modern navy is a good place to study noise.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "But neither psychiatric interviews nor objective tests were able to show any effects upon these American sailors.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "This result merely confirms earlier American and British studies: if there is any effect of noise upon mental health it must be so small that present methods of psychiatric diagnosis cannot find it.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "That does not prove that it does not exist; but it does mean that noise is less dangerous than, say, being brought up in an orphanage -- which really is a mental health hazard.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Some time ago the United States Navy, for instance, examined a very large number of men working on aircraft carriers: the study was known as Project Anehin.", translation: "例如，美国海军前些时候调查了许多在航空母舰上工作的人，这次调查被称之为\u201c安内英工程\u201d。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It can be unpleasant to live even several miles from an aerodrome; if you think what it must be like to share the deck of a ship with several squadrons of jet aircraft, you will realize that a modern navy is a good place to study noise.", translation: "即使住在离机场几英里以外的地方，机场的噪音也会使人难受。因此，如果你能想像出和几个中队的喷气机同在一个甲板上是什么滋味儿的话，你就会认识到现代海军是研究噪音的好地方。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "But neither psychiatric interviews nor objective tests were able to show any effects upon these American sailors.", translation: "但是，不管进行精神病学的调查访问，还是进行客观的测试，都不能显示噪音对这些美国水兵有任何影响。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "This result merely confirms earlier American and British studies: if there is any effect of noise upon mental health it must be so small that present methods of psychiatric diagnosis cannot find it.", translation: "这个结果只不过证实了美国和英国早些时候的研究结论：如果噪音对精神健康有影响的话，那也一定是微乎其微，以致现代的精神病诊断方法还发现不了。", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "That does not prove that it does not exist; but it does mean that noise is less dangerous than, say, being brought up in an orphanage -- which really is a mental health hazard.", translation: "这并不是证实不存在噪音对健康的影响。但它确实说明，噪音的危险性——比如说——比在孤儿院长大所受的危害要小一些，孤儿院才是真正危害精神健康的地方。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
         { text: "D.E.BROADBENT Non-auditory effects of noise from Science Survey", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
@@ -2133,7 +2132,7 @@ const articleNce4L35: Article = {
         { text: "Their aim is understandable.", translation: "火星是太阳系里与地球最接近的一颗行星。", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "It is the one world in the Solar System that is most like the Earth.", translation: "这是一个红色沙漠的世界（因而得名：红色行星），无云的天空，凶猛的沙暴，比大峡谷还宽的裂缝，起码有一座山有珠穆朗玛峰的近两倍高。", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "It is a world of red sandy deserts (hence its name -- the Red Planet), cloudless skies, savage sandstorms, chasms wider than the Grand Canyon and at least one mountain more than twice as tall as Everest.", translation: "看起来，它很合适居住。", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "It seems ideal for settlement.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "It seems ideal for settlement.", translation: "这里似乎是理想的定居地。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
       ]
@@ -2288,8 +2287,8 @@ const articleNce4L39: Article = {
 [
         { text: "A young English writer made the pertinent observation a year or two back that the talent goes into the first draft, and the art into the drafts that follow.", translation: "一旦作家从内心的紊乱中理出头绪，就应该按任何评论家想像不到的无情规范约束自己写作；", predicates: [], clauseIntroducers: [], notes: [] },
         { text: "For this reason also the writer, like any other artist, has no resting place, no crowd or movement in which he may take comfort, no judgment from outside which can replace the judgment from within.", translation: "当他沽名钓誉时，他就脱离了自我生活，脱离了对自己灵魂最深处世界的探索。", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "A writer makes order out of the anarchy of his heart;", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
-        { text: "he submits himself to a more ruthless discipline than any critic dreamed of, and when he flirts with fame, he is taking time off from living with himself, from the search for what his world contains at its inmost point.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A writer makes order out of the anarchy of his heart;", translation: "作家从内心的混乱中创造出秩序；", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "he submits himself to a more ruthless discipline than any critic dreamed of, and when he flirts with fame, he is taking time off from living with himself, from the search for what his world contains at its inmost point.", translation: "他接受比任何评论家所能想像的更为无情的纪律约束，当他与名声调情时，他便暂时离开了与自己的内心共处，离开了探索他内心世界最深处所蕴含的东西。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2394,7 +2393,7 @@ const articleNce4L41: Article = {
         { text: "These movements are controlled by the trainer with the metal-pointed stick, and the trunk eventually becomes so sore that the elephant curls it up and seldom afterwards uses it for offensive purposes.", translation: "训练员要用有锋利金属尖的长棒控制它的这种举动，象鼻子最后疼得卷了起来，以后它就很少用鼻子去进攻了。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "A wild Indian elephant is roped to two trained ones during the first few days of training.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "A wild Indian elephant is roped to two trained ones during the first few days of training.", translation: "一头野生的印度象在训练的头几天会被绳子拴在两头经过训练的大象之间。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
@@ -2517,7 +2516,7 @@ const articleNce4L43: Article = {
         { text: "Without something of this kind, searching for intelligences on other planets would be like trying to meet a friend in London without a pre-arranged rendezvous and absurdly wandering the streets in the hope of a chance encounter.", translation: "没有这手段，要想寻觅其他星球上的智力生命，就如同去伦敦见一位朋友，事先未约定地点，而荒唐地在街上游逛，以期待碰巧遇上一样。", predicates: [], clauseIntroducers: [], notes: [] },
       ],
 [
-        { text: "Simulation of a hypothetical sighting of a UFO(unidentified flying object) in the small town of Bellelille,Wisconsin,USA.For several months in 1986-1989,the town was plagued by UFO sightings.", translation: "", predicates: [], clauseIntroducers: [], notes: [] },
+        { text: "Simulation of a hypothetical sighting of a UFO(unidentified flying object) in the small town of Bellelille,Wisconsin,USA.For several months in 1986-1989,the town was plagued by UFO sightings.", translation: "模拟美国威斯康星州贝尔维尔小镇一次假设的不明飞行物目击事件。在1986至1989年的几个月里，该镇饱受UFO目击事件的困扰。", predicates: [], clauseIntroducers: [], notes: [] },
       ]
 ],
   },
