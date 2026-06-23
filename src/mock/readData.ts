@@ -6717,7 +6717,7 @@ const articleNce4L13: Article = {
     ],
 
 
-  attribution: 'T. F. GASKELL（T. F. 加斯克尔）《The Search for the Earth's Minerals》from《Discovery》',
+  attribution: "T. F. GASKELL（T. F. 加斯克尔）《The Search for the Earth's Minerals》from《Discovery》",
     original: {
     paragraphs: [
       [
@@ -7895,7 +7895,7 @@ const articleNce4L12: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'GORDON BARRIE（戈登·巴里） and AUBREY L. DLAMOND《The Consumer Society and the Law》',
+  attribution: 'GORDON BARRIE（戈登·巴里） and AUBREY L. DLAMOND（奥布里·L·戴蒙德）《The Consumer Society and the Law》',
   original: {
     paragraphs: [
       [
@@ -8211,7 +8211,7 @@ const articleNce4L27: Article = {
       [0,0,0,0,0,0,0,0,0],
     ],
 
-  attribution: 'ROY SAUNGERS（罗伊·桑德斯）《The Raising of the 'Vasa'》from《The Listener》',
+  attribution: "ROY SAUNGERS（罗伊·桑德斯）《The Raising of the 'Vasa'》from《The Listener》",
   original: {
         paragraphs: [
       [
