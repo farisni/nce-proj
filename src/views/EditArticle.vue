@@ -217,7 +217,7 @@ function goBack() {
             </div>
             <div v-if="editArticle.vocabulary.length === 0" class="notion-table-empty">暂无词汇</div>
             <div v-for="(item, vi) in editArticle.vocabulary" :key="vi" class="notion-table-row">
-              <div class="ntd-cell" style="width:140px"><input v-model="editArticle!.vocabulary[vi].word" placeholder="单词" class="notion-cell-input" /></div>
+              <div class="ntd-cell" style="width:140px"><input v-model="editArticle!.vocabulary[vi].word" placeholder="单词" class="notion-cell-input vocab-word-input" /></div>
               <div class="ntd-cell" style="width:150px"><input v-model="editArticle!.vocabulary[vi].phonetic" placeholder="音标" class="notion-cell-input" /></div>
               <div class="ntd-cell" style="width:80px"><input v-model="editArticle!.vocabulary[vi].pos" placeholder="词性" class="notion-cell-input" /></div>
               <div class="ntd-cell" style="flex:1"><input v-model="editArticle!.vocabulary[vi].meaning" placeholder="释义" class="notion-cell-input" /></div>
@@ -396,7 +396,7 @@ function goBack() {
 .grammar-sentence { margin-bottom: 16px; padding: 12px 14px; background: #fafaf8; border-radius: 6px; }
 .grammar-sentence-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .grammar-sentence-label { font-size: 0.85rem; font-weight: 600; color: #1a1a1a; }
-.grammar-sentence-text { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif; 
+.grammar-sentence-text { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; 
   font-size: 0.85rem; color: #1a1a1a; font-weight: 500; margin-bottom: 12px;
   padding: 6px 10px; background: #fff; border-radius: 4px; border-left: 3px solid #e3e2e0; line-height: 1.5;
 }
@@ -459,7 +459,8 @@ function goBack() {
 .notion-btn-cancel:hover { background: #f1f1ef; color: #37352f; border-color: #d3d2d0; }
 .notion-btn-save { border: 1px solid #409EFF; background: #409EFF; color: #fff; }
 .notion-btn-save:hover { background: #337ECC; border-color: #337ECC; color: #fff; }
-.text-en-ta :deep(textarea) { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif; }
+.text-en-ta :deep(textarea) { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
 /* 词汇表 MiSans Latin Light */
 .edit-page :deep(.el-table) { font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
+.vocab-word-input { font-family: 'MiSans Latin Regular', 'LXGW WenKai', 'PingFang SC', serif !important; }
 </style>
