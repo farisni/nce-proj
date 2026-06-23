@@ -261,7 +261,7 @@ function segClass(seg: Segment): string {
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 0 0 16px; }
-.vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 20px; padding-top: 64px; font-family: inherit; }
+.vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 20px; padding-top: 76px; font-family: inherit; }
 .article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 16px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
 .title-text-wrap { flex: 1; min-width: 0; }
 
