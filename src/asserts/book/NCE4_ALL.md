@@ -54,13 +54,13 @@ people+s 表示民族
 ---
 
 ## Lesson 2 Spare that spider 不要伤害蜘蛛
+*T.H.GILLESPIE Spare that spider from The Listener*
 
 ### 课文原文
 
 Why, you may wonder, should spiders be our friends? Because they destroy so many insects, and insects include some of the greatest enemies of the human race. Insects would make it impossible for us to live in the world; they would devour all our crops and kill our flocks and herds, if it were not for the protection we get from insect-eating animals. We owe a lot to the birds and beasts who eat insects but all of them put together kill only a fraction of the number destroyed by spiders. Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.
 Spiders are not insects, as many people think, nor even nearly related to them. One can tell the difference almost at a glance, for a spider always has eight legs and an insect never more than six.
 How many spiders are engaged in this work on our behalf? One authority on spiders made a census of the spiders in a grass field in the south of England, and he estimated that there were more than 2,250,000 in one acre; that is something like 6 million spiders of different kinds on a football pitch. Spiders are busy for at least half the year in killing insects. It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day. It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.
-                         T.H.GILLESPIE Spare that spider from The Listener
 
 ### New words and expressions 生词和短语
 
@@ -129,12 +129,13 @@ the Alps /ði ælps/ n.阿尔卑斯山脉
 ---
 
 ## Lesson 4 Seeing hands  能看见东西的手
+*ERIC DE MAUNY Seeing hands from The Listener*
+
 
 ### 课文原文
 
 Several cases have been reported in Russia recently of people who can read and detect colours with their fingers, and even see through solid doors and walls. One case concerns an eleven-year-old schoolgirl, Vera Petrova, who has normal vision but who can also perceive things with different parts of her skin, and through solid walls. This ability was first noticed by her father. One day she came into his office and happened to put her hands on the door of a locked safe. Suddenly she asked her father why he kept so many old newspapers locked away there, and even described the way they were done up in bundles.
 Vera's curious talent was brought to the notice of a scientific research institute in the town of Ulyanovsk, near where she lives, and in April she was given a series of tests by a special commission of the Ministry of Health of the Russian Federal Republic. During these tests she was able to read a newspaper through an opaque screen and, stranger still, by moving her elbow over a child's game of Lotto she was able to describe the figures and colours printed on it; and, in another instance, wearing stockings and slippers, to make out with her foot the outlines and colours of a picture hidden under a carpet. Other experiments showed that her knees and shoulders had a similar sensitivity. During all these tests Vera was blindfold; and, indeed, except when blindfold she lacked the ability to perceive things with her skin. It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.
-*ERIC DE MAUNY Seeing hands from The Listener*
  Another Russian girl,Rosa Kuleshova,reads blindfold.
 
 ### New words and expressions 生词和短语
@@ -524,7 +525,6 @@ The deepest holes of all are made for oil, and they go down to as much as 25,000
 
 The geologist needs to know what rocks the drill has reached, so every so often a sample is obtained with a coring bit. It cuts a clean cylinder of rock, from which can be seen the strata the drill has been cutting through. Once we get down to the oil, it usually flows to the surface because great pressure, either from gas or water, is pushing it. This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe. We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas. We want it to stay down the hole until we can lead it off in a controlled manner.
 
-T.F.GASKELL The Search for the Earth's Minerals from Discovery
 
 ### New words and expressions 生词和短语
 
@@ -637,7 +637,6 @@ deviation n.偏差
 
 Two factors weigh heavily against the effectiveness of scientific research in industry. One is the general atmosphere of secrecy in which it is carried out, the other the lack of freedom of the individual research worker.In so far as any inquiry is a secret one, it naturally limits all those engaged in carrying it out from effective contact with their fellow scientists either in other countries or in universities, or even, often enough, in other departments of the same firm. The degree of secrecy naturally varies considerably. Some of the bigger firms are engaged in researches which are of such general and fundamental nature that it is a positive advantage to them not to keep them secret. Yet a great many processes depending on such research are sought for with complete secrecy until the stage at which patents can be taken out. Even more processes are never patented at all but kept as secret processes. This applies particularly to chemical industries, where chance discoveries play a much larger part than they do in physical and mechanical industries. Sometimes the secrecy goes to such an extent that the whole nature of the research cannot be mentioned. Many firms, for instance, have great difficulty in obtaining technical or scientific books from libraries because they are unwilling to have their names entered as having taken out such and such a book, for fear the agents of other firms should be able to trace the kind of research they are likely to be undertaking.
 
-J.D. BERNAL The Social Function of Science
 
 ### New words and expressions 生词和短语
 
@@ -958,7 +957,6 @@ code n. 准则
 
 Why does the idea of progress loom so large in the modern world? Surely because progress of a particular kind is actually taking place around us and is becoming more and more manifest. Although mankind has undergone no general improvement in intelligence or morality, it has made extraordinary progress in the accumulation of knowledge. Knowledge began to increase as soon as the thoughts of one individual could be communicated to another by means of speech. With the invention of writing, a great advance was made, for knowledge could then be not only communicated but also stored. Libraries made education possible, and education in its turn added to libraries: the growth of knowledge followed a kind of compound interest law, which was greatly enhanced by the invention of printing. All this was comparatively slow until, with the coming of science, the tempo was suddenly raised. Then knowledge began to be accumulated according to a systematic plan. The trickle became a stream; the stream has now become a torrent. Moreover, as soon as new knowledge is acquired, it is now turned to practical account. What is called 'modern civilization' is not the result of a balanced development of all man's nature, but of accumulated knowledge applied to practical life. The problem now facing humanity is: What is going to be done with all this knowledge? As is so often pointed out, knowledge is a two-edged weapon which can be used equally for good or evil. It is now being used indifferently for both. Could any spectacle, for instance, be more grimly whimsical than that of gunners using science to shatter men's bodies while, close at hand, surgeons use it to restore them? We have to ask ourselves very seriously what will happen if this twofold use of knowledge, with its ever-increasing power, continues.
 
-G.N.M.TYRRELL The Personality of Man
 
 ### New words and expressions 生词和短语
 
@@ -1038,7 +1036,6 @@ A young man sees a sunset and, unable to understand or to express the emotion th
 
 That all great art has this power of suggesting a world beyond is undeniable. In some moods, Nature shares it. There is no sky in June so blue that it does not point forward to a bluer, no sunset so beautiful that it does not waken the vision of a greater beauty, a vision which passes before it is fully glimpsed, and in passing leaves an indefinable longing and regret. But, if this world is not merely a bad joke, life a vulgar flare amid the cool radiance of the stars, and existence an empty laugh braying across the mysteries; if these intimations of a something behind and beyond are not evil humour born of indigestion, or whimsies sent by the devil to mock and madden us. If, in a word, beauty means something, yet we must not seek to interpret the meaning. If we glimpse the unutterable, it is unwise to try to utter it, nor should we seek to invest with significance that which we cannot grasp. Beauty in terms of our human meanings is meaningless.
 
-C.E.M.JOAD Pieces of Mind
 
 ### New words and expressions 生词和短语
 
@@ -1076,7 +1073,6 @@ Many people in industry and the Services, who have practical experience of noise
 
 What is needed in the case of noise is a study of large numbers of people living under noisy conditions, to discover whether they are mentally ill more often than other people are. Some time ago the United States Navy, for instance, examined a very large number of men working on aircraft carriers: the study was known as Project Anehin. It can be unpleasant to live even several miles from an aerodrome; if you think what it must be like to share the deck of a ship with several squadrons of jet aircraft, you will realize that a modern navy is a good place to study noise. But neither psychiatric interviews nor objective tests were able to show any effects upon these American sailors. This result merely confirms earlier American and British studies: if there is any effect of noise upon mental health it must be so small that present methods of psychiatric diagnosis cannot find it. That does not prove that it does not exist; but it does mean that noise is less dangerous than, say, being brought up in an orphanage -- which really is a mental health hazard.
 
-D.E.BROADBENT Non-auditory effects of noise from Science Survey
 
 ### New words and expressions 生词和短语
 
@@ -1146,14 +1142,14 @@ bogged adj. 陷入泥沼的，陷入要困境的
 ---
 
 ## Lesson 27 The 'Vasa' ＂瓦萨＂号
+*ROY SAUNGERS The Raising of the 'Vasa' from The Listener*
+
 
 ### 课文原文
 
 From the seventeenth-century empire of Sweden, the story of a galleon that sank at the start of her maiden voyage in 1628 must be one of the strangest tales of the sea. For nearly three and a half centuries she lay at the bottom of Stockholm harbour until her discovery in 1956. This was the Vasa, royal flagship of the great imperial fleet.
 King Gustavus Adolphus, 'The Northern Hurricane', then at the height of his military success in the Thirty Years' War, had dictated her measurements and armament. Triple gun-decks mounted sixty-four bronze cannon. She was intended to play a leading role in the growing might of Sweden. As she was prepared for her maiden voyage on August 10th, 1628, Stockholm was in a ferment. From the Skeppsbron and surrounding islands the people watched this thing of beauty begin to spread her sails and catch the wind. They had laboured for three years to produce this floating work of art; she was more richly carved and ornamented than any previous ship. The high stern castle was a riot of carved gods, demons, knights, kings, warriors, mermaids, cherubs; and zoomorphic animal shapes ablaze with red and gold and blue, symbols of courage, power, and cruelty, were portrayed to stir the imaginations of the superstitious sailors of the day.
 Then the cannons of the anchored warships thundered a salute to which the Vasa fired in reply. As she emerged from her drifting cloud of gun smoke with the water churned to foam beneath her bow, her flags flying, pennants waving, sails fillng in the breeze, and the red and gold of her superstructure ablaze with colour, she presented a more majestic spectacle than Stockholmers had ever seen before. All gun-ports were open and the muzzles peeped wickedly from them. As the wind freshened there came a sudden squall and the ship made a strange movement, listing to port. The Ordnance Officer ordered all the port cannon to be heaved to starboard to counteract the list, but the steepening angle of the decks increased. Then the sound of rumbling thunder reached the watchers on the shore, as cargo, ballast, ammunition and 400 people went sliding and crashing down to the port side of the steeply listing ship. The lower gun-ports were now below water and the inrush sealed the ship's fate. In that first glorious hour, the mighty Vasa, which was intended to rule the Baltic, sank with all flags flying-in the harbour of her birth.
-*ROY SAUNGERS The Raising of the 'Vasa' from The Listener*
-
 ### New words and expressions 生词和短语
 
 galleon n. 大型帆船
@@ -1299,7 +1295,6 @@ Today, enough soundings are available to enable a relief map of the Atlantic to 
 
 This continental slope usually starts at a place somewhere near the 100-fatheom mark and in the course of a few hundred miles reaches the true ocean floor at 2,500-3,500 fathoms. The slope averages about 1 in 30. but contains steep, probably vertical, cliffs, and gentle sediment-covered terraces, and near its lower reaches there is a long tailing-off which is almost certainly the result of material transported out to deep water after being eroded from the continental masses.
 
-T.F.GASKELL Exploring the Sea-floor from Science Survey
 
 ### New words and expressions 生词和短语
 
@@ -1341,14 +1336,14 @@ erode v. 侵蚀
 ---
 
 ## Lesson 31 The sculptor speaks 雕塑家的语言
+*HENRY MOORE The Sculptor Speaks from The Listener*
+
 
 ### 课文原文
 
 Appreciation of sculpture depends upon the ability to respond to form in three dimensions. That is perhaps why sculpture has been described as the most difficult of all arts; certainly it is more difficult than the arts which involve appreciation of flat forms, shape in only two dimensions. Many more people are 'form-blind' than colour-blind. The child learning to see, first distinguishes only two-dimensional shape; it cannot judge distances, depths. Later, for its personal safety and practical needs, it has to develop (partly by means of touch) the ability to judge roughly three-dimensonal distances. But having satisfied the requirements of practical necessity, most people go no further. Though they may attain considerable accuracy in the perception of flat form, they do not make the further intellectual and emotional effort needed to comprehend form in its full spatial existence.
 This is what the sculptor must do. He must strive continually to think of, and use, form in its full spatial completeness. He gets the solid shape, as it were, inside his head-he thinks of it, whatever its size, as if he were holding it completely enclosed in the hollow of his hand. He mentally visualizes a complex form from all round itself; he knows while he looks at one side what the other side is like, he identifies himself with its centre of gravity, its mass, its weight; he realizes its volume, as the space that the shape displaces in the air.
 And the sensitive observer of sculpture must also learn to feel shape simply as shape, not as description or reminiscence. He must, for example, perceive an egg as a simple single solid shape, quite apart from its significance as food, or from the literary idea that it will become a bird. And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom, a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone. From these he can go on to appreciate more complex forms or combinations of several forms.
-*HENRY MOORE The Sculptor Speaks from The Listener*
-
 ### New words and expressions 生词和短语
 
 colour-blind adj. 色盲的
@@ -1383,13 +1378,13 @@ bulrush n. 芦苇
 
 ---
 ## Lesson 32 Galileo reborn 伽利略的复生
+*MICHAEL HOSKIN Galileo Reborn from The Listener*
+
 
 ### 课文原文
 
 In his own lifetime Galileo was the centre of violent controversy; but the scientific dust has long since settled, and today we can see even his famous clash with the Inquisition in something like its proper perspective. But, in contrast, it is only in modern times that Galileo has become a problem child for historians of science. The old view of Galileo was delightfully uncomplicated. He was, above all, a man who experimented: who despised the prejudices and book learning of the Aristotelians, who put his questions to nature instead of to the ancients, and who drew his conclusions fearlessly. He had been the first to turn a telescope to the sky, and he had seen their evidence enough to overthrow Aristotle and Ptolemy together. He was the man who climbed the Leaning Tower of Pisa and dropped various weights from the top, who rolled balls down inclined planes, and then generalized the results of his many experiments into the famous law of free fall.
 But a closer study of the evidence, supported by a deeper sense of the period, and particularly by a new consciousness of the philosophical undercurrents in the scientific revolution, has profoundly modified this view of Galileo. Today, although the old Galileo lives on in many popular writings, among historians of science a new and more sophisticated picture has emerged. At the same time our sympathy for Galileo's opponents has grown somewhat. His telescopic observations are justly immortal; they aroused great interest at the time, they had important theoretical consequences, and they provided a striking demonstration of the potentialities hidden in instruments and apparatus. But can we blame those who looked and failed to see what Galileo saw, if we remember that to use a telescope at the limit of its powers calls for long experience and intimate familiarity with one's instrument? Was the philosopher who refused to look through Galileo's telescope more culpable than those who alleged that the spiral nebulae observed with Lord Rosse's great telescope in the 1840s were scratches left by the grinder? We can perhaps forgive those who said the moons of Jupiter were produced by Galileo's spyglass if we recall that in his day, as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth; and if a single curved glass would distort nature, how much more would a pair of them?
-*MICHAEL HOSKIN Galileo Reborn from The Listener*
-
 ### New words and expressions 生词和短语
 
 controversy n. 争议，争论
@@ -1882,7 +1877,6 @@ But instruments far more delicate than that were needed if any really serious ad
 
 When the instrument is situated at more than 700 miles from the earthquake centre, the graphic record shows three waves arriving one after the other at short intervals. The first records the arrival of longitudinal vibrations. The second marks the arrival of transverse vibrations which travel more slowly and arrive several minutes after the first. These two have travelled through the earth. It was from the study of these that so much was learnt about the interior of the earth. The third, or main wave, is the slowest and has travelled round the earth through the surface rocks.
 
-H.H,SWINNERTON The Earth beneath Us
 
 ### New words and expressions 生词和短语
 
@@ -2232,7 +2226,6 @@ If you are younger, and in a solid financial position, you may decide to take an
 
 *'Periwigs' is the name of a fictitious company.
 
-INVESTOR'S CHRONICLE, March 23 1990
 
 ### New words and expressions 生词和短语
 
