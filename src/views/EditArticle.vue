@@ -273,7 +273,7 @@ function goBack() {
                     <el-table-column label="操作" width="80">
                       <template #default="{ $index }">
                         <el-popconfirm title="确定删除？" @confirm="sd.notes!.splice($index, 1)">
-                          <template #reference><el-button size="small" style="border:none;background:transparent;color:#b0afac;font-size:0.75rem;padding:2px 0">删除</el-button></template>
+                          <template #reference><span class="add-btn del-btn">删除</span></template>
                         </el-popconfirm>
                       </template>
                     </el-table-column>
@@ -304,7 +304,7 @@ function goBack() {
                     <el-table-column label="操作" width="80">
                       <template #default="{ $index }">
                         <el-popconfirm title="确定删除？" @confirm="sd.panelNotes!.splice($index, 1)">
-                          <template #reference><el-button size="small" style="border:none;background:transparent;color:#b0afac;font-size:0.75rem;padding:2px 0">删除</el-button></template>
+                          <template #reference><span class="add-btn del-btn">删除</span></template>
                         </el-popconfirm>
                       </template>
                     </el-table-column>
@@ -360,7 +360,7 @@ function goBack() {
   &:hover { .para-label { color: #1a1a1a; } }
 }
 
-.add-btn { border: none; background: transparent; color: #b0afac !important; padding: 2px 0; font-size: 0.75rem;
+.add-btn, .del-btn { border: none; background: transparent; color: #b0afac; padding: 2px 0; font-size: 0.75rem; cursor: pointer; display: inline-block;
   &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 4px 8px; }
 }
 
