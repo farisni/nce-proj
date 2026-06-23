@@ -288,7 +288,7 @@ function segClass(seg: Segment): string {
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .article-notes { margin-bottom: 24px; }
 .note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
-.note-label { font-weight: 600; color: #c9b99a; margin-right: 6px; }
+.note-label { font-size: 1rem; font-weight: 400; color: #333; margin-right: 6px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
 .note-body { color: #666; }
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 20px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
@@ -352,7 +352,7 @@ function segClass(seg: Segment): string {
 
 .panel-enter-active, .panel-leave-active { transition: all 0.25s ease; }
 .panel-enter-from, .panel-leave-to { opacity: 0; transform: translateY(-6px); }
-.translation { font-size: 0.9rem; color: var(--color-text-secondary); font-family: inherit; }
+.translation { font-size: 1rem; color: var(--color-text-secondary); font-family: inherit; }
 .nav-buttons {
   display: flex; justify-content: space-between; align-items: center;
   padding: 0 0 16px; margin-bottom: 20px;
