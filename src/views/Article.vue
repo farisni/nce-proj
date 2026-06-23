@@ -180,7 +180,9 @@ function segClass(seg: Segment): string {
         <div class="section-row">
           <div class="section-main">
             <h2 class="section-title">全文翻译</h2>
-            <p v-for="(t, idx) in article.translation.paragraphs" :key="idx" class="paragraph translation">{{ t }}</p>
+            <div v-for="(para, pIdx) in article.original.paragraphs" :key="'tp'+pIdx">
+              <p class="paragraph translation">{{ para.map(s => s.translation || '').filter(Boolean).join('') }}</p>
+            </div>
           </div>
           <div class="section-divider"></div>
           <div class="section-side"></div>
