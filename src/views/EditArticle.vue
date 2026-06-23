@@ -102,7 +102,7 @@ function goBack() {
     <div class="edit-header">
       <el-page-header @back="goBack" />
       <div class="edit-title-row">
-        <span class="header-title">编辑：{{ editMeta?.title || id }}</span>
+        <span class="header-title">编辑：{{ editArticle?.title || id }}</span>
         <div class="header-actions">
           <el-button size="small" @click="goBack">取消</el-button>
           <el-button size="small" type="primary" @click="save">保存</el-button>
@@ -113,25 +113,25 @@ function goBack() {
     <el-tabs v-model="activeTab" class="edit-tabs">
       <!-- Tab 1: 元数据 -->
       <el-tab-pane label="元数据" name="meta">
-        <div class="tab-content" v-if="editMeta">
+        <div class="tab-content" v-if="editArticle">
           <el-form label-width="100px" label-position="left" size="default">
-            <el-form-item label="ID"><el-input v-model="editMeta.id" /></el-form-item>
-            <el-form-item label="英文标题"><el-input v-model="editMeta.title" /></el-form-item>
-            <el-form-item label="中文标题"><el-input v-model="editMeta.titleCn" /></el-form-item>
+            <el-form-item label="ID"><el-input v-model="editArticle.id" /></el-form-item>
+            <el-form-item label="英文标题"><el-input v-model="editArticle.title" /></el-form-item>
+            <el-form-item label="中文标题"><el-input v-model="editArticle.titleCn" /></el-form-item>
             <el-row :gutter="16">
               <el-col :span="8">
-                <el-form-item label="课号"><el-input-number v-model="editMeta.lesson" :min="1" /></el-form-item>
+                <el-form-item label="课号"><el-input-number v-model="editArticle.lesson" :min="1" /></el-form-item>
               </el-col>
               <el-col :span="8">
                 <el-form-item label="标签 (Cx)">
-                  <el-select v-model="editMeta.tag" clearable placeholder="可选">
+                  <el-select v-model="editArticle.tag" clearable placeholder="可选">
                     <el-option v-for="n in 20" :key="n" :label="'C' + n" :value="'C' + n" />
                   </el-select>
                 </el-form-item>
               </el-col>
               <el-col :span="8">
                 <el-form-item label="册">
-                  <el-select v-model="editMeta.level">
+                  <el-select v-model="editArticle.level">
                     <el-option label="NCE2" value="NCE2" />
                     <el-option label="NCE3" value="NCE3" />
                     <el-option label="NCE4" value="NCE4" />
@@ -139,7 +139,7 @@ function goBack() {
                 </el-form-item>
               </el-col>
             </el-row>
-            <el-form-item label="重点文章"><el-switch v-model="editMeta.keyArticle" /></el-form-item>
+            <el-form-item label="重点文章"><el-switch v-model="editArticle.keyArticle" /></el-form-item>
           </el-form>
         </div>
       </el-tab-pane>
