@@ -1,52 +1,49 @@
-# 新概念英语第四册 全部课文
+# NCE4 全部课文
 
 > 数据来源: https://nce.mymdm.top/nce4/
 
----
-
 ## Lesson 1 Finding fossil man 发现化石人
+*ROBIN PLACE Finding fossil man*
 
 ### 课文原文
 
 We can read of things that happened 5,000 years ago in the Near East, where people first learned to write. But there are some parts of the world where even now people cannot write. The only way that they can preserve their history is to recount it as sagas -- legends handed down from one generation of story tellers to another. These legends are useful because they can tell us something about migrations of people who lived long ago, but none could write down what they did. Anthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islands came from. The sagas of these people explain that some of them came from Indonesia about 2,000 years ago.
+
 But the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten. So archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.
+
 Fortunately, however, ancient men made tools of stone, especially flint, because this is easier to shape than other kinds. They may also have used wood and skins, but these have rotted away. Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.
-
-ROBIN PLACE Finding fossil man
-
-Polished axeheads found at Seamers Moor in Yorkshire
 
 ### New words and expressions 生词和短语
 
-- anthropologist   /ˌænθrəˈpɑ:lədʒɪst/  n.  人类学家
-- archaeologist  /ˌɑrkɪˈɑlədʒɪst/  n.  考古学家
-- ancestor   /ˈænˌsɛstɚ/  n.  祖先
-- fossil man  /ˈfɑsəl mæn/ adj. 化石人
-- recount  /rɪˈkaʊnt/  v.  叙述
-- saga  /ˈsɑɡə/  n.  英雄故事
-- legend  /ˈlɛdʒənd/  n.  传说，传奇
-- migration   /maɪˈɡreʃən/  n.  迁移，移居
-- Polynesian /.pɒlɪ'nɪʒɪrn/ adj.波利尼西亚（中太平洋之一群岛）的
-- Indonesia  /ˌɪndə'ni:ʒə/ n.  印度尼西亚
-- flint   /flɪnt/  n.  燧石
-- rot  /rɑ:t/   n.  烂掉
+anthropologist   /ˌænθrəˈpɑ:lədʒɪst/  n.  人类学家
+archaeologist  /ˌɑrkɪˈɑlədʒɪst/  n.  考古学家
+ancestor   /ˈænˌsɛstɚ/  n.  祖先
+fossil man  /ˈfɑsəl mæn/ adj. 化石人
+recount  /rɪˈkaʊnt/  v.  叙述
+saga  /ˈsɑɡə/  n.  英雄故事
+legend  /ˈlɛdʒənd/  n.  传说，传奇
+migration   /maɪˈɡreʃən/  n.  迁移，移居
+Polynesian /.pɒlɪ'nɪʒɪrn/ adj.波利尼西亚（中太平洋之一群岛）的
+Indonesia  /ˌɪndə'ni:ʒə/ n.  印度尼西亚
+flint   /flɪnt/  n.  燧石
+rot  /rɑ:t/   n.  烂掉
 
 ### Notes on the text 课文注释
 
-- 1.hand down 把...传下去
-- 例句：Many old legends were handed down from generation by mouth.
-- 许多古老的传说都是一代一代口传下来了。
-- 2.read of，读到，和read about是相同的意思。
-- 谈到：speak of，talk of
-- 了解到：know of
-- 听到：hear of
-- 3.the first people，原始人
-- people+s 表示民族
-- 4.if they had any: 即便是有，表假设
-- 例句：His relatives, if he had any, never went to visit him when he was hospitalized.
-- 他的亲戚，即便他还有的话，在他住院时也从来不去看他。
-- 5.when even the bones of the men who made them have disappeared without trace，
-- 这个以when引导的状语从句表示让步的意思，而when可以译成“虽然”，“尽管”。
+1.hand down 把...传下去
+例句：Many old legends were handed down from generation by mouth.  
+许多古老的传说都是一代一代口传下来了。
+2.read of，读到，和read about是相同的意思。
+谈到：speak of，talk of
+了解到：know of
+听到：hear of
+3.the first people，原始人
+people+s 表示民族
+4.if they had any: 即便是有，表假设
+例句：His relatives, if he had any, never went to visit him when he was hospitalized.
+他的亲戚，即便他还有的话，在他住院时也从来不去看他。
+5.when even the bones of the men who made them have disappeared without trace，
+这个以when引导的状语从句表示让步的意思，而when可以译成“虽然”，“尽管”。
 
 ### 参考译文
 
@@ -60,72 +57,65 @@ Polished axeheads found at Seamers Moor in Yorkshire
 
 ### 课文原文
 
-Why, you may wonder, should spiders be our friends? Because they destroy so many insects, and insects include some of the greatest enemies of the human race. Insects would make it impossible for us to live in the world; they would devour all our crops and kill our flocks and herds, if it were not for the protection we get from insect-eating animals. We owe a lot to the birds and beasts who eat insects but all of them put together kill only a fraction of the number destroyed by spiders. Moreover, unlike some of the other insect eaters, spiders never do the least harm to us or our belongings.
-Spiders are not insects, as many people think, nor even nearly related to them. One can tell the difference almost at a glance, for a spider always has eight legs and an insect never more than six.
-How many spiders are engaged in this work on our behalf? One authority on spiders made a census of the spiders in a grass field in the south of England, and he estimated that there were more than 2,250,000 in one acre; that is something like 6 million spiders of different kinds on a football pitch. Spiders are busy for at least half the year in killing insects. It is impossible to make more than the wildest guess at how many they kill, but they are hungry creatures, not content with only three meals a day. It has been estimated that the weight of all the insects destroyed by spiders in Britain in one year would be greater than the total weight of all the human beings in the country.
-                         T.H.GILLESPIE Spare that spider from The Listener
-
-A spider destroys a grasshopper
-
 ### New words and expressions 生词和短语
 
-- beast  /bi:st/ n. 野兽
-- acre  /ˈekɚ/  n. 英亩
-- census  /ˈsɛnsəs/  n. 统计数字
-- content  /ˈkɑnˌtɛnt/ adj. 满足的
+beast  /bi:st/ n. 野兽
+acre  /ˈekɚ/  n. 英亩
+census  /ˈsɛnsəs/  n. 统计数字
+content  /ˈkɑnˌtɛnt/ adj. 满足的
 
 ### Notes on the text 课文注释
 
-- 1、you may wonder 是这个疑问句的插入语。
-- 2、if it were not for the protection we get from inscet-eating animals 这是一个非真实条件状语从句，were表示虚拟语气。
-- 3、almost at a glance 几呼一眼（就能看出）。
+1、you may wonder 是这个疑问句的插入语。
+2、if it were not for the protection we get from inscet-eating animals 这是一个非真实条件状语从句，were表示虚拟语气。
+3、almost at a glance 几呼一眼（就能看出）。
 
 ### 参考译文
 
-你可能会觉得奇怪， 蜘蛛怎么会是我们的朋友呢？因为它们能消灭那么多的昆虫，其中包括一些人类的大敌，要不是人类受一些食虫动物的保护，昆虫就会使我们无法在地球上生活下去，昆虫会吞食我们的全部庄稼，杀死我们的成群的牛羊。我们要十分感谢那些吃昆虫的鸟和兽，然而把它们所杀死的昆虫全部加在一起也只相当于蜘蛛所消灭的一小部分。此外，蜘蛛不同于其他食虫动物，它们丝毫不危害我们和我们的财物。 
-许多人认为蜘蛛是昆虫，但它们不是昆虫，甚至与昆虫毫无关系。人们几乎一眼就能看出二者的差异，因为蜘蛛都是8条腿，而昆虫的腿从不超过6条。 
+你可能会觉得奇怪， 蜘蛛怎么会是我们的朋友呢？因为它们能消灭那么多的昆虫，其中包括一些人类的大敌，要不是人类受一些食虫动物的保护，昆虫就会使我们无法在地球上生活下去，昆虫会吞食我们的全部庄稼，杀死我们的成群的牛羊。我们要十分感谢那些吃昆虫的鸟和兽，然而把它们所杀死的昆虫全部加在一起也只相当于蜘蛛所消灭的一小部分。此外，蜘蛛不同于其他食虫动物，它们丝毫不危害我们和我们的财物。 
+许多人认为蜘蛛是昆虫，但它们不是昆虫，甚至与昆虫毫无关系。人们几乎一眼就能看出二者的差异，因为蜘蛛都是8条腿，而昆虫的腿从不超过6条。 
 有多少蜘蛛在为我们效力呢？一位研究蜘蛛的权威对英国南部一块草坪上的蜘蛛作了一次调查。他估计每英亩草坪里有225万多只蜘蛛。这就是说，在一个足球场上约有600万只不同种类的蜘蛛。蜘蛛至少有半年在忙于吃昆虫。它们一年中消灭了多少昆虫，我们简直无法猜测，它们是吃不饱的动物，不满意一日三餐。据估计，在英国蜘蛛一年里所消灭昆虫的重量超过这个国家人口的总重量。
 
 ---
 
 ## Lesson 3 Matterhorn man 马特霍恩山区人
+*WALTER UNSWORTH Matterhorn Man*
 
 ### 课文原文
 
 Modern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded. In the pioneering days, however, this was not the case at all. The early climbers were looking for the easiest way to the top, because the summit was the prize they sought, especially if it had never been attained before. It is true that during their explorations they often faced difficulties and dangers of the most perilous nature, equipped in a manner which would make a modern climber shudder at the thought, but they did not go out of their way to court such excitement. They had a single aim, a solitary goal -- the top!
+
 It is hard for us to realize nowadays how difficult it was for the pioneers. Except for one or two places such as Zermatt and Chamonix, which had rapidly become popular, Alpine villages tended to be impoverished settlements cut off from civilization by the high mountains. Such inns as there were generally dirty and flea-ridden; the food simply local cheese accompanied by bread often twelve months old, all washed down with coarse wine. Often a valley boasted no inn at all, and climbers found shelter wherever they could -- sometimes with the local priest who was usually as poor as his parishioners, sometimes with shepherds or cheese-makers. Invariably the background was the same: dirt and poverty, and very uncomfortable. For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home, the change to the Alps must have been very hard indeed.
-WALTER UNSWORTH Matterhorn Man
- Bergdorf,a mountain village in Switzerland
 
 ### New words and expressions 生词和短语
 
-- Matterhorn  /ˈmætɚˌhɔrn/ n. 马特霍恩峰（阿尔卑斯山峰之一，在意大利和瑞士边境）
-- alpinist /ˈælpɪnɪst/ n.登山运动员
-- pioneer /ˌpaɪəˈnɪr/ v.开辟，倡导；n.先锋，开辟者
-- summit /ˈsʌmɪt/ n. 顶峰
-- attain /əˈten/  v. 到达
-- perilous  /ˈpɛrələs/ adj. 危险的
-- shudder /ˈʃʌdɚ/ v. 不寒而栗
-- court /kɔrt/ v. 追求
-- solitary /ˈsɑlɪˌtɛri/ adj. 唯一的
-- impoverish  /ɪmˈpɑvərɪʃ/  v. 使贫困
-- Alpine  /ˈælˌpaɪn/ adj. 阿尔卑斯山的
-- flea-ridden /fli: 'rɪdn/ adj. 布满跳蚤的
-- coarse  /kɔrs/ adj. 粗劣的
-- boast /bost/ v.自恃有
-- parishioner /pəˈrɪʃənɚ/ n. 教区居民
-- shepherd /ˈʃepərd/ n.牧羊人
-- linen /ˈlɪnən/ n.亚麻布床单
-- the Alps /ði ælps/ n.阿尔卑斯山脉
+Matterhorn  /ˈmætɚˌhɔrn/ n. 马特霍恩峰（阿尔卑斯山峰之一，在意大利和瑞士边境）
+alpinist /ˈælpɪnɪst/ n.登山运动员
+pioneer /ˌpaɪəˈnɪr/ v.开辟，倡导；n.先锋，开辟者
+summit /ˈsʌmɪt/ n. 顶峰
+attain /əˈten/  v. 到达
+perilous  /ˈpɛrələs/ adj. 危险的
+shudder /ˈʃʌdɚ/ v. 不寒而栗
+court /kɔrt/ v. 追求
+solitary /ˈsɑlɪˌtɛri/ adj. 唯一的
+impoverish  /ɪmˈpɑvərɪʃ/  v. 使贫困
+Alpine  /ˈælˌpaɪn/ adj. 阿尔卑斯山的
+flea-ridden /fli: 'rɪdn/ adj. 布满跳蚤的
+coarse  /kɔrs/ adj. 粗劣的
+boast /bost/ v.自恃有
+parishioner /pəˈrɪʃənɚ/ n. 教区居民
+shepherd /ˈʃepərd/ n.牧羊人
+linen /ˈlɪnən/ n.亚麻布床单
+the Alps /ði ælps/ n.阿尔卑斯山脉
 
 ### Notes on the text 课文注释
 
-- 1、in the pioneering days,在初创时期，这里指登山运动的初创期。
-- 2、equipped in a manner which would make a modern climber shudder at the thought,他们的装备如此简陋，足以使现代登山者一想起来就胆战心惊。at the thought,一想到（他们的装备），英文中省略了 of the manner.
-- 3、go out of one's way 特地，不怕麻烦
-- 4、cut off... from... 把...与...隔绝
-- 5、such inns as there were 那里有的小客栈，as there were 用来修饰inns,作定语。
-- 6、the food simply local cheese,在food 后面省略了was。
+1、in the pioneering days,在初创时期，这里指登山运动的初创期。
+2、equipped in a manner which would make a modern climber shudder at the thought,他们的装备如此简陋，足以使现代登山者一想起来就胆战心惊。at the thought,一想到（他们的装备），英文中省略了 of the manner.
+3、go out of one's way 特地，不怕麻烦
+4、cut off... from... 把...与...隔绝
+5、such inns as there were 那里有的小客栈，as there were 用来修饰inns,作定语。
+6、the food simply local cheese,在food 后面省略了was。
 
 ### 参考译文
 
@@ -134,35 +124,30 @@ WALTER UNSWORTH Matterhorn Man
 
 ---
 
-## Lesson 4 Seeing hands  能看见东西的手
+## Lesson 4 Seeing hands 能看见东西的手
 
 ### 课文原文
 
-Several cases have been reported in Russia recently of people who can read and detect colours with their fingers, and even see through solid doors and walls. One case concerns an eleven-year-old schoolgirl, Vera Petrova, who has normal vision but who can also perceive things with different parts of her skin, and through solid walls. This ability was first noticed by her father. One day she came into his office and happened to put her hands on the door of a locked safe. Suddenly she asked her father why he kept so many old newspapers locked away there, and even described the way they were done up in bundles.
-Vera's curious talent was brought to the notice of a scientific research institute in the town of Ulyanovsk, near where she lives, and in April she was given a series of tests by a special commission of the Ministry of Health of the Russian Federal Republic. During these tests she was able to read a newspaper through an opaque screen and, stranger still, by moving her elbow over a child's game of Lotto she was able to describe the figures and colours printed on it; and, in another instance, wearing stockings and slippers, to make out with her foot the outlines and colours of a picture hidden under a carpet. Other experiments showed that her knees and shoulders had a similar sensitivity. During all these tests Vera was blindfold; and, indeed, except when blindfold she lacked the ability to perceive things with her skin. It was also found that although she could perceive things with her fingers this ability ceased the moment her hands were wet.
-ERIC DE MAUNY Seeing hands from The Listener
- Another Russian girl,Rosa Kuleshova,reads blindfold.
-
 ### New words and expressions 生词和短语
 
-- solid  /ˈsɑlɪd/ adj 坚实的
-- safe /sef/ n.保险柜
-- Ulyanovsk /ulˈjɑnəfsk/ n.乌里扬诺夫斯克
-- commission /kəˈmɪʃən/ n.委员会
-- opaque /oʊˈpeɪk/ adj.不透明的
-- lotto  /'lɑ:toʊ/  n.一种有编号的纸牌
-- slipper /ˈslɪpɚ/ n.拖鞋
-- blindfold /ˈblaɪndfoʊld/ adj.& adv. 被蒙上眼睛的
+solid  /ˈsɑlɪd/ adj 坚实的
+safe /sef/ n.保险柜
+Ulyanovsk /ulˈjɑnəfsk/ n.乌里扬诺夫斯克
+commission /kəˈmɪʃən/ n.委员会
+opaque /oʊˈpeɪk/ adj.不透明的
+lotto  /'lɑ:toʊ/  n.一种有编号的纸牌
+slipper /ˈslɪpɚ/ n.拖鞋
+blindfold /ˈblaɪndfoʊld/ adj.& adv. 被蒙上眼睛的
 
 ### Notes on the text 课文注释
 
-- 1 of people who can read...,这个定语从句用来修饰主语cases,由于太长，因此被移至谓语之后。
-- 2 through solid walls与 with different parts of her skin并列，作perceive的状语。
-- 3 lock something away,把...锁藏起来。
-- 4 do up,引起捆，包
-- 5 bring...to the notice of, 引起某人注意。
-- 6 except when blindfold, 其中when之后省略了she was。
-- 7 the moment her hands were wet,这是一个时间状语从句,the moment 有"一....就...."的意思。
+1 of people who can read...,这个定语从句用来修饰主语cases,由于太长，因此被移至谓语之后。
+2 through solid walls与 with different parts of her skin并列，作perceive的状语。
+3 lock something away,把...锁藏起来。
+4 do up,引起捆，包
+5 bring...to the notice of, 引起某人注意。
+6 except when blindfold, 其中when之后省略了she was。
+7 the moment her hands were wet,这是一个时间状语从句,the moment 有"一....就...."的意思。
 
 ### 参考译文
 
@@ -175,42 +160,35 @@ ERIC DE MAUNY Seeing hands from The Listener
 
 ### 课文原文
 
-People are always talking about 'the problem of youth'. If there is one -- which I take leave to doubt -- then it is older people who create it, not the young themselves. Let us get down to fundamentals and agree that the young are after all human beings -- people just like their elders. There is only one difference between an old man and a young one: the young man has a glorious future before him and the old one has a splendid future behind him: and maybe that is where the rub is.
-When I was a teenager, I felt that I was just young and uncertain -- that I was a new boy in a huge school, and I would have been very pleased to be regarded as something so interesting as a problem. For one thing, being a problem gives you a certain identity, and that is one of the things the young are busily engaged in seeking.
-I find young people exciting. They have an air of freedom, and they have not a dreary commitment to mean ambitions or love of comfort. They are not anxious social climbers, and they have no devotion to material things. All this seems to me to link them with life, and the origins of things. It's as if they were, in some sense, cosmic beings in violent and lovely contrast with us suburban creatures. All that is in my mind when I meet a young person. He may be conceited, ill-mannered, presumptuous or fatuous, but I do not turn for protection to dreary cliches about respect for elders -- as if mere age were a reason for respect. I accept that we are equals, and I will argue with him, as an equal, if I think he is wrong.
-FIELDEN HUGHES from Out of the Air, The Listener
-
-A group of young people
-
 ### New words and expressions 生词和短语
 
-- leave n.允许
-- fundamentals n.基本原则
-- glorious adj.光辉灿烂的
-- splendid adj.灿烂的
-- rub n.难题
-- identity n.身份
-- dreary adj.沉郁的
-- commitment n.信奉
-- mean adj.吝啬，小气
-- social climber 追求更高社会地位的人，向上爬的人
-- devotion n.热爱
-- cosmic adj.宇宙的
-- suburban adj.见识不广的，偏狭的
-- conceited adj.自高自大的
-- presumptuous adj 自以为是的，放肆的
-- fatuous adj. 愚蠢的
-- cliche n.陈词滥调
+leave n.允许
+fundamentals n.基本原则
+glorious adj.光辉灿烂的
+splendid adj.灿烂的
+rub n.难题
+identity n.身份
+dreary adj.沉郁的
+commitment n.信奉
+mean adj.吝啬，小气
+social climber 追求更高社会地位的人，向上爬的人
+devotion n.热爱
+cosmic adj.宇宙的
+suburban adj.见识不广的，偏狭的
+conceited adj.自高自大的
+presumptuous adj 自以为是的，放肆的
+fatuous adj. 愚蠢的
+cliche n.陈词滥调
 
 ### Notes on the text 课文注释
 
-- 1 which I take leave to doubt,这是一个插入成分，用两个破折号与句子的主要部分分工。take leave to do sth.是“擅自做”，“冒昧去做”的意思。
-- 2 get down to,认真处理，认真研究。
-- 3 ... that is where the rub is. There's the rub. = That's the problem 这就是问题所在
-- 4 for one thing,首先。
-- 5 air of freedom,无拘无束。
-- 6 in some sense,在某种意义上。
-- 7 turn to...for ...,为...而求助于....。
+1 which I take leave to doubt,这是一个插入成分，用两个破折号与句子的主要部分分工。take leave to do sth.是“擅自做”，“冒昧去做”的意思。
+2 get down to,认真处理，认真研究。
+3 ... that is where the rub is. There's the rub. = That's the problem 这就是问题所在
+4 for one thing,首先。
+5 air of freedom,无拘无束。
+6 in some sense,在某种意义上。
+7 turn to...for ...,为...而求助于....。
 
 ### 参考译文
 
@@ -220,38 +198,39 @@ A group of young people
 ---
 
 ## Lesson 6 The sporting spirit 体育的精神
+*GEORGE ORWELL The sporting spirit*
 
 ### 课文原文
 
 I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the world could meet one another at football or cricket, they would have no inclination to meet on the battlefield. Even if one didn't know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce it from general principles.
+
 Nearly all the sports practised nowadays are competitive. You play to win, and the game has little meaning unless you do your utmost to win. On the village green, where you pick up sides and no feeling of local patriotism is involved, it is possible to play simply for the fun and exercise: but as soon as the question of prestige arises, as soon as you feel that you and some larger unit will be disgraced if you lose, the most savage combative instincts are aroused. Anyone who has played even in a school football match knows this. At the international level, sport is frankly mimic warfare. But the significant thing is not the behaviour of the players but the attitude of the spectators: and, behind the spectators, of the nations who work themselves into furies over these absurd contests, and seriously believe -- at any rate for short periods -- that running, jumping and kicking a ball are tests of national virtue.
-GEORGE ORWELL The sporting spirit
 
 ### New words and expressions 生词和短语
 
-- goodwill n.友好
-- cricket n.板球
-- inclination n.意愿
-- contest n.比赛
-- orgy n.无节制，放荡
-- deduce v.推断
-- competitive adj.竞争性的
-- patriotism n.地方观念，爱国主义
-- disgrace v.使丢脸
-- savage adj.野性的
-- combative adj.好斗的
-- mimic 模拟战争
-- behaviour n.行动，举止
-- absurd adj.荒唐的
+goodwill n.友好
+cricket n.板球
+inclination n.意愿
+contest n.比赛
+orgy n.无节制，放荡
+deduce v.推断
+competitive adj.竞争性的
+patriotism n.地方观念，爱国主义
+disgrace v.使丢脸
+savage adj.野性的
+combative adj.好斗的
+mimic 模拟战争
+behaviour n.行动，举止
+absurd adj.荒唐的
 
 ### Notes on the text 课文注释
 
-- 1 if only the common peoples of the world...,这里 if only 引导的一个非真实条件句，if only作“只要”讲。
-- 2 have no inclination to do,无意做.....,不想做.....。
-- 3 deduce...from... 从...推断出....。
-- 4 You play to win. 句中的you 是泛指人，可译作“人们”。
-- 5 pick up,随意挑选。
-- 6 and,behind the spectators,of the nations,在of the nations前面省略了the attitude。
+1 if only the common peoples of the world...,这里 if only 引导的一个非真实条件句，if only作“只要”讲。
+2 have no inclination to do,无意做.....,不想做.....。
+3 deduce...from... 从...推断出....。
+4 You play to win. 句中的you 是泛指人，可译作“人们”。
+5 pick up,随意挑选。
+6 and,behind the spectators,of the nations,在of the nations前面省略了the attitude。
 
 ### 参考译文
 
@@ -261,41 +240,43 @@ GEORGE ORWELL The sporting spirit
 ---
 
 ## Lesson 7 Bats 蝙蝠
+*MAURICE BURTON Curiosities of animal life*
 
 ### 课文原文
 
 Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.
+
 To get a full appreciation of what this means we must turn first to some recent human inventions. Everyone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back. The further off this solid obstruction, the longer time will elapse for the return of the echo. A sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes, the depth of the sea at that point can be calculated. So was born the echo-sounding apparatus, now in general use in ships. Every solid object will reflect a sound, varying according to the size and nature of the object. A shoal of fish will do this. So it is a comparatively simple step from locating the sea bottom to locating a shoal of fish. With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.
+
 It has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed. This echo-location in bats is often compared with radar, the principle of which is similar.
-MAURICE BURTON Curiosities of animal life
 
 Echo-location in bats is often compared with radar.
 
 ### New words and expressions 生词和短语
 
-- bat n.蝙蝠
-- strictly adv. 明确的
-- utilitarian adj.实用的
-- appreciation n.理解
-- obstruction n.障碍物
-- elapse v.消逝
-- hull n.船体
-- interval n.间隔
-- receipt n.收到
-- apparatus n.仪器
-- shoal n.鱼群
-- herring n.鲱鱼
-- cod n.鳕鱼
-- squeak n.尖叫声
+bat n.蝙蝠
+strictly adv. 明确的
+utilitarian adj.实用的
+appreciation n.理解
+obstruction n.障碍物
+elapse v.消逝
+hull n.船体
+interval n.间隔
+receipt n.收到
+apparatus n.仪器
+shoal n.鱼群
+herring n.鲱鱼
+cod n.鳕鱼
+squeak n.尖叫声
 
 ### Notes on the text 课文注释
 
-- 1 Not all sounds made by animals serve as language,动物发出的声音不全是作语言交际。此句采用了部分否定，即不是否定所有的动物，而只是一部分。serve as,作...之用。
-- 2 turn to,求助于。
-- 3 play a role in,在...方面起作用。
-- 4 in the vicinity of,在...的附近。
-- 5 So was born the echo-sounding apparatus,这样就诞生了回声探测仪。这是一个倒装句，主要是为了避免因主语过长而使全句失去平衡，同时也为了使apparatus的定语now in general use in ships紧挨着名词。in general use,普遍使用。
-- 6 steer clear of,避开。
+1 Not all sounds made by animals serve as language,动物发出的声音不全是作语言交际。此句采用了部分否定，即不是否定所有的动物，而只是一部分。serve as,作...之用。
+2 turn to,求助于。
+3 play a role in,在...方面起作用。
+4 in the vicinity of,在...的附近。
+5 So was born the echo-sounding apparatus,这样就诞生了回声探测仪。这是一个倒装句，主要是为了避免因主语过长而使全句失去平衡，同时也为了使apparatus的定语now in general use in ships紧挨着名词。in general use,普遍使用。
+6 steer clear of,避开。
 
 ### 参考译文
 
@@ -310,31 +291,33 @@ Echo-location in bats is often compared with radar.
 ### 课文原文
 
 Chickens slaughtered in the United States, claim officials in Brussels, are not fit to grace European tables. No, say the Americans: our fowl are fine, we simply clean them in a different way. These days, it is differences in national regulations, far more than tariffs, that put sand in the wheels of trade between rich countries. It is not just farmers who are complaining. An electric razor that meets the European Union's safety standards must be approved by American testers before it can be sold in the United States, and an American-made dialysis machine needs the EU's okay before it hits the market in Europe.
+
 As it happens, a razor that is safe in Europe is unlikely to electrocute Americans. So, ask businesses on both sides of the Atlantic, why have two lots of tests where one would do? Politicians agree, in principle, so America and the EU have been trying to reach a deal which would eliminate the need to double-test many products. They hope to finish in time for a trade summit between America and the EU on May 28th. Although negotiators are optimistic, the details are complex enough that they may be hard-pressed to get a deal at all. Why? One difficulty is to construct the agreements. The Americans would happily reach one accord on standards for medical devices and then hammer out different pacts covering, say, electronic goods and drug manufacturing. The EU -- following fine continental traditions -- wants agreement on general principles, which could be applied to many types of products and perhaps extended to other countries.
+
 From: The Economist, May 24th, 1997
 
 An electric razor that meets the European Union's safety standards must be approved by American testers before it can be sold in the United States.
 
 ### New words and expressions 生词和短语
 
-- slaughter v.屠宰
-- fit adj.适合
-- grace v.给...增光
-- tariff n.关税
-- standard n.标准
-- dialysis n.分离，分解；透析，渗析
-- electrocute v.使触电身亡
-- eliminate v.消灭
-- accord n.协议
-- device n.仪器，器械
-- hammer out v.推敲
-- pact n.合同，条约，公约
+slaughter v.屠宰
+fit adj.适合
+grace v.给...增光
+tariff n.关税
+standard n.标准
+dialysis n.分离，分解；透析，渗析
+electrocute v.使触电身亡
+eliminate v.消灭
+accord n.协议
+device n.仪器，器械
+hammer out v.推敲
+pact n.合同，条约，公约
 
 ### Notes on the text 课文注释
 
-- 1 Chickens slaughtered in ... to grace European tables.在这句话中引用了布鲁塞尔官员的评论，却没有放在引号之中。这种方式常用于报刊文章，对读者的直接影响更大。在claim officials in Brussels中，动词claim置于名词之前。
-- 2 it is differences in national regulations .. between rich countries.是各国管理条例上的差异，而不是关税阻碍了发达国家之间的贸易。这是一个it 引导的强调句。put sand in the wheels of,阻碍，阻挠。
-- 3 So, ask businesses on both sides of the Atlantic,why have two lots of tests where one would do?这是另一个没有引号的直接引语的例子。注意why have two...do 中的语序，这是非常口语化的直接引语的语序。
+1 Chickens slaughtered in ... to grace European tables.在这句话中引用了布鲁塞尔官员的评论，却没有放在引号之中。这种方式常用于报刊文章，对读者的直接影响更大。在claim officials in Brussels中，动词claim置于名词之前。
+2 it is differences in national regulations .. between rich countries.是各国管理条例上的差异，而不是关税阻碍了发达国家之间的贸易。这是一个it 引导的强调句。put sand in the wheels of,阻碍，阻挠。
+3 So, ask businesses on both sides of the Atlantic,why have two lots of tests where one would do?这是另一个没有引号的直接引语的例子。注意why have two...do 中的语序，这是非常口语化的直接引语的语序。
 
 ### 参考译文
 
@@ -344,51 +327,51 @@ An electric razor that meets the European Union's safety standards must be appro
 ---
 
 ## Lesson 9 Royal espionage 王室谍报活动
+*BERNARD NEWMAN Spies in Britain*
 
 ### 课文原文
 
 Alfred the Great acted as his own spy, visiting Danish camps disguised as a minstrel. In those days wandering minstrels were welcome everywhere. They were not fighting men, and their harp was their passport. Alfred had learned many of their ballads in his youth, and could vary his programme with acrobatic tricks and simple conjuring.
-While Alfred's little army slowly began to gather at Athelney, the king himself set out to penetrate the camp of Guthrum, the commander of the Danish invaders. These had settled down for the winter at Chippenham: thither Alfred went. He noticed at once that discipline was slack: the Danes had the self-confidence of conquerors, and their security precautions were casual. They lived well, on the proceeds of raids on neighbouring regions. There they collected women as well as food and drink, and a life of ease had made them soft. Alfred stayed in the camp a week before he returned to Athelney. The force there assembled was trivial compared with the Danish horde. But Alfred had deduced that the Danes were no longer fit for prolonged battle: and that their commissariat had no organization, but depended on irregular raids.
-So, faced with the Danish advance, Alfred did not risk open battle but harried the enemy. He was constantly on the move, drawing the Danes after him. His patrols halted the raiding parties: hunger assailed the Danish army. Now Alfred began a long series of skirmishes -- and within a month the Danes had surrendered. The episode could reasonably serve as a unique epic of royal espionage!
-BERNARD NEWMAN Spies in Britain
 
-Alfred,disguised as a harpist, in the camp of the Danes
+While Alfred's little army slowly began to gather at Athelney, the king himself set out to penetrate the camp of Guthrum, the commander of the Danish invaders. These had settled down for the winter at Chippenham: thither Alfred went. He noticed at once that discipline was slack: the Danes had the self-confidence of conquerors, and their security precautions were casual. They lived well, on the proceeds of raids on neighbouring regions. There they collected women as well as food and drink, and a life of ease had made them soft. Alfred stayed in the camp a week before he returned to Athelney. The force there assembled was trivial compared with the Danish horde. But Alfred had deduced that the Danes were no longer fit for prolonged battle: and that their commissariat had no organization, but depended on irregular raids.
+
+So, faced with the Danish advance, Alfred did not risk open battle but harried the enemy. He was constantly on the move, drawing the Danes after him. His patrols halted the raiding parties: hunger assailed the Danish army. Now Alfred began a long series of skirmishes -- and within a month the Danes had surrendered. The episode could reasonably serve as a unique epic of royal espionage!
 
 ### New words and expressions 生词和短语
 
-- espionage(title) n.间谍活动
-- Alfred(849-899) 公元871-899年间任英国国王
-- Danish adj. 丹麦的，丹麦人的，丹麦语的
-- minstrel n.中世纪的吟游歌手
-- wandering adj.漫游的
-- harp n.竖琴
-- ballad n.民歌
-- acrobatic adj. 杂技的
-- conjuring n.魔术
-- Athelney n.阿塞尔纳（英国一个小岛）
-- Chippenham n.切本哈姆（英国一城市）
-- thither adv.向那里
-- Dane n.丹麦人
-- slack adj.涣散的
-- conqueror n.征服者
-- casual adj.马虎的，随便的
-- precaution n.预防，警惕
-- proceeds n.所得
-- assemble v.集合
-- trivial adj.微不足道的
-- prolonged adj.持久的
-- commissariat n.军粮供应
-- episode n.一个事件，片断
-- epic n.史诗
-- harry v.骚扰
-- assail v.袭击
-- skirmish n.小规模战斗
+espionage(title) n.间谍活动
+Alfred(849-899) 公元871-899年间任英国国王
+Danish adj. 丹麦的，丹麦人的，丹麦语的
+minstrel n.中世纪的吟游歌手
+wandering adj.漫游的
+harp n.竖琴
+ballad n.民歌
+acrobatic adj. 杂技的
+conjuring n.魔术
+Athelney n.阿塞尔纳（英国一个小岛）
+Chippenham n.切本哈姆（英国一城市）
+thither adv.向那里
+Dane n.丹麦人
+slack adj.涣散的
+conqueror n.征服者
+casual adj.马虎的，随便的
+precaution n.预防，警惕
+proceeds n.所得
+assemble v.集合
+trivial adj.微不足道的
+prolonged adj.持久的
+commissariat n.军粮供应
+episode n.一个事件，片断
+epic n.史诗
+harry v.骚扰
+assail v.袭击
+skirmish n.小规模战斗
 
 ### Notes on the text 课文注释
 
-- 1 settle down,驻扎
-- 2 They lived well,on the proceeds of raids,他们的生活舒适，靠袭击（周围地区）掠夺得到的财物为生。live on ,靠为生。
-- 3 be fit for,适宜于.....。
+1 settle down,驻扎
+2 They lived well,on the proceeds of raids,他们的生活舒适，靠袭击（周围地区）掠夺得到的财物为生。live on ,靠为生。
+3 be fit for,适宜于.....。
 
 ### 参考译文
 
@@ -400,46 +383,45 @@ Alfred,disguised as a harpist, in the camp of the Danes
 ---
 
 ## Lesson 10 Silicon valley 硅谷
+*US NEWS AND WORLD REPORT, October 2, 1989*
 
 ### 课文原文
 
 Technology trends may push Silicon Valley back to the future. Carver Mead, a pioneer in integrated circuits and a professor of computer science at the California Institute of Technology, notes there are now work-stations that enable engineers to design, test and produce chips right on their desks, much the way an editor creates a newsletter on a Macintosh. As the time and cost of making a chip drop to a few days and a few hundred dollars, engineers may soon be free to let their imaginations soar without being penalized by expensive failures. Mead predicts that inventors will be able to perfect powerful customized chips over a weekend at the office -- spawning a new generation of garage start-ups and giving the U.S. a jump on its foreign rivals in getting new products to market fast. 'We've got more garages with smart people,' Mead observes. 'We really thrive on anarchy.'
-And on Asians. Already, orientals and Asian Americans constitute the majority of the engineering staffs at many Valley firms. And Chinese, Korean, Filipino and Indian engineers are graduating in droves from California's colleges. As the heads of next-generation start-ups, these Asian innovators can draw on customs and languages to forge tighter links with crucial Pacific Rim markets. For instance, Alex Au, a Stanford Ph. D. from Hong Kong, has set up a Taiwan factory to challenge Japan's near lock on the memory-chip market. India-born N.Damodar Reddy's tiny California company reopened an AT&T chip plant in Kansas City last spring with financing from the state of Missouri. Before it becomes a retirement village, Silicon Valley may prove a classroom for building a global business.
-US NEWS AND WORLD REPORT, October 2, 1989
 
-Aerial view of Silicon Valley
+And on Asians. Already, orientals and Asian Americans constitute the majority of the engineering staffs at many Valley firms. And Chinese, Korean, Filipino and Indian engineers are graduating in droves from California's colleges. As the heads of next-generation start-ups, these Asian innovators can draw on customs and languages to forge tighter links with crucial Pacific Rim markets. For instance, Alex Au, a Stanford Ph. D. from Hong Kong, has set up a Taiwan factory to challenge Japan's near lock on the memory-chip market. India-born N.Damodar Reddy's tiny California company reopened an AT&T chip plant in Kansas City last spring with financing from the state of Missouri. Before it becomes a retirement village, Silicon Valley may prove a classroom for building a global business.
 
 ### New words and expressions 生词和短语
 
-- silicon n.硅
-- integrated adj.综合的
-- circuit n. 线路，电路
-- California n.加利福尼亚（美国州名）
-- workstation n.工作站
-- chip n.芯片，集成电路片，集成块
-- newsletter n.时事通讯
-- Macintosh n.苹果机，一种个人电脑
-- penalize v.处罚，惩罚
-- customize v.按顾客具体需要制造
-- spawn v.引起，酿成
-- thrive v.兴旺，繁荣
-- anarchy n.无政府状态，混乱
-- oriental n.东方人
-- constitute v.构成
-- drove n.群
-- innovator n.发明者
-- forge v.发展
-- memory-chip n.内存条
-- AT&T 美国电话电报公司(American Telephone and Telegraph)
-- Kansas n.堪萨斯（美国州名）
-- Missouri n.密苏里(美国州名)
+silicon n.硅
+integrated adj.综合的
+circuit n. 线路，电路
+California n.加利福尼亚（美国州名）
+workstation n.工作站
+chip n.芯片，集成电路片，集成块
+newsletter n.时事通讯
+Macintosh n.苹果机，一种个人电脑
+penalize v.处罚，惩罚
+customize v.按顾客具体需要制造
+spawn v.引起，酿成
+thrive v.兴旺，繁荣
+anarchy n.无政府状态，混乱
+oriental n.东方人
+constitute v.构成
+drove n.群
+innovator n.发明者
+forge v.发展
+memory-chip n.内存条
+AT&T 美国电话电报公司(American Telephone and Telegraph)
+Kansas n.堪萨斯（美国州名）
+Missouri n.密苏里(美国州名)
 
 ### Notes on the text 课文注释
 
-- 1 much the way an editor creates a newsletter,就像一位编辑出一份时事通讯一样。
-- 2 be free to,可以做....。
-- 3 in droves,一批批，成群地。
-- 4 draw on,依靠，凭借。
+1 much the way an editor creates a newsletter,就像一位编辑出一份时事通讯一样。
+2 be free to,可以做....。
+3 in droves,一批批，成群地。
+4 draw on,依靠，凭借。
 
 ### 参考译文
 
@@ -448,40 +430,38 @@ Aerial view of Silicon Valley
 ---
 
 ## Lesson 11 How to grow old 如何安度晚年
+*BERTRAND RUSSELL How to grow old from Portraits from Memory*
 
 ### 课文原文
 
 Some old people are oppressed by the fear of death. In the young there is a justification for this feeling. Young men who have reason to fear that they will be killed in battle may justifiably feel bitter in the thought that they have been cheated of the best things that life has to offer. But in an old man who has known human joys and sorrows, and has achieved whatever work it was in him to do, the fear of death is somewhat abject and ignoble. The best way to overcome it -- so at least it seems to me -- is to make your interests gradually wider and more impersonal, until bit by bit the walls of the ego recede, and your life becomes increasingly merged in the universal life. An individual human existence should be like a river -- small at first, narrowly contained within its banks, and rushing passionately past boulders and over waterfalls. Gradually the river grows wider, the banks recede, the waters flow more quietly, and in the end, without any visible break, they become merged in the sea, and painlessly lose their individual being. The man who, in old age, can see his life in this way, will not suffer from the fear of death, since the things he cares for will continue. And if, with the decay of vitality, weariness increases, the thought of rest will be not unwelcome. I should wish to die while still at work, knowing that others will carry on what I can no longer do, and content in the thought that what was possible has been done.
-BERTRAND RUSSELL How to grow old from Portraits from Memory
-
-Bertrand Ressell speaking at a protest meeting in Trafalgar Square
 
 ### New words and expressions 生词和短语
 
-- oppress v.忧郁，压抑
-- justification n.正当理由
-- justifiably adv.无可非议地
-- cheat v.欺骗
-- abject adj.可怜的
-- ignoble adj.不体面的，可耻的
-- impersonal adj.超脱个人感情影响的
-- ego n.自我
-- recede v.退去
-- incresingly adv.日益，不断
-- passionately adv.激昂地
-- painlessly adv.毫无痛苦地
-- vitality n.精力
-- veariness n.疲惫感
+oppress v.忧郁，压抑
+justification n.正当理由
+justifiably adv.无可非议地
+cheat v.欺骗
+abject adj.可怜的
+ignoble adj.不体面的，可耻的
+impersonal adj.超脱个人感情影响的
+ego n.自我
+recede v.退去
+incresingly adv.日益，不断
+passionately adv.激昂地
+painlessly adv.毫无痛苦地
+vitality n.精力
+veariness n.疲惫感
 
 ### Notes on the text 课文注释
 
-- 1 in the young,在年轻人身上。
-- 2 Young men who have reason...that life has to offer.这个句子较长，其中有3个that。第1个that引导一个宾语从句that...battle,是fear的宾语。第2个that引导一个同位语从句that they...to offer,说明thought的内容。第2个that引导一个定语从句that life has to offer,修饰things。
-- 3 cheat of...,从...那里骗取....。
-- 4 whatever work it was in him to do,他所能做的任何工作。
-- 5 so at least it seems to me,这里一个插入语，用了倒装语序，自然的语序是at least it seems so to me。
-- 6 bit by bit,一点一点地。
-- 7 the thought of rest 是death的一种委婉说法。
+1 in the young,在年轻人身上。
+2 Young men who have reason...that life has to offer.这个句子较长，其中有3个that。第1个that引导一个宾语从句that...battle,是fear的宾语。第2个that引导一个同位语从句that they...to offer,说明thought的内容。第2个that引导一个定语从句that life has to offer,修饰things。
+3 cheat of...,从...那里骗取....。
+4 whatever work it was in him to do,他所能做的任何工作。
+5 so at least it seems to me,这里一个插入语，用了倒装语序，自然的语序是at least it seems so to me。
+6 bit by bit,一点一点地。
+7 the thought of rest 是death的一种委婉说法。
 
 ### 参考译文
 
@@ -490,38 +470,36 @@ Bertrand Ressell speaking at a protest meeting in Trafalgar Square
 ---
 
 ## Lesson 12 Banks and their customers 银行和顾客
+*GORDON BARRIE and AUBREY L. DLAMOND The Consumer Society and the Law*
 
 ### 课文原文
 
 When anyone opens a current account at a bank, he is lending the bank money, repayment of which he may demand at any time, either in cash or by drawing a cheque in favour of another person. Primarily, the banker-customer relationship is that of debtor and creditor -- who is which depending on whether the customer's account is in credit or is overdrawn. But, in addition to that basically simple concept, the bank and its customer owe a large number of obligations to one another. Many of these obligations can give rise to problems and complications but a bank customer, unlike, say, a buyer of goods, cannot complain that the law is loaded against him. The bank must obey its customer's instructions, and not those of anyone else. When, for example, a customer first opens an account, he instructs the bank to debit his account only in respect of cheques drawn by himself. He gives the bank specimens of his signature, and there is a very firm rule that the bank has no right or authority to pay out a customer's money on a cheque on which its customer's signature has been forged. It makes no difference that the forgery may have been a very skillful one: the bank must recognize its customer's signature. For this reason there is no risk to the customer in the practice, adopted by banks, of printing the customer's name on his cheques. If this facilitates forgery, it is the bank which will lose, not the customer.
-GORDON BARRIE and AUBREY L. DLAMOND The Consumer Society and the Law
-
-National Westminster Bank at Queen St.in Cardiff
 
 ### New words and expressions 生词和短语
 
-- current adj.通用的，流行的
-- account n.账户
-- cash n.现金
-- cheque n.支票
-- debtor n.借方
-- creditor n.贷方
-- obligation n.义务
-- complication n.纠纷
-- debit v.把...记入借方
-- specimen n.样本
-- forge v.伪造
-- forgery n.伪造（文件，签名等）
-- adopt v.采用
-- facilitate v.使便利
+current adj.通用的，流行的
+account n.账户
+cash n.现金
+cheque n.支票
+debtor n.借方
+creditor n.贷方
+obligation n.义务
+complication n.纠纷
+debit v.把...记入借方
+specimen n.样本
+forge v.伪造
+forgery n.伪造（文件，签名等）
+adopt v.采用
+facilitate v.使便利
 
 ### Notes on the text 课文注释
 
-- 1 open a current account,开一个活期账号
-- 2 draw a cheque in favour of ...，开一张以...为收款人的支票。
-- 3 who is which depending on ...is overdrawn,这是现在分词短语depending on ...is overdrawn的独立主格结构。who is which是分词短语意思上的主语，which代表debtor or creditor。
-- 4 give rise to,引起。
-- 5 be loaded against...,与...不利。
+1 open a current account,开一个活期账号
+2 draw a cheque in favour of ...，开一张以...为收款人的支票。
+3 who is which depending on ...is overdrawn,这是现在分词短语depending on ...is overdrawn的独立主格结构。who is which是分词短语意思上的主语，which代表debtor or creditor。
+4 give rise to,引起。
+5 be loaded against...,与...不利。
 
 ### 参考译文
 
@@ -535,63 +513,63 @@ National Westminster Bank at Queen St.in Cardiff
 ### 课文原文
 
 The deepest holes of all are made for oil, and they go down to as much as 25,000 feet. But we do not need to send men down to get the oil out, as we must with other mineral deposits. The holes are only borings, less than a foot in diameter. My particular experience is largely in oil, and the search for oil has done more to improve deep drilling than any other mining activity. When it has been decided where we are going to drill, we put up at the surface an oil derrick. It has to be tall because it is like a giant block and tackle, and we have to lower into the ground and haul out of the ground great lengths of drill pipe which are rotated by an engine at the top and are fitted with a cutting bit at the bottom.
-The geologist needs to know what rocks the drill has reached, so every so often a sample is obtained with a coring bit. It cuts a clean cylinder of rock, from which can be seen the strata the drill has been cutting through. Once we get down to the oil, it usually flows to the surface because great pressure, either from gas or water, is pushing it. This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe. We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas. We want it to stay down the hole until we can lead it off in a controlled manner.
-T.F.GASKELL The Search for the Earth's Minerals from Discovery
 
-An oil rig drilling in the Abu Dhabi offshore oilfields in the Persian Gulf
+The geologist needs to know what rocks the drill has reached, so every so often a sample is obtained with a coring bit. It cuts a clean cylinder of rock, from which can be seen the strata the drill has been cutting through. Once we get down to the oil, it usually flows to the surface because great pressure, either from gas or water, is pushing it. This pressure must be under control, and we control it by means of the mud which we circulate down the drill pipe. We endeavour to avoid the old, romantic idea of a gusher, which wastes oil and gas. We want it to stay down the hole until we can lead it off in a controlled manner.
+
+T.F.GASKELL The Search for the Earth's Minerals from Discovery
 
 ### New words and expressions 生词和短语
 
-- mineral adj. 矿物的
-- boring n. 钻孔
-- derrick n. 井架
-- block and tackle 滑轮组
-- haul v. 拖，拉
-- rotate v. 使转动
-- cutting bit 钻头
-- geologist n. 地质学家
-- coring bit 取芯钻头
-- cylinder n. 圆柱体
-- strata n. 岩层[复]([单]stratum或strata [误用])
-- circulate v. 注入，环流
-- gusher n. 喷油井
+mineral adj. 矿物的
+boring n. 钻孔
+derrick n. 井架
+block and tackle 滑轮组
+haul v. 拖，拉
+rotate v. 使转动
+cutting bit 钻头
+geologist n. 地质学家
+coring bit 取芯钻头
+cylinder n. 圆柱体
+strata n. 岩层[复]([单]stratum或strata [误用])
+circulate v. 注入，环流
+gusher n. 喷油井
 
 ### Notes on the text 课文注释
 
-- 1.they go down to as much as 25,0000 feet，as much as意为“多达”，“达到（量）”。
-- as+形容词+as表示“……达”，例如：as long as长达……，as tall as高达……，as expensive as贵至……。
-- 例句：The rain could last for as long as several weeks in summer.
-- 夏天的雨下起来可以长达几周。
-- 2.as we must with other mineral deposits，must后面省去了与上句中相同的部分send men down。
-- 3.a foot in diameter，直径一英尺。
-- 4.every so often，时常。
-- 例句：I no longer see John regularly, but every so often he drops in at my office.
-- 我不再经常看见约翰了，但他偶尔还到我办公室来。
-- 5.obtain a sample，取样。
-- To obtain something means to get it or achieve it. (FORMAL)获得，取得某物。
-- 例句：Where can I obtain a copy of her latest book?
-- 在哪里能买到她最新出版的书？
-- 例句：He always manages to obtain what he wants.
-- 他总是有办法得到他想要的东西。
-- 形容词形式为obtainable：If something is obtainable, it is possible to get or achieve it.
-- 例句：The timetable is obtainable post-free from the airline office.
-- 航班时刻表可以向航空公司免费索取。
-- 6.be under control处于控制之下。
-- 例句：The fire has been brought under control.
-- 火势已受到控制。
-- 例句：You must get your spending under control.
-- 你必须节制开支。
-- 7.by means of，用……，靠……手段。
-- 例句：They succeeded by means of hard working.
-- 他们依靠努力工作而获得成功。
-- 例句：They were able to position the yacht by means of radar.
-- 他们能够用雷达测定快艇的方位。
-- 8.endeavour to，努力去，尽力去。
-- If you endeavour to do something, you try very hard to do it. 同义词组喂strive to。
-- 例句：They endeavoured to make her happy but in vain.
-- 他们尽量使她快乐，却徒劳无功。
-- 例句：Strive to build China into a powerful socialist country!
-- 为把中国建成社会主义强国而奋斗！
+1.they go down to as much as 25,0000 feet，as much as意为“多达”，“达到（量）”。
+as+形容词+as表示“……达”，例如：as long as长达……，as tall as高达……，as expensive as贵至……。
+例句：The rain could last for as long as several weeks in summer.
+夏天的雨下起来可以长达几周。
+2.as we must with other mineral deposits，must后面省去了与上句中相同的部分send men down。
+3.a foot in diameter，直径一英尺。
+4.every so often，时常。
+例句：I no longer see John regularly, but every so often he drops in at my office.
+我不再经常看见约翰了，但他偶尔还到我办公室来。
+5.obtain a sample，取样。
+To obtain something means to get it or achieve it. (FORMAL)获得，取得某物。
+例句：Where can I obtain a copy of her latest book?
+在哪里能买到她最新出版的书？
+例句：He always manages to obtain what he wants.
+他总是有办法得到他想要的东西。
+形容词形式为obtainable：If something is obtainable, it is possible to get or achieve it.
+例句：The timetable is obtainable post-free from the airline office.
+航班时刻表可以向航空公司免费索取。
+6.be under control处于控制之下。
+例句：The fire has been brought under control.
+火势已受到控制。
+例句：You must get your spending under control.
+你必须节制开支。
+7.by means of，用……，靠……手段。
+例句：They succeeded by means of hard working.
+他们依靠努力工作而获得成功。
+例句：They were able to position the yacht by means of radar.
+他们能够用雷达测定快艇的方位。
+8.endeavour to，努力去，尽力去。
+If you endeavour to do something, you try very hard to do it. 同义词组喂strive to。
+例句：They endeavoured to make her happy but in vain.
+他们尽量使她快乐，却徒劳无功。
+例句：Strive to build China into a powerful socialist country!
+为把中国建成社会主义强国而奋斗！
 
 ### 参考译文
 
@@ -601,41 +579,41 @@ An oil rig drilling in the Abu Dhabi offshore oilfields in the Persian Gulf
 ---
 
 ## Lesson 14 The Butterfly Effect 蝴蝶效应
+*JAMES GLEICK, Chaos*
 
 ### 课文原文
 
 Beyond two or three days, the world's best weather forecasts are speculative, and beyond six or seven they are worthless.
-The Butterfly Effect is the reason. For small pieces of weather -- and to a global forecaster, small can mean thunderstorms and blizzards -- any prediction deteriorates rapidly. Errors and uncertainties multiply, cascading upward through a chain of turbulent features, from dust devils and squalls up to continent-size eddies that only satellites can see. The modern weather models work with a grid of points of the order of 60 miles apart, and even so, some starting data has to be guessed, since ground stations and satellites cannot see everywhere. But suppose the earth could be covered with sensors spaced one foot apart, rising at one-foot intervals all the way to the top of the atmosphere. Suppose every sensor gives perfectly accurate readings of temperature, pressure, humidity, and any other quantity a meteorologist would want. Precisely at noon an infinitely powerful computer takes all the data and calculates what will happen at each point at 12.01, then 12.02, then 12.03...
-The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away. At noon the spaces between the sensors will hide fluctuations that the computer will not know about, tiny deviations from the average. By 12.01, those fluctuations will already have created small errors one foot away. Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.
-JAMES GLEICK, Chaos
 
-View of the 76 metre diameter Mark 1A radio telescope at Jodrell Bank near Manchester,England
+The Butterfly Effect is the reason. For small pieces of weather -- and to a global forecaster, small can mean thunderstorms and blizzards -- any prediction deteriorates rapidly. Errors and uncertainties multiply, cascading upward through a chain of turbulent features, from dust devils and squalls up to continent-size eddies that only satellites can see. The modern weather models work with a grid of points of the order of 60 miles apart, and even so, some starting data has to be guessed, since ground stations and satellites cannot see everywhere. But suppose the earth could be covered with sensors spaced one foot apart, rising at one-foot intervals all the way to the top of the atmosphere. Suppose every sensor gives perfectly accurate readings of temperature, pressure, humidity, and any other quantity a meteorologist would want. Precisely at noon an infinitely powerful computer takes all the data and calculates what will happen at each point at 12.01, then 12.02, then 12.03...
+
+The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away. At noon the spaces between the sensors will hide fluctuations that the computer will not know about, tiny deviations from the average. By 12.01, those fluctuations will already have created small errors one foot away. Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.
 
 ### New words and expressions 生词和短语
 
-- forecast n.预报
-- speculative adj.推测的
-- blizzard n.暴风雪
-- deteriorate v.变坏，恶化
-- multiply v.增加
-- cascade v.瀑布似的落下
-- turbulent adj.狂暴的
-- dust devil 小尘暴，尘旋风
-- squall n.暴风
-- eddy n.旋涡
-- grid n.坐标方格
-- sensor n.传感器
-- humidity n.湿度
-- meteorologist n.气象学家
-- princeton n.普林斯顿（美国城市）
-- New Jersey n.新泽西（美国州名）
-- fluctuation n.起伏，波动
-- deviation n.偏差
+forecast n.预报
+speculative adj.推测的
+blizzard n.暴风雪
+deteriorate v.变坏，恶化
+multiply v.增加
+cascade v.瀑布似的落下
+turbulent adj.狂暴的
+dust devil 小尘暴，尘旋风
+squall n.暴风
+eddy n.旋涡
+grid n.坐标方格
+sensor n.传感器
+humidity n.湿度
+meteorologist n.气象学家
+princeton n.普林斯顿（美国城市）
+New Jersey n.新泽西（美国州名）
+fluctuation n.起伏，波动
+deviation n.偏差
 
 ### Notes on the text 课文注释
 
-- 1 beyond two or thre days,超过两-三天。
-- 2 of the order of,大约。
+1 beyond two or thre days,超过两-三天。
+2 of the order of,大约。
 
 ### 参考译文
 
@@ -650,27 +628,26 @@ View of the 76 metre diameter Mark 1A radio telescope at Jodrell Bank near Manch
 ### 课文原文
 
 Two factors weigh heavily against the effectiveness of scientific research in industry. One is the general atmosphere of secrecy in which it is carried out, the other the lack of freedom of the individual research worker.In so far as any inquiry is a secret one, it naturally limits all those engaged in carrying it out from effective contact with their fellow scientists either in other countries or in universities, or even, often enough, in other departments of the same firm. The degree of secrecy naturally varies considerably. Some of the bigger firms are engaged in researches which are of such general and fundamental nature that it is a positive advantage to them not to keep them secret. Yet a great many processes depending on such research are sought for with complete secrecy until the stage at which patents can be taken out. Even more processes are never patented at all but kept as secret processes. This applies particularly to chemical industries, where chance discoveries play a much larger part than they do in physical and mechanical industries. Sometimes the secrecy goes to such an extent that the whole nature of the research cannot be mentioned. Many firms, for instance, have great difficulty in obtaining technical or scientific books from libraries because they are unwilling to have their names entered as having taken out such and such a book, for fear the agents of other firms should be able to trace the kind of research they are likely to be undertaking.
-J.D. BERNAL The Social Function of Science
 
-A scientist working at the 'Arcton' Laboratories in Cheshire
+J.D. BERNAL The Social Function of Science
 
 ### New words and expressions 生词和短语
 
-- secrecy n.秘密
-- effectiveness n.成效，效力
-- inquiry n.调查研究
-- positive adj.确实的
-- process n.过程
-- patent n.专利；v.得到专利权
-- agent n.情报人员
+secrecy n.秘密
+effectiveness n.成效，效力
+inquiry n.调查研究
+positive adj.确实的
+process n.过程
+patent n.专利；v.得到专利权
+agent n.情报人员
 
 ### Notes on the text 课文注释
 
-- 1 weigh against,不利于....。
-- 2 in so far as...,就...而言。
-- 3 which are of such general and fundamental nature,其中to be of 有“具有”的意思。
-- 4 are sought for with complete secrecy,极端秘密地探索。
-- 5 such and such a book,某一本书。
+1 weigh against,不利于....。
+2 in so far as...,就...而言。
+3 which are of such general and fundamental nature,其中to be of 有“具有”的意思。
+4 are sought for with complete secrecy,极端秘密地探索。
+5 such and such a book,某一本书。
 
 ### 参考译文
 
@@ -679,42 +656,40 @@ A scientist working at the 'Arcton' Laboratories in Cheshire
 ---
 
 ## Lesson 16 The modern city 现代城市
+*ALEXIS CARREL Man, the Unknown*
 
 ### 课文原文
 
 In the organisation of industrial life the influence of the factory upon the physiological and mental state of the workers has been completely neglected. Modern industry is based on the conception of the maximum production at lowest cost, in order that an individual or a group of individuals may earn as much money as possible. It has expanded without any idea of the true nature of the human beings who run the machines, and without giving any consideration to the effects produced on the individuals and on their descendants by the artificial mode of existence imposed by the factory. The great cities have been built with no regard for us. The shape and dimensions of the skyscrapers depend entirely on the necessity of obtaining the maximum income per square foot of ground, and of offering to the tenants offices and apartments that please them. This caused the construction of gigantic buildings where too large masses of human beings are crowded together. Civilised men like such a way of living. While they enjoy the comfort and banal luxury of their dwelling, they do not realise that they are deprived of the necessities of life. The modern city consists of monstrous edifices and of dark, narrow streets full of petrol fumes and toxic gases, torn by the noise of the taxicabs, lorries and buses, and thronged ceaselessly by great crowds. Obviously, it has not been planned for the good of its inhabitants.
-ALEXIS CARREL Man, the Unknown
-
-An aerial view of Pittsburgh,Pennsylvania
 
 ### New words and expressions 生词和短语
 
-- physiological adj.生理的
-- maximum adj.最大限度的
-- consideration n.考虑
-- descendant n.子孙，后代
-- artificial adj.人工的
-- impose v.强加
-- dimension n.直径
-- skyscraper n.摩天大楼
-- tenant n.租户
-- civilized adj.文明的
-- banal adj.平庸的
-- luxury n.豪华
-- deprive v.剥夺
-- monstrous adj.畸形的
-- edifice n.大厦
-- toxic adj.有毒的
-- ceaselessly adv.不停地
-- throng v.挤满，壅塞
+physiological adj.生理的
+maximum adj.最大限度的
+consideration n.考虑
+descendant n.子孙，后代
+artificial adj.人工的
+impose v.强加
+dimension n.直径
+skyscraper n.摩天大楼
+tenant n.租户
+civilized adj.文明的
+banal adj.平庸的
+luxury n.豪华
+deprive v.剥夺
+monstrous adj.畸形的
+edifice n.大厦
+toxic adj.有毒的
+ceaselessly adv.不停地
+throng v.挤满，壅塞
 
 ### Notes on the text 课文注释
 
-- 1 in order that...,以使....,为了....,引导目的状语从句。
-- 2 without any idea of,完全忽视...。
-- 3 without giving any consideration to ...,完全不考虑....。
-- 4 with no regard for,不考虑....。
-- 5 be deprived of,被剥夺。
+1 in order that...,以使....,为了....,引导目的状语从句。
+2 without any idea of,完全忽视...。
+3 without giving any consideration to ...,完全不考虑....。
+4 with no regard for,不考虑....。
+5 be deprived of,被剥夺。
 
 ### 参考译文
 
@@ -723,47 +698,46 @@ An aerial view of Pittsburgh,Pennsylvania
 ---
 
 ## Lesson 17 A man-made disease 人为的疾病
+*RITCHIE CALDER Science Makes Sense*
 
 ### 课文原文
 
 In the early days of the settlement of Australia,enterprising settlers unwisely introduced the European rabbit. This rabbit had no natural enemies in the Antipodes, so that it multiplied with that promiscuous abandon characteristic of rabbits. It overran a whole continent. It caused devastation by burrowing and by devouring the herbage which might have maintained millions of sheep and cattle. Scientists discovered that this particular variety of rabbit (and apparently no other animal) was susceptible to a fatal virus disease, myxomatosis. By infecting animals and letting them loose in the burrows, local epidemics of this disease could be created. Later it was found that there was a type of mosquito which acted as the carrier of this disease and passed it on to the rabbits. So while the rest of the world was trying to get rid of mosquitoes, Australia was encouraging this one. It effectively spread the disease all over the continent and drastically reduced the rabbit population. It later became apparent that rabbits were developing a degree of resistance to this disease, so that the rabbit population was unlikely to be completely exterminated. There were hopes, however, that the problem of the rabbit would become manageable.
-Ironically, Europe, which had bequeathed the rabbit as a pest to Australia acquired this man-made disease as a pestilence. A French physician decided to get rid of the wild rabbits on his own estate and introduced myxomatosis. It did not, however, remain within the confines of his estate.It spread through France where wild rabbits are not generally regarded as a pest but as a sport and a useful food supply, and it spread to Britain where wild rabbits are regarded as a pest but where domesticated rabbits, equally susceptible to the disease, are the basis of a profitable fur industry. The question became one of whether Man could control the disease he had invented.
-RITCHIE CALDER Science Makes Sense
 
-Rabbits drinking at a waterhole in Australia
+Ironically, Europe, which had bequeathed the rabbit as a pest to Australia acquired this man-made disease as a pestilence. A French physician decided to get rid of the wild rabbits on his own estate and introduced myxomatosis. It did not, however, remain within the confines of his estate.It spread through France where wild rabbits are not generally regarded as a pest but as a sport and a useful food supply, and it spread to Britain where wild rabbits are regarded as a pest but where domesticated rabbits, equally susceptible to the disease, are the basis of a profitable fur industry. The question became one of whether Man could control the disease he had invented.
 
 ### New words and expressions 生词和短语
 
-- settlement n.新拓居地
-- enterprising adj.有事业心的
-- settler n.移居者
-- Antipodes n.(the ~)新西兰和澳大利亚（英）
-- promiscuous adj.杂乱的
-- abandon n.放任，纵情
-- overrun v.蔓延，泛滥
-- devastation n.破坏，劫掠
-- burrow v.挖、掘
-- susceptible adj.易受感染的
-- virus n.病毒
-- Myxomatosis n.多发性粘液瘤
-- infect v.传染
-- epidemic n.流行病
-- mosquito n.蚊虫
-- carrier n.带菌者
-- exterminate v.消灭
-- ironically adv.具有讽刺意味的
-- bequeath v.把...传给
-- pest n.害虫，有害动物
-- pestilence n.瘟疫
-- confine n.范围
-- domesticate v.驯养
+settlement n.新拓居地
+enterprising adj.有事业心的
+settler n.移居者
+Antipodes n.(the ~)新西兰和澳大利亚（英）
+promiscuous adj.杂乱的
+abandon n.放任，纵情
+overrun v.蔓延，泛滥
+devastation n.破坏，劫掠
+burrow v.挖、掘
+susceptible adj.易受感染的
+virus n.病毒
+Myxomatosis n.多发性粘液瘤
+infect v.传染
+epidemic n.流行病
+mosquito n.蚊虫
+carrier n.带菌者
+exterminate v.消灭
+ironically adv.具有讽刺意味的
+bequeath v.把...传给
+pest n.害虫，有害动物
+pestilence n.瘟疫
+confine n.范围
+domesticate v.驯养
 
 ### Notes on the text 课文注释
 
-- 1 so that it multiplied with that promiscuous abandon characteristic of rabbits,这里so that引导的一个结果状语从句，可译成“因此便以兔子所特有的杂乱交配繁衍后代”。
-- 2 be susceptible to ...,易受...感染的，易受...影响的。
-- 3 let loose,让乱跑。
-- 4 pass ... on to,把...传给。
+1 so that it multiplied with that promiscuous abandon characteristic of rabbits,这里so that引导的一个结果状语从句，可译成“因此便以兔子所特有的杂乱交配繁衍后代”。
+2 be susceptible to ...,易受...感染的，易受...影响的。
+3 let loose,让乱跑。
+4 pass ... on to,把...传给。
 
 ### 参考译文
 
@@ -773,48 +747,47 @@ Rabbits drinking at a waterhole in Australia
 ---
 
 ## Lesson 18 Porpoises 海豚
+*RALPH NADING HILL Window in the Sea*
 
 ### 课文原文
 
 There has long been a superstition among mariners that porpoises will save drowning men by pushing them to the surface, or protect them from sharks by surrounding them in defensive formation. Marine Studio biologists have pointed out that, however intelligent they may be, it is probably a mistake to credit dolphins with any motive of lifesaving. On the occasions when they have pushed to shore an unconscious human being they have much more likely done it out of curiosity or for sport, as in riding the bow waves of a ship. In 1928 some porpoises were photographed working like beavers to push ashore a waterlogged mattress. If, as has been reported, they have protected humans from sharks, it may have been because curiosity attracted them and because the scent of a possible meal attracted the sharks. Porpoises and sharks are natural enemies. It is possible that upon such an occasion a battle ensued, with the sharks being driven away or killed.
-Whether it be bird, fish or beast, the porpoise is intrigued with anything that is alive. They are constantly after the turtles, who peacefully submit to all sorts of indignities. One young calf especially enjoyed raising a turtle to the surface with his snout and then shoving him across the tank like an aquaplane. Almost any day a young porpoise may be seen trying to turn a 300-pound sea turtle over by sticking his snout under the edge of his shell and pushing up for dear life. This is not easy, and may require two porpoises working together. In another game, as the turtle swims across the oceanarium, the first porpoise swoops down from above and butts his shell with his belly. This knocks the turtle down several feet. He no sooner recovers his equilibrium than the next porpoise comes along and hits him another crack. Eventually the turtle has been butted all the way down to the floor of the tank. He is now satisfied merely to try to stand up, but as soon as he does so a porpoise knocks him flat. The turtle at last gives up by pulling his feet under his shell and the game is over.
-RALPH NADING HILL Window in the Sea
 
-Dolphins jumping at marineland in California
+Whether it be bird, fish or beast, the porpoise is intrigued with anything that is alive. They are constantly after the turtles, who peacefully submit to all sorts of indignities. One young calf especially enjoyed raising a turtle to the surface with his snout and then shoving him across the tank like an aquaplane. Almost any day a young porpoise may be seen trying to turn a 300-pound sea turtle over by sticking his snout under the edge of his shell and pushing up for dear life. This is not easy, and may require two porpoises working together. In another game, as the turtle swims across the oceanarium, the first porpoise swoops down from above and butts his shell with his belly. This knocks the turtle down several feet. He no sooner recovers his equilibrium than the next porpoise comes along and hits him another crack. Eventually the turtle has been butted all the way down to the floor of the tank. He is now satisfied merely to try to stand up, but as soon as he does so a porpoise knocks him flat. The turtle at last gives up by pulling his feet under his shell and the game is over.
 
 ### New words and expressions 生词和短语
 
-- porpoise n. 海豚
-- mariner n. 水手
-- shark n. 鲨鱼
-- formation n. 队形
-- dolphin n. 海豚科动物
-- unconscious adj. 不省人事
-- beaver n. 海狸
-- ashore adv. 上岸
-- waterlogged adj. 浸满水的
-- scent n. 香味
-- ensue v. 接着发生
-- intrigue v. 引起兴趣
-- indignity n. 侮辱
-- snout n. 口鼻部
-- shove v. 硬推
-- aquaplane n. 驾浪滑水板
-- oceanarium n. 水族馆
-- swoop v. 猛扑
-- belly n. 腹部
-- equilibrium n. 平衡
-- butt v. 碰撞
-- crack n. 重击
+porpoise n. 海豚
+mariner n. 水手
+shark n. 鲨鱼
+formation n. 队形
+dolphin n. 海豚科动物
+unconscious adj. 不省人事
+beaver n. 海狸
+ashore adv. 上岸
+waterlogged adj. 浸满水的
+scent n. 香味
+ensue v. 接着发生
+intrigue v. 引起兴趣
+indignity n. 侮辱
+snout n. 口鼻部
+shove v. 硬推
+aquaplane n. 驾浪滑水板
+oceanarium n. 水族馆
+swoop v. 猛扑
+belly n. 腹部
+equilibrium n. 平衡
+butt v. 碰撞
+crack n. 重击
 
 ### Notes on the text 课文注释
 
-- 1、however intelligent they may be,不管它们有多聪明，这是一个让步状语从句。
-- 2、as in riding the how waves of a ship,就像它们追逐被船首犁开的浪花一样。
-- 3、If as has been reported,they have protected humans from sharks...,
-- as 是关系代词，代替they have protected humans from sharks.
-- 4、Whether it be bird,fish or beast...,这是一个让步状语从句，用的是虚拟语气形式。
-- 5、for dear life,拼命地。
+1、however intelligent they may be,不管它们有多聪明，这是一个让步状语从句。
+2、as in riding the how waves of a ship,就像它们追逐被船首犁开的浪花一样。
+3、If as has been reported,they have protected humans from sharks...,
+as 是关系代词，代替they have protected humans from sharks.
+4、Whether it be bird,fish or beast...,这是一个让步状语从句，用的是虚拟语气形式。
+5、for dear life,拼命地。
 
 ### 参考译文
 
@@ -827,35 +800,31 @@ Dolphins jumping at marineland in California
 
 ### 课文原文
 
-It is fairly clear that the sleeping period must have some function, and because there is so much of it the function would seem to be important. Speculations about its nature have been going on for literally thousands of years, and one odd finding that makes the problem puzzling is that it looks very much as if sleeping is not simply a matter of giving the body a rest.' Rest ', in terms of muscle relaxation and so on, can be achieved by a brief period lying, or even sitting down. The body's tissues are self-repairing and self-restoring to a degree, and function best when more or less continuously active. In fact a basic amount of movement occurs during sleep which is specifically concerned with preventing muscle inactivity.
-If it is not a question of resting the body, then perhaps it is the brain that needs resting? This might be a plausible hypothesis were it not for two factors. First the electroencephalograph (which is simply a device for recording the electrical activity of the brain by attaching electrodes to the scalp) shows that while there is a change in the pattern of activity during sleep, there is no evidence that the total amount of activity is any less. The second factor is more interesting and more fundamental. Some years ago, an American psychiatrist named William Dement published experiments dealing with the recording of eye-movements during sleep. He showed that the average individual's sleep cycle is punctuated with peculiar bursts of eye-movements, some drifting and slow, others jerky and rapid. People woken during these periods of eye-movements generally reported that they had been dreaming. When woken at other times they reported no dreams. If one group of people were disturbed from their eye-movement sleep for several nights on end, and another group were disturbed for an equal period of time but when they were not exhibiting eye-movements, the first group began to show some personality disorders while the others seemed more or less unaffected. The implications of all this were that it was not the disturbance of sleep that mattered, but the disturbance of dreaming.
-CHRISTOPHER EVANS The stuff of dreams from The Listener
-
 Circadian rhythm experiment. A patient is asleep in a sleep research laboratory.Electrocles are attached to his head to measure brainwaves.
 
 ### New words and expressions 生词和短语
 
-- speculation n. 推测
-- literally adv. 确实
-- odd adj. 奇特的
-- tissue n. 组织
-- plausible adj. 似乎有理的
-- hypothesis n. 假说
-- electroencephalograph n. 脑电图仪
-- electrode n. 电极
-- scalp n. 头皮
-- psychiatrist n. 精神病学家
-- punctuate v. 不时介入
-- jerky adj. 急动的
-- disorder n. 失调
-- implication n. 表明
+speculation n. 推测
+literally adv. 确实
+odd adj. 奇特的
+tissue n. 组织
+plausible adj. 似乎有理的
+hypothesis n. 假说
+electroencephalograph n. 脑电图仪
+electrode n. 电极
+scalp n. 头皮
+psychiatrist n. 精神病学家
+punctuate v. 不时介入
+jerky adj. 急动的
+disorder n. 失调
+implication n. 表明
 
 ### Notes on the text 课文注释
 
-- 1 in terms of muscle relaxation and so on,从使肌肉得到放松等方面来看。in terms of,从...方面看。
-- 2 then perhaps it is the brain that need resting?这是个陈述句的语序，但句尾加问号，表示说话人对这种观点有把握但需进一步证实。
-- 3 were it not far two factors ,这是省略了if 的条件句，可译作“如果不是下面两个因素的话”。
-- 4 servral nights on end,一连几夜。
+1 in terms of muscle relaxation and so on,从使肌肉得到放松等方面来看。in terms of,从...方面看。
+2 then perhaps it is the brain that need resting?这是个陈述句的语序，但句尾加问号，表示说话人对这种观点有把握但需进一步证实。
+3 were it not far two factors ,这是省略了if 的条件句，可译作“如果不是下面两个因素的话”。
+4 servral nights on end,一连几夜。
 
 ### 参考译文
 
@@ -865,55 +834,55 @@ Circadian rhythm experiment. A patient is asleep in a sleep research laboratory.
 ---
 
 ## Lesson 20 Snake poison 蛇
+*JOHN CROMPTON The snake*
 
 ### 课文原文
 
 How it came about that snakes manufactured poison is a mystery. Over the periods their saliva, a mild, digestive juice like our own, was converted into a poison that defies analysis even today. It was not forced upon them by the survival competition; they could have caught and lived on prey without using poison, just as the thousands of non-poisonous snakes still do. Poison to a snake is merely a luxury; it enables it to get its food with very little effort, no more effort than one bite. And why only snakes? Cats, for instance, would be greatly helped; no running fights with large, fierce rats or tussles with grown rabbits -- just a bite and no more effort needed. In fact, it would be an assistance to all carnivores though it would be a two-edged weapon when they fought each other. But, of the vertebrates, unpredictable Nature selected only snakes (and one lizard). One wonders also why Nature, with some snakes, concocted poison of such extreme potency.
-In the conversion of saliva into poison, one might suppose that a fixed process took place. It did not; some snakes manufacture a poison different in every respect from that of others, as different as arsenic is from strychnine, and having different effects. One poison acts on the nerves, the other on the blood.
-The makers of the nerve poison include the mambas and the cobras and their venom is called neurotoxic. Vipers (adders) and rattlesnakes manufacture the blood poison, which is known as haemolytic. Both poisons are unpleasant, but by far the more unpleasant is the blood poison. It is said that the nerve poison is the more primitive of the two, that the blood poison is, so to speak, a newer product from an improved formula. Be that as it may, the nerve poison does its business with man far more quickly than the blood poison. This, however, means nothing. Snakes did not acquire their poison for use against man but for use against prey such as rats and mice, and the effects on these of viperine poison is almost immediate.
-JOHN CROMPTON The snake
 
-An Indian grass snake swallowing a frog
+In the conversion of saliva into poison, one might suppose that a fixed process took place. It did not; some snakes manufacture a poison different in every respect from that of others, as different as arsenic is from strychnine, and having different effects. One poison acts on the nerves, the other on the blood.
+
+The makers of the nerve poison include the mambas and the cobras and their venom is called neurotoxic. Vipers (adders) and rattlesnakes manufacture the blood poison, which is known as haemolytic. Both poisons are unpleasant, but by far the more unpleasant is the blood poison. It is said that the nerve poison is the more primitive of the two, that the blood poison is, so to speak, a newer product from an improved formula. Be that as it may, the nerve poison does its business with man far more quickly than the blood poison. This, however, means nothing. Snakes did not acquire their poison for use against man but for use against prey such as rats and mice, and the effects on these of viperine poison is almost immediate.
 
 ### New words and expressions 生词和短语
 
-- saliva n. 唾液
-- digestive adj. 助消化的
-- defy v. 使不可能
-- analysis n. 分析
-- prey n. 被捕食的动物
-- fierce adj. 凶猛的
-- tussle n. 扭打
-- carnivore n. 食肉动物
-- vertebrate n. 脊椎动物
-- lizard n. 蜥蜴
-- concoct v. 调制
-- potency n. 效力
-- conversion n. 转变
-- arsenic n. 砒霜
-- strychnine n. 马钱子碱
-- mamba n. 树眼镜蛇
-- cobra n. 眼镜蛇
-- venom n. 毒液
-- neurotoxic adj. 毒害神经的
-- viper n. 蝰蛇
-- adder n. 蝮蛇
-- rattlesnake n. 响尾蛇
-- haemolytic adj. 溶血性的
-- viperine adj. 毒蛇
+saliva n. 唾液
+digestive adj. 助消化的
+defy v. 使不可能
+analysis n. 分析
+prey n. 被捕食的动物
+fierce adj. 凶猛的
+tussle n. 扭打
+carnivore n. 食肉动物
+vertebrate n. 脊椎动物
+lizard n. 蜥蜴
+concoct v. 调制
+potency n. 效力
+conversion n. 转变
+arsenic n. 砒霜
+strychnine n. 马钱子碱
+mamba n. 树眼镜蛇
+cobra n. 眼镜蛇
+venom n. 毒液
+neurotoxic adj. 毒害神经的
+viper n. 蝰蛇
+adder n. 蝮蛇
+rattlesnake n. 响尾蛇
+haemolytic adj. 溶血性的
+viperine adj. 毒蛇
 
 ### Notes on the text 课文注释
 
-- 1 How it came about that snakes...a mystery,这句话的主语是一个句子：How it came about that snakes manufactured poison,谓语部分是is a mystery.主语从句中的it是形式主语，真正主语是that snakes manufactured poison,因为主语太长，所以使用it作先生主语的结构。
-- 2 over the periods,经过很长时间。
-- 3 live on,靠...生活。
-- 4 a two-edged weapon,一把双刃刀，这里的意思是：如果食肉动物都有毒液，就会造成食肉动物之间的互相残杀。
-- 5 act on,对...起作用。
-- 6 by far the more unpleasant,更难受得多，by far是“...得多”的意思。
-- 7 so to speak,插入语，有“可以这样说”，“打个比方说”的意思。
-- 8 Be that as it may,这是一个倒装的站步状语从句，相当于however that may be,可译成“尽管如此”。
-- 9 does its business with man,在人的身上发挥作用，要人的命。
-- 10 the effects on these of viperine poison,these是指rats and mice,介词宾语结构of viperine poison是作effects 的定语。
+1 How it came about that snakes...a mystery,这句话的主语是一个句子：How it came about that snakes manufactured poison,谓语部分是is a mystery.主语从句中的it是形式主语，真正主语是that snakes manufactured poison,因为主语太长，所以使用it作先生主语的结构。
+2 over the periods,经过很长时间。
+3 live on,靠...生活。
+4 a two-edged weapon,一把双刃刀，这里的意思是：如果食肉动物都有毒液，就会造成食肉动物之间的互相残杀。
+5 act on,对...起作用。
+6 by far the more unpleasant,更难受得多，by far是“...得多”的意思。
+7 so to speak,插入语，有“可以这样说”，“打个比方说”的意思。
+8 Be that as it may,这是一个倒装的站步状语从句，相当于however that may be,可译成“尽管如此”。
+9 does its business with man,在人的身上发挥作用，要人的命。
+10 the effects on these of viperine poison,these是指rats and mice,介词宾语结构of viperine poison是作effects 的定语。
 
 ### 参考译文
 
@@ -923,49 +892,49 @@ An Indian grass snake swallowing a frog
 
 ---
 
-## Lesson 21 Williams S.Hart and the early &#x27;Western&#x27; film
+## Lesson 21 Williams S.Hart and the early 'Western' film
+*CARL FOREMAN Virtue and a Fast Gun from The Observer*
 
 ### 课文原文
 
 William S. Hart was, perhaps, the greatest of all Western stars, for unlike Gary Cooper and John Wayne he appeared in nothing but Westerns. From 1914 to 1924 he was supreme and unchallenged. It was Hart who created the basic formula of the Western film, and devised the protagonist he played in every film he made, the good-bad man, the accidental-noble outlaw, or the honest-but-framed cowboy, or the sheriff made suspect by vicious gossip; in short, the individual in conflict with himself and his frontier environment.
-Unlike most of his contemporaries in Hollywood, Hart actually knew something of the old West. He had lived in it as a child when it was already disappearing, and his hero was firmly rooted in his memories and experiences, and in both the history and the mythology of the vanished frontier. And although no period or place in American history has been more absurdly romanticized, myth and reality did join hands in at least one arena, the conflict between the individual and encroaching civilization.
-Men accustomed to struggling for survival against the elements and Indians were bewildered by politicians, bankers and businessmen, and unhorsed by fences, laws and alien taboos. Hart's good-bad man was always an outsider, always one of the disinherited, and if he found it necessary to shoot a sheriff or rob a bank along the way, his early audiences found it easy to understand and forgive, especially when it was Hart who, in the end, overcame the attacking Indians. Audiences in the second decade of the twentieth century found it pleasant to escape to a time when life, though hard, was relatively simple. We still do; living in a world in which undeclared aggression, war, hypocrisy, chicanery, anarchy and impending immolation are part of our daily lives, we all want a code to live by.
-CARL FOREMAN Virtue and a Fast Gun from The Observer
 
-William S.Hart in an early Western
+Unlike most of his contemporaries in Hollywood, Hart actually knew something of the old West. He had lived in it as a child when it was already disappearing, and his hero was firmly rooted in his memories and experiences, and in both the history and the mythology of the vanished frontier. And although no period or place in American history has been more absurdly romanticized, myth and reality did join hands in at least one arena, the conflict between the individual and encroaching civilization.
+
+Men accustomed to struggling for survival against the elements and Indians were bewildered by politicians, bankers and businessmen, and unhorsed by fences, laws and alien taboos. Hart's good-bad man was always an outsider, always one of the disinherited, and if he found it necessary to shoot a sheriff or rob a bank along the way, his early audiences found it easy to understand and forgive, especially when it was Hart who, in the end, overcame the attacking Indians. Audiences in the second decade of the twentieth century found it pleasant to escape to a time when life, though hard, was relatively simple. We still do; living in a world in which undeclared aggression, war, hypocrisy, chicanery, anarchy and impending immolation are part of our daily lives, we all want a code to live by.
 
 ### New words and expressions 生词和短语
 
-- Supreme adj. 首屈一指
-- protagonist n. 主角
-- outlaw n. 逃犯，亡命之徒
-- framed adj. 遭到陷害的
-- vicious adj. 恶毒的
-- mythology n. 神话
-- vanished adj. 消失了的
-- absurdly adv. 荒诞地
-- arena n. 竞技场在
-- encroaching adj. 渐渐渗入的
-- Indian n. 印第安人
-- bewilder v. 使手足无措
-- alien adj. 外来的
-- taboo n. 戒律
-- disinherit v. 剥夺...继承权
-- undeclared adj. 未经宣布的
-- hypocrisy n. 伪善
-- chicanery n. 诈骗
-- impending adj. 迫近的，近在眉睫的
-- immolation n. 杀戮
-- code n. 准则
+Supreme adj. 首屈一指
+protagonist n. 主角
+outlaw n. 逃犯，亡命之徒
+framed adj. 遭到陷害的
+vicious adj. 恶毒的
+mythology n. 神话
+vanished adj. 消失了的
+absurdly adv. 荒诞地
+arena n. 竞技场在
+encroaching adj. 渐渐渗入的
+Indian n. 印第安人
+bewilder v. 使手足无措
+alien adj. 外来的
+taboo n. 戒律
+disinherit v. 剥夺...继承权
+undeclared adj. 未经宣布的
+hypocrisy n. 伪善
+chicanery n. 诈骗
+impending adj. 迫近的，近在眉睫的
+immolation n. 杀戮
+code n. 准则
 
 ### Notes on the text 课文注释
 
-- 1 nothing but,仅仅，只是。
-- 2 in short,总而言之，一句话。
-- 3 the old West,指密西西比河以西地区。
-- 4 be rooted in,生根于。
-- 5 join hands in,携手联合。
-- 6 live by,靠...过活。
+1 nothing but,仅仅，只是。
+2 in short,总而言之，一句话。
+3 the old West,指密西西比河以西地区。
+4 be rooted in,生根于。
+5 join hands in,携手联合。
+6 live by,靠...过活。
 
 ### 参考译文
 
@@ -980,35 +949,34 @@ William S.Hart in an early Western
 ### 课文原文
 
 Why does the idea of progress loom so large in the modern world? Surely because progress of a particular kind is actually taking place around us and is becoming more and more manifest. Although mankind has undergone no general improvement in intelligence or morality, it has made extraordinary progress in the accumulation of knowledge. Knowledge began to increase as soon as the thoughts of one individual could be communicated to another by means of speech. With the invention of writing, a great advance was made, for knowledge could then be not only communicated but also stored. Libraries made education possible, and education in its turn added to libraries: the growth of knowledge followed a kind of compound interest law, which was greatly enhanced by the invention of printing. All this was comparatively slow until, with the coming of science, the tempo was suddenly raised. Then knowledge began to be accumulated according to a systematic plan. The trickle became a stream; the stream has now become a torrent. Moreover, as soon as new knowledge is acquired, it is now turned to practical account. What is called 'modern civilization' is not the result of a balanced development of all man's nature, but of accumulated knowledge applied to practical life. The problem now facing humanity is: What is going to be done with all this knowledge? As is so often pointed out, knowledge is a two-edged weapon which can be used equally for good or evil. It is now being used indifferently for both. Could any spectacle, for instance, be more grimly whimsical than that of gunners using science to shatter men's bodies while, close at hand, surgeons use it to restore them? We have to ask ourselves very seriously what will happen if this twofold use of knowledge, with its ever-increasing power, continues.
-G.N.M.TYRRELL The Personality of Man
 
-A military field-hospital
+G.N.M.TYRRELL The Personality of Man
 
 ### New words and expressions 生词和短语
 
-- loom v. 赫然耸起
-- manifest adj.明显的
-- morality n. 道德
-- communicate v. 交流，交际
-- compound adj. 复合的
-- enhance v. 增进
-- tempo n. 速率
-- trickle n. 涓涓细流
-- torrent n. 滔滔洪流
-- humanity n. 人类
-- indifferently adv. 不在乎地
-- grimly adv. 可怖地
-- whimsical adj. 怪诞的
-- shatter v. 毁坏
-- twofold adj. 双重的
+loom v. 赫然耸起
+manifest adj.明显的
+morality n. 道德
+communicate v. 交流，交际
+compound adj. 复合的
+enhance v. 增进
+tempo n. 速率
+trickle n. 涓涓细流
+torrent n. 滔滔洪流
+humanity n. 人类
+indifferently adv. 不在乎地
+grimly adv. 可怖地
+whimsical adj. 怪诞的
+shatter v. 毁坏
+twofold adj. 双重的
 
 ### Notes on the text 课文注释
 
-- 1 with the invention of writing,短语中的with 是“由于”的意思。
-- 2 education in its turn added to libraries,教育反过来也丰富了藏书。
-- 3 a kind of compound interest law,一种复利法则。compound interest law有时也被称作雪球法则，即利上滚利，增长很快。
-- 4 turn... to account,利用...。
-- 5 Could any spectacle,...to restore them?这句话从形式上是个疑问句，但实质上起一个加强语气的陈述句的作用，这种疑问句常被称为修辞疑问句。
+1 with the invention of writing,短语中的with 是“由于”的意思。
+2 education in its turn added to libraries,教育反过来也丰富了藏书。
+3 a kind of compound interest law,一种复利法则。compound interest law有时也被称作雪球法则，即利上滚利，增长很快。
+4 turn... to account,利用...。
+5 Could any spectacle,...to restore them?这句话从形式上是个疑问句，但实质上起一个加强语气的陈述句的作用，这种疑问句常被称为修辞疑问句。
 
 ### 参考译文
 
@@ -1017,38 +985,36 @@ A military field-hospital
 ---
 
 ## Lesson 23 Bird flight 鸟的飞行方法
+*WILLIAM BEACH THOMAS A Countryman's Creed*
 
 ### 课文原文
 
 No two sorts of birds practise quite the same sort of flight; the varieties are infinite; but two classes may be roughly seen. Any ship that crosses the Pacific is accompanied for many days by the smaller albatross, which may keep company with the vessel for an hour without visible or more than occasional movement of wing. The currents of air that the walls of the ship direct upwards, as well as in the line of its course, are enough to give the great bird with its immense wings sufficient sustenance and progress. The albatross is the king of the gliders, the class of fliers which harness the air to their purpose, but must yield to its opposition. In the contrary school, the duck is supreme. It comes nearer to the engines with which man has 'conquered' the air, as he boasts. Duck, and like them the pigeons, are endowed with steel-like muscles, that are a good part of the weight of the bird, and these will ply the short wings with such irresistible power that they can bore for long distances through an opposing gale before exhaustion follows. Their humbler followers, such as partridges, have a like power of strong propulsion, but soon tire. You may pick them up in utter exhaustion, if wind over the sea has driven them to a long journey. The swallow shares the virtues of both schools in highest measure. It tires not, nor does it boast of its power; but belongs to the air,travelling it may be 6,000 miles to and from its northern nesting home, feeding its flown young as it flies, and slipping through a medium that seems to help its passage even when the wind is adverse. Such birds do us good, though we no longer take omens from their flight on this side and that; and even the most superstitious villagers no longer take off their hats to the magpie and wish it good-morning.
-WILLIAM BEACH THOMAS A Countryman's Creed
-
-A flock of wild geese in flight
 
 ### New words and expressions 生词和短语
 
-- albatross n. 信天翁
-- sustenance n. 支撑力
-- glider n. 滑翔者
-- harness v. 利用
-- endow v. 赋有
-- ply v. 不断地供给
-- gale n. 大风
-- partridge n. 鹧鸪
-- like adj. 类似的
-- propulsion n. 推进力
-- utter adj. 完全的
-- slip v. 滑行
-- adverse adj. 逆的，相反的
-- omen n. 预兆
+albatross n. 信天翁
+sustenance n. 支撑力
+glider n. 滑翔者
+harness v. 利用
+endow v. 赋有
+ply v. 不断地供给
+gale n. 大风
+partridge n. 鹧鸪
+like adj. 类似的
+propulsion n. 推进力
+utter adj. 完全的
+slip v. 滑行
+adverse adj. 逆的，相反的
+omen n. 预兆
 
 ### Notes on the text 课文注释
 
-- 1 keep company with,陪伴着....。
-- 2 The currents of air that the walls of the ship direct upwards,沿着船体上升的气流。
-- 3 steel-like muscles,that are a good part of the weight of the bird,句中以that引导的从句是一个非限定性定语从句，修饰muscles,但用that引导非限定性定语从句是很罕见的。
-- 4 in hghest measure,最大程度的。
-- 5 It tires no nor does it boast of its power,but belongs to the air,travelling it may be .. adverse.句中的tires not 是古英语或诗歌中使用的句式。boast of 中的of = about;belong to the air的意思是：与天空融为一体。travelling it may be是倒装语序，这是为了强调travelling 的生动逼真，自然语离是it may be travelling...;nesting home.意为home for nesting,flown young中的flown意为已会飞的。a medium(媒介)指air.
+1 keep company with,陪伴着....。
+2 The currents of air that the walls of the ship direct upwards,沿着船体上升的气流。
+3 steel-like muscles,that are a good part of the weight of the bird,句中以that引导的从句是一个非限定性定语从句，修饰muscles,但用that引导非限定性定语从句是很罕见的。
+4 in hghest measure,最大程度的。
+5 It tires no nor does it boast of its power,but belongs to the air,travelling it may be .. adverse.句中的tires not 是古英语或诗歌中使用的句式。boast of 中的of = about;belong to the air的意思是：与天空融为一体。travelling it may be是倒装语序，这是为了强调travelling 的生动逼真，自然语离是it may be travelling...;nesting home.意为home for nesting,flown young中的flown意为已会飞的。a medium(媒介)指air.
 
 ### 参考译文
 
@@ -1061,31 +1027,31 @@ A flock of wild geese in flight
 ### 课文原文
 
 A young man sees a sunset and, unable to understand or to express the emotion that it rouses in him, concludes that it must be the gateway to a world that lies beyond. It is difficult for any of us in moments of intense aesthetic experience to resist the suggestion that we are catching a glimpse of a light that shines down to us from a different realm of existence, different and, because the experience is intensely moving, in some way higher. And, though the gleams blind and dazzle, yet do they convey a hint of beauty and serenity greater than we have known or imagined. Greater too than we can describe; for language, which was invented to convey the meanings of this world, cannot readily be fitted to the uses of another.
-That all great art has this power of suggesting a world beyond is undeniable. In some moods, Nature shares it. There is no sky in June so blue that it does not point forward to a bluer, no sunset so beautiful that it does not waken the vision of a greater beauty, a vision which passes before it is fully glimpsed, and in passing leaves an indefinable longing and regret. But, if this world is not merely a bad joke, life a vulgar flare amid the cool radiance of the stars, and existence an empty laugh braying across the mysteries; if these intimations of a something behind and beyond are not evil humour born of indigestion, or whimsies sent by the devil to mock and madden us. If, in a word, beauty means something, yet we must not seek to interpret the meaning. If we glimpse the unutterable, it is unwise to try to utter it, nor should we seek to invest with significance that which we cannot grasp. Beauty in terms of our human meanings is meaningless.
-C.E.M.JOAD Pieces of Mind
 
-Detail of Madonna and Child - Filippo Lippi(C.1406-1469)
+That all great art has this power of suggesting a world beyond is undeniable. In some moods, Nature shares it. There is no sky in June so blue that it does not point forward to a bluer, no sunset so beautiful that it does not waken the vision of a greater beauty, a vision which passes before it is fully glimpsed, and in passing leaves an indefinable longing and regret. But, if this world is not merely a bad joke, life a vulgar flare amid the cool radiance of the stars, and existence an empty laugh braying across the mysteries; if these intimations of a something behind and beyond are not evil humour born of indigestion, or whimsies sent by the devil to mock and madden us. If, in a word, beauty means something, yet we must not seek to interpret the meaning. If we glimpse the unutterable, it is unwise to try to utter it, nor should we seek to invest with significance that which we cannot grasp. Beauty in terms of our human meanings is meaningless.
+
+C.E.M.JOAD Pieces of Mind
 
 ### New words and expressions 生词和短语
 
-- intense adj. 强烈的
-- aesthetic adj. 审美的
-- realm n. 世界
-- serenity n. 静谧
-- undeniable adj. 不可否认的
-- indefinable adj. 模糊不清的
-- vulgar adj. 平庸的
-- radiance n. 发光
-- intimation n. 暗示
-- unutterable adj. 不可言传的
-- invest v. 赋予
+intense adj. 强烈的
+aesthetic adj. 审美的
+realm n. 世界
+serenity n. 静谧
+undeniable adj. 不可否认的
+indefinable adj. 模糊不清的
+vulgar adj. 平庸的
+radiance n. 发光
+intimation n. 暗示
+unutterable adj. 不可言传的
+invest v. 赋予
 
 ### Notes on the text 课文注释
 
-- 1 in moments of intense aesthetic experience,在感受到强烈美的时候。
-- 2 in some way highter, in some way是“在某种程度上”的意思，higher与前面的different and是并列的，作realm of existence的定语。
-- 3 yet do they convey a hint of beauty,其中的do 起强调作用，放在主语之前更具有强调的意义。
-- 4 In some moods Nature shares it.在某种状态下，大自然也具有这种力量。it是指前面一句中this power of suggesting a world beyond.
+1 in moments of intense aesthetic experience,在感受到强烈美的时候。
+2 in some way highter, in some way是“在某种程度上”的意思，higher与前面的different and是并列的，作realm of existence的定语。
+3 yet do they convey a hint of beauty,其中的do 起强调作用，放在主语之前更具有强调的意义。
+4 In some moods Nature shares it.在某种状态下，大自然也具有这种力量。it是指前面一句中this power of suggesting a world beyond.
 
 ### 参考译文
 
@@ -1099,37 +1065,37 @@ Detail of Madonna and Child - Filippo Lippi(C.1406-1469)
 ### 课文原文
 
 Many people in industry and the Services, who have practical experience of noise, regard any investigation of this question as a waste of time; they are not prepared even to admit the possibility that noise affects people. On the other hand, those who dislike noise will sometimes use most inadequate evidence to support their pleas for a quieter society. This is a pity, because noise abatement really is a good cause. and it is likely to be discredited if it gets to be associated with bad science. One allegation often made is that noise produces mental illness. A recent article in a weekly newspaper, for instance, was headed with a striking illustration of a lady in a state of considerable distress, with the caption 'She was yet another victim, reduced to a screaming wreck '. On turning eagerly to the text, one learns that the lady was a typist who found the sound of office typewriters worried her more and more until eventually she had to go into a mental hospital. Now the snag in this sort of anecdote is of course that one cannot distinguish cause and effect. Was the noise a cause of the illness, or were the complaints about noise merely a symptom? Another patient might equally well complain that her neighbours were combining to slander her and persecute her, and yet one might be cautious about believing this statement.
-What is needed in the case of noise is a study of large numbers of people living under noisy conditions, to discover whether they are mentally ill more often than other people are. Some time ago the United States Navy, for instance, examined a very large number of men working on aircraft carriers: the study was known as Project Anehin. It can be unpleasant to live even several miles from an aerodrome; if you think what it must be like to share the deck of a ship with several squadrons of jet aircraft, you will realize that a modern navy is a good place to study noise. But neither psychiatric interviews nor objective tests were able to show any effects upon these American sailors. This result merely confirms earlier American and British studies: if there is any effect of noise upon mental health it must be so small that present methods of psychiatric diagnosis cannot find it. That does not prove that it does not exist; but it does mean that noise is less dangerous than, say, being brought up in an orphanage -- which really is a mental health hazard.
-D.E.BROADBENT Non-auditory effects of noise from Science Survey
 
-An American aircraft carrier
+What is needed in the case of noise is a study of large numbers of people living under noisy conditions, to discover whether they are mentally ill more often than other people are. Some time ago the United States Navy, for instance, examined a very large number of men working on aircraft carriers: the study was known as Project Anehin. It can be unpleasant to live even several miles from an aerodrome; if you think what it must be like to share the deck of a ship with several squadrons of jet aircraft, you will realize that a modern navy is a good place to study noise. But neither psychiatric interviews nor objective tests were able to show any effects upon these American sailors. This result merely confirms earlier American and British studies: if there is any effect of noise upon mental health it must be so small that present methods of psychiatric diagnosis cannot find it. That does not prove that it does not exist; but it does mean that noise is less dangerous than, say, being brought up in an orphanage -- which really is a mental health hazard.
+
+D.E.BROADBENT Non-auditory effects of noise from Science Survey
 
 ### New words and expressions 生词和短语
 
-- auditory adj. 听觉的
-- inadequate adj. 不适当的
-- plea n. 要求
-- abatement n. 减少
-- discredit v. 怀疑
-- allegation n. 断言
-- caption n. 插图说明
-- wreck n. 残废人
-- snag n. 疑难之处，障碍
-- anecdote n. 轶闻
-- slander v. 诽谤
-- persecute v. 迫害
-- squadron n. 中队
-- psychiatric adj. 精神病学的
-- diagnosis n. 诊所
-- orphanage n. 孤儿院
+auditory adj. 听觉的
+inadequate adj. 不适当的
+plea n. 要求
+abatement n. 减少
+discredit v. 怀疑
+allegation n. 断言
+caption n. 插图说明
+wreck n. 残废人
+snag n. 疑难之处，障碍
+anecdote n. 轶闻
+slander v. 诽谤
+persecute v. 迫害
+squadron n. 中队
+psychiatric adj. 精神病学的
+diagnosis n. 诊所
+orphanage n. 孤儿院
 
 ### Notes on the text 课文注释
 
-- 1 the Services,军队
-- 2 On turning eagerly to the text, one learns that...
-- 句中 on 的意思是 on the occasion of,directly after(当时，随后)。
-- 3 aircraft carrier,航空母舰。
-- 4 That does not prove that it does no exist;but it does mean that...句中出现的3个does的语法功能并不相同，前两个does是一般现在时的否定式使用的助动词，第3个does则是强调用法，有强化句意的作用。
+1 the Services,军队
+2 On turning eagerly to the text, one learns that...
+句中 on 的意思是 on the occasion of,directly after(当时，随后)。
+3 aircraft carrier,航空母舰。
+4 That does not prove that it does no exist;but it does mean that...句中出现的3个does的语法功能并不相同，前两个does是一般现在时的否定式使用的助动词，第3个does则是强调用法，有强化句意的作用。
 
 ### 参考译文
 
@@ -1140,28 +1106,29 @@ An American aircraft carrier
 ---
 
 ## Lesson 26 The past life of the earth 地球上的昔日生命
+*ERROL WHITE The past life of the earth from Discovery*
 
 ### 课文原文
 
 It is animals and plants which lived in or near water whose remains are most likely to be preserved, for one of the necessary conditions of preservation is quick burial, and it is only in the seas and rivers, and sometimes lakes, where mud and silt have been continuously deposited, that bodies and the like can be rapidly covered over and preserved. But even in the most favourable circumstances only a small fraction of the creatures that die are preserved in this way before decay sets in or, even more likely, before scavengers eat them. After all, all living creatures live by feeding on something else, whether it be plant or animal, dead or alive, and it is only by chance that such a fate is avoided. The remains of plants and animals that lived on land are much more rarely preserved, for there is seldom anything to cover them over. When you think of the innumerable birds that one sees flying about, not to mention the equally numerous small animals like field mice and voles which you do not see, it is very rarely that one comes across a dead body, except, of course, on the roads. They decompose and are quickly destroyed by the weather or eaten by some other creature.
+
 It is almost always due to some very special circumstances that traces of land animals survive, as by falling into inaccessible caves, or into an ice crevasse, like the Siberian mammoths, when the whole animal is sometimes preserved, as in a refrigerator. This is what happened to the famous Beresovka mammoth which was found preserved and in good condition. In his mouth were the remains of fir trees - the last meal that he had before he fell into the crevasse and broke his back. The mammoth has now been restored in the Palaeontological Museum in St. Petersburg. Other animals were trapped in tar pits, like the elephants, saber-toothed cats and numerous other creatures that are found at Racho La Brea, which is now just a suburb of Los Angeles. Apparently what happened was that water collected on these tar pits, and the bigger animals like the elephants ventured out on to the apparently firm surface to drink, and were promptly bogged in the tar. And then, when they were dead, the carnivores, like the sabre-toothed cats and the giant wolves, came out to feed and suffered exactly the same fate. There are also endless numbers of birds in the tar as well.
-ERROL WHITE The past life of the earth from Discovery
 
 ### New words and expressions 生词和短语
 
-- preservation n. 保存
-- silt n. 淤泥
-- scavenger n. 食腐动物
-- vole n. 野鼠，鼹鼠
-- decompose v. 腐烂
-- inaccessible adj. 不能到达的
-- crevasse n. 缝隙
-- Siberian adj.西伯利亚的
-- palaeontological adj. 古生物学的
-- St. Petersburg n. 圣彼得堡
-- sabre-toothed adj. 长着锐利的长牙
-- venture v. 冒险
-- bogged adj. 陷入泥沼的，陷入要困境的
+preservation n. 保存
+silt n. 淤泥
+scavenger n. 食腐动物
+vole n. 野鼠，鼹鼠
+decompose v. 腐烂
+inaccessible adj. 不能到达的
+crevasse n. 缝隙
+Siberian adj.西伯利亚的
+palaeontological adj. 古生物学的
+St. Petersburg n. 圣彼得堡
+sabre-toothed adj. 长着锐利的长牙
+venture v. 冒险
+bogged adj. 陷入泥沼的，陷入要困境的
 
 ### 参考译文
 
@@ -1170,62 +1137,57 @@ ERROL WHITE The past life of the earth from Discovery
 
 ---
 
-## Lesson 27 The &#x27;Vasa&#x27; ＂瓦萨＂号
+## Lesson 27 The 'Vasa' ＂ 瓦萨＂号
 
 ### 课文原文
 
-From the seventeenth-century empire of Sweden, the story of a galleon that sank at the start of her maiden voyage in 1628 must be one of the strangest tales of the sea. For nearly three and a half centuries she lay at the bottom of Stockholm harbour until her discovery in 1956. This was the Vasa, royal flagship of the great imperial fleet.
-King Gustavus Adolphus, 'The Northern Hurricane', then at the height of his military success in the Thirty Years' War, had dictated her measurements and armament. Triple gun-decks mounted sixty-four bronze cannon. She was intended to play a leading role in the growing might of Sweden. As she was prepared for her maiden voyage on August 10th, 1628, Stockholm was in a ferment. From the Skeppsbron and surrounding islands the people watched this thing of beauty begin to spread her sails and catch the wind. They had laboured for three years to produce this floating work of art; she was more richly carved and ornamented than any previous ship. The high stern castle was a riot of carved gods, demons, knights, kings, warriors, mermaids, cherubs; and zoomorphic animal shapes ablaze with red and gold and blue, symbols of courage, power, and cruelty, were portrayed to stir the imaginations of the superstitious sailors of the day.
-Then the cannons of the anchored warships thundered a salute to which the Vasa fired in reply. As she emerged from her drifting cloud of gun smoke with the water churned to foam beneath her bow, her flags flying, pennants waving, sails fillng in the breeze, and the red and gold of her superstructure ablaze with colour, she presented a more majestic spectacle than Stockholmers had ever seen before. All gun-ports were open and the muzzles peeped wickedly from them. As the wind freshened there came a sudden squall and the ship made a strange movement, listing to port. The Ordnance Officer ordered all the port cannon to be heaved to starboard to counteract the list, but the steepening angle of the decks increased. Then the sound of rumbling thunder reached the watchers on the shore, as cargo, ballast, ammunition and 400 people went sliding and crashing down to the port side of the steeply listing ship. The lower gun-ports were now below water and the inrush sealed the ship's fate. In that first glorious hour, the mighty Vasa, which was intended to rule the Baltic, sank with all flags flying-in the harbour of her birth.
-ROY SAUNGERS The Raising of the 'Vasa' from The Listener
-
 ### New words and expressions 生词和短语
 
-- galleon n. 大型帆船
-- Stockholm n. 斯德哥尔摩
-- flagship n. 旗舰
-- imperial adj. 帝国的
-- hurricane n. 飓风
-- armament n. 军械
-- triple adj. 三层的
-- mount v. 架有
-- bronze n. 青铜
-- cannon n. 加农炮
-- might n.力量
-- ferment n.激动不安
-- ornament v.装饰
-- riot n. 丰富
-- demon n.恶魔
-- mermaid n.美人鱼
-- cherub n.小天使
-- zoomorphic adj.兽形的
-- ablaze adj.光彩的
-- portray v.绘制
-- drifting adj.弥漫的
-- churn v.翻滚
-- pennant n.三角旗
-- superstructure n.上部结构
-- majestic adj.威严的
-- muzzle n.炮口
-- freshen v.变强
-- squall n.狂风
-- list v.倾斜
-- port n(船、飞机的)左舷
-- ordnance n.军械
-- heave v.拖
-- starboard n.(船、飞机的)右舷
-- counteract v.抵消
-- steepen v.变得更陡峭
-- ballast n.压舱物
-- inrush n.水的涌入
-- Baltic n.波罗的海
+galleon n. 大型帆船
+Stockholm n. 斯德哥尔摩
+flagship n. 旗舰
+imperial adj. 帝国的
+hurricane n. 飓风
+armament n. 军械
+triple adj. 三层的
+mount v. 架有
+bronze n. 青铜
+cannon n. 加农炮
+might n.力量
+ferment n.激动不安
+ornament v.装饰
+riot n. 丰富
+demon n.恶魔
+mermaid n.美人鱼
+cherub n.小天使
+zoomorphic adj.兽形的
+ablaze adj.光彩的
+portray v.绘制
+drifting adj.弥漫的
+churn v.翻滚
+pennant n.三角旗
+superstructure n.上部结构
+majestic adj.威严的
+muzzle n.炮口
+freshen v.变强
+squall n.狂风
+list v.倾斜
+port n(船、飞机的)左舷
+ordnance n.军械
+heave v.拖
+starboard n.(船、飞机的)右舷
+counteract v.抵消
+steepen v.变得更陡峭
+ballast n.压舱物
+inrush n.水的涌入
+Baltic n.波罗的海
 
 ### Notes on the text 课文注释
 
-- 1 the 'Vasa',“瓦萨号”战船。这艘船是以瑞典瓦萨王朝（1523-1654）创始人Gustavus Vasa的姓氏命名的。Gustavus Vasa(1496-1560)曾领导了反对丹麦统治的暴动，1523年出任国王，使瑞典成了一个独立、统一、富强的国家。
-- 2 the Thirty Years War "三十年战争"。这是欧洲历史上的一场多国混战，具有政治和宗教色彩、是新教诸侯和天主教诸侯之间的连年战争（161801648）,最后在1648年签定了威斯物伐利亚条约，以天主教诸侯失败而告终。
-- 3 a riot of,许多...,主要指色彩丰富。
-- 4 with the water churned...,her flags flying,pennans waving,sails filling...,and the red and gold..ablaze...with 后有5个独立主格结构，均作方式状语，修饰动词emerged。
+1 the 'Vasa',“瓦萨号”战船。这艘船是以瑞典瓦萨王朝（1523-1654）创始人Gustavus Vasa的姓氏命名的。Gustavus Vasa(1496-1560)曾领导了反对丹麦统治的暴动，1523年出任国王，使瑞典成了一个独立、统一、富强的国家。
+2 the Thirty Years War "三十年战争"。这是欧洲历史上的一场多国混战，具有政治和宗教色彩、是新教诸侯和天主教诸侯之间的连年战争（161801648）,最后在1648年签定了威斯物伐利亚条约，以天主教诸侯失败而告终。
+3 a riot of,许多...,主要指色彩丰富。
+4 with the water churned...,her flags flying,pennans waving,sails filling...,and the red and gold..ablaze...with 后有5个独立主格结构，均作方式状语，修饰动词emerged。
 
 ### 参考译文
 
@@ -1238,38 +1200,37 @@ ROY SAUNGERS The Raising of the 'Vasa' from The Listener
 ---
 
 ## Lesson 28 Patients and doctors 病人与医生
+*KENNETH WALKER Patients and doctors*
 
 ### 课文原文
 
 This is a sceptical age, but although our faith in many of the things in which our forefathers fervently believed has weakened, our confidence in the curative properties of the bottle of medicine remains the same as theirs. This modern faith in medicines is proved by the fact that the annual drug bill of the Health Services is mounting to astronomical figures and shows no signs at present of ceasing to rise. The majority of the patients attending the medical out-patients departments of our hospitals feel that they have not received adequate treatment unless they are able to carry home with them some tangible remedy in the shape of a bottle of medicine, a box of pills, or a small jar of ointment, and the doctor in charge of the department is only too ready to provide them with these requirements. There is no quicker method of disposing of patients than by giving them what they are asking for, and since most medical men in the Health Services are overworked and have little time for offering time-consuming and little-appreciated advice on such subjects as diet, right living, and the need for abandoning bad habits etc., the bottle, the box, and the jar are almost always granted them.
-Nor is it only the ignorant and ill-educated person who has such faith in the bottle of medicine. It is recounted of Thomas Carlyle that when he heard of the illness of his friend, Henry Taylor, he went off immediately to visit him, carrying with him in his pocket what remained of a bottle of medicine formerly prescribed for an indisposition of Mrs. Carlyle's. Carlyle was entirely ignorant of what the bottle in his pocket contained, of the nature of the illness from which his friend was suffering, and of what had previously been wrong with his wife, but a medicine that had worked so well in one form of illness would surely be of equal benefit in another, and comforted by the thought of the help he was bringing to his friend, he hastened to Henry Taylor's house. History does not relate whether his friend accepted his medical help, but in all probability he did. The great advantage of taking medicine is that it makes no demands on the taker beyond that of putting up for a moment with a disgusting taste, and that is what all patients demand of their doctors -- to be cured at no inconvenience to themselves.
-KENNETH WALKER Patients and doctors
 
-A doctor with her patient
+Nor is it only the ignorant and ill-educated person who has such faith in the bottle of medicine. It is recounted of Thomas Carlyle that when he heard of the illness of his friend, Henry Taylor, he went off immediately to visit him, carrying with him in his pocket what remained of a bottle of medicine formerly prescribed for an indisposition of Mrs. Carlyle's. Carlyle was entirely ignorant of what the bottle in his pocket contained, of the nature of the illness from which his friend was suffering, and of what had previously been wrong with his wife, but a medicine that had worked so well in one form of illness would surely be of equal benefit in another, and comforted by the thought of the help he was bringing to his friend, he hastened to Henry Taylor's house. History does not relate whether his friend accepted his medical help, but in all probability he did. The great advantage of taking medicine is that it makes no demands on the taker beyond that of putting up for a moment with a disgusting taste, and that is what all patients demand of their doctors -- to be cured at no inconvenience to themselves.
 
 ### New words and expressions 生词和短语
 
-- sceptical adj. 怀疑的
-- forefathers n. 祖先
-- fervently adv. 热情地
-- curative adj. 治病的
-- astronomical adj. 天文学的
-- tangible adj.实实在在的
-- remedy n. 药物
-- ointment n. 药膏
-- prescribe v. 开药方
-- indisposition n. 小病
-- inconvenience n. 令人讨厌的
-- inconvenience n. 不便
+sceptical adj. 怀疑的
+forefathers n. 祖先
+fervently adv. 热情地
+curative adj. 治病的
+astronomical adj. 天文学的
+tangible adj.实实在在的
+remedy n. 药物
+ointment n. 药膏
+prescribe v. 开药方
+indisposition n. 小病
+inconvenience n. 令人讨厌的
+inconvenience n. 不便
 
 ### Notes on the text 课文注释
 
-- 1 the same as theirs,这里的theirs是指our forefathers'。
-- 2 only too ready to provide,非常乐意提供。在英语中too...to do...的结构通常表示否定，但如果在前面加上only,就有“非常...能做”的意思。
-- 3 disposing of,处理。
-- 4 It is recounted of Thomas Carlyle...,据说，托马斯.卡莱尔...（有下面这件）.托马斯.卡莱尔是十九世纪英国著名的散文作家和历史学家。
-- 5 in all probability,很可能。
-- 6 put up with,忍受。
+1 the same as theirs,这里的theirs是指our forefathers'。
+2 only too ready to provide,非常乐意提供。在英语中too...to do...的结构通常表示否定，但如果在前面加上only,就有“非常...能做”的意思。
+3 disposing of,处理。
+4 It is recounted of Thomas Carlyle...,据说，托马斯.卡莱尔...（有下面这件）.托马斯.卡莱尔是十九世纪英国著名的散文作家和历史学家。
+5 in all probability,很可能。
+6 put up with,忍受。
 
 ### 参考译文
 
@@ -1279,32 +1240,34 @@ A doctor with her patient
 ---
 
 ## Lesson 29 The hovercraft 气垫船
+*EGON LARSEN The Pegasus Book of Inventors*
 
 ### 课文原文
 
 Many strange new means of transport have been developed in our century, the strangest of them being perhaps the hovercraft. In 1953, a former electronics engineer in his fifties, Christopher Cockerell, who had turned to boat-building on the Norfolk Broads, suggested an idea on which he had been working for many years to the British Government and industrial circles. It was the idea of supporting a craft on a 'pad', or cushion, of low-pressure air, ringed with a curtain of higher pressure air. Ever since, people have had difficulty in deciding whether the craft should be ranged among ships, planes, or land vehicles -- for it is something in between a boat and an aircraft. As a shipbuilder, Cockerell was trying to find a solution to the problem of the wave resistance which wastes a good deal of a surface ship's power and limits its speed. His answer was to lift the vessel out of the water by making it ride on a cushion of air, no more than one or two feet thick. This is done by a great number of ring-shaped air jets on the bottom of the craft. It 'flies', therefore, but it cannot fly higher -- its action depends on the surface, water or ground, over which it rides.
+
 The first tests on the Solent in 1959 caused a sensation. The hovercraft travelled first over the water, then mounted the beach, climbed up the dunes, and sat down on a road. Later it crossed the Channel, riding smoothly over the waves, which presented no problem.
+
 Since that time, various types of hovercraft have appeared and taken up regular service. The hovercraft is particularly useful in large areas with poor communications such as Africa or Australia; it can become a 'flying fruit-bowl', carrying bananas from the plantations to the ports; giant hovercraft liners could span the Atlantic; and the railway of the future may well be the 'hovertrain', riding on its air cushion over a single rail, which it never touches, at speeds up to 300 m.p.h. -- the possibilities appear unlimited.
-EGON LARSEN The Pegasus Book of Inventors
 
 ### New words and expressions 生词和短语
 
-- hovercraft n. 气垫船
-- Norfolk Broads n. 诺福克郡的湖泊地区
-- cushion n. 座垫
-- ring v. 围
-- Solent n. （英国的）苏伦特海峡
-- sensation n. 轰动
-- dune n. 沙丘
-- plantation n. 种植园
-- hovertrain n. 气垫火车
+hovercraft n. 气垫船
+Norfolk Broads n. 诺福克郡的湖泊地区
+cushion n. 座垫
+ring v. 围
+Solent n. （英国的）苏伦特海峡
+sensation n. 轰动
+dune n. 沙丘
+plantation n. 种植园
+hovertrain n. 气垫火车
 
 ### Notes on the text 课文注释
 
-- 1 the strangest of them being perhaps the hovercraft, 这是现在分词being的独立主格结构。
-- 2 in between,介乎....之间，这是一种组合介词。
-- 3 a surface ship,水面船只。
-- 4 may well be,很可能是。
+1 the strangest of them being perhaps the hovercraft, 这是现在分词being的独立主格结构。
+2 in between,介乎....之间，这是一种组合介词。
+3 a surface ship,水面船只。
+4 may well be,很可能是。
 
 ### 参考译文
 
@@ -1319,41 +1282,43 @@ EGON LARSEN The Pegasus Book of Inventors
 ### 课文原文
 
 Our knowledge of the oceans a hundred years ago was confined to the two-dimensional shape of the sea surface and the hazards of navigation presented by the irregularities in depth of the shallow water close to the land. The open sea was deep and mysterious, and anyone who gave more than a passing thought to the bottom confines of the oceans probably assumed that the sea bed was flat. Sir James Clark Ross had obtained a sounding of over 2,400 fathoms in 1839, but it was not until 1869, when H.M.S. Porcupine was put at the disposal of the Royal Society for several cruises, that a series of deep soundings was obtained in the Atlantic and the first samples were collected by dredging the bottom. Shortly after this the famous H. M. S. Challenger expedition established the study of the sea-floor as a subject worthy of the most qualified physicists and geologists. A burst of activity associated with the laying of submarine cables soon confirmed the challenger's observation that many parts of the ocean were two to three miles deep, and the existence of underwater features of considerable magnitude.
+
 Today, enough soundings are available to enable a relief map of the Atlantic to be drawn and we know something of the great variety of the sea bed's topography. Since the sea covers the greater part of the earth's surface, it is quite reasonable to regard the sea floor as the basic form of the crust of the earth, with, superimposed upon it, the continents, together with the islands and other features of the oceans. The continents form rugged tablelands which stand nearly three miles above the floor of the open ocean. From the shore line, out a distance which may be anywhere from a few miles to a few hundred miles, runs the gentle slope of the continental shelf, geologically part of the continents. The real dividing line between continents and oceans occurs at the foot of a steeper slope.
+
 This continental slope usually starts at a place somewhere near the 100-fatheom mark and in the course of a few hundred miles reaches the true ocean floor at 2,500-3,500 fathoms. The slope averages about 1 in 30. but contains steep, probably vertical, cliffs, and gentle sediment-covered terraces, and near its lower reaches there is a long tailing-off which is almost certainly the result of material transported out to deep water after being eroded from the continental masses.
 
 T.F.GASKELL Exploring the Sea-floor from Science Survey
 
 ### New words and expressions 生词和短语
 
-- navigation n. 航海
-- sounding n. 水深度
-- fathom n. 寻（1寻等于1.8米）
-- porcupine n. 箭猪
-- dredge v. 挖掘
-- expedition n. 远征
-- physicist n. 物理学家
-- magnitude n. 很多
-- topography n. 地形
-- crust n. 地壳
-- rugged adj.崎岖不平
-- tableland n. 高地
-- sediment n. 沉淀物
-- terrace n. 阶地
-- erode v. 侵蚀
+navigation n. 航海
+sounding n. 水深度
+fathom n. 寻（1寻等于1.8米）
+porcupine n. 箭猪
+dredge v. 挖掘
+expedition n. 远征
+physicist n. 物理学家
+magnitude n. 很多
+topography n. 地形
+crust n. 地壳
+rugged adj.崎岖不平
+tableland n. 高地
+sediment n. 沉淀物
+terrace n. 阶地
+erode v. 侵蚀
 
 ### Notes on the text 课文注释
 
-- 1 be confined to,仅限于...。
-- 2 shallow water,浅水区。
-- 3 open sea,无办际的大海。
-- 4 gave more than a passing thought to,稍微想过。
-- 5 H.M.S.是Her Majesty's Ship(英国船舰)的缩略形式。
-- 6 at the disposal of,交由...支配。
-- 7 a relief map,地形图。
-- 8 with,superimposed upon it,the continents,together with the islands and other features of the oceans,这是with引导的一个过去分词独立主格结构。因逻辑主语太长，所以使用了倒装语序。superimposed upon it是逻辑谓语部分。
-- 9 continental shelf,大陆架。
-- 10 1 in 30,1/30。
+1 be confined to,仅限于...。
+2 shallow water,浅水区。
+3 open sea,无办际的大海。
+4 gave more than a passing thought to,稍微想过。
+5 H.M.S.是Her Majesty's Ship(英国船舰)的缩略形式。
+6 at the disposal of,交由...支配。
+7 a relief map,地形图。
+8 with,superimposed upon it,the continents,together with the islands and other features of the oceans,这是with引导的一个过去分词独立主格结构。因逻辑主语太长，所以使用了倒装语序。superimposed upon it是逻辑谓语部分。
+9 continental shelf,大陆架。
+10 1 in 30,1/30。
 
 ### 参考译文
 
@@ -1367,38 +1332,31 @@ T.F.GASKELL Exploring the Sea-floor from Science Survey
 
 ### 课文原文
 
-Appreciation of sculpture depends upon the ability to respond to form in three dimensions. That is perhaps why sculpture has been described as the most difficult of all arts; certainly it is more difficult than the arts which involve appreciation of flat forms, shape in only two dimensions. Many more people are 'form-blind' than colour-blind. The child learning to see, first distinguishes only two-dimensional shape; it cannot judge distances, depths. Later, for its personal safety and practical needs, it has to develop (partly by means of touch) the ability to judge roughly three-dimensonal distances. But having satisfied the requirements of practical necessity, most people go no further. Though they may attain considerable accuracy in the perception of flat form, they do not make the further intellectual and emotional effort needed to comprehend form in its full spatial existence.
-This is what the sculptor must do. He must strive continually to think of, and use, form in its full spatial completeness. He gets the solid shape, as it were, inside his head-he thinks of it, whatever its size, as if he were holding it completely enclosed in the hollow of his hand. He mentally visualizes a complex form from all round itself; he knows while he looks at one side what the other side is like, he identifies himself with its centre of gravity, its mass, its weight; he realizes its volume, as the space that the shape displaces in the air.
-And the sensitive observer of sculpture must also learn to feel shape simply as shape, not as description or reminiscence. He must, for example, perceive an egg as a simple single solid shape, quite apart from its significance as food, or from the literary idea that it will become a bird. And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom, a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone. From these he can go on to appreciate more complex forms or combinations of several forms.
-HENRY MOORE The Sculptor Speaks from The Listener
-
-Henry Moore and his sculpture,Reclining Figure
-
 ### New words and expressions 生词和短语
 
-- colour-blind adj. 色盲的
-- perception n. 知觉
-- comprehend v. 理解
-- spatial adj. 空间
-- visualize v. 使具形象，设想
-- reminiscence n. 回忆，联想
-- tadpole n. 蝌蚪
-- mushroom n. 蘑菇
-- carrot n. 胡萝卜
-- bud n. 花蕾
-- lark n. 云雀
-- ladybird n. 瓢虫
-- bulrush n. 芦苇
+colour-blind adj. 色盲的
+perception n. 知觉
+comprehend v. 理解
+spatial adj. 空间
+visualize v. 使具形象，设想
+reminiscence n. 回忆，联想
+tadpole n. 蝌蚪
+mushroom n. 蘑菇
+carrot n. 胡萝卜
+bud n. 花蕾
+lark n. 云雀
+ladybird n. 瓢虫
+bulrush n. 芦苇
 
 ### Notes on the text 课文注释
 
-- 1 form-blind,这是作者仿照colour-blind(色盲)生造的一个词，意指“形盲”
-- 2 in its full spatial completeness,存在于空间的整个（形体）。
-- 3 as it were,可以说是。
-- 4 whatever its size,这是一个省略了maybe的让步状语从句。
-- 5 from all round itself,从它的各个角度构想。
-- 6 centre of gravity,重心。
-- 7 apart from,撇开。
+1 form-blind,这是作者仿照colour-blind(色盲)生造的一个词，意指“形盲”
+2 in its full spatial completeness,存在于空间的整个（形体）。
+3 as it were,可以说是。
+4 whatever its size,这是一个省略了maybe的让步状语从句。
+5 from all round itself,从它的各个角度构想。
+6 centre of gravity,重心。
+7 apart from,撇开。
 
 ### 参考译文
 
@@ -1412,44 +1370,38 @@ Henry Moore and his sculpture,Reclining Figure
 
 ### 课文原文
 
-In his own lifetime Galileo was the centre of violent controversy; but the scientific dust has long since settled, and today we can see even his famous clash with the Inquisition in something like its proper perspective. But, in contrast, it is only in modern times that Galileo has become a problem child for historians of science. The old view of Galileo was delightfully uncomplicated. He was, above all, a man who experimented: who despised the prejudices and book learning of the Aristotelians, who put his questions to nature instead of to the ancients, and who drew his conclusions fearlessly. He had been the first to turn a telescope to the sky, and he had seen their evidence enough to overthrow Aristotle and Ptolemy together. He was the man who climbed the Leaning Tower of Pisa and dropped various weights from the top, who rolled balls down inclined planes, and then generalized the results of his many experiments into the famous law of free fall.
-But a closer study of the evidence, supported by a deeper sense of the period, and particularly by a new consciousness of the philosophical undercurrents in the scientific revolution, has profoundly modified this view of Galileo. Today, although the old Galileo lives on in many popular writings, among historians of science a new and more sophisticated picture has emerged. At the same time our sympathy for Galileo's opponents has grown somewhat. His telescopic observations are justly immortal; they aroused great interest at the time, they had important theoretical consequences, and they provided a striking demonstration of the potentialities hidden in instruments and apparatus. But can we blame those who looked and failed to see what Galileo saw, if we remember that to use a telescope at the limit of its powers calls for long experience and intimate familiarity with one's instrument? Was the philosopher who refused to look through Galileo's telescope more culpable than those who alleged that the spiral nebulae observed with Lord Rosse's great telescope in the 1840s were scratches left by the grinder? We can perhaps forgive those who said the moons of Jupiter were produced by Galileo's spyglass if we recall that in his day, as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth; and if a single curved glass would distort nature, how much more would a pair of them?
-MICHAEL HOSKIN Galileo Reborn from The Listener
-
-Artist concept of the space telescope showing the shuttle,TDRSS,and a ground station
-
 ### New words and expressions 生词和短语
 
-- controversy n. 争议，争论
-- dust n. 纠纷，骚动
-- clash n. 冲突
-- Inquisition n. （罗马天主教的）宗教法庭
-- perspective n. 观点，看法
-- despise v. 蔑视
-- generalize v. 归纳
-- undercurrent n. 潜流
-- theoretical adj. 理论上的
-- potentiality n. 潜能
-- intimate adj. 详尽的
-- familiarity n. 熟悉的
-- culpable adj. 应受遣责的
-- Aristotelian n. 亚里士多德学派的人
-- Aristotle n. 亚里士多德（公元前384-322，古希腊哲学家）
-- Ptolemy n. 托勒密（公元90-168，古希腊天文学家）
-- Leaning Tower of Pisa 比萨斜塔
-- spiral adj. 螺旋状的
-- nebula n. 星云
-- scratch n. 擦痕
-- contrivance n. 器械
-- distort v. 歪曲
+controversy n. 争议，争论
+dust n. 纠纷，骚动
+clash n. 冲突
+Inquisition n. （罗马天主教的）宗教法庭
+perspective n. 观点，看法
+despise v. 蔑视
+generalize v. 归纳
+undercurrent n. 潜流
+theoretical adj. 理论上的
+potentiality n. 潜能
+intimate adj. 详尽的
+familiarity n. 熟悉的
+culpable adj. 应受遣责的
+Aristotelian n. 亚里士多德学派的人
+Aristotle n. 亚里士多德（公元前384-322，古希腊哲学家）
+Ptolemy n. 托勒密（公元90-168，古希腊天文学家）
+Leaning Tower of Pisa 比萨斜塔
+spiral adj. 螺旋状的
+nebula n. 星云
+scratch n. 擦痕
+contrivance n. 器械
+distort v. 歪曲
 
 ### Notes on the text 课文注释
 
-- 1 something like,多少，大约。
-- 2 a problem child,problem 作定语，修饰 child。这是一种比喻修辞法，意思是“新出现的问题”。
-- 3 a man who... who... who... who...,这里一连用了4个定语从句，均用who引导，构成了排比结构，起加强语气的作用。
-- 4 at the time,当时。
-- 5 use a telescope at the limit of its power,用望远镜的极限功率。
+1 something like,多少，大约。
+2 a problem child,problem 作定语，修饰 child。这是一种比喻修辞法，意思是“新出现的问题”。
+3 a man who... who... who... who...,这里一连用了4个定语从句，均用who引导，构成了排比结构，起加强语气的作用。
+4 at the time,当时。
+5 use a telescope at the limit of its power,用望远镜的极限功率。
 
 ### 参考译文
 
@@ -1459,42 +1411,42 @@ Artist concept of the space telescope showing the shuttle,TDRSS,and a ground sta
 ---
 
 ## Lesson 33 Education 教育
+*JULIUS E. LIPS The Origin of Things*
 
 ### 课文原文
 
 Education is one of the key words of our time. A man without an education, many of us believe, is an unfortunate victim of adverse circumstances, deprived of one of the greatest twentieth-century opportunities. Convinced of the importance of education, modern states 'invest' in institutions of learning to get back 'interest' in the form of a large group of enlightened young men and women who are potential leaders. Education, with its cycles of instruction so carefully worked out, punctuated by textbooks -- those purchasable wells of wisdom - what would civilization be like without its benefits? So much is certain: that we would have doctors and preachers, lawyers and defendants, marriages and births -- but our spiritual outlook would be different. We would lay less stress on 'facts and figures' and more on a good memory, on applied psychology, and on the capacity of a man to get along with his fellow-citizens. If our educational system were fashioned after its bookless past we would have the most democratic form of 'college' imaginable. Among tribal people all knowledge inherited by tradition is shared by all; it is taught to every member of the tribe so that in this respect everybody is equally equipped for life.
-It is the ideal condition of the 'equal start' which only our most progressive forms of modern education try to regain. In primitive cultures the obligation to seek and to receive the traditional instruction is binding to all. There are no 'illiterates' -- if the term can be applied to peoples without a script -- while our own compulsory school attendance became law in Germany in 1642, in France in 1806, and in England in 1876, and is still non-existent in a number of 'civilized' nations. This shows how long it was before we deemed it necessary to make sure that all our children could share in the knowledge accumulated by the 'happy few' during the past centuries.
-Education in the wilderness is not a matter of monetary means. All are entitled to an equal start. There is none of the hurry which, in our society, often hampers the full development of a growing personality. There, a child grows up under the ever-present attention of his parent; therefore the jungles and the savannahs know of no 'juvenile delinquency'. No necessity of making a living away from home results in neglect of children, and no father is confronted with his inability to 'buy' an education for his child.
-JULIUS E. LIPS The Origin of Things
 
-The library at the University of Sussex
+It is the ideal condition of the 'equal start' which only our most progressive forms of modern education try to regain. In primitive cultures the obligation to seek and to receive the traditional instruction is binding to all. There are no 'illiterates' -- if the term can be applied to peoples without a script -- while our own compulsory school attendance became law in Germany in 1642, in France in 1806, and in England in 1876, and is still non-existent in a number of 'civilized' nations. This shows how long it was before we deemed it necessary to make sure that all our children could share in the knowledge accumulated by the 'happy few' during the past centuries.
+
+Education in the wilderness is not a matter of monetary means. All are entitled to an equal start. There is none of the hurry which, in our society, often hampers the full development of a growing personality. There, a child grows up under the ever-present attention of his parent; therefore the jungles and the savannahs know of no 'juvenile delinquency'. No necessity of making a living away from home results in neglect of children, and no father is confronted with his inability to 'buy' an education for his child.
 
 ### New words and expressions 生词和短语
 
-- adverse adj.不利的
-- purchasable adj.可买到的
-- preacher n. 传教士
-- defendant n. 被告
-- outlook n. 视野
-- capacity n. 能力
-- democratic adj. 民主的
-- tribal n. 部落的
-- tribe n. 部落
-- illiterate n. 文盲
-- compulsory adj. 义务的
-- deem v. 认为
-- means n. 方法，手段，财产，资力
-- hamper v. 妨碍
-- savannah n. 大草原
-- juvenile adj. 青少年
-- delinquency n. 犯罪
+adverse adj.不利的
+purchasable adj.可买到的
+preacher n. 传教士
+defendant n. 被告
+outlook n. 视野
+capacity n. 能力
+democratic adj. 民主的
+tribal n. 部落的
+tribe n. 部落
+illiterate n. 文盲
+compulsory adj. 义务的
+deem v. 认为
+means n. 方法，手段，财产，资力
+hamper v. 妨碍
+savannah n. 大草原
+juvenile adj. 青少年
+delinquency n. 犯罪
 
 ### Notes on the text 课文注释
 
-- 1 Education, with its cycles...,punctuated by textbooks...,这句话中的主语 Education 与 punctuated 并不是一种主谓关系，因此，这句话在语法上被称作单元句
-- 2 So much is certain,有承上启下的作用:一方面回答了前一段最后一句的提问，另一方面开始列举没有教育将会给社会文明带来的影响。
-- 3 be fashioned after,按...做成。
-- 4 without a script,没有文字的。
+1 Education, with its cycles...,punctuated by textbooks...,这句话中的主语 Education 与 punctuated 并不是一种主谓关系，因此，这句话在语法上被称作单元句
+2 So much is certain,有承上启下的作用:一方面回答了前一段最后一句的提问，另一方面开始列举没有教育将会给社会文明带来的影响。
+3 be fashioned after,按...做成。
+4 without a script,没有文字的。
 
 ### 参考译文
 
@@ -1504,40 +1456,42 @@ The library at the University of Sussex
 ---
 
 ## Lesson 34 Adolescence 青春期
+*DOTID OFLUM Journey Through Adolescence*
 
 ### 课文原文
 
 Parents are often upset when their children praise the homes of their friends and regard it as a slur on their own cooking, or cleaning, or furniture, and often are foolish enough to let the adolescents see that they are annoyed. They may even accuse them of disloyalty, or make some spiteful remark about the friends' parents. Such a loss of dignity and descent into childish behaviour on the part of the adults deeply shocks the adolescents, and make them resolve that in future they will not talk to their parents about the places or people they visit. Before very long the parents will be complaining that the child is so secretive and never tells them anything, but they seldom realize that they have brought this on themselves.
-Disillusionment with the parents, however good and adequate they may be both as parents and as individuals, is to some degree inevitable. Most children have such a high ideal of their parents, unless the parents themselves have been unsatisfactory, that it can hardly hope to stand up to a realistic evaluation. Parents would be greatly surprised and deeply touched if they realized how much belief their children usually have in their character and infallibility, and how much this faith means to a child. If parents were prepared for this adolescent reaction, and realized that it was a sign that the child was growing up and developing valuable powers of observation and independent judgment, they would not be so hurt, and therefore would not drive the child into opposition by resenting and resisting it.
-The adolescent, with his passion for sincerity, always respects a parent who admits that he is wrong, or ignorant, or even that he has been unfair or unjust. What the child cannot forgive is the parent's refusal to admit these charges if the child knows them to be true.
-Victorian parents believed that they kept their dignity by retreating behind an unreasoning authoritarian attitude; in fact they did nothing of the kind, but children were then too cowed to let them know how they really felt. Today we tend to go to the other extreme, but on the whole this is a healthier attitude both for the child and the parent. It is always wiser and safer to face up to reality, however painful it may be at the moment.
 
-DOTID OFLUM Journey Through Adolescence
+Disillusionment with the parents, however good and adequate they may be both as parents and as individuals, is to some degree inevitable. Most children have such a high ideal of their parents, unless the parents themselves have been unsatisfactory, that it can hardly hope to stand up to a realistic evaluation. Parents would be greatly surprised and deeply touched if they realized how much belief their children usually have in their character and infallibility, and how much this faith means to a child. If parents were prepared for this adolescent reaction, and realized that it was a sign that the child was growing up and developing valuable powers of observation and independent judgment, they would not be so hurt, and therefore would not drive the child into opposition by resenting and resisting it.
+
+The adolescent, with his passion for sincerity, always respects a parent who admits that he is wrong, or ignorant, or even that he has been unfair or unjust. What the child cannot forgive is the parent's refusal to admit these charges if the child knows them to be true.
+
+Victorian parents believed that they kept their dignity by retreating behind an unreasoning authoritarian attitude; in fact they did nothing of the kind, but children were then too cowed to let them know how they really felt. Today we tend to go to the other extreme, but on the whole this is a healthier attitude both for the child and the parent. It is always wiser and safer to face up to reality, however painful it may be at the moment.
 
 ### New words and expressions 生词和短语
 
-- adolescence n. 青春期
-- slur n. 底毁
-- adolescent n. 青少年（12-18岁）
-- disloyalty n.不忠实
-- spiteful adj. 恶意的，怀恨的
-- disillusionment n. 幻灭感
-- evaluation n. 评价
-- infallibility n. 一贯正确
-- resent v. 怨恨
-- sincerity n. 诚挚
-- victorian adj. 维多利亚式的
-- retreat v. 后退
-- unreasoning adj. 不凭理智的
-- authoritarian adj. 专制的
-- cow v. 吓唬
+adolescence n. 青春期
+slur n. 底毁
+adolescent n. 青少年（12-18岁）
+disloyalty n.不忠实
+spiteful adj. 恶意的，怀恨的
+disillusionment n. 幻灭感
+evaluation n. 评价
+infallibility n. 一贯正确
+resent v. 怨恨
+sincerity n. 诚挚
+victorian adj. 维多利亚式的
+retreat v. 后退
+unreasoning adj. 不凭理智的
+authoritarian adj. 专制的
+cow v. 吓唬
 
 ### Notes on the text 课文注释
 
-- 1 on the part of,在...一边。
-- 2 they have brought this on themselves,他们是咎由自取。
-- 3 stand up to,经得起。
-- 4 face up to,正视。
+1 on the part of,在...一边。
+2 they have brought this on themselves,他们是咎由自取。
+3 stand up to,经得起。
+4 face up to,正视。
 
 ### 参考译文
 
@@ -1553,33 +1507,40 @@ DOTID OFLUM Journey Through Adolescence
 ### 课文原文
 
 The Moon is likely to become the industrial hub of the Solar System, supplying the rocket fuels for its ships, easily obtainable from the lunar rocks in the form of liquid oxygen. The reason lies in its gravity. Because the Moon has only an eightieth of the Earth's mass, it requires 97 per cent less energy to travel the quarter of a million miles from the Moon to Earth-orbit than the 200 mile-journey from Earth's surface into orbit!
+
 This may sound fantastic, but it is easily calculated. To escape from the Earth in a rocket, one must travel at seven miles per second. The comparable speed from the Moon is only 1.5 miles per second. Because the gravity on the Moon's surface is only a sixth of Earth's (remember how easily the Apollo astronauts bounded along), it takes much less energy to accelerate to that 1.5 miles per second than it does on Earth. Moon-dwellers will be able to fly in space at only three per cent of the cost of similar journeys by their terrestrial dwellers will be able to fly in space at only three per cent of the cost of similar journeys by their terrestrial cousins.
+
 Arthur C. Clark once suggested a revolutionary idea passes through three phases:
+
 1 'It's impossible -- don't waste my time.'
+
 2 'It's possible, but not worth doing.'
+
 3 'I said it was a good idea all along.'
+
 The idea of colonising Mars -- a world 160 times more distant time the Moon -- will move decisively from the second phase to the third, when a significant number of people are living permanently in space. Mars has an extraordinary fascination for would-be voyagers. America, Russia and Europe are filled with enthusiasts -- many of them serious and senior scientists -- who dream of sending people to it. Their aim is understandable. It is the one world in the Solar System that is most like the Earth. It is a world of red sandy deserts (hence its name -- the Red Planet), cloudless skies, savage sandstorms, chasms wider than the Grand Canyon and at least one mountain more than twice as tall as Everest. It seems ideal for settlement.
+
 7 DAYS, February 19, 1989
 
 ### New words and expressions 生词和短语
 
-- hub n. （活动的）中心
-- lunar adj. 月球的
-- oxygen n. 氧气
-- Apollo n. 阿波罗
-- accelerate v. 加速
-- terrestrial adj. 地球的
-- permanently adv. 永远地
-- fascination n. 魅力
-- senior adj. 资历深的，年长的
-- chasm n. 断层，裂口
-- canyon n. 峡谷
+hub n. （活动的）中心
+lunar adj. 月球的
+oxygen n. 氧气
+Apollo n. 阿波罗
+accelerate v. 加速
+terrestrial adj. 地球的
+permanently adv. 永远地
+fascination n. 魅力
+senior adj. 资历深的，年长的
+chasm n. 断层，裂口
+canyon n. 峡谷
 
 ### Notes on the text 课文注释
 
-- 1 the comparable speed from the Moon,从月球出发的相应的速度，这里是指摆脱月球引力所需达到的速度。
-- 2 the Apollo astronauts,指1969年7月20日美国“阿波罗11号”宇宙飞船第一次载人登月球。
-- 3 the Grand Ganyon,指位于美国亚利桑那州西北部的科罗拉多河的大峡谷。
+1 the comparable speed from the Moon,从月球出发的相应的速度，这里是指摆脱月球引力所需达到的速度。
+2 the Apollo astronauts,指1969年7月20日美国“阿波罗11号”宇宙飞船第一次载人登月球。
+3 the Grand Ganyon,指位于美国亚利桑那州西北部的科罗拉多河的大峡谷。
 
 ### 参考译文
 
@@ -1594,43 +1555,41 @@ The idea of colonising Mars -- a world 160 times more distant time the Moon -- w
 ---
 
 ## Lesson 36 The cost of government 政府的开支
+*RAYMOND FROST The Backward Society*
 
 ### 课文原文
 
 If a nation is essentially disunited, it is left to the government to hold it together. This increases the expense of government, and reduces correspondingly the amount of economic resources that could be used for developing the country. And it should not be forgotten how small those resources are in a poor and backward country. Where the cost of government is high, resources for development are correspondingly low.
+
 This may be illustrated by comparing the position of a nation with that of a private business enterprise. An enterprise has to incur certain costs and expenses in order to stay in business. For our purposes, we are concerned only with one kind of cost -- the cost of managing and administering the business. Such administrative overheads in a business are analogous to the cost of government in a nation. The administrative overheads of a business are low to the extent that everyone working in the business can be trusted to behave in a way that best promotes the interests of the firm. If they can each be trusted to take such responsibilities and to exercise such initiative as falls within their sphere, then administrative overheads will be low. It will be low because it will be necessary to have only one man looking after each job, without having another man to check upon what he is doing, keep him in line, and report on him to someone else. But if no one can be trusted to act in a loyal and responsible manner towards his job, then the business will require armies of administrators, checkers, and foremen and administrative overheads will rise correspondingly. As administrative overheads rise, so the earnings of the business after meeting the expense of administration, will fall; and the business will have less money to distribute as dividends or invest directly in its future progress and development.
+
 It is precisely the same with a nation. To the extent that the people can be relied upon to behave in a loyal and responsible manner, the government does not require armies of police and civil servants to keep them in order. But if a nation is disunited, the government cannot be sure that the actions of the people will be in the interests of the nation; and it will have to watch, check, and control the people accordingly. A disunited nation therefore has to incur unduly high costs of government.
-RAYMOND FROST The Backward Society
-
-The Ministry of Natural Resources and Local Govemment,Zomba,Malawi
-
-The Home Office,Whitehall,London
 
 ### New words and expressions 生词和短语
 
-- disunited adj. 分裂的
-- correspondingly adv. 相应地
-- backward adj. 落后的
-- incur v. 承担
-- administer v. 管理
-- adminstrative adj. 行政管理的
-- analogous adj. 类似的
-- overheads n. 一般费用
-- initiative n. 主动，积极性
-- checker n. 检查人员
-- foreman n. 监工
-- dividend n. 红利
-- unduly adv. 过度地
+disunited adj. 分裂的
+correspondingly adv. 相应地
+backward adj. 落后的
+incur v. 承担
+administer v. 管理
+adminstrative adj. 行政管理的
+analogous adj. 类似的
+overheads n. 一般费用
+initiative n. 主动，积极性
+checker n. 检查人员
+foreman n. 监工
+dividend n. 红利
+unduly adv. 过度地
 
 ### Notes on the text 课文注释
 
-- 1 economic resource,经济实力。
-- 2 stay in business,维持营业。
-- 3 be analogous to...与...类似。
-- 4 as falls within their sphere,属于他们分内的。
-- 5 keep someone in line,控制住某人。
-- 6 keep them in order, 管理他们。
-- 7 be in the interests of...符合...的利益。
+1 economic resource,经济实力。
+2 stay in business,维持营业。
+3 be analogous to...与...类似。
+4 as falls within their sphere,属于他们分内的。
+5 keep someone in line,控制住某人。
+6 keep them in order, 管理他们。
+7 be in the interests of...符合...的利益。
 
 ### 参考译文
 
@@ -1641,38 +1600,37 @@ The Home Office,Whitehall,London
 ---
 
 ## Lesson 37 The process of ageing 衰老过程
+*ALEX COMPORT The process of ageing*
 
 ### 课文原文
 
 At the age of 12 years, the human body is at its most vigorous. It has yet to reach its full size and strength, and its owner his or her full intelligence; but at this age the likelihood of death is least. Earlier, we were infants and young children, and consequently more vulnerable; later, we shall undergo a progressive loss of our vigour and resistance which, though imperceptible at first, will finally become so steep that we can live no longer, however well we look after ourselves, and however well society, and our doctors, look after us. This decline in vigour with the passing of time is called ageing. It is one of the most unpleasant discoveries which we all make that we must decline in this way, that if we escape wars, accidents and diseases we shall eventually 'die of old age', and that this happens at a rate which differs little from person to person, so that there are heavy odds in favour of our dying between the ages of 65 and 80. Some of us will die sooner, a few will live longer -- on into a ninth or tenth decade. But the chances are against it, and there is a virtual limit on how long we can hope to remain alive, however lucky and robust we are.
-Normal people tend to forget this process unless and until they are reminded of it. We are so familiar with the fact that man ages, that people have for years assumed that the process of losing vigour with time, of becoming more likely to die the older we get, was something self-evident, like the cooling of a hot kettle or the wearing-out of a pair of shoes. They have also assumed that all animals, and probably other organisms such as trees, or even the universe itself, must in the nature of things 'wear out'. Most animals we commonly observe do in fact age as we do, if given the chance to live long enough; and mechanical systems like a wound watch, or the sun, do in fact run out of energy in accordance with the second law of thermodynamics (whether the whole universe does so is a moot point at present). But these are not analogous to what happens when man ages. A run-down watch is still a watch and can be rewound. An old watch, by contrast, becomes so worn and unreliable that it eventually is not worth mending. But a watch could never repair itself -- it does not consist of living parts, only of metal, which wears away by friction. We could, at one time, repair ourselves --well enough, at least, to overcome all but the most instantly fatal illnesses and accidents. Between 12 and 80 years we gradually lose this power; an illness which at 12 would knock us over, at 80 can knock us out, and into our grave. If we could stay as vigorous as we are at 12 , it would take about 700 years for half of us to die, and another 700 for the survivors to be reduced by half again.
-ALEX COMPORT The process of ageing
 
-Two tortoises,both from the Seychelles;the small one is a year old,the large one is over a hundred
+Normal people tend to forget this process unless and until they are reminded of it. We are so familiar with the fact that man ages, that people have for years assumed that the process of losing vigour with time, of becoming more likely to die the older we get, was something self-evident, like the cooling of a hot kettle or the wearing-out of a pair of shoes. They have also assumed that all animals, and probably other organisms such as trees, or even the universe itself, must in the nature of things 'wear out'. Most animals we commonly observe do in fact age as we do, if given the chance to live long enough; and mechanical systems like a wound watch, or the sun, do in fact run out of energy in accordance with the second law of thermodynamics (whether the whole universe does so is a moot point at present). But these are not analogous to what happens when man ages. A run-down watch is still a watch and can be rewound. An old watch, by contrast, becomes so worn and unreliable that it eventually is not worth mending. But a watch could never repair itself -- it does not consist of living parts, only of metal, which wears away by friction. We could, at one time, repair ourselves --well enough, at least, to overcome all but the most instantly fatal illnesses and accidents. Between 12 and 80 years we gradually lose this power; an illness which at 12 would knock us over, at 80 can knock us out, and into our grave. If we could stay as vigorous as we are at 12 , it would take about 700 years for half of us to die, and another 700 for the survivors to be reduced by half again.
 
 ### New words and expressions 生词和短语
 
-- likelihood n. 可能性
-- infant n. 婴儿
-- vulnerable adj. 脆弱
-- imperceptible adj. 感觉不到的
-- steep adj. 急转直下
-- ageing n. 老化
-- odds n. 可能性
-- virtual adj. 实际上的
-- robust adj. 强健的
-- organism n. 有机体
-- thermodynamics n. 热力学
-- moot adj. 争论未决的
-- run-down adj. 破旧的
-- friction n. 摩擦
+likelihood n. 可能性
+infant n. 婴儿
+vulnerable adj. 脆弱
+imperceptible adj. 感觉不到的
+steep adj. 急转直下
+ageing n. 老化
+odds n. 可能性
+virtual adj. 实际上的
+robust adj. 强健的
+organism n. 有机体
+thermodynamics n. 热力学
+moot adj. 争论未决的
+run-down adj. 破旧的
+friction n. 摩擦
 
 ### Notes on the text 课文注释
 
-- 1 at its most vigorous,生命力最旺盛的时候。
-- 2 with the passing of time,随着时间的流失。
-- 3 It is one of the most unpleasant discoveries...that...,that...,and that..., 3个以that引导的从句是discoveries 的同位语。
-- 4 a wound watch,上紧了发条的表。
+1 at its most vigorous,生命力最旺盛的时候。
+2 with the passing of time,随着时间的流失。
+3 It is one of the most unpleasant discoveries...that...,that...,and that..., 3个以that引导的从句是discoveries 的同位语。
+4 a wound watch,上紧了发条的表。
 
 ### 参考译文
 
@@ -1682,41 +1640,44 @@ Two tortoises,both from the Seychelles;the small one is a year old,the large one
 ---
 
 ## Lesson 38 Water and the traveller 水和旅行者
+*RICHARD DAWOOD Travellers' Health*
 
 ### 课文原文
 
 Contamination of water supplies is usually due to poor sanitation close to water sources, sewage disposal into the sources themselves, leakage of sewage into distribution systems or contamination with industrial or farm waste. Even if a piped water supply is safe at its source, it is not always safe by the time it reaches the tap. Intermittent tap-water supplies should be regarded as particularly suspect.
-Travellers on short trips to areas with water supplies of uncertain quality should avoid drinking tap-water, or untreated water from any other source. It is best to keep to hot drinks, bottled or canned drinks of well-known brand names -- international standards of water treatment are usually followed at bottling plants. Carbonated drinks are acidic, and slightly safer. Make sure that all bottles are opened in your presence, and that their rims are clean and dry.
-Boiling is always a good way of treating water. Some hotels supply boiled water on request and this can be used for drinking, or for brushing teeth. Portable boiling elements that can boil small quantities of water are useful when the right voltage of electricity is available. Refuse politely any cold drink from an unknown source.
-Ice is only as safe as the water from which it is made, and should not be put in drinks unless it is known to be safe. Drinks can be cooled by placing them on ice rather than adding ice to them.
-Alcohol may be a medical disinfectant, but should not be relied upon to sterilize water. Ethanol is more effective at a concentration of 50-70 per cent; below 20 per cent, its bactericidal action is negligible. Spirits labelled 95 proof contain only about 47 per cent alcohol. Beware of methylated alcohol, which is very poisonous, and should never be added to drinking water.
-If no other safe water supply can be obtained, tap water that is too hot to touch can be left to cool and is generally safe to drink. Those planning a trip to remote areas, or intending to live in countries where drinking water is not readily available, should know about the various possible methods for making water safe.
-RICHARD DAWOOD Travellers' Health
 
-A woman is drawing water from a well
+Travellers on short trips to areas with water supplies of uncertain quality should avoid drinking tap-water, or untreated water from any other source. It is best to keep to hot drinks, bottled or canned drinks of well-known brand names -- international standards of water treatment are usually followed at bottling plants. Carbonated drinks are acidic, and slightly safer. Make sure that all bottles are opened in your presence, and that their rims are clean and dry.
+
+Boiling is always a good way of treating water. Some hotels supply boiled water on request and this can be used for drinking, or for brushing teeth. Portable boiling elements that can boil small quantities of water are useful when the right voltage of electricity is available. Refuse politely any cold drink from an unknown source.
+
+Ice is only as safe as the water from which it is made, and should not be put in drinks unless it is known to be safe. Drinks can be cooled by placing them on ice rather than adding ice to them.
+
+Alcohol may be a medical disinfectant, but should not be relied upon to sterilize water. Ethanol is more effective at a concentration of 50-70 per cent; below 20 per cent, its bactericidal action is negligible. Spirits labelled 95 proof contain only about 47 per cent alcohol. Beware of methylated alcohol, which is very poisonous, and should never be added to drinking water.
+
+If no other safe water supply can be obtained, tap water that is too hot to touch can be left to cool and is generally safe to drink. Those planning a trip to remote areas, or intending to live in countries where drinking water is not readily available, should know about the various possible methods for making water safe.
 
 ### New words and expressions 生词和短语
 
-- contamination n. 污染
-- sanitation n. 卫生，卫生设备
-- sewage n. 污水
-- leakage n. 泄漏
-- intermittent adj. 间歇的，断断续续的
-- carbonated adj. 碳化的，碳酸的
-- acidic adj. 酸的，酸性的
-- alcohol n. 酒精
-- disinfectant n. 消毒剂
-- sterilize v. 消毒
-- ethanol n. 乙醇
-- bactericidal adj. 杀菌的
-- negligible adj. 可以忽略的，微不足道的
-- methylated adj. 加入甲醇的
+contamination n. 污染
+sanitation n. 卫生，卫生设备
+sewage n. 污水
+leakage n. 泄漏
+intermittent adj. 间歇的，断断续续的
+carbonated adj. 碳化的，碳酸的
+acidic adj. 酸的，酸性的
+alcohol n. 酒精
+disinfectant n. 消毒剂
+sterilize v. 消毒
+ethanol n. 乙醇
+bactericidal adj. 杀菌的
+negligible adj. 可以忽略的，微不足道的
+methylated adj. 加入甲醇的
 
 ### Notes on the text 课文注释
 
-- 1、keep to,局限于。
-- 2、Ice is only as safe as the water from which it is made.冰块只是当制造冰块的水安全时才是安全的。
-- 3、know about,知道...的情况，了解。
+1、keep to,局限于。
+2、Ice is only as safe as the water from which it is made.冰块只是当制造冰块的水安全时才是安全的。
+3、know about,知道...的情况，了解。
 
 ### 参考译文
 
@@ -1729,45 +1690,45 @@ A woman is drawing water from a well
 ---
 
 ## Lesson 39 What every writer wants 作家之所需
+*JOHN LE CARRE What every writer wants from Harper's*
 
 ### 课文原文
 
 I have known very few writers, but those I have known, and whom I respect, confess at once that they have little idea where they are going when they first set pen to paper. They have a character, perhaps two; they are in that condition of eager discomfort which passes for inspiration; all admit radical changes of destination once the journey has begun; one, to my certain knowledge, spent nine months on a novel about Kashmir, then reset the whole thing in the Scottish Highlands. I never heard of anyone making a 'skeleton', as we were taught at school. In the breaking and remaking, in the timing, interweaving, beginning afresh, the writer comes to discern things in his material which were not consciously in his mind when he began. This organic process, often leading to moments of extraordinary self-discovery, is of an indescribable fascination. A blurred image appears; he adds a brushstroke and another, and it is gone; but something was there, and he will not rest till he has captured it. Sometimes the yeast within a writer outlives a book he has written. I have heard of writers who read nothing but their own books; like adolescents they stand before the mirror, and still cannot fathom the exact outline of the vision before them. For the same reason, writers talk interminably about their own books, winkling out hidden meanings, super-imposing new ones, begging response from those around them. Of course a writer doing this is misunderstood: he might as well try to explain a crime or a love affair. He is also, incidentally, an unforgivable bore.
-This temptation to cover the distance between himself and the reader, to study his image in the sight of those who do not know him, can be his undoing: he has begun to write to please.
-A young English writer made the pertinent observation a year or two back that the talent goes into the first draft, and the art into the drafts that follow. For this reason also the writer, like any other artist, has no resting place, no crowd or movement in which he may take comfort, no judgment from outside which can replace the judgment from within. A writer makes order out of the anarchy of his heart; he submits himself to a more ruthless discipline than any critic dreamed of, and when he flirts with fame, he is taking time off from living with himself, from the search for what his world contains at its inmost point.
-JOHN LE CARRE What every writer wants from Harper's
 
-A scene from the film of John le Carre's book,The Spy who Came in from the Cold
+This temptation to cover the distance between himself and the reader, to study his image in the sight of those who do not know him, can be his undoing: he has begun to write to please.
+
+A young English writer made the pertinent observation a year or two back that the talent goes into the first draft, and the art into the drafts that follow. For this reason also the writer, like any other artist, has no resting place, no crowd or movement in which he may take comfort, no judgment from outside which can replace the judgment from within. A writer makes order out of the anarchy of his heart; he submits himself to a more ruthless discipline than any critic dreamed of, and when he flirts with fame, he is taking time off from living with himself, from the search for what his world contains at its inmost point.
 
 ### New words and expressions 生词和短语
 
-- confress v.承认
-- inspiration n.灵感
-- Kasmir n.克什米尔
-- interweave v.交织
-- afresh adv.重新
-- discern v.辨明，领悟
-- indescribable adj. 无法描述的
-- blur v.使...模糊不清
-- yeast n.激动
-- fathom v.领悟，彻底了解
-- interminably adv.没完没了地
-- winkle v.挖掘
-- incidentally adv.顺便说一下
-- pertinent adj.中肯的
-- flirt v.调情
-- inmost adj.内心深处的
+confress v.承认
+inspiration n.灵感
+Kasmir n.克什米尔
+interweave v.交织
+afresh adv.重新
+discern v.辨明，领悟
+indescribable adj. 无法描述的
+blur v.使...模糊不清
+yeast n.激动
+fathom v.领悟，彻底了解
+interminably adv.没完没了地
+winkle v.挖掘
+incidentally adv.顺便说一下
+pertinent adj.中肯的
+flirt v.调情
+inmost adj.内心深处的
 
 ### Notes on the text 课文注释
 
-- 1、where they are going,他们要写什么，怎么写。
-- 2、set their pen to paper,开始写作。
-- 3、pass for, "被当作"，但常指蒙骗，假冒。
-- 4、to my certain knowledge,据我所知。
-- 5、nothing but,仅，只。
-- 6、like adolescents they stand before the mirror,and still cannot fathom the exact outline of the vision before them.
-- 他们如同少年，站在镜前，不能辨认出自身的真面目。此句出自古希腊的一则是神话：有一漂亮少年，他热恋上了水中自身的映像，最后憔悴而死，化为水仙花。
-- 7、in the sight of,从...角度来看。
+1、where they are going,他们要写什么，怎么写。
+2、set their pen to paper,开始写作。
+3、pass for, "被当作"，但常指蒙骗，假冒。
+4、to my certain knowledge,据我所知。
+5、nothing but,仅，只。
+6、like adolescents they stand before the mirror,and still cannot fathom the exact outline of the vision before them.
+他们如同少年，站在镜前，不能辨认出自身的真面目。此句出自古希腊的一则是神话：有一漂亮少年，他热恋上了水中自身的映像，最后憔悴而死，化为水仙花。
+7、in the sight of,从...角度来看。
 
 ### 参考译文
 
@@ -1782,41 +1743,45 @@ A scene from the film of John le Carre's book,The Spy who Came in from the Cold
 ### 课文原文
 
 Waves are the children of the struggle between ocean and atmosphere, the ongoing signatures of infinity. Rays from the sun excite and energize the atmosphere of the earth, awakening it to flow, to movement, to rhythm, to life. The wind then speaks the message of the sun to the sea and the sea transmits it on through waves -- an ancient, exquisite, powerful message.
-These ocean waves are among the earth's most complicated natural phenomena. The basic features include a crest (the highest point of the wave), a trough (the lowest point), a height (the vertical distance from the trough to the crest), a wave length (the horizontal distance between two wave crests), and a period (which is the time it takes a wave crest to travel one wave length).
-Although an ocean wave gives the impression of a wall of water moving in your direction, in actuality waves move through the water leaving the water about where it was. If the water was moving with the wave, the ocean and everything on it would be racing in to the shore with obviously catastrophic results.
-An ocean wave passing through deep water causes a particle on the surface to move in a roughly circular orbit, drawing the particle first towards the advancing wave, then up into the wave, then forward with it and then -- as the wave leaves the particles behind -- back to its starting point again.
-From both maturity to death, a wave is subject to the same laws as any other 'living' thing. For a time it assumes a miraculous individuality that, in the end, is reabsorbed into the great ocean of life.
-The undulating waves of the open sea are generated by three natural causes: wind, earth movements or tremors, and the gravitational pull of the moon and the sun. Once waves have been generated, gravity is the force that drives them in a continual attempt to restore the ocean surface to a flat plain.
-from World Magazine (BBC Enterprises)
 
-Waves,a painting by Utagawa Hiroshigi(1797-1858)
+These ocean waves are among the earth's most complicated natural phenomena. The basic features include a crest (the highest point of the wave), a trough (the lowest point), a height (the vertical distance from the trough to the crest), a wave length (the horizontal distance between two wave crests), and a period (which is the time it takes a wave crest to travel one wave length).
+
+Although an ocean wave gives the impression of a wall of water moving in your direction, in actuality waves move through the water leaving the water about where it was. If the water was moving with the wave, the ocean and everything on it would be racing in to the shore with obviously catastrophic results.
+
+An ocean wave passing through deep water causes a particle on the surface to move in a roughly circular orbit, drawing the particle first towards the advancing wave, then up into the wave, then forward with it and then -- as the wave leaves the particles behind -- back to its starting point again.
+
+From both maturity to death, a wave is subject to the same laws as any other 'living' thing. For a time it assumes a miraculous individuality that, in the end, is reabsorbed into the great ocean of life.
+
+The undulating waves of the open sea are generated by three natural causes: wind, earth movements or tremors, and the gravitational pull of the moon and the sun. Once waves have been generated, gravity is the force that drives them in a continual attempt to restore the ocean surface to a flat plain.
+
+from World Magazine (BBC Enterprises)
 
 ### New words and expressions 生词和短语
 
-- signature n. 签名，标记
-- infinity n. 无穷
-- ray n. 光线
-- energize v. 给与...能量
-- rhythm n. 节奏
-- transmit v. 传送
-- exquisite adj. 高雅的
-- phenomena n. 现象
-- crest n. 浪峰
-- trough n. 波谷
-- vertical adj. 垂直的
-- horizontal adj. 水平的
-- actuality n. 现实
-- catastrophic adj. 大灾难的
-- particle n. 微粒
-- maturity n. 成熟
-- undulate v. 波动，形成波浪
-- tremor n. 震颤
-- gravitational adj. 地心吸力的
+signature n. 签名，标记
+infinity n. 无穷
+ray n. 光线
+energize v. 给与...能量
+rhythm n. 节奏
+transmit v. 传送
+exquisite adj. 高雅的
+phenomena n. 现象
+crest n. 浪峰
+trough n. 波谷
+vertical adj. 垂直的
+horizontal adj. 水平的
+actuality n. 现实
+catastrophic adj. 大灾难的
+particle n. 微粒
+maturity n. 成熟
+undulate v. 波动，形成波浪
+tremor n. 震颤
+gravitational adj. 地心吸力的
 
 ### Notes on the text 课文注释
 
-- 1 back to its starting point again,又返回出发点。
-- 2 be subject to,受...的支配，服从于...。
+1 back to its starting point again,又返回出发点。
+2 be subject to,受...的支配，服从于...。
 
 ### 参考译文
 
@@ -1829,52 +1794,55 @@ Waves,a painting by Utagawa Hiroshigi(1797-1858)
 ---
 
 ## Lesson 41 Training elephants 训练大象
+*RICHARD CARRINGTON Elephants*
 
 ### 课文原文
 
 Two main techniques have been used for training elephants, which we may call respectively the tough and the gentle. The former method simply consists of setting an elephant to work and beating him until he does what is expected of him. Apart from any moral considerations this is a stupid method of training, for it produces a resentful animal who at a later stage may well turn man-killer. The gentle method requires more patience in the early stages, but produces a cheerful, good-tempered elephant who will give many years of loyal service.
+
 The first essential in elephant training is to assign to the animal a single mahout who will be entirely responsible for the job. Elephants like to have one master just as dogs do, and are capable of a considerable degree of personal affection. There are even stories of half-trained elephant calves who have refused to feed and pined to death when by some unavoidable circumstance they have been deprived of their own trainer. Such extreme cases must probably be taken with a grain of salt, but they do underline the general principle that the relationship between elephant and mahout is the key to successful training.
+
 The most economical age to capture an elephant for training is between 15 and 20 years, for it is then almost ready to undertake heavy work and can begin to earn its keep straight away. But animals of this age do not easily become subservient to man, and a very firm hand must be employed in the early stages. The captive elephant, still roped to a tree, plunges and screams every time a man approaches, and for several days will probably refuse all food through anger and fear. Sometimes a tame elephant is tethered nearby to give the wild one confidence, and in most cases the captive gradually quietens down and begins to accept its food. The next stage is to get the elephant to the training establishment, a ticklish business which is achieved with the aid of two tame elephants roped to the captive on either side.
+
 When several elephants are being trained at one time, it is customary for the new arrival to be placed between the stalls of two captives whose training is already well advanced. It is then left completely undisturbed with plenty of food and water so that it can absorb the atmosphere of its new home and see that nothing particularly alarming is happening to its companions. When it is eating normally, its own training begins. The trainer stands in front of the elephant holding a long stick with a sharp metal point. Two assistants, mounted on tame elephants, control the captive from either side, while others rub their hands over his skin to the accompaniment of a monotonous and soothing chant. This is supposed to induce pleasurable sensations in the elephant, and its effects are reinforced by the use of endearing epithets. such as 'ho! my son', or 'ho! my father', or 'my mother', according to the age and sex of the captive. The elephant is not immediately susceptible to such blandishments, however, and usually lashes fiercely with its trunk in all directions. These movements are controlled by the trainer with the metal-pointed stick, and the trunk eventually becomes so sore that the elephant curls it up and seldom afterwards uses it for offensive purposes.
-RICHARD CARRINGTON Elephants
 
 A wild Indian elephant is roped to two trained ones during the first few days of training.
 
 ### New words and expressions 生词和短语
 
-- technique n. 技术
-- tough adj. 强硬的
-- resentful adj. 忿恨不满的
-- assign v. 分配，指派
-- mahout n. 驯象人
-- calf n. 幼仔
-- pine v. 消瘦
-- underline v. 着重说明，强调
-- keep n. 生计
-- subservient adj. 屈从的
-- plunge v. 向前冲
-- tame adj. 养驯服了的
-- tether v. （用绳）拴
-- ticklish adj. 难对付的，棘手的
-- alarming adj. 引起惊恐的
-- accompaniment n. 伴奏
-- soothe v. 镇定
-- chant n. 单调的歌
-- reinforce v. 加强
-- endearing adj.惹人喜爱的
-- epithet n. 称呼
-- susceptible adj. 易受感动的
-- blandishment n. 奉承
-- lash v. 猛烈地甩
-- curl v. 使卷曲
+technique n. 技术
+tough adj. 强硬的
+resentful adj. 忿恨不满的
+assign v. 分配，指派
+mahout n. 驯象人
+calf n. 幼仔
+pine v. 消瘦
+underline v. 着重说明，强调
+keep n. 生计
+subservient adj. 屈从的
+plunge v. 向前冲
+tame adj. 养驯服了的
+tether v. （用绳）拴
+ticklish adj. 难对付的，棘手的
+alarming adj. 引起惊恐的
+accompaniment n. 伴奏
+soothe v. 镇定
+chant n. 单调的歌
+reinforce v. 加强
+endearing adj.惹人喜爱的
+epithet n. 称呼
+susceptible adj. 易受感动的
+blandishment n. 奉承
+lash v. 猛烈地甩
+curl v. 使卷曲
 
 ### Notes on the text 课文注释
 
-- 1 by some unavoidable circumstance,由于某些不可避免的情况。
-- 2 with a grain of salt,有保留地。
-- 3 a very firm hand,一个强有力的人。
-- 4 with the aid of,在...的帮助下。
-- 5 This is supposed,据说...。
+1 by some unavoidable circumstance,由于某些不可避免的情况。
+2 with a grain of salt,有保留地。
+3 a very firm hand,一个强有力的人。
+4 with the aid of,在...的帮助下。
+5 This is supposed,据说...。
 
 ### 参考译文
 
@@ -1890,38 +1858,39 @@ A wild Indian elephant is roped to two trained ones during the first few days of
 ### 课文原文
 
 An earthquake comes like a thief in the night, without warning. It was necessary, therefore, to invent instruments that neither slumbered nor slept. Some devices were quite simple. One, for instance, consisted of rods of various lengths and thicknesses which would stand up on end like ninepins. When a shock came, it shook the rigid table upon which these stood. If it were gentle, only the more unstable rods fell. If it were severe, they all fell. Thus the rods, by falling, and by the direction in which they fell, recorded for the slumbering scientist the strength of a shock that was too weak to waken him, and the direction from which it came.
-But instruments far more delicate than that were needed if any really serious advance was to be made. The ideal to be aimed at was to devise an instrument that could record with a pen on paper, the movements of the ground or of the table as the quake passed by. While I write my pen moves, but the paper keeps still. With practice, no doubt, I could in time learn to write by holding the pen still while the paper moved. That sounds a silly suggestion, but that was precisely the idea adopted in some of the early instruments (seismometers) for recording earthquake waves. But when table, penholder and paper are all moving, how is it possible to write legibly? The key to a solution of that problem lay in an everyday observation. Why does a person standing in a bus or train tend to fall when a sudden start is made? It is because his feet move on , but his head stays still. A simple experiment will help us a little further. Tie a heavy weight at the end of a long piece of string. With the hand held high in the air, hold the string so that the weight nearly touches the ground. Now move the hand to and fro and around but not up and down. It will be found that the weight moves but slightly or not at all. Imagine a pen attached to the weight in such a way that its point rests upon a piece of paper on the floor. Imagine an earthquake shock shaking the floor, the paper, you and your hand. In the midst of all this movement, the weight and the pen would be still. But as the paper moved from side to side under the pen point, its movement would be recorded in ink upon its surface. It was upon this principle that the first instruments were made, but the paper was wrapped round a drum which rotated slowly. As long as all was still, the pen drew a straight line, but while the drum was being shaken, the line that the pen was drawing wriggled from side to side. The apparatus thus described, however, records only the horizontal component of the wave movement, which is, in fact, much more complicated. If we could actually see the path described by a particle, such as a sand grain in the rock, it would be more like that of a bluebottle buzzing round the room; it would be up and down, to and fro and from side to side. Instruments have been devised and can be so placed that all three elements can be recorded in different graphs.
-When the instrument is situated at more than 700 miles from the earthquake centre, the graphic record shows three waves arriving one after the other at short intervals. The first records the arrival of longitudinal vibrations. The second marks the arrival of transverse vibrations which travel more slowly and arrive several minutes after the first. These two have travelled through the earth. It was from the study of these that so much was learnt about the interior of the earth. The third, or main wave, is the slowest and has travelled round the earth through the surface rocks.
-H.H,SWINNERTON The Earth beneath Us
 
-The Shaw seismograph at the Science   An earthquake recorded on a seismograph Museum,London
+But instruments far more delicate than that were needed if any really serious advance was to be made. The ideal to be aimed at was to devise an instrument that could record with a pen on paper, the movements of the ground or of the table as the quake passed by. While I write my pen moves, but the paper keeps still. With practice, no doubt, I could in time learn to write by holding the pen still while the paper moved. That sounds a silly suggestion, but that was precisely the idea adopted in some of the early instruments (seismometers) for recording earthquake waves. But when table, penholder and paper are all moving, how is it possible to write legibly? The key to a solution of that problem lay in an everyday observation. Why does a person standing in a bus or train tend to fall when a sudden start is made? It is because his feet move on , but his head stays still. A simple experiment will help us a little further. Tie a heavy weight at the end of a long piece of string. With the hand held high in the air, hold the string so that the weight nearly touches the ground. Now move the hand to and fro and around but not up and down. It will be found that the weight moves but slightly or not at all. Imagine a pen attached to the weight in such a way that its point rests upon a piece of paper on the floor. Imagine an earthquake shock shaking the floor, the paper, you and your hand. In the midst of all this movement, the weight and the pen would be still. But as the paper moved from side to side under the pen point, its movement would be recorded in ink upon its surface. It was upon this principle that the first instruments were made, but the paper was wrapped round a drum which rotated slowly. As long as all was still, the pen drew a straight line, but while the drum was being shaken, the line that the pen was drawing wriggled from side to side. The apparatus thus described, however, records only the horizontal component of the wave movement, which is, in fact, much more complicated. If we could actually see the path described by a particle, such as a sand grain in the rock, it would be more like that of a bluebottle buzzing round the room; it would be up and down, to and fro and from side to side. Instruments have been devised and can be so placed that all three elements can be recorded in different graphs.
+
+When the instrument is situated at more than 700 miles from the earthquake centre, the graphic record shows three waves arriving one after the other at short intervals. The first records the arrival of longitudinal vibrations. The second marks the arrival of transverse vibrations which travel more slowly and arrive several minutes after the first. These two have travelled through the earth. It was from the study of these that so much was learnt about the interior of the earth. The third, or main wave, is the slowest and has travelled round the earth through the surface rocks.
+
+H.H,SWINNERTON The Earth beneath Us
 
 ### New words and expressions 生词和短语
 
-- earthquake n. 地震
-- slumber v. 睡眠
-- ninepin n. 九柱戏中的木柱
-- rigid adj. 坚硬的
-- delicate adj. 灵感的
-- seismometer n. 地震仪
-- penholder n. 笔杆
-- legibly adv. 字迹清楚地
-- drum n. 鼓状物
-- wriggle v. 扭动
-- bluebottle n. 绿头苍蝇
-- graph n. 图表
-- graphic adj. 图示的
-- longitudinal adj. 纵向的
-- transverse adj. 横向的
+earthquake n. 地震
+slumber v. 睡眠
+ninepin n. 九柱戏中的木柱
+rigid adj. 坚硬的
+delicate adj. 灵感的
+seismometer n. 地震仪
+penholder n. 笔杆
+legibly adv. 字迹清楚地
+drum n. 鼓状物
+wriggle v. 扭动
+bluebottle n. 绿头苍蝇
+graph n. 图表
+graphic adj. 图示的
+longitudinal adj. 纵向的
+transverse adj. 横向的
 
 ### Notes on the text 课文注释
 
-- 1、stand up on end,竖立着。
-- 2、the ideal to be aimed at,理想的目标。
-- 3、I could in time...,我最终能够....。
-- 4、help us a little further,帮助我们进一步搞清这个问题。
-- 5、with the hand...hold the string...,这是一个祈使句，谓语动词是hold,with the hand held high in the air是介词短语作方式状语。
-- 6、to and fro,来回地。
+1、stand up on end,竖立着。
+2、the ideal to be aimed at,理想的目标。
+3、I could in time...,我最终能够....。
+4、help us a little further,帮助我们进一步搞清这个问题。
+5、with the hand...hold the string...,这是一个祈使句，谓语动词是hold,with the hand held high in the air是介词短语作方式状语。
+6、to and fro,来回地。
 
 ### 参考译文
 
@@ -1932,39 +1901,44 @@ The Shaw seismograph at the Science   An earthquake recorded on a seismograph Mu
 ---
 
 ## Lesson 43 Are there strangers in space? 宇宙中有外星人吗？
+*ANTHONY MICHAELIS Are There Strangers in Space? from The Weekend Telegraph*
 
 ### 课文原文
 
 We must conclude from the work of those who have studied the origin of life, that given a planet only approximately like our own, life is almost certain to start. Of all the planets in our own solar system, we ware now pretty certain the Earth is the only one on which life can survive. Mars is too dry and poor in oxygen, Venus far too hot, and so is Mercury, and the outer planets have temperatures near absolute zero and hydrogen-dominated atmospheres. But other suns, stars as the astronomers call them, are bound to have planets like our own, and as is the number of stars in the universe is so vast, this possibility becomes virtual certainty. There are 100,000 million stars in our own Milky Way alone, and then there are 3,000 million other Milky Ways, or galaxies, in the universe. So the number of stars that we know exist is now estimated at about 300 million million million.
+
 Although perhaps only 1% of the life that has started somewhere will develop into highly complex and intelligent patterns, so vast is the number of planets, that intelligent life is bound to be a natural part of the universe.
+
 If then we are so certain that other intelligent life exists in the universe, why have we had no visitors from outer space yet? First of all, they may have come to this planet of ours thousands or millions of years ago, and found our then prevailing primitive state completely uninteresting to their own advanced knowledge. Professor Ronald Bracewell, a leading American radio astronomer, argued in Nature that such a superior civilization, on a visit to our own solar system, may have left an automatic messenger behind to await the possible awakening of an advanced civilization. Such a messenger, receiving our radio and television signals, might well re-transmit them back to its home-planet, although what impression any other civilization would thus get from us is best left unsaid.
+
 But here we come up against the most difficult of all obstacles to contact with people on other planets -- the astronomical distances which separate us. As a reasonable guess, they might, on an average, be 100 light years away. (A light year is the distance which light travels at 186,000 miles per second in one year, namely 6 million million miles.) Radio waves also travel at the speed of light, and assuming such an automatic messenger picked up our first broadcasts of the 1920's, the message to its home planet is barely halfway there. Similarly, our own present primitive chemical rockets, though good enough to orbit men, have no chance of transporting us to the nearest other star, four light years away, let alone distances of tens or hundreds of light years.
+
 Fortunately, there is a 'uniquely rational way' for us to communicate with other intelligent beings, as Walter Sullivan has put it in his excellent book, We Are not Alone. This depends on the precise radio frequency of the 21-cm wavelength, or 1420 megacycles per second. It is the natural frequency of emission of the hydrogen atoms in space and was discovered by us in 1951; it must be known to any kind of radio astronomer in the universe.
+
 Once the existence of this wave-length had been discovered, it was not long before its use as the uniquely recognizable broadcasting frequency for interstellar communication was suggested. Without something of this kind, searching for intelligences on other planets would be like trying to meet a friend in London without a pre-arranged rendezvous and absurdly wandering the streets in the hope of a chance encounter.
-ANTHONY MICHAELIS Are There Strangers in Space? from The Weekend Telegraph
 
 Simulation of a hypothetical sighting of a UFO(unidentified flying object) in the small town of Bellelille,Wisconsin,USA.For several months in 1986-1989,the town was plagued by UFO sightings.
 
 ### New words and expressions 生词和短语
 
-- Mercury n. 水星
-- hydrogen n. 氢气
-- prevailing adj. 普遍的
-- radio astronomer 射电天方学家
-- uniquely adv. 唯一地
-- rational adj. 合理的
-- radio frequency 无线电频率
-- cm n. 厘米
-- megacycle n. 兆周
-- emission n. 散发
-- intersteller adj.星际的
-- rendezvous n. 约会地点
+Mercury n. 水星
+hydrogen n. 氢气
+prevailing adj. 普遍的
+radio astronomer 射电天方学家
+uniquely adv. 唯一地
+rational adj. 合理的
+radio frequency 无线电频率
+cm n. 厘米
+megacycle n. 兆周
+emission n. 散发
+intersteller adj.星际的
+rendezvous n. 约会地点
 
 ### Notes on the text 课文注释
 
-- 1、that given a planet...certain to start,这是一个宾语从句，作动词conclude的宾语，其中given a planet...our own,过去分词短语作条件状语，given与if的意思相近，这个过去分词短语可译成“如果一个行星与我们所在的行星大致相同的话”。
-- 2、is best left unsaid,最好不去说（它）。
-- 3、come up against,遇到。
+1、that given a planet...certain to start,这是一个宾语从句，作动词conclude的宾语，其中given a planet...our own,过去分词短语作条件状语，given与if的意思相近，这个过去分词短语可译成“如果一个行星与我们所在的行星大致相同的话”。
+2、is best left unsaid,最好不去说（它）。
+3、come up against,遇到。
 
 ### 参考译文
 
@@ -1978,56 +1952,57 @@ Simulation of a hypothetical sighting of a UFO(unidentified flying object) in th
 ---
 
 ## Lesson 44 Patterns of culture 文化的模式
+*RUTH BENEDICT Patterns of Culture*
 
 ### 课文原文
 
 Custom has not commonly been regarded as a subject of any great moment. The inner workings of our own brains we feel to be uniquely worthy of investigation, but custom, we have a way of thinking, is behaviour at its most commonplace. As a matter of fact, it is the other way around. Traditional custom, taken the world over, is a mass of detailed behaviour more astonishing than what any one person can ever evolve in individual actions, no matter how aberrant. Yet that is a rather trivial aspect of the matter. The fact of first-rate importance is the predominant role that custom plays in experience and in belief, and the very great varieties it may manifest.
-No man ever looks at the world with pristine eyes. He sees it edited by a definite set of customs and institutions and ways of thinking. Even in his philosophical probings he cannot go behind these stereotypes; his very concepts of the true and the false will still have reference to his particular traditional customs. John Dewey has said in all seriousness that the part played by custom in shaping the behaviour of the individual, as against any way in which he can affect traditional custom, is as the proportion of the total vocabulary of his mother tongue against those words of his own baby talk that are taken up into the vernacular of his family. When one seriously studies the social orders that have had the opportunity to develop autonomously, the figure becomes no more than an exact and matter-of-fact observation. The life history of the individual is first and foremost an accommodation to the patterns and standards traditionally handed down in his community. From the moment of his birth, the customs into which he is born shape his experience and behaviour. By the time he can talk, he is the little creature of his culture, and by the time he is grown and able to take part in its activities, its habits are his habits, its beliefs his beliefs, its impossibilities his impossibilities. Every child that is born into his group will share them with him, and no child born into one on the opposite side of the globe can ever achieve the thousandth part. There is no social problem it is more incumbent upon us to understand than this of the role of custom. Until we are intelligent as to its laws and varieties, the main complicating facts of human life must remain unintelligible.
-The study of custom can be profitable only after certain preliminary propositions have been accepted, and some of these propositions have been violently opposed. In the first place, any scientific study requires that there be no preferential weighting of one or another of the items in the series it selects for its consideration. In all the less controversial fields, like the study of cacti or termites or the mature of nebulae, the necessary method of study is to group the relevant material and to take note of all possible variant forms and conditions. In this way, we have learned all that we know of the laws of astronomy, or of the habits of the social insects, let us say. It is only in the study of man himself that the major social sciences have substituted the study of one local variation, that of Western civilization.
-Anthropology was by definition impossible, as long as these distinctions between ourselves and the primitive, ourselves and the barbarian, ourselves and the pagan, held sway over people's minds. It was necessary first to arrive at that degree of sophistication where we no longer set our own belief against our neighbour's superstition. It was necessary to recognize that these institutions which are based on the same premises, let us say the supernatural, must be considered together, our own among the rest.
-RUTH BENEDICT Patterns of Culture
 
-A Padaung girl from Burma in her brass necklace
+No man ever looks at the world with pristine eyes. He sees it edited by a definite set of customs and institutions and ways of thinking. Even in his philosophical probings he cannot go behind these stereotypes; his very concepts of the true and the false will still have reference to his particular traditional customs. John Dewey has said in all seriousness that the part played by custom in shaping the behaviour of the individual, as against any way in which he can affect traditional custom, is as the proportion of the total vocabulary of his mother tongue against those words of his own baby talk that are taken up into the vernacular of his family. When one seriously studies the social orders that have had the opportunity to develop autonomously, the figure becomes no more than an exact and matter-of-fact observation. The life history of the individual is first and foremost an accommodation to the patterns and standards traditionally handed down in his community. From the moment of his birth, the customs into which he is born shape his experience and behaviour. By the time he can talk, he is the little creature of his culture, and by the time he is grown and able to take part in its activities, its habits are his habits, its beliefs his beliefs, its impossibilities his impossibilities. Every child that is born into his group will share them with him, and no child born into one on the opposite side of the globe can ever achieve the thousandth part. There is no social problem it is more incumbent upon us to understand than this of the role of custom. Until we are intelligent as to its laws and varieties, the main complicating facts of human life must remain unintelligible.
+
+The study of custom can be profitable only after certain preliminary propositions have been accepted, and some of these propositions have been violently opposed. In the first place, any scientific study requires that there be no preferential weighting of one or another of the items in the series it selects for its consideration. In all the less controversial fields, like the study of cacti or termites or the mature of nebulae, the necessary method of study is to group the relevant material and to take note of all possible variant forms and conditions. In this way, we have learned all that we know of the laws of astronomy, or of the habits of the social insects, let us say. It is only in the study of man himself that the major social sciences have substituted the study of one local variation, that of Western civilization.
+
+Anthropology was by definition impossible, as long as these distinctions between ourselves and the primitive, ourselves and the barbarian, ourselves and the pagan, held sway over people's minds. It was necessary first to arrive at that degree of sophistication where we no longer set our own belief against our neighbour's superstition. It was necessary to recognize that these institutions which are based on the same premises, let us say the supernatural, must be considered together, our own among the rest.
 
 ### New words and expressions 生词和短语
 
-- commonplace adj. 平凡的
-- aberrant adj. 脱离常轨的，异常的
-- trivial adj. 微不足道的，琐细的
-- predominant adj. 占优势的，起支配作用的
-- manifest v. 表明
-- pristine adj. 纯洁的，质朴的
-- stereotype n. 陈规
-- vernacular n. 方言
-- accommodation n. 适应
-- incumbent adj. 义不容辞的，有责任的
-- preliminary adj. 初步的
-- proposition n. 主张
-- preferrential adj. 优先的
-- controversial adj. 引起争论的
-- cactus n. 仙人掌
-- termite n. 白蚁
-- nebula adj. 星云
-- variant n. 不同的
-- barbarian n. 野蛮人
-- pagan n. 异教徒
-- sophistication n. 老练
-- premise n. 前提
-- supernatural adj. 超自然的
+commonplace adj. 平凡的
+aberrant adj. 脱离常轨的，异常的
+trivial adj. 微不足道的，琐细的
+predominant adj. 占优势的，起支配作用的
+manifest v. 表明
+pristine adj. 纯洁的，质朴的
+stereotype n. 陈规
+vernacular n. 方言
+accommodation n. 适应
+incumbent adj. 义不容辞的，有责任的
+preliminary adj. 初步的
+proposition n. 主张
+preferrential adj. 优先的
+controversial adj. 引起争论的
+cactus n. 仙人掌
+termite n. 白蚁
+nebula adj. 星云
+variant n. 不同的
+barbarian n. 野蛮人
+pagan n. 异教徒
+sophistication n. 老练
+premise n. 前提
+supernatural adj. 超自然的
 
 ### Notes on the text 课文注释
 
-- 1 The inner workings of our own brains,这一部分是feel的宾语，为了强调而把宾语提前了，to be uniquely worthy of investigation 是宾语补足语。
-- 2 the other way around,正好相反。
-- 3 taken the world over,是过去分词短语，作Traditional custom的定语，taken前省略了it is 意为：被全世界所接受的。
-- 4 go behind these stereotypes,摆脱这些旧框框。
-- 5 his very concepts,其中的very是形容词，用于加强语气。
-- 6 have reference to,参照...,与...有关。
-- 7 as against..is as ..against..意为：与...相比较就如同...与...相比。
-- 8 be taken up into,被接纳进。
-- 9 first and foremost,首先。
-- 10 the thousandth part,等于the thousandth part of the customs。
-- 11 let us say,譬如说。
+1 The inner workings of our own brains,这一部分是feel的宾语，为了强调而把宾语提前了，to be uniquely worthy of investigation 是宾语补足语。
+2 the other way around,正好相反。
+3 taken the world over,是过去分词短语，作Traditional custom的定语，taken前省略了it is 意为：被全世界所接受的。
+4 go behind these stereotypes,摆脱这些旧框框。
+5 his very concepts,其中的very是形容词，用于加强语气。
+6 have reference to,参照...,与...有关。
+7 as against..is as ..against..意为：与...相比较就如同...与...相比。
+8 be taken up into,被接纳进。
+9 first and foremost,首先。
+10 the thousandth part,等于the thousandth part of the customs。
+11 let us say,譬如说。
 
 ### 参考译文
 
@@ -2038,38 +2013,39 @@ A Padaung girl from Burma in her brass necklace
 ---
 
 ## Lesson 45 Of men and galaxies 人生星系
+*FRED HOYLE Of Men and Galaxies*
 
 ### 课文原文
 
 In man's early days, competition with other creatures must have been critical. But this phase of our development is now finished. Indeed, we lack practice and experience nowadays in dealing with primitive conditions. I am sure that, without modern weapons, I would make a very poor show of disputing the ownership of a cave with a bear, and in this I do not think that I stand alone. The last creature to compete with man was the mosquito. But even the mosquito has been subdued by attention to drainage and by chemical sprays.
-Competition between ourselves, person against person, community against community, still persists, however; and it is as fierce as it ever was.
-But the competition of man against man is not the simple process envisioned in biology. It is not a simple competition for a fixed amount of food determined by the physical environment, because the environment that determines our evolution is no longer essentially physical. Our environment is chiefly conditioned by the things we believe. Morocco and California are bits of the Earth in very similar latitudes, both on the west coasts of continents with similar climates, and probably with rather similar natural resources. Yet their present development is wholly different, not so much because of different people even, but because of the different thoughts that exist in the minds of their inhabitants. This is the point I wish to emphasize. The most important factor in our environment is the state of our own minds.
-It is well known that where the white man has invaded a primitive culture, the most destructive effects have come not from physical weapons but from ideas. Ideas are dangerous. The Holy Office knew this full well when it caused heretics to be burned in days gone by. Indeed, the concept of free speech only exists in our modern society because when you are inside a community, you are conditioned by the conventions of the community to such a degree that it is very difficult to conceive of anything really destructive. It is only someone looking on from outside that can inject the dangerous thoughts. I do not doubt that it would be possible to inject ideas into the modern world that would utterly destroy us. I would like to give you an example, but fortunately I cannot do so. Perhaps it will suffice to mention the nuclear bomb. Imagine the effect on a reasonably advanced technological society, one that still does not possess the bomb, of making it aware of the possibility, of supplying sufficient details to enable the thing to be constructed. Twenty or thirty pages of information handed to any of the major world powers around the year 1925 would have been sufficient to change the course of world history. It is a strange thought, but I believe a correct one, that twenty or thirty pages of ideas and information would be capable of turning the present-day world upside down, or even destroying it. I have often tried to conceive of what those pages might contain, but of course I cannot do so because I am a prisoner of the present-day world, just as all of you are. We cannot think outside the particular patterns that our brains are conditioned to, or, to be more accurate, we can think only a very little way outside, and then only if we are very original.
-FRED HOYLE Of Men and Galaxies
 
-An aerial viewof Sausalito,California
+Competition between ourselves, person against person, community against community, still persists, however; and it is as fierce as it ever was.
+
+But the competition of man against man is not the simple process envisioned in biology. It is not a simple competition for a fixed amount of food determined by the physical environment, because the environment that determines our evolution is no longer essentially physical. Our environment is chiefly conditioned by the things we believe. Morocco and California are bits of the Earth in very similar latitudes, both on the west coasts of continents with similar climates, and probably with rather similar natural resources. Yet their present development is wholly different, not so much because of different people even, but because of the different thoughts that exist in the minds of their inhabitants. This is the point I wish to emphasize. The most important factor in our environment is the state of our own minds.
+
+It is well known that where the white man has invaded a primitive culture, the most destructive effects have come not from physical weapons but from ideas. Ideas are dangerous. The Holy Office knew this full well when it caused heretics to be burned in days gone by. Indeed, the concept of free speech only exists in our modern society because when you are inside a community, you are conditioned by the conventions of the community to such a degree that it is very difficult to conceive of anything really destructive. It is only someone looking on from outside that can inject the dangerous thoughts. I do not doubt that it would be possible to inject ideas into the modern world that would utterly destroy us. I would like to give you an example, but fortunately I cannot do so. Perhaps it will suffice to mention the nuclear bomb. Imagine the effect on a reasonably advanced technological society, one that still does not possess the bomb, of making it aware of the possibility, of supplying sufficient details to enable the thing to be constructed. Twenty or thirty pages of information handed to any of the major world powers around the year 1925 would have been sufficient to change the course of world history. It is a strange thought, but I believe a correct one, that twenty or thirty pages of ideas and information would be capable of turning the present-day world upside down, or even destroying it. I have often tried to conceive of what those pages might contain, but of course I cannot do so because I am a prisoner of the present-day world, just as all of you are. We cannot think outside the particular patterns that our brains are conditioned to, or, to be more accurate, we can think only a very little way outside, and then only if we are very original.
 
 ### New words and expressions 生词和短语
 
-- dispute v.争夺
-- mosquito n.蚊子
-- subdue v.征服
-- drainage n.下水系统
-- envision n.预想
-- Morocco n.摩洛哥
-- latitude n.纬度
-- heretic n.异教徒，异端邪说
-- conceive v.想像
-- suffice v.足够
-- nuclear adj.原子弹的
-- original adj.有独到见解的
+dispute v.争夺
+mosquito n.蚊子
+subdue v.征服
+drainage n.下水系统
+envision n.预想
+Morocco n.摩洛哥
+latitude n.纬度
+heretic n.异教徒，异端邪说
+conceive v.想像
+suffice v.足够
+nuclear adj.原子弹的
+original adj.有独到见解的
 
 ### Notes on the text 课文注释
 
-- 1 make a very poor show,出丑。
-- 2 I stand alone,仅我一人。
-- 3 the last creature to compete with man,其中的last有“极不可能”的意思。
-- 4 The Holy Office knew this full well when it caused heretics to be burned in days gone by.the Holy Office 是指罗马天主教的宗教法庭；full well中的full是副词，有very的意思；gone by作days的定语，整个词组的意思是“过去的日子”。
+1 make a very poor show,出丑。
+2 I stand alone,仅我一人。
+3 the last creature to compete with man,其中的last有“极不可能”的意思。
+4 The Holy Office knew this full well when it caused heretics to be burned in days gone by.the Holy Office 是指罗马天主教的宗教法庭；full well中的full是副词，有very的意思；gone by作days的定语，整个词组的意思是“过去的日子”。
 
 ### 参考译文
 
@@ -2081,53 +2057,55 @@ An aerial viewof Sausalito,California
 ---
 
 ## Lesson 46 Hobbies 业余爱好
+*WINSTON CHURCHLL Painting as a Pastime*
 
 ### 课文原文
 
 A gifted American psychologist has said, 'Worry is a spasm of the emotion; the mind catches hold of something and will not let it go.' It is useless to argue with the mind in this condition. The stronger the will, the more futile the task. One can only gently insinuate something else into its convulsive grasp. And if this something else is rightly chosen, if it is really attended by the illumination of another field of interest, gradually, and often quite swiftly, the old undue grip relaxes and the process of recuperation and repair begins.
-The cultivation of a hobby and new forms of interest is therefore a policy of the first importance to a public man. But this is not a business that can be undertaken in a day or swiftly improvised by a mere command of the will. The growth of alternative mental interests is a long process. The seeds must be carefully chosen; they must fall on good ground; they must be sedulously tended, if the vivifying fruits are to be at hand when needed.
-To be really happy and really safe, one ought to have at least two or three hobbies, and they must all be real. It is no use starting late in life to say: 'I will take an interest in this or that.' Such an attempt only aggravates the strain of mental effort. A man may acquire great knowledge of topics unconnected with his daily work, and yet get hardly any benefit or relief. It is no use doing what you like; you have got to like what you do. Broadly speaking, human beings may be divided into three classes: those who are toiled to death, those who are worried to death, and those who are bored to death. It is no use offering the manual labourer, tired out with a hard week's sweat and effort, the chance of playing a game of football or baseball on Saturday afternoon. It is no use inviting the politician or the professional or business man, who has been working or worrying about serious things for six days, to work or worry about trifling things at the weekend.
-As for the unfortunate people who can command everything they want, who can gratify every caprice and lay their hands on almost every object of desire -- for them a new pleasure, a new excitement is only an additional satiation. In vain they rush frantically round from place to place, trying to escape from avenging boredom by mere clatter and motion. For them discipline in one form or another is the most hopeful path.
-It may also be said that rational, industrious, useful human beings are divided into two classes: first,those whose work is work and whose pleasure is pleasure; and secondly those whose work and pleasure are one. Of these the former are the majority. They have their compensations. The long hours in the office or the factory bring with them as their reward, not only the means of sustenance, but a keen appetite for pleasure even in its simplest and most modest forms. But Fortune's favoured children belong to the second class. Their life is a natural harmony. For them the working hours are never long enough. Each day is a holiday, and ordinary holidays, when they come, are grudged as enforced interruptions in an absorbing vocation. Yet to both classes, the need of an alternative outlook, of a change of atmosphere, of a diversion of effort, is essential. Indeed, it may well be that those whose work is their pleasure are those who most need the means of banishing it at intervals from their minds.
-WINSTON CHURCHLL Painting as a Pastime
 
-Sir Winston Churchill painting in Switzerland in 1946
+The cultivation of a hobby and new forms of interest is therefore a policy of the first importance to a public man. But this is not a business that can be undertaken in a day or swiftly improvised by a mere command of the will. The growth of alternative mental interests is a long process. The seeds must be carefully chosen; they must fall on good ground; they must be sedulously tended, if the vivifying fruits are to be at hand when needed.
+
+To be really happy and really safe, one ought to have at least two or three hobbies, and they must all be real. It is no use starting late in life to say: 'I will take an interest in this or that.' Such an attempt only aggravates the strain of mental effort. A man may acquire great knowledge of topics unconnected with his daily work, and yet get hardly any benefit or relief. It is no use doing what you like; you have got to like what you do. Broadly speaking, human beings may be divided into three classes: those who are toiled to death, those who are worried to death, and those who are bored to death. It is no use offering the manual labourer, tired out with a hard week's sweat and effort, the chance of playing a game of football or baseball on Saturday afternoon. It is no use inviting the politician or the professional or business man, who has been working or worrying about serious things for six days, to work or worry about trifling things at the weekend.
+
+As for the unfortunate people who can command everything they want, who can gratify every caprice and lay their hands on almost every object of desire -- for them a new pleasure, a new excitement is only an additional satiation. In vain they rush frantically round from place to place, trying to escape from avenging boredom by mere clatter and motion. For them discipline in one form or another is the most hopeful path.
+
+It may also be said that rational, industrious, useful human beings are divided into two classes: first,those whose work is work and whose pleasure is pleasure; and secondly those whose work and pleasure are one. Of these the former are the majority. They have their compensations. The long hours in the office or the factory bring with them as their reward, not only the means of sustenance, but a keen appetite for pleasure even in its simplest and most modest forms. But Fortune's favoured children belong to the second class. Their life is a natural harmony. For them the working hours are never long enough. Each day is a holiday, and ordinary holidays, when they come, are grudged as enforced interruptions in an absorbing vocation. Yet to both classes, the need of an alternative outlook, of a change of atmosphere, of a diversion of effort, is essential. Indeed, it may well be that those whose work is their pleasure are those who most need the means of banishing it at intervals from their minds.
 
 ### New words and expressions 生词和短语
 
-- gifted adj. 有天才的
-- psychologist n. 心理学家
-- spasm n. 一阵（感情）发作
-- futile adj. 无用的
-- insinuate v. 便潜入，暗示
-- convulsive adj. 起痉挛的
-- illumination n. 启发，照明
-- undue adj. 不造当的
-- grip n. 紧张
-- recuperation n. 休息
-- improvise v. 临时作成
-- sedulously adv. 孜孜不倦地
-- vivify v. 使生气勃勃
-- aggravate v. 加剧
-- trifling adj. 微小的
-- gratify v. 便满意
-- caprice n. 任性
-- satiation n. 满足
-- frantically adv. 狂乱地
-- avenge v. 替…报复
-- boredom n. 厌烦
-- clatter n. 喧闹的谈话
-- sustenance n. 生计
-- appetite n. 欲望
-- grudge v. 怨恨
-- absorbing adj. 引人入胜的
-- banish v. 排除，放弃
+gifted adj. 有天才的
+psychologist n. 心理学家
+spasm n. 一阵（感情）发作
+futile adj. 无用的
+insinuate v. 便潜入，暗示
+convulsive adj. 起痉挛的
+illumination n. 启发，照明
+undue adj. 不造当的
+grip n. 紧张
+recuperation n. 休息
+improvise v. 临时作成
+sedulously adv. 孜孜不倦地
+vivify v. 使生气勃勃
+aggravate v. 加剧
+trifling adj. 微小的
+gratify v. 便满意
+caprice n. 任性
+satiation n. 满足
+frantically adv. 狂乱地
+avenge v. 替…报复
+boredom n. 厌烦
+clatter n. 喧闹的谈话
+sustenance n. 生计
+appetite n. 欲望
+grudge v. 怨恨
+absorbing adj. 引人入胜的
+banish v. 排除，放弃
 
 ### Notes on the text 课文注释
 
-- 1、catch hold of,抓住....,let ...go,放掉....。
-- 2、lay one's hands on,得到...,抓到....。
-- 3、Fortune's favoured children 中的Fortune是指“命运女神”。
+1、catch hold of,抓住....,let ...go,放掉....。
+2、lay one's hands on,得到...,抓到....。
+3、Fortune's favoured children 中的Fortune是指“命运女神”。
 
 ### 参考译文
 
@@ -2140,64 +2118,72 @@ Sir Winston Churchill painting in Switzerland in 1946
 ---
 
 ## Lesson 47 The great escape 大逃亡
+*NIGEL BUXTON The Great Escape from The Weekend Telegraph*
 
 ### 课文原文
 
 Economy is one powerful motive for camping, since after the initial outlay upon equipment, or through hiring it, the total expense can be far less than the cost of hotels. But, contrary to a popular assumption, it is far from being the only one, or even the greatest. The man who manoeuvres carelessly into his 20 pounds' worth of space at one of Europe's myriad permanent sites may find himself bumping a Bentley. More likely, Ford Escort will be hub to hub with Renault or Mercedes, but rarely with bicycles made for two.
+
 That the equipment of modern camping becomes yearly more sophisticated is an entertaining paradox for the cynic, a brighter promise for the hopeful traveler who has sworn to get away from it all. It also provides and some student sociologist might care to base his thesis upon the phenomenon -- an escape of another kind. The modern traveller is often a man who dislikes the Splendide and the Bellavista, not because he cannot afford, or shuns their material comforts. but because he is afraid of them. Affluent he may be, but he is by no means sure what to tip the doorman or the chambermaid. Master in his own house, he has little idea of when to say boo to a maitre d'hotel.
+
 From all such fears camping releases him. Granted, a snobbery of camping itself, based upon equipment and techniques, already exists; but it is of a kind that, if he meets it, he can readily understand and deal with. There is no superior 'they' in the shape of managements and hotel hierarchies to darken his holiday days.
+
 To such motives, yet another must be added. The contemporary phenomenon of car worship is to be explained not least by the sense of independence and freedom that ownership entails. To this pleasure camping gives an exquisite refinement.
+
 From one's own front door to home or foreign hills or sands and back again, everything is to hand. Not only are the means of arriving at the holiday paradise entirely within one's own command and keeping, but the means of escape from holiday hell (if the beach proves too crowded, the local weather too inclement) are there, outside -- or, as likely, part of -- the tent.
+
 Idealists have objected to the practice of camping, as to the package tour, that the traveller abroad thereby denies himself the opportunity of getting to know the people of the country visited. Insularity and self-containment, it is argued, go hand in hand. The opinion does not survive experience of a popular Continental camping place. Holiday hotels tend to cater for one nationality of visitors especially, sometimes exclusively. Camping sites, by contrast, are highly cosmopolitan. Granted, a preponderance of Germans is a characteristic that seems common to most Mediterranean sites; but as yet there is no overwhelmingly specialized patronage. Notices forbidding the open-air drying of clothes, or the use of water points for car washing, or those inviting 'our camping friends' to a dance or a boat trip are printed not only in French or Italian or Spanish, but also in English, German and Dutch. At meal times the odour of sauerkraut vies with that of garlic. The Frenchman's breakfast coffee competes with the Englishman's bacon and eggs.
+
 Whether the remarkable growth of organized camping means the eventual death of the more independent kind is hard to say. Municipalities naturally want to secure the campers' site fees and other custom. Police are wary of itinerants who cannot be traced to a recognized camp boundary or to four walls. But most probably it will all depend upon campers themselves: how many heath fires they cause; how much litter they leave; in short, whether or not they wholly alienate landowners and those who live in the countryside. Only good scouting is likely to preserve the freedoms so dear to the heart of the eternal Boy Scout.
-NIGEL BUXTON The Great Escape from The Weekend Telegraph
+
+Modern camping
 
 ### New words and expressions 生词和短语
 
-- assumption n. 假定
-- manoeuvre v. （驱车）移动
-- myriad adj. 无数的
-- paradox n. 自相矛盾的呈
-- cynic n. 愤世嫉俗者
-- sociologist n. 社会学家
-- shun v. 避开
-- affluent adj. 富有的
-- chambermaid n. 女招待员
-- boo n. 呸的一声
-- maitre d'hotel n. [法语]总管
-- snobbery n. 势利
-- hierarchy n. 等级制度
-- entail v. 便成为必要
-- inclement adj. 险恶的
-- package tour 由旅行社安排一切的一揽子诱游
-- insularity n. 偏狭
-- cater v. 迎合
-- exclusively adv. 排他地
-- cosmopolitan adj. 世界的
-- preponderance n. 优势
-- overwhelmingly adv. 以压倒优势地，清一色地
-- patronage n. 恩惠，惠顾
-- sauerkraut n. 泡菜
-- vie v. 竞争
-- municipality n. 市政当局
-- itinerant n. 巡回者
-- heath n. 荒地
-- alienate v. 使疏远
-- eternal adj. 永久的
+assumption n. 假定
+manoeuvre v. （驱车）移动
+myriad adj. 无数的
+paradox n. 自相矛盾的呈
+cynic n. 愤世嫉俗者
+sociologist n. 社会学家
+shun v. 避开
+affluent adj. 富有的
+chambermaid n. 女招待员
+boo n. 呸的一声
+maitre d'hotel n. [法语]总管
+snobbery n. 势利
+hierarchy n. 等级制度
+entail v. 便成为必要
+inclement adj. 险恶的
+package tour 由旅行社安排一切的一揽子诱游
+insularity n. 偏狭
+cater v. 迎合
+exclusively adv. 排他地
+cosmopolitan adj. 世界的
+preponderance n. 优势
+overwhelmingly adv. 以压倒优势地，清一色地
+patronage n. 恩惠，惠顾
+sauerkraut n. 泡菜
+vie v. 竞争
+municipality n. 市政当局
+itinerant n. 巡回者
+heath n. 荒地
+alienate v. 使疏远
+eternal adj. 永久的
 
 ### Notes on the text 课文注释
 
-- 1 it is far from...,远不是....。
-- 2 twenty pounds' worth of space,价值20镑的空地，其中worth是名词。
-- 3 hub to hub with,车轴与...车轴相接。
-- 4 the Splendide and the Bellavista,两大酒店的名字。
-- 5 say boo to a maitre d'hotel,对酒店的经理表示不满。say boo to a maiter d'hotel,是从not say boo to a goose(非常胆小，不敢得罪)演变而来的。在这个成语中，a goose常被人们幽默地换成其他字眼。
-- 6 Granted,...but ..(虽然...但是...)这种句型中的Granted总放在句首，意思是Yes,相当于一个连接副词的作用。
-- 7 in the shape of,以...形式出现的。
-- 8 be to hand ,垂手可得。
-- 9 cater for,迎合...。
-- 10 be wary of,提防....。
-- 11 Boy Scout,童子军。
+1 it is far from...,远不是....。
+2 twenty pounds' worth of space,价值20镑的空地，其中worth是名词。
+3 hub to hub with,车轴与...车轴相接。
+4 the Splendide and the Bellavista,两大酒店的名字。
+5 say boo to a maitre d'hotel,对酒店的经理表示不满。say boo to a maiter d'hotel,是从not say boo to a goose(非常胆小，不敢得罪)演变而来的。在这个成语中，a goose常被人们幽默地换成其他字眼。
+6 Granted,...but ..(虽然...但是...)这种句型中的Granted总放在句首，意思是Yes,相当于一个连接副词的作用。
+7 in the shape of,以...形式出现的。
+8 be to hand ,垂手可得。
+9 cater for,迎合...。
+10 be wary of,提防....。
+11 Boy Scout,童子军。
 
 ### 参考译文
 
@@ -2216,40 +2202,44 @@ NIGEL BUXTON The Great Escape from The Weekend Telegraph
 ### 课文原文
 
 There is no shortage of tipsters around offering 'get-rich-quick' opportunities. But if you are a serious private investor, leave the Las Vegas mentality to those with money to fritter. The serious investor needs a proper 'portfolio' -- a well-planned selection of investments, with a definite structure and a clear aim. But exactly how does a newcomer to the stock market go about achieving that?
-Well, if you go to five reputable stock brokers and ask them what you should do with your money, you're likely to get five different answers, -- even if you give all the relevant information about your age, family, finances and what you want from your investments. Moral? There is no one 'right' way to structure a portfolio. However, there are undoubtedly some wrong ways, and you can be sure that none of our five advisers would have suggested sinking all (or perhaps any) of your money into Periwigs.
-So what should you do? We'll assume that you have sorted out the basics -- like mortgages, pensions, insurance and access to sufficient cash reserves. You should then establish your own individual aims. These are partly a matter of personal circumstances, partly a matter of psychology.
-For instance, if you are older you have less time to recover from any major losses, and you may well wish to boost your pension income. So preserving your capital and generating extra income are your main priorities. In this case, you'd probably construct a portfolio with some shares (but not high risk ones), along with gilts, cash deposits, and perhaps convertibles or the income shares of split capital investment trusts.
-If you are younger, and in a solid financial position, you may decide to take an aggressive approach -- but only if you're blessed with a sanguine disposition and won't suffer sleepless nights over share prices. If you recognize yourself in this description, you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments. Once you have decided on your investment aims, you can then decide where to put your money. The golden rule here is spread your risk -- if you put all of your money into Periwigs International, you're setting yourself up as a hostage to fortune.
-*'Periwigs' is the name of a fictitious company.
-INVESTOR'S CHRONICLE, March 23 1990
 
-The Stock Exchange,Tokyo 1994
+Well, if you go to five reputable stock brokers and ask them what you should do with your money, you're likely to get five different answers, -- even if you give all the relevant information about your age, family, finances and what you want from your investments. Moral? There is no one 'right' way to structure a portfolio. However, there are undoubtedly some wrong ways, and you can be sure that none of our five advisers would have suggested sinking all (or perhaps any) of your money into Periwigs.
+
+So what should you do? We'll assume that you have sorted out the basics -- like mortgages, pensions, insurance and access to sufficient cash reserves. You should then establish your own individual aims. These are partly a matter of personal circumstances, partly a matter of psychology.
+
+For instance, if you are older you have less time to recover from any major losses, and you may well wish to boost your pension income. So preserving your capital and generating extra income are your main priorities. In this case, you'd probably construct a portfolio with some shares (but not high risk ones), along with gilts, cash deposits, and perhaps convertibles or the income shares of split capital investment trusts.
+
+If you are younger, and in a solid financial position, you may decide to take an aggressive approach -- but only if you're blessed with a sanguine disposition and won't suffer sleepless nights over share prices. If you recognize yourself in this description, you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments. Once you have decided on your investment aims, you can then decide where to put your money. The golden rule here is spread your risk -- if you put all of your money into Periwigs International, you're setting yourself up as a hostage to fortune.
+
+*'Periwigs' is the name of a fictitious company.
+
+INVESTOR'S CHRONICLE, March 23 1990
 
 ### New words and expressions 生词和短语
 
-- portfolio n. 投资组合
-- tipster n. （以提供证券投机等内部消息为主的）情报贩子
-- Las Vegas n. 拉斯韦加斯
-- fritter v. 挥霍，浪费
-- reputable n. 享有声望的
-- broker n. 经纪人
-- finance n. 资金，财源
-- mortgage n. 抵押贷款
-- pension n. 养老金
-- priority n. 优先权
-- gilt n. 金边证券（高度可靠的证券）
-- convertible n. 可换证券
-- sanguine adj. 乐观的
-- heady adj. 令人陶醉的
-- alongside prep. 在……旁边，和……一起
-- pedestrian adj. 平淡无奇的，乏味的
+portfolio n. 投资组合
+tipster n. （以提供证券投机等内部消息为主的）情报贩子
+Las Vegas n. 拉斯韦加斯
+fritter v. 挥霍，浪费
+reputable n. 享有声望的
+broker n. 经纪人
+finance n. 资金，财源
+mortgage n. 抵押贷款
+pension n. 养老金
+priority n. 优先权
+gilt n. 金边证券（高度可靠的证券）
+convertible n. 可换证券
+sanguine adj. 乐观的
+heady adj. 令人陶醉的
+alongside prep. 在……旁边，和……一起
+pedestrian adj. 平淡无奇的，乏味的
 
 ### Notes on the text 课文注释
 
-- 1 go about,从事，做。
-- 2 Periwigs,是一个假想中公司的名字。
-- 3 the basics,这里指基本情况，基本要素。
-- 4 If you recognize yourself in this description,如果你觉得你的情况是这样的话。
+1 go about,从事，做。
+2 Periwigs,是一个假想中公司的名字。
+3 the basics,这里指基本情况，基本要素。
+4 If you recognize yourself in this description,如果你觉得你的情况是这样的话。
 
 ### 参考译文
 
@@ -2260,4 +2250,3 @@ The Stock Exchange,Tokyo 1994
 如果你年轻一些，并且经济状况可靠，你可能会采取一种积极进取的方式 -- 你必须性格开朗，不会因股票价格的浮动而夜不能眠。如果你觉得你的情况是这样的话，你可在投资组合中包括几项有令人陶醉的增值前景的增长股，和其他比较平淡的投资项目放在一起。一旦你的投资组合中包括几项有令人陶醉的增值前景的增长股，和其他比较平淡的投资项目放在一起。一旦你的投资目标确立以后，你就可以决定你的钱投向何处。这里的指导原则是：分散你的投资风险。如果你把所有资金投入佩里威格斯国际公司，你就把自己当成了命运的人质。
 
 ---
-
