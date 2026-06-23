@@ -1896,7 +1896,7 @@ export const articleMetas: ArticleMeta[] = [
     ],
   },
   {
-    id: 'problem-of-youth',
+    id: 'nce4-l5',
     lesson: 5,
     tag: 'C6',
     title: 'The Problem of Youth',
@@ -7889,5 +7889,5 @@ export const articles: Record<string, Article> = {
   'nce4-l44': articleNce4L44,
   'nce4-l46': articleNce4L46,
   'nce4-l48': articleNce4L48,
-  'problem-of-youth': articleNce4L5,
+  'nce4-l5': articleNce4L5,
 }
