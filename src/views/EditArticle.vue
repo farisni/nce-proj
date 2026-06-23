@@ -335,7 +335,7 @@ function goBack() {
   &:hover { .para-label { color: #1a1a1a; } }
 }
 
-.add-btn { border: none; background: transparent; color: #b0afac; padding: 2px 0; font-size: 0.75rem;
+.add-btn { border: none; background: transparent; color: #b0afac !important; padding: 2px 0; font-size: 0.75rem;
   &:hover { color: #1a1a1a; background: #f1f1ef; border-radius: 4px; padding: 4px 8px; }
 }
 
