@@ -351,7 +351,7 @@ function goBack() {
   padding: 6px 10px; background: #fff; border-radius: 4px; border-left: 3px solid #e3e2e0; line-height: 1.5;
 }
 .grammar-field { margin-bottom: 12px; }
-.grammar-field-label { display: block; font-size: 0.75rem; color: #5a5a57; font-weight: 600; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.grammar-field-label { display: block; font-size: 0.75rem; color: #6e6e6b; font-weight: 600; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
 .grammar-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .grammar-tag-input { width: 150px; }
 .grammar-notes-table { margin-bottom: 8px; }
