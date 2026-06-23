@@ -7888,6 +7888,7 @@ export const articles: Record<string, Article> = {
   'nce4-l2': articleNce4L2,
   'nce4-l3': articleNce4L3,
   'nce4-l4': articleNce4L4,
+  'nce4-l5': articleNce4L5,
   'nce4-l6': articleNce4L6,
   'nce4-l7': articleNce4L7,
   'nce4-l8': articleNce4L8,
@@ -7908,5 +7909,4 @@ export const articles: Record<string, Article> = {
   'nce4-l44': articleNce4L44,
   'nce4-l46': articleNce4L46,
   'nce4-l48': articleNce4L48,
-  'nce4-l5': articleNce4L5,
 }

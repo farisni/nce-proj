@@ -80,13 +80,13 @@ function goArticle(id: string) {
     top: 4px;
   }
 
-  &:nth-child(3n) {
+  &:nth-child(5n) {
     background: #ccf;
     transform: rotate(-6deg);
     top: -4px;
   }
 
-  &:nth-child(5n) {
+  &:nth-child(3n) {
     background: #d4eafc;
     transform: rotate(1.5deg);
     top: -2px;
