@@ -83,25 +83,25 @@ function tudingRotation(id: string) {
   // 交替配色 + 角度
   &:nth-child(2n+1) {
     background: #cfc;
-    transform: rotate(3.5deg);
+    transform: rotate(-5deg);
     top: 4px;
   }
 
   &:nth-child(5n) {
     background: #ccf;
-    transform: rotate(-6deg);
+    transform: rotate(4deg);
     top: -4px;
   }
 
   &:nth-child(3n) {
     background: #d4eafc;
-    transform: rotate(1.5deg);
+    transform: rotate(-2deg);
     top: -2px;
   }
 
   &:nth-child(7n) {
     background: #fde0e8;
-    transform: rotate(-3.5deg);
+    transform: rotate(5deg);
     top: 2px;
   }
 
