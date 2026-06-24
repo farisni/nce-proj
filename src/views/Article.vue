@@ -589,11 +589,11 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 // 页面背景：圆点纹理（手账风格）
 .reading-page {
   min-height: 100vh; position: relative;
-  background-color: var(--color-bg);
+  background-color: #fff;
   background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
   background-size: 24px 24px;
 }
-.main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: var(--color-bg); }
+.main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: #fff; }
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: rgba(55, 53, 47, 0.08); flex-shrink: 0; margin: 0 24px; }

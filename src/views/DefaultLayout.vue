@@ -57,7 +57,7 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 
 <style lang="scss" scoped>
 .app-layout { display: flex; min-height: 100vh; }
-.sidebar { width: 200px; flex-shrink: 0; background: #fff; border-right: 1px solid rgba(55, 53, 47, 0.08); padding: 14px 0; }
+.sidebar { width: 200px; flex-shrink: 0; background: #f7f6f3; border-right: 1px solid rgba(55, 53, 47, 0.08); padding: 14px 0; }
 .sidebar-search { padding: 0 14px 8px; }
 .sidebar-search :deep(.el-input__wrapper) { box-shadow: none !important; border: 1px solid #e0ddd5; border-radius: 20px; }
 .sidebar-search :deep(.el-input__wrapper:hover) { border-color: #c5c0b5; }

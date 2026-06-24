@@ -57,7 +57,7 @@ function tudingRotation(id: string) {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 28px;
   align-content: start;
-  background-color: var(--color-bg);
+  background-color: #fff;
   background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
   background-size: 24px 24px;
   min-height: 100vh;
