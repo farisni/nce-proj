@@ -739,7 +739,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .cm-item { display: flex; align-items: center; padding: 5px 8px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
 .cm-icon { margin-right: 6px; font-size: 14px; }
 .cm-icon-svg { width: 16px; height: 16px; margin-right: 6px; opacity: 0.6; }
-.cm-icon-faded { opacity: 0.5; width: 13px; height: 13px; }
+.cm-icon-faded { opacity: 0.5; transform: scale(0.75); transform-origin: center; }
 .cm-item:hover { background: rgba(55,53,47,0.08); }
 
 // 句子横批输入框
