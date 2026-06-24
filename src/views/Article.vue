@@ -591,7 +591,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 
 .vocab-list { display: flex; flex-direction: column; }
 .vocab-item {
-  display: flex; align-items: baseline; gap: 8px; padding: 6px 0;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; padding: 6px 0;
   border-bottom: 1px solid rgba(55, 53, 47, 0.08); cursor: pointer; user-select: none;
 
   &:last-child { border-bottom: none; }
