@@ -534,7 +534,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
       <div v-if="noteDialog.show" class="ci-dialog" :class="{ 'ci-grown': noteDialog.grown }" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
         <div class="ci-wrap">
           <textarea v-model="noteDialog.note" class="ci-input" placeholder="输入注解…" rows="1" @keyup.enter.prevent="submitNoteDialog" @input="ciAutoResize" />
-          <el-icon class="ci-submit" @click="submitNoteDialog"><SuccessFilled /></el-icon>
+          <el-icon class="ci-submit" :class="{ active: noteDialog.note.trim() }" @click="submitNoteDialog"><SuccessFilled /></el-icon>
         </div>
       </div>
     </Teleport>
@@ -705,7 +705,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 
 // 右键菜单
 .cm-overlay { position: fixed; inset: 0; z-index: 999; }
-.cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.9px solid #f0eee9; padding: 4px; min-width: 140px; }
+.cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.9px solid #f0eee9; padding: 4px; min-width: 140px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
 .cm-item { padding: 5px 8px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
 .cm-item:hover { background: rgba(55,53,47,0.08); }
 
@@ -715,7 +715,8 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .ci-wrap { display: flex; align-items: center; }
 .ci-grown .ci-wrap { align-items: flex-end; }
 .ci-input { width: 220px; border: none; padding: 6px 10px; font-size: 0.82rem; outline: none; color: var(--color-text); font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
-.ci-submit { display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; cursor: pointer; color: #3d76d5; font-size: 16px; flex-shrink: 0; margin: 0 4px; }
-.ci-submit:hover { color: #3568c0; }
+.ci-submit { display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; cursor: pointer; color: rgba(55,53,47,0.25); font-size: 16px; flex-shrink: 0; margin: 0 4px; }
+.ci-submit.active { color: #3d76d5; }
+.ci-submit.active:hover { color: #3568c0; }
 
 </style>
