@@ -241,6 +241,8 @@ const vocabSyllableKeys = ref(new Set<string>())
 
 // 右键菜单 & 句子横批输入框
 const ctxMenu = ref({ show: false, x: 0, y: 0, text: '', pIdx: -1, sIdx: -1 })
+const hlState = ref({ text: '', pIdx: -1, sIdx: -1 })
+const savedRange = ref<Range | null>(null)
 const noteDialog = ref<{ show: boolean; phrase: string; note: string; grown: boolean; mode?: string }>({ show: false, phrase: '', note: '', grown: false })
 const ciInitH = ref(0)
 
@@ -259,15 +261,19 @@ function onContextMenu(e: MouseEvent) {
     sIdx = Array.from(sentenceEl.parentElement?.children || []).indexOf(sentenceEl)
   }
   ctxMenu.value = { show: true, x: e.clientX, y: e.clientY, text, pIdx, sIdx }
+  hlState.value = { text, pIdx, sIdx }
 }
 function closeCtxMenu() { ctxMenu.value.show = false }
-function copySelection() { navigator.clipboard.writeText(ctxMenu.value.text); closeCtxMenu() }
+function clearHl() { hlState.value = { text: '', pIdx: -1, sIdx: -1 }; savedRange.value = null; window.getSelection()?.removeAllRanges() }
+function copySelection() { navigator.clipboard.writeText(ctxMenu.value.text); closeCtxMenu(); clearHl() }
 
 function addRubyNote() {
   const { text } = ctxMenu.value
   if (!text) return
+  const sel = window.getSelection()
+  if (sel && !sel.isCollapsed) savedRange.value = sel.getRangeAt(0).cloneRange()
   closeCtxMenu()
-  setTimeout(() => openNoteDialog(text), 100)
+  openNoteDialog(text)
 }
 
 function openNoteDialog(phrase: string) {
@@ -275,6 +281,7 @@ function openNoteDialog(phrase: string) {
   setTimeout(() => { const ta = document.querySelector('.ci-input') as HTMLTextAreaElement; if (ta) ta.focus() }, 50)
 }
 function submitNoteDialog() {
+  clearHl()
   const { phrase, note, mode } = noteDialog.value
   if (!note.trim()) return
   const { pIdx, sIdx } = ctxMenu.value
@@ -292,8 +299,10 @@ function submitNoteDialog() {
 function addStructureNote() {
   const { text } = ctxMenu.value
   if (!text) return
+  const sel = window.getSelection()
+  if (sel && !sel.isCollapsed) savedRange.value = sel.getRangeAt(0).cloneRange()
   closeCtxMenu()
-  setTimeout(() => openStructureDialog(text), 100)
+  openStructureDialog(text)
 }
 function openStructureDialog(phrase: string) {
   noteDialog.value = { show: true, phrase, note: '', grown: false }
@@ -310,7 +319,7 @@ function submitStructureNote() {
   sentence.structureNotes.push({ title: phrase, body: note.trim() })
   noteDialog.value.show = false
 }
-function cancelNoteDialog() { noteDialog.value.show = false }
+function cancelNoteDialog() { noteDialog.value.show = false; clearHl() }
 function ciAutoResize(e: Event) {
   const el = e.target as HTMLTextAreaElement
   el.style.height = 'auto'
@@ -414,6 +423,17 @@ onBeforeUnmount(() => {
 
 watch([originalSentences, grammarSummaryGroups], () => nextTick(observeParagraphHeights), { flush: 'post' })
 watch(activeSideTab, tab => { if (tab === 'grammar') nextTick(syncGrammarSummaryBlockHeights) })
+
+// 输入框打开时恢复黄色高亮选区
+watch(() => noteDialog.value.show, (v) => {
+  if (v && savedRange.value) {
+    nextTick(() => {
+      const sel = window.getSelection()
+      sel?.removeAllRanges()
+      sel?.addRange(savedRange.value!)
+    })
+  }
+})
 watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const, ([, grammarCount]) => {
   activeSideTab.value = grammarCount > 0 ? 'grammar' : 'vocab'
 }, { immediate: true })
@@ -550,7 +570,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 
     <!-- 右键菜单 (Teleport) -->
     <Teleport to="body">
-      <div v-if="ctxMenu.show" class="cm-overlay" @click="closeCtxMenu"></div>
+      <div v-if="ctxMenu.show" class="cm-overlay" @click="closeCtxMenu(); clearHl()"></div>
       <div v-if="ctxMenu.show" class="cm-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
         <div class="cm-item" @click="copySelection"><img :src="copyIcon" class="cm-icon-svg" />复制</div>
         <div class="cm-item" @click="addRubyNote"><img :src="pzIcon" class="cm-icon-svg" />添加句子横批</div>
@@ -753,4 +773,9 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .ci-submit.active { color: #3d76d5; }
 .ci-submit.active:hover { color: #3568c0; }
 
+
+.hl-yellow { background: #fef08a; color: #1a1a1a; border-radius: 2px; padding: 0 1px; }
+.hl-sentence { font-family: inherit; font-size: inherit; }
+::selection { background: #fef08a !important; color: #1a1a1a !important; }
+::-moz-selection { background: #fef08a !important; color: #1a1a1a !important; }
 </style>
