@@ -20,23 +20,14 @@ function toggle() {
 </script>
 
 <template>
-  <span class="sentence-icon-button" @click.stop="toggle">
-    <img :src="dotsIcon" class="sentence-icon" alt="展开笔记" title="展开笔记" />
-  </span>
+  <img :src="dotsIcon" class="sentence-icon" alt="展开笔记" title="展开笔记" @click.stop="toggle" />
 </template>
 
 <style scoped>
-.sentence-icon-button {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 24px; height: 24px; margin-left: 6px; margin-right: 4px;
-  border: none; vertical-align: middle; border-radius: 3px; background: transparent;
-  cursor: pointer; transition: background-color 0.2s ease, opacity 0.2s ease;
-}
-.sentence-icon-button:hover {
-  background: rgba(55, 53, 47, 0.06);
-}
 .sentence-icon {
-  width: 17px; height: 17px; opacity: 0.6; transition: opacity 0.2s;
+  width: 20px; height: 20px; margin-left: 3px; margin-right: 3px;
+  vertical-align: middle; opacity: 0.5; cursor: pointer;
+  transition: opacity 0.2s;
 }
-.sentence-icon:hover { opacity: 0.85; }
+.sentence-icon:hover { opacity: 0.8; }
 </style>
