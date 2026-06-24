@@ -14,6 +14,7 @@
 import { ref, computed, nextTick, onBeforeUnmount, onMounted, watch } from 'vue' 
 import { articles, type SentenceData, type VocabItem } from '../mock/readData'
 import { useRoute } from 'vue-router'
+import { SuccessFilled } from '@element-plus/icons-vue'
 
 const route = useRoute()
 const article = computed(() => articles[route.params.id as string])
@@ -234,36 +235,57 @@ const grammarSummaryContainerHeight = ref(0)
 let paragraphResizeObserver: ResizeObserver | null = null
 // 已切换为音节显示的词汇（单击词汇表单词切换）
 const vocabSyllableKeys = ref(new Set<string>())
-// 右键菜单 — 选中文字后右击
+
+// 右键菜单 & 句子横批输入框
 const ctxMenu = ref({ show: false, x: 0, y: 0, text: '', pIdx: -1, sIdx: -1 })
+const noteDialog = ref({ show: false, phrase: '', note: '', grown: false })
+
 function onContextMenu(e: MouseEvent) {
   const sel = window.getSelection()
   if (!sel || sel.isCollapsed) return
   const text = sel.toString().trim()
   if (!text) return
   e.preventDefault()
-  // 找到所在的句子索引
   const anchor = sel.anchorNode
   const sentenceEl = anchor?.parentElement?.closest('.sentence-inline')
+  let pIdx = -1, sIdx = -1
   if (sentenceEl) {
     const paragraphEl = sentenceEl.closest('.paragraph-wrapper')
-    const pIdx = Array.from(paragraphEl?.parentElement?.children || []).indexOf(paragraphEl!)
-    const sIdx = Array.from(sentenceEl.parentElement?.children || []).indexOf(sentenceEl)
-    ctxMenu.value = { show: true, x: e.clientX, y: e.clientY, text, pIdx, sIdx }
-  } else {
-    ctxMenu.value = { show: true, x: e.clientX, y: e.clientY, text, pIdx: -1, sIdx: -1 }
+    pIdx = Array.from(paragraphEl?.parentElement?.children || []).indexOf(paragraphEl!)
+    sIdx = Array.from(sentenceEl.parentElement?.children || []).indexOf(sentenceEl)
   }
+  ctxMenu.value = { show: true, x: e.clientX, y: e.clientY, text, pIdx, sIdx }
 }
 function closeCtxMenu() { ctxMenu.value.show = false }
 function copySelection() { navigator.clipboard.writeText(ctxMenu.value.text); closeCtxMenu() }
+
 function addRubyNote() {
-  const { pIdx, sIdx, text } = ctxMenu.value
+  const { text } = ctxMenu.value
+  if (!text) return
+  closeCtxMenu()
+  setTimeout(() => openNoteDialog(text), 100)
+}
+
+function openNoteDialog(phrase: string) {
+  noteDialog.value = { show: true, phrase, note: '', grown: false }
+  setTimeout(() => { const ta = document.querySelector('.ci-input') as HTMLTextAreaElement; if (ta) ta.focus() }, 50)
+}
+function submitNoteDialog() {
+  const { phrase, note } = noteDialog.value
+  if (!note.trim()) return
+  const { pIdx, sIdx } = ctxMenu.value
   if (pIdx < 0 || sIdx < 0) return
   const sentence = article.value.original.paragraphs[pIdx][sIdx]
   if (!sentence.notes) sentence.notes = []
-  const note = prompt(`为 "${text}" 添加句子横批：`)
-  if (note) sentence.notes.push({ phrase: text, note })
-  closeCtxMenu()
+  sentence.notes.push({ phrase, note: note.trim() })
+  noteDialog.value.show = false
+}
+function cancelNoteDialog() { noteDialog.value.show = false }
+function ciAutoResize(e: Event) {
+  const el = e.target as HTMLTextAreaElement
+  el.style.height = 'auto'
+  el.style.height = el.scrollHeight + 'px'
+  noteDialog.value.grown = el.scrollHeight > 28
 }
 
 
@@ -397,17 +419,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 
             <!-- 文章标题：L课号 + 标签 + 标题 + 热力图 -->
             <h1 class="article-title">
-              <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template><img :src="editIcon" class="edit-icon" title="编辑文章" @click.stop="$router.push({ name: 'editArticle', params: { id: currentMeta?.id } })" /></span>
+              <span class="title-text-wrap"><template v-if="currentMeta"><span class="title-lesson">L{{ currentMeta.lesson }}</span><span v-if="currentMeta.tag" class="title-tag">{{ currentMeta.tag }}</span> {{ currentMeta.title }}</template><img :src="editIcon" class="edit-icon" title="编辑文章" @click.stop="$router.push({ name: 'editArticle', params: { id: currentMeta?.id } })" /></span>
               <Heatmap v-if="currentMeta?.heatmap" :data="currentMeta.heatmap" />
             </h1>
             <p v-if="currentMeta?.attribution" class="article-attribution">—— {{ currentMeta.attribution }}</p>
@@ -421,64 +433,14 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
                       <ruby v-if="group.noteText && activeKey !== s.key" class="noted-ruby">
                         <span><template v-for="(seg, sgIdx) in group.segments" :key="sgIdx">
                           <span v-if="segClass(seg, activeKey === s.key)" :class="segClass(seg, activeKey === s.key)">{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</span>
-                          <template v-else>{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template>
-                        
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template></span><rt>{{ group.noteText }}</rt>
+                          <template v-else>{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</template>
+                        </template></span><rt>{{ group.noteText }}</rt>
                       </ruby>
                       <template v-else v-for="(seg, sgIdx) in group.segments" :key="sgIdx">
                         <span v-if="segClass(seg, activeKey === s.key)" :class="segClass(seg, activeKey === s.key)">{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</span>
-                        <template v-else>{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template>
-                      
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template>
-                    
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template><SentenceNotes v-if="s.panelNotes && s.panelNotes.length" :sentence-key="s.key" :panel-notes="s.panelNotes" @toggle="togglePanel" /></span>
+                        <template v-else>{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</template>
+                      </template>
+                    </template><SentenceNotes v-if="s.panelNotes && s.panelNotes.length" :sentence-key="s.key" :panel-notes="s.panelNotes" @toggle="togglePanel" /></span>
                   <!-- 笔记面板：展开时显示 200px 浅绿底 -->
                   <transition name="panel">
                     <div v-if="activeKey === s.key" class="sentence-panel">
@@ -491,17 +453,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
                     </div>
                   </transition>
                   {{ sIdx < sentences.length - 1 ? '\t' : '' }}
-                
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template>
+                </template>
               </div>
             </div>
           </div>
@@ -533,17 +485,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
                       <span class="vocab-pos">{{ item.pos }}</span>
                       <span class="vocab-meaning">{{ item.meaning }}</span>
                     </div>
-                  
-    <!-- 右键菜单 -->
-    <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
-      </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
-    </Teleport>
-
-</template>
+                  </template>
                 </div>
               </el-tab-pane>
             </el-tabs>
@@ -574,13 +516,24 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
     </div>
   </div>
 
-    <!-- 右键菜单 -->
+    <!-- 右键菜单 (Teleport) -->
     <Teleport to="body">
-      <div v-if="ctxMenu.show" class="ctx-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="ctx-menu-item" @click="copySelection">复制</div>
-        <div class="ctx-menu-item" @click="addRubyNote">添加句子横批</div>
+      <div v-if="ctxMenu.show" class="cm-overlay" @click="closeCtxMenu"></div>
+      <div v-if="ctxMenu.show" class="cm-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
+        <div class="cm-item" @click="copySelection">复制</div>
+        <div class="cm-item" @click="addRubyNote">添加句子横批</div>
       </div>
-      <div v-if="ctxMenu.show" class="ctx-overlay" @click="closeCtxMenu"></div>
+    </Teleport>
+
+    <!-- 句子横批输入框 (Teleport) -->
+    <Teleport to="body">
+      <div v-if="noteDialog.show" class="ci-overlay" @click="cancelNoteDialog"></div>
+      <div v-if="noteDialog.show" class="ci-dialog" :class="{ 'ci-grown': noteDialog.grown }" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
+        <div class="ci-wrap">
+          <textarea v-model="noteDialog.note" class="ci-input" placeholder="输入注解…" rows="1" @keyup.enter.prevent="submitNoteDialog" @input="ciAutoResize" />
+          <el-icon class="ci-submit" @click="submitNoteDialog"><SuccessFilled /></el-icon>
+        </div>
+      </div>
     </Teleport>
 
 </template>
@@ -589,11 +542,11 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 // 页面背景：圆点纹理（手账风格）
 .reading-page {
   min-height: 100vh; position: relative;
-  background-color: #fff;
+  background-color: var(--color-bg);
   background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
   background-size: 24px 24px;
 }
-.main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: #fff; }
+.main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: var(--color-bg); }
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: rgba(55, 53, 47, 0.08); flex-shrink: 0; margin: 0 24px; }
@@ -631,10 +584,10 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .grammar-summary-title {
   display: inline-block; width: fit-content; padding: 1px 6px;
   font-size: 0.85rem; font-weight: 550; color: #37352f;
-  border-radius: 6px; background: var(--grammar-title-bg);
+  border-radius: 4px; background: var(--grammar-title-bg);
   font-family: 'MiSans Normal', sans-serif;
 }
-.grammar-summary-body { font-size: 0.75rem; line-height: 1.65; color: var(--color-text-secondary); }
+.grammar-summary-body { font-size: 0.82rem; line-height: 1.65; color: var(--color-text-secondary); }
 .article-attribution { font-size: 0.85rem; color: #999; margin: 0 0 4px 140px; font-style: italic; }
 .article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
 .title-text-wrap { flex: 1; min-width: 0; }
@@ -646,7 +599,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .article-notes { margin-bottom: 24px; }
 .note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
 .note-index { font-size: 0.85rem; font-weight: 550; color: #aaa; margin-right: 6px; }
-.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 6px; margin-right: 8px; }
+.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; margin-right: 8px; }
 /* 莫兰迪色系轮换 */
 .note-item:nth-child(5n+1) .note-label { background: #ede8e3; }
 .note-item:nth-child(5n+2) .note-label { background: #e3e8ed; }
@@ -672,14 +625,14 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .sentence-inline.spotlight {
   position: relative; z-index: 11;
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 2px 6px;
   margin: 0 -6px;
 }
 
 // 笔记面板：浅绿底色 200px 高
 .sentence-panel {
-  display: block; margin: 6px 0; border-radius: 6px; padding: 12px 16px;
+  display: block; margin: 6px 0; border-radius: 8px; padding: 12px 16px;
   background: #f2f7f2; min-height: 200px;
   position: relative; z-index: 11;
 }
@@ -688,7 +641,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .panel-note-td { padding: 4px 8px 4px 0; vertical-align: baseline; }
 .panel-note-td:first-child { width: 1%; white-space: nowrap; }
 .panel-note-item + .panel-note-item .panel-note-td { border-top: 1px solid #e2e8e0; }
-.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 6px; font-family: 'MiSans Normal', sans-serif; }
+.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; font-family: 'MiSans Normal', sans-serif; }
 /* panelNotes 莫兰迪色轮换 */
 .panel-note-item:nth-child(5n+1) .panel-note-snippet { background: #ede8e3; }
 .panel-note-item:nth-child(5n+2) .panel-note-snippet { background: #e3e8ed; }
@@ -722,7 +675,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .vocab-phonetic { font-size: 0.72rem; color: #999; font-family: 'Noto Sans', sans-serif; flex-shrink: 0; }
 .vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Normal', sans-serif; }
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
-.vocab-meaning { font-size: 0.75rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
+.vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 
 .panel-enter-active, .panel-leave-active { transition: all 0.25s ease; }
 .panel-enter-from, .panel-leave-to { opacity: 0; transform: translateY(-6px); }
@@ -733,7 +686,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   border-bottom: 1px solid rgba(55, 53, 47, 0.08);
 }
 .nav-btn {
-  padding: 5px 16px; border: 0.5px solid rgba(55, 53, 47, 0.08);
+  padding: 5px 16px; border: 1px solid rgba(55, 53, 47, 0.08);
   border-radius: 5px; cursor: pointer;
   background: var(--color-panel-bg);
   color: var(--color-text);
@@ -747,23 +700,19 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .nav-next { text-align: right; margin-left: auto; }
 .nav-disabled { visibility: hidden; }
 
+// 右键菜单
+.cm-overlay { position: fixed; inset: 0; z-index: 999; }
+.cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.7px solid #f0eee9; padding: 4px; min-width: 140px; }
+.cm-item { padding: 5px 8px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
+.cm-item:hover { background: rgba(55,53,47,0.08); }
+
+// 句子横批输入框
+.ci-overlay { position: fixed; inset: 0; z-index: 2000; }
+.ci-dialog { position: fixed; z-index: 2001; background: #fff; border-radius: 8px; border: 0.7px solid #f0eee9; padding: 3px; }
+.ci-wrap { display: flex; align-items: center; }
+.ci-grown .ci-wrap { align-items: flex-end; }
+.ci-input { width: 220px; border: none; padding: 6px 10px; font-size: 0.82rem; outline: none; color: var(--color-text); font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
+.ci-submit { display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; cursor: pointer; color: #3d76d5; font-size: 16px; flex-shrink: 0; margin: 0 4px; }
+.ci-submit:hover { color: #3568c0; }
+
 </style>
-
-
-<style lang="scss">
-.ctx-overlay { position: fixed; inset: 0; z-index: 999; }
-.ctx-menu {
-  position: fixed; z-index: 1000;
-  background: #fff; border-radius: 6px; border: 0.7px solid #f0eee9;
-  
-  padding: 4px; min-width: 140px;
-}
-.ctx-menu-item {
-  display: flex; align-items: center; gap: 8px;
-  padding: 5px 8px; font-size: 0.75rem; line-height: 1.4;
-  cursor: pointer; color: rgba(55,53,47,0.85); user-select: none;
-  border-radius: 6px; transition: background 0.12s;
-}
-.ctx-menu-item:hover { background: rgba(55,53,47,0.08); }
-</style>
-
