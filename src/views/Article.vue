@@ -427,7 +427,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
                       :class="[grammarToneClass(group.tone), { 'vocab-item-group-end': isVocabGroupEnd(groupIndex, itemIndex) }]"
                       @click="toggleVocabSyllable(item.word)"
                     >
-                      <el-tooltip :content="item.phonetic" effect="light" placement="top" :show-after="300" popper-class="phonetic-tooltip"><span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span></el-tooltip>
+                      <span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span><span v-if="item.phonetic" class="vocab-phonetic">{{ item.phonetic }}</span>
                       <span class="vocab-pos">{{ item.pos }}</span>
                       <span class="vocab-meaning">{{ item.meaning }}</span>
                     </div>
@@ -597,6 +597,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   &:last-child { border-bottom: none; }
 }
 .vocab-item-group-end { border-bottom: 1px solid rgba(55, 53, 47, 0.08); }
+.vocab-phonetic { font-size: 0.72rem; color: #999; font-family: 'Cascadia Code', 'JetBrains Mono', 'Menlo', 'Consolas', monospace; flex-shrink: 0; }
 .vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
