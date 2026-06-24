@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { articles, type Article, type SentenceData } from '../mock/readData'
+import { articles, type Article } from '../mock/readData'
 import { ElMessage } from 'element-plus'
 
 const route = useRoute()
@@ -219,7 +219,7 @@ function goBack() {
               <span class="nth-col" style="width:60px"></span>
             </div>
             <div v-if="editArticle.vocabulary.length === 0" class="notion-table-empty">暂无词汇</div>
-            <div v-for="(item, vi) in editArticle.vocabulary" :key="vi" class="notion-table-row">
+            <div v-for="(_, vi) in editArticle.vocabulary" :key="vi" class="notion-table-row">
               <div class="ntd-cell" style="width:140px">
                 <template v-if="editingCells.has('vocab-word-'+vi)">
                   <input v-model="editArticle!.vocabulary[vi].word" placeholder="单词" class="notion-cell-input vocab-word-input" @blur="stopEdit('vocab-word-'+vi)" @keyup.enter="stopEdit('vocab-word-'+vi)" autofocus />

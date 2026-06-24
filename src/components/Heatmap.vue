@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-
 const props = defineProps<{ data: number[][] }>()
 
 function cellDate(row: number, col: number): string {

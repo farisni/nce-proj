@@ -18,6 +18,7 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 const article = computed(() => articles[route.params.id as string])
 import editIcon from '../asserts/icon/edit.svg'
+import dotsIcon from '../asserts/icon/dots.svg'
 import Heatmap from '../components/Heatmap.vue'
 
 // 当前文章元数据：从 article.value 直接读取（已合并 ArticleMeta 字段）
@@ -385,7 +386,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
                         <span v-if="segClass(seg, activeKey === s.key)" :class="segClass(seg, activeKey === s.key)">{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</span>
                         <template v-else>{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</template>
                       </template>
-                    </template><button v-if="s.panelNotes && s.panelNotes.length" type="button" class="sentence-icon" @click.stop="togglePanel(s.key)">···</button></span>
+                    </template><span v-if="s.panelNotes && s.panelNotes.length" class="sentence-icon-button" @click.stop="togglePanel(s.key)"><img :src="dotsIcon" class="sentence-icon" alt="展开笔记" title="展开笔记" /></span></span>
                   <!-- 笔记面板：展开时显示 200px 浅绿底 -->
                   <transition name="panel">
                     <div v-if="activeKey === s.key" class="sentence-panel">
@@ -534,13 +535,25 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .section-title { font-size: 1.15rem; font-weight: 600; margin-bottom: 20px; padding-top: 28px; }
 .paragraph-wrapper { & + & { margin-top: 12px; } }
 .paragraph { font-size: 1.15rem; line-height: 2; text-indent: 2em; font-family: 'Merriweather', Georgia, serif; }
-// 句子行内：羽毛图标默认半透明，聚光灯模式下全亮
+// 句子行内：去掉方块感，只保留轻微的点击反馈
 .sentence-inline {
+  .sentence-icon-button {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; margin-left: 6px; margin-right: 4px;
+    border: none; border-radius: 999px; background: transparent;
+    cursor: pointer; transition: background-color 0.2s ease, opacity 0.2s ease;
+    &:hover {
+      background: rgba(55, 53, 47, 0.06);
+    }
+    .spotlight & {
+      background: rgba(212, 147, 69, 0.12);
+    }
+  }
+
   .sentence-icon {
-    width: 18px; height: 18px; margin-left: 6px; margin-right: 4px;
-    vertical-align: middle; cursor: pointer; opacity: 0.4; transition: opacity 0.2s;
-    &:hover { opacity: 0.8; }
-    .spotlight & { opacity: 1; filter: drop-shadow(0 0 3px rgba(220,180,80,0.6)); }
+    width: 16px; height: 16px; opacity: 0.6; transition: opacity 0.2s;
+    &:hover { opacity: 0.85; }
+    .spotlight & { opacity: 0.9; }
   }
 }
 
