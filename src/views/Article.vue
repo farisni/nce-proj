@@ -593,8 +593,8 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   color: var(--color-text-secondary); font-size: 1rem; font-weight: 550;
   font-family: inherit;
 }
-.side-tabs :deep(.el-tabs__item:hover) { color: var(--color-text); }
-.side-tabs :deep(.el-tabs__item.is-active) { color: var(--color-text); }
+.side-tabs :deep(.el-tabs__item:hover) { color: #111; }
+.side-tabs :deep(.el-tabs__item.is-active) { color: #111; }
 .side-tabs :deep(.el-tabs__active-bar) { height: 2px; background: #d49345; }
 .grammar-summary { position: relative; min-height: 160px; }
 .grammar-summary-block {
@@ -706,7 +706,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 }
 .vocab-item-group-end { border-bottom: 1px solid rgba(55, 53, 47, 0.08); }
 .vocab-phonetic { font-size: 0.75rem; color: #999; font-family: 'Noto Sans', sans-serif; flex-shrink: 0; }
-.vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Normal', sans-serif; }
+.vocab-word { font-weight: 400; font-size: 0.9rem; color: #111; font-family: 'MiSans Normal', sans-serif; }
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 
@@ -722,7 +722,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   padding: 5px 16px; border: 1px solid rgba(55, 53, 47, 0.08);
   border-radius: 5px; cursor: pointer;
   background: var(--color-panel-bg);
-  color: var(--color-text);
+  color: #111;
   font-size: 0.8rem; font-family: inherit;
   transition: background 0.2s, box-shadow 0.2s;
   max-width: 45%;
@@ -740,7 +740,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .cm-icon { margin-right: 6px; font-size: 14px; }
 .cm-icon-svg { width: 16px; height: 16px; margin-right: 6px; opacity: 0.6; }
 .cm-icon-faded { opacity: 0.5; transform: scale(0.75); transform-origin: center; }
-.cm-item:hover { background: rgba(55,53,47,0.08); }
+.cm-item:hover { background: rgba(55,53,47,0.08); color: #111; }
 .cm-item:hover .cm-icon-svg { opacity: 0.9; }
 
 // 句子横批输入框
@@ -748,7 +748,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .ci-dialog { position: fixed; z-index: 2001; background: #fff; border-radius: 8px; border: 0.9px solid #f0eee9; padding: 3px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
 .ci-wrap { display: flex; align-items: center; }
 .ci-grown .ci-wrap { align-items: flex-end; }
-.ci-input { width: 220px; border: none; padding: 4px 8px; margin: 2px 4px; font-size: 0.82rem; outline: none; color: var(--color-text); font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
+.ci-input { width: 220px; border: none; padding: 4px 8px; margin: 2px 4px; font-size: 0.82rem; outline: none; color: #111; font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
 .ci-submit { display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; cursor: pointer; color: rgba(55,53,47,0.25); font-size: 16px; flex-shrink: 0; margin: 0 4px; }
 .ci-submit.active { color: #3d76d5; }
 .ci-submit.active:hover { color: #3568c0; }
