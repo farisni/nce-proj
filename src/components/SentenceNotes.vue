@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import dotsIcon from '../asserts/icon/dots.svg'
+import { More } from '@element-plus/icons-vue'
 
 const props = defineProps<{
   sentenceKey: string
@@ -20,14 +20,14 @@ function toggle() {
 </script>
 
 <template>
-  <img :src="dotsIcon" class="sentence-icon" alt="展开笔记" title="展开笔记" @click.stop="toggle" />
+  <el-icon class="sentence-icon" @click.stop="toggle"><More /></el-icon>
 </template>
 
 <style scoped>
 .sentence-icon {
-  width: 20px; height: 20px; margin-left: 3px; margin-right: 3px;
-  vertical-align: middle; opacity: 0.5; cursor: pointer;
-  transition: opacity 0.2s;
+  margin-left: 4px; margin-right: 2px;
+  vertical-align: middle; opacity: 0.45; cursor: pointer;
+  font-size: 16px; transition: opacity 0.2s;
 }
-.sentence-icon:hover { opacity: 0.8; }
+.sentence-icon:hover { opacity: 0.75; }
 </style>

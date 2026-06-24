@@ -474,7 +474,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: var(--color-bg); }
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
-.section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
+.section-divider { width: 1px; background: rgba(55, 53, 47, 0.08); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 0 0 16px; }
 .vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 20px; padding-top: 76px; font-family: inherit; }
 .side-tabs { padding-top: 76px; }
@@ -607,10 +607,10 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .nav-buttons {
   display: flex; justify-content: space-between; align-items: center;
   padding: 0 0 16px; margin-bottom: 20px;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid rgba(55, 53, 47, 0.08);
 }
 .nav-btn {
-  padding: 5px 16px; border: 1px solid var(--color-border);
+  padding: 5px 16px; border: 1px solid rgba(55, 53, 47, 0.08);
   border-radius: 5px; cursor: pointer;
   background: var(--color-panel-bg);
   color: var(--color-text);
