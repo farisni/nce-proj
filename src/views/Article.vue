@@ -631,7 +631,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .grammar-summary-title {
   display: inline-block; width: fit-content; padding: 1px 6px;
   font-size: 0.85rem; font-weight: 550; color: #37352f;
-  border-radius: 4px; background: var(--grammar-title-bg);
+  border-radius: 6px; background: var(--grammar-title-bg);
   font-family: 'MiSans Normal', sans-serif;
 }
 .grammar-summary-body { font-size: 0.75rem; line-height: 1.65; color: var(--color-text-secondary); }
@@ -646,7 +646,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .article-notes { margin-bottom: 24px; }
 .note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
 .note-index { font-size: 0.85rem; font-weight: 550; color: #aaa; margin-right: 6px; }
-.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; margin-right: 8px; }
+.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 6px; margin-right: 8px; }
 /* 莫兰迪色系轮换 */
 .note-item:nth-child(5n+1) .note-label { background: #ede8e3; }
 .note-item:nth-child(5n+2) .note-label { background: #e3e8ed; }
@@ -672,14 +672,14 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .sentence-inline.spotlight {
   position: relative; z-index: 11;
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 2px 6px;
   margin: 0 -6px;
 }
 
 // 笔记面板：浅绿底色 200px 高
 .sentence-panel {
-  display: block; margin: 6px 0; border-radius: 4px; padding: 12px 16px;
+  display: block; margin: 6px 0; border-radius: 6px; padding: 12px 16px;
   background: #f2f7f2; min-height: 200px;
   position: relative; z-index: 11;
 }
@@ -688,7 +688,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .panel-note-td { padding: 4px 8px 4px 0; vertical-align: baseline; }
 .panel-note-td:first-child { width: 1%; white-space: nowrap; }
 .panel-note-item + .panel-note-item .panel-note-td { border-top: 1px solid #e2e8e0; }
-.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; font-family: 'MiSans Normal', sans-serif; }
+.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 6px; font-family: 'MiSans Normal', sans-serif; }
 /* panelNotes 莫兰迪色轮换 */
 .panel-note-item:nth-child(5n+1) .panel-note-snippet { background: #ede8e3; }
 .panel-note-item:nth-child(5n+2) .panel-note-snippet { background: #e3e8ed; }
@@ -754,7 +754,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .ctx-overlay { position: fixed; inset: 0; z-index: 999; }
 .ctx-menu {
   position: fixed; z-index: 1000;
-  background: #fff; border-radius: 4px; border: 0.5px solid rgba(227,226,224,0.45);
+  background: #fff; border-radius: 6px; border: 0.7px solid #f0eee9;
   
   padding: 4px; min-width: 140px;
 }
@@ -762,7 +762,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   display: flex; align-items: center; gap: 8px;
   padding: 5px 8px; font-size: 0.75rem; line-height: 1.4;
   cursor: pointer; color: rgba(55,53,47,0.85); user-select: none;
-  border-radius: 4px; transition: background 0.12s;
+  border-radius: 6px; transition: background 0.12s;
 }
 .ctx-menu-item:hover { background: rgba(55,53,47,0.08); }
 </style>
