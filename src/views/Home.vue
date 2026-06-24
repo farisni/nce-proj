@@ -59,7 +59,7 @@ function goArticle(id: string) {
 .article-card {
   position: relative;
   background: #ffc;
-  border: 1px solid #ece4d5;
+  
   border-radius: 3px;
   padding: 20px 18px;
   cursor: pointer;
