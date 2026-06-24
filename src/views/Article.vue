@@ -741,6 +741,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .cm-icon-svg { width: 16px; height: 16px; margin-right: 6px; opacity: 0.6; }
 .cm-icon-faded { opacity: 0.5; transform: scale(0.75); transform-origin: center; }
 .cm-item:hover { background: rgba(55,53,47,0.08); }
+.cm-item:hover .cm-icon-svg { opacity: 0.9; }
 
 // 句子横批输入框
 .ci-overlay { position: fixed; inset: 0; z-index: 2000; }
