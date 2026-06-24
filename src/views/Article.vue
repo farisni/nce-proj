@@ -545,11 +545,11 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 // 页面背景：圆点纹理（手账风格）
 .reading-page {
   min-height: 100vh; position: relative;
-  background-color: var(--color-bg);
+  background-color: #fff;
   background-image: radial-gradient(circle, #d8d0c0 1px, transparent 1px);
   background-size: 24px 24px;
 }
-.main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: var(--color-bg); }
+.main-content { max-width: 1040px; margin: 0 auto; padding: 24px 24px 60px; background: #fff; }
 .section-row { display: flex; align-items: stretch; }
 .section-main { flex: 7; min-width: 0; }
 .section-divider { width: 1px; background: rgba(55, 53, 47, 0.08); flex-shrink: 0; margin: 0 24px; }
@@ -705,13 +705,13 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 
 // 右键菜单
 .cm-overlay { position: fixed; inset: 0; z-index: 999; }
-.cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.7px solid #f0eee9; padding: 4px; min-width: 140px; }
+.cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.9px solid #f0eee9; padding: 4px; min-width: 140px; }
 .cm-item { padding: 5px 8px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
 .cm-item:hover { background: rgba(55,53,47,0.08); }
 
 // 句子横批输入框
 .ci-overlay { position: fixed; inset: 0; z-index: 2000; }
-.ci-dialog { position: fixed; z-index: 2001; background: #fff; border-radius: 8px; border: 0.7px solid #f0eee9; padding: 3px; }
+.ci-dialog { position: fixed; z-index: 2001; background: #fff; border-radius: 8px; border: 0.9px solid #f0eee9; padding: 3px; }
 .ci-wrap { display: flex; align-items: center; }
 .ci-grown .ci-wrap { align-items: flex-end; }
 .ci-input { width: 220px; border: none; padding: 6px 10px; font-size: 0.82rem; outline: none; color: var(--color-text); font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
