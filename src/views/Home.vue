@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router'
 import { articles } from '../mock/readData'
 import tudingIcon from '../asserts/icon/tuding.svg'
 
-const props = defineProps<{ activeLevel: 'NCE2' | 'NCE3' | 'NCE4'; searchText?: string }>()
+const props = defineProps<{ activeLevel: 'NCE2' | 'NCE3' | 'NCE4' | 'IELTS16'; searchText?: string }>()
 const router = useRouter()
 
 const filteredArticles = computed(() => {
@@ -40,8 +40,9 @@ function tudingRotation(id: string) {
       <img :src="tudingIcon" class="tuding-icon" :style="{ transform: `rotate(${tudingRotation(item.id)}deg)` }" alt="" />
       <h3 class="card-title">
         <span class="lesson-line">
-          <span v-if="item.keyArticle" class="key-dot"></span>Lesson {{ item.lesson
-          }}<span v-if="item.tag" class="card-tag">{{ item.tag }}</span>
+          <span v-if="item.keyArticle" class="key-dot"></span>
+          <span>{{ item.level === 'IELTS16' ? 'Reading' : 'Lesson ' + item.lesson }}</span>
+          <span v-if="item.tag" class="card-tag">{{ item.tag }}</span>
         </span>
         <span class="title-text">{{ item.title }}</span>
         <span v-if="item.titleCn" class="title-cn">{{ item.titleCn }}</span>

@@ -21,7 +21,7 @@ export interface Article {
   id: string
   title: string
   titleCn?: string
-  level: "NCE2" | "NCE3" | "NCE4"
+  level: "NCE2" | "NCE3" | "NCE4" | "IELTS16"
   lesson: number
   tag?: string
   keyArticle?: boolean

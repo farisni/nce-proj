@@ -6,9 +6,9 @@ import { Search } from '@element-plus/icons-vue'
 const router = useRouter()
 const route = useRoute()
 
-const activeLevel = ref<'NCE2' | 'NCE3' | 'NCE4'>('NCE4')
+const activeLevel = ref<'NCE2' | 'NCE3' | 'NCE4' | 'IELTS16'>('NCE4')
 const searchText = ref('')
-const levels = ['NCE2', 'NCE3', 'NCE4'] as const
+const levels = ['NCE2', 'NCE3', 'NCE4', 'IELTS16'] as const
 
 function doSearch() {
   if (route.name !== 'home') {
@@ -72,9 +72,11 @@ onUnmounted(() => { window.removeEventListener('scroll', showScrollBarWhileScrol
 .nce2.active { border-left-color: #d9534f; color: #d9534f; }
 .nce3.active { border-left-color: #f0ad4e; color: #f0ad4e; }
 .nce4.active { border-left-color: #428bca; color: #428bca; }
+.ielts16.active { border-left-color: #6b7fdf; color: #6b7fdf; }
 .nce2:not(.active):hover { color: #d9534f; }
 .nce3:not(.active):hover { color: #f0ad4e; }
 .nce4:not(.active):hover { color: #428bca; }
+.ielts16:not(.active):hover { color: #6b7fdf; }
 .app-main { flex: 1; min-width: 0; }
 </style>
 

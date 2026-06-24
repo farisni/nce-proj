@@ -14,7 +14,7 @@
 import { ref, computed, nextTick, onBeforeUnmount, onMounted, watch } from 'vue' 
 import { articles, type SentenceData, type VocabItem } from '../mock/readData'
 import { useRoute } from 'vue-router'
-import { SuccessFilled, CopyDocument } from '@element-plus/icons-vue'
+import { SuccessFilled } from '@element-plus/icons-vue'
 
 const route = useRoute()
 const article = computed(() => articles[route.params.id as string])
@@ -308,16 +308,6 @@ function openStructureDialog(phrase: string) {
   noteDialog.value = { show: true, phrase, note: '', grown: false }
   noteDialog.value.mode = 'structure'
   setTimeout(() => { const ta = document.querySelector('.ci-input') as HTMLTextAreaElement; if (ta) ta.focus() }, 50)
-}
-function submitStructureNote() {
-  const { phrase, note } = noteDialog.value
-  if (!note.trim()) return
-  const { pIdx, sIdx } = ctxMenu.value
-  if (pIdx < 0 || sIdx < 0) return
-  const sentence = article.value.original.paragraphs[pIdx][sIdx]
-  if (!sentence.structureNotes) sentence.structureNotes = []
-  sentence.structureNotes.push({ title: phrase, body: note.trim() })
-  noteDialog.value.show = false
 }
 function cancelNoteDialog() { noteDialog.value.show = false; clearHl() }
 function ciAutoResize(e: Event) {

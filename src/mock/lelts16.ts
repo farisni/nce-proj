@@ -1,0 +1,1 @@
+export { articlesIelts } from './ielts'
