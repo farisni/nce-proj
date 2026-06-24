@@ -617,7 +617,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .grammar-summary-title {
   display: inline-block; width: fit-content; padding: 1px 6px;
   font-size: 0.85rem; font-weight: 550; color: #37352f;
-  border-radius: 4px; background: var(--grammar-title-bg);
+  border-radius: 6px; background: var(--grammar-title-bg);
   font-family: 'MiSans Normal', sans-serif;
 }
 .grammar-summary-body { font-size: 0.82rem; line-height: 1.65; color: var(--color-text-secondary); }
@@ -632,7 +632,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .article-notes { margin-bottom: 24px; }
 .note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
 .note-index { font-size: 0.85rem; font-weight: 550; color: #aaa; margin-right: 6px; }
-.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; margin-right: 8px; }
+.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 6px; margin-right: 8px; }
 /* 莫兰迪色系轮换 */
 .note-item:nth-child(5n+1) .note-label { background: #ede8e3; }
 .note-item:nth-child(5n+2) .note-label { background: #e3e8ed; }
@@ -658,7 +658,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .sentence-inline.spotlight {
   position: relative; z-index: 11;
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 2px 6px;
   margin: 0 -6px;
 }
@@ -674,7 +674,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .panel-note-td { padding: 4px 8px 4px 0; vertical-align: baseline; }
 .panel-note-td:first-child { width: 1%; white-space: nowrap; }
 .panel-note-item + .panel-note-item .panel-note-td { border-top: 1px solid #e2e8e0; }
-.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; font-family: 'MiSans Normal', sans-serif; }
+.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 6px; font-family: 'MiSans Normal', sans-serif; }
 /* panelNotes 莫兰迪色轮换 */
 .panel-note-item:nth-child(5n+1) .panel-note-snippet { background: #ede8e3; }
 .panel-note-item:nth-child(5n+2) .panel-note-snippet { background: #e3e8ed; }
@@ -705,7 +705,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   &:last-child { border-bottom: none; }
 }
 .vocab-item-group-end { border-bottom: 1px solid rgba(55, 53, 47, 0.08); }
-.vocab-phonetic { font-size: 0.72rem; color: #999; font-family: 'Noto Sans', sans-serif; flex-shrink: 0; }
+.vocab-phonetic { font-size: 0.75rem; color: #999; font-family: 'Noto Sans', sans-serif; flex-shrink: 0; }
 .vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Normal', sans-serif; }
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
@@ -735,8 +735,8 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 
 // 右键菜单
 .cm-overlay { position: fixed; inset: 0; z-index: 999; }
-.cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.9px solid #f0eee9; padding: 4px; min-width: 140px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
-.cm-item { display: flex; align-items: center; padding: 5px 8px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
+.cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.9px solid #f0eee9; padding: 8px 6px; min-width: 140px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+.cm-item { display: flex; align-items: center; padding: 4px 8px; margin: 2px 4px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
 .cm-icon { margin-right: 6px; font-size: 14px; }
 .cm-icon-svg { width: 16px; height: 16px; margin-right: 6px; opacity: 0.6; }
 .cm-icon-faded { opacity: 0.5; transform: scale(0.75); transform-origin: center; }
@@ -747,7 +747,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .ci-dialog { position: fixed; z-index: 2001; background: #fff; border-radius: 8px; border: 0.9px solid #f0eee9; padding: 3px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
 .ci-wrap { display: flex; align-items: center; }
 .ci-grown .ci-wrap { align-items: flex-end; }
-.ci-input { width: 220px; border: none; padding: 6px 10px; font-size: 0.82rem; outline: none; color: var(--color-text); font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
+.ci-input { width: 220px; border: none; padding: 4px 8px; margin: 2px 4px; font-size: 0.82rem; outline: none; color: var(--color-text); font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
 .ci-submit { display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; cursor: pointer; color: rgba(55,53,47,0.25); font-size: 16px; flex-shrink: 0; margin: 0 4px; }
 .ci-submit.active { color: #3d76d5; }
 .ci-submit.active:hover { color: #3568c0; }
