@@ -14,11 +14,14 @@
 import { ref, computed, nextTick, onBeforeUnmount, onMounted, watch } from 'vue' 
 import { articles, type SentenceData, type VocabItem } from '../mock/readData'
 import { useRoute } from 'vue-router'
-import { SuccessFilled } from '@element-plus/icons-vue'
+import { SuccessFilled, CopyDocument } from '@element-plus/icons-vue'
 
 const route = useRoute()
 const article = computed(() => articles[route.params.id as string])
 import editIcon from '../asserts/icon/edit.svg'
+import pzIcon from '../asserts/icon/pz.svg'
+import copyIcon from '../asserts/icon/copy.svg'
+import grNoteIcon from '../asserts/icon/gr-note.svg'
 import SentenceNotes from '../components/SentenceNotes.vue'
 import Heatmap from '../components/Heatmap.vue'
 
@@ -238,7 +241,7 @@ const vocabSyllableKeys = ref(new Set<string>())
 
 // 右键菜单 & 句子横批输入框
 const ctxMenu = ref({ show: false, x: 0, y: 0, text: '', pIdx: -1, sIdx: -1 })
-const noteDialog = ref({ show: false, phrase: '', note: '', grown: false })
+const noteDialog = ref<{ show: boolean; phrase: string; note: string; grown: boolean; mode?: string }>({ show: false, phrase: '', note: '', grown: false })
 const ciInitH = ref(0)
 
 function onContextMenu(e: MouseEvent) {
@@ -268,17 +271,43 @@ function addRubyNote() {
 }
 
 function openNoteDialog(phrase: string) {
-  noteDialog.value = { show: true, phrase, note: '', grown: false }; ciInitH.value = 0
+  noteDialog.value = { show: true, phrase, note: '', grown: false, mode: 'ruby' }; ciInitH.value = 0
   setTimeout(() => { const ta = document.querySelector('.ci-input') as HTMLTextAreaElement; if (ta) ta.focus() }, 50)
 }
 function submitNoteDialog() {
+  const { phrase, note, mode } = noteDialog.value
+  if (!note.trim()) return
+  const { pIdx, sIdx } = ctxMenu.value
+  if (pIdx < 0 || sIdx < 0) return
+  const sentence = article.value.original.paragraphs[pIdx][sIdx]
+  if (mode === 'structure') {
+    if (!sentence.structureNotes) sentence.structureNotes = []
+    sentence.structureNotes.push({ title: phrase, body: note.trim() })
+  } else {
+    if (!sentence.notes) sentence.notes = []
+    sentence.notes.push({ phrase, note: note.trim() })
+  }
+  noteDialog.value.show = false
+}
+function addStructureNote() {
+  const { text } = ctxMenu.value
+  if (!text) return
+  closeCtxMenu()
+  setTimeout(() => openStructureDialog(text), 100)
+}
+function openStructureDialog(phrase: string) {
+  noteDialog.value = { show: true, phrase, note: '', grown: false }
+  noteDialog.value.mode = 'structure'
+  setTimeout(() => { const ta = document.querySelector('.ci-input') as HTMLTextAreaElement; if (ta) ta.focus() }, 50)
+}
+function submitStructureNote() {
   const { phrase, note } = noteDialog.value
   if (!note.trim()) return
   const { pIdx, sIdx } = ctxMenu.value
   if (pIdx < 0 || sIdx < 0) return
   const sentence = article.value.original.paragraphs[pIdx][sIdx]
-  if (!sentence.notes) sentence.notes = []
-  sentence.notes.push({ phrase, note: note.trim() })
+  if (!sentence.structureNotes) sentence.structureNotes = []
+  sentence.structureNotes.push({ title: phrase, body: note.trim() })
   noteDialog.value.show = false
 }
 function cancelNoteDialog() { noteDialog.value.show = false }
@@ -523,8 +552,9 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
     <Teleport to="body">
       <div v-if="ctxMenu.show" class="cm-overlay" @click="closeCtxMenu"></div>
       <div v-if="ctxMenu.show" class="cm-menu" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
-        <div class="cm-item" @click="copySelection">复制</div>
-        <div class="cm-item" @click="addRubyNote">添加句子横批</div>
+        <div class="cm-item" @click="copySelection"><img :src="copyIcon" class="cm-icon-svg" />复制</div>
+        <div class="cm-item" @click="addRubyNote"><img :src="pzIcon" class="cm-icon-svg" />添加句子横批</div>
+        <div class="cm-item" @click="addStructureNote"><img :src="grNoteIcon" class="cm-icon-svg cm-icon-faded" />添加语法摘要</div>
       </div>
     </Teleport>
 
@@ -533,7 +563,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
       <div v-if="noteDialog.show" class="ci-overlay" @click="cancelNoteDialog"></div>
       <div v-if="noteDialog.show" class="ci-dialog" :class="{ 'ci-grown': noteDialog.grown }" :style="{ left: ctxMenu.x + 'px', top: ctxMenu.y + 'px' }" @click.stop>
         <div class="ci-wrap">
-          <textarea v-model="noteDialog.note" class="ci-input" placeholder="输入注解…" rows="1" @keyup.enter.prevent="submitNoteDialog" @input="ciAutoResize" />
+          <textarea v-model="noteDialog.note" class="ci-input" :placeholder="noteDialog.mode === 'structure' ? '输入解析…' : '输入注解…'" rows="1" @keyup.enter.prevent="submitNoteDialog" @input="ciAutoResize" />
           <el-icon class="ci-submit" :class="{ active: noteDialog.note.trim() }" @click="submitNoteDialog"><SuccessFilled /></el-icon>
         </div>
       </div>
@@ -596,7 +626,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .title-text-wrap { flex: 1; min-width: 0; }
 
 .title-lesson { color: #999; font-weight: 400; }
-.edit-icon { width: 18px; height: 18px; margin-left: 10px; cursor: pointer; opacity: 0.35; transition: opacity 0.2s; flex-shrink: 0; }
+.edit-icon { width: 16px; height: 16px; margin-left: 10px; cursor: pointer; opacity: 0.5; transition: opacity 0.2s; flex-shrink: 0; }
 .edit-icon:hover { opacity: 0.75; }
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .article-notes { margin-bottom: 24px; }
@@ -706,7 +736,10 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 // 右键菜单
 .cm-overlay { position: fixed; inset: 0; z-index: 999; }
 .cm-menu { position: fixed; z-index: 1000; background: #fff; border-radius: 6px; border: 0.9px solid #f0eee9; padding: 4px; min-width: 140px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
-.cm-item { padding: 5px 8px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
+.cm-item { display: flex; align-items: center; padding: 5px 8px; font-size: 0.75rem; cursor: pointer; color: rgba(55,53,47,0.85); user-select: none; border-radius: 6px; }
+.cm-icon { margin-right: 6px; font-size: 14px; }
+.cm-icon-svg { width: 16px; height: 16px; margin-right: 6px; opacity: 0.6; }
+.cm-icon-faded { opacity: 0.5; width: 13px; height: 13px; }
 .cm-item:hover { background: rgba(55,53,47,0.08); }
 
 // 句子横批输入框
