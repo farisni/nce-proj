@@ -711,7 +711,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 
 // 句子横批输入框
 .ci-overlay { position: fixed; inset: 0; z-index: 2000; }
-.ci-dialog { position: fixed; z-index: 2001; background: #fff; border-radius: 8px; border: 0.9px solid #f0eee9; padding: 3px; }
+.ci-dialog { position: fixed; z-index: 2001; background: #fff; border-radius: 8px; border: 0.9px solid #f0eee9; padding: 3px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
 .ci-wrap { display: flex; align-items: center; }
 .ci-grown .ci-wrap { align-items: flex-end; }
 .ci-input { width: 220px; border: none; padding: 6px 10px; font-size: 0.82rem; outline: none; color: var(--color-text); font-family: inherit; background: transparent; resize: none; overflow: hidden; line-height: 1.4; }
