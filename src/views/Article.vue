@@ -239,6 +239,7 @@ const vocabSyllableKeys = ref(new Set<string>())
 // 右键菜单 & 句子横批输入框
 const ctxMenu = ref({ show: false, x: 0, y: 0, text: '', pIdx: -1, sIdx: -1 })
 const noteDialog = ref({ show: false, phrase: '', note: '', grown: false })
+const ciInitH = ref(0)
 
 function onContextMenu(e: MouseEvent) {
   const sel = window.getSelection()
@@ -267,7 +268,7 @@ function addRubyNote() {
 }
 
 function openNoteDialog(phrase: string) {
-  noteDialog.value = { show: true, phrase, note: '', grown: false }
+  noteDialog.value = { show: true, phrase, note: '', grown: false }; ciInitH.value = 0
   setTimeout(() => { const ta = document.querySelector('.ci-input') as HTMLTextAreaElement; if (ta) ta.focus() }, 50)
 }
 function submitNoteDialog() {
@@ -284,8 +285,10 @@ function cancelNoteDialog() { noteDialog.value.show = false }
 function ciAutoResize(e: Event) {
   const el = e.target as HTMLTextAreaElement
   el.style.height = 'auto'
-  el.style.height = el.scrollHeight + 'px'
-  noteDialog.value.grown = el.scrollHeight > 28
+  const h = el.scrollHeight
+  if (!ciInitH.value) ciInitH.value = h
+  el.style.height = h + 'px'
+  noteDialog.value.grown = h > ciInitH.value + 2
 }
 
 
