@@ -1,6 +1,7 @@
 import { articlesNce2 } from "./nce2";
 import { articlesNce3 } from "./nce3";
 import { articlesNce4 } from "./nce4";
+import type { Article } from "./types";
 
 export type { SentenceData, VocabItem, Article } from "./types";
 

@@ -11,13 +11,12 @@
  * - 右侧词汇表 → 单击切换音节拆分
  */
 
-import { ref, computed } from 'vue' 
-import { articles } from '../mock/readData'
+import { ref, computed, nextTick, onBeforeUnmount, onMounted, watch } from 'vue' 
+import { articles, type SentenceData, type VocabItem } from '../mock/readData'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const article = computed(() => articles[route.params.id as string])
-import yumaoIcon from '../asserts/icon/yumao.svg'
 import editIcon from '../asserts/icon/edit.svg'
 import Heatmap from '../components/Heatmap.vue'
 
@@ -39,7 +38,40 @@ interface Segment {
   text: string        // 片段文字
   clause?: boolean    // 从句引导词 → 斜体加粗
   predicate?: boolean // 谓语 → 橘红色
+  structure?: boolean // 语法摘要命中片段 → 下划线
+  structureTone?: number // 语法摘要对应段落色
   noteText?: string   // 句子横批 → ruby 下方小字
+}
+
+interface SegmentGroup {
+  noteText?: string
+  startIndex: number
+  segments: Segment[]
+}
+
+interface GrammarSummaryNote {
+  title: string
+  body: string
+  key: string
+}
+
+interface GrammarSummaryGroup {
+  key: string
+  paragraphIndex: number
+  tone: number
+  notes: GrammarSummaryNote[]
+}
+
+interface GrammarSummaryBlockMetric {
+  top: number
+  height: number
+}
+
+interface VocabParagraphGroup {
+  key: string
+  paragraphIndex: number
+  tone: number
+  items: VocabItem[]
 }
 
 /**
@@ -54,12 +86,14 @@ function markWords(
   predicates: string[],
   clauseIntroducers: string[],
   notes: { title: string; body: string }[],
+  structureNotes: { title: string; body: string }[],
+  structureTone: number,
 ): Segment[] {
   // 无标注数据 → 整句作为一个 Segment
-  if (!predicates.length && !clauseIntroducers.length && !notes.length) return [{ text: sentence }]
+  if (!predicates.length && !clauseIntroducers.length && !notes.length && !structureNotes.length) return [{ text: sentence }]
 
   // Span：字符级标记区间，三色可叠加
-  interface Span { start: number; end: number; predicate: boolean; clause: boolean; noteText: string }
+  interface Span { start: number; end: number; predicate: boolean; clause: boolean; structure: boolean; noteText: string }
   const spans: Span[] = []
   const lower = sentence.toLowerCase()
 
@@ -71,7 +105,7 @@ function markWords(
     const regex = new RegExp(`(?<![a-zA-Z'-])${escaped}(?![a-zA-Z'-])`, 'gi')
     let m: RegExpExecArray | null
     while ((m = regex.exec(lower)) !== null)
-      spans.push({ start: m.index, end: m.index + pw.length, predicate: true, clause: false, noteText: '' })
+      spans.push({ start: m.index, end: m.index + pw.length, predicate: true, clause: false, structure: false, noteText: '' })
   }
 
   // 步骤 2：从句引导词 → 要求词边界（前后为空格或标点）
@@ -80,7 +114,7 @@ function markWords(
     while (idx !== -1) {
       const bo = idx === 0 || /\s|[—,'"(\[{]/.test(sentence[idx - 1])
       const ao = idx + ci.length === sentence.length || /\s|[—,.'"!?;:)\]}。，！？；：、]/.test(sentence[idx + ci.length])
-      if (bo && ao) spans.push({ start: idx, end: idx + ci.length, predicate: false, clause: true, noteText: '' })
+      if (bo && ao) spans.push({ start: idx, end: idx + ci.length, predicate: false, clause: true, structure: false, noteText: '' })
       idx = lower.indexOf(lc, idx + 1)
     }
   }
@@ -89,36 +123,46 @@ function markWords(
   for (const note of notes) {
     const ln = note.title.toLowerCase(); let idx = lower.indexOf(ln)
     while (idx !== -1) {
-      spans.push({ start: idx, end: idx + ln.length, predicate: false, clause: false, noteText: note.body })
+      spans.push({ start: idx, end: idx + ln.length, predicate: false, clause: false, structure: false, noteText: note.body })
+      idx = lower.indexOf(ln, idx + 1)
+    }
+  }
+
+  // 步骤 4：语法摘要标题 → 下划线；后续会优先于 ruby 横批显示
+  for (const note of structureNotes) {
+    const ln = note.title.toLowerCase(); let idx = lower.indexOf(ln)
+    while (idx !== -1) {
+      spans.push({ start: idx, end: idx + ln.length, predicate: false, clause: false, structure: true, noteText: '' })
       idx = lower.indexOf(ln, idx + 1)
     }
   }
   if (!spans.length) return [{ text: sentence }]
 
-  // 步骤 4：按字符位元标记 → 合并相邻同类 → 合并 noteText 相同的 Segment
+  // 按字符位元标记 → 合并相邻同类 → 合并 noteText 相同的 Segment
   spans.sort((a, b) => a.start - b.start)
 
   const len = sentence.length
-  const cP = new Array(len).fill(false); const cC = new Array(len).fill(false)
+  const cP = new Array(len).fill(false); const cC = new Array(len).fill(false); const cS = new Array(len).fill(false)
   const cN: (string | null)[] = new Array(len).fill(null)
   for (const s of spans) for (let i = s.start; i < s.end; i++) {
-    if (s.predicate) cP[i] = true; if (s.clause) cC[i] = true; if (s.noteText) cN[i] = s.noteText
+    if (s.predicate) cP[i] = true; if (s.clause) cC[i] = true; if (s.structure) cS[i] = true; if (s.noteText) cN[i] = s.noteText
   }
+  for (let i = 0; i < len; i++) if (cS[i]) cN[i] = null
 
   const segs: Segment[] = []; let i = 0
   while (i < len) {
-    const p = cP[i]; const c = cC[i]; const n = cN[i]; let j = i + 1
-    while (j < len && cP[j] === p && cC[j] === c && cN[j] === n) j++
+    const p = cP[i]; const c = cC[i]; const s = cS[i]; const n = cN[i]; let j = i + 1
+    while (j < len && cP[j] === p && cC[j] === c && cS[j] === s && cN[j] === n) j++
     const seg: Segment = { text: sentence.slice(i, j) }
-    if (p) seg.predicate = true; if (c) seg.clause = true; if (n) seg.noteText = n
+    if (p) seg.predicate = true; if (c) seg.clause = true; if (s) { seg.structure = true; seg.structureTone = structureTone } if (n) seg.noteText = n
     segs.push(seg); i = j
   }
 
-  // 步骤 5：相邻且 noteText 相同的 Segment 合并（避免重复显示多次笔记）
+  // 相邻且 noteText 相同的 Segment 合并（避免重复显示多次笔记）
   const merged: Segment[] = []
   for (const seg of segs) {
     const last = merged[merged.length - 1]
-    if (last && seg.noteText && seg.noteText === last.noteText) last.text += seg.text
+    if (last && seg.noteText && seg.noteText === last.noteText && seg.predicate === last.predicate && seg.clause === last.clause && seg.structure === last.structure) last.text += seg.text
     else merged.push({ ...seg })
   }
   return merged
@@ -126,18 +170,67 @@ function markWords(
 
 // 核心渲染数据：段落 → 句子 → { segments, key }
 // key 用于聚光灯 toggle（句首 40 字符 + 索引）
+const grammarSummaryGroups = computed<GrammarSummaryGroup[]>(() =>
+  article.value.original.paragraphs
+    .map((para: SentenceData[], pIdx: number) => ({
+      key: `grammar-${pIdx}`,
+      paragraphIndex: pIdx,
+      tone: 1,
+      notes: para.flatMap((sentence: SentenceData, sIdx: number) =>
+        (sentence.structureNotes ?? []).map((note, nIdx) => ({ ...note, key: `${pIdx}-${sIdx}-${nIdx}` }))
+      ),
+    }))
+    .filter((group: GrammarSummaryGroup) => group.notes.length > 0)
+    .map((group: GrammarSummaryGroup, index: number) => ({ ...group, tone: (index % 5) + 1 })),
+)
+
+const grammarSummaryToneByParagraph = computed(() => new Map(grammarSummaryGroups.value.map(group => [group.paragraphIndex, group.tone])))
+
 const originalSentences = computed(() =>
-  article.value.original.paragraphs.map((para) =>
-    para.map((sd, sIdx) => ({
-      segments: markWords(sd.text, sd.predicates, sd.clauseIntroducers, sd.rubyNotes ?? []),
+  article.value.original.paragraphs.map((para: SentenceData[], pIdx: number) =>
+    para.map((sd: SentenceData, sIdx: number) => ({
+      segments: markWords(sd.text, sd.predicates, sd.clauseIntroducers, sd.rubyNotes ?? [], sd.structureNotes ?? [], grammarSummaryToneByParagraph.value.get(pIdx) ?? 1),
       key: sd.text.slice(0, 40) + '-' + sIdx,
       panelNotes: sd.panelNotes ?? [],
     }))
   ),
 )
 
+const vocabParagraphGroups = computed<VocabParagraphGroup[]>(() => {
+  const paragraphTexts = article.value.original.paragraphs.map((para: SentenceData[]) => para.map((sentence: SentenceData) => sentence.text).join(' ').toLowerCase())
+  const groups: VocabParagraphGroup[] = paragraphTexts.map((_: string, pIdx: number) => ({
+    key: `vocab-${pIdx}`,
+    paragraphIndex: pIdx,
+    tone: grammarSummaryToneByParagraph.value.get(pIdx) ?? (pIdx % 5) + 1,
+    items: [],
+  }))
+  const fallbackIndex = Math.max(0, groups.length - 1)
+
+  for (const item of article.value.vocabulary) {
+    const paragraphIndex = paragraphTexts.findIndex((text: string) => {
+      const candidates = Array.from(new Set([item.word.trim(), item.word.replace(/\s*\([^)]*\)/g, '').trim()].filter(Boolean).map(candidate => candidate.toLowerCase())))
+      return candidates.some(candidate => {
+        const escaped = candidate.split(/\s+/).map((value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\s+')
+        return new RegExp(`(?<![a-zA-Z-])${escaped}(?![a-zA-Z-])`, 'i').test(text)
+      })
+    })
+    groups[paragraphIndex === -1 ? fallbackIndex : paragraphIndex].items.push(item)
+  }
+
+  return groups.filter(group => group.items.length > 0)
+})
+
+function isVocabGroupEnd(groupIndex: number, itemIndex: number) {
+  return groupIndex < vocabParagraphGroups.value.length - 1 && itemIndex === vocabParagraphGroups.value[groupIndex].items.length - 1
+}
+
 // 当前展开笔记面板的句子 key（空 = 全部收起）
 const activeKey = ref('')
+const activeSideTab = ref<'vocab' | 'grammar'>('grammar')
+const paragraphEls = ref<HTMLElement[]>([])
+const grammarSummaryBlockMetrics = ref<Record<number, GrammarSummaryBlockMetric>>({})
+const grammarSummaryContainerHeight = ref(0)
+let paragraphResizeObserver: ResizeObserver | null = null
 // 已切换为音节显示的词汇（单击词汇表单词切换）
 const vocabSyllableKeys = ref(new Set<string>())
 
@@ -151,11 +244,92 @@ function toggleVocabSyllable(word: string) {
   vocabSyllableKeys.value = new Set(vocabSyllableKeys.value)
 }
 
-// 返回 Segment 的 CSS class 字符串（clause-mark / predicate-mark 可叠加）
-function segClass(seg: Segment): string {
-  const c: string[] = []; if (seg.clause) c.push('clause-mark'); if (seg.predicate) c.push('predicate-mark')
+// 返回 Segment 的 CSS class 字符串（clause-mark / predicate-mark / structure-mark 可叠加）
+function segClass(seg: Segment, hideStructure = false): string {
+  const c: string[] = []; if (seg.clause) c.push('clause-mark'); if (seg.predicate) c.push('predicate-mark'); if (seg.structure && !hideStructure) c.push('structure-mark', grammarToneClass(seg.structureTone ?? 1))
   return c.join(' ')
 }
+
+function grammarToneClass(tone: number) { return `grammar-tone-${tone}` }
+
+function segmentGroups(segments: Segment[]): SegmentGroup[] {
+  const groups: SegmentGroup[] = []
+  for (const [index, seg] of segments.entries()) {
+    const last = groups[groups.length - 1]
+    if (seg.noteText && last?.noteText === seg.noteText) last.segments.push(seg)
+    else groups.push({ noteText: seg.noteText, startIndex: index, segments: [seg] })
+  }
+  return groups
+}
+
+function displaySegmentText(seg: Segment, segments: Segment[], index: number) {
+  let text = seg.text.replace(/([A-Za-z])\?/g, '$1\u2009?')
+  const previousText = segments[index - 1]?.text ?? ''
+  if (text.startsWith('?') && /[A-Za-z]$/.test(previousText)) text = `\u2009${text}`
+  return text
+}
+
+function setParagraphRef(el: unknown, index: number) {
+  if (el instanceof HTMLElement) paragraphEls.value[index] = el
+}
+
+function syncGrammarSummaryBlockHeights() {
+  const firstParagraphEl = paragraphEls.value[0] ?? paragraphEls.value.find(Boolean)
+  if (!firstParagraphEl) return
+
+  const baseTop = firstParagraphEl.getBoundingClientRect().top
+  const nextMetrics: Record<number, GrammarSummaryBlockMetric> = {}
+  let nextContainerHeight = 0
+
+  for (const group of grammarSummaryGroups.value) {
+    const el = paragraphEls.value[group.paragraphIndex]
+    if (!el) continue
+
+    const rect = el.getBoundingClientRect()
+    const top = Math.max(0, Math.round(rect.top - baseTop))
+    const height = Math.ceil(rect.height)
+    nextMetrics[group.paragraphIndex] = { top, height }
+    nextContainerHeight = Math.max(nextContainerHeight, top + height)
+  }
+
+  grammarSummaryBlockMetrics.value = nextMetrics
+  grammarSummaryContainerHeight.value = nextContainerHeight
+}
+
+function observeParagraphHeights() {
+  paragraphResizeObserver?.disconnect()
+  paragraphResizeObserver = new ResizeObserver(syncGrammarSummaryBlockHeights)
+  for (const group of grammarSummaryGroups.value) {
+    const el = paragraphEls.value[group.paragraphIndex]
+    if (el) paragraphResizeObserver.observe(el)
+  }
+  syncGrammarSummaryBlockHeights()
+}
+
+function grammarSummaryBlockStyle(paragraphIndex: number) {
+  const metric = grammarSummaryBlockMetrics.value[paragraphIndex]
+  return metric ? { top: `${metric.top}px`, maxHeight: `${metric.height}px` } : {}
+}
+
+function grammarSummaryStyle() {
+  return grammarSummaryContainerHeight.value ? { height: `${grammarSummaryContainerHeight.value}px` } : {}
+}
+
+onMounted(() => {
+  nextTick(observeParagraphHeights)
+  window.addEventListener('resize', syncGrammarSummaryBlockHeights)
+})
+
+onBeforeUnmount(() => {
+  paragraphResizeObserver?.disconnect()
+  window.removeEventListener('resize', syncGrammarSummaryBlockHeights)
+})
+
+watch([originalSentences, grammarSummaryGroups], () => nextTick(observeParagraphHeights), { flush: 'post' })
+watch(activeSideTab, tab => { if (tab === 'grammar') nextTick(syncGrammarSummaryBlockHeights) })
+watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const, ([, grammarCount]) => {
+  activeSideTab.value = grammarCount > 0 ? 'grammar' : 'vocab'
+}, { immediate: true })
 </script>
 
 <template>
@@ -195,19 +369,23 @@ function segClass(seg: Segment): string {
             </h1>
             <p v-if="currentMeta?.attribution" class="article-attribution">—— {{ currentMeta.attribution }}</p>
             <!-- 段落 → 句子渲染：span.sentence-inline（高亮 + 羽毛图标）+ transition 笔记面板 -->
-            <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" class="paragraph-wrapper">
+            <div v-for="(sentences, pIdx) in originalSentences" :key="pIdx" :ref="el => setParagraphRef(el, pIdx)" class="paragraph-wrapper">
               <div class="paragraph">
                 <template v-for="(s, sIdx) in sentences" :key="s.key">
                   <!-- 单句：非面板展开时用 ruby 显示句子横批，面板展开时收起笔记 -->
                   <span class="sentence-inline" :class="{ spotlight: activeKey === s.key }"
-                    ><template v-for="(seg, gIdx) in s.segments" :key="gIdx">
-                      <ruby v-if="seg.noteText && activeKey !== s.key" class="noted-ruby">
-                        <span :class="segClass(seg)">{{ seg.text }}</span><rt>{{ seg.noteText }}</rt>
+                    ><template v-for="(group, gIdx) in segmentGroups(s.segments)" :key="gIdx">
+                      <ruby v-if="group.noteText && activeKey !== s.key" class="noted-ruby">
+                        <span><template v-for="(seg, sgIdx) in group.segments" :key="sgIdx">
+                          <span v-if="segClass(seg, activeKey === s.key)" :class="segClass(seg, activeKey === s.key)">{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</span>
+                          <template v-else>{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</template>
+                        </template></span><rt>{{ group.noteText }}</rt>
                       </ruby>
-                      <span v-else-if="segClass(seg)" :class="segClass(seg)">{{ seg.text }}</span>
-                      <template v-else>{{ seg.text }}</template>
-                    </template><img v-if="s.panelNotes && s.panelNotes.length" :src="yumaoIcon" class="sentence-icon" @click.stop="togglePanel(s.key)"
-                  /></span>
+                      <template v-else v-for="(seg, sgIdx) in group.segments" :key="sgIdx">
+                        <span v-if="segClass(seg, activeKey === s.key)" :class="segClass(seg, activeKey === s.key)">{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</span>
+                        <template v-else>{{ displaySegmentText(seg, s.segments, group.startIndex + sgIdx) }}</template>
+                      </template>
+                    </template><button v-if="s.panelNotes && s.panelNotes.length" type="button" class="sentence-icon" @click.stop="togglePanel(s.key)">···</button></span>
                   <!-- 笔记面板：展开时显示 200px 浅绿底 -->
                   <transition name="panel">
                     <div v-if="activeKey === s.key" class="sentence-panel">
@@ -219,6 +397,7 @@ function segClass(seg: Segment): string {
                       </table>
                     </div>
                   </transition>
+                  {{ sIdx < sentences.length - 1 ? '\t' : '' }}
                 </template>
               </div>
             </div>
@@ -226,19 +405,35 @@ function segClass(seg: Segment): string {
           <div class="section-divider"></div>
           <!-- 右侧词汇侧栏：单击切换音节拆分，el-tooltip 显示音标 -->
           <div class="section-side">
-            <div class="vocab-title">课文单词</div>
-            <div class="vocab-list">
-              <div
-                v-for="item in article.vocabulary"
-                :key="item.word"
-                class="vocab-item"
-                @click="toggleVocabSyllable(item.word)"
-              >
-                <el-tooltip :content="item.phonetic" effect="light" placement="top" :show-after="300" popper-class="phonetic-tooltip"><span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span></el-tooltip>
-                <span class="vocab-pos">{{ item.pos }}</span>
-                <span class="vocab-meaning">{{ item.meaning }}</span>
-              </div>
-            </div>
+            <el-tabs v-model="activeSideTab" class="side-tabs">
+              <el-tab-pane label="语法摘要" name="grammar">
+                <div class="grammar-summary" :style="grammarSummaryStyle()">
+                  <div v-for="group in grammarSummaryGroups" :key="group.key" class="grammar-summary-block" :class="grammarToneClass(group.tone)" :style="grammarSummaryBlockStyle(group.paragraphIndex)">
+                    <div v-for="note in group.notes" :key="note.key" class="grammar-summary-item">
+                      <span class="grammar-summary-title">{{ note.title }}</span>
+                      <span class="grammar-summary-body">{{ note.body }}</span>
+                    </div>
+                  </div>
+                </div>
+              </el-tab-pane>
+              <el-tab-pane label="课文单词" name="vocab">
+                <div class="vocab-list">
+                  <template v-for="(group, groupIndex) in vocabParagraphGroups" :key="group.key">
+                    <div
+                      v-for="(item, itemIndex) in group.items"
+                      :key="item.word"
+                      class="vocab-item"
+                      :class="[grammarToneClass(group.tone), { 'vocab-item-group-end': isVocabGroupEnd(groupIndex, itemIndex) }]"
+                      @click="toggleVocabSyllable(item.word)"
+                    >
+                      <el-tooltip :content="item.phonetic" effect="light" placement="top" :show-after="300" popper-class="phonetic-tooltip"><span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span></el-tooltip>
+                      <span class="vocab-pos">{{ item.pos }}</span>
+                      <span class="vocab-meaning">{{ item.meaning }}</span>
+                    </div>
+                  </template>
+                </div>
+              </el-tab-pane>
+            </el-tabs>
           </div>
         </div>
       </div>
@@ -256,7 +451,7 @@ function segClass(seg: Segment): string {
             </div>
             <h2 class="section-title">参考译文</h2>
             <div v-for="(para, pIdx) in article.original.paragraphs" :key="'tp'+pIdx">
-              <p class="paragraph translation">{{ para.map(s => s.translation || '').filter(Boolean).join('') }}</p>
+              <p class="paragraph translation">{{ para.map((s: SentenceData) => s.translation || '').filter(Boolean).join('') }}</p>
             </div>
           </div>
           <div class="section-divider"></div>
@@ -281,6 +476,42 @@ function segClass(seg: Segment): string {
 .section-divider { width: 1px; background: var(--color-border); flex-shrink: 0; margin: 0 24px; }
 .section-side { flex: 3; min-width: 0; padding: 0 0 16px; }
 .vocab-title { font-size: 1rem; font-weight: 600; margin-bottom: 20px; padding-top: 76px; font-family: inherit; }
+.side-tabs { padding-top: 76px; }
+.side-tabs :deep(.el-tabs__header) { margin-bottom: 18px; }
+.side-tabs :deep(.el-tabs__nav-wrap::after) { display: none; }
+.side-tabs :deep(.el-tabs__item) {
+  height: 32px; line-height: 32px; padding: 0 10px;
+  color: var(--color-text-secondary); font-size: 1rem; font-weight: 550;
+  font-family: inherit;
+}
+.side-tabs :deep(.el-tabs__item:hover) { color: var(--color-text); }
+.side-tabs :deep(.el-tabs__item.is-active) { color: var(--color-text); }
+.side-tabs :deep(.el-tabs__active-bar) { height: 2px; background: #d49345; }
+.grammar-summary { position: relative; min-height: 160px; }
+.grammar-summary-block {
+  position: absolute; left: 0; right: 0;
+  padding: 0 0 0 10px;
+  border-left: 3px solid transparent;
+  box-sizing: border-box; overflow: auto;
+}
+.grammar-tone-1 { --grammar-mark-color: #d6c9b8; --grammar-underline-color: #ded4c8; --grammar-title-bg: #e5dfd5; }
+.grammar-tone-2 { --grammar-mark-color: #c7d7de; --grammar-underline-color: #d3e0e5; --grammar-title-bg: #dce5e9; }
+.grammar-tone-3 { --grammar-mark-color: #cbdcc4; --grammar-underline-color: #d5e4cf; --grammar-title-bg: #dfe8da; }
+.grammar-tone-4 { --grammar-mark-color: #dcc6d0; --grammar-underline-color: #e5d5dd; --grammar-title-bg: #e9dce2; }
+.grammar-tone-5 { --grammar-mark-color: #d0c7df; --grammar-underline-color: #d9d2e6; --grammar-title-bg: #e1dcea; }
+.grammar-summary-block { border-left-color: var(--grammar-mark-color); }
+.grammar-summary-item {
+  display: flex; flex-direction: column; gap: 4px; padding: 7px 0;
+  border-bottom: 1px solid rgba(55, 53, 47, 0.08);
+  &:last-child { border-bottom: none; }
+}
+.grammar-summary-title {
+  display: inline-block; width: fit-content; padding: 1px 6px;
+  font-size: 0.85rem; font-weight: 550; color: #37352f;
+  border-radius: 4px; background: var(--grammar-title-bg);
+  font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif;
+}
+.grammar-summary-body { font-size: 0.82rem; line-height: 1.65; color: var(--color-text-secondary); }
 .article-attribution { font-size: 0.85rem; color: #999; margin: 0 0 4px 140px; font-style: italic; }
 .article-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; font-family: 'Merriweather', Georgia, serif; display: flex; align-items: center; }
 .title-text-wrap { flex: 1; min-width: 0; }
@@ -351,6 +582,10 @@ function segClass(seg: Segment): string {
 // 语法标记：从句引导词（斜体加粗暗色）/ 谓语（橘红）
 .clause-mark { font-style: italic; font-weight: 600; color: #3d3d3d; }
 .predicate-mark { color: #e0552a; }
+.structure-mark {
+  text-decoration: underline; text-decoration-color: var(--grammar-underline-color);
+  text-decoration-thickness: 1.5px; text-underline-offset: 8px;
+}
 
 // 句子横批：使用 CSS ruby 在词下方显示灰色小字
 .noted-ruby {
@@ -361,10 +596,11 @@ function segClass(seg: Segment): string {
 .vocab-list { display: flex; flex-direction: column; }
 .vocab-item {
   display: flex; align-items: baseline; gap: 8px; padding: 6px 0;
-  border-bottom: 1px solid var(--color-border); cursor: pointer; user-select: none;
+  border-bottom: 1px solid rgba(55, 53, 47, 0.08); cursor: pointer; user-select: none;
 
   &:last-child { border-bottom: none; }
 }
+.vocab-item-group-end { border-bottom: 1px solid rgba(55, 53, 47, 0.08); }
 .vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }

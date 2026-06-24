@@ -4,6 +4,7 @@ export interface SentenceData {
   predicates: string[]
   clauseIntroducers: string[]
   rubyNotes?: { title: string; body: string }[]
+  structureNotes?: { title: string; body: string }[]
   panelNotes?: { title: string; body: string }[]
 }
 
