@@ -427,7 +427,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
                       :class="[grammarToneClass(group.tone), { 'vocab-item-group-end': isVocabGroupEnd(groupIndex, itemIndex) }]"
                       @click="toggleVocabSyllable(item.word)"
                     >
-                      <span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span><span v-if="item.phonetic" class="vocab-phonetic">{{ item.phonetic }}</span>
+                      <span class="vocab-word">{{ vocabSyllableKeys.has(item.word) && item.syllables ? item.syllables : item.word }}</span><span v-if="item.phonetic && item.phonetic !== '//'" class="vocab-phonetic">{{ item.phonetic }}</span>
                       <span class="vocab-pos">{{ item.pos }}</span>
                       <span class="vocab-meaning">{{ item.meaning }}</span>
                     </div>
@@ -510,7 +510,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   display: inline-block; width: fit-content; padding: 1px 6px;
   font-size: 0.85rem; font-weight: 550; color: #37352f;
   border-radius: 4px; background: var(--grammar-title-bg);
-  font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif;
+  font-family: 'MiSans Normal', sans-serif;
 }
 .grammar-summary-body { font-size: 0.82rem; line-height: 1.65; color: var(--color-text-secondary); }
 .article-attribution { font-size: 0.85rem; color: #999; margin: 0 0 4px 140px; font-style: italic; }
@@ -523,8 +523,8 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .title-tag { display: inline-block; vertical-align: middle; position: relative; top: -2px; width: 20px; height: 20px; line-height: 20px; text-align: center; font-size: 0.55rem; color: #fff; font-weight: 600; background: #f0a030; border-radius: 50%; margin: 0 4px; font-family: inherit; }
 .article-notes { margin-bottom: 24px; }
 .note-item { margin-bottom: 8px; font-size: 0.85rem; line-height: 1.7; }
-.note-index { font-size: 0.85rem; font-weight: 550; color: #aaa; margin-right: 6px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
-.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; margin-right: 8px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
+.note-index { font-size: 0.85rem; font-weight: 550; color: #aaa; margin-right: 6px; font-family: 'MiSans Normal', sans-serif; }
+.note-label { display: inline-block; padding: 2px 8px; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; margin-right: 8px; font-family: 'MiSans Normal', sans-serif; }
 /* 莫兰迪色系轮换 */
 .note-item:nth-child(5n+1) .note-label { background: #ede8e3; }
 .note-item:nth-child(5n+2) .note-label { background: #e3e8ed; }
@@ -566,7 +566,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .panel-note-td { padding: 4px 8px 4px 0; vertical-align: baseline; }
 .panel-note-td:first-child { width: 1%; white-space: nowrap; }
 .panel-note-item + .panel-note-item .panel-note-td { border-top: 1px solid #e2e8e0; }
-.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; font-family: 'MiSans Latin', 'LXGW WenKai', sans-serif; }
+.panel-note-snippet { display: inline-block; padding: 1px 6px; flex-shrink: 0; font-size: 0.85rem; font-weight: 550; color: #37352f; border-radius: 4px; font-family: 'MiSans Normal', sans-serif; }
 /* panelNotes 莫兰迪色轮换 */
 .panel-note-item:nth-child(5n+1) .panel-note-snippet { background: #ede8e3; }
 .panel-note-item:nth-child(5n+2) .panel-note-snippet { background: #e3e8ed; }
@@ -597,8 +597,8 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   &:last-child { border-bottom: none; }
 }
 .vocab-item-group-end { border-bottom: 1px solid rgba(55, 53, 47, 0.08); }
-.vocab-phonetic { font-size: 0.72rem; color: #999; font-family: 'Cascadia Code', 'JetBrains Mono', 'Menlo', 'Consolas', monospace; flex-shrink: 0; }
-.vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
+.vocab-phonetic { font-size: 0.72rem; color: #999; font-family: 'Noto Sans', sans-serif; flex-shrink: 0; }
+.vocab-word { font-weight: 400; font-size: 0.9rem; color: var(--color-text); font-family: 'MiSans Normal', sans-serif; }
 .vocab-pos { font-size: 0.75rem; color: #aaa; flex-shrink: 0; font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 .vocab-meaning { font-size: 0.82rem; color: var(--color-text-secondary); font-family: 'MiSans Latin', 'LXGW WenKai', 'PingFang SC', serif; }
 

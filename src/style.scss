@@ -17,6 +17,12 @@
 }
 
 @font-face {
+  font-family: 'MiSans Normal';
+  src: url('/fonts/misans-normal.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'MiSans Latin Regular';
   src: url('/fonts/misans-latin-regular.woff2') format('woff2');
   font-display: swap;
