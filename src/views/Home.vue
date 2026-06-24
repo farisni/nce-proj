@@ -21,6 +21,13 @@ const filteredArticles = computed(() => {
 function goArticle(id: string) {
   router.push({ name: 'article', params: { id } })
 }
+
+const tudingAngles = [-15, -8, 0, 8, 15]
+function tudingRotation(id: string) {
+  let hash = 0
+  for (let i = 0; i < id.length; i++) hash = (hash * 31 + id.charCodeAt(i)) | 0
+  return tudingAngles[Math.abs(hash) % tudingAngles.length]
+}
 </script>
 
 <template>
@@ -30,7 +37,7 @@ function goArticle(id: string) {
       v-for="item in filteredArticles" :key="item.id"
       class="article-card" @click="goArticle(item.id)"
     >
-      <img :src="tudingIcon" class="tuding-icon" alt="" />
+      <img :src="tudingIcon" class="tuding-icon" :style="{ transform: `rotate(${tudingRotation(item.id)}deg)` }" alt="" />
       <h3 class="card-title">
         <span class="lesson-line">
           <span v-if="item.keyArticle" class="key-dot"></span>Lesson {{ item.lesson
