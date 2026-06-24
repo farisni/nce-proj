@@ -539,8 +539,8 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
 .sentence-inline {
   .sentence-icon-button {
     display: inline-flex; align-items: center; justify-content: center;
-    width: 20px; height: 20px; margin-left: 6px; margin-right: 4px;
-    border: none; border-radius: 999px; background: transparent;
+    width: 28px; height: 28px; margin-left: 6px; margin-right: 4px;
+    border: none; vertical-align: middle; border-radius: 3px; background: transparent;
     cursor: pointer; transition: background-color 0.2s ease, opacity 0.2s ease;
     &:hover {
       background: rgba(55, 53, 47, 0.06);
@@ -551,7 +551,7 @@ watch(() => [currentMeta.value?.id, grammarSummaryGroups.value.length] as const,
   }
 
   .sentence-icon {
-    width: 16px; height: 16px; opacity: 0.6; transition: opacity 0.2s;
+    width: 20px; height: 20px; opacity: 0.6; transition: opacity 0.2s;
     &:hover { opacity: 0.85; }
     .spotlight & { opacity: 0.9; }
   }
